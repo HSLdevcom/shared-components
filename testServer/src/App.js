@@ -1,20 +1,17 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Button, AppHeader} from '../../lib/';
 
 class App extends Component {
+  clicked() {
+    console.log('clicked');
+  }
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
-          <h2>Welcome to Shared components</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
+      <div>
+        <h1>AppHeader</h1>
+        <AppHeader/>
+        <h1>Button</h1>
+        <Button onClick={this.clicked}>Kirjaudu sisään</Button>
       </div>
     );
   }
