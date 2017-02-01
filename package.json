@@ -2,15 +2,25 @@
   "name": "sharedcomponents",
   "version": "0.0.1",
   "description": "Shared components to be used in HSL projects. React and styled components.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build:babel": "babel src/ --out-dir lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/hsb20/sharedcomponents.git"
   },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/hsb20/sharedcomponents#readme"
+  "homepage": "https://bitbucket.org/hsb20/sharedcomponents#readme",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0"
+  }
 }
