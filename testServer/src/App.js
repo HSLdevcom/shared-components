@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
-import {Button, AppHeader} from '../../lib/';
+import {ThemeProvider} from 'styled-components';
+import ComponentList from './ComponentList';
+
+const hslTheme = {
+  primary: 'blue',
+  secondary: 'white'
+};
 
 class App extends Component {
-  clicked() {
-    console.log('clicked');
-  }
   render() {
     return (
-      <div>
-        <h1>AppHeader</h1>
-        <AppHeader/>
-        <h1>Button</h1>
-        <Button inverted={false} onClick={this.clicked}>sample text</Button>
-      </div>
+      <ThemeProvider theme={hslTheme}>
+        <ComponentList/>
+      </ThemeProvider>
     );
   }
 }
-
 export default App;
