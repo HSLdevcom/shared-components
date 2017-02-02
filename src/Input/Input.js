@@ -7,7 +7,7 @@ padding: 0.5em;
 margin: 0.5em;
 color: #222222;
 background: #FFFFFF;
-border: 2px solid #dbdbdb;
+border: 1px solid #dbdbdb;
 border-radius: 5px;
 `;
 
