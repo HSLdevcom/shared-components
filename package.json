@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "preinstall": "git config core.hooksPath hooks/",
-    "build:babel": "babel src/ --out-dir lib/",
+    "build:babel": "babel src/ --out-dir lib/ --watch",
+    "start": "cd testServer/ && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
