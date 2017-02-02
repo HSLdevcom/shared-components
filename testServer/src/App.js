@@ -11,7 +11,7 @@ class App extends Component {
         <h1>AppHeader</h1>
         <AppHeader/>
         <h1>Button</h1>
-        <Button onClick={this.clicked}>Kirjaudu sisään</Button>
+        <Button inverted={false} onClick={this.clicked}>sample text</Button>
       </div>
     );
   }
