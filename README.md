@@ -2,27 +2,23 @@
 
 Shared components to be used in HSL projects. React and styled components.
 
-### How do I use it? ###
-
-* Summary of set up
+### Summary of set up ###
 
 All the needed setup is command `yarn install`
 
-* Running server
+### Running server ###
 
 Running the test server to see components with command `yarn start`
 This command runs both babel and server with watch so that all updates happen live while developing.
 
-* Usage in application
+### Usage in application ###
 
 Add this repository as a dependency to your project in package.json and give it a name like 'sharedcomponents'.
 
 In the desired react class use named imports to get the components needed:
 `import {Button} from 'sharedcomponents';`
 
-### Contribution guidelines ###
-
-* Writing a components
+### Writing components ###
 
 Make a folderstructure like src/ComponentX/ComponentX.js. (if it needs many files make the ComponentX.js the main one)
 
@@ -32,6 +28,6 @@ When finishing the component add it as an import and a named export to the src/i
 
 For testing the component inside this repository import the new component with its name in testServer/src/ComponentList.js to see it visually inside the testServer (defaults to localhost:3000).
 
-* Deployment instructions
+### Deployment instructions ###
 
 When pushing to the repository make sure to include the lib/**/*.js files so that the compiled ES5 versions of the components are always up to date on the repo.
