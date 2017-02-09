@@ -9,14 +9,14 @@ const moveX = keyframes `
   100% {
     transform: translateX(100%);
   }
-`
+`;
 
 const Drawer = styled.div `
 position: absolute;
 height: 100%;
 width: 10em;
 transition: ${moveX} 0.3s ease-in-ease-out 0;
-`
+`;
 
 const StyledList = styled.ul `
   display: flex;
