@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import styled from 'styled-components';
 
 const StyledNavItem = styled.span `
@@ -6,7 +6,7 @@ const StyledNavItem = styled.span `
   font-size: 1em;
   color: white;
   padding: 0.3em;
-`
+`;
 
 export default function NavItem(props) {
   console.log(props);
@@ -14,5 +14,8 @@ export default function NavItem(props) {
     <StyledNavItem>
       {props.name}
     </StyledNavItem>
-  )
+  );
 }
+NavItem.propTypes = {
+  name: PropTypes.string
+};

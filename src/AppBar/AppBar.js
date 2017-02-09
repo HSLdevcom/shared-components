@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import styled from 'styled-components';
 import MainMenu from '../MainMenu/MainMenu';
 
-const StyledNav = styled.nav`
+const StyledNav = styled.nav `
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +22,7 @@ function AppBar(props) {
   return (
     <StyledNav>
       <section className="title">
-        {(props.showLogo && !config.textLogo)
+        {(props.showLogo)
           ? <div className="logo"/>
           : <span className="title">{props.title}</span>}
       </section>
@@ -30,4 +30,8 @@ function AppBar(props) {
     </StyledNav>
   );
 }
+AppBar.propTypes = {
+  showLogo: PropTypes.bool,
+  title: PropTypes.string
+};
 export default AppBar;
