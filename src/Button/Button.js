@@ -10,7 +10,10 @@ const Button = styled.button `
   font-size: ${props => props.fontSize ? props.fontSize: '1rem'};
   border-radius:30px;
   border-color: ${props => props.theme.primary};
+  border-style: solid;
   min-width: 200px;
 `;
+
+export default Button;
 
 export default Button;
