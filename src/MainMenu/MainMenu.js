@@ -1,8 +1,8 @@
 import React from 'react';
-import NavItem from '../NavItem/NavItem';
-import styled, { keyframes } from 'styled-components';
+import NavItem from './NavItem/NavItem';
+import styled, {keyframes} from 'styled-components';
 
-const moveX = keyframes`
+const moveX = keyframes `
   0% {
     transform: translateX(0%);
   }
@@ -11,14 +11,14 @@ const moveX = keyframes`
   }
 `
 
-const Drawer = styled.div`
+const Drawer = styled.div `
 position: absolute;
 height: 100%;
 width: 10em;
 transition: ${moveX} 0.3s ease-in-ease-out 0;
 `
 
-const StyledList = styled.ul`
+const StyledList = styled.ul `
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -45,15 +45,13 @@ class MainMenu extends React.Component {
     const {onItemClick, items} = this.props;
     return (
       <div>
-        <div onClick={this.handleToggle}>
-
-        </div>
+        <div onClick={this.handleToggle}></div>
         <div>
           <StyledList>
             {items.map(item => {
               return (
                 <li key={item.name}>
-                  <NavItem name={item.name} onClick={onItemClick} />
+                  <NavItem name={item.name} onClick={onItemClick}/>
                 </li>
               )
             })}

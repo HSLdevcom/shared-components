@@ -1,12 +1,10 @@
-
+const primaryBlue = '#00AFFF';
 const hslTheme = {
-  primary: 'blue',
+  primary: primaryBlue,
   secondary: 'white',
-  background: '#00AFFF',
+  background: primaryBlue,
   logo: './static/reittiopas-logo.svg',
   md: '900px'
 }
 
-export {
-  hslTheme
-}
+export {hslTheme}
