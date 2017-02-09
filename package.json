@@ -8,7 +8,7 @@
     "build:babel": "babel src/ --out-dir lib/ --watch",
     "start": "concurrently --kill-others \"npm run build:babel\"  \"cd testServer/ && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "echo \"Running lint...\""
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "repository": {
     "type": "git",
