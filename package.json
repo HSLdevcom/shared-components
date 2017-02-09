@@ -7,7 +7,8 @@
     "preinstall": "git config core.hooksPath hooks/",
     "build:babel": "babel src/ --out-dir lib/ --watch",
     "start": "concurrently --kill-others \"npm run build:babel\"  \"cd testServer/ && npm start\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Running lint...\""
   },
   "repository": {
     "type": "git",
