@@ -1,24 +1,9 @@
-import React, {PropTypes} from 'react';
-import NavItem from './NavItem/NavItem';
+import React, { PropTypes } from 'react';
 import styled from 'styled-components';
-/*
-const moveX = keyframes `
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-`;
+import NavItem from './NavItem/NavItem';
 
-const Drawer = styled.div `
-position: absolute;
-height: 100%;
-width: 10em;
-transition: ${moveX} 0.3s ease-in-ease-out 0;
-`;*/
 
-const StyledList = styled.ul `
+const StyledList = styled.ul`
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -32,29 +17,30 @@ class MainMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: false
+      open: false,
     };
   }
 
   handleToggle() {
     this.setState({
-      open: !this.state.open
+      open: !this.state.open,
     });
   }
   render() {
-    const {onItemClick, items} = this.props;
+    const { onItemClick, items } = this.props;
     return (
       <div>
-        <div onClick={this.handleToggle}/>
+
         <div>
           <StyledList>
-            {items.map(item => {
-              return (
+            {items.map(item =>
+              (
                 <li key={item.name}>
-                  <NavItem name={item.name} onClick={onItemClick}/>
+                  <NavItem name={item.name} onClick={onItemClick} />
                 </li>
-              );
-            })}
+              )
+            )
+            }
           </StyledList>
         </div>
       </div>
@@ -62,7 +48,7 @@ class MainMenu extends React.Component {
   }
 }
 MainMenu.propTypes = {
-  onItemClick: PropTypes.func,
-  items: PropTypes.array
+  onItemClick: PropTypes.func.isRequired,
+  items: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 export default MainMenu;
