@@ -1,4 +1,6 @@
 #!/bin/sh
 
 echo "Pre-commit"
-npm run lint -s
+npm run lint:tight -s
+npm run build:babel
+git add lib/
