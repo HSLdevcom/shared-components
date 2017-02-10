@@ -5,7 +5,7 @@ const hslTheme = {
   secondary: 'white',
   background: primaryBlue,
   logo: './static/reittiopas-logo.svg',
-  md: '900px'
+  md: '900px',
 };
 
-export {hslTheme};
+export default { hslTheme };
