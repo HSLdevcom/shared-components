@@ -37,7 +37,7 @@ class ComponentList extends Component {
         <Button>Secondary</Button>
         <Separator/>
         <h1>Input</h1>
-        <Input type="text" placeholder="placeholder"></Input>
+        <Input type="text" placeholder="placeholder"/>
         <Separator/>
         <h1>AppBar</h1>
         <AppBar title="Title text" items={linkItems} onItemClick={this.itemClick}/>
