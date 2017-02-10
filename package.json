@@ -6,9 +6,9 @@
   "scripts": {
     "preinstall": "git config core.hooksPath hooks/",
     "build:babel": "babel src/ --out-dir lib/ --watch",
-    "start": "concurrently --kill-others \"npm run build:babel\"  \"cd testServer/ && npm start\"",
+    "start": "concurrently --kill-others \"npm run build:babel\"  \"cd testServer/ && npm start\" \"npm run lint:watch\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint src/"
+    "lint:watch": "esw src/ testServer/src -w --color"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-watch": "^2.1.14"
   }
 }
