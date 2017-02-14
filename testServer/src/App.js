@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 
 import { } from './styles.css';
 import ComponentList from './ComponentList';
-import { hslTheme } from './theme.hsl';
+import hslTheme from './theme.hsl';
 
 export default function() {
   return (

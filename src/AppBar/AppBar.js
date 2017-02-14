@@ -21,16 +21,13 @@ function AppBar(props) {
   return (
     <StyledNav>
       <section className="title">
-        {(props.showLogo)
-          ? <div className="logo" />
-          : <span className="title">{props.title}</span>}
+        <span className="title">{props.title}</span>
       </section>
       <MainMenu {...props} />
     </StyledNav >
   );
 }
 AppBar.propTypes = {
-  showLogo: PropTypes.bool.isRequired,
   title: PropTypes.string.isRequired,
 };
 export default AppBar;

@@ -49,6 +49,6 @@ class MainMenu extends React.Component {
 }
 MainMenu.propTypes = {
   onItemClick: PropTypes.func.isRequired,
-  items: PropTypes.arrayOf(PropTypes.string).isRequired,
+  items: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 export default MainMenu;

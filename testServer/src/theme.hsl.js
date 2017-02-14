@@ -8,4 +8,4 @@ const hslTheme = {
   md: '900px',
 };
 
-export default { hslTheme };
+export default hslTheme;

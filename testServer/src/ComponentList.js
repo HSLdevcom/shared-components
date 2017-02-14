@@ -8,13 +8,15 @@ const Wrapper = styled.div`
 `;
 
 class ComponentList extends Component {
-  static itemClick(navItem) {
-    console.log(navItem);
-  }
   constructor(props) {
     super(props);
     this.itemClick = this.itemClick.bind(this);
   }
+  /*eslint-disable*/
+  itemClick(navItem) {
+    console.log(navItem);
+  }
+  /*eslint-enable*/
   render() {
     const linkItems = [
       {
