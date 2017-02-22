@@ -72,7 +72,6 @@ const StyledNavSmall = styled.div`
       right: 0;
       width: 200px;
       background: #333;
-      color: #fff;
       transform: translate(100%, 0);
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
       ul {
@@ -85,6 +84,7 @@ const StyledNavSmall = styled.div`
         margin: 0;
         padding-left: 15px;
         border-bottom: 1px solid #222;
+        color: #fff;
         li {
           display: inline;
           cursor: pointer;
@@ -103,6 +103,8 @@ const StyledNavSmall = styled.div`
         padding: 5px;
         margin: 10px 15px;
         border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
         &:hover {
           background-color: #222;
         }
