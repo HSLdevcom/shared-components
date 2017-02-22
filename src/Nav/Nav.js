@@ -15,10 +15,16 @@ const StyledNav = styled.nav`
   }
 `;
 
-const Nav = ({ children, logo, title }) =>
+const Title = styled.span`
+  color: #fff;
+  font-size: 28px;
+`;
+
+const Nav = ({ children, logo, title, languages }) =>
   <StyledNav>
     <img src={logo} alt={title} />
-    <NavSmall>
+    <Title>{title}</Title>
+    <NavSmall languages={languages}>
       {children}
     </NavSmall>
     <NavLarge>
@@ -29,7 +35,11 @@ const Nav = ({ children, logo, title }) =>
 Nav.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
-  logo: PropTypes.string.isRequired
+  logo: PropTypes.string.isRequired,
+  languages: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    name: PropTypes.string
+  })).isRequired
 };
 
 export default Nav;

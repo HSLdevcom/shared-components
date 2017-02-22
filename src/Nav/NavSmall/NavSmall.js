@@ -70,15 +70,42 @@ const StyledNavSmall = styled.div`
       position: absolute;
       top: 0;
       right: 0;
-      width: 300px;
-      padding-top: ${props => props.theme.navbarHeight};
+      width: 200px;
       background: #333;
+      color: #fff;
       transform: translate(100%, 0);
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: ${props => props.theme.navbarHeight};
+        list-style-type: none;
+        margin: 0;
+        padding-left: 15px;
+        border-bottom: 1px solid #222;
+        li {
+          display: inline;
+          cursor: pointer;
+          padding: 5px;
+          margin-right: 5px;
+          border-radius: 5px;
+          &:hover {
+            background-color: #222;
+          }
+        }
+      }
       a {
         display: block;
-        margin: 25px 10px;
-        color: #fff;
+        cursor: pointer;
+        text-align: right;
+        padding: 5px;
+        margin: 10px 15px;
+        border-radius: 5px;
+        &:hover {
+          background-color: #222;
+        }
       }
     }
     input:checked ~ .mobile-drawer {
@@ -87,19 +114,28 @@ const StyledNavSmall = styled.div`
 
 `;
 
-const NavSmall = ({ children }) =>
+const NavSmall = ({ children, languages }) =>
   <StyledNavSmall>
     <input type="checkbox" />
     <span />
     <span />
     <span />
     <div className="mobile-drawer">
+      <ul>
+        {languages.map(lang =>
+          <li key={lang.id}>{lang.name}</li>
+        )}
+      </ul>
       {children}
     </div>
   </StyledNavSmall>;
 
 NavSmall.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  languages: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    name: PropTypes.string
+  })).isRequired
 };
 
 export default NavSmall;

@@ -7,17 +7,7 @@ import { Button, AppHeader, Input, Separator, Nav } from '../../lib/';
 const Wrapper = styled.div`
 `;
 
-const languages = [{
-  displayName: 'fi',
-  icon: 'asdf'
-}, {
-  displayName: 'sv',
-  icon: 'fdsa'
-}, {
-  displayName: 'en',
-  icon: 'reqw'
-}
-];
+const languages = [{id: 'fi', name: 'FI'}, {id: 'sv', name: 'SV'}, {id: 'en', name: 'EN'}];
 
 class ComponentList extends Component {
 
@@ -52,7 +42,9 @@ class ComponentList extends Component {
         <h1>Nav</h1>
         <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} title={'HSL'} languages={languages}>
           <Link to="/">Koti</Link>
-          <Link to="/test">Test</Link>
+          <Link to="/test">Minun kortit</Link>
+          <Link to="/test">Asetukset</Link>
+          <Link to="/test">Kirjaudu ulos</Link>
         </Nav>
         <Separator />
         <h1>AppHeader</h1>
