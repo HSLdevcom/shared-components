@@ -8,7 +8,7 @@ const StyledNav = styled.nav`
   align-items: center;
   justify-content: space-between;
   background: ${props => props.theme.background};
-  height: 60px;
+  height: ${props => props.theme.navbarHeight};
   img {
     height: 40px;
     margin-left: 5px;

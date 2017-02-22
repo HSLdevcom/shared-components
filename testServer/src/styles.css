@@ -1,5 +1,13 @@
 @import url(https://cloud.typography.com/6364294/6653152/css/fonts.css);
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B", Arial, Georgia, Serif;
   margin: 0;
+  overflow-x: hidden;
 }

@@ -31,23 +31,54 @@ const StyledNavSmall = styled.div`
       height: 4px;
       margin-bottom: 5px;
       margin-right: 5px;
-      background: white;
+      background: #fff;
       border-radius: 3px;
       z-index: 5;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
     }
     span:nth-child(4) {
       margin-bottom: 0;
     }
+
+    span:first-child {
+      transform-origin: 0% 0%;
+    }
+
+    span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+
+    input:checked ~ span {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+    input:checked ~ span:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    input:checked ~ span:nth-last-child(2) {
+      opacity: 1;
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+
     .mobile-drawer {
       position: absolute;
-      top: 100%;
+      top: 0;
       right: 0;
       width: 300px;
-      background: #ededed;
+      padding-top: ${props => props.theme.navbarHeight};
+      background: #333;
       transform: translate(100%, 0);
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
       a {
+        display: block;
         margin: 25px 10px;
+        color: #fff;
       }
     }
     input:checked ~ .mobile-drawer {
