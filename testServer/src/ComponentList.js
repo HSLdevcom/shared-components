@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import styled from 'styled-components';
-import { Button, AppHeader, Input, Separator, AppBarSmall, AppBarLarge } from '../../lib/';
+import { Button, AppHeader, Input, Separator, Nav } from '../../lib/';
 
 
 const Wrapper = styled.div`
@@ -48,6 +49,12 @@ class ComponentList extends Component {
 
     return (
       <Wrapper>
+        <h1>Nav</h1>
+        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} title={'HSL'} languages={languages}>
+          <Link to="/">Koti</Link>
+          <Link to="/test">Test</Link>
+        </Nav>
+        <Separator />
         <h1>AppHeader</h1>
         <AppHeader />
         <Separator />
@@ -58,10 +65,9 @@ class ComponentList extends Component {
         <h1>Input</h1>
         <Input type="text" placeholder="placeholder" />
         <Separator />
-        <h1>AppBar</h1>
 
-        <AppBarSmall logoUrl={'couscous'} title={'HSL'} navItems={linkItems} languages={languages}>
-          {/* <Logo/>*/}
+        {/* <AppBarSmall logoUrl={'couscous'} title={'HSL'} navItems={linkItems} languages={languages}>
+          <Logo/>
 
         </AppBarSmall>
         <AppBarLarge>
@@ -71,8 +77,7 @@ class ComponentList extends Component {
           <h1>
             Large h1
             </h1>
-        </AppBarLarge>
-
+        </AppBarLarge>*/}
 
       </Wrapper>
     );
