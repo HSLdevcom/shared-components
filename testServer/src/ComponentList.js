@@ -1,36 +1,48 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Button, AppHeader, Input, AppBar, Separator } from '../../lib/';
+import { Button, AppHeader, Input, Separator, AppBarSmall, AppBarLarge, NavItems } from '../../lib/';
 
 
 const Wrapper = styled.div`
-  padding: 20px;
 `;
 
+const languages = [{
+  displayName: 'fi',
+  icon: 'asdf'
+}, {
+  displayName: 'sv',
+  icon: 'fdsa'
+}, {
+  displayName: 'en',
+  icon: 'reqw'
+}
+];
+
 class ComponentList extends Component {
-  constructor(props) {
-    super(props);
-    this.itemClick = this.itemClick.bind(this);
-  }
-  /*eslint-disable*/
-  itemClick(navItem) {
+
+  static itemClick(navItem) {
     console.log(navItem);
   }
-  /*eslint-enable*/
+  static langClick(lang) {
+    console.log('Changing language to:', lang.displayName);
+  }
   render() {
     const linkItems = [
       {
         name: 'etusivu',
         nameEn: 'front page',
-        href: '/frontpage',
+        route: '/frontpage',
+        icon: 'linktoIcon'
       }, {
         name: 'sivu2',
         nameEn: 'page 2',
-        href: '/page2',
+        route: '/page2',
+        icon: 'linktoIcon2'
       }, {
         name: 'sivu3',
         nameEn: 'page 3',
-        href: '/page3',
+        route: '/page3',
+        icon: 'linktoIcon3'
       },
     ];
 
@@ -47,7 +59,21 @@ class ComponentList extends Component {
         <Input type="text" placeholder="placeholder" />
         <Separator />
         <h1>AppBar</h1>
-        <AppBar title="Title text" items={linkItems} onItemClick={this.itemClick} />
+
+        <AppBarSmall logoUrl={'couscous'} title={'HSL'} navItems={linkItems} languages={languages}>
+          {/* <Logo/>*/}
+
+        </AppBarSmall>
+        <AppBarLarge>
+          <div>
+            Large stuff
+            </div>
+          <h1>
+            Large h1
+            </h1>
+        </AppBarLarge>
+
+
       </Wrapper>
     );
   }

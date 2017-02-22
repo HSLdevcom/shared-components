@@ -1,4 +1,4 @@
-const primaryBlue = '#00AFFF';
+const primaryBlue = '#007ac9';
 
 const hslTheme = {
   primary: primaryBlue,
