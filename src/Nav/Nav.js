@@ -6,12 +6,12 @@ import NavSmall from './NavSmall/NavSmall';
 const StyledNav = styled.nav`
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: ${props => props.theme.background};
   height: 60px;
   img {
     height: 40px;
     margin-left: 5px;
-    display: flex;
   }
 `;
 
