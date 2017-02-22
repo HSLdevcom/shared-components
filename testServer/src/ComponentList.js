@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Button, AppHeader, Input, Separator, AppBarSmall, AppBarLarge, NavItems } from '../../lib/';
+import { Button, AppHeader, Input, Separator, AppBarSmall, AppBarLarge } from '../../lib/';
 
 
 const Wrapper = styled.div`
