@@ -10,20 +10,14 @@ const StyledNav = styled.nav`
   background: ${props => props.theme.background};
   height: ${props => props.theme.navbarHeight};
   img {
-    height: 40px;
+    height: ${props => props.theme.logoHeight};
     margin-left: 5px;
   }
-`;
-
-const Title = styled.span`
-  color: #fff;
-  font-size: 28px;
 `;
 
 const Nav = ({ children, logo, title, languages }) =>
   <StyledNav>
     <img src={logo} alt={title} />
-    <Title>{title}</Title>
     <NavSmall languages={languages}>
       {children}
     </NavSmall>

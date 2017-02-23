@@ -27,14 +27,14 @@ const StyledNavSmall = styled.div`
     }
 
     span {
-      width: 33px;
-      height: 4px;
-      margin-bottom: 5px;
-      margin-right: 5px;
+      width: 25px;
+      height: 2px;
+      margin-bottom: 4px;
+      margin-right: 15px;
       background: #fff;
       border-radius: 3px;
       z-index: 5;
-      transform-origin: 4px 0px;
+      transform-origin: 4px 1px;
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                   background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
@@ -43,17 +43,11 @@ const StyledNavSmall = styled.div`
       margin-bottom: 0;
     }
 
-    span:first-child {
-      transform-origin: 0% 0%;
-    }
 
-    span:nth-last-child(2) {
-      transform-origin: 0% 100%;
-    }
 
     input:checked ~ span {
       opacity: 1;
-      transform: rotate(45deg) translate(-2px, -1px);
+      transform: rotate(45deg) translate(0px, 0px);
     }
 
     input:checked ~ span:nth-last-child(3) {
@@ -63,7 +57,7 @@ const StyledNavSmall = styled.div`
 
     input:checked ~ span:nth-last-child(2) {
       opacity: 1;
-      transform: rotate(-45deg) translate(0, -1px);
+      transform: rotate(-45deg) translate(0px, 0px);
     }
 
     .mobile-drawer {
@@ -101,7 +95,7 @@ const StyledNavSmall = styled.div`
         cursor: pointer;
         text-align: right;
         padding: 5px;
-        margin: 10px 15px;
+        margin: 30px 15px;
         border-radius: 5px;
         color: #fff;
         text-decoration: none;
