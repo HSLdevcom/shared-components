@@ -94,8 +94,7 @@ const StyledNavSmall = styled.div`
         display: block;
         cursor: pointer;
         text-align: right;
-        padding: 5px;
-        margin: 30px 15px;
+        padding: 30px 15px;
         border-radius: 5px;
         color: #fff;
         text-decoration: none;

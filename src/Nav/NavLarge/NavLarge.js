@@ -9,10 +9,17 @@ const StyledNavLarge = styled.div`
     justify-content: flex-end;
   }
   a {
-    display: flex;
-    font-size: 25px;
-    margin: 0 15px;
+    display: block;
     cursor: pointer;
+    text-align: right;
+    padding: 5px;
+    margin: 30px 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      background-color: #222;
+    }
   }
 `;
 
