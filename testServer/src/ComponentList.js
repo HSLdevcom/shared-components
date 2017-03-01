@@ -50,8 +50,10 @@ class ComponentList extends Component {
         <h1>AppHeader</h1>
         <AppHeader />
         <Separator />
-        <h1>Button</h1>
+        <h1>Button primary</h1>
         <Button primary>Primary</Button>
+        <Separator />
+        <h1>Button</h1>
         <Button>Secondary</Button>
         <Separator />
         <h1>Input</h1>

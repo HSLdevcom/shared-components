@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 
 const Button = styled.button`
-  background-color: ${props => (props.primary ? props.theme.primary : props.theme.secondary)};
-  height: 2.5rem;
-  padding: 0px 20px;
-  color: ${props => (props.primary ? props.theme.secondary : props.theme.primary)};
-  font-size: ${props => (props.fontSize ? props.fontSize : '1rem')};
-  border-radius:30px;
+  height: 40pt;
+  border-radius: 20pt;
   border-color: ${props => props.theme.primary};
   border-style: solid;
-  min-width: 200px;
+  background-color: ${props => (props.primary ? props.theme.primary : props.theme.secondary)};
+  color: ${props => (props.primary ? props.theme.secondary : props.theme.primary)};
+  font-size: 15pt;
+  letter-spacing: -0.4pt;
+  width: 90%;
+  display: block;
+  margin: auto;
+  font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B", Arial, Georgia, Serif;
 `;
 
 export default Button;
