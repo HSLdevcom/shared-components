@@ -56,21 +56,6 @@ class ComponentList extends Component {
         <Separator />
         <h1>Input</h1>
         <Input type="text" placeholder="placeholder" />
-        <Separator />
-
-        {/* <AppBarSmall logoUrl={'couscous'} title={'HSL'} navItems={linkItems} languages={languages}>
-          <Logo/>
-
-        </AppBarSmall>
-        <AppBarLarge>
-          <div>
-            Large stuff
-            </div>
-          <h1>
-            Large h1
-            </h1>
-        </AppBarLarge>*/}
-
       </Wrapper>
     );
   }
