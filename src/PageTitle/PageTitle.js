@@ -6,6 +6,8 @@ const PageTitle = styled.h1`
  letter-spacing: -0.4pt;
  color: #333;
  text-align: center;
+ margin: 19pt auto;
+ font-weight: normal;
 `;
 
 export default PageTitle;
