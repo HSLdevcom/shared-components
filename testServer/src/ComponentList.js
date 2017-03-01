@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import styled from 'styled-components';
-import { Button, AppHeader, Input, Separator, Nav } from '../../lib/';
+import { Button, AppHeader, Input, Separator, Nav, PageTitle } from '../../lib/';
 
 
 const Wrapper = styled.div`
@@ -58,6 +58,10 @@ class ComponentList extends Component {
         <Separator />
         <h1>Input</h1>
         <Input type="text" placeholder="placeholder" />
+        <Separator />
+        <h1>PageTitle</h1>
+        <PageTitle>Sivun otsikko</PageTitle>
+        <Separator />
       </Wrapper>
     );
   }
