@@ -64,7 +64,7 @@ class ComponentList extends Component {
         <Separator />
         <h1>Container</h1>
         <Container>
-          <PageTitle>Otsikko</PageTitle>
+          <h1>Otsikko</h1>
           <Button primary>Button</Button>
         </Container>
         <Separator />
