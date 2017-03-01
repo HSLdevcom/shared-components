@@ -4,6 +4,7 @@ import Input from './Input/Input';
 import Separator from './Separator/Separator';
 import Nav from './Nav/Nav';
 import PageTitle from './PageTitle/PageTitle';
+import Container from './Container/Container';
 
 export {
   AppHeader,
@@ -11,5 +12,6 @@ export {
   Input,
   Separator,
   Nav,
-  PageTitle
+  PageTitle,
+  Container
 };
