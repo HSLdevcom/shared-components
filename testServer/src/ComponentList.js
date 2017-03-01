@@ -48,6 +48,12 @@ class ComponentList extends Component {
         </Nav>
         <Separator />
         <h1>AppHeader</h1>
+        <AppHeader /><Separator />
+        <h1>AppHeader</h1>
+        <AppHeader /><Separator />
+        <h1>AppHeader</h1>
+        <AppHeader /><Separator />
+        <h1>AppHeader</h1>
         <AppHeader />
         <Separator />
         <h1>Button</h1>
@@ -57,6 +63,8 @@ class ComponentList extends Component {
         <h1>Input</h1>
         <Input type="text" placeholder="placeholder" />
         <Separator />
+        <Separator />
+        <h1>AppHeader</h1>
 
         {/* <AppBarSmall logoUrl={'couscous'} title={'HSL'} navItems={linkItems} languages={languages}>
           <Logo/>
