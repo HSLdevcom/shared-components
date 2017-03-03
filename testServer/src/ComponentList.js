@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import styled from 'styled-components';
-import { Button, AppHeader, Input, Separator, Nav, PageTitle, Container } from '../../lib/';
+import { Button, AppHeader, Input, Separator, Nav, PageTitleBar, Container } from '../../lib/';
+import logo from './static/reittiopas-logo.svg';
+import arrow from './static/arrow_left.svg';
 
 
 const Wrapper = styled.div`
 `;
 
 const languages = [{id: 'fi', name: 'FI'}, {id: 'sv', name: 'SV'}, {id: 'en', name: 'EN'}];
+
+const testFunc = () => {
+  console.log('click');
+}
 
 class ComponentList extends Component {
 
@@ -40,7 +46,7 @@ class ComponentList extends Component {
     return (
       <Wrapper>
         <h1>Nav</h1>
-        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} title={'HSL'} languages={languages}>
+        <Nav logo={logo} title={'HSL'} languages={languages}>
           <Link to="/">Koti</Link>
           <Link to="/test">Minun kortit</Link>
           <Link to="/test">Asetukset</Link>
@@ -60,7 +66,8 @@ class ComponentList extends Component {
         <Input type="text" placeholder="placeholder" />
         <Separator />
         <h1>PageTitle</h1>
-        <PageTitle>Sivun otsikko</PageTitle>
+        <PageTitleBar text={'Sivun otsikko'} icon={arrow} onClick={testFunc} />
+        <PageTitleBar text={'Sivun otsikko linkitön'} />
         <Separator />
         <h1>Container</h1>
         <Container>

@@ -3,7 +3,7 @@ import Button from './Button/Button';
 import Input from './Input/Input';
 import Separator from './Separator/Separator';
 import Nav from './Nav/Nav';
-import PageTitle from './PageTitle/PageTitle';
+import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
 
 export {
@@ -12,6 +12,6 @@ export {
   Input,
   Separator,
   Nav,
-  PageTitle,
+  PageTitleBar,
   Container
 };
