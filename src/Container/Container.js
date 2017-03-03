@@ -12,6 +12,7 @@ const Container = styled.div`
     color: #333;
     text-align: center;
     margin: 0 auto 20px auto;
+    font-weight: 500;
   }
 `;
 
