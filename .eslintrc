@@ -22,6 +22,7 @@
   },
   "rules": {
     "react/jsx-filename-extension": ["error", { "extensions": [".js", "jsx"] }],
+    "react/require-default-props": 0,
     "no-trailing-spaces": ["error", {"skipBlankLines": true}],
     "comma-dangle": ["error", {
       "arrays": "only-multiline",
@@ -31,8 +32,7 @@
       "functions": "ignore"
     }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
-    "space-before-function-paren": ["error", "never"],
-    "jsx-a11y/no-static-element-interactions": 0
+    "space-before-function-paren": ["error", "never"]
   },
   "globals": {
   }
