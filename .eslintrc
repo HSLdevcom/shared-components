@@ -29,9 +29,10 @@
       "imports": "never",
       "exports": "never",
       "functions": "ignore"
-  }],
-  "no-confusing-arrow": ["error", {"allowParens": true}],
-  "space-before-function-paren": ["error", "never"]
+    }],
+    "no-confusing-arrow": ["error", {"allowParens": true}],
+    "space-before-function-paren": ["error", "never"],
+    "jsx-a11y/no-static-element-interactions": 0
   },
   "globals": {
   }
