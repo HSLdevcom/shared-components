@@ -7,11 +7,11 @@ const Div = styled.div`
   align-items: center;
   position: relative;
   h1 {
-    font-size: 20px;
+    font-size: 1.4em;
     letter-spacing: -0.8px;
-    color: #333;
+    color: ${props => props.theme.primaryColor};
     text-align: center;
-    margin: 16px auto;
+    margin: 1em auto;
     font-weight: normal;
   }
   button {
@@ -27,7 +27,7 @@ const Div = styled.div`
     border-right: 1px solid #ddd;
     background-color: transparent;
     img {
-      height: 17px;
+      height: 1em;
     }
   }
 `;
