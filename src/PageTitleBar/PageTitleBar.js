@@ -9,7 +9,7 @@ const Div = styled.div`
   h1 {
     font-size: 1.4em;
     letter-spacing: -0.8px;
-    color: ${props => props.theme.primaryColor};
+    color: ${props => props.theme.primary};
     text-align: center;
     margin: 1em auto;
     font-weight: normal;
