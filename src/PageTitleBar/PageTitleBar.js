@@ -19,15 +19,19 @@ const Div = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 0;
-    width: 10%;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    left: 15px;
+    width: 35px;
     height: 50%;
     text-align: center;
     border-width: 0;
-    border-right: 1px solid #ddd;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     background-color: transparent;
     img {
-      height: 1em;
+      height: 1.5em;
+      margin: auto;
     }
   }
 `;
