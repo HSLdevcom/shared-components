@@ -7,7 +7,7 @@ const Div = styled.div`
   align-items: center;
   position: relative;
   h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: -0.8px;
     color: ${props => props.theme.primary};
     text-align: center;
@@ -30,7 +30,7 @@ const Div = styled.div`
     border-radius: 5px;
     background-color: #fff;
     img {
-      height: 1.5em;
+      height: 1em;
       margin: auto;
     }
   }
