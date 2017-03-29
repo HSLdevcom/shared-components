@@ -21,14 +21,14 @@ const Div = styled.div`
     position: absolute;
     top: 50%;
     transform: perspective(1px) translateY(-50%);
-    left: 15px;
+    left: 0;
     width: 35px;
     height: 50%;
     text-align: center;
     border-width: 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #fff;
     img {
       height: 1.5em;
       margin: auto;
