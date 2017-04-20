@@ -4,7 +4,7 @@ Shared components to be used in HSL projects. React and styled components.
 
 ### Summary of set up ###
 
-All the needed setup is command `yarn install`
+All the needed setup is command `yarn install` in project root and in `testServer`-directory
 
 ### Running server ###
 
