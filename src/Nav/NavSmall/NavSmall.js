@@ -69,6 +69,7 @@ const StyledNavSmall = styled.div`
       background: #333;
       transform: translate(100%, 0);
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      z-index: 899;
       ul {
         display: flex;
         flex-direction: row;
