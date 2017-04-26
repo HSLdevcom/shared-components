@@ -9,19 +9,22 @@ import arrow from './static/arrow_left.svg';
 const Wrapper = styled.div`
 `;
 
-const languages = [{id: 'fi', name: 'FI'}, {id: 'sv', name: 'SV'}, {id: 'en', name: 'EN'}];
+const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
 
 const testFunc = () => {
   console.log('click');
 }
 
 class ComponentList extends Component {
-
+  constructor(props) {
+    super(props);
+    this.langClick = this.langClick.bind(this);
+  }
   static itemClick(navItem) {
     console.log(navItem);
   }
-  static langClick(lang) {
-    console.log('Changing language to:', lang.displayName);
+  langClick(lang) {
+    console.log('Changing language to:', lang);
   }
   render() {
     const linkItems = [
@@ -46,7 +49,7 @@ class ComponentList extends Component {
     return (
       <Wrapper>
         <h1>Nav</h1>
-        <Nav logo={logo} title={'HSL'} languages={languages}>
+        <Nav logo={logo} title={'HSL'} languages={languages} changeLanguage={this.langClick}>
           <Link to="/">Koti</Link>
           <Link to="/test">Minun kortit</Link>
           <Link to="/test">Asetukset</Link>

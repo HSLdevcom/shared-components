@@ -111,7 +111,7 @@ const StyledNavSmall = styled.div`
 
 `;
 
-const NavSmall = ({ children, languages }) =>
+const NavSmall = ({ children, languages, changeLanguage }) =>
   <StyledNavSmall>
     <input type="checkbox" />
     <span />
@@ -120,7 +120,7 @@ const NavSmall = ({ children, languages }) =>
     <div className="mobile-drawer">
       <ul>
         {languages.map(lang =>
-          <li key={lang.id}>{lang.name}</li>
+          <li onClick={() => changeLanguage(lang.id)} key={lang.id}>{lang.name}</li> // eslint-disable-line
         )}
       </ul>
       {children}
@@ -129,6 +129,7 @@ const NavSmall = ({ children, languages }) =>
 
 NavSmall.propTypes = {
   children: PropTypes.node.isRequired,
+  changeLanguage: PropTypes.func,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     name: PropTypes.string
