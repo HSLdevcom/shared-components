@@ -16,13 +16,13 @@ const StyledNav = styled.nav`
   }
 `;
 
-const Nav = ({ children, logo, title, languages }) =>
+const Nav = ({ children, logo, title, languages, changeLanguage }) =>
   <StyledNav>
     <img src={logo} alt={title} />
-    <NavSmall languages={languages}>
+    <NavSmall languages={languages} changeLanguage={changeLanguage}>
       {children}
     </NavSmall>
-    <NavLarge>
+    <NavLarge changeLanguage={changeLanguage}>
       {children}
     </NavLarge>
   </StyledNav>;
@@ -31,6 +31,7 @@ Nav.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   logo: PropTypes.string.isRequired,
+  changeLanguage: PropTypes.func,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     name: PropTypes.string
