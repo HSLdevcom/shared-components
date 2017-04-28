@@ -49,7 +49,7 @@ const StyledNavSmall = styled.div`
     input:checked ~ span {
       opacity: 1;
       transform: rotate(45deg) translate(0px, 0px);
-      z-index:900;
+      z-index:901;
     }
 
     input:checked ~ span:nth-last-child(3) {
