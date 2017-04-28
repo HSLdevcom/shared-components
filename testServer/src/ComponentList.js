@@ -13,39 +13,20 @@ const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en
 
 const testFunc = () => {
   console.log('click');
-}
-
+};
 class ComponentList extends Component {
-  constructor(props) {
-    super(props);
-    this.langClick = this.langClick.bind(this);
-  }
+
   static itemClick(navItem) {
     console.log(navItem);
   }
-  langClick(lang) {
+  static langClick(lang) {
     console.log('Changing language to:', lang);
   }
+  constructor(props) {
+    super(props);
+  }
+  
   render() {
-    const linkItems = [
-      {
-        name: 'etusivu',
-        nameEn: 'front page',
-        route: '/frontpage',
-        icon: 'linktoIcon'
-      }, {
-        name: 'sivu2',
-        nameEn: 'page 2',
-        route: '/page2',
-        icon: 'linktoIcon2'
-      }, {
-        name: 'sivu3',
-        nameEn: 'page 3',
-        route: '/page3',
-        icon: 'linktoIcon3'
-      },
-    ];
-
     return (
       <Wrapper>
         <h1>Nav</h1>

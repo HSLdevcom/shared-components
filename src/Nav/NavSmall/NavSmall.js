@@ -22,7 +22,7 @@ const StyledNavSmall = styled.div`
       top: 10px;
       right: 0;
       opacity: 0; /* hide this */
-      z-index: 10; /* and place it over the hamburger */
+      z-index: 900; /* and place it over the hamburger */
 
       -webkit-touch-callout: none; /* disable iOS specific link highlight on hold */
     }
@@ -34,7 +34,7 @@ const StyledNavSmall = styled.div`
       margin-right: 15px;
       background: #fff;
       border-radius: 3px;
-      z-index: 5;
+      z-index: 899;
       transform-origin: 4px 1px;
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                   background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -49,6 +49,7 @@ const StyledNavSmall = styled.div`
     input:checked ~ span {
       opacity: 1;
       transform: rotate(45deg) translate(0px, 0px);
+      z-index:900;
     }
 
     input:checked ~ span:nth-last-child(3) {
