@@ -10,6 +10,7 @@ const Div = styled.div`
   background-color: #fff;
   width: 100vw;
   left: calc(-50vw + 50%);
+  margin-bottom: 1em;
   h1 {
     font-size: 1.2em;
     letter-spacing: -0.8px;
@@ -23,8 +24,7 @@ const Div = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 50%;
-    transform: perspective(1px) translateY(-50%);
+    top: 0;
     left: 0;
     font-size: 1.2em;
     width: 3em;
@@ -34,6 +34,7 @@ const Div = styled.div`
     border: none;
     background-color: #fff;
     border-right: 1px solid #ddd;
+    padding: 0;
     img {
       height: 1em;
       margin: auto;
