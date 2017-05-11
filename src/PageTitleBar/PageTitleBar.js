@@ -23,7 +23,7 @@ const Div = styled.div`
       margin: 1em auto;
       font-weight: normal;
     }
-    button {
+    .back-button {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -52,7 +52,7 @@ const PageTitleBar = ({ children, text, backButton, onBackClick, className }) =>
   <Div className={className}>
     <div className="content-container">
       {backButton &&
-        <button onClick={onBackClick}>
+        <button className="back-button" onClick={onBackClick}>
           <img src={backButton} alt="placeholder" />
         </button>
       }
