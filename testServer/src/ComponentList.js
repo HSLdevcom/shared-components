@@ -25,7 +25,7 @@ class ComponentList extends Component {
   constructor(props) {
     super(props);
   }
-  
+
   render() {
     return (
       <Wrapper>
@@ -50,8 +50,12 @@ class ComponentList extends Component {
         <Input type="text" placeholder="placeholder" />
         <Separator />
         <h1>PageTitle</h1>
-        <PageTitleBar text={'Sivun otsikko'} icon={arrow} onClick={testFunc} />
-        <PageTitleBar text={'Sivun otsikko linkitön'} />
+        <PageTitleBar backButton={arrow} onBackClick={testFunc}>
+          <h1>Otsikko back</h1>
+        </PageTitleBar>
+        <PageTitleBar>
+          <h1>Pelkkä otsikko</h1>
+        </PageTitleBar>
         <Separator />
         <h1>Container</h1>
         <Container>

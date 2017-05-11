@@ -7,6 +7,7 @@ const Div = styled.div`
   flex-direction: row;
   align-items: center;
   position: relative;
+  background-color: #fff;
   h1 {
     font-size: 1.2em;
     letter-spacing: -0.8px;
@@ -23,13 +24,14 @@ const Div = styled.div`
     top: 50%;
     transform: perspective(1px) translateY(-50%);
     left: 0;
-    width: 35px;
-    height: 50%;
+    font-size: 1.2em;
+    width: 3em;
+    height: 100%;
     text-align: center;
     border-width: 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: none;
     background-color: #fff;
+    border-right: 1px solid #ddd;
     img {
       height: 1em;
       margin: auto;
@@ -38,20 +40,21 @@ const Div = styled.div`
 `;
 
 
-const PageTitleBar = ({ text, icon, onClick }) =>
-  <Div>
-    {icon &&
-      <button onClick={onClick}>
-        <img src={icon} alt="placeholder" />
+const PageTitleBar = ({ children, text, backButton, onBackClick, className }) =>
+  <Div className={className}>
+    {backButton &&
+      <button onClick={onBackClick}>
+        <img src={backButton} alt="placeholder" />
       </button>
     }
-    <h1>{text}</h1>
+    {children}
   </Div>;
 
 PageTitleBar.propTypes = {
-  text: PropTypes.string.isRequired,
-  icon: PropTypes.string,
-  onClick: PropTypes.func
+  children: PropTypes.node.isRequired,
+  backButton: PropTypes.string,
+  onBackClick: PropTypes.func,
+  className: PropTypes.string
 };
 
 export default PageTitleBar;
