@@ -8,6 +8,8 @@ const Div = styled.div`
   align-items: center;
   position: relative;
   background-color: #fff;
+  width: 100vw;
+  left: calc(-50vw + 50%);
   h1 {
     font-size: 1.2em;
     letter-spacing: -0.8px;
