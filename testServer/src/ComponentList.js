@@ -33,7 +33,7 @@ class ComponentList extends Component {
           <Link to="/test">Kirjaudu ulos</Link>
         </Nav>
         <h1>Nav with title (overrides items)</h1>
-        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} alt={'HSL'} languages={languages} changeLanguage={this.langClick} title="nasdaq">
+        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} alt={'HSL'} languages={languages} changeLanguage={this.langClick} title="Page Title">
           <Link to="/">Koti</Link>
           <Link to="/test">Minun kortit</Link>
           <Link to="/test">Asetukset</Link>

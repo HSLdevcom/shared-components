@@ -42,14 +42,18 @@ const Nav = ({ children, logo, alt, languages, changeLanguage, title }) =>
 
 Nav.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  alt: PropTypes.string,
   logo: PropTypes.string.isRequired,
   changeLanguage: PropTypes.func,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     name: PropTypes.string
   })).isRequired
+};
+Nav.defaultProps = {
+  alt: '',
+  title: ''
 };
 
 export default Nav;
