@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import styled from 'styled-components';
 import { Button, AppHeader, Input, Separator, Nav, PageTitleBar, Container } from '../../lib/';
-import logo from './static/reittiopas-logo.svg';
 import arrow from './static/arrow_left.svg';
 
 
@@ -22,15 +21,19 @@ class ComponentList extends Component {
   static langClick(lang) {
     console.log('Changing language to:', lang);
   }
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
       <Wrapper>
         <h1>Nav</h1>
-        <Nav logo={logo} title={'HSL'} languages={languages} changeLanguage={this.langClick}>
+        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} alt={'HSL'} languages={languages} changeLanguage={this.langClick}>
+          <Link to="/">Koti</Link>
+          <Link to="/test">Minun kortit</Link>
+          <Link to="/test">Asetukset</Link>
+          <Link to="/test">Kirjaudu ulos</Link>
+        </Nav>
+        <h1>Nav with title (overrides items)</h1>
+        <Nav logo={'https://www.hsl.fi/sites/all/themes/custom/hsl/logo.png'} alt={'HSL'} languages={languages} changeLanguage={this.langClick} title="nasdaq">
           <Link to="/">Koti</Link>
           <Link to="/test">Minun kortit</Link>
           <Link to="/test">Asetukset</Link>

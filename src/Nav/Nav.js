@@ -7,29 +7,43 @@ import NavSmall from './NavSmall/NavSmall';
 const StyledNav = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   background: ${props => props.theme.background};
   height: ${props => props.theme.navbarHeight};
   img {
+    position: absolute;
+    left: 0;
     height: ${props => props.theme.logoHeight};
     margin-left: 5px;
   }
+  header {
+    color: #FFFFFF;
+    text-align: center;
+    flex-basis: 100vw;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 `;
 
-const Nav = ({ children, logo, title, languages, changeLanguage }) =>
+const Nav = ({ children, logo, alt, languages, changeLanguage, title }) =>
   <StyledNav>
-    <img src={logo} alt={title} />
-    <NavSmall languages={languages} changeLanguage={changeLanguage}>
-      {children}
-    </NavSmall>
-    <NavLarge changeLanguage={changeLanguage}>
-      {children}
-    </NavLarge>
+    <img src={logo} alt={alt} />
+    {title && <header>{title}</header>}
+    {!title &&
+      <NavSmall languages={languages} changeLanguage={changeLanguage}>
+        {children}
+      </NavSmall>
+    }
+    {!title &&
+      <NavLarge changeLanguage={changeLanguage}>
+        {children}
+      </NavLarge>}
   </StyledNav>;
 
 Nav.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   logo: PropTypes.string.isRequired,
   changeLanguage: PropTypes.func,
   languages: PropTypes.arrayOf(PropTypes.shape({
