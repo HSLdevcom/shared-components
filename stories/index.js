@@ -7,8 +7,8 @@ import Input from '../src/Input/Input'
 setAddon(JSXAddon)
 
 storiesOf('Button', module)
-  .addWithJSX('primary', () => <Button primary>Primary Button</Button>)
-  .addWithJSX('secondary', () => <Button>Secondary Button</Button>)
+  .addWithJSX('primary', () => <Button primary>Primary Button</Button>, { displayName: 'Button' })
+  .addWithJSX('secondary', () => <Button>Secondary Button</Button>, { displayName: 'Button' })
 
 storiesOf('Input', module)
-  .addWithJSX('with placeholder', () => <Input placeholder="placeholder" type="text" />)
+  .addWithJSX('with placeholder', () => <Input placeholder="placeholder" type="text" />, { displayName: 'Input' })
