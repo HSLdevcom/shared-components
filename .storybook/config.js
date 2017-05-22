@@ -3,8 +3,10 @@ import Theme from './../themes/themes.hsl'
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
+const req = require.context('../stories', true, /\.stories\.js$/)
+
 function loadStories() {
-  require('../stories');
+  req.keys().forEach((filename) => req(filename))
 }
 
 addDecorator((story) => (
