@@ -1,0 +1,89 @@
+exports[`with title`] = `
+<nav
+  className="iVHGhl">
+  <img
+    alt="HSL"
+    src="/home/phz/workspace/shared-components/stories/static/logo.png" />
+  <header>
+    Page title
+  </header>
+</nav>
+`;
+
+exports[`without title`] = `
+<nav
+  className="iVHGhl">
+  <img
+    alt="HSL"
+    src="/home/phz/workspace/shared-components/stories/static/logo.png" />
+  
+  <div
+    className="kARjkV">
+    <input
+      type="checkbox" />
+    <span />
+    <span />
+    <span />
+    <div
+      className="mobile-drawer">
+      <ul>
+        <li
+          onClick={[Function]}>
+          FI
+        </li>
+        <li
+          onClick={[Function]}>
+          SV
+        </li>
+        <li
+          onClick={[Function]}>
+          EN
+        </li>
+      </ul>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        Koti
+      </a>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        Minun kortit
+      </a>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        Asetukset
+      </a>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        Kirjaudu ulos
+      </a>
+    </div>
+  </div>
+  <div
+    className="kbmunK">
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      Koti
+    </a>
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      Minun kortit
+    </a>
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      Asetukset
+    </a>
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      Kirjaudu ulos
+    </a>
+  </div>
+</nav>
+`;
