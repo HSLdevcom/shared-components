@@ -1,0 +1,30 @@
+exports[`with back button`] = `
+<div
+  className="dXTLwC">
+  <div
+    className="content-container">
+    <button
+      className="back-button"
+      onClick={[Function]}>
+      <img
+        alt="placeholder"
+        src="/home/phz/workspace/shared-components/stories/static/arrow_left.svg" />
+    </button>
+    <h1>
+      Title
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`without back button`] = `
+<div
+  className="dXTLwC">
+  <div
+    className="content-container">
+    <h1>
+      Title
+    </h1>
+  </div>
+</div>
+`;
