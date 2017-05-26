@@ -8,7 +8,7 @@ All the needed setup is command `yarn install` in project root
 
 ### Installing git hooks ###
 
-`cp hooks/* .git/hooks/`
+`hooks/init-hooks`
 
 ### Running the storybook ###
 
