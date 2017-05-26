@@ -12,7 +12,8 @@
     "lint:watch": "esw src/ testServer/src -w --color",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test-storybook": "storyshots"
+    "test-storybook": "storyshots",
+    "test-storybook-update": "storyshots -- -u"
   },
   "repository": {
     "type": "git",
