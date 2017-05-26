@@ -12,7 +12,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "storyshots",
-    "test-update": "storyshots -- -u"
+    "test-update": "storyshots -- -u",
+    "es-lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
     "react": "^15.5.0",
     "react-dom": "^15.5.0",
     "react-router": "^3.0.2",
-    "react-scripts": "^0.9.5",
+    "react-scripts": "^1.0.6",
     "styled-components": "^1.4.2"
   },
   "devDependencies": {
@@ -47,6 +48,7 @@
     "@kadira/storyshots": "^2.1.0",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-import-resolver-node": "^0.3.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
