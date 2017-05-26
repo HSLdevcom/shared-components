@@ -6,14 +6,13 @@
   "scripts": {
     "build:babel": "babel src/ --out-dir lib/",
     "build:babelw": "babel src/ --out-dir lib/ --watch",
-    "start": "concurrently --kill-others \"npm run build:babelw\"  \"cd testServer/ && npm start\" \"npm run lint:watch\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:tight": "esw src/ testServer/src --color --max-warnings 0",
-    "lint:watch": "esw src/ testServer/src -w --color",
+    "start": "concurrently --kill-others \"npm run build:babelw\"  \"npm run storybook\" \"npm run lint:watch\"",
+    "lint:tight": "esw src/ --color --max-warnings 0",
+    "lint:watch": "esw src/ -w --color",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test-storybook": "storyshots",
-    "test-storybook-update": "storyshots -- -u"
+    "test": "storyshots",
+    "test-update": "storyshots -- -u"
   },
   "repository": {
     "type": "git",
