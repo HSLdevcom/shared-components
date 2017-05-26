@@ -13,16 +13,15 @@ const StyledNavItem = styled.div`
 `;
 
 function NavItems(props) {
-  const items = props.items.map((item) => {
-    console.log(item);
-    return (
+  const items = props.items.map(item =>
+    (
       <StyledNavItem key={item.name}>
         <a href={item.route}>
           {item.name}
         </a>
       </StyledNavItem>
-    );
-  });
+    )
+  );
   return (
     <StyledNavList>
       {items}

@@ -1,8 +1,12 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf } from '@kadira/storybook';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
-import Container from '../src/Container/Container';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, text } from '@kadira/storybook-addon-knobs';
+
+import Container from '../src/Container/Container';
 
 
 setAddon(JSXAddon);

@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf } from '@kadira/storybook';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { action } from '@kadira/storybook-addon-actions';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, text } from '@kadira/storybook-addon-knobs';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
+
 import Nav from '../src/Nav/Nav';
 import logo from './static/logo.png';
 
