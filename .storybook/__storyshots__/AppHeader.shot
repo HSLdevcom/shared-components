@@ -1,0 +1,8 @@
+exports[`default`] = `
+<div
+  className="eBOorU">
+  <p>
+    Some content
+  </p>
+</div>
+`;
