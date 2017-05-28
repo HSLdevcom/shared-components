@@ -48,7 +48,7 @@ const Div = styled.div`
 `;
 
 
-const PageTitleBar = ({ children, text, backButton, onBackClick, className }) =>
+const PageTitleBar = ({ children, backButton, onBackClick, className }) =>
   <Div className={className}>
     <div className="content-container">
       {backButton &&

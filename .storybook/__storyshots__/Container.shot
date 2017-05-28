@@ -1,0 +1,8 @@
+exports[`default`] = `
+<div
+  className="gPnpra">
+  <p>
+    Some content
+  </p>
+</div>
+`;

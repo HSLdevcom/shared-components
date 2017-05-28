@@ -4,12 +4,15 @@ Shared components to be used in HSL projects. React and styled components.
 
 ### Summary of set up ###
 
-All the needed setup is command `yarn install` in project root and in `testServer`-directory
+All the needed setup is command `yarn install` in project root
 
-### Running server ###
+### Installing git hooks ###
 
-Running the test server to see components with command `yarn start`
-This command runs both babel and server with watch so that all updates happen live while developing.
+`hooks/init-hooks`
+
+### Running the storybook ###
+
+`yarn storybook`
 
 ### Usage in application ###
 
@@ -25,8 +28,6 @@ Make a folderstructure like src/ComponentX/ComponentX.js. (if it needs many file
 These files are watched by babel in command `yarn run build:babel` which is included in `yarn start`. Babel will build the files into lib/ComponentX/ComponentX.js for ES5 which is then used in the receiving application.
 
 When finishing the component add it as an import and a named export to the src/index.js file.
-
-For testing the component inside this repository import the new component with its name in testServer/src/ComponentList.js to see it visually inside the testServer (defaults to localhost:3000).
 
 ### Deployment instructions ###
 

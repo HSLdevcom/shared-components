@@ -1,0 +1,13 @@
+exports[`primary`] = `
+<button
+  className="chXaKZ">
+  Primary Button
+</button>
+`;
+
+exports[`secondary`] = `
+<button
+  className="bMtsva">
+  Secondary Button
+</button>
+`;

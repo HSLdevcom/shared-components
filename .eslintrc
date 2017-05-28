@@ -3,7 +3,8 @@
     "airbnb"
   ],
   "plugins": [
-    "react"
+    "react",
+    "import"
   ],
   "parserOptions": {
     "ecmaVersion": 6,
@@ -35,5 +36,9 @@
     "space-before-function-paren": ["error", "never"]
   },
   "globals": {
+  },
+  settings: {
+    "import/extensions": [".js", ".jsx"],
+    "import/resolver": "node"
   }
 }
