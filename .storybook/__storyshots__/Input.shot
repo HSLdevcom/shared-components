@@ -4,10 +4,3 @@ exports[`default`] = `
   placeholder="placeholder"
   type="text" />
 `;
-
-exports[`with placeholder`] = `
-<input
-  className="hoNhgk"
-  placeholder="placeholder"
-  type="text" />
-`;
