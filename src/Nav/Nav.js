@@ -25,9 +25,9 @@ const StyledNav = styled.nav`
   }
 `;
 
-const Nav = ({ children, logo, alt, languages, changeLanguage, title }) =>
+const Nav = ({ children, logo, languages, changeLanguage, title }) =>
   <StyledNav>
-    <img src={logo} alt={alt} />
+    {logo}
     {title && <header>{title}</header>}
     {!title &&
       <NavSmall languages={languages} changeLanguage={changeLanguage}>
@@ -43,8 +43,7 @@ const Nav = ({ children, logo, alt, languages, changeLanguage, title }) =>
 Nav.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string,
-  alt: PropTypes.string,
-  logo: PropTypes.string.isRequired,
+  logo: PropTypes.node.isRequired,
   changeLanguage: PropTypes.func,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
@@ -52,7 +51,6 @@ Nav.propTypes = {
   })).isRequired
 };
 Nav.defaultProps = {
-  alt: '',
   title: ''
 };
 

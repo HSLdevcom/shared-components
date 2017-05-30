@@ -7,13 +7,13 @@ import { action } from '@kadira/storybook-addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 
 import PageTitleBar from '../src/PageTitleBar/PageTitleBar';
-import arrow from './static/arrow_left.svg';
+import { ArrowLeft } from '../src/Icons';
 
 setAddon(JSXAddon);
 
 storiesOf('PageTitleBar', module)
   .addWithJSX('with back button', () =>
-    <PageTitleBar backButton={arrow} onBackClick={action('back button clicked')}>
+    <PageTitleBar backButton={<ArrowLeft fill="#007ac9" height={'1em'} />} onBackClick={action('back button clicked')}>
       <h1>Title</h1>
     </PageTitleBar>)
   .addWithJSX('without back button', () =>
