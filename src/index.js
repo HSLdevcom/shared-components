@@ -6,6 +6,7 @@ import Nav from './Nav/Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
 import Icons from './Icons';
+import IconWithText from './IconWithText/IconWithText';
 
 export {
   AppHeader,
@@ -15,5 +16,6 @@ export {
   Nav,
   PageTitleBar,
   Container,
-  Icons
+  Icons,
+  IconWithText
 };
