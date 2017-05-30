@@ -7,6 +7,7 @@ import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
 import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
+import Span from './Span/Span';
 
 export {
   AppHeader,
@@ -17,5 +18,6 @@ export {
   PageTitleBar,
   Container,
   Icons,
-  IconWithText
+  IconWithText,
+  Span
 };

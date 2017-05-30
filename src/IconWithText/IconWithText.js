@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Text from '../Text/Text';
+import Span from '../Span/Span';
 
 const displayMap = {
   Right: 'inline',
@@ -32,7 +32,7 @@ const IconWithText = ({ icon,
       <IconWrapper aria-hidden="true" textPosition={textPosition}>
         {React.cloneElement(icon, { fill, height })}
       </IconWrapper>
-      <Text display={displayMap[textPosition]}>{text}</Text>
+      <Span display={displayMap[textPosition]}>{text}</Span>
     </StyledSpan>
 );
 
