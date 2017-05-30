@@ -4,6 +4,7 @@ const hslTheme = {
   primary: primaryBlue,
   secondary: '#bdbbbb',
   background: primaryBlue,
+  defaultTextColor: '#000000',
   logo: './static/reittiopas-logo.svg',
   md: '900px',
   navbarHeight: '60px',
