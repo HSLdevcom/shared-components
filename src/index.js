@@ -5,6 +5,8 @@ import Separator from './Separator/Separator';
 import Nav from './Nav/Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
+import Icons from './Icons';
+import IconWithText from './IconWithText/IconWithText';
 
 export {
   AppHeader,
@@ -13,5 +15,7 @@ export {
   Separator,
   Nav,
   PageTitleBar,
-  Container
+  Container,
+  Icons,
+  IconWithText
 };

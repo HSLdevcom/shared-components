@@ -1,0 +1,13 @@
+exports[`default`] = `
+<div>
+  <span>
+    Some other text 
+  </span>
+  <span
+    className="jVvkhS"
+    color="Black"
+    display="inline">
+    Sample text
+  </span>
+</div>
+`;
