@@ -53,7 +53,7 @@ const PageTitleBar = ({ children, backButton, onBackClick, className }) =>
     <div className="content-container">
       {backButton &&
         <button className="back-button" onClick={onBackClick}>
-          <img src={backButton} alt="placeholder" />
+          {backButton}
         </button>
       }
       {children}
@@ -62,7 +62,7 @@ const PageTitleBar = ({ children, backButton, onBackClick, className }) =>
 
 PageTitleBar.propTypes = {
   children: PropTypes.node.isRequired,
-  backButton: PropTypes.string,
+  backButton: PropTypes.node,
   onBackClick: PropTypes.func,
   className: PropTypes.string
 };
