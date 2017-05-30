@@ -26,12 +26,11 @@ const IconWithText = ({ icon,
   text,
   color,
   fill,
-  fillSecond,
   background,
   textPosition }) => (
     <StyledSpan color={color} background={background}>
       <IconWrapper aria-hidden="true" textPosition={textPosition}>
-        {React.cloneElement(icon, { fill, height, fillSecond })}
+        {React.cloneElement(icon, { fill, height })}
       </IconWrapper>
       <Text display={displayMap[textPosition]}>{text}</Text>
     </StyledSpan>
@@ -42,8 +41,10 @@ IconWithText.propTypes = {
   height: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
-  fill: PropTypes.string,
-  fillSecond: PropTypes.string,
+  fill: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object
+  ]),
   background: PropTypes.string,
   textPosition: PropTypes.oneOf(['Right', 'Bottom'])
 };

@@ -40,8 +40,10 @@ stories.addWithJSX('ArrowLeft', () => {
 }, { displayName: 'ArrowLeft' });
 
 stories.addWithJSX('Checkmark', () => {
-  const fillInner = color('FillInner', '#fff');
-  const fillOuter = color('FillOuter', '#00c920');
+  const fill = {
+    inner: color('FillInner', '#fff'),
+    outer: color('FillOuter', '#00c920')
+  };
   const defaultValue = 10;
   const options = {
     range: true,
@@ -50,7 +52,7 @@ stories.addWithJSX('Checkmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Checkmark fillSecond={fillOuter} fill={fillInner} height={`${height}em`} />);
+  return (<Checkmark fill={fill} height={`${height}em`} />);
 }, { displayName: 'Checkmark' });
 
 stories.addWithJSX('Logo', () => {

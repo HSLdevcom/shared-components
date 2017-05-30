@@ -12,7 +12,6 @@ import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest,
 const iconMap = {
   ArrowDown: <ArrowDown />,
   ArrowLeft: <ArrowLeft />,
-  Checkmark: <Checkmark />,
   Logo: <Logo />,
   HSLLogo: <HSLLogo />,
   JourneyPlanner: <JourneyPlanner />,
@@ -27,7 +26,6 @@ const iconMap = {
 const iconList = {
   ArrowDown: 'ArrowDown',
   ArrowLeft: 'ArrowLeft',
-  Checkmark: 'Checkmark',
   Logo: 'Logo',
   HSLLogo: 'HSLLogo',
   JourneyPlanner: 'JourneyPlanner',
@@ -47,7 +45,6 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
   const btnColor = color('Color', '#007ac9');
   const fill = color('Fill', '#3490C2');
-  const fillSecond = color('Second fill', '#DA273F');
   const background = color('Background', '#ffffff');
   const defaultValue = 10;
   const options = {
@@ -71,7 +68,40 @@ stories.addWithJSX('default', () => {
     textPosition={textPos}
     color={btnColor}
     fill={fill}
-    fillSecond={fillSecond}
+    background={background}
+    height={`${height}em`}
+  />);
+});
+
+stories.addWithJSX('with inner & outer fill', () => {
+  const btnColor = color('Color', '#007ac9');
+  const fill = {
+    inner: color('Fill', '#3490C2'),
+    outer: color('Second fill', '#DA273F')
+  };
+  const background = color('Background', '#ffffff');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  const sampleText = text('Text', 'Sample text');
+
+  const textPositions = {
+    Right: 'Right',
+    Bottom: 'Bottom',
+  };
+  const textPos = select('Text position', textPositions, 'Bottom');
+  const icon = <Checkmark />;
+  return (<IconWithText
+    icon={icon}
+    text={sampleText}
+    textPosition={textPos}
+    color={btnColor}
+    fill={fill}
     background={background}
     height={`${height}em`}
   />);
