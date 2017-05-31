@@ -23,6 +23,7 @@ const IconWrapper = styled.span`
 
 const IconWithText = ({ icon,
   height,
+  width,
   text,
   color,
   fill,
@@ -30,7 +31,7 @@ const IconWithText = ({ icon,
   textPosition }) => (
     <StyledSpan color={color} background={background}>
       <IconWrapper aria-hidden="true" textPosition={textPosition}>
-        {React.cloneElement(icon, { fill, height })}
+        {React.cloneElement(icon, { fill, height, width })}
       </IconWrapper>
       <Span display={displayMap[textPosition]}>{text}</Span>
     </StyledSpan>
@@ -38,7 +39,8 @@ const IconWithText = ({ icon,
 
 IconWithText.propTypes = {
   icon: PropTypes.element.isRequired,
-  height: PropTypes.string.isRequired,
+  height: PropTypes.string,
+  width: PropTypes.string,
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
   fill: PropTypes.oneOfType([
