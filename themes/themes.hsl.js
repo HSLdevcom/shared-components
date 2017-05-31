@@ -4,10 +4,11 @@ const hslTheme = {
   primary: primaryBlue,
   secondary: '#bdbbbb',
   background: primaryBlue,
-  logo: './static/reittiopas-logo.svg',
+  menuBorder: '#0062a1',
   md: '900px',
-  navbarHeight: '60px',
-  logoHeight: '30px'
+  navbarHeight: '6rem', // default: auto
+  logoHeight: '4rem',
+  logoFill: '#ffffff'
 };
 
 export default hslTheme;

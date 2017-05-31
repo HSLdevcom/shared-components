@@ -18,7 +18,7 @@ const StyledSpan = styled.span`
 const IconWrapper = styled.span`
   vertical-align: middle;
   display: inline-block;
-  margin: ${props => (props.textPosition === 'Right' ? '0 1em 0 0' : '0 0 1.25em 0')};
+  margin: ${props => (props.textPosition === 'Right' ? '0 1rem 0 0' : '0 0 0.75rem 0')};
 `;
 
 const IconWithText = ({ icon,
