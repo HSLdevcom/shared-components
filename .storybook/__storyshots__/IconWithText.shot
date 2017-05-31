@@ -4,10 +4,11 @@ exports[`default`] = `
   color="#007ac9">
   <span
     aria-hidden="true"
-    className="lkyBzn">
+    className="eBRCcw">
     <svg
       fill="#3490C2"
       height="10em"
+      preserveAspectRatio="xMidYMid meet"
       version="1.1"
       viewBox="0 0 39 32">
       <path
@@ -29,9 +30,10 @@ exports[`with inner & outer fill`] = `
   color="#007ac9">
   <span
     aria-hidden="true"
-    className="lkyBzn">
+    className="eBRCcw">
     <svg
       height="10em"
+      preserveAspectRatio="xMidYMid meet"
       version="1.1"
       viewBox="0 0 376 376">
       <g
