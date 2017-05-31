@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, text, select } from '@kadira/storybook-addon-knobs';
 
-import Text from '../src/Text/Text';
+import Span from '../src/Span/Span';
 
 const options = {
   inline: 'Inline',
@@ -21,7 +21,7 @@ const colors = {
 };
 
 setAddon(JSXAddon);
-const stories = storiesOf('Text', module);
+const stories = storiesOf('Span', module);
 stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
   const color = select('Colors', colors, 'Black');
@@ -30,6 +30,6 @@ stories.addWithJSX('default', () => {
 
   return (<div>
     <span>Some other text </span>
-    <Text display={display} color={color}>{sampleText}</Text>
+    <Span display={display} color={color}>{sampleText}</Span>
   </div>);
-}, { displayName: 'Text' });
+}, { displayName: 'Span' });

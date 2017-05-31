@@ -17,7 +17,7 @@ exports[`default`] = `
     </svg>
   </span>
   <span
-    className="kVxqDf"
+    className="jsbYnV"
     display="block">
     Sample text
   </span>
@@ -59,7 +59,7 @@ exports[`with inner & outer fill`] = `
     </svg>
   </span>
   <span
-    className="kVxqDf"
+    className="jsbYnV"
     display="block">
     Sample text
   </span>
