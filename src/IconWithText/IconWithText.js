@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Span from '../Span/Span';
 
@@ -8,14 +7,8 @@ const displayMap = {
   Bottom: 'block'
 };
 
-const StyledSpan = styled.span`
-  background: ${props => props.background};
-  color: ${props => props.color};
-  display: inline-block;
-  text-align: center;
-`;
 
-const IconWrapper = styled.span`
+const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
   margin: ${props => (props.textPosition === 'Right' ? '0 1rem 0 0' : '0 0 0.75rem 0')};
@@ -25,16 +18,14 @@ const IconWithText = ({ icon,
   height,
   width,
   text,
-  color,
   fill,
-  background,
   textPosition }) => (
-    <StyledSpan color={color} background={background}>
+    <Span style={{ display: 'inline-block', textAlign: 'center' }}>
       <IconWrapper aria-hidden="true" textPosition={textPosition}>
         {React.cloneElement(icon, { fill, height, width })}
       </IconWrapper>
-      <Span display={displayMap[textPosition]}>{text}</Span>
-    </StyledSpan>
+      <Span style={{ display: displayMap[textPosition] }}>{text}</Span>
+    </Span>
 );
 
 IconWithText.propTypes = {
@@ -42,13 +33,11 @@ IconWithText.propTypes = {
   height: PropTypes.string,
   width: PropTypes.string,
   text: PropTypes.string.isRequired,
-  color: PropTypes.string,
   fill: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object
   ]),
-  background: PropTypes.string,
-  textPosition: PropTypes.oneOf(['Right', 'Bottom'])
+  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
 };
 
 export default IconWithText;

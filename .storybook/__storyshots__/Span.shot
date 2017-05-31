@@ -4,9 +4,13 @@ exports[`default`] = `
     Some other text 
   </span>
   <span
-    className="jVvkhS"
-    color="Black"
-    display="inline">
+    className="sc-bxivhb bUZGRr"
+    style={
+      Object {
+        "color": "Black",
+        "display": "inline",
+      }
+    }>
     Sample text
   </span>
 </div>

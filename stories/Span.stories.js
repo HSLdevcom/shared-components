@@ -26,10 +26,12 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
   const color = select('Colors', colors, 'Black');
   const display = select('Display', options, 'inline');
+
   const sampleText = text('Text', 'Sample text');
+  const style = { color, display };
 
   return (<div>
     <span>Some other text </span>
-    <Span display={display} color={color}>{sampleText}</Span>
+    <Span style={style}>{sampleText}</Span>
   </div>);
 }, { displayName: 'Span' });

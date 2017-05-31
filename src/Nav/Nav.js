@@ -5,25 +5,28 @@ import styled from 'styled-components';
 const StyledNav = styled.nav`
   display: flex;
   align-items: center;
-  background: ${props => (props.backgroung || props.theme.background || '#FFFFFF')};
-  height: ${props => (props.height || props.theme.navbarHeight || 'auto')};
-  padding: 2rem;
-  .nav-links {
-    margin: 0 1.5rem;
+  white-space: nowrap;
+  >a {
+    margin: ${props => ((props.style && props.style.linkMargin) || '0 1.5rem')};
   }
 `;
+const StyledSpan = styled.span``;
 
 const Nav = ({
+  style,
   logo,
   logoFill,
   logoHeight,
   children }) =>
-    (<StyledNav>
-      {React.cloneElement(logo, { fill: logoFill, height: logoHeight })}
-      {React.Children.map(children, child => <a className="nav-links">{child}</a>)}
+    (<StyledNav style={style}>
+      <StyledSpan className="logo">
+        {React.cloneElement(logo, { fill: logoFill, height: logoHeight })}
+      </StyledSpan>
+      {children}
     </StyledNav>);
 
 Nav.propTypes = {
+  style: PropTypes.objectOf(PropTypes.any),
   logo: PropTypes.element.isRequired,
   logoFill: PropTypes.oneOfType([
     PropTypes.string,
