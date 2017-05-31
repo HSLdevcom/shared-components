@@ -1,10 +1,10 @@
 exports[`default`] = `
 <span
-  className="eKRhLO"
+  className="sc-ifAKCX iWpsPu"
   color="#007ac9">
   <span
     aria-hidden="true"
-    className="lkyBzn">
+    className="sc-EHOje bHLuwN">
     <svg
       fill="#3490C2"
       height="10em"
@@ -16,7 +16,7 @@ exports[`default`] = `
     </svg>
   </span>
   <span
-    className="jsbYnV"
+    className="sc-bxivhb coCfUE"
     display="block">
     Sample text
   </span>
@@ -25,11 +25,11 @@ exports[`default`] = `
 
 exports[`with inner & outer fill`] = `
 <span
-  className="eKRhLO"
+  className="sc-ifAKCX iWpsPu"
   color="#007ac9">
   <span
     aria-hidden="true"
-    className="lkyBzn">
+    className="sc-EHOje bHLuwN">
     <svg
       height="10em"
       version="1.1"
@@ -57,7 +57,7 @@ exports[`with inner & outer fill`] = `
     </svg>
   </span>
   <span
-    className="jsbYnV"
+    className="sc-bxivhb coCfUE"
     display="block">
     Sample text
   </span>
