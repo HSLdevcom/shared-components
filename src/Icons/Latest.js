@@ -2,7 +2,7 @@ import React from 'react';
 /* eslint-disable */
 export default function({ fill, height }) {
   return (
-    <svg fill={fill} height={height} viewBox="0 0 32 32" version="1.1">
+    <svg fill={fill} height={height} viewBox="0 0 32 32" version="1.1" preserveAspectRatio="xMidYMid meet">
       <g id="icon---uutta">
             <circle id="Oval" cx="4.32171607" cy="27.6316142" r="4.2786642"></circle>
             <path d="M3.16315944,11.9645766 C1.54410153,11.9645766 0.231403814,13.2768899 0.231403814,14.8959478 C0.231403814,16.5153901 1.54410153,17.8277034 3.16315944,17.8277034 C9.2815224,17.8277034 14.2586263,22.8055762 14.2586263,28.9231703 C14.2586263,30.5426126 15.5709397,31.854926 17.1907664,31.854926 C18.8098243,31.854926 20.122522,30.5426126 20.122522,28.9231703 C20.122522,19.5724574 12.5142567,11.9645766 3.16315944,11.9645766 Z" id="Shape"></path>
