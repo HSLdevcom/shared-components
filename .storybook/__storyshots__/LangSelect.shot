@@ -1,31 +1,20 @@
 exports[`default`] = `
 <div
-  style={
-    Object {
-      "backgroundColor": "#007ac9",
-      "color": "#ffffff",
-      "height": "25px",
-      "padding": "25px",
-      "width": "100px",
-    }
-  }>
-  <div
-    className="sc-gzVnrw gGgAoo">
-    <button
-      className="sc-bZQynM gpnJof"
-      onClick={[Function]}>
-      FI
-    </button>
-    <button
-      className="sc-bZQynM gpnJof"
-      onClick={[Function]}>
-      SV
-    </button>
-    <button
-      className="sc-bZQynM gpnJof"
-      onClick={[Function]}>
-      EN
-    </button>
-  </div>
+  className="sc-kAzzGY gXZfox sc-dnqmqq bDsesi sc-htoDjs gkBvEs">
+  <button
+    className="sc-gzVnrw eOuGMJ"
+    onClick={[Function]}>
+    FI
+  </button>
+  <button
+    className="sc-gzVnrw eOuGMJ"
+    onClick={[Function]}>
+    SV
+  </button>
+  <button
+    className="sc-gzVnrw eOuGMJ"
+    onClick={[Function]}>
+    EN
+  </button>
 </div>
 `;

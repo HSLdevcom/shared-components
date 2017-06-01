@@ -64,8 +64,8 @@ Menu.propTypes = {
     height: PropTypes.string.isRequired,
     width: PropTypes.string.isRequired
   }).isRequired,
-  children: PropTypes.node,
-  className: PropTypes.string
+  className: React.PropTypes.string,
+  children: PropTypes.node
 };
 
-export default Menu;
+export default styled(Menu)``;

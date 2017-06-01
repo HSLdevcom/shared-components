@@ -10,9 +10,10 @@ const hslTheme = {
   logoHeight: '4rem',
   logoFill: '#ffffff',
   radioBtnActive: '#0062a1',
-  fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B", Arial, Georgia, Serif',
+  fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B"',
   fontSize: '16px',
-  fontWeight: '500'
+  fontWeight: '500',
+  letterSpacing: '-0.5px'
 };
 
 export default hslTheme;

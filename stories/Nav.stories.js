@@ -27,14 +27,7 @@ const stories = storiesOf('Nav', module);
 
 stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
-  const style = {
-    color: '#FFFFFF',
-    padding: '2rem',
-    background: '#007ac9',
-    height: '5rem'
-  };
-
-  const logo = <HSLLogo fill="#FFFFFF" height="4rem" />;
+  const logo = <HSLLogo fill="#FFFFFF" height="3.75rem" />;
 
   const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
   const options = {
@@ -46,16 +39,20 @@ stories.addWithJSX('default', () => {
   const selectedLanguage = select('Selected language', options, 'fi');
 
   const langSelect = {
-    height: '2rem',
-    width: '6rem'
+    height: '1.75rem',
+    width: '7rem'
   };
   const searchIcon = {
-    height: '2rem',
-    width: '2rem',
+    height: '1.5rem',
+    width: '1.5rem',
     fill: '#FFFFFF'
   };
+  const StyledMenu = Menu.extend`
+    width: 17.5em;
+    marginLeft: 10em;
+  `;
 
-  const menu = (<Menu
+  const menu = (<StyledMenu
     languages={languages}
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -63,22 +60,28 @@ stories.addWithJSX('default', () => {
     langSelect={langSelect}
   >
     <IconWithText
-      icon={<SignIn />}
+      icon={<TravelCard />}
       text={'Matkakortti'}
       textPosition={'Right'}
       fill={'#FFFFFF'}
       height={'2rem'}
     />
     <IconWithText
-      icon={<TravelCard />}
+      icon={<SignIn />}
       text={'Kirjaudu'}
       textPosition={'Right'}
       fill={'#FFFFFF'}
       height={'2rem'}
     />
-  </Menu>);
+  </StyledMenu>);
+  const StyledNav = Nav.extend`
+    color: #FFFFFF;
+    padding: 0 2.5rem;
+    background: #007ac9;
+    height: 9rem;
+  `;
 
-  return (<Nav logo={logo} style={style} menu={menu}>
+  return (<StyledNav logo={logo} menu={menu}>
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <IconWithText
@@ -92,5 +95,5 @@ stories.addWithJSX('default', () => {
       />
     </Link>)
      )}
-  </Nav>);
+  </StyledNav>);
 });

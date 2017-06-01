@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import Span from '../Span/Span';
+
 
 const displayMap = {
   Right: 'inline',
@@ -11,7 +13,7 @@ const displayMap = {
 const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
-  margin: ${props => (props.textPosition === 'Right' ? '0 1rem 0 0' : '0 0 0.75rem 0')};
+  margin: ${props => (props.textPosition === 'Right' ? '0 0.75rem 0 0' : '0 0 0.75rem 0')};
 `;
 
 const IconWithText = ({ icon,
@@ -40,4 +42,4 @@ IconWithText.propTypes = {
   textPosition: PropTypes.oneOf(['Right', 'Bottom']),
 };
 
-export default IconWithText;
+export default styled(IconWithText)``;

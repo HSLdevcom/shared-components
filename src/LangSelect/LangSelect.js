@@ -7,7 +7,7 @@ const LangButton = styled.button`
   border: 0;
   outline: 0;
   background: 0;
-  padding: 0.25rem 0.5rem;
+  padding: 0 0.5rem;
   color: inherit;
   font: inherit;
   &:hover {
@@ -25,9 +25,10 @@ const Div = styled.div`
 const LangSelect = ({
   languages,
   changeLanguage,
-  selectedLanguage
+  selectedLanguage,
+  className
 }) => (
-  <Div>
+  <Div className={className}>
     {
       languages.map(lang =>
         (
@@ -57,7 +58,8 @@ LangSelect.propTypes = {
   selectedLanguage: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-  ])
+  ]),
+  className: PropTypes.string
 };
 
-export default LangSelect;
+export default styled(LangSelect)``;

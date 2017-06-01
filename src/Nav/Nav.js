@@ -7,31 +7,27 @@ const StyledNav = styled.nav`
   display: flex;
   align-items: center;
   white-space: nowrap;
-  .menu {
-    margin-left: 3rem;
-  }
   justify-content: space-between;
 `;
 
 const Nav = ({
-  style,
+  className,
   logo,
   menu,
   children }) =>
-    (<StyledNav style={style}>
+    (<StyledNav className={className}>
       <Span>
         { logo }
       </Span>
       {children}
-      {React.cloneElement(menu, { className: 'menu' })}
+      { menu }
     </StyledNav>);
 
 Nav.propTypes = {
-  style: PropTypes.objectOf(PropTypes.any),
+  className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element.isRequired,
   children: PropTypes.node
 };
 
-
-export default Nav;
+export default styled(Nav)``;
