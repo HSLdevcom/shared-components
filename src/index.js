@@ -8,6 +8,7 @@ import Container from './Container/Container';
 import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span/Span';
+import LangSelect from './LangSelect/LangSelect';
 
 export {
   AppHeader,
@@ -19,5 +20,6 @@ export {
   Container,
   Icons,
   IconWithText,
-  Span
+  Span,
+  LangSelect
 };

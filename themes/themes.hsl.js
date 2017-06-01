@@ -8,7 +8,8 @@ const hslTheme = {
   md: '900px',
   navbarHeight: '5rem', // default: auto
   logoHeight: '4rem',
-  logoFill: '#ffffff'
+  logoFill: '#ffffff',
+  radioBtnActive: '#0062a1'
 };
 
 export default hslTheme;

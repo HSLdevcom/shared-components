@@ -1,0 +1,31 @@
+exports[`default`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#007ac9",
+      "color": "#ffffff",
+      "height": "25px",
+      "padding": "25px",
+      "width": "100px",
+    }
+  }>
+  <div
+    className="sc-gzVnrw gGgAoo">
+    <button
+      className="sc-bZQynM kkcOho"
+      onClick={[Function]}>
+      FI
+    </button>
+    <button
+      className="sc-bZQynM kkcOho"
+      onClick={[Function]}>
+      SV
+    </button>
+    <button
+      className="sc-bZQynM kkcOho"
+      onClick={[Function]}>
+      EN
+    </button>
+  </div>
+</div>
+`;

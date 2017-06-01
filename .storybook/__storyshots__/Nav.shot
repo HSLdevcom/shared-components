@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-bZQynM cXUPdz"
+  className="sc-htoDjs jTCAjD"
   style={
     Object {
       "background": "#007ac9",
@@ -10,7 +10,7 @@ exports[`default`] = `
     }
   }>
   <span
-    className="logo sc-gzVnrw ibZhkv">
+    className="logo sc-dnqmqq bDsesi">
     <svg
       fill="#fff"
       height="4rem"
