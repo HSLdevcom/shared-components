@@ -20,9 +20,10 @@ const Menu = ({
   selectedLanguage,
   searchIcon,
   langSelect,
+  className,
   children
 }) => (
-  <Div>
+  <Div className={className}>
     <FlexWrapper>
       <Search fill={searchIcon.fill} height={searchIcon.height} width={searchIcon.width} />
       <Span style={{ height: langSelect.height, width: langSelect.width }}>
@@ -63,7 +64,8 @@ Menu.propTypes = {
     height: PropTypes.string.isRequired,
     width: PropTypes.string.isRequired
   }).isRequired,
-  children: PropTypes.node
+  children: PropTypes.node,
+  className: PropTypes.string
 };
 
 export default Menu;

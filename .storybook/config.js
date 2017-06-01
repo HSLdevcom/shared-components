@@ -12,7 +12,15 @@ function loadStories() {
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    {story()}
+    <div
+      style={{
+        fontFamily: Theme.fontFamily,
+        fontSize: Theme.fontSize,
+        fontWeight: Theme.fontWeight
+      }}
+    >
+      {story()}
+    </div>
   </ThemeProvider>
 ));
 

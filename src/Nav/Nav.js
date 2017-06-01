@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Span from '../Span/Span';
 
 const StyledNav = styled.nav`
   display: flex;
   align-items: center;
   white-space: nowrap;
-  >a {
-    margin: ${props => ((props.style && props.style.linkMargin) || '0 1.5rem')};
+  .menu {
+    margin-left: 3rem;
   }
+  justify-content: space-between;
 `;
-const StyledSpan = styled.span``;
 
 const Nav = ({
   style,
@@ -18,11 +19,11 @@ const Nav = ({
   menu,
   children }) =>
     (<StyledNav style={style}>
-      <StyledSpan className="logo">
+      <Span>
         { logo }
-      </StyledSpan>
+      </Span>
       {children}
-      { menu }
+      {React.cloneElement(menu, { className: 'menu' })}
     </StyledNav>);
 
 Nav.propTypes = {
