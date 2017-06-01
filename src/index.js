@@ -9,6 +9,7 @@ import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span/Span';
 import LangSelect from './LangSelect/LangSelect';
+import Menu from './Menu/Menu';
 
 export {
   AppHeader,
@@ -21,5 +22,6 @@ export {
   Icons,
   IconWithText,
   Span,
-  LangSelect
+  LangSelect,
+  Menu
 };

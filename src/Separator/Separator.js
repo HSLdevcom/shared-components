@@ -6,4 +6,9 @@ const Separator = styled.div `
   margin-top: 10px;
 `;
 
+const MenuSeparator = Separator.extend`
+  border-bottom: solid 1px ${props => props.theme.menuBorder};
+  margin: 0.75em 0;
+`;
+export { MenuSeparator };
 export default Separator;
