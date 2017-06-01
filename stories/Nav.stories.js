@@ -1,22 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf } from '@kadira/storybook';
+import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
+import Menu from '../src/Menu/Menu';
 import Nav from '../src/Nav/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
 
-import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More } from '../src/Icons';
+import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, SignIn, TravelCard } from '../src/Icons';
 
 setAddon(JSXAddon);
-
-const logo = <HSLLogo />;
-const logoFill = '#fff';
-const logoHeight = '4rem';
 
 const icons = [
   [<JourneyPlanner />, 'Reittiopas'],
@@ -37,7 +34,51 @@ stories.addWithJSX('default', () => {
     height: '5rem'
   };
 
-  return (<Nav logo={logo} logoFill={logoFill} logoHeight={logoHeight} style={style}>
+  const logo = <HSLLogo fill="#FFFFFF" height="4rem" />;
+
+  const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
+  const options = {
+    fi: 'FI',
+    sv: 'SV',
+    en: 'EN',
+  };
+
+  const selectedLanguage = select('Selected language', options, 'fi');
+
+  const langSelect = {
+    height: '2rem',
+    width: '6rem'
+  };
+  const searchIcon = {
+    height: '2rem',
+    width: '2rem',
+    fill: '#FFFFFF'
+  };
+
+  const menu = (<Menu
+    languages={languages}
+    selectedLanguage={selectedLanguage}
+    changeLanguage={action('language changed')}
+    searchIcon={searchIcon}
+    langSelect={langSelect}
+  >
+    <IconWithText
+      icon={<SignIn />}
+      text={'Matkakortti'}
+      textPosition={'Right'}
+      fill={'#FFFFFF'}
+      height={'2rem'}
+    />
+    <IconWithText
+      icon={<TravelCard />}
+      text={'Kirjaudu'}
+      textPosition={'Right'}
+      fill={'#FFFFFF'}
+      height={'2rem'}
+    />
+  </Menu>);
+
+  return (<Nav logo={logo} style={style} menu={menu}>
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <IconWithText

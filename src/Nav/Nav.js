@@ -15,24 +15,20 @@ const StyledSpan = styled.span``;
 const Nav = ({
   style,
   logo,
-  logoFill,
-  logoHeight,
+  menu,
   children }) =>
     (<StyledNav style={style}>
       <StyledSpan className="logo">
-        {React.cloneElement(logo, { fill: logoFill, height: logoHeight })}
+        { logo }
       </StyledSpan>
       {children}
+      { menu }
     </StyledNav>);
 
 Nav.propTypes = {
   style: PropTypes.objectOf(PropTypes.any),
   logo: PropTypes.element.isRequired,
-  logoFill: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.object
-  ]),
-  logoHeight: PropTypes.string,
+  menu: PropTypes.element.isRequired,
   children: PropTypes.node
 };
 
