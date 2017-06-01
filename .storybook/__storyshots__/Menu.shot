@@ -39,17 +39,17 @@ exports[`default`] = `
         <div
           className="sc-gzVnrw gGgAoo">
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             EN
           </button>

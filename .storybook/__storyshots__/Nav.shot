@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-gqjmRU eolJhs"
+  className="sc-gqjmRU kkByAP"
   style={
     Object {
       "background": "#007ac9",
@@ -10,7 +10,7 @@ exports[`default`] = `
     }
   }>
   <span
-    className="logo sc-VigVT fIhGog">
+    className="sc-bxivhb bUZGRr">
     <svg
       fill="#FFFFFF"
       height="4rem"
@@ -247,7 +247,7 @@ exports[`default`] = `
     </span>
   </a>
   <div
-    className="sc-iwsKbI jQhHGA">
+    className="menu sc-iwsKbI jQhHGA">
     <div
       className="sc-gZMcBi dcMSXI">
       <svg
@@ -277,17 +277,17 @@ exports[`default`] = `
         <div
           className="sc-gzVnrw gGgAoo">
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-bZQynM kkcOho"
+            className="sc-bZQynM gpnJof"
             onClick={[Function]}>
             EN
           </button>
