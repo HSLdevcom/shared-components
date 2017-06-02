@@ -16,6 +16,11 @@ const Button = styled.button`
   display: block;
   margin: auto;
   font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B", Arial, Georgia, Serif;
+  &:hover {
+    cursor: pointer;
+    border-color: ${props => (props.primary ? props.theme.primaryHover : props.theme.secondaryHover)};
+    background-color: ${props => (props.primary ? props.theme.primaryHover : props.theme.secondaryHover)};
+  }
 `;
 
 export default Button;
