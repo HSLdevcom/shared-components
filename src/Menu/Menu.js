@@ -19,14 +19,13 @@ const Menu = ({
   changeLanguage,
   selectedLanguage,
   searchIcon,
-  langSelect,
   className,
   children
 }) => (
   <Div className={className}>
-    <FlexWrapper>
+    <FlexWrapper className="top">
       <Search fill={searchIcon.fill} height={searchIcon.height} width={searchIcon.width} />
-      <Span style={{ height: langSelect.height, width: langSelect.width }}>
+      <Span className="lang-select">
         <LangSelect
           languages={languages}
           selectedLanguage={selectedLanguage}
@@ -35,7 +34,7 @@ const Menu = ({
       </Span>
     </FlexWrapper>
     <MenuSeparator />
-    <FlexWrapper>
+    <FlexWrapper className="bottom">
       {children}
     </FlexWrapper>
   </Div>
@@ -60,12 +59,13 @@ Menu.propTypes = {
     width: PropTypes.string.isRequired,
     fill: PropTypes.string.isRequired
   }).isRequired,
-  langSelect: PropTypes.shape({
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired
-  }).isRequired,
   className: React.PropTypes.string,
   children: PropTypes.node
 };
 
-export default styled(Menu)``;
+export default styled(Menu)`
+  .lang-select {
+    height: 1.75rem;
+    width: 7rem;
+  }
+`;

@@ -1,15 +1,9 @@
 exports[`default`] = `
 <span
-  className="sc-bxivhb bUZGRr"
-  style={
-    Object {
-      "display": "inline-block",
-      "textAlign": "center",
-    }
-  }>
+  className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
   <span
     aria-hidden="true"
-    className="sc-ifAKCX hwBugN">
+    className="icon sc-ifAKCX hwBugN">
     <svg
       fill="#3490C2"
       height="10em"
@@ -23,12 +17,7 @@ exports[`default`] = `
     </svg>
   </span>
   <span
-    className="sc-bxivhb bUZGRr"
-    style={
-      Object {
-        "display": "block",
-      }
-    }>
+    className="text sc-EHOje etPPzq">
     Sample text
   </span>
 </span>
@@ -36,16 +25,10 @@ exports[`default`] = `
 
 exports[`with inner & outer fill`] = `
 <span
-  className="sc-bxivhb bUZGRr"
-  style={
-    Object {
-      "display": "inline-block",
-      "textAlign": "center",
-    }
-  }>
+  className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
   <span
     aria-hidden="true"
-    className="sc-ifAKCX hwBugN">
+    className="icon sc-ifAKCX hwBugN">
     <svg
       height="10em"
       preserveAspectRatio="xMidYMid meet"
@@ -75,12 +58,7 @@ exports[`with inner & outer fill`] = `
     </svg>
   </span>
   <span
-    className="sc-bxivhb bUZGRr"
-    style={
-      Object {
-        "display": "block",
-      }
-    }>
+    className="text sc-EHOje etPPzq">
     Sample text
   </span>
 </span>

@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-kGXeez iszosm sc-fjdhpX fPqpdT">
+  className="sc-dxgOiQ bkZWJb sc-jzJRlG jPtldx">
   <span
     className="sc-bxivhb bUZGRr">
     <svg
@@ -22,16 +22,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <span
-      className="sc-bxivhb bUZGRr"
-      style={
-        Object {
-          "display": "inline-block",
-          "textAlign": "center",
-        }
-      }>
+      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
-        className="sc-ifAKCX hwBugN">
+        className="icon sc-ifAKCX hwBugN">
         <svg
           fill="#fff"
           height="2.5rem"
@@ -51,12 +45,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "block",
-          }
-        }>
+        className="text sc-EHOje etPPzq">
         Reittiopas
       </span>
     </span>
@@ -65,16 +54,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <span
-      className="sc-bxivhb bUZGRr"
-      style={
-        Object {
-          "display": "inline-block",
-          "textAlign": "center",
-        }
-      }>
+      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
-        className="sc-ifAKCX hwBugN">
+        className="icon sc-ifAKCX hwBugN">
         <svg
           fill="#fff"
           height="2.5rem"
@@ -88,12 +71,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "block",
-          }
-        }>
+        className="text sc-EHOje etPPzq">
         Liput ja hinnat
       </span>
     </span>
@@ -102,16 +80,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <span
-      className="sc-bxivhb bUZGRr"
-      style={
-        Object {
-          "display": "inline-block",
-          "textAlign": "center",
-        }
-      }>
+      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
-        className="sc-ifAKCX hwBugN">
+        className="icon sc-ifAKCX hwBugN">
         <svg
           fill="#fff"
           height="2.5rem"
@@ -128,12 +100,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "block",
-          }
-        }>
+        className="text sc-EHOje etPPzq">
         Asiakaspalvelu
       </span>
     </span>
@@ -142,16 +109,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <span
-      className="sc-bxivhb bUZGRr"
-      style={
-        Object {
-          "display": "inline-block",
-          "textAlign": "center",
-        }
-      }>
+      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
-        className="sc-ifAKCX hwBugN">
+        className="icon sc-ifAKCX hwBugN">
         <svg
           fill="#fff"
           height="2.5rem"
@@ -176,12 +137,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "block",
-          }
-        }>
+        className="text sc-EHOje etPPzq">
         Uutta
       </span>
     </span>
@@ -190,16 +146,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <span
-      className="sc-bxivhb bUZGRr"
-      style={
-        Object {
-          "display": "inline-block",
-          "textAlign": "center",
-        }
-      }>
+      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
-        className="sc-ifAKCX hwBugN">
+        className="icon sc-ifAKCX hwBugN">
         <svg
           fill="#fff"
           height="2.5rem"
@@ -228,20 +178,15 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "block",
-          }
-        }>
+        className="text sc-EHOje etPPzq">
         Lisää
       </span>
     </span>
   </a>
   <div
-    className="sc-kgoBCf fPNAsC sc-gqjmRU hnZXkc">
+    className="sc-kGXeez iRzbJn sc-VigVT fIhGog">
     <div
-      className="sc-VigVT eMNzRy">
+      className="top sc-jTzLTM gArCnl">
       <svg
         height="1.5rem"
         preserveAspectRatio="xMidYMid meet"
@@ -259,27 +204,21 @@ exports[`default`] = `
         </g>
       </svg>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "height": "1.75rem",
-            "width": "7rem",
-          }
-        }>
+        className="lang-select sc-bxivhb bUZGRr">
         <div
-          className="sc-dnqmqq bDsesi sc-htoDjs gkBvEs">
+          className="sc-iwsKbI jQhHGA sc-dnqmqq kzViGD">
           <button
-            className="sc-gzVnrw eOuGMJ"
+            className="sc-htoDjs qoRiC"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-gzVnrw eOuGMJ"
+            className="sc-htoDjs qoRiC"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-gzVnrw eOuGMJ"
+            className="sc-htoDjs qoRiC"
             onClick={[Function]}>
             EN
           </button>
@@ -287,20 +226,14 @@ exports[`default`] = `
       </span>
     </div>
     <div
-      className="sc-gZMcBi koAaZe" />
+      className="sc-gqjmRU excWsz" />
     <div
-      className="sc-VigVT eMNzRy">
+      className="bottom sc-jTzLTM gArCnl">
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "inline-block",
-            "textAlign": "center",
-          }
-        }>
+        className="sc-kpOJdX jQkWnP sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
-          className="sc-ifAKCX fIepDO">
+          className="icon sc-ifAKCX fIepDO">
           <svg
             fill="#FFFFFF"
             height="2rem"
@@ -314,26 +247,15 @@ exports[`default`] = `
           </svg>
         </span>
         <span
-          className="sc-bxivhb bUZGRr"
-          style={
-            Object {
-              "display": "inline",
-            }
-          }>
+          className="text sc-EHOje dsJZzO">
           Matkakortti
         </span>
       </span>
       <span
-        className="sc-bxivhb bUZGRr"
-        style={
-          Object {
-            "display": "inline-block",
-            "textAlign": "center",
-          }
-        }>
+        className="sc-kpOJdX jQkWnP sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
-          className="sc-ifAKCX fIepDO">
+          className="icon sc-ifAKCX fIepDO">
           <svg
             height="2rem"
             preserveAspectRatio="xMidYMid meet"
@@ -352,12 +274,7 @@ exports[`default`] = `
           </svg>
         </span>
         <span
-          className="sc-bxivhb bUZGRr"
-          style={
-            Object {
-              "display": "inline",
-            }
-          }>
+          className="text sc-EHOje dsJZzO">
           Kirjaudu
         </span>
       </span>

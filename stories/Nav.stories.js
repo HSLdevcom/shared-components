@@ -7,6 +7,7 @@ import { withKnobs, select } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
+import Media from '../themes/media-templates';
 import Menu from '../src/Menu/Menu';
 import Nav from '../src/Nav/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
@@ -38,10 +39,6 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const langSelect = {
-    height: '1.75rem',
-    width: '7rem'
-  };
   const searchIcon = {
     height: '1.5rem',
     width: '1.5rem',
@@ -49,7 +46,33 @@ stories.addWithJSX('default', () => {
   };
   const StyledMenu = Menu.extend`
     width: 17.5em;
-    marginLeft: 10em;
+    margin-left: 9em;
+    .lang-select {
+      height: 1.75rem;
+      width: 7rem;
+    }
+    ${Media.large`
+      width: 10em;
+      margin-left: 3em;
+      .bottom {
+        justify-content: flex-end;
+      }
+    `}
+    ${Media.medium`
+      width: 5em;
+      margin-left: 3em;
+      .top, .bottom {
+        justify-content: space-between;
+      }
+      .lang-select {
+        width: 2rem;
+      }
+    `}
+  `;
+  const StyledIWT = IconWithText.extend`
+    .text {
+      ${Media.large`display: none;`}
+    }
   `;
 
   const menu = (<StyledMenu
@@ -57,16 +80,15 @@ stories.addWithJSX('default', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
     searchIcon={searchIcon}
-    langSelect={langSelect}
   >
-    <IconWithText
+    <StyledIWT
       icon={<TravelCard />}
       text={'Matkakortti'}
       textPosition={'Right'}
       fill={'#FFFFFF'}
       height={'2rem'}
     />
-    <IconWithText
+    <StyledIWT
       icon={<SignIn />}
       text={'Kirjaudu'}
       textPosition={'Right'}

@@ -21,6 +21,10 @@ stories.addWithJSX('default', () => {
     color: #ffffff;
     background-color: #007ac9;
     padding: 25px;
+    .lang-select {
+      height: 2rem;
+      width: 6rem;
+    }
   `;
   const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
   const options = {
@@ -31,10 +35,6 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const langSelect = {
-    height: '2rem',
-    width: '6rem'
-  };
   const searchIcon = {
     height: '2rem',
     width: '2rem',
@@ -46,7 +46,6 @@ stories.addWithJSX('default', () => {
       selectedLanguage={selectedLanguage}
       changeLanguage={action('language changed')}
       searchIcon={searchIcon}
-      langSelect={langSelect}
     >
       <IconWithText
         icon={<SignIn />}
