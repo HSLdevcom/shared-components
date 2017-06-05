@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
@@ -39,10 +39,11 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
+  const open = boolean('Display list', false);
+
   const searchIcon = {
     height: '1.5rem',
     width: '1.5rem',
-    fill: '#FFFFFF'
   };
   const StyledMenu = Menu.extend`
     width: 17.5em;
@@ -64,8 +65,17 @@ stories.addWithJSX('default', () => {
       .top, .bottom {
         justify-content: space-between;
       }
+      .bottom svg {
+        height: 1.75rem;
+      }
       .lang-select {
-        width: 2rem;
+        width: auto;
+        .large {
+          display: none;
+        }
+        .small {
+          display: block;
+        }
       }
     `}
   `;
@@ -80,6 +90,8 @@ stories.addWithJSX('default', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
     searchIcon={searchIcon}
+    iconFill={'#FFFFFF'}
+    langSelectOpen={open}
   >
     <StyledIWT
       icon={<TravelCard />}
@@ -101,6 +113,12 @@ stories.addWithJSX('default', () => {
     padding: 0 2.5rem;
     background: #007ac9;
     height: 9rem;
+    > a {
+      text-align: center;
+    }
+    ${Media.medium`
+      font-size: 90%;
+    `}
   `;
 
   return (<StyledNav logo={logo} menu={menu}>
