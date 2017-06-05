@@ -98,7 +98,12 @@ const MenuSmallUnstyled = ({
 }) => (
   <FlexWrapper className={className}>
     {children}
-    <Search fill={iconFill} height={searchIcon.height} width={searchIcon.width} />
+    <Search
+      className="search-icon"
+      fill={iconFill}
+      height={searchIcon.height}
+      width={searchIcon.width}
+    />
     <LangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
@@ -134,10 +139,9 @@ MenuSmallUnstyled.propTypes = {
 };
 
 const MenuSmall = styled(MenuSmallUnstyled)`
-  padding: 0 1rem 0 0;
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    padding: 1rem 0 1rem 1rem;
+    padding: 0.5rem;
   }
 `;
 

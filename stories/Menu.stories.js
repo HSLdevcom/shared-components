@@ -132,7 +132,7 @@ stories.addWithJSX('minimal', () => {
   const StyledMenu = MenuSmall.extend`
     padding: 1rem;
     height: 3rem;
-    width: 240px;
+    width: 300px;
     color: #ffffff;
     background-color: #007ac9;
     align-items: center;
