@@ -122,8 +122,6 @@ const LangSelectSmall = styled(LangSelectSmallUnstyled)`
   padding: 0;
   ${props => (props.theme.background && `background-color: ${props.theme.background};`)}
   .selected-language {
-    display: table-cell;
-    vertical-align: middle;
     svg {
       margin-left: 0.25rem;
     }

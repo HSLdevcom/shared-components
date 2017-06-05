@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-kGXeez dVBRNM sc-dnqmqq kzViGD">
+  className="sc-kpOJdX cfjUnY sc-dnqmqq kzViGD">
   <button
     className="sc-htoDjs qoRiC"
     onClick={[Function]}>
@@ -21,7 +21,7 @@ exports[`default`] = `
 
 exports[`small`] = `
 <div
-  className="sc-kpOJdX jryfJp sc-gZMcBi CVNVo">
+  className="sc-dxgOiQ ikLWT sc-gZMcBi CVNVo">
   <button
     className="selected-language sc-htoDjs qoRiC">
     FI
