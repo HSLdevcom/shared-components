@@ -4,7 +4,7 @@ import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 
 import Menu from '../src/Menu/Menu';
 import IconWithText from '../src/IconWithText/IconWithText';
@@ -37,8 +37,7 @@ stories.addWithJSX('default', () => {
 
   const searchIcon = {
     height: '2rem',
-    width: '2rem',
-    fill: '#FFFFFF'
+    width: '2rem'
   };
   return (
     <StyledMenu
@@ -46,6 +45,7 @@ stories.addWithJSX('default', () => {
       selectedLanguage={selectedLanguage}
       changeLanguage={action('language changed')}
       searchIcon={searchIcon}
+      iconFill={'#FFFFFF'}
     >
       <IconWithText
         icon={<SignIn />}
@@ -55,6 +55,70 @@ stories.addWithJSX('default', () => {
         height={'2rem'}
       />
       <IconWithText
+        icon={<TravelCard />}
+        text={'Kirjaudu'}
+        textPosition={'Right'}
+        fill={'#FFFFFF'}
+        height={'2rem'}
+      />
+    </StyledMenu>);
+});
+
+stories.addWithJSX('minimal', () => {
+  const StyledMenu = Menu.extend`
+    width: 100px;
+    color: #ffffff;
+    background-color: #007ac9;
+    padding: 25px;
+    .lang-select {
+      height: auto;
+      width: auto;
+      .small {
+        display:block;
+      }
+      .large {
+        display: none;
+      }
+    }
+  `;
+  const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
+  const options = {
+    fi: 'FI',
+    sv: 'SV',
+    en: 'EN',
+  };
+
+  const selectedLanguage = select('Selected language', options, 'fi');
+  const open = boolean('Display list', false);
+
+  const searchIcon = {
+    height: '1.5rem',
+    width: '1.5rem'
+  };
+
+  const StyledIWT = IconWithText.extend`
+    .text {
+      display: none;
+    }
+  `;
+
+  return (
+    <StyledMenu
+      languages={languages}
+      selectedLanguage={selectedLanguage}
+      changeLanguage={action('language changed')}
+      searchIcon={searchIcon}
+      iconFill={'#FFFFFF'}
+      langSelectOpen={open}
+    >
+      <StyledIWT
+        icon={<SignIn />}
+        text={'Matkakortti'}
+        textPosition={'Right'}
+        fill={'#FFFFFF'}
+        height={'2rem'}
+      />
+      <StyledIWT
         icon={<TravelCard />}
         text={'Kirjaudu'}
         textPosition={'Right'}

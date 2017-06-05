@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import LangSelect from '../LangSelect/LangSelect';
+import LangSelect, { LangSelectSmall } from '../LangSelect/LangSelect';
 import { Search } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span/Span';
@@ -18,18 +18,29 @@ const Menu = ({
   languages,
   changeLanguage,
   selectedLanguage,
+  langSelectOpen,
   searchIcon,
+  iconFill,
   className,
   children
 }) => (
   <Div className={className}>
     <FlexWrapper className="top">
-      <Search fill={searchIcon.fill} height={searchIcon.height} width={searchIcon.width} />
+      <Search fill={iconFill} height={searchIcon.height} width={searchIcon.width} />
       <Span className="lang-select">
         <LangSelect
+          className="large"
           languages={languages}
           selectedLanguage={selectedLanguage}
           changeLanguage={changeLanguage}
+        />
+        <LangSelectSmall
+          className="small"
+          languages={languages}
+          selectedLanguage={selectedLanguage}
+          changeLanguage={changeLanguage}
+          open={langSelectOpen}
+          fill={iconFill}
         />
       </Span>
     </FlexWrapper>
@@ -56,9 +67,10 @@ Menu.propTypes = {
   ]),
   searchIcon: PropTypes.shape({
     height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-    fill: PropTypes.string.isRequired
+    width: PropTypes.string.isRequired
   }).isRequired,
+  iconFill: PropTypes.string.isRequired,
+  langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node
 };
@@ -67,5 +79,8 @@ export default styled(Menu)`
   .lang-select {
     height: 1.75rem;
     width: 7rem;
+    .small {
+      display: none;
+    }
   }
 `;
