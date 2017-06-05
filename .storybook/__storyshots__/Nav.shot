@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-dxgOiQ bkZWJb sc-jzJRlG jPtldx">
+  className="sc-eNQAEJ cNDOAH sc-kAzzGY dKyocK">
   <span
     className="sc-bxivhb bUZGRr">
     <svg
@@ -184,9 +184,9 @@ exports[`default`] = `
     </span>
   </a>
   <div
-    className="sc-kGXeez iRzbJn sc-VigVT fIhGog">
+    className="sc-ckVGcZ fOwfc sc-fjdhpX nsimD">
     <div
-      className="top sc-jTzLTM gArCnl">
+      className="top sc-jzJRlG kYcudh">
       <svg
         height="1.5rem"
         preserveAspectRatio="xMidYMid meet"
@@ -226,11 +226,11 @@ exports[`default`] = `
       </span>
     </div>
     <div
-      className="sc-gqjmRU excWsz" />
+      className="sc-jTzLTM ioLuFM" />
     <div
-      className="bottom sc-jTzLTM gArCnl">
+      className="bottom sc-jzJRlG kYcudh">
       <span
-        className="sc-kpOJdX jQkWnP sc-bxivhb bUZGRr">
+        className="sc-jKJlTe bwuPJD sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
           className="icon sc-ifAKCX fIepDO">
@@ -252,7 +252,7 @@ exports[`default`] = `
         </span>
       </span>
       <span
-        className="sc-kpOJdX jQkWnP sc-bxivhb bUZGRr">
+        className="sc-jKJlTe bwuPJD sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
           className="icon sc-ifAKCX fIepDO">
