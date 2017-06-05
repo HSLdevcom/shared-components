@@ -6,7 +6,6 @@ const Container = styled.div`
   background-color: #fff;
   width: 100%;
   padding: 20px;
-  box-shadow: 1px 1px 1px #ababab;
   h1 {
     font-size: 22px;
     letter-spacing: -0.8px;
