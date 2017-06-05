@@ -275,3 +275,31 @@ stories.addWithJSX('minimal', () => {
      )}
   </StyledNav>);
 });
+
+
+stories.addWithJSX('only title', () => {
+  const LogoWrapper = Span.extend`
+    padding-left: 1rem;
+    svg {
+      width: 5.5rem;
+    }
+  `;
+  const logo = (<LogoWrapper><HSLLogo fill="#FFFFFF" height="3.75rem" /></LogoWrapper>);
+
+  const StyledNav = Nav.extend`
+    color: #FFFFFF;
+    background: #007ac9;
+    height: 4rem;
+    align-items: center;
+    justify-content: initial;
+    span.title {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  `;
+
+  return (<StyledNav logo={logo}>
+    <Span className="title">{'Lataa kautta'}</Span>
+  </StyledNav>);
+});

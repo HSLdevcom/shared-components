@@ -26,7 +26,7 @@ const Nav = ({
 Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
-  menu: PropTypes.element.isRequired,
+  menu: PropTypes.element,
   children: PropTypes.node
 };
 
