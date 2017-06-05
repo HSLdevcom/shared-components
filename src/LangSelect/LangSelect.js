@@ -72,6 +72,18 @@ const Div = styled.div`
   }
 `;
 
+const SelectWrapper = styled.div`
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  position: absolute;
+  border-radius: 3px;
+  ${props => (props.theme.menuBorder && `border: 1px solid ${props.theme.menuBorder};`)}
+  ${LangButton} {
+    &:hover {
+
+    }
+  }
+`;
+
 const LangSelectSmallUnstyled = ({
   languages,
   changeLanguage,
@@ -86,16 +98,20 @@ const LangSelectSmallUnstyled = ({
       <ArrowDown height="0.75rem" width="0.75rem" fill={fill} />
     </LangButton>
     {
-      open && languages.filter(lang => lang.id !== selectedLanguage).map(lang =>
-        (
-          <LangButton
-            key={lang.id}
-            onClick={() => { changeLanguage(lang.id); }}
-          >
-            {lang.name}
-          </LangButton>
+     open && <SelectWrapper className="select-wrapper">
+       {
+        languages.filter(lang => lang.id !== selectedLanguage).map(lang =>
+          (
+            <LangButton
+              key={lang.id}
+              onClick={() => { changeLanguage(lang.id); }}
+            >
+              {lang.name}
+            </LangButton>
+          )
         )
-      )
+      }
+     </SelectWrapper>
     }
   </Div>
 );
@@ -120,7 +136,7 @@ LangSelectSmallUnstyled.propTypes = {
 };
 const LangSelectSmall = styled(LangSelectSmallUnstyled)`
   padding: 0;
-  ${props => (props.theme.background && `background-color: ${props.theme.background};`)}
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
   .selected-language {
     svg {
       margin-left: 0.25rem;

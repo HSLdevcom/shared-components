@@ -134,14 +134,9 @@ MenuSmallUnstyled.propTypes = {
 };
 
 const MenuSmall = styled(MenuSmallUnstyled)`
-  * {
-    padding: 0;
-  }
   padding: 0 1rem 0 0;
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    display: flex;
-    height: 2rem;
     padding: 1rem 0 1rem 1rem;
   }
 `;

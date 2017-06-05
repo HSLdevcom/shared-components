@@ -1,8 +1,8 @@
 exports[`default`] = `
 <div
-  className="sc-ckVGcZ ckjeEr sc-fjdhpX nsimD">
+  className="sc-jKJlTe HMqTS sc-jzJRlG enxKql">
   <div
-    className="top sc-jzJRlG kYcudh">
+    className="top sc-cSHVUG duieSt">
     <svg
       height="2rem"
       preserveAspectRatio="xMidYMid meet"
@@ -40,7 +40,7 @@ exports[`default`] = `
         </button>
       </div>
       <div
-        className="small sc-gqjmRU gvEMFm sc-gZMcBi CVNVo">
+        className="small sc-VigVT hLlUvl sc-gZMcBi CVNVo">
         <button
           className="selected-language sc-htoDjs qoRiC">
           FI
@@ -60,9 +60,9 @@ exports[`default`] = `
     </span>
   </div>
   <div
-    className="sc-jTzLTM ioLuFM" />
+    className="sc-fjdhpX izGIzY" />
   <div
-    className="bottom sc-jzJRlG kYcudh">
+    className="bottom sc-cSHVUG duieSt">
     <span
       className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
@@ -118,9 +118,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-hMqMXs iICFEo sc-jzJRlG kYcudh">
+  className="sc-kEYyzF iiQUPQ sc-cSHVUG duieSt">
   <span
-    className="sc-kEYyzF bCUcen sc-bxivhb bUZGRr">
+    className="sc-kkGfuU bfaudZ sc-bxivhb bUZGRr">
     <span
       aria-hidden="true"
       className="icon sc-ifAKCX fIepDO">
@@ -147,7 +147,7 @@ exports[`minimal`] = `
     </span>
   </span>
   <span
-    className="sc-kEYyzF bCUcen sc-bxivhb bUZGRr">
+    className="sc-kkGfuU bfaudZ sc-bxivhb bUZGRr">
     <span
       aria-hidden="true"
       className="icon sc-ifAKCX fIepDO">
@@ -173,7 +173,7 @@ exports[`minimal`] = `
     preserveAspectRatio="xMidYMid meet"
     version="1.1"
     viewBox="0 0 25 25"
-    width={undefined}>
+    width="2rem">
     <g
       fill="#FFFFFF">
       <path
@@ -185,7 +185,7 @@ exports[`minimal`] = `
     </g>
   </svg>
   <div
-    className="sc-gqjmRU gvEMFm sc-gZMcBi CVNVo">
+    className="sc-VigVT hLlUvl sc-gZMcBi CVNVo">
     <button
       className="selected-language sc-htoDjs qoRiC">
       FI
@@ -207,9 +207,9 @@ exports[`minimal`] = `
 
 exports[`narrow`] = `
 <div
-  className="sc-jKJlTe ifvLfB sc-fjdhpX nsimD">
+  className="sc-eNQAEJ dZuJBB sc-jzJRlG enxKql">
   <div
-    className="top sc-jzJRlG kYcudh">
+    className="top sc-cSHVUG duieSt">
     <svg
       height="1.5rem"
       preserveAspectRatio="xMidYMid meet"
@@ -247,7 +247,7 @@ exports[`narrow`] = `
         </button>
       </div>
       <div
-        className="small sc-gqjmRU gvEMFm sc-gZMcBi CVNVo">
+        className="small sc-VigVT hLlUvl sc-gZMcBi CVNVo">
         <button
           className="selected-language sc-htoDjs qoRiC">
           FI
@@ -267,11 +267,11 @@ exports[`narrow`] = `
     </span>
   </div>
   <div
-    className="sc-jTzLTM ioLuFM" />
+    className="sc-fjdhpX izGIzY" />
   <div
-    className="bottom sc-jzJRlG kYcudh">
+    className="bottom sc-cSHVUG duieSt">
     <span
-      className="sc-eNQAEJ jkgkrO sc-bxivhb bUZGRr">
+      className="sc-hMqMXs cfyKte sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX fIepDO">
@@ -298,7 +298,7 @@ exports[`narrow`] = `
       </span>
     </span>
     <span
-      className="sc-eNQAEJ jkgkrO sc-bxivhb bUZGRr">
+      className="sc-hMqMXs cfyKte sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX fIepDO">

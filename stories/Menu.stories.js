@@ -131,11 +131,21 @@ stories.addWithJSX('narrow', () => {
 stories.addWithJSX('minimal', () => {
   const StyledMenu = MenuSmall.extend`
     padding: 1rem;
+    height: 3rem;
     width: 240px;
     color: #ffffff;
     background-color: #007ac9;
     align-items: center;
-    line-height: 0;
+    .icon {
+      line-height: 0;
+    }
+    > * {
+      height: 2rem;
+      display: flex;
+    }
+    .select-wrapper {
+      top: 3.5rem;
+    }
   `;
   const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
   const options = {
@@ -149,6 +159,7 @@ stories.addWithJSX('minimal', () => {
 
   const searchIcon = {
     height: '2rem',
+    width: '2rem'
   };
 
   const StyledIWT = IconWithText.extend`

@@ -1,10 +1,10 @@
 exports[`default`] = `
 <nav
-  className="sc-eHgmQL jSvpvp sc-chPdSV diDaBq">
+  className="sc-cvbbAY kxGvKU sc-kgoBCf hpBpxj">
   <span
     className="sc-bxivhb bUZGRr">
     <span
-      className="sc-kkGfuU khjitt">
+      className="sc-iAyFgw kIlDiL">
       <svg
         fill="#FFFFFF"
         height="3.75rem"
@@ -187,9 +187,9 @@ exports[`default`] = `
     </span>
   </a>
   <div
-    className="sc-iAyFgw hQjMvT sc-fjdhpX nsimD">
+    className="sc-hSdWYo iCHGtT sc-jzJRlG enxKql">
     <div
-      className="top sc-jzJRlG kYcudh">
+      className="top sc-cSHVUG duieSt">
       <svg
         height="1.5rem"
         preserveAspectRatio="xMidYMid meet"
@@ -227,7 +227,7 @@ exports[`default`] = `
           </button>
         </div>
         <div
-          className="small sc-gqjmRU gvEMFm sc-gZMcBi CVNVo">
+          className="small sc-VigVT hLlUvl sc-gZMcBi CVNVo">
           <button
             className="selected-language sc-htoDjs qoRiC">
             FI
@@ -247,11 +247,11 @@ exports[`default`] = `
       </span>
     </div>
     <div
-      className="sc-jTzLTM ioLuFM" />
+      className="sc-fjdhpX izGIzY" />
     <div
-      className="bottom sc-jzJRlG kYcudh">
+      className="bottom sc-cSHVUG duieSt">
       <span
-        className="sc-hSdWYo focRwT sc-bxivhb bUZGRr">
+        className="sc-eHgmQL cJuCia sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
           className="icon sc-ifAKCX fIepDO">
@@ -273,7 +273,7 @@ exports[`default`] = `
         </span>
       </span>
       <span
-        className="sc-hSdWYo focRwT sc-bxivhb bUZGRr">
+        className="sc-eHgmQL cJuCia sc-bxivhb bUZGRr">
         <span
           aria-hidden="true"
           className="icon sc-ifAKCX fIepDO">
