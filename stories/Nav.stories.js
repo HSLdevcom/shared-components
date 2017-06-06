@@ -8,7 +8,7 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 import JSXAddon from 'storybook-addon-jsx';
 
 import Media from '../themes/media-templates';
-import Menu, { MenuSmall } from '../src/Menu/Menu';
+import Menu, { MenuSmall } from '../src/Menu';
 import Nav from '../src/Nav/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
 import Span from '../src/Span/Span';

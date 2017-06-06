@@ -8,8 +8,8 @@ import Container from './Container/Container';
 import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span/Span';
-import LangSelect, { LangSelectSmall } from './LangSelect/LangSelect';
-import Menu, { MenuSmall } from './Menu/Menu';
+import LangSelect, { LangSelectSmall } from './LangSelect';
+import Menu, { MenuSmall } from './Menu';
 
 export {
   AppHeader,

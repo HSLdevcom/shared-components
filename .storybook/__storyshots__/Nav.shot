@@ -187,9 +187,9 @@ exports[`default`] = `
     </span>
   </a>
   <div
-    className="sc-hSdWYo iCHGtT sc-jzJRlG enxKql">
+    className="sc-hSdWYo iCHGtT sc-cSHVUG CAuLq">
     <div
-      className="top sc-cSHVUG duieSt">
+      className="top sc-jzJRlG kYcudh">
       <svg
         height="1.5rem"
         preserveAspectRatio="xMidYMid meet"
@@ -249,7 +249,7 @@ exports[`default`] = `
     <div
       className="sc-fjdhpX izGIzY" />
     <div
-      className="bottom sc-cSHVUG duieSt">
+      className="bottom sc-jzJRlG kYcudh">
       <span
         className="sc-eHgmQL cJuCia sc-bxivhb bUZGRr">
         <span
@@ -493,7 +493,7 @@ exports[`minimal`] = `
     </span>
   </a>
   <div
-    className="sc-brqgnP gUxvXw sc-cSHVUG duieSt">
+    className="sc-brqgnP gUxvXw sc-jzJRlG kYcudh">
     <span
       className="sc-jAaTju gLaadk sc-bxivhb bUZGRr">
       <span

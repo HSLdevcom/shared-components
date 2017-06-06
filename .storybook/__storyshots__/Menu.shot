@@ -1,8 +1,8 @@
 exports[`default`] = `
 <div
-  className="sc-jKJlTe HMqTS sc-jzJRlG enxKql">
+  className="sc-jKJlTe HMqTS sc-cSHVUG CAuLq">
   <div
-    className="top sc-cSHVUG duieSt">
+    className="top sc-jzJRlG kYcudh">
     <svg
       height="2rem"
       preserveAspectRatio="xMidYMid meet"
@@ -62,7 +62,7 @@ exports[`default`] = `
   <div
     className="sc-fjdhpX izGIzY" />
   <div
-    className="bottom sc-cSHVUG duieSt">
+    className="bottom sc-jzJRlG kYcudh">
     <span
       className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
       <span
@@ -118,7 +118,7 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-kEYyzF gAEKRP sc-cSHVUG duieSt">
+  className="sc-kEYyzF gAEKRP sc-jzJRlG kYcudh">
   <span
     className="sc-kkGfuU bfaudZ sc-bxivhb bUZGRr">
     <span
@@ -207,9 +207,9 @@ exports[`minimal`] = `
 
 exports[`narrow`] = `
 <div
-  className="sc-eNQAEJ dZuJBB sc-jzJRlG enxKql">
+  className="sc-eNQAEJ dZuJBB sc-cSHVUG CAuLq">
   <div
-    className="top sc-cSHVUG duieSt">
+    className="top sc-jzJRlG kYcudh">
     <svg
       height="1.5rem"
       preserveAspectRatio="xMidYMid meet"
@@ -269,7 +269,7 @@ exports[`narrow`] = `
   <div
     className="sc-fjdhpX izGIzY" />
   <div
-    className="bottom sc-cSHVUG duieSt">
+    className="bottom sc-jzJRlG kYcudh">
     <span
       className="sc-hMqMXs cfyKte sc-bxivhb bUZGRr">
       <span

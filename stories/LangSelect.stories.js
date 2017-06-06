@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 
-import LangSelect, { LangSelectSmall } from '../src/LangSelect/LangSelect';
+import LangSelect, { LangSelectSmall } from '../src/LangSelect';
 
 setAddon(JSXAddon);
 
