@@ -1,8 +1,8 @@
 exports[`default`] = `
 <div
-  className="sc-hSdWYo hpcLMW sc-kgoBCf cceBhZ">
+  className="sc-eHgmQL bOCKRj sc-kgoBCf cceBhZ">
   <div
-    className="top sc-dnqmqq hYQUsn">
+    className="top sc-dnqmqq loZnhf">
     <svg
       height="2rem"
       preserveAspectRatio="xMidYMid meet"
@@ -22,7 +22,7 @@ exports[`default`] = `
     <span
       className="lang-select sc-ifAKCX cFlEyZ">
       <div
-        className="large sc-gqjmRU hnZXkc sc-gZMcBi gzFlhe">
+        className="large sc-gqjmRU hnZXkc sc-gZMcBi dPxTAl">
         <button
           className="sc-iwsKbI jsZhYV"
           onClick={[Function]}>
@@ -62,7 +62,7 @@ exports[`default`] = `
   <div
     className="sc-kAzzGY LzUje" />
   <div
-    className="bottom sc-dnqmqq hYQUsn">
+    className="bottom sc-dnqmqq loZnhf">
     <span
       className="sc-gzVnrw hDwEie sc-ifAKCX cFlEyZ">
       <span
@@ -118,9 +118,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-jWBwVP iIzIuH sc-kpOJdX iTVTyX">
+  className="sc-brqgnP celWLo sc-kpOJdX hdkMYj">
   <span
-    className="sc-brqgnP nmLOH sc-ifAKCX cFlEyZ">
+    className="sc-cMljjf dkfxDM sc-ifAKCX cFlEyZ">
     <span
       aria-hidden="true"
       className="icon sc-EHOje fDoFrN">
@@ -142,7 +142,7 @@ exports[`minimal`] = `
     </span>
   </span>
   <span
-    className="sc-brqgnP nmLOH sc-ifAKCX cFlEyZ">
+    className="sc-cMljjf dkfxDM sc-ifAKCX cFlEyZ">
     <span
       aria-hidden="true"
       className="icon sc-EHOje fDoFrN">
@@ -207,13 +207,13 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <div
-  className="sc-cMljjf qDUVB sc-bdVaJa bDWFJH">
+  className="sc-jAaTju fXIIma sc-jKJlTe ljBanQ">
   <div
     className="sc-ckVGcZ iBHTME" />
   <div
-    className="sc-dnqmqq hYQUsn">
+    className="sc-dnqmqq loZnhf">
     <div
-      className="sc-gqjmRU hnZXkc sc-gZMcBi gzFlhe">
+      className="sc-gqjmRU hnZXkc sc-gZMcBi dPxTAl">
       <button
         className="sc-iwsKbI jsZhYV"
         onClick={[Function]}>
@@ -252,9 +252,9 @@ exports[`mobile`] = `
     <div
       className="sc-ckVGcZ iBHTME" />
     <div
-      className="sc-dnqmqq hYQUsn">
+      className="sc-dnqmqq loZnhf">
       <span
-        className="sc-jAaTju diuyIR sc-ifAKCX cFlEyZ">
+        className="sc-jDwBTQ dxdnSV sc-ifAKCX cFlEyZ">
         <span
           aria-hidden="true"
           className="icon sc-EHOje hRsejI">
@@ -278,7 +278,7 @@ exports[`mobile`] = `
       <div
         className="sc-chPdSV hIWkep" />
       <span
-        className="sc-jAaTju diuyIR sc-ifAKCX cFlEyZ">
+        className="sc-jDwBTQ dxdnSV sc-ifAKCX cFlEyZ">
         <span
           aria-hidden="true"
           className="icon sc-EHOje hRsejI">
@@ -311,9 +311,9 @@ exports[`mobile`] = `
 
 exports[`narrow`] = `
 <div
-  className="sc-eHgmQL gaxkB sc-kgoBCf cceBhZ">
+  className="sc-cvbbAY iPOSDn sc-kgoBCf cceBhZ">
   <div
-    className="top sc-dnqmqq hYQUsn">
+    className="top sc-dnqmqq loZnhf">
     <svg
       height="1.5rem"
       preserveAspectRatio="xMidYMid meet"
@@ -333,7 +333,7 @@ exports[`narrow`] = `
     <span
       className="lang-select sc-ifAKCX cFlEyZ">
       <div
-        className="large sc-gqjmRU hnZXkc sc-gZMcBi gzFlhe">
+        className="large sc-gqjmRU hnZXkc sc-gZMcBi dPxTAl">
         <button
           className="sc-iwsKbI jsZhYV"
           onClick={[Function]}>
@@ -373,9 +373,9 @@ exports[`narrow`] = `
   <div
     className="sc-kAzzGY LzUje" />
   <div
-    className="bottom sc-dnqmqq hYQUsn">
+    className="bottom sc-dnqmqq loZnhf">
     <span
-      className="sc-cvbbAY glbLBU sc-ifAKCX cFlEyZ">
+      className="sc-jWBwVP dDgsvK sc-ifAKCX cFlEyZ">
       <span
         aria-hidden="true"
         className="icon sc-EHOje fDoFrN">
@@ -397,7 +397,7 @@ exports[`narrow`] = `
       </span>
     </span>
     <span
-      className="sc-cvbbAY glbLBU sc-ifAKCX cFlEyZ">
+      className="sc-jWBwVP dDgsvK sc-ifAKCX cFlEyZ">
       <span
         aria-hidden="true"
         className="icon sc-EHOje fDoFrN">

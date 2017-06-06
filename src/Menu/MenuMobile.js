@@ -12,6 +12,15 @@ const Separator = MenuSeparator.extend`
   height: 2px;
 `;
 
+const StyledDiv = Div.extend`
+  ${LangSelect} {
+    font-size: 1.5rem;
+  }
+  .children {
+    font-size: 2rem;
+  }
+`;
+
 const MenuMobile = ({
   languages,
   changeLanguage,
@@ -21,7 +30,7 @@ const MenuMobile = ({
   className,
   children
 }) => (
-  <Div className={className}>
+  <StyledDiv className={className}>
     <Separator />
     <FlexWrapper>
       <LangSelect
@@ -37,7 +46,7 @@ const MenuMobile = ({
         {child}
       </Div>
     ))}
-  </Div>
+  </StyledDiv>
 );
 
 
@@ -63,13 +72,4 @@ MenuMobile.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(MenuMobile)`
-  ${LangSelect} {
-    height: 3rem;
-    width: 7rem;
-    font-size: 1.5rem;
-  }
-  .children {
-    font-size: 2rem;
-  }
-`;
+export default styled(MenuMobile)``;

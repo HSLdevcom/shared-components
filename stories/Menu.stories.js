@@ -131,7 +131,6 @@ stories.addWithJSX('minimal', () => {
     padding: 1rem;
     height: 3rem;
     width: 300px;
-    align-items: center;
     .icon {
       line-height: 0;
     }
