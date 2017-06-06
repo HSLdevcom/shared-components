@@ -189,7 +189,7 @@ exports[`default`] = `
   <div
     className="sc-eHgmQL gQMdwb sc-cSHVUG jSZssF">
     <div
-      className="top sc-jzJRlG kYcudh">
+      className="top sc-htoDjs dYZUib">
       <svg
         height="1.5rem"
         preserveAspectRatio="xMidYMid meet"
@@ -209,27 +209,27 @@ exports[`default`] = `
       <span
         className="lang-select sc-bxivhb bUZGRr">
         <div
-          className="large sc-iwsKbI jQhHGA sc-dnqmqq filFUB">
+          className="large sc-gZMcBi giNnHm sc-iwsKbI bzVPzK">
           <button
-            className="sc-htoDjs qoRiC"
+            className="sc-dnqmqq kEsyzc"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-htoDjs qoRiC"
+            className="sc-dnqmqq kEsyzc"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-htoDjs qoRiC"
+            className="sc-dnqmqq kEsyzc"
             onClick={[Function]}>
             EN
           </button>
         </div>
         <div
-          className="small sc-VigVT fIhGog sc-gZMcBi gvhBvC">
+          className="small sc-jTzLTM eCMmlJ sc-gqjmRU cwpHkH">
           <button
-            className="selected-language sc-htoDjs qoRiC">
+            className="selected-language sc-dnqmqq kEsyzc">
             FI
             <svg
               fill="#FFFFFF"
@@ -247,9 +247,9 @@ exports[`default`] = `
       </span>
     </div>
     <div
-      className="sc-fjdhpX izGIzY" />
+      className="sc-jzJRlG ULDNJ" />
     <div
-      className="bottom sc-jzJRlG kYcudh">
+      className="bottom sc-htoDjs dYZUib">
       <span
         className="sc-cvbbAY hkPCwq sc-bxivhb bUZGRr">
         <span
@@ -560,9 +560,9 @@ exports[`minimal`] = `
       </g>
     </svg>
     <div
-      className="sc-VigVT fIhGog sc-gZMcBi gvhBvC">
+      className="sc-jTzLTM eCMmlJ sc-gqjmRU cwpHkH">
       <button
-        className="selected-language sc-htoDjs qoRiC">
+        className="selected-language sc-dnqmqq kEsyzc">
         FI
         <svg
           fill="#FFFFFF"
