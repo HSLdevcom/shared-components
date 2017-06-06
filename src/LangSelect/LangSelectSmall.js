@@ -4,14 +4,15 @@ import styled from 'styled-components';
 
 import { ArrowDown } from '../Icons';
 import LangButton from './LangButton';
+import Div from '../Div/Div';
 
-const Div = styled.div`
+const StyledDiv = Div.extend`
   ${LangButton} {
     display: block;
   }
 `;
 
-const SelectWrapper = styled.div`
+const SelectWrapper = Div.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   position: absolute;
   border-radius: 3px;
@@ -31,7 +32,7 @@ const LangSelectSmall = ({
   open,
   className
 }) => (
-  <Div className={className}>
+  <StyledDiv className={className}>
     <LangButton className="selected-language">
       { languages.find(lang => lang.id === selectedLanguage).name }
       <ArrowDown height="0.75rem" width="0.75rem" fill={fill} />
@@ -52,7 +53,7 @@ const LangSelectSmall = ({
       }
      </SelectWrapper>
     }
-  </Div>
+  </StyledDiv>
 );
 
 

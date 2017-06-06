@@ -3,12 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import LangButton from './LangButton';
-
-const FlexWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-`;
+import FlexWrapper from '../FlexWrapper/FlexWrapper';
 
 const LangSelect = ({
   languages,

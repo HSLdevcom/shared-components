@@ -1,13 +1,13 @@
 exports[`primary`] = `
 <button
-  className="sc-bwzfXH kGhdsB">
+  className="sc-htpNat dPjcuE">
   Primary Button
 </button>
 `;
 
 exports[`secondary`] = `
 <button
-  className="sc-bwzfXH daFgyq">
+  className="sc-htpNat dFpKTM">
   Secondary Button
 </button>
 `;

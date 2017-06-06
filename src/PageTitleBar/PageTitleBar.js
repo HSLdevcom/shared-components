@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import Div from '../Div/Div';
 
-const Div = styled.div`
+const StyledDiv = Div.extend`
   position: relative;
   background-color: #fff;
   width: 100vw;
@@ -49,7 +49,7 @@ const Div = styled.div`
 
 
 const PageTitleBar = ({ children, backButton, onBackClick, className }) =>
-  <Div className={className}>
+  <StyledDiv className={className}>
     <div className="content-container">
       {backButton &&
         <button className="back-button" onClick={onBackClick}>
@@ -58,7 +58,7 @@ const PageTitleBar = ({ children, backButton, onBackClick, className }) =>
       }
       {children}
     </div>
-  </Div>;
+  </StyledDiv>;
 
 PageTitleBar.propTypes = {
   children: PropTypes.node.isRequired,

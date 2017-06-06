@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import Div from '../Div/Div';
 
-const Container = styled.div`
+const Container = Div.extend`
   border-radius: 5px;
   border: 1px solid #dddddd;
   background-color: #fff;

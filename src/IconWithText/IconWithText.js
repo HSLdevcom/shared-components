@@ -51,4 +51,6 @@ IconWithText.propTypes = {
   className: PropTypes.string
 };
 
-export default styled(IconWithText)``;
+export default styled(IconWithText)`
+  text-align: center;
+`;

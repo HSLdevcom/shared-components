@@ -2,52 +2,46 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import LangSelect, { LangSelectSmall } from '../LangSelect';
+import LangSelect from '../LangSelect';
 import { Search } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
-import Span from '../Span/Span';
-import Div from '../Div/Div';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import Div from '../Div/Div';
 
-const Menu = ({
+const Separator = MenuSeparator.extend`
+  height: 2px;
+`;
+
+const MenuMobile = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  langSelectOpen,
   searchIcon,
   iconFill,
   className,
   children
 }) => (
   <Div className={className}>
-    <FlexWrapper className="top">
+    <Separator />
+    <FlexWrapper>
+      <LangSelect
+        languages={languages}
+        selectedLanguage={selectedLanguage}
+        changeLanguage={changeLanguage}
+      />
       <Search fill={iconFill} height={searchIcon.height} width={searchIcon.width} />
-      <Span className="lang-select">
-        <LangSelect
-          className="large"
-          languages={languages}
-          selectedLanguage={selectedLanguage}
-          changeLanguage={changeLanguage}
-        />
-        <LangSelectSmall
-          className="small"
-          languages={languages}
-          selectedLanguage={selectedLanguage}
-          changeLanguage={changeLanguage}
-          open={langSelectOpen}
-          fill={iconFill}
-        />
-      </Span>
     </FlexWrapper>
-    <MenuSeparator />
-    <FlexWrapper className="bottom">
-      {children}
-    </FlexWrapper>
+    {React.Children.map(children, child => (
+      <Div className="children">
+        <Separator />
+        {child}
+      </Div>
+    ))}
   </Div>
 );
 
 
-Menu.propTypes = {
+MenuMobile.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.oneOfType([
       PropTypes.string,
@@ -65,17 +59,17 @@ Menu.propTypes = {
     width: PropTypes.string.isRequired
   }).isRequired,
   iconFill: PropTypes.string.isRequired,
-  langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node
 };
 
-export default styled(Menu)`
-  .lang-select {
-    height: 1.75rem;
+export default styled(MenuMobile)`
+  ${LangSelect} {
+    height: 3rem;
     width: 7rem;
-    .small {
-      display: none;
-    }
+    font-size: 1.5rem;
+  }
+  .children {
+    font-size: 2rem;
   }
 `;
