@@ -6,6 +6,15 @@ import { LangSelectSmall } from '../LangSelect';
 import { Search } from '../Icons';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 
+const StyledFlexWrapper = FlexWrapper.extend`
+  > * {
+    ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
+    padding: 0.5rem;
+  }
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+`;
+
 const MenuSmall = ({
   languages,
   changeLanguage,
@@ -16,7 +25,7 @@ const MenuSmall = ({
   className,
   children
 }) => (
-  <FlexWrapper className={className}>
+  <StyledFlexWrapper className={className}>
     {children}
     <Search
       className="search-icon"
@@ -31,7 +40,7 @@ const MenuSmall = ({
       open={langSelectOpen}
       fill={iconFill}
     />
-  </FlexWrapper>
+  </StyledFlexWrapper>
 );
 
 
@@ -58,9 +67,4 @@ MenuSmall.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(MenuSmall)`
-  > * {
-    ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    padding: 0.5rem;
-  }
-`;
+export default styled(MenuSmall)``;

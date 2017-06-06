@@ -20,8 +20,6 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
   const StyledMenu = Menu.extend`
     width: 300px;
-    color: #ffffff;
-    background-color: #007ac9;
     padding: 25px;
     .lang-select {
       height: 2rem;
@@ -69,8 +67,6 @@ stories.addWithJSX('default', () => {
 stories.addWithJSX('narrow', () => {
   const StyledMenu = Menu.extend`
     width: 100px;
-    color: #ffffff;
-    background-color: #007ac9;
     padding: 25px;
     .lang-select {
       height: auto;
@@ -135,8 +131,6 @@ stories.addWithJSX('minimal', () => {
     padding: 1rem;
     height: 3rem;
     width: 300px;
-    color: #ffffff;
-    background-color: #007ac9;
     align-items: center;
     .icon {
       line-height: 0;

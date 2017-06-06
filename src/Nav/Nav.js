@@ -8,6 +8,8 @@ const StyledNav = styled.nav`
   align-items: center;
   white-space: nowrap;
   justify-content: space-between;
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
 const Nav = ({

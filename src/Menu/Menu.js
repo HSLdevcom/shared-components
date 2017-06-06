@@ -9,6 +9,18 @@ import Span from '../Span/Span';
 import Div from '../Div/Div';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 
+const StyledDiv = Div.extend`
+  .lang-select {
+    height: 1.75rem;
+    width: 7rem;
+    .small {
+      display: none;
+    }
+  }
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+`;
+
 const Menu = ({
   languages,
   changeLanguage,
@@ -19,7 +31,7 @@ const Menu = ({
   className,
   children
 }) => (
-  <Div className={className}>
+  <StyledDiv className={className}>
     <FlexWrapper className="top">
       <Search fill={iconFill} height={searchIcon.height} width={searchIcon.width} />
       <Span className="lang-select">
@@ -43,7 +55,7 @@ const Menu = ({
     <FlexWrapper className="bottom">
       {children}
     </FlexWrapper>
-  </Div>
+  </StyledDiv>
 );
 
 
@@ -70,12 +82,4 @@ Menu.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(Menu)`
-  .lang-select {
-    height: 1.75rem;
-    width: 7rem;
-    .small {
-      display: none;
-    }
-  }
-`;
+export default styled(Menu)``;
