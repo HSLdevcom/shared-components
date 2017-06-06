@@ -1,6 +1,6 @@
 exports[`with back button`] = `
 <div
-  className="sc-gzVnrw bWSWFA">
+  className="sc-dxgOiQ dWNJj">
   <div
     className="content-container">
     <button
@@ -9,8 +9,10 @@ exports[`with back button`] = `
       <svg
         fill="#007ac9"
         height="1em"
+        preserveAspectRatio="xMidYMid meet"
         version="1.1"
-        viewBox="0 0 17 36">
+        viewBox="0 0 17 36"
+        width={undefined}>
         <g
           id="Page-1">
           <path
@@ -28,7 +30,7 @@ exports[`with back button`] = `
 
 exports[`without back button`] = `
 <div
-  className="sc-gzVnrw bWSWFA">
+  className="sc-dxgOiQ dWNJj">
   <div
     className="content-container">
     <h1>

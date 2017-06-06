@@ -1,8 +1,8 @@
 import React from 'react';
 /* eslint-disable */
-export default function({ fill, height }) {
+export default function({ fill, height, width }) {
   return (
-    <svg height={height} viewBox="0 0 376 376" version="1.1">
+    <svg height={height} width={width} viewBox="0 0 376 376" version="1.1" preserveAspectRatio="xMidYMid meet">
         <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g id="Group">
                 <circle fill={fill.outer} id="Oval" cx="188" cy="188" r="188"></circle>

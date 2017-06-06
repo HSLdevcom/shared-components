@@ -1,0 +1,41 @@
+exports[`default`] = `
+<div
+  className="sc-ckVGcZ fTzUFP sc-iwsKbI bzVPzK">
+  <button
+    className="sc-dnqmqq kEsyzc"
+    onClick={[Function]}>
+    FI
+  </button>
+  <button
+    className="sc-dnqmqq kEsyzc"
+    onClick={[Function]}>
+    SV
+  </button>
+  <button
+    className="sc-dnqmqq kEsyzc"
+    onClick={[Function]}>
+    EN
+  </button>
+</div>
+`;
+
+exports[`small`] = `
+<div
+  className="sc-jKJlTe fzhCtn sc-gqjmRU cwpHkH">
+  <button
+    className="selected-language sc-dnqmqq kEsyzc">
+    FI
+    <svg
+      fill="#FFFFFF"
+      height="0.75rem"
+      preserveAspectRatio="xMidYMid meet"
+      version="1.1"
+      viewBox="0 0 42.5 27.47"
+      width="0.75rem">
+      <path
+        d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+        id="Shape" />
+    </svg>
+  </button>
+</div>
+`;

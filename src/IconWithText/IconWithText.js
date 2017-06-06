@@ -1,52 +1,54 @@
 import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import Span from '../Span/Span';
 
-const displayMap = {
-  Right: 'inline',
-  Bottom: 'block'
-};
-
-const StyledSpan = styled.span`
-  background: ${props => props.background};
-  color: ${props => props.color};
-  display: inline-block;
-  text-align: center;
-`;
-
-const IconWrapper = styled.span`
+const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
-  margin: ${props => (props.textPosition === 'Right' ? '0 1em 0 0' : '0 0 1.25em 0')};
+  margin: ${props => (props.textPosition === 'Right' ? '0 0.75rem 0 0' : '0 0 0.75rem 0')};
+`;
+
+
+function getDisplayValue(textPosition) {
+  const displayMap = {
+    Right: 'inline',
+    Bottom: 'block'
+  };
+  return displayMap[textPosition];
+}
+
+
+const Text = Span.extend`
+  ${props => props.textPosition && `display: ${getDisplayValue(props.textPosition)};`};
 `;
 
 const IconWithText = ({ icon,
   height,
+  width,
   text,
-  color,
   fill,
-  background,
-  textPosition }) => (
-    <StyledSpan color={color} background={background}>
-      <IconWrapper aria-hidden="true" textPosition={textPosition}>
-        {React.cloneElement(icon, { fill, height })}
+  textPosition,
+  className }) => (
+    <Span className={className}>
+      <IconWrapper className="icon" aria-hidden="true" textPosition={textPosition}>
+        {React.cloneElement(icon, { fill, height, width })}
       </IconWrapper>
-      <Span display={displayMap[textPosition]}>{text}</Span>
-    </StyledSpan>
+      <Text className="text" textPosition={textPosition}>{text}</Text>
+    </Span>
 );
 
 IconWithText.propTypes = {
   icon: PropTypes.element.isRequired,
-  height: PropTypes.string.isRequired,
+  height: PropTypes.string,
+  width: PropTypes.string,
   text: PropTypes.string.isRequired,
-  color: PropTypes.string,
   fill: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object
   ]),
-  background: PropTypes.string,
-  textPosition: PropTypes.oneOf(['Right', 'Bottom'])
+  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
+  className: PropTypes.string
 };
 
-export default IconWithText;
+export default styled(IconWithText)``;
