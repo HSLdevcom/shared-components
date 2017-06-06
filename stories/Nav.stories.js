@@ -122,12 +122,10 @@ stories.addWithJSX('default', () => {
     />
   </StyledMenu>);
   const StyledNav = Nav.extend`
-    color: #FFFFFF;
     padding: 0 2.5rem;
     ${Media.large`
       padding: 0 1.75rem;
     `}
-    background: #007ac9;
     height: 9rem;
     > a {
       text-align: center;
@@ -182,9 +180,6 @@ stories.addWithJSX('minimal', () => {
     width: '2rem',
   };
   const StyledMenu = MenuSmall.extend`
-
-    color: #ffffff;
-    background-color: #007ac9;
     height: 100%;
     align-items: center;
     .icon {
@@ -250,8 +245,6 @@ stories.addWithJSX('minimal', () => {
     />
   </StyledMenu>);
   const StyledNav = Nav.extend`
-    color: #FFFFFF;
-    background: #007ac9;
     height: 4rem;
     > a {
       text-align: center;
@@ -287,8 +280,6 @@ stories.addWithJSX('only title', () => {
   const logo = (<LogoWrapper><HSLLogo fill="#FFFFFF" height="3.75rem" /></LogoWrapper>);
 
   const StyledNav = Nav.extend`
-    color: #FFFFFF;
-    background: #007ac9;
     height: 4rem;
     align-items: center;
     justify-content: initial;

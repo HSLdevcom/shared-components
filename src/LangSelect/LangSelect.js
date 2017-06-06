@@ -8,6 +8,8 @@ const FlexWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   height: 100%;
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
 const LangSelect = ({

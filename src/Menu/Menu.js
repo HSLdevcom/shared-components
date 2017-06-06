@@ -8,7 +8,17 @@ import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span/Span';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 
-const Div = styled.div``;
+const Div = styled.div`
+  .lang-select {
+    height: 1.75rem;
+    width: 7rem;
+    .small {
+      display: none;
+    }
+  }
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+`;
 
 const Menu = ({
   languages,
@@ -71,12 +81,4 @@ Menu.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(Menu)`
-  .lang-select {
-    height: 1.75rem;
-    width: 7rem;
-    .small {
-      display: none;
-    }
-  }
-`;
+export default styled(Menu)``;

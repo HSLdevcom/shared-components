@@ -17,8 +17,6 @@ stories.addWithJSX('default', () => {
   const StyledLangSelect = LangSelect.extend`
     width: 100px;
     height: 25px;
-    color: #ffffff;
-    background-color: #007ac9;
     padding: 25px;
   `;
   const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
@@ -40,7 +38,6 @@ stories.addWithJSX('default', () => {
 stories.addWithJSX('small', () => {
   const StyledLangSelect = LangSelectSmall.extend`
     width: 60px;
-    color: #ffffff;
   `;
   const languages = [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }];
   const options = {

@@ -9,6 +9,14 @@ const Div = styled.div`
   ${LangButton} {
     display: block;
   }
+  padding: 0;
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  .selected-language {
+    svg {
+      margin-left: 0.25rem;
+    }
+  }
 `;
 
 const SelectWrapper = styled.div`
@@ -73,12 +81,4 @@ LangSelectSmall.propTypes = {
   open: PropTypes.bool,
   className: PropTypes.string
 };
-export default styled(LangSelectSmall)`
-  padding: 0;
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  .selected-language {
-    svg {
-      margin-left: 0.25rem;
-    }
-  }
-`;
+export default styled(LangSelectSmall)``;

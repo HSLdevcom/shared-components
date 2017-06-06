@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-jKJlTe HMqTS sc-cSHVUG CAuLq">
+  className="sc-eNQAEJ hdeZuh sc-cSHVUG jSZssF">
   <div
     className="top sc-jzJRlG kYcudh">
     <svg
@@ -22,7 +22,7 @@ exports[`default`] = `
     <span
       className="lang-select sc-bxivhb bUZGRr">
       <div
-        className="large sc-iwsKbI jQhHGA sc-dnqmqq kzViGD">
+        className="large sc-iwsKbI jQhHGA sc-dnqmqq filFUB">
         <button
           className="sc-htoDjs qoRiC"
           onClick={[Function]}>
@@ -40,7 +40,7 @@ exports[`default`] = `
         </button>
       </div>
       <div
-        className="small sc-VigVT hLlUvl sc-gZMcBi CVNVo">
+        className="small sc-VigVT fIhGog sc-gZMcBi gvhBvC">
         <button
           className="selected-language sc-htoDjs qoRiC">
           FI
@@ -118,9 +118,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-kEYyzF gAEKRP sc-jzJRlG kYcudh">
+  className="sc-kkGfuU eohkyv sc-chPdSV gdJCry">
   <span
-    className="sc-kkGfuU bfaudZ sc-bxivhb bUZGRr">
+    className="sc-iAyFgw klxHtA sc-bxivhb bUZGRr">
     <span
       aria-hidden="true"
       className="icon sc-ifAKCX fIepDO">
@@ -147,7 +147,7 @@ exports[`minimal`] = `
     </span>
   </span>
   <span
-    className="sc-kkGfuU bfaudZ sc-bxivhb bUZGRr">
+    className="sc-iAyFgw klxHtA sc-bxivhb bUZGRr">
     <span
       aria-hidden="true"
       className="icon sc-ifAKCX fIepDO">
@@ -185,7 +185,7 @@ exports[`minimal`] = `
     </g>
   </svg>
   <div
-    className="sc-VigVT hLlUvl sc-gZMcBi CVNVo">
+    className="sc-VigVT fIhGog sc-gZMcBi gvhBvC">
     <button
       className="selected-language sc-htoDjs qoRiC">
       FI
@@ -207,7 +207,7 @@ exports[`minimal`] = `
 
 exports[`narrow`] = `
 <div
-  className="sc-eNQAEJ dZuJBB sc-cSHVUG CAuLq">
+  className="sc-hMqMXs kSuOlN sc-cSHVUG jSZssF">
   <div
     className="top sc-jzJRlG kYcudh">
     <svg
@@ -229,7 +229,7 @@ exports[`narrow`] = `
     <span
       className="lang-select sc-bxivhb bUZGRr">
       <div
-        className="large sc-iwsKbI jQhHGA sc-dnqmqq kzViGD">
+        className="large sc-iwsKbI jQhHGA sc-dnqmqq filFUB">
         <button
           className="sc-htoDjs qoRiC"
           onClick={[Function]}>
@@ -247,7 +247,7 @@ exports[`narrow`] = `
         </button>
       </div>
       <div
-        className="small sc-VigVT hLlUvl sc-gZMcBi CVNVo">
+        className="small sc-VigVT fIhGog sc-gZMcBi gvhBvC">
         <button
           className="selected-language sc-htoDjs qoRiC">
           FI
@@ -271,7 +271,7 @@ exports[`narrow`] = `
   <div
     className="bottom sc-jzJRlG kYcudh">
     <span
-      className="sc-hMqMXs cfyKte sc-bxivhb bUZGRr">
+      className="sc-kEYyzF lKyys sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX fIepDO">
@@ -298,7 +298,7 @@ exports[`narrow`] = `
       </span>
     </span>
     <span
-      className="sc-hMqMXs cfyKte sc-bxivhb bUZGRr">
+      className="sc-kEYyzF lKyys sc-bxivhb bUZGRr">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX fIepDO">
