@@ -32,3 +32,6 @@ When finishing the component add it as an import and a named export to the src/i
 ### Deployment instructions ###
 
 When pushing to the repository make sure to include the lib/**/*.js files so that the compiled ES5 versions of the components are always up to date on the repo.
+
+### Update github pages ###
+`yarn deploy-storybook`
