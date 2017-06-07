@@ -1,7 +1,10 @@
+import Media from './media-templates';
+
 const primaryBlue = '#007ac9';
 const primaryWhite = '#ffffff';
 
 const hslTheme = {
+  Media,
   primary: primaryBlue,
   primaryText: primaryWhite,
   primaryHover: '#0565a3',
