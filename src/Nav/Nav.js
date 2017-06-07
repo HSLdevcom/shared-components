@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import { addClass } from '../utils';
 import Span from '../Span/Span';
-import Media from '../../themes/media-templates';
 
 
 const StyledNav = styled.nav`
@@ -19,18 +18,23 @@ const StyledNav = styled.nav`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
   padding: 0 2.5rem;
   height: 9rem;
-
-  ${Media.large`
-    padding: 0 1.75rem;
-  `}
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.large`
+      padding: 0 1.75rem;
+    `
+  )}
   > .child {
     text-align: center;
     font-size: 1.1rem;
     margin: 0 1.5rem;
-    ${Media.large`
-      margin: 0 1rem;
-      font-size: 1rem;
-    `}
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+        margin: 0 1rem;
+        font-size: 1rem;
+      `
+    )}
 
   }
   > .menu {
@@ -38,18 +42,24 @@ const StyledNav = styled.nav`
   }
   > .logo {
     margin-right: 3.5rem;
-    ${Media.large`
-      margin-right: 2rem;
-      svg {
-        height: 3.25rem;
-      }
-    `}
-    ${Media.medium`
-      margin-right: 0.5rem;
-      svg {
-        height: 2.75rem;
-      }
-    `}
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+        margin-right: 2rem;
+        svg {
+          height: 3.25rem;
+        }
+      `
+    )}
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+        margin-right: 0.5rem;
+          svg {
+            height: 2.75rem;
+          }
+      `
+    )}
   }
   &.minimal {
     height: 4rem;
