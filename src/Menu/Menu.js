@@ -2,16 +2,58 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import LangSelect, { LangSelectSmall } from '../LangSelect/LangSelect';
-import { Search } from '../Icons';
+import LangSelect, { LangSelectSmall } from '../LangSelect';
+import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span/Span';
+import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import IconWithText from '../IconWithText/IconWithText';
+import Media from '../../themes/media-templates';
 
-const Div = styled.div``;
+const Div = styled.div`
+  .lang-select {
+    .small {
+      display: none;
+    }
+  }
+  .top svg {
+    fill: currentColor;
+  }
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  width: 17.5em;
+  ${Media.large`
+    width: 10em;
+    margin-left: 3em;
+    .bottom {
+      justify-content: flex-end;
+      ${IconWithText} {
+        .text {
+          display: none;
+        }
+      }
+    }
+  `}
 
-const FlexWrapper = Div.extend`
-  display: flex;
-  justify-content: space-between;
+  ${Media.medium`
+    width: 7em;
+    margin-left: 3em;
+    .top, .bottom {
+      justify-content: space-between;
+    }
+    .bottom svg {
+      height: 1.75rem;
+    }
+    .lang-select {
+      width: auto;
+      .large {
+        display: none;
+      }
+      .small {
+        display: block;
+      }
+    }
+  `}
 `;
 
 const Menu = ({
@@ -19,14 +61,12 @@ const Menu = ({
   changeLanguage,
   selectedLanguage,
   langSelectOpen,
-  searchIcon,
-  iconFill,
   className,
   children
 }) => (
   <Div className={className}>
     <FlexWrapper className="top">
-      <Search fill={iconFill} height={searchIcon.height} width={searchIcon.width} />
+      <Search height="2rem" width="2rem" />
       <Span className="lang-select">
         <LangSelect
           className="large"
@@ -40,7 +80,6 @@ const Menu = ({
           selectedLanguage={selectedLanguage}
           changeLanguage={changeLanguage}
           open={langSelectOpen}
-          fill={iconFill}
         />
       </Span>
     </FlexWrapper>
@@ -51,6 +90,26 @@ const Menu = ({
   </Div>
 );
 
+const defaultChildren = [
+  <IconWithText
+    icon={<SignIn height="2rem" />}
+    text="Matkakortti"
+    textPosition="Right"
+    key="signin"
+  />,
+  <IconWithText
+    icon={<TravelCard height="2rem" />}
+    text="Kirjaudu"
+    textPosition="Right"
+    key="travelcard"
+  />
+];
+
+
+Menu.defaultProps = {
+  children: defaultChildren
+};
+
 
 Menu.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
@@ -59,90 +118,15 @@ Menu.propTypes = {
       PropTypes.number,
     ]).isRequired,
     name: PropTypes.string.isRequired
-  })).isRequired,
+  })),
   changeLanguage: PropTypes.func.isRequired,
   selectedLanguage: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]),
-  searchIcon: PropTypes.shape({
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired
-  }).isRequired,
-  iconFill: PropTypes.string.isRequired,
   langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node
 };
 
-export default styled(Menu)`
-  .lang-select {
-    height: 1.75rem;
-    width: 7rem;
-    .small {
-      display: none;
-    }
-  }
-`;
-
-
-const MenuSmallUnstyled = ({
-  languages,
-  changeLanguage,
-  selectedLanguage,
-  langSelectOpen,
-  searchIcon,
-  iconFill,
-  className,
-  children
-}) => (
-  <FlexWrapper className={className}>
-    {children}
-    <Search
-      className="search-icon"
-      fill={iconFill}
-      height={searchIcon.height}
-      width={searchIcon.width}
-    />
-    <LangSelectSmall
-      languages={languages}
-      selectedLanguage={selectedLanguage}
-      changeLanguage={changeLanguage}
-      open={langSelectOpen}
-      fill={iconFill}
-    />
-  </FlexWrapper>
-);
-
-
-MenuSmallUnstyled.propTypes = {
-  languages: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.number,
-    ]).isRequired,
-    name: PropTypes.string.isRequired
-  })).isRequired,
-  changeLanguage: PropTypes.func.isRequired,
-  selectedLanguage: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-  ]),
-  searchIcon: PropTypes.shape({
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired
-  }).isRequired,
-  iconFill: PropTypes.string.isRequired,
-  langSelectOpen: PropTypes.bool,
-  className: React.PropTypes.string,
-  children: PropTypes.node
-};
-
-const MenuSmall = styled(MenuSmallUnstyled)`
-  > * {
-    ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    padding: 0.5rem;
-  }
-`;
-
-export { MenuSmall };
+export default styled(Menu)``;

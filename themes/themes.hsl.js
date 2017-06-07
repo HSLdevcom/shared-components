@@ -1,7 +1,9 @@
 const primaryBlue = '#007ac9';
+const primaryWhite = '#ffffff';
 
 const hslTheme = {
   primary: primaryBlue,
+  primaryText: primaryWhite,
   primaryHover: '#0565a3',
   secondary: '#bdbbbb',
   secondaryHover: '#f9f9f9',
@@ -10,7 +12,7 @@ const hslTheme = {
   md: '900px',
   navbarHeight: '5rem', // default: auto
   logoHeight: '4rem',
-  logoFill: '#ffffff',
+  logoFill: primaryWhite,
   radioBtnActive: '#0062a1',
   fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B"',
   fontSize: '16px',
