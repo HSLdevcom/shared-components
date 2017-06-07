@@ -17,11 +17,11 @@ import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More } from 
 setAddon(JSXAddon);
 
 const icons = [
-  [<JourneyPlanner />, 'Reittiopas'],
-  [<Tickets />, 'Liput ja hinnat'],
-  [<CustomerService />, 'Asiakaspalvelu'],
-  [<Latest />, 'Uutta'],
-  [<More />, 'Lisää']
+  [<JourneyPlanner height="2.5rem" width="2.5rem" />, 'Reittiopas'],
+  [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
+  [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
+  [<Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
+  [<More height="2.5rem" width="2.5rem" />, 'Lisää']
 ];
 
 const stories = storiesOf('Nav', module);
@@ -52,9 +52,6 @@ stories.addWithJSX('default', () => {
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
-        height={'2.5rem'}
-        width={'2.5rem'}
-        style={{ color: '#FFFFFF' }}
       />
     </Link>)
      )}
@@ -94,10 +91,6 @@ stories.addWithJSX('minimal', () => {
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
-        fill={'#fff'}
-        height={'2.5rem'}
-        width={'2.5rem'}
-        style={{ color: '#FFFFFF' }}
       />
     </Link>)
      )}

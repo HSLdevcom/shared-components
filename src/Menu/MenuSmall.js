@@ -78,19 +78,15 @@ const MenuSmall = ({
 
 const defaultChildren = [
   <StyledIWT
-    icon={<SignIn />}
+    icon={<SignIn height="2rem" />}
     text="Matkakortti"
     textPosition="Right"
-    fill="#FFFFFF"
-    height="2rem"
     key="signin"
   />,
   <StyledIWT
-    icon={<TravelCard />}
+    icon={<TravelCard height="2rem" />}
     text="Kirjaudu"
     textPosition="Right"
-    fill="#FFFFFF"
-    height="2rem"
     key="travelcard"
   />
 ];

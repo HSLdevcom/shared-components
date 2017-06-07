@@ -63,11 +63,11 @@ exports[`default`] = `
     className="sc-jzJRlG ULDNJ" />
   <div
     className="bottom sc-htoDjs dYZUib">
-    <span
-      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
+    <div
+      className="sc-bZQynM bOrPFB sc-EHOje heLVgc">
       <span
         aria-hidden="true"
-        className="icon sc-ifAKCX fIepDO">
+        className="icon sc-ifAKCX gPnoZu">
         <svg
           height="2rem"
           preserveAspectRatio="xMidYMid meet"
@@ -75,7 +75,7 @@ exports[`default`] = `
           viewBox="0 0 27 31"
           width={undefined}>
           <g
-            fill="#FFFFFF">
+            fill={undefined}>
             <path
               d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
               id="Shape" />
@@ -86,17 +86,17 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-EHOje dsJZzO">
+        className="text sc-bxivhb bUZGRr">
         Matkakortti
       </span>
-    </span>
-    <span
-      className="sc-bZQynM bOrPFB sc-bxivhb bUZGRr">
+    </div>
+    <div
+      className="sc-bZQynM bOrPFB sc-EHOje heLVgc">
       <span
         aria-hidden="true"
-        className="icon sc-ifAKCX fIepDO">
+        className="icon sc-ifAKCX gPnoZu">
         <svg
-          fill="#FFFFFF"
+          fill={undefined}
           height="2rem"
           preserveAspectRatio="xMidYMid meet"
           version="1.1"
@@ -108,10 +108,10 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-EHOje dsJZzO">
+        className="text sc-bxivhb bUZGRr">
         Kirjaudu
       </span>
-    </span>
+    </div>
   </div>
 </div>
 `;
@@ -119,11 +119,11 @@ exports[`default`] = `
 exports[`minimal`] = `
 <div
   className="sc-kGXeez eIIwaK sc-chPdSV dIQfci">
-  <span
-    className="sc-kgoBCf khKOmb sc-bxivhb bUZGRr">
+  <div
+    className="sc-kgoBCf khKOmb sc-EHOje heLVgc">
     <span
       aria-hidden="true"
-      className="icon sc-ifAKCX fIepDO">
+      className="icon sc-ifAKCX gPnoZu">
       <svg
         height="2rem"
         preserveAspectRatio="xMidYMid meet"
@@ -131,7 +131,7 @@ exports[`minimal`] = `
         viewBox="0 0 27 31"
         width={undefined}>
         <g
-          fill="#FFFFFF">
+          fill={undefined}>
           <path
             d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
             id="Shape" />
@@ -142,17 +142,17 @@ exports[`minimal`] = `
       </svg>
     </span>
     <span
-      className="text sc-EHOje dsJZzO">
+      className="text sc-bxivhb bUZGRr">
       Matkakortti
     </span>
-  </span>
-  <span
-    className="sc-kgoBCf khKOmb sc-bxivhb bUZGRr">
+  </div>
+  <div
+    className="sc-kgoBCf khKOmb sc-EHOje heLVgc">
     <span
       aria-hidden="true"
-      className="icon sc-ifAKCX fIepDO">
+      className="icon sc-ifAKCX gPnoZu">
       <svg
-        fill="#FFFFFF"
+        fill={undefined}
         height="2rem"
         preserveAspectRatio="xMidYMid meet"
         version="1.1"
@@ -164,10 +164,10 @@ exports[`minimal`] = `
       </svg>
     </span>
     <span
-      className="text sc-EHOje dsJZzO">
+      className="text sc-bxivhb bUZGRr">
       Kirjaudu
     </span>
-  </span>
+  </div>
   <svg
     height="2rem"
     preserveAspectRatio="xMidYMid meet"
