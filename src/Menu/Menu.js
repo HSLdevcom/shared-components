@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
@@ -16,15 +17,21 @@ const Div = styled.div`
       display: none;
     }
   }
-  .top svg {
+  svg {
     fill: currentColor;
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
-  width: 17.5em;
+  .child:not(:last-child) {
+    margin-right: 2rem;
+  }
   ${Media.large`
-    width: 10em;
-    margin-left: 3em;
+    svg {
+      height: 1.75rem;
+    }
+    .child:not(:last-child) {
+      margin-right: 0rem;
+    }
     .bottom {
       justify-content: flex-end;
       ${IconWithText} {
@@ -36,13 +43,11 @@ const Div = styled.div`
   `}
 
   ${Media.medium`
-    width: 7em;
-    margin-left: 3em;
     .top, .bottom {
       justify-content: space-between;
     }
-    .bottom svg {
-      height: 1.75rem;
+    .child:not(:last-child) {
+      margin-right: 1rem;
     }
     .lang-select {
       width: auto;
@@ -85,23 +90,23 @@ const Menu = ({
     </FlexWrapper>
     <MenuSeparator />
     <FlexWrapper className="bottom">
-      {children}
+      {React.Children.map(children, child => addClass(child, 'child'))}
     </FlexWrapper>
   </Div>
 );
 
 const defaultChildren = [
   <IconWithText
-    icon={<SignIn height="2rem" />}
+    icon={<TravelCard height="2rem" />}
     text="Matkakortti"
     textPosition="Right"
-    key="signin"
+    key="travelcard"
   />,
   <IconWithText
-    icon={<TravelCard height="2rem" />}
+    icon={<SignIn height="2rem" />}
     text="Kirjaudu"
     textPosition="Right"
-    key="travelcard"
+    key="signin"
   />
 ];
 

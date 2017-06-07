@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import cx from 'classnames';
 
+import { addClass } from '../utils';
 import Span from '../Span/Span';
 import Media from '../../themes/media-templates';
 
@@ -66,10 +66,6 @@ const StyledNav = styled.nav`
     }
   }
 `;
-
-function addClass(child, newClass) {
-  return React.cloneElement(child, { className: cx(child.props.className, newClass) });
-}
 
 const Nav = ({
   className,

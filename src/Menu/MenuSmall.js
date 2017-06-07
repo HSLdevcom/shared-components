@@ -11,6 +11,7 @@ import Media from '../../themes/media-templates';
 
 const StyledFlexWrapper = FlexWrapper.extend`
   align-items: center;
+  justify-content: flex-end;
   .icon {
     line-height: 0;
     margin: 0;
