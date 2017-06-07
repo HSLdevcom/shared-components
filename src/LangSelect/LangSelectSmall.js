@@ -16,6 +16,7 @@ const StyledDiv = Div.extend`
   .selected-language {
     svg {
       margin-left: 0.25rem;
+      fill: currentColor;
     }
   }
 `;
@@ -36,14 +37,13 @@ const LangSelectSmall = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  fill,
   open,
   className
 }) => (
   <StyledDiv className={className}>
     <LangButton className="selected-language">
       { languages.find(lang => lang.id === selectedLanguage).name }
-      <ArrowDown height="0.75rem" width="0.75rem" fill={fill} />
+      <ArrowDown height="0.75rem" width="0.75rem" />
     </LangButton>
     {
      open && <SelectWrapper className="select-wrapper">
@@ -65,6 +65,10 @@ const LangSelectSmall = ({
 );
 
 
+LangSelectSmall.defaultProps = {
+  languages: [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }]
+};
+
 LangSelectSmall.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.oneOfType([
@@ -78,7 +82,6 @@ LangSelectSmall.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  fill: PropTypes.string.isRequired,
   open: PropTypes.bool,
   className: PropTypes.string
 };

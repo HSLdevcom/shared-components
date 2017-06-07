@@ -1,6 +1,6 @@
 exports[`with back button`] = `
 <div
-  className="sc-kkGfuU jAWeqR">
+  className="sc-iAyFgw ftlpHa">
   <div
     className="content-container">
     <button
@@ -30,7 +30,7 @@ exports[`with back button`] = `
 
 exports[`without back button`] = `
 <div
-  className="sc-kkGfuU jAWeqR">
+  className="sc-iAyFgw ftlpHa">
   <div
     className="content-container">
     <h1>

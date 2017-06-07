@@ -7,46 +7,36 @@ const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
   margin: ${props => (props.textPosition === 'Right' ? '0 0.75rem 0 0' : '0 0 0.75rem 0')};
+  svg {
+    fill: currentColor;
+  }
 `;
 
-
-function getDisplayValue(textPosition) {
-  const displayMap = {
-    Right: 'inline',
-    Bottom: 'block'
-  };
-  return displayMap[textPosition];
-}
-
-
-const Text = Span.extend`
-  ${props => props.textPosition && `display: ${getDisplayValue(props.textPosition)};`};
+const Div = styled.div`
+  display: flex;
+  flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
+  align-items: center;
 `;
-
 const IconWithText = ({ icon,
-  height,
-  width,
   text,
-  fill,
   textPosition,
   className }) => (
-    <Span className={className}>
+    <Div className={className} textPosition={textPosition}>
       <IconWrapper className="icon" aria-hidden="true" textPosition={textPosition}>
-        {React.cloneElement(icon, { fill, height, width })}
+        { icon }
       </IconWrapper>
-      <Text className="text" textPosition={textPosition}>{text}</Text>
-    </Span>
+      <Span className="text" textPosition={textPosition}>{text}</Span>
+    </Div>
 );
 
+IconWithText.defaultProps = {
+  textPosition: 'Bottom'
+};
+
+
 IconWithText.propTypes = {
-  icon: PropTypes.element.isRequired,
-  height: PropTypes.string,
-  width: PropTypes.string,
+  icon: PropTypes.node.isRequired,
   text: PropTypes.string.isRequired,
-  fill: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.object
-  ]),
   textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   className: PropTypes.string
 };
