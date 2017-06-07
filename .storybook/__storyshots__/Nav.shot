@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
+  className="sc-dxgOiQ hTjMfW sc-kpOJdX cgmdPm">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
@@ -189,7 +189,7 @@ exports[`default`] = `
     </div>
   </a>
   <div
-    className="menu sc-kAzzGY jHprQs sc-cSHVUG cIjndZ">
+    className="menu sc-kAzzGY jHprQs sc-cSHVUG kEfsMG">
     <div
       className="top sc-htoDjs dYZUib">
       <svg
@@ -308,7 +308,7 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <nav
-  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
+  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX cgmdPm">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
@@ -497,9 +497,9 @@ exports[`minimal`] = `
     </div>
   </a>
   <div
-    className="menu sc-kGXeez eIIwaK sc-chPdSV dTCqNO">
+    className="menu sc-kGXeez eIIwaK sc-chPdSV gIotOr">
     <div
-      className="sc-kgoBCf khKOmb sc-EHOje heLVgc">
+      className="sc-kgoBCf ejiAiM sc-EHOje heLVgc">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX gPnoZu">
@@ -526,7 +526,7 @@ exports[`minimal`] = `
       </span>
     </div>
     <div
-      className="sc-kgoBCf khKOmb sc-EHOje heLVgc">
+      className="sc-kgoBCf ejiAiM sc-EHOje heLVgc">
       <span
         aria-hidden="true"
         className="icon sc-ifAKCX gPnoZu">
@@ -587,7 +587,7 @@ exports[`minimal`] = `
 
 exports[`only title`] = `
 <nav
-  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
+  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX cgmdPm">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
