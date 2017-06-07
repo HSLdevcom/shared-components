@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import cx from 'classnames';
 
+import { addClass } from '../utils';
 import Span from '../Span/Span';
 import Media from '../../themes/media-templates';
 
@@ -41,13 +41,13 @@ const StyledNav = styled.nav`
     ${Media.large`
       margin-right: 2rem;
       svg {
-        width: 8rem;
+        height: 3.25rem;
       }
     `}
     ${Media.medium`
       margin-right: 0.5rem;
       svg {
-        width: 7rem;
+        height: 2.75rem;
       }
     `}
   }
@@ -59,17 +59,13 @@ const StyledNav = styled.nav`
       font-size: 1rem;
     }
     > .logo {
-      padding-left: 1rem;
+      padding-left: 1.5rem;
       svg {
-        width: 5.5rem;
+        height: 2rem;
       }
     }
   }
 `;
-
-function addClass(child, newClass) {
-  return React.cloneElement(child, { className: cx(child.props.className, newClass) });
-}
 
 const Nav = ({
   className,
