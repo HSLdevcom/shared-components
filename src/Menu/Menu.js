@@ -10,7 +10,6 @@ import Span from '../Span/Span';
 import Div from '../Div/Div';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 import IconWithText from '../IconWithText/IconWithText';
-import Media from '../../themes/media-templates';
 
 const StyledDiv = Div.extend`
   .lang-select {
@@ -26,40 +25,45 @@ const StyledDiv = Div.extend`
   .child:not(:last-child) {
     margin-right: 2rem;
   }
-  ${Media.large`
-    svg {
-      height: 1.75rem;
-    }
-    .child:not(:last-child) {
-      margin-right: 0rem;
-    }
-    .bottom {
-      justify-content: flex-end;
-      ${IconWithText} {
-        .text {
-          display: none;
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.large`
+      svg {
+        height: 1.75rem;
+      }
+      .child:not(:last-child) {
+        margin-right: 0rem;
+      }
+      .bottom {
+        justify-content: flex-end;
+        ${IconWithText} {
+          .text {
+            display: none;
+          }
         }
       }
-    }
-  `}
-
-  ${Media.medium`
-    .top, .bottom {
-      justify-content: space-between;
-    }
-    .child:not(:last-child) {
-      margin-right: 1rem;
-    }
-    .lang-select {
-      width: auto;
-      .large {
-        display: none;
+    `
+  )}
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      .top, .bottom {
+        justify-content: space-between;
       }
-      .small {
-        display: block;
+      .child:not(:last-child) {
+        margin-right: 1rem;
       }
-    }
-  `}
+      .lang-select {
+        width: auto;
+        .large {
+          display: none;
+        }
+        .small {
+          display: block;
+        }
+      }
+    `
+  )}
 `;
 
 const Menu = ({

@@ -6,7 +6,6 @@ import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 import IconWithText from '../IconWithText/IconWithText';
-import Media from '../../themes/media-templates';
 
 
 const StyledFlexWrapper = FlexWrapper.extend`
@@ -23,11 +22,14 @@ const StyledFlexWrapper = FlexWrapper.extend`
     top: 3.5rem;
   }
 
-  ${Media.large`
-    .icon svg, .search-icon {
-      height: 1.75rem;
-    }
-  `}
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.large`
+      .icon svg, .search-icon {
+        height: 1.75rem;
+      }
+    `
+  )}
 
   svg {
     fill: currentColor;
@@ -46,9 +48,12 @@ const StyledIWT = IconWithText.extend`
   .text {
     display: none;
   }
-  ${Media.medium`
-    display: none;
-  `}
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      display: none;
+    `
+  )}
 `;
 
 const MenuSmall = ({

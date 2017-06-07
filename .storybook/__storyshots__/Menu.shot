@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-kGXeez eIIwaK sc-kgoBCf jpkXtj">
+  className="sc-kGXeez eIIwaK sc-kgoBCf wPxXP">
   <div
     className="top sc-dnqmqq loZnhf">
     <svg
@@ -118,9 +118,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-ckVGcZ foYhJp sc-kpOJdX ebfgWK">
+  className="sc-ckVGcZ foYhJp sc-kpOJdX byAigc">
   <div
-    className="sc-dxgOiQ cPcheh sc-bZQynM ifsTat">
+    className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
     <span
       aria-hidden="true"
       className="icon sc-EHOje jylRrU">
@@ -147,7 +147,7 @@ exports[`minimal`] = `
     </span>
   </div>
   <div
-    className="sc-dxgOiQ cPcheh sc-bZQynM ifsTat">
+    className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
     <span
       aria-hidden="true"
       className="icon sc-EHOje jylRrU">

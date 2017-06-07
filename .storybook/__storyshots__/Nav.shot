@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-kkGfuU gqJIVH sc-kEYyzF lgrMnK">
+  className="sc-kkGfuU gqJIVH sc-kEYyzF kDcxGf">
   <span
     className="logo sc-ifAKCX cFlEyZ">
     <svg
@@ -189,7 +189,7 @@ exports[`default`] = `
     </div>
   </a>
   <div
-    className="menu sc-kGXeez eIIwaK sc-kgoBCf jpkXtj">
+    className="menu sc-kGXeez eIIwaK sc-kgoBCf wPxXP">
     <div
       className="top sc-dnqmqq loZnhf">
       <svg
@@ -308,7 +308,7 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <nav
-  className="minimal sc-kkGfuU gqJIVH sc-kEYyzF lgrMnK">
+  className="minimal sc-kkGfuU gqJIVH sc-kEYyzF kDcxGf">
   <span
     className="logo sc-ifAKCX cFlEyZ">
     <svg
@@ -497,9 +497,9 @@ exports[`minimal`] = `
     </div>
   </a>
   <div
-    className="menu sc-ckVGcZ foYhJp sc-kpOJdX ebfgWK">
+    className="menu sc-ckVGcZ foYhJp sc-kpOJdX byAigc">
     <div
-      className="sc-dxgOiQ cPcheh sc-bZQynM ifsTat">
+      className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
       <span
         aria-hidden="true"
         className="icon sc-EHOje jylRrU">
@@ -526,7 +526,7 @@ exports[`minimal`] = `
       </span>
     </div>
     <div
-      className="sc-dxgOiQ cPcheh sc-bZQynM ifsTat">
+      className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
       <span
         aria-hidden="true"
         className="icon sc-EHOje jylRrU">
@@ -587,7 +587,7 @@ exports[`minimal`] = `
 
 exports[`only title`] = `
 <nav
-  className="minimal sc-kkGfuU gqJIVH sc-kEYyzF lgrMnK">
+  className="minimal sc-kkGfuU gqJIVH sc-kEYyzF kDcxGf">
   <span
     className="logo sc-ifAKCX cFlEyZ">
     <svg
