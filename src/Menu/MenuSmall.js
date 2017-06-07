@@ -12,16 +12,12 @@ import Media from '../../themes/media-templates';
 const StyledFlexWrapper = FlexWrapper.extend`
   align-items: center;
   justify-content: flex-end;
+  height: 100%;
   .icon {
     line-height: 0;
     margin: 0;
     display: flex;
     align-items: center;
-  }
-  > * {
-    height: 100%;
-    display: flex;
-    padding: 0 0.75rem;
   }
   .select-wrapper {
     top: 3.5rem;
@@ -38,7 +34,9 @@ const StyledFlexWrapper = FlexWrapper.extend`
   }
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    padding: 0.5rem;
+    height: 100%;
+    display: flex;
+    padding: 0 0.75rem;
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
