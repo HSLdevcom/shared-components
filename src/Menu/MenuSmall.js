@@ -3,10 +3,38 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { LangSelectSmall } from '../LangSelect';
-import { Search } from '../Icons';
+import { Search, TravelCard, SignIn } from '../Icons';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import IconWithText from '../IconWithText/IconWithText';
+import Media from '../../themes/media-templates';
+
 
 const StyledFlexWrapper = FlexWrapper.extend`
+  align-items: center;
+  .icon {
+    line-height: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  > * {
+    height: 100%;
+    display: flex;
+    padding: 0 0.75rem;
+  }
+  .select-wrapper {
+    top: 3.5rem;
+  }
+
+  ${Media.large`
+    .icon svg, .search-icon {
+      height: 1.75rem;
+    }
+  `}
+
+  svg {
+    fill: currentColor;
+  }
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
     padding: 0.5rem;
@@ -15,13 +43,20 @@ const StyledFlexWrapper = FlexWrapper.extend`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
+const StyledIWT = IconWithText.extend`
+  .text {
+    display: none;
+  }
+  ${Media.medium`
+    display: none;
+  `}
+`;
+
 const MenuSmall = ({
   languages,
   changeLanguage,
   selectedLanguage,
   langSelectOpen,
-  searchIcon,
-  iconFill,
   className,
   children
 }) => (
@@ -29,19 +64,41 @@ const MenuSmall = ({
     {children}
     <Search
       className="search-icon"
-      fill={iconFill}
-      height={searchIcon.height}
-      width={searchIcon.width}
+      height="2rem"
+      width="2rem"
     />
     <LangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
       open={langSelectOpen}
-      fill={iconFill}
     />
   </StyledFlexWrapper>
 );
+
+const defaultChildren = [
+  <StyledIWT
+    icon={<SignIn />}
+    text="Matkakortti"
+    textPosition="Right"
+    fill="#FFFFFF"
+    height="2rem"
+    key="signin"
+  />,
+  <StyledIWT
+    icon={<TravelCard />}
+    text="Kirjaudu"
+    textPosition="Right"
+    fill="#FFFFFF"
+    height="2rem"
+    key="travelcard"
+  />
+];
+
+
+MenuSmall.defaultProps = {
+  children: defaultChildren
+};
 
 
 MenuSmall.propTypes = {
@@ -51,17 +108,12 @@ MenuSmall.propTypes = {
       PropTypes.number,
     ]).isRequired,
     name: PropTypes.string.isRequired
-  })).isRequired,
+  })),
   changeLanguage: PropTypes.func.isRequired,
   selectedLanguage: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]),
-  searchIcon: PropTypes.shape({
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired
-  }).isRequired,
-  iconFill: PropTypes.string.isRequired,
   langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node

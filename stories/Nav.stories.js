@@ -58,47 +58,14 @@ stories.addWithJSX('default', () => {
     height: '1.5rem',
     width: '1.5rem',
   };
-  const StyledMenu = Menu.extend`
-    width: 17.5em;
-    margin-left: 9em;
-    .lang-select {
-      height: 1.75rem;
-      width: 7rem;
-    }
-    ${Media.large`
-      width: 10em;
-      margin-left: 3em;
-      .bottom {
-        justify-content: flex-end;
-      }
-    `}
-    ${Media.medium`
-      width: 7em;
-      margin-left: 3em;
-      .top, .bottom {
-        justify-content: space-between;
-      }
-      .bottom svg {
-        height: 1.75rem;
-      }
-      .lang-select {
-        width: auto;
-        .large {
-          display: none;
-        }
-        .small {
-          display: block;
-        }
-      }
-    `}
-  `;
+
   const StyledIWT = IconWithText.extend`
     .text {
       ${Media.large`display: none;`}
     }
   `;
 
-  const menu = (<StyledMenu
+  const menu = (<Menu
     languages={languages}
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -120,7 +87,7 @@ stories.addWithJSX('default', () => {
       fill={'#FFFFFF'}
       height={'2rem'}
     />
-  </StyledMenu>);
+  </Menu>);
   const StyledNav = Nav.extend`
     padding: 0 2.5rem;
     ${Media.large`
