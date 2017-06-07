@@ -41,13 +41,13 @@ const StyledNav = styled.nav`
     ${Media.large`
       margin-right: 2rem;
       svg {
-        width: 8rem;
+        height: 3.25rem;
       }
     `}
     ${Media.medium`
       margin-right: 0.5rem;
       svg {
-        width: 7rem;
+        height: 2.75rem;
       }
     `}
   }
@@ -59,9 +59,9 @@ const StyledNav = styled.nav`
       font-size: 1rem;
     }
     > .logo {
-      padding-left: 1rem;
+      padding-left: 1.5rem;
       svg {
-        width: 5.5rem;
+        height: 2rem;
       }
     }
   }

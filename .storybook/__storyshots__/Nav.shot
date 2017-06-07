@@ -1,6 +1,6 @@
 exports[`default`] = `
 <nav
-  className="sc-dxgOiQ hTjMfW sc-kpOJdX ddfMuk">
+  className="sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
@@ -308,7 +308,7 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <nav
-  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX ddfMuk">
+  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
@@ -587,7 +587,7 @@ exports[`minimal`] = `
 
 exports[`only title`] = `
 <nav
-  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX ddfMuk">
+  className="minimal sc-dxgOiQ hTjMfW sc-kpOJdX dXVTmg">
   <span
     className="logo sc-bxivhb bUZGRr">
     <svg
