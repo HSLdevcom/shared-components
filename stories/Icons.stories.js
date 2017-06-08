@@ -6,12 +6,28 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, color, number } from '@kadira/storybook-addon-knobs';
 
-import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard } from '../src/Icons';
+import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo, Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard } from '../src/Icons';
 
 setAddon(JSXAddon);
 
 const stories = storiesOf('Icons', module);
 stories.addDecorator(withKnobs);
+
+stories.addWithJSX('AddCard', () => {
+  const fill = {
+    inner: color('FillInner', '#888'),
+    outer: color('FillOuter', '#007ac9')
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<AddCard fill={fill} height={`${height}em`} />);
+}, { displayName: 'AddCard' });
 
 stories.addWithJSX('ArrowDown', () => {
   const fill = color('Fill', '#007ac9');
@@ -38,6 +54,38 @@ stories.addWithJSX('ArrowLeft', () => {
   const height = number('Height', defaultValue, options);
   return (<ArrowLeft fill={fill} height={`${height}em`} />);
 }, { displayName: 'ArrowLeft' });
+
+stories.addWithJSX('CardOrder', () => {
+  const fill = {
+    inner: color('FillInner', '#888'),
+    outer: color('FillOuter', '#007ac9')
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<CardOrder fill={fill} height={`${height}em`} />);
+}, { displayName: 'CardOrder' });
+
+stories.addWithJSX('CardWithCheckmark', () => {
+  const fill = {
+    inner: color('FillInner', '#888'),
+    outer: color('FillOuter', '#64BE14')
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<CardWithCheckmark fill={fill} height={`${height}em`} />);
+}, { displayName: 'CardWithCheckmark' });
 
 stories.addWithJSX('Checkmark', () => {
   const fill = {
@@ -80,6 +128,20 @@ stories.addWithJSX('HSLLogo', () => {
   const height = number('Height', defaultValue, options);
   return (<HSLLogo fill={fill} height={`${height}em`} />);
 }, { displayName: 'HSLLogo' });
+
+stories.addWithJSX('Info', () => {
+  const fill = color('Fill', '#007ac9');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Info fill={fill} height={`${height}em`} />);
+}, { displayName: 'Info' });
+
 stories.addWithJSX('JourneyPlanner', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
