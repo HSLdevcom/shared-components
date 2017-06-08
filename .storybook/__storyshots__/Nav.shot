@@ -211,19 +211,19 @@ exports[`default`] = `
       <span
         className="lang-select sc-ifAKCX cFlEyZ">
         <div
-          className="large sc-gqjmRU hnZXkc sc-gZMcBi cpnMNF">
+          className="large sc-gqjmRU hnZXkc sc-gZMcBi kDRGeU">
           <button
-            className="sc-iwsKbI jsZhYV"
+            className="sc-iwsKbI faxTFl"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-iwsKbI jsZhYV"
+            className="sc-iwsKbI faxTFl"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-iwsKbI jsZhYV"
+            className="sc-iwsKbI faxTFl"
             onClick={[Function]}>
             EN
           </button>
@@ -231,7 +231,7 @@ exports[`default`] = `
         <div
           className="small sc-fjdhpX nsimD sc-VigVT blpyWm">
           <button
-            className="selected-language sc-iwsKbI jsZhYV">
+            className="selected-language sc-iwsKbI faxTFl">
             FI
             <svg
               fill={undefined}
@@ -566,7 +566,7 @@ exports[`minimal`] = `
     <div
       className="sc-fjdhpX nsimD sc-VigVT blpyWm">
       <button
-        className="selected-language sc-iwsKbI jsZhYV">
+        className="selected-language sc-iwsKbI faxTFl">
         FI
         <svg
           fill={undefined}
@@ -587,7 +587,7 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-eHgmQL gmKbQu sc-hSdWYo eJTPjc">
+  className="sc-eHgmQL gmKbQu sc-hSdWYo fOYqaL">
   <span
     className="logo sc-ifAKCX cFlEyZ">
     <svg
@@ -606,25 +606,25 @@ exports[`mobile`] = `
     </svg>
   </span>
   <div
-    className="menu sc-kEYyzF gfWKdx sc-eNQAEJ edrMDt">
+    className="menu sc-kEYyzF gfWKdx sc-eNQAEJ cCqJw">
     <div
       className="sc-jKJlTe kNEeyE" />
     <div
       className="sc-hMqMXs hVxQeN">
       <div
-        className="sc-gqjmRU hnZXkc sc-gZMcBi cpnMNF">
+        className="sc-gqjmRU hnZXkc sc-gZMcBi kDRGeU">
         <button
-          className="sc-iwsKbI jsZhYV"
+          className="sc-iwsKbI faxTFl"
           onClick={[Function]}>
           FI
         </button>
         <button
-          className="sc-iwsKbI jsZhYV"
+          className="sc-iwsKbI faxTFl"
           onClick={[Function]}>
           SV
         </button>
         <button
-          className="sc-iwsKbI jsZhYV"
+          className="sc-iwsKbI faxTFl"
           onClick={[Function]}>
           EN
         </button>

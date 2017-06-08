@@ -6,8 +6,6 @@ import FlexWrapper from '../FlexWrapper/FlexWrapper';
 import LangButton from './LangButton';
 
 const StyledFlexWrapper = FlexWrapper.extend`
-  height: 1.75rem;
-  width: 7rem;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;

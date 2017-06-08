@@ -5,7 +5,9 @@ const LangButton = styled.button`
   border: 0;
   outline: 0;
   background: 0;
-  padding: 0 0.5rem;
+  width: 2rem;
+  height: 1.5rem;
+  padding: 0;
   color: inherit;
   font: inherit;
   &:hover {

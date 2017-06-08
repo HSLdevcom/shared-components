@@ -13,7 +13,7 @@ import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span/Span';
 import Div from './Div/Div';
-import LangSelect, { LangSelectSmall } from './LangSelect';
+import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile } from './Menu';
 
 export {
@@ -33,6 +33,7 @@ export {
   Div,
   LangSelect,
   LangSelectSmall,
+  LangButton,
   Menu,
   MenuSmall,
   MenuMobile

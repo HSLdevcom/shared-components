@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import LangSelect from '../LangSelect';
+import LangSelect, { LangButton } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
@@ -23,6 +23,10 @@ const StyledDiv = Div.extend`
   }
   ${LangSelect} {
     font-size: 1.5rem;
+    ${LangButton} {
+      width: 3.75rem;
+      height: 3.25rem;
+    }
   }
   .children {
     font-size: 1.75rem;
