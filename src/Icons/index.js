@@ -4,6 +4,8 @@ import ArrowLeft from './ArrowLeft';
 import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
+import Cog from './Cog';
+import Edit from './Edit';
 import Logo from './Logo';
 import CustomerService from './CustomerService';
 import HSLLogo from './HSLLogo';
@@ -24,6 +26,8 @@ export {
   CardOrder,
   CardWithCheckmark,
   Checkmark,
+  Cog,
+  Edit,
   Logo,
   CustomerService,
   HSLLogo,
