@@ -134,7 +134,7 @@ Menu.propTypes = {
     PropTypes.number,
   ]),
   langSelectOpen: PropTypes.bool,
-  className: React.PropTypes.string,
+  className: PropTypes.string,
   children: PropTypes.node
 };
 
