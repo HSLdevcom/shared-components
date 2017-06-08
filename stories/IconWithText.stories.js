@@ -7,7 +7,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number, text, select } from '@kadira/storybook-addon-knobs';
 
 import IconWithText from '../src/IconWithText/IconWithText';
-import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross } from '../src/Icons';
+import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu } from '../src/Icons';
 
 const iconMap = {
   ArrowDown: <ArrowDown height="4rem" />,
@@ -18,6 +18,7 @@ const iconMap = {
   JourneyPlanner: <JourneyPlanner height="4rem" />,
   Latest: <Latest height="4rem" />,
   More: <More height="4rem" />,
+  Menu: <Menu height="4rem" />,
   Search: <Search height="4rem" />,
   SignIn: <SignIn height="4rem" />,
   Tickets: <Tickets height="4rem" />,
@@ -33,6 +34,7 @@ const iconList = {
   JourneyPlanner: 'JourneyPlanner',
   Latest: 'Latest',
   More: 'More',
+  Menu: 'Menu',
   Search: 'Search',
   SignIn: 'SignIn',
   Tickets: 'Tickets',

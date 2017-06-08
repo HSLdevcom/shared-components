@@ -12,6 +12,7 @@ import Info from './Info';
 import JourneyPlanner from './JourneyPlanner';
 import Latest from './Latest';
 import More from './More';
+import Menu from './Menu';
 import Search from './Search';
 import SignIn from './SignIn';
 import Tickets from './Tickets';
@@ -33,6 +34,7 @@ export {
   JourneyPlanner,
   Latest,
   More,
+  Menu,
   Search,
   SignIn,
   Tickets,

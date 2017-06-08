@@ -7,7 +7,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number } from '@kadira/storybook-addon-knobs';
 
 import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo,
-         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross
+         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu
        } from '../src/Icons';
 
 setAddon(JSXAddon);
@@ -193,6 +193,20 @@ stories.addWithJSX('More', () => {
   const height = number('Height', defaultValue, options);
   return (<More fill={fill} height={`${height}em`} />);
 }, { displayName: 'More' });
+
+stories.addWithJSX('Menu', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Menu fill={fill} height={`${height}em`} />);
+}, { displayName: 'Menu' });
+
 stories.addWithJSX('Search', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
