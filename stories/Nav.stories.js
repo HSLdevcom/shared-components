@@ -7,12 +7,12 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Menu, { MenuSmall } from '../src/Menu';
-import Nav from '../src/Nav/Nav';
+import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
+import Nav, { NavMobile } from '../src/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
 import Span from '../src/Span/Span';
 
-import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More } from '../src/Icons';
+import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 
 setAddon(JSXAddon);
 
@@ -109,4 +109,47 @@ stories.addWithJSX('only title', () => {
   return (<Nav logo={logo} className="minimal">
     <StyledSpan>Lataa kautta</StyledSpan>
   </Nav>);
+});
+
+stories.addWithJSX('mobile', () => {
+  const logo = <HSLLogo height="2rem" />;
+
+  const options = {
+    fi: 'FI',
+    sv: 'SV',
+    en: 'EN',
+  };
+
+  const selectedLanguage = select('Selected language', options, 'fi');
+
+
+  const menu = (<MenuMobile
+    selectedLanguage={selectedLanguage}
+    changeLanguage={action('language changed')}
+  >
+    <IconWithText
+      icon={<TravelCard height="3.5rem" />}
+      text="Matkakortti"
+      textPosition="Bottom"
+      key="travelcard"
+    />
+    <IconWithText
+      icon={<SignIn height="3.5rem" />}
+      text="Kirjaudu"
+      textPosition="Bottom"
+      key="signin"
+    />
+  </MenuMobile>);
+
+  return (<NavMobile logo={logo} menu={menu}>
+    {icons.map(icon =>
+    (<Link to="/test" key={icon[1]}>
+      <IconWithText
+        icon={icon[0]}
+        text={icon[1]}
+        textPosition={'Right'}
+      />
+    </Link>)
+     )}
+  </NavMobile>);
 });

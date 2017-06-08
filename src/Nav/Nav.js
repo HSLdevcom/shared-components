@@ -86,7 +86,7 @@ const Nav = ({
       <Span className="logo">
         { logo }
       </Span>
-      {React.Children.map(children, child => addClass(child, 'child'))}
+      { addClass(children, 'child') }
       { menu && addClass(menu, 'menu') }
     </StyledNav>);
 

@@ -95,7 +95,7 @@ const Menu = ({
     </FlexWrapper>
     <MenuSeparator />
     <FlexWrapper className="bottom">
-      {React.Children.map(children, child => addClass(child, 'child'))}
+      { addClass(children, 'child') }
     </FlexWrapper>
   </StyledDiv>
 );

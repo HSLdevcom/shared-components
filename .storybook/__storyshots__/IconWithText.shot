@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-hSdWYo cjwbut sc-bZQynM bsmBBS">
+  className="sc-jWBwVP cOcURg sc-bZQynM bsmBBS">
   <span
     aria-hidden="true"
     className="icon sc-EHOje idYizD">
@@ -25,7 +25,7 @@ exports[`default`] = `
 
 exports[`with inner & outer fill`] = `
 <div
-  className="sc-eHgmQL knWYOv sc-bZQynM bsmBBS">
+  className="sc-brqgnP eBdqAL sc-bZQynM bsmBBS">
   <span
     aria-hidden="true"
     className="icon sc-EHOje idYizD">
