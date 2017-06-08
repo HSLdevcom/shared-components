@@ -5,10 +5,15 @@ import cx from 'classnames';
 
 import { addClass } from '../utils';
 import Span from '../Span/Span';
+import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import { Cross } from '../Icons';
 
 const StyledNav = styled.nav`
   svg {
     fill: currentColor;
+  }
+  .logo svg {
+    height: 3rem;
   }
 
   .nav-item {
@@ -29,15 +34,42 @@ const StyledNav = styled.nav`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
+const TopBar = FlexWrapper.extend`
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  align-items: center;
+`;
+
+const TopIcons = FlexWrapper.extend`
+  align-items: center;
+  .text {
+    display: none;
+  }
+  .icon {
+    margin: 0;
+    line-height:0;
+  }
+  svg {
+    margin-left: 2rem;
+    height: 2rem;
+  }
+`;
+
 const Nav = ({
   className,
   logo,
   menu,
   children }) =>
     (<StyledNav className={className}>
-      <Span className="logo">
-        { logo }
-      </Span>
+      <TopBar>
+        <Span className="logo">
+          { logo }
+        </Span>
+        <TopIcons>
+          { menu.props.children }
+          <Cross height="3rem" />
+        </TopIcons>
+      </TopBar>
 
       { React.cloneElement(
         menu,

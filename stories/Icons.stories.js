@@ -6,7 +6,9 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, color, number } from '@kadira/storybook-addon-knobs';
 
-import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo, Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard } from '../src/Icons';
+import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo,
+         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross
+       } from '../src/Icons';
 
 setAddon(JSXAddon);
 
@@ -102,6 +104,19 @@ stories.addWithJSX('Checkmark', () => {
   const height = number('Height', defaultValue, options);
   return (<Checkmark fill={fill} height={`${height}em`} />);
 }, { displayName: 'Checkmark' });
+
+stories.addWithJSX('Cross', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Cross fill={fill} height={`${height}em`} />);
+}, { displayName: 'Cross' });
 
 stories.addWithJSX('Logo', () => {
   const fill = color('fill', '#d1d1d1');
