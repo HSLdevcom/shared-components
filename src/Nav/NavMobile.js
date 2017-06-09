@@ -6,7 +6,7 @@ import cx from 'classnames';
 import { addClass } from '../utils';
 import Span from '../Span/Span';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
-import { Cross } from '../Icons';
+import { Cross, Menu } from '../Icons';
 
 const StyledNav = styled.nav`
   svg {
@@ -29,14 +29,15 @@ const StyledNav = styled.nav`
       width: 3.5rem;
     }
   }
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 0rem;
+
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
 const TopBar = FlexWrapper.extend`
   justify-content: space-between;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   align-items: center;
 `;
 
@@ -59,6 +60,7 @@ const Nav = ({
   className,
   logo,
   menu,
+  menuOpen,
   children }) =>
     (<StyledNav className={className}>
       <TopBar>
@@ -67,11 +69,12 @@ const Nav = ({
         </Span>
         <TopIcons>
           { menu.props.children }
-          <Cross height="3rem" />
+          { menuOpen && <Cross height="3rem" /> }
+          { !menuOpen && <Menu height="3rem" /> }
         </TopIcons>
       </TopBar>
 
-      { React.cloneElement(
+      { menuOpen && React.cloneElement(
         menu,
         { className: cx(menu.props.className, 'menu'),
           items: addClass(children, 'nav-item'),
@@ -85,7 +88,8 @@ Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
-  children: PropTypes.node
+  children: PropTypes.node,
+  menuOpen: PropTypes.bool
 };
 
 export default styled(Nav)``;

@@ -122,6 +122,7 @@ stories.addWithJSX('mobile', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
+  const open = boolean('Display menu', false);
 
   const menu = (<MenuMobile
     selectedLanguage={selectedLanguage}
@@ -141,7 +142,7 @@ stories.addWithJSX('mobile', () => {
     />
   </MenuMobile>);
 
-  return (<NavMobile logo={logo} menu={menu}>
+  return (<NavMobile logo={logo} menu={menu} menuOpen={open} >
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <IconWithText
