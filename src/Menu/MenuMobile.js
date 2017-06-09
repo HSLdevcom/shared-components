@@ -31,8 +31,6 @@ const StyledDiv = Div.extend`
   .children {
     font-size: 1.75rem;
     padding: 3rem;
-    display: flex;
-    justify-content: center;
     .child {
       padding: 0 4rem;
       &:not(:last-child) {
@@ -65,9 +63,9 @@ const MenuMobile = ({
     </StyledFlexWrapper>
     <Separator />
     { items }
-    <Div className="children">
+    <FlexWrapper className="children">
       { addClass(children, 'child') }
-    </Div>
+    </FlexWrapper>
   </StyledDiv>
 );
 

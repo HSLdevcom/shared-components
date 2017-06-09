@@ -37,7 +37,6 @@ const StyledNav = styled.nav`
 `;
 
 const TopBar = FlexWrapper.extend`
-  justify-content: space-between;
   padding-bottom: 1rem;
   align-items: center;
 `;

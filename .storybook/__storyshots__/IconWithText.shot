@@ -1,6 +1,6 @@
 exports[`default`] = `
 <button
-  className="sc-gPEVay jaZJbA sc-gzVnrw dyYzwF">
+  className="sc-gPEVay jaZJbA sc-gzVnrw hfsOKV">
   <span
     aria-hidden="true"
     className="icon sc-bZQynM gnrOxV">
@@ -25,7 +25,7 @@ exports[`default`] = `
 
 exports[`with inner & outer fill`] = `
 <button
-  className="sc-iRbamj bZEEnP sc-gzVnrw dyYzwF">
+  className="sc-iRbamj bZEEnP sc-gzVnrw hfsOKV">
   <span
     aria-hidden="true"
     className="icon sc-bZQynM gnrOxV">

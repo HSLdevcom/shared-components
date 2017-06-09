@@ -14,7 +14,6 @@ const IconWrapper = Span.extend`
 `;
 
 const StyledButton = ButtonNoStyle.extend`
-  font: inherit;
   display: flex;
   flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
   align-items: center;

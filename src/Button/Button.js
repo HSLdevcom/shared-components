@@ -34,6 +34,7 @@ const ButtonNoStyle = styled.button`
   height: auto;
   background: inherit;
   color: inherit;
+  font: inherit;
 `;
 
 export { ButtonNoStyle };
