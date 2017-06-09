@@ -19,7 +19,7 @@ const StyledFlexWrapper = FlexWrapper.extend`
     align-items: center;
   }
   .select-wrapper {
-    top: 3.5rem;
+    top: 2.5rem;
   }
 
   ${props => (

@@ -9,6 +9,7 @@ import Div from '../Div/Div';
 const StyledDiv = Div.extend`
   ${LangButton} {
     display: block;
+    width: 2.75rem;
   }
   padding: 0;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}

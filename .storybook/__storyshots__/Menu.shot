@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-kGXeez eIIwaK sc-kgoBCf wPxXP">
+  className="sc-kGXeez eIIwaK sc-kgoBCf cQnDAP">
   <div
     className="top sc-dnqmqq loZnhf">
     <svg
@@ -40,7 +40,7 @@ exports[`default`] = `
         </button>
       </div>
       <div
-        className="small sc-fjdhpX nsimD sc-VigVT blpyWm">
+        className="small sc-fjdhpX nsimD sc-VigVT dfRmfQ">
         <button
           className="selected-language sc-iwsKbI faxTFl">
           FI
@@ -70,7 +70,7 @@ exports[`default`] = `
         className="icon sc-EHOje jylRrU">
         <svg
           fill={undefined}
-          height="2rem"
+          height="3.5rem"
           preserveAspectRatio="xMidYMid meet"
           version="1.1"
           viewBox="0 0 39 32"
@@ -91,7 +91,7 @@ exports[`default`] = `
         aria-hidden="true"
         className="icon sc-EHOje jylRrU">
         <svg
-          height="2rem"
+          height="3.5rem"
           preserveAspectRatio="xMidYMid meet"
           version="1.1"
           viewBox="0 0 27 31"
@@ -118,7 +118,7 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-ckVGcZ foYhJp sc-kpOJdX byAigc">
+  className="sc-ckVGcZ foYhJp sc-kpOJdX dmnCKS">
   <div
     className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
     <span
@@ -185,7 +185,7 @@ exports[`minimal`] = `
     </g>
   </svg>
   <div
-    className="sc-fjdhpX nsimD sc-VigVT blpyWm">
+    className="sc-fjdhpX nsimD sc-VigVT dfRmfQ">
     <button
       className="selected-language sc-iwsKbI faxTFl">
       FI

@@ -20,6 +20,9 @@ const StyledDiv = Div.extend`
   svg {
     fill: currentColor;
   }
+  .bottom svg {
+    height: 2rem;
+  }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
   .child:not(:last-child) {
@@ -102,13 +105,13 @@ const Menu = ({
 
 const defaultChildren = [
   <IconWithText
-    icon={<TravelCard height="2rem" />}
+    icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
   />,
   <IconWithText
-    icon={<SignIn height="2rem" />}
+    icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"
