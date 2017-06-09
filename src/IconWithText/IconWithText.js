@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Span from '../Span/Span';
+import { ButtonNoStyle } from '../Button/Button';
 
 const IconWrapper = Span.extend`
   vertical-align: middle;
@@ -12,7 +13,7 @@ const IconWrapper = Span.extend`
   }
 `;
 
-const Div = styled.div`
+const StyledButton = ButtonNoStyle.extend`
   display: flex;
   flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
   align-items: center;
@@ -21,12 +22,12 @@ const IconWithText = ({ icon,
   text,
   textPosition,
   className }) => (
-    <Div className={className} textPosition={textPosition}>
+    <StyledButton className={className} textPosition={textPosition}>
       <IconWrapper className="icon" aria-hidden="true" textPosition={textPosition}>
         { icon }
       </IconWrapper>
       <Span className="text" textPosition={textPosition}>{text}</Span>
-    </Div>
+    </StyledButton>
 );
 
 IconWithText.defaultProps = {

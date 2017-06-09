@@ -64,8 +64,8 @@ exports[`default`] = `
     className="sc-chPdSV fAvQPZ" />
   <div
     className="bottom sc-iwsKbI hAZHJM">
-    <div
-      className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
+    <button
+      className="child sc-htoDjs dLESzS sc-gzVnrw bbfBhQ">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM hUywdZ">
@@ -85,9 +85,9 @@ exports[`default`] = `
         className="text sc-EHOje jvzENE">
         Matkakortti
       </span>
-    </div>
-    <div
-      className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
+    </button>
+    <button
+      className="child sc-htoDjs dLESzS sc-gzVnrw bbfBhQ">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM hUywdZ">
@@ -112,7 +112,7 @@ exports[`default`] = `
         className="text sc-EHOje jvzENE">
         Kirjaudu
       </span>
-    </div>
+    </button>
   </div>
 </div>
 `;
@@ -120,8 +120,8 @@ exports[`default`] = `
 exports[`minimal`] = `
 <div
   className="sc-jKJlTe loXQau sc-dxgOiQ faPeUa">
-  <div
-    className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
+  <button
+    className="sc-ckVGcZ gQYZqq sc-gzVnrw bbfBhQ">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -146,9 +146,9 @@ exports[`minimal`] = `
       className="text sc-EHOje jvzENE">
       Matkakortti
     </span>
-  </div>
-  <div
-    className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
+  </button>
+  <button
+    className="sc-ckVGcZ gQYZqq sc-gzVnrw bbfBhQ">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -168,7 +168,7 @@ exports[`minimal`] = `
       className="text sc-EHOje jvzENE">
       Kirjaudu
     </span>
-  </div>
+  </button>
   <svg
     height="2rem"
     preserveAspectRatio="xMidYMid meet"
@@ -253,8 +253,8 @@ exports[`mobile`] = `
     className="sc-eNQAEJ hriuVZ" />
   <div
     className="children sc-bdVaJa bDWFJH">
-    <div
-      className="child sc-htoDjs dLESzS sc-gzVnrw jGncgf">
+    <button
+      className="child sc-htoDjs dLESzS sc-gzVnrw kUPerf">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM gnrOxV">
@@ -274,9 +274,9 @@ exports[`mobile`] = `
         className="text sc-EHOje jvzENE">
         Matkakortti
       </span>
-    </div>
-    <div
-      className="child sc-htoDjs dLESzS sc-gzVnrw jGncgf">
+    </button>
+    <button
+      className="child sc-htoDjs dLESzS sc-gzVnrw kUPerf">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM gnrOxV">
@@ -301,7 +301,7 @@ exports[`mobile`] = `
         className="text sc-EHOje jvzENE">
         Kirjaudu
       </span>
-    </div>
+    </button>
   </div>
 </div>
 `;

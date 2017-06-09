@@ -1,6 +1,6 @@
 exports[`default`] = `
-<div
-  className="sc-jAaTju kiXUaY sc-gzVnrw jGncgf">
+<button
+  className="sc-jAaTju kiXUaY sc-gzVnrw kUPerf">
   <span
     aria-hidden="true"
     className="icon sc-bZQynM gnrOxV">
@@ -20,12 +20,12 @@ exports[`default`] = `
     className="text sc-EHOje jvzENE">
     Sample text
   </span>
-</div>
+</button>
 `;
 
 exports[`with inner & outer fill`] = `
-<div
-  className="sc-jDwBTQ jbEjhh sc-gzVnrw jGncgf">
+<button
+  className="sc-jDwBTQ jbEjhh sc-gzVnrw kUPerf">
   <span
     aria-hidden="true"
     className="icon sc-bZQynM gnrOxV">
@@ -61,5 +61,5 @@ exports[`with inner & outer fill`] = `
     className="text sc-EHOje jvzENE">
     Sample text
   </span>
-</div>
+</button>
 `;
