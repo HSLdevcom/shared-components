@@ -40,7 +40,20 @@ stories.addWithJSX('default', () => {
   const menu = (<Menu
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
-  />);
+  >
+    <IconWithText
+      icon={<TravelCard height="3.5rem" />}
+      text="Matkakortti"
+      textPosition="Right"
+      key="travelcard"
+    />
+    <IconWithText
+      icon={<SignIn height="3.5rem" />}
+      text="Kirjaudu"
+      textPosition="Right"
+      key="signin"
+    />
+  </Menu>);
 
   return (<Nav logo={logo} menu={menu}>
     {icons.map(icon =>
