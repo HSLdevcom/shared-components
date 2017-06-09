@@ -2,7 +2,7 @@ exports[`default`] = `
 <header
   className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
+    className="sc-hSdWYo bIQQAp sc-iAyFgw hyLLMP">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -403,9 +403,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <header
-  className="minimal sc-jAaTju fNCBho sc-cMljjf eyEjiC">
+  className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
+    className="sc-hSdWYo bIQQAp sc-iAyFgw rDcbS">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -822,9 +822,9 @@ exports[`mobile`] = `
 
 exports[`only title`] = `
 <header
-  className="minimal sc-jAaTju fNCBho sc-cMljjf eyEjiC">
+  className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
+    className="sc-hSdWYo bIQQAp sc-iAyFgw rDcbS">
     <span
       className="logo sc-EHOje jvzENE">
       <svg

@@ -91,7 +91,7 @@ stories.addWithJSX('minimal', () => {
     changeLanguage={action('language changed')}
   />);
 
-  return (<Nav logo={logo} menu={menu} className="minimal">
+  return (<Nav logo={logo} menu={menu} scroll>
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <NavIWT
@@ -113,7 +113,7 @@ stories.addWithJSX('only title', () => {
     }
   `;
 
-  return (<Nav logo={logo} className="minimal">
+  return (<Nav logo={logo} scroll>
     <StyledSpan>Lataa kautta</StyledSpan>
   </Nav>);
 });

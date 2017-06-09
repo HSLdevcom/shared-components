@@ -61,7 +61,7 @@ const StyledNav = styled.nav`
       `
     )}
   }
-  &.minimal {
+  ${props => (props.scroll && `
     height: 4rem;
     padding: 0;
     > .child {
@@ -74,15 +74,16 @@ const StyledNav = styled.nav`
         height: 2rem;
       }
     }
-  }
+  `)}
 `;
 
 const Nav = ({
   className,
   logo,
   menu,
+  scroll,
   children }) =>
-    (<StyledNav className={className}>
+    (<StyledNav className={className} scroll={scroll}>
       <Span className="logo">
         { logo }
       </Span>
@@ -94,6 +95,7 @@ Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
+  scroll: PropTypes.bool,
   children: PropTypes.node
 };
 

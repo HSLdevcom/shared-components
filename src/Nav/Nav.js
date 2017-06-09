@@ -27,10 +27,11 @@ const Nav = ({
   className,
   logo,
   menu,
+  scroll,
   children }) =>
     (
       <Header className={className}>
-        <NavDesktop logo={logo} menu={menu}>
+        <NavDesktop logo={logo} menu={menu} scroll={scroll}>
           {children}
         </NavDesktop>
         <NavMobile
@@ -54,6 +55,7 @@ Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
+  scroll: PropTypes.bool,
   children: PropTypes.node
 };
 
