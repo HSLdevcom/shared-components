@@ -65,7 +65,7 @@ exports[`default`] = `
   <div
     className="bottom sc-iwsKbI hAZHJM">
     <button
-      className="child sc-htoDjs dLESzS sc-gzVnrw eizxxR">
+      className="child sc-htoDjs keqScR sc-gzVnrw gvPVSk">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM hUywdZ">
@@ -87,7 +87,7 @@ exports[`default`] = `
       </span>
     </button>
     <button
-      className="child sc-htoDjs dLESzS sc-gzVnrw eizxxR">
+      className="child sc-htoDjs keqScR sc-gzVnrw gvPVSk">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM hUywdZ">
@@ -121,7 +121,7 @@ exports[`minimal`] = `
 <div
   className="sc-jKJlTe loXQau sc-dxgOiQ faPeUa">
   <button
-    className="sc-ckVGcZ gQYZqq sc-gzVnrw eizxxR">
+    className="sc-ckVGcZ ibuLRA sc-gzVnrw gvPVSk">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -148,7 +148,7 @@ exports[`minimal`] = `
     </span>
   </button>
   <button
-    className="sc-ckVGcZ gQYZqq sc-gzVnrw eizxxR">
+    className="sc-ckVGcZ ibuLRA sc-gzVnrw gvPVSk">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -254,7 +254,7 @@ exports[`mobile`] = `
   <div
     className="children sc-iwsKbI hAZHJM">
     <button
-      className="child sc-htoDjs dLESzS sc-gzVnrw hfsOKV">
+      className="child sc-htoDjs keqScR sc-gzVnrw cQjFkf">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM gnrOxV">
@@ -276,7 +276,7 @@ exports[`mobile`] = `
       </span>
     </button>
     <button
-      className="child sc-htoDjs dLESzS sc-gzVnrw hfsOKV">
+      className="child sc-htoDjs keqScR sc-gzVnrw cQjFkf">
       <span
         aria-hidden="true"
         className="icon sc-bZQynM gnrOxV">

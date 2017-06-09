@@ -17,6 +17,7 @@ const StyledButton = ButtonNoStyle.extend`
   display: flex;
   flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
   align-items: center;
+  text-align: center;
 `;
 const IconWithText = ({ icon,
   text,
@@ -43,5 +44,4 @@ IconWithText.propTypes = {
 };
 
 export default styled(IconWithText)`
-  text-align: center;
 `;
