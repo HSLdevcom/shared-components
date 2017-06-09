@@ -331,10 +331,10 @@ exports[`default`] = `
       <div
         className="sc-jWBwVP YWgVC">
         <button
-          className="sc-htoDjs dLESzS sc-gzVnrw illOXe">
+          className="sc-htoDjs dLESzS sc-gzVnrw dyYzwF">
           <span
             aria-hidden="true"
-            className="icon sc-bZQynM hUywdZ">
+            className="icon sc-bZQynM gnrOxV">
             <svg
               fill={undefined}
               height="3.5rem"
@@ -353,10 +353,10 @@ exports[`default`] = `
           </span>
         </button>
         <button
-          className="sc-htoDjs dLESzS sc-gzVnrw illOXe">
+          className="sc-htoDjs dLESzS sc-gzVnrw dyYzwF">
           <span
             aria-hidden="true"
-            className="icon sc-bZQynM hUywdZ">
+            className="icon sc-bZQynM gnrOxV">
             <svg
               height="3.5rem"
               preserveAspectRatio="xMidYMid meet"

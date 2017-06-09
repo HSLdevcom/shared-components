@@ -35,7 +35,15 @@ const Nav = ({
         </NavDesktop>
         <NavMobile
           logo={logo}
-          menu={menu && <MenuMobile {...menu.props} />}
+          menu={menu &&
+            <MenuMobile {...menu.props}>
+              {React.Children.map(
+                menu.props.children,
+                child => React.cloneElement(child, { textPosition: 'Bottom' })
+                )
+              }
+            </MenuMobile>
+          }
         >
           {children}
         </NavMobile>
