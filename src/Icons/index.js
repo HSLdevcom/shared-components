@@ -5,6 +5,8 @@ import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
 import Cross from './Cross';
+import Cog from './Cog';
+import Edit from './Edit';
 import Logo from './Logo';
 import CustomerService from './CustomerService';
 import HSLLogo from './HSLLogo';
@@ -27,6 +29,8 @@ export {
   CardWithCheckmark,
   Checkmark,
   Cross,
+  Cog,
+  Edit,
   Logo,
   CustomerService,
   HSLLogo,

@@ -7,7 +7,8 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number } from '@kadira/storybook-addon-knobs';
 
 import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo,
-         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu
+         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu,
+         Cog, Edit
        } from '../src/Icons';
 
 setAddon(JSXAddon);
@@ -105,6 +106,19 @@ stories.addWithJSX('Checkmark', () => {
   return (<Checkmark fill={fill} height={`${height}em`} />);
 }, { displayName: 'Checkmark' });
 
+stories.addWithJSX('Cog', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Cog fill={fill} height={`${height}em`} />);
+}, { displayName: 'Cog' });
+
 stories.addWithJSX('Cross', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -117,6 +131,19 @@ stories.addWithJSX('Cross', () => {
   const height = number('Height', defaultValue, options);
   return (<Cross fill={fill} height={`${height}em`} />);
 }, { displayName: 'Cross' });
+
+stories.addWithJSX('Edit', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Edit fill={fill} height={`${height}em`} />);
+}, { displayName: 'Edit' });
 
 stories.addWithJSX('Logo', () => {
   const fill = color('fill', '#d1d1d1');

@@ -112,7 +112,7 @@ MenuSmall.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  className: React.PropTypes.string,
+  className: PropTypes.string,
   children: PropTypes.node
 };
 
