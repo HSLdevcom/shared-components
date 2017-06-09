@@ -7,6 +7,7 @@ import { addClass } from '../utils';
 import Span from '../Span/Span';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 import { Cross, Menu } from '../Icons';
+import { ButtonNoStyle } from '../Button/Button';
 
 const StyledNav = styled.nav`
   svg {
@@ -56,40 +57,57 @@ const TopIcons = FlexWrapper.extend`
   }
 `;
 
-const Nav = ({
-  className,
-  logo,
-  menu,
-  menuOpen,
-  children }) =>
-    (<StyledNav className={className}>
+class Nav extends React.PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = { open: false };
+    this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  toggleMenu() {
+    this.setState(prevState => ({
+      open: !prevState.open
+    }));
+  }
+
+  render() {
+    return (<StyledNav className={this.props.className}>
       <TopBar>
         <Span className="logo">
-          { logo }
+          { this.props.logo }
         </Span>
-        <TopIcons>
-          { menu.props.children }
-          { menuOpen && <Cross height="3rem" /> }
-          { !menuOpen && <Menu height="3rem" /> }
-        </TopIcons>
+        {this.props.menu && <TopIcons>
+          { this.props.menu.props.children }
+          { this.state.open &&
+            <ButtonNoStyle onClick={this.toggleMenu}>
+              <Cross height="3rem" />
+            </ButtonNoStyle>
+          }
+          { !this.state.open &&
+            <ButtonNoStyle onClick={this.toggleMenu}>
+              <Menu height="3rem" />
+            </ButtonNoStyle>
+          }
+        </TopIcons>}
       </TopBar>
 
-      { menuOpen && React.cloneElement(
-        menu,
-        { className: cx(menu.props.className, 'menu'),
-          items: addClass(children, 'nav-item'),
+      { this.props.menu && this.state.open && React.cloneElement(
+        this.props.menu,
+        { className: cx(this.props.menu.props.className, 'menu'),
+          items: addClass(this.props.children, 'nav-item'),
         },
-        addClass(menu.props.children, 'menu-item')
+        addClass(this.props.menu.props.children, 'menu-item')
         )
       }
     </StyledNav>);
+  }
+}
 
 Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
   children: PropTypes.node,
-  menuOpen: PropTypes.bool
 };
 
 export default styled(Nav)``;

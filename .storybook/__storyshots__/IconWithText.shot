@@ -1,9 +1,9 @@
 exports[`default`] = `
 <div
-  className="sc-cMljjf hmmoEt sc-bZQynM bsmBBS">
+  className="sc-jAaTju kiXUaY sc-gzVnrw jGncgf">
   <span
     aria-hidden="true"
-    className="icon sc-EHOje idYizD">
+    className="icon sc-bZQynM gnrOxV">
     <svg
       fill={undefined}
       height="4rem"
@@ -17,7 +17,7 @@ exports[`default`] = `
     </svg>
   </span>
   <span
-    className="text sc-ifAKCX cFlEyZ">
+    className="text sc-EHOje jvzENE">
     Sample text
   </span>
 </div>
@@ -25,10 +25,10 @@ exports[`default`] = `
 
 exports[`with inner & outer fill`] = `
 <div
-  className="sc-jAaTju kiXUaY sc-bZQynM bsmBBS">
+  className="sc-jDwBTQ jbEjhh sc-gzVnrw jGncgf">
   <span
     aria-hidden="true"
-    className="icon sc-EHOje idYizD">
+    className="icon sc-bZQynM gnrOxV">
     <svg
       height="4rem"
       preserveAspectRatio="xMidYMid meet"
@@ -58,7 +58,7 @@ exports[`with inner & outer fill`] = `
     </svg>
   </span>
   <span
-    className="text sc-ifAKCX cFlEyZ">
+    className="text sc-EHOje jvzENE">
     Sample text
   </span>
 </div>

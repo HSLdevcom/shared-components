@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
@@ -37,12 +37,9 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const open = boolean('Display list', false);
-
   const menu = (<Menu
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
-    langSelectOpen={open}
   />);
 
   return (<Nav logo={logo} menu={menu}>
@@ -70,8 +67,6 @@ stories.addWithJSX('minimal', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const open = boolean('Display list', false);
-
   const NavIWT = IconWithText.extend`
     .icon {
       display: none;
@@ -81,7 +76,6 @@ stories.addWithJSX('minimal', () => {
   const menu = (<MenuSmall
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
-    langSelectOpen={open}
   />);
 
   return (<Nav logo={logo} menu={menu} className="minimal">
@@ -122,8 +116,6 @@ stories.addWithJSX('mobile', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const open = boolean('Display menu', false);
-
   const menu = (<MenuMobile
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -142,7 +134,7 @@ stories.addWithJSX('mobile', () => {
     />
   </MenuMobile>);
 
-  return (<NavMobile logo={logo} menu={menu} menuOpen={open} >
+  return (<NavMobile logo={logo} menu={menu} >
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <IconWithText

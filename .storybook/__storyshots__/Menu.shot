@@ -1,8 +1,8 @@
 exports[`default`] = `
 <div
-  className="sc-kGXeez eIIwaK sc-kgoBCf cQnDAP">
+  className="sc-kpOJdX kAzjOl sc-kGXeez jEAOjD">
   <div
-    className="top sc-dnqmqq loZnhf">
+    className="top sc-iwsKbI hAZHJM">
     <svg
       height="2rem"
       preserveAspectRatio="xMidYMid meet"
@@ -20,29 +20,30 @@ exports[`default`] = `
       </g>
     </svg>
     <span
-      className="lang-select sc-ifAKCX cFlEyZ">
+      className="lang-select sc-EHOje jvzENE">
       <div
-        className="large sc-gqjmRU hnZXkc sc-gZMcBi kDRGeU">
+        className="large sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
         <button
-          className="sc-iwsKbI faxTFl"
+          className="sc-gZMcBi jASdSG"
           onClick={[Function]}>
           FI
         </button>
         <button
-          className="sc-iwsKbI faxTFl"
+          className="sc-gZMcBi jASdSG"
           onClick={[Function]}>
           SV
         </button>
         <button
-          className="sc-iwsKbI faxTFl"
+          className="sc-gZMcBi jASdSG"
           onClick={[Function]}>
           EN
         </button>
       </div>
       <div
-        className="small sc-fjdhpX nsimD sc-VigVT dfRmfQ">
+        className="small sc-jzJRlG enxKql sc-jTzLTM hSypMk">
         <button
-          className="selected-language sc-iwsKbI faxTFl">
+          className="selected-language sc-gZMcBi jASdSG"
+          onClick={[Function]}>
           FI
           <svg
             fill={undefined}
@@ -60,14 +61,14 @@ exports[`default`] = `
     </span>
   </div>
   <div
-    className="sc-kAzzGY LzUje" />
+    className="sc-chPdSV fAvQPZ" />
   <div
-    className="bottom sc-dnqmqq loZnhf">
+    className="bottom sc-iwsKbI hAZHJM">
     <div
-      className="child sc-gzVnrw hDwEie sc-bZQynM ifsTat">
+      className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje jylRrU">
+        className="icon sc-bZQynM hUywdZ">
         <svg
           fill={undefined}
           height="3.5rem"
@@ -81,15 +82,15 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Matkakortti
       </span>
     </div>
     <div
-      className="child sc-gzVnrw hDwEie sc-bZQynM ifsTat">
+      className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje jylRrU">
+        className="icon sc-bZQynM hUywdZ">
         <svg
           height="3.5rem"
           preserveAspectRatio="xMidYMid meet"
@@ -108,7 +109,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Kirjaudu
       </span>
     </div>
@@ -118,12 +119,12 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-ckVGcZ foYhJp sc-kpOJdX dmnCKS">
+  className="sc-jKJlTe loXQau sc-dxgOiQ faPeUa">
   <div
-    className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
+    className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
     <span
       aria-hidden="true"
-      className="icon sc-EHOje jylRrU">
+      className="icon sc-bZQynM hUywdZ">
       <svg
         height="2rem"
         preserveAspectRatio="xMidYMid meet"
@@ -142,15 +143,15 @@ exports[`minimal`] = `
       </svg>
     </span>
     <span
-      className="text sc-ifAKCX cFlEyZ">
+      className="text sc-EHOje jvzENE">
       Matkakortti
     </span>
   </div>
   <div
-    className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
+    className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
     <span
       aria-hidden="true"
-      className="icon sc-EHOje jylRrU">
+      className="icon sc-bZQynM hUywdZ">
       <svg
         fill={undefined}
         height="2rem"
@@ -164,7 +165,7 @@ exports[`minimal`] = `
       </svg>
     </span>
     <span
-      className="text sc-ifAKCX cFlEyZ">
+      className="text sc-EHOje jvzENE">
       Kirjaudu
     </span>
   </div>
@@ -185,9 +186,10 @@ exports[`minimal`] = `
     </g>
   </svg>
   <div
-    className="sc-fjdhpX nsimD sc-VigVT dfRmfQ">
+    className="sc-jzJRlG enxKql sc-jTzLTM hSypMk">
     <button
-      className="selected-language sc-iwsKbI faxTFl">
+      className="selected-language sc-gZMcBi jASdSG"
+      onClick={[Function]}>
       FI
       <svg
         fill={undefined}
@@ -207,25 +209,25 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <div
-  className="sc-jDwBTQ iIedwo sc-eNQAEJ cCqJw">
+  className="sc-gPEVay lfUMVD sc-hMqMXs gBfrbV">
   <div
-    className="sc-jKJlTe kNEeyE" />
+    className="sc-eNQAEJ hriuVZ" />
   <div
-    className="sc-hMqMXs hVxQeN">
+    className="sc-kEYyzF cecCZF">
     <div
-      className="sc-gqjmRU hnZXkc sc-gZMcBi kDRGeU">
+      className="sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
       <button
-        className="sc-iwsKbI faxTFl"
+        className="sc-gZMcBi jASdSG"
         onClick={[Function]}>
         FI
       </button>
       <button
-        className="sc-iwsKbI faxTFl"
+        className="sc-gZMcBi jASdSG"
         onClick={[Function]}>
         SV
       </button>
       <button
-        className="sc-iwsKbI faxTFl"
+        className="sc-gZMcBi jASdSG"
         onClick={[Function]}>
         EN
       </button>
@@ -248,14 +250,14 @@ exports[`mobile`] = `
     </svg>
   </div>
   <div
-    className="sc-jKJlTe kNEeyE" />
+    className="sc-eNQAEJ hriuVZ" />
   <div
     className="children sc-bdVaJa bDWFJH">
     <div
-      className="child sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="child sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="3.5rem"
@@ -269,15 +271,15 @@ exports[`mobile`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Matkakortti
       </span>
     </div>
     <div
-      className="child sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="child sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           height="3.5rem"
           preserveAspectRatio="xMidYMid meet"
@@ -296,7 +298,7 @@ exports[`mobile`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Kirjaudu
       </span>
     </div>

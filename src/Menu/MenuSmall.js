@@ -60,7 +60,6 @@ const MenuSmall = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  langSelectOpen,
   className,
   children
 }) => (
@@ -75,7 +74,6 @@ const MenuSmall = ({
       languages={languages}
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
-      open={langSelectOpen}
     />
   </StyledFlexWrapper>
 );
@@ -114,7 +112,6 @@ MenuSmall.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node
 };

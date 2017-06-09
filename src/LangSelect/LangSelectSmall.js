@@ -34,40 +34,56 @@ const SelectWrapper = Div.extend`
   }
 `;
 
-const LangSelectSmall = ({
-  languages,
-  changeLanguage,
-  selectedLanguage,
-  open,
-  className
-}) => (
-  <StyledDiv className={className}>
-    <LangButton className="selected-language">
-      { languages.find(lang => lang.id === selectedLanguage).name }
-      <ArrowDown height="0.75rem" width="0.75rem" />
-    </LangButton>
-    {
-     open && <SelectWrapper className="select-wrapper">
-       {
-        languages.filter(lang => lang.id !== selectedLanguage).map(lang =>
-          (
-            <LangButton
-              key={lang.id}
-              onClick={() => { changeLanguage(lang.id); }}
-            >
-              {lang.name}
-            </LangButton>
-          )
-        )
-      }
-     </SelectWrapper>
-    }
-  </StyledDiv>
-);
+
+class LangSelectSmall extends React.PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = { open: false };
+    this.toggleLangSelect = this.toggleLangSelect.bind(this);
+  }
+
+  toggleLangSelect() {
+    this.setState(prevState => ({
+      open: !prevState.open
+    }));
+  }
+
+  render() {
+    return (
+      <StyledDiv className={this.props.className}>
+        <LangButton
+          className="selected-language"
+          onClick={this.toggleLangSelect}
+        >
+          { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
+          <ArrowDown height="0.75rem" width="0.75rem" />
+        </LangButton>
+        {
+         this.state.open && <SelectWrapper className="select-wrapper">
+           {
+            this.props.languages.filter(lang => lang.id !== this.props.selectedLanguage).map(lang =>
+              (
+                <LangButton
+                  key={lang.id}
+                  onClick={() => {
+                    this.props.changeLanguage(lang.id);
+                    this.toggleLangSelect();
+                  }}
+                >
+                  {lang.name}
+                </LangButton>
+              )
+            )
+          }
+         </SelectWrapper>
+        }
+      </StyledDiv>);
+  }
+}
 
 
 LangSelectSmall.defaultProps = {
-  languages: [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }]
+  languages: [{ id: 'fi', name: 'FI' }, { id: 'sv', name: 'SV' }, { id: 'en', name: 'EN' }],
 };
 
 LangSelectSmall.propTypes = {
@@ -83,7 +99,6 @@ LangSelectSmall.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  open: PropTypes.bool,
   className: PropTypes.string
 };
 export default styled(LangSelectSmall)``;

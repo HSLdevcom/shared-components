@@ -1,8 +1,8 @@
 exports[`default`] = `
 <nav
-  className="sc-iAyFgw gPlgsX sc-kkGfuU fURndm">
+  className="sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
   <span
-    className="logo sc-ifAKCX cFlEyZ">
+    className="logo sc-EHOje jvzENE">
     <svg
       fill={undefined}
       height="3.75rem"
@@ -23,10 +23,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -46,7 +46,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Reittiopas
       </span>
     </div>
@@ -56,10 +56,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -73,7 +73,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Liput ja hinnat
       </span>
     </div>
@@ -83,10 +83,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -103,7 +103,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Asiakaspalvelu
       </span>
     </div>
@@ -113,10 +113,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -141,7 +141,7 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Uutta
       </span>
     </div>
@@ -151,10 +151,10 @@ exports[`default`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+      className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -183,15 +183,15 @@ exports[`default`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Lisää
       </span>
     </div>
   </a>
   <div
-    className="menu sc-kGXeez eIIwaK sc-kgoBCf cQnDAP">
+    className="menu sc-kpOJdX kAzjOl sc-kGXeez jEAOjD">
     <div
-      className="top sc-dnqmqq loZnhf">
+      className="top sc-iwsKbI hAZHJM">
       <svg
         height="2rem"
         preserveAspectRatio="xMidYMid meet"
@@ -209,29 +209,30 @@ exports[`default`] = `
         </g>
       </svg>
       <span
-        className="lang-select sc-ifAKCX cFlEyZ">
+        className="lang-select sc-EHOje jvzENE">
         <div
-          className="large sc-gqjmRU hnZXkc sc-gZMcBi kDRGeU">
+          className="large sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
           <button
-            className="sc-iwsKbI faxTFl"
+            className="sc-gZMcBi jASdSG"
             onClick={[Function]}>
             FI
           </button>
           <button
-            className="sc-iwsKbI faxTFl"
+            className="sc-gZMcBi jASdSG"
             onClick={[Function]}>
             SV
           </button>
           <button
-            className="sc-iwsKbI faxTFl"
+            className="sc-gZMcBi jASdSG"
             onClick={[Function]}>
             EN
           </button>
         </div>
         <div
-          className="small sc-fjdhpX nsimD sc-VigVT dfRmfQ">
+          className="small sc-jzJRlG enxKql sc-jTzLTM hSypMk">
           <button
-            className="selected-language sc-iwsKbI faxTFl">
+            className="selected-language sc-gZMcBi jASdSG"
+            onClick={[Function]}>
             FI
             <svg
               fill={undefined}
@@ -249,14 +250,14 @@ exports[`default`] = `
       </span>
     </div>
     <div
-      className="sc-kAzzGY LzUje" />
+      className="sc-chPdSV fAvQPZ" />
     <div
-      className="bottom sc-dnqmqq loZnhf">
+      className="bottom sc-iwsKbI hAZHJM">
       <div
-        className="child sc-gzVnrw hDwEie sc-bZQynM ifsTat">
+        className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
         <span
           aria-hidden="true"
-          className="icon sc-EHOje jylRrU">
+          className="icon sc-bZQynM hUywdZ">
           <svg
             fill={undefined}
             height="3.5rem"
@@ -270,15 +271,15 @@ exports[`default`] = `
           </svg>
         </span>
         <span
-          className="text sc-ifAKCX cFlEyZ">
+          className="text sc-EHOje jvzENE">
           Matkakortti
         </span>
       </div>
       <div
-        className="child sc-gzVnrw hDwEie sc-bZQynM ifsTat">
+        className="child sc-htoDjs dLESzS sc-gzVnrw dDxFqh">
         <span
           aria-hidden="true"
-          className="icon sc-EHOje jylRrU">
+          className="icon sc-bZQynM hUywdZ">
           <svg
             height="3.5rem"
             preserveAspectRatio="xMidYMid meet"
@@ -297,7 +298,7 @@ exports[`default`] = `
           </svg>
         </span>
         <span
-          className="text sc-ifAKCX cFlEyZ">
+          className="text sc-EHOje jvzENE">
           Kirjaudu
         </span>
       </div>
@@ -308,9 +309,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <nav
-  className="minimal sc-iAyFgw gPlgsX sc-kkGfuU fURndm">
+  className="minimal sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
   <span
-    className="logo sc-ifAKCX cFlEyZ">
+    className="logo sc-EHOje jvzENE">
     <svg
       fill={undefined}
       height="3.75rem"
@@ -331,10 +332,10 @@ exports[`minimal`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gPEVay hHzYbn sc-bZQynM bsmBBS">
+      className="sc-iRbamj bisjtA sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -354,7 +355,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Reittiopas
       </span>
     </div>
@@ -364,10 +365,10 @@ exports[`minimal`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gPEVay hHzYbn sc-bZQynM bsmBBS">
+      className="sc-iRbamj bisjtA sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -381,7 +382,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Liput ja hinnat
       </span>
     </div>
@@ -391,10 +392,10 @@ exports[`minimal`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gPEVay hHzYbn sc-bZQynM bsmBBS">
+      className="sc-iRbamj bisjtA sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -411,7 +412,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Asiakaspalvelu
       </span>
     </div>
@@ -421,10 +422,10 @@ exports[`minimal`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gPEVay hHzYbn sc-bZQynM bsmBBS">
+      className="sc-iRbamj bisjtA sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -449,7 +450,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Uutta
       </span>
     </div>
@@ -459,10 +460,10 @@ exports[`minimal`] = `
     onClick={[Function]}
     style={Object {}}>
     <div
-      className="sc-gPEVay hHzYbn sc-bZQynM bsmBBS">
+      className="sc-iRbamj bisjtA sc-gzVnrw jGncgf">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje idYizD">
+        className="icon sc-bZQynM gnrOxV">
         <svg
           fill={undefined}
           height="2.5rem"
@@ -491,18 +492,18 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Lisää
       </span>
     </div>
   </a>
   <div
-    className="menu sc-ckVGcZ foYhJp sc-kpOJdX dmnCKS">
+    className="menu sc-jKJlTe loXQau sc-dxgOiQ faPeUa">
     <div
-      className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
+      className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje jylRrU">
+        className="icon sc-bZQynM hUywdZ">
         <svg
           height="2rem"
           preserveAspectRatio="xMidYMid meet"
@@ -521,15 +522,15 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Matkakortti
       </span>
     </div>
     <div
-      className="sc-dxgOiQ gZCIfX sc-bZQynM ifsTat">
+      className="sc-ckVGcZ gQYZqq sc-gzVnrw dDxFqh">
       <span
         aria-hidden="true"
-        className="icon sc-EHOje jylRrU">
+        className="icon sc-bZQynM hUywdZ">
         <svg
           fill={undefined}
           height="2rem"
@@ -543,7 +544,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <span
-        className="text sc-ifAKCX cFlEyZ">
+        className="text sc-EHOje jvzENE">
         Kirjaudu
       </span>
     </div>
@@ -564,9 +565,10 @@ exports[`minimal`] = `
       </g>
     </svg>
     <div
-      className="sc-fjdhpX nsimD sc-VigVT dfRmfQ">
+      className="sc-jzJRlG enxKql sc-jTzLTM hSypMk">
       <button
-        className="selected-language sc-iwsKbI faxTFl">
+        className="selected-language sc-gZMcBi jASdSG"
+        onClick={[Function]}>
         FI
         <svg
           fill={undefined}
@@ -587,11 +589,11 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-jWBwVP fDrbnp sc-hSdWYo cjfbOH">
+  className="sc-brqgnP SqPLV sc-eHgmQL gIGTTJ">
   <div
-    className="sc-eHgmQL drNNBw">
+    className="sc-cvbbAY eUKJJD">
     <span
-      className="logo sc-ifAKCX cFlEyZ">
+      className="logo sc-EHOje jvzENE">
       <svg
         fill={undefined}
         height="2rem"
@@ -608,12 +610,12 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-cvbbAY kZrGtC">
+      className="sc-jWBwVP YWgVC">
       <div
-        className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+        className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
         <span
           aria-hidden="true"
-          className="icon sc-EHOje idYizD">
+          className="icon sc-bZQynM gnrOxV">
           <svg
             fill={undefined}
             height="3.5rem"
@@ -627,15 +629,15 @@ exports[`mobile`] = `
           </svg>
         </span>
         <span
-          className="text sc-ifAKCX cFlEyZ">
+          className="text sc-EHOje jvzENE">
           Matkakortti
         </span>
       </div>
       <div
-        className="sc-gzVnrw hDwEie sc-bZQynM bsmBBS">
+        className="sc-htoDjs dLESzS sc-gzVnrw jGncgf">
         <span
           aria-hidden="true"
-          className="icon sc-EHOje idYizD">
+          className="icon sc-bZQynM gnrOxV">
           <svg
             height="3.5rem"
             preserveAspectRatio="xMidYMid meet"
@@ -654,22 +656,26 @@ exports[`mobile`] = `
           </svg>
         </span>
         <span
-          className="text sc-ifAKCX cFlEyZ">
+          className="text sc-EHOje jvzENE">
           Kirjaudu
         </span>
       </div>
-      <svg
-        fill={undefined}
-        height="3rem"
-        preserveAspectRatio="xMidYMid meet"
-        viewBox="0 0 40 24"
-        width={undefined}>
-        <g>
-          <path
-            d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
-            id="Shape" />
-        </g>
-      </svg>
+      <button
+        className="sc-bxivhb jlphCZ"
+        onClick={[Function]}>
+        <svg
+          fill={undefined}
+          height="3rem"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 40 24"
+          width={undefined}>
+          <g>
+            <path
+              d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
+              id="Shape" />
+          </g>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -677,9 +683,9 @@ exports[`mobile`] = `
 
 exports[`only title`] = `
 <nav
-  className="minimal sc-iAyFgw gPlgsX sc-kkGfuU fURndm">
+  className="minimal sc-hSdWYo bIQQAp sc-iAyFgw cdGoMm">
   <span
-    className="logo sc-ifAKCX cFlEyZ">
+    className="logo sc-EHOje jvzENE">
     <svg
       fill={undefined}
       height="3.75rem"
@@ -696,7 +702,7 @@ exports[`only title`] = `
     </svg>
   </span>
   <span
-    className="child sc-iRbamj hqXJNM">
+    className="child sc-jlyJG gnRxHf">
     Lataa kautta
   </span>
 </nav>

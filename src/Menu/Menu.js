@@ -73,7 +73,6 @@ const Menu = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  langSelectOpen,
   className,
   children
 }) => (
@@ -92,7 +91,6 @@ const Menu = ({
           languages={languages}
           selectedLanguage={selectedLanguage}
           changeLanguage={changeLanguage}
-          open={langSelectOpen}
         />
       </Span>
     </FlexWrapper>
@@ -137,7 +135,6 @@ Menu.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  langSelectOpen: PropTypes.bool,
   className: React.PropTypes.string,
   children: PropTypes.node
 };
