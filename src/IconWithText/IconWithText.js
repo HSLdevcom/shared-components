@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Span from '../Span/Span';
-import { ButtonNoStyle } from '../Button/Button';
+import Div from '../Div/Div';
 
 const IconWrapper = Span.extend`
   vertical-align: middle;
@@ -13,7 +13,7 @@ const IconWrapper = Span.extend`
   }
 `;
 
-const StyledButton = ButtonNoStyle.extend`
+const StyledButton = Div.extend`
   display: flex;
   flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
   align-items: center;
