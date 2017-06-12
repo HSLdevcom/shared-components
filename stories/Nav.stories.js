@@ -11,6 +11,7 @@ import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
 import Nav, { NavMobile } from '../src/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
 import Span from '../src/Span/Span';
+import Div from '../src/Div/Div';
 
 import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 
@@ -37,6 +38,10 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
+  const StyledDiv = Div.extend`
+    height: 100rem;
+  `;
+
   const menu = (<Menu
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -55,17 +60,19 @@ stories.addWithJSX('default', () => {
     />
   </Menu>);
 
-  return (<Nav logo={logo} menu={menu}>
-    {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <IconWithText
-        icon={icon[0]}
-        text={icon[1]}
-        textPosition={'Bottom'}
-      />
-    </Link>)
+  return (<StyledDiv>
+    <Nav logo={logo} menu={menu}>
+      {icons.map(icon =>
+        (<Link to="/test" key={icon[1]}>
+          <IconWithText
+            icon={icon[0]}
+            text={icon[1]}
+            textPosition={'Bottom'}
+          />
+        </Link>)
      )}
-  </Nav>);
+    </Nav>
+  </StyledDiv>);
 });
 
 
