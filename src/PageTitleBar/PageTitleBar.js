@@ -39,8 +39,14 @@ const StyledDiv = Div.extend`
       background-color: #fff;
       border-right: 1px solid #ddd;
       padding: 0;
+      &:hover {
+        cursor: pointer;
+      }
       img {
         height: 1em;
+        margin: auto;
+      }
+      svg {
         margin: auto;
       }
     }
