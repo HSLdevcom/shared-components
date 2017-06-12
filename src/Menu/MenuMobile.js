@@ -30,9 +30,9 @@ const StyledDiv = Div.extend`
   }
   .children {
     font-size: 1.75rem;
-    padding: 3rem;
+    padding: 3rem 0;
     .child {
-      padding: 0 4rem;
+      width: 50%;
       &:not(:last-child) {
         border-right: 2px solid ${props => props.theme.menuBorder};
       }
