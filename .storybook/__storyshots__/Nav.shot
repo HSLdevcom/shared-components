@@ -29,8 +29,8 @@ exports[`default`] = `
           className="child"
           onClick={[Function]}
           style={Object {}}>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -56,14 +56,14 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Reittiopas
             </span>
-          </button>
+          </div>
         </a>
         <a
           className="child"
           onClick={[Function]}
           style={Object {}}>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -83,14 +83,14 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Liput ja hinnat
             </span>
-          </button>
+          </div>
         </a>
         <a
           className="child"
           onClick={[Function]}
           style={Object {}}>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -113,14 +113,14 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Asiakaspalvelu
             </span>
-          </button>
+          </div>
         </a>
         <a
           className="child"
           onClick={[Function]}
           style={Object {}}>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -151,14 +151,14 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Uutta
             </span>
-          </button>
+          </div>
         </a>
         <a
           className="child"
           onClick={[Function]}
           style={Object {}}>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -193,7 +193,7 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Lisää
             </span>
-          </button>
+          </div>
         </a>
         <div
           className="menu sc-kpOJdX kAzjOl sc-kGXeez jEAOjD">
@@ -260,8 +260,8 @@ exports[`default`] = `
             className="sc-chPdSV fAvQPZ" />
           <div
             className="bottom sc-iwsKbI hAZHJM">
-            <button
-              className="child sc-htoDjs keqScR sc-gzVnrw gvPVSk">
+            <div
+              className="child sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
                 aria-hidden="true"
                 className="icon sc-bZQynM hUywdZ">
@@ -281,9 +281,9 @@ exports[`default`] = `
                 className="text sc-EHOje jvzENE">
                 Matkakortti
               </span>
-            </button>
-            <button
-              className="child sc-htoDjs keqScR sc-gzVnrw gvPVSk">
+            </div>
+            <div
+              className="child sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
                 aria-hidden="true"
                 className="icon sc-bZQynM hUywdZ">
@@ -308,7 +308,7 @@ exports[`default`] = `
                 className="text sc-EHOje jvzENE">
                 Kirjaudu
               </span>
-            </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -336,8 +336,8 @@ exports[`default`] = `
         </span>
         <div
           className="sc-jWBwVP iXcIGQ">
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -357,9 +357,9 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Matkakortti
             </span>
-          </button>
-          <button
-            className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+          </div>
+          <div
+            className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
               aria-hidden="true"
               className="icon sc-bZQynM gnrOxV">
@@ -384,7 +384,7 @@ exports[`default`] = `
               className="text sc-EHOje jvzENE">
               Kirjaudu
             </span>
-          </button>
+          </div>
           <button
             className="sc-bxivhb dcGquP"
             onClick={[Function]}>
@@ -456,8 +456,8 @@ exports[`minimal`] = `
         className="child"
         onClick={[Function]}
         style={Object {}}>
-        <button
-          className="sc-csuQGl bfejgd sc-gzVnrw cQjFkf">
+        <div
+          className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM gnrOxV">
@@ -483,14 +483,14 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Reittiopas
           </span>
-        </button>
+        </div>
       </a>
       <a
         className="child"
         onClick={[Function]}
         style={Object {}}>
-        <button
-          className="sc-csuQGl bfejgd sc-gzVnrw cQjFkf">
+        <div
+          className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM gnrOxV">
@@ -510,14 +510,14 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Liput ja hinnat
           </span>
-        </button>
+        </div>
       </a>
       <a
         className="child"
         onClick={[Function]}
         style={Object {}}>
-        <button
-          className="sc-csuQGl bfejgd sc-gzVnrw cQjFkf">
+        <div
+          className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM gnrOxV">
@@ -540,14 +540,14 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Asiakaspalvelu
           </span>
-        </button>
+        </div>
       </a>
       <a
         className="child"
         onClick={[Function]}
         style={Object {}}>
-        <button
-          className="sc-csuQGl bfejgd sc-gzVnrw cQjFkf">
+        <div
+          className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM gnrOxV">
@@ -578,14 +578,14 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Uutta
           </span>
-        </button>
+        </div>
       </a>
       <a
         className="child"
         onClick={[Function]}
         style={Object {}}>
-        <button
-          className="sc-csuQGl bfejgd sc-gzVnrw cQjFkf">
+        <div
+          className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM gnrOxV">
@@ -620,12 +620,12 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Lisää
           </span>
-        </button>
+        </div>
       </a>
       <div
         className="menu sc-jKJlTe loXQau sc-dxgOiQ ldYBGz">
-        <button
-          className="sc-ckVGcZ ibuLRA sc-gzVnrw gvPVSk">
+        <div
+          className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM hUywdZ">
@@ -650,9 +650,9 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Matkakortti
           </span>
-        </button>
-        <button
-          className="sc-ckVGcZ ibuLRA sc-gzVnrw gvPVSk">
+        </div>
+        <div
+          className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
           <span
             aria-hidden="true"
             className="icon sc-bZQynM hUywdZ">
@@ -672,7 +672,7 @@ exports[`minimal`] = `
             className="text sc-EHOje jvzENE">
             Kirjaudu
           </span>
-        </button>
+        </div>
         <svg
           height="2rem"
           preserveAspectRatio="xMidYMid meet"
@@ -799,8 +799,8 @@ exports[`mobile`] = `
     </span>
     <div
       className="sc-jWBwVP iXcIGQ">
-      <button
-        className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+      <div
+        className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -820,9 +820,9 @@ exports[`mobile`] = `
           className="text sc-EHOje jvzENE">
           Matkakortti
         </span>
-      </button>
-      <button
-        className="sc-htoDjs keqScR sc-gzVnrw cQjFkf">
+      </div>
+      <div
+        className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -847,7 +847,7 @@ exports[`mobile`] = `
           className="text sc-EHOje jvzENE">
           Kirjaudu
         </span>
-      </button>
+      </div>
       <button
         className="sc-bxivhb dcGquP"
         onClick={[Function]}>
