@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import Div from '../Div/Div';
 
-const AppHeader = styled.div `
+const AppHeader = Div.extend `
   background-color: #222;
   height: 150px;
   padding: 20px;

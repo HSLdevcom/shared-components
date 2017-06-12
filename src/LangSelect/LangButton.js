@@ -1,13 +1,9 @@
-import styled from 'styled-components';
+import { ButtonNoStyle } from '../Button/Button';
 
-const LangButton = styled.button`
+const LangButton = ButtonNoStyle.extend`
   border-radius: 3px;
-  border: 0;
-  outline: 0;
-  background: 0;
-  padding: 0 0.5rem;
-  color: inherit;
-  font: inherit;
+  width: 2rem;
+  height: 1.5rem;
   &:hover {
     cursor: pointer;
   }

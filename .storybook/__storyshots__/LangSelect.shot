@@ -1,18 +1,18 @@
 exports[`default`] = `
 <div
-  className="sc-gZMcBi giNnHm sc-iwsKbI gFEryP">
+  className="sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
   <button
-    className="sc-dnqmqq kEsyzc"
+    className="sc-gZMcBi kHtCcY"
     onClick={[Function]}>
     FI
   </button>
   <button
-    className="sc-dnqmqq kEsyzc"
+    className="sc-gZMcBi kHtCcY"
     onClick={[Function]}>
     SV
   </button>
   <button
-    className="sc-dnqmqq kEsyzc"
+    className="sc-gZMcBi kHtCcY"
     onClick={[Function]}>
     EN
   </button>
@@ -21,9 +21,10 @@ exports[`default`] = `
 
 exports[`small`] = `
 <div
-  className="sc-jTzLTM eCMmlJ sc-gqjmRU hlaZSa">
+  className="sc-jzJRlG enxKql sc-jTzLTM WxuDE">
   <button
-    className="selected-language sc-dnqmqq kEsyzc">
+    className="selected-language sc-gZMcBi kHtCcY"
+    onClick={[Function]}>
     FI
     <svg
       fill={undefined}

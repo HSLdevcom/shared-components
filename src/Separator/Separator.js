@@ -1,14 +1,25 @@
-import styled from 'styled-components';
+import Div from '../Div/Div';
 
-const Separator = styled.div `
-  height: 2px;
+const Separator = Div.extend`
+  height: 1px;
   background: ${props => props.theme.background};
   margin-top: 10px;
 `;
 
+const HorizontalSeparator = Separator.extend`
+  height: auto;
+  width: 1px;
+  margin: 0;
+`;
+
 const MenuSeparator = Separator.extend`
-  border-bottom: solid 1px ${props => props.theme.menuBorder};
+  background: ${props => props.theme.menuBorder};
   margin: 0.75em 0;
 `;
-export { MenuSeparator };
+
+const HorizontalMenuSeparator = HorizontalSeparator.extend`
+  background: ${props => props.theme.menuBorder};
+`;
+
+export { MenuSeparator, HorizontalSeparator, HorizontalMenuSeparator };
 export default Separator;

@@ -7,10 +7,11 @@ import LangSelect, { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span/Span';
+import Div from '../Div/Div';
 import FlexWrapper from '../FlexWrapper/FlexWrapper';
 import IconWithText from '../IconWithText/IconWithText';
 
-const Div = styled.div`
+const StyledDiv = Div.extend`
   .lang-select {
     .small {
       display: none;
@@ -18,6 +19,9 @@ const Div = styled.div`
   }
   svg {
     fill: currentColor;
+  }
+  .bottom svg {
+    height: 2rem;
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
@@ -69,11 +73,10 @@ const Menu = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  langSelectOpen,
   className,
   children
 }) => (
-  <Div className={className}>
+  <StyledDiv className={className}>
     <FlexWrapper className="top">
       <Search height="2rem" width="2rem" />
       <Span className="lang-select">
@@ -88,26 +91,25 @@ const Menu = ({
           languages={languages}
           selectedLanguage={selectedLanguage}
           changeLanguage={changeLanguage}
-          open={langSelectOpen}
         />
       </Span>
     </FlexWrapper>
     <MenuSeparator />
     <FlexWrapper className="bottom">
-      {React.Children.map(children, child => addClass(child, 'child'))}
+      { addClass(children, 'child') }
     </FlexWrapper>
-  </Div>
+  </StyledDiv>
 );
 
 const defaultChildren = [
   <IconWithText
-    icon={<TravelCard height="2rem" />}
+    icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
   />,
   <IconWithText
-    icon={<SignIn height="2rem" />}
+    icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"
@@ -133,7 +135,6 @@ Menu.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  langSelectOpen: PropTypes.bool,
   className: PropTypes.string,
   children: PropTypes.node
 };

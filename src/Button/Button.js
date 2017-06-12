@@ -24,3 +24,17 @@ const Button = styled.button`
 `;
 
 export default Button;
+
+const ButtonNoStyle = styled.button`
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  width: auto;
+  height: auto;
+  background: inherit;
+  color: inherit;
+  font: inherit;
+`;
+
+export { ButtonNoStyle };

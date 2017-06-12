@@ -4,10 +4,9 @@ import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select } from '@kadira/storybook-addon-knobs';
 
-import Menu, { MenuSmall } from '../src/Menu';
-
+import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
 
 setAddon(JSXAddon);
 
@@ -39,12 +38,33 @@ stories.addWithJSX('minimal', () => {
   };
 
   const selectedLanguage = select('Selected language', options, 'fi');
-  const open = boolean('Display list', false);
 
   return (
     <MenuSmall
       selectedLanguage={selectedLanguage}
       changeLanguage={action('language changed')}
-      langSelectOpen={open}
     />);
+});
+
+
+stories.addWithJSX('mobile', () => {
+  const StyledMenu = MenuMobile.extend`
+    background-color: #007ac9;
+    color: #ffffff;
+  `;
+  const options = {
+    fi: 'FI',
+    sv: 'SV',
+    en: 'EN',
+  };
+
+  const selectedLanguage = select('Selected language', options, 'fi');
+
+  return (
+    <StyledMenu
+      selectedLanguage={selectedLanguage}
+      changeLanguage={action('language changed')}
+      iconFill={'#FFFFFF'}
+    />
+  );
 });
