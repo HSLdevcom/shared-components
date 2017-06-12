@@ -1,7 +1,7 @@
 import Div from '../Div/Div';
 
 const Container = Div.extend`
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #dddddd;
   background-color: #fff;
   width: 100%;
