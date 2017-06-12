@@ -8,7 +8,7 @@ import { withKnobs, select } from '@kadira/storybook-addon-knobs';
 import JSXAddon from 'storybook-addon-jsx';
 
 import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
-import Nav, { NavMobile } from '../src/Nav';
+import Nav, { NavMobile, NavDesktop } from '../src/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
 import Span from '../src/Span/Span';
 import Div from '../src/Div/Div';
@@ -76,7 +76,7 @@ stories.addWithJSX('default', () => {
 });
 
 
-stories.addWithJSX('minimal', () => {
+stories.addWithJSX('scroll', () => {
   const logo = <HSLLogo height="3.75rem" />;
 
   const options = {
@@ -98,7 +98,7 @@ stories.addWithJSX('minimal', () => {
     changeLanguage={action('language changed')}
   />);
 
-  return (<Nav logo={logo} menu={menu} scroll>
+  return (<NavDesktop logo={logo} menu={menu} scroll>
     {icons.map(icon =>
     (<Link to="/test" key={icon[1]}>
       <NavIWT
@@ -108,7 +108,7 @@ stories.addWithJSX('minimal', () => {
       />
     </Link>)
      )}
-  </Nav>);
+  </NavDesktop>);
 });
 
 
@@ -120,9 +120,9 @@ stories.addWithJSX('only title', () => {
     }
   `;
 
-  return (<Nav logo={logo} scroll>
+  return (<NavDesktop logo={logo} scroll>
     <StyledSpan>Lataa kautta</StyledSpan>
-  </Nav>);
+  </NavDesktop>);
 });
 
 stories.addWithJSX('mobile', () => {
