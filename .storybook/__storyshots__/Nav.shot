@@ -231,7 +231,7 @@ exports[`default`] = `
             </button>
           </div>
           <div
-            className="small sc-jzJRlG enxKql sc-jTzLTM hSypMk">
+            className="small sc-jzJRlG enxKql sc-jTzLTM WxuDE">
             <button
               className="selected-language sc-gZMcBi kHtCcY"
               onClick={[Function]}>
@@ -594,7 +594,7 @@ exports[`minimal`] = `
       </button>
     </a>
     <div
-      className="menu sc-jKJlTe loXQau sc-dxgOiQ faPeUa">
+      className="menu sc-jKJlTe loXQau sc-dxgOiQ ldYBGz">
       <button
         className="sc-ckVGcZ ibuLRA sc-gzVnrw gvPVSk">
         <span
@@ -661,7 +661,7 @@ exports[`minimal`] = `
         </g>
       </svg>
       <div
-        className="sc-jzJRlG enxKql sc-jTzLTM hSypMk">
+        className="sc-jzJRlG enxKql sc-jTzLTM WxuDE">
         <button
           className="selected-language sc-gZMcBi kHtCcY"
           onClick={[Function]}>

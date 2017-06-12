@@ -12,6 +12,7 @@ const StyledDiv = Div.extend`
     width: 2.75rem;
   }
   padding: 0;
+  align-items: center;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
   .selected-language {
