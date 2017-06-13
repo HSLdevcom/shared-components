@@ -33,6 +33,7 @@ const StyledDiv = Div.extend`
     padding: 3rem 0;
     .child {
       width: 50%;
+      justify-content: center;
       &:not(:last-child) {
         border-right: 2px solid ${props => props.theme.menuBorder};
       }
