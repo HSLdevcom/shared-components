@@ -63,6 +63,10 @@ class Nav extends React.PureComponent {
     this.toggleMenu = this.toggleMenu.bind(this);
   }
 
+  getChildContext() {
+    return { textPosition: 'Right' };
+  }
+
   toggleMenu() {
     this.setState(prevState => ({
       open: !prevState.open
@@ -101,6 +105,10 @@ class Nav extends React.PureComponent {
     </StyledNav>);
   }
 }
+
+Nav.childContextTypes = {
+  textPosition: PropTypes.string
+};
 
 Nav.propTypes = {
   className: PropTypes.string,
