@@ -29,7 +29,7 @@ const Activatable = ({ active,
   context) => (
     <StyledDiv className={className} active={active} size={context.size || size}>
       {children}
-      {size === 'Small' && active && <Pointer />}
+      {(context.size || size) === 'Small' && active && <Pointer />}
     </StyledDiv>
 );
 
