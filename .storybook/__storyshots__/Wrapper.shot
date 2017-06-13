@@ -1,0 +1,42 @@
+exports[`Activatable`] = `
+<span>
+  <div
+    className="sc-fBuWsC hdxpvj">
+    <div
+      className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ"
+      size="Large">
+      <span>
+        Active
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-fBuWsC hdxpvj">
+    <div
+      className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa"
+      size="Large">
+      <span>
+        Inactive
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Flex`] = `
+<div
+  className="sc-jhAzac cmqRNS">
+  <div
+    className="sc-iwsKbI hAZHJM">
+    <span>
+      Span
+    </span>
+    <button>
+      Button
+    </button>
+    <div>
+      Div
+    </div>
+  </div>
+</div>
+`;
