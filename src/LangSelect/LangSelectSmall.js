@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import { ArrowDown } from '../Icons';
 import LangButton from './LangButton';
-import Div from '../Div/Div';
+import Div from '../Div';
 
 const StyledDiv = Div.extend`
   ${LangButton} {

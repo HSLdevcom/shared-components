@@ -10,7 +10,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
 import Nav, { NavMobile } from '../src/Nav';
 import IconWithText from '../src/IconWithText/IconWithText';
-import Span from '../src/Span/Span';
+import Span from '../src/Span';
 
 import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 

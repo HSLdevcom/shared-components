@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import cx from 'classnames';
 
 import { addClass } from '../utils';
-import Span from '../Span/Span';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import Span from '../Span';
+import { Flex } from '../Wrapper';
 import { Cross, Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
 
@@ -36,12 +36,12 @@ const StyledNav = styled.nav`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
-const TopBar = FlexWrapper.extend`
+const TopBar = Flex.extend`
   padding-bottom: 1rem;
   align-items: center;
 `;
 
-const TopIcons = FlexWrapper.extend`
+const TopIcons = Flex.extend`
   align-items: center;
   .text {
     display: none;
@@ -61,6 +61,10 @@ class Nav extends React.PureComponent {
     super(props);
     this.state = { open: false };
     this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  getChildContext() {
+    return { textPosition: 'Right' };
   }
 
   toggleMenu() {
@@ -101,6 +105,10 @@ class Nav extends React.PureComponent {
     </StyledNav>);
   }
 }
+
+Nav.childContextTypes = {
+  textPosition: PropTypes.string
+};
 
 Nav.propTypes = {
   className: PropTypes.string,

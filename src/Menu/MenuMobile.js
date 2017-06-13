@@ -5,9 +5,9 @@ import styled from 'styled-components';
 import LangSelect, { LangButton } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import { Flex } from '../Wrapper';
 import IconWithText from '../IconWithText/IconWithText';
-import Div from '../Div/Div';
+import Div from '../Div';
 import { addClass } from '../utils';
 
 const Separator = MenuSeparator.extend`
@@ -33,13 +33,14 @@ const StyledDiv = Div.extend`
     padding: 3rem 0;
     .child {
       width: 50%;
+      justify-content: center;
       &:not(:last-child) {
         border-right: 2px solid ${props => props.theme.menuBorder};
       }
     }
   }
 `;
-const StyledFlexWrapper = FlexWrapper.extend`
+const StyledFlex = Flex.extend`
   padding: 0.75rem 0;
 `;
 
@@ -53,19 +54,19 @@ const MenuMobile = ({
 }) => (
   <StyledDiv className={className}>
     <Separator />
-    <StyledFlexWrapper>
+    <StyledFlex>
       <LangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
       <Search height="2rem" />
-    </StyledFlexWrapper>
+    </StyledFlex>
     <Separator />
     { items }
-    <FlexWrapper className="children">
+    <Flex className="children">
       { addClass(children, 'child') }
-    </FlexWrapper>
+    </Flex>
   </StyledDiv>
 );
 

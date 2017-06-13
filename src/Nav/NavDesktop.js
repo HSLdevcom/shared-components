@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { addClass } from '../utils';
-import Span from '../Span/Span';
+import Span from '../Span';
 
 
 const StyledNav = styled.nav`
