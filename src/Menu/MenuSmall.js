@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import { Flex } from '../Wrapper';
 import IconWithText from '../IconWithText/IconWithText';
 
 
-const StyledFlexWrapper = FlexWrapper.extend`
+const StyledFlex = Flex.extend`
   align-items: center;
   justify-content: flex-end;
   height: 100%;
@@ -63,7 +63,7 @@ const MenuSmall = ({
   className,
   children
 }) => (
-  <StyledFlexWrapper className={className}>
+  <StyledFlex className={className}>
     {children}
     <Search
       className="search-icon"
@@ -75,7 +75,7 @@ const MenuSmall = ({
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
     />
-  </StyledFlexWrapper>
+  </StyledFlex>
 );
 
 const defaultChildren = [

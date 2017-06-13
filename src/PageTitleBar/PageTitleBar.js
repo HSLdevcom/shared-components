@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Div from '../Div/Div';
+import Div from '../Div';
 
 const StyledDiv = Div.extend`
   position: relative;

@@ -11,8 +11,8 @@ import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
 import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
-import Span from './Span/Span';
-import Div from './Div/Div';
+import Span from './Span';
+import Div from './Div';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile } from './Menu';
 

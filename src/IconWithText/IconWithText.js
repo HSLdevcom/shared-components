@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Span from '../Span/Span';
-import Div from '../Div/Div';
+import Span from '../Span';
+import Div from '../Div';
 
 const IconWrapper = Span.extend`
   vertical-align: middle;

@@ -6,9 +6,9 @@ import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
-import Span from '../Span/Span';
-import Div from '../Div/Div';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import Span from '../Span';
+import Div from '../Div';
+import { Flex } from '../Wrapper';
 import IconWithText from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
@@ -17,12 +17,18 @@ const StyledDiv = Div.extend`
       display: none;
     }
   }
+  align-self: flex-end;
   svg {
     fill: currentColor;
   }
-  .bottom svg {
-    height: 2rem;
+  .bottom {
+    height: 4rem;
+    align-items: flex-start;
+    .child svg {
+      height: 2rem;
+    }
   }
+
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
   .child:not(:last-child) {
@@ -77,7 +83,7 @@ const Menu = ({
   children
 }) => (
   <StyledDiv className={className}>
-    <FlexWrapper className="top">
+    <Flex className="top">
       <Search height="2rem" width="2rem" />
       <Span className="lang-select">
         <LangSelect
@@ -93,11 +99,11 @@ const Menu = ({
           changeLanguage={changeLanguage}
         />
       </Span>
-    </FlexWrapper>
+    </Flex>
     <MenuSeparator />
-    <FlexWrapper className="bottom">
+    <Flex className="bottom">
       { addClass(children, 'child') }
-    </FlexWrapper>
+    </Flex>
   </StyledDiv>
 );
 
