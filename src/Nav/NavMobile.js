@@ -52,7 +52,7 @@ const TopIcons = Flex.extend`
   }
   svg {
     margin-left: 2rem;
-    height: 2rem;
+    height: 2.5rem;
   }
 `;
 
@@ -88,7 +88,7 @@ class Nav extends React.PureComponent {
           }
           { !this.state.open &&
             <ButtonNoStyle onClick={this.toggleMenu}>
-              <Menu height="3rem" />
+              <Menu height="3rem" width="2.5rem" />
             </ButtonNoStyle>
           }
         </TopIcons>}
