@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-kpOJdX kAzjOl sc-kGXeez jEAOjD">
+  className="sc-dxgOiQ hTjMfW sc-kpOJdX dInFDP">
   <div
     className="top sc-iwsKbI hAZHJM">
     <svg
@@ -22,27 +22,27 @@ exports[`default`] = `
     <span
       className="lang-select sc-EHOje jvzENE">
       <div
-        className="large sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
+        className="large sc-jTzLTM eCMmlJ sc-VigVT bYrikZ">
         <button
-          className="sc-gZMcBi kHtCcY"
+          className="sc-gqjmRU jskhMS"
           onClick={[Function]}>
           FI
         </button>
         <button
-          className="sc-gZMcBi kHtCcY"
+          className="sc-gqjmRU jskhMS"
           onClick={[Function]}>
           SV
         </button>
         <button
-          className="sc-gZMcBi kHtCcY"
+          className="sc-gqjmRU jskhMS"
           onClick={[Function]}>
           EN
         </button>
       </div>
       <div
-        className="small sc-jzJRlG enxKql sc-jTzLTM WxuDE">
+        className="small sc-cSHVUG CAuLq sc-fjdhpX bZQKUN">
         <button
-          className="selected-language sc-gZMcBi kHtCcY"
+          className="selected-language sc-gqjmRU jskhMS"
           onClick={[Function]}>
           FI
           <svg
@@ -61,7 +61,7 @@ exports[`default`] = `
     </span>
   </div>
   <div
-    className="sc-chPdSV fAvQPZ" />
+    className="sc-kgoBCf iYGcQb" />
   <div
     className="bottom sc-iwsKbI hAZHJM">
     <div
@@ -119,9 +119,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-jKJlTe loXQau sc-dxgOiQ ldYBGz">
+  className="sc-eNQAEJ fAbPPh sc-ckVGcZ dbhKmP">
   <div
-    className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
+    className="sc-jKJlTe hKISC sc-gzVnrw jKHdrV">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -148,7 +148,7 @@ exports[`minimal`] = `
     </span>
   </div>
   <div
-    className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
+    className="sc-jKJlTe hKISC sc-gzVnrw jKHdrV">
     <span
       aria-hidden="true"
       className="icon sc-bZQynM hUywdZ">
@@ -186,9 +186,9 @@ exports[`minimal`] = `
     </g>
   </svg>
   <div
-    className="sc-jzJRlG enxKql sc-jTzLTM WxuDE">
+    className="sc-cSHVUG CAuLq sc-fjdhpX bZQKUN">
     <button
-      className="selected-language sc-gZMcBi kHtCcY"
+      className="selected-language sc-gqjmRU jskhMS"
       onClick={[Function]}>
       FI
       <svg
@@ -209,25 +209,25 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <div
-  className="sc-jlyJG diJigY sc-hMqMXs hCEhzP">
+  className="sc-gipzik kURRqD sc-kEYyzF gwfqAk">
   <div
-    className="sc-eNQAEJ hriuVZ" />
+    className="sc-hMqMXs kpORAH" />
   <div
-    className="sc-kEYyzF cecCZF">
+    className="sc-kkGfuU gVThIt">
     <div
-      className="sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
+      className="sc-jTzLTM eCMmlJ sc-VigVT bYrikZ">
       <button
-        className="sc-gZMcBi kHtCcY"
+        className="sc-gqjmRU jskhMS"
         onClick={[Function]}>
         FI
       </button>
       <button
-        className="sc-gZMcBi kHtCcY"
+        className="sc-gqjmRU jskhMS"
         onClick={[Function]}>
         SV
       </button>
       <button
-        className="sc-gZMcBi kHtCcY"
+        className="sc-gqjmRU jskhMS"
         onClick={[Function]}>
         EN
       </button>
@@ -250,7 +250,7 @@ exports[`mobile`] = `
     </svg>
   </div>
   <div
-    className="sc-eNQAEJ hriuVZ" />
+    className="sc-hMqMXs kpORAH" />
   <div
     className="children sc-iwsKbI hAZHJM">
     <div

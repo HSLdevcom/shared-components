@@ -1,8 +1,8 @@
 exports[`default`] = `
 <header
-  className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
+  className="sc-jDwBTQ dWtMUn sc-jAaTju guYsGc">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw hyLLMP">
+    className="sc-eHgmQL gmKbQu sc-hSdWYo jpPrYt">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -191,7 +191,7 @@ exports[`default`] = `
       </div>
     </a>
     <div
-      className="menu sc-kpOJdX kAzjOl sc-kGXeez jEAOjD">
+      className="menu sc-dxgOiQ hTjMfW sc-kpOJdX dInFDP">
       <div
         className="top sc-iwsKbI hAZHJM">
         <svg
@@ -213,27 +213,27 @@ exports[`default`] = `
         <span
           className="lang-select sc-EHOje jvzENE">
           <div
-            className="large sc-VigVT fIhGog sc-gqjmRU eFLXSZ">
+            className="large sc-jTzLTM eCMmlJ sc-VigVT bYrikZ">
             <button
-              className="sc-gZMcBi kHtCcY"
+              className="sc-gqjmRU jskhMS"
               onClick={[Function]}>
               FI
             </button>
             <button
-              className="sc-gZMcBi kHtCcY"
+              className="sc-gqjmRU jskhMS"
               onClick={[Function]}>
               SV
             </button>
             <button
-              className="sc-gZMcBi kHtCcY"
+              className="sc-gqjmRU jskhMS"
               onClick={[Function]}>
               EN
             </button>
           </div>
           <div
-            className="small sc-jzJRlG enxKql sc-jTzLTM WxuDE">
+            className="small sc-cSHVUG CAuLq sc-fjdhpX bZQKUN">
             <button
-              className="selected-language sc-gZMcBi kHtCcY"
+              className="selected-language sc-gqjmRU jskhMS"
               onClick={[Function]}>
               FI
               <svg
@@ -252,7 +252,7 @@ exports[`default`] = `
         </span>
       </div>
       <div
-        className="sc-chPdSV fAvQPZ" />
+        className="sc-kgoBCf iYGcQb" />
       <div
         className="bottom sc-iwsKbI hAZHJM">
         <div
@@ -308,9 +308,9 @@ exports[`default`] = `
     </div>
   </nav>
   <nav
-    className="sc-brqgnP SqPLV sc-eHgmQL gIGTTJ">
+    className="sc-cMljjf eTbdzc sc-cvbbAY eXkhfQ">
     <div
-      className="sc-cvbbAY cRAejy">
+      className="sc-jWBwVP gAPPUS">
       <span
         className="logo sc-EHOje jvzENE">
         <svg
@@ -329,12 +329,12 @@ exports[`default`] = `
         </svg>
       </span>
       <div
-        className="sc-jWBwVP YWgVC">
+        className="sc-brqgnP ikxLwl">
         <div
-          className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
+          className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
           <span
             aria-hidden="true"
-            className="icon sc-bZQynM gnrOxV">
+            className="icon sc-bZQynM hUywdZ">
             <svg
               fill={undefined}
               height="3.5rem"
@@ -353,10 +353,10 @@ exports[`default`] = `
           </span>
         </div>
         <div
-          className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
+          className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
           <span
             aria-hidden="true"
-            className="icon sc-bZQynM gnrOxV">
+            className="icon sc-bZQynM hUywdZ">
             <svg
               height="3.5rem"
               preserveAspectRatio="xMidYMid meet"
@@ -403,9 +403,9 @@ exports[`default`] = `
 
 exports[`minimal`] = `
 <header
-  className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
+  className="sc-jDwBTQ dWtMUn sc-jAaTju guYsGc">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw rDcbS">
+    className="sc-eHgmQL gmKbQu sc-hSdWYo kFquwT">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -428,7 +428,7 @@ exports[`minimal`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-gipzik dOjYBr sc-gzVnrw iUHMos">
+        className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -461,7 +461,7 @@ exports[`minimal`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-gipzik dOjYBr sc-gzVnrw iUHMos">
+        className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -488,7 +488,7 @@ exports[`minimal`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-gipzik dOjYBr sc-gzVnrw iUHMos">
+        className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -518,7 +518,7 @@ exports[`minimal`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-gipzik dOjYBr sc-gzVnrw iUHMos">
+        className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -556,7 +556,7 @@ exports[`minimal`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-gipzik dOjYBr sc-gzVnrw iUHMos">
+        className="sc-csuQGl bfejgd sc-gzVnrw iUHMos">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM gnrOxV">
@@ -594,9 +594,9 @@ exports[`minimal`] = `
       </div>
     </a>
     <div
-      className="menu sc-jKJlTe loXQau sc-dxgOiQ ldYBGz">
+      className="menu sc-eNQAEJ fAbPPh sc-ckVGcZ dbhKmP">
       <div
-        className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
+        className="sc-jKJlTe hKISC sc-gzVnrw jKHdrV">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM hUywdZ">
@@ -623,7 +623,7 @@ exports[`minimal`] = `
         </span>
       </div>
       <div
-        className="sc-ckVGcZ ibuLRA sc-gzVnrw jKHdrV">
+        className="sc-jKJlTe hKISC sc-gzVnrw jKHdrV">
         <span
           aria-hidden="true"
           className="icon sc-bZQynM hUywdZ">
@@ -661,9 +661,9 @@ exports[`minimal`] = `
         </g>
       </svg>
       <div
-        className="sc-jzJRlG enxKql sc-jTzLTM WxuDE">
+        className="sc-cSHVUG CAuLq sc-fjdhpX bZQKUN">
         <button
-          className="selected-language sc-gZMcBi kHtCcY"
+          className="selected-language sc-gqjmRU jskhMS"
           onClick={[Function]}>
           FI
           <svg
@@ -682,9 +682,9 @@ exports[`minimal`] = `
     </div>
   </nav>
   <nav
-    className="sc-brqgnP SqPLV sc-eHgmQL gIGTTJ">
+    className="sc-cMljjf eTbdzc sc-cvbbAY eXkhfQ">
     <div
-      className="sc-cvbbAY cRAejy">
+      className="sc-jWBwVP gAPPUS">
       <span
         className="logo sc-EHOje jvzENE">
         <svg
@@ -703,7 +703,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <div
-        className="sc-jWBwVP YWgVC">
+        className="sc-brqgnP ikxLwl">
         <button
           className="sc-bxivhb dcGquP"
           onClick={[Function]}>
@@ -728,9 +728,9 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-brqgnP SqPLV sc-eHgmQL gIGTTJ">
+  className="sc-cMljjf eTbdzc sc-cvbbAY eXkhfQ">
   <div
-    className="sc-cvbbAY cRAejy">
+    className="sc-jWBwVP gAPPUS">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -749,12 +749,12 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jWBwVP YWgVC">
+      className="sc-brqgnP ikxLwl">
       <div
-        className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
+        className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
         <span
           aria-hidden="true"
-          className="icon sc-bZQynM gnrOxV">
+          className="icon sc-bZQynM hUywdZ">
           <svg
             fill={undefined}
             height="3.5rem"
@@ -773,10 +773,10 @@ exports[`mobile`] = `
         </span>
       </div>
       <div
-        className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
+        className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
         <span
           aria-hidden="true"
-          className="icon sc-bZQynM gnrOxV">
+          className="icon sc-bZQynM hUywdZ">
           <svg
             height="3.5rem"
             preserveAspectRatio="xMidYMid meet"
@@ -822,9 +822,9 @@ exports[`mobile`] = `
 
 exports[`only title`] = `
 <header
-  className="sc-jAaTju fNCBho sc-cMljjf eyEjiC">
+  className="sc-jDwBTQ dWtMUn sc-jAaTju guYsGc">
   <nav
-    className="sc-hSdWYo bIQQAp sc-iAyFgw rDcbS">
+    className="sc-eHgmQL gmKbQu sc-hSdWYo kFquwT">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -843,14 +843,14 @@ exports[`only title`] = `
       </svg>
     </span>
     <span
-      className="child sc-csuQGl guBjYL">
+      className="child sc-Rmtcm dNCBiq">
       Lataa kautta
     </span>
   </nav>
   <nav
-    className="sc-brqgnP SqPLV sc-eHgmQL gIGTTJ">
+    className="sc-cMljjf eTbdzc sc-cvbbAY eXkhfQ">
     <div
-      className="sc-cvbbAY cRAejy">
+      className="sc-jWBwVP gAPPUS">
       <span
         className="logo sc-EHOje jvzENE">
         <svg
