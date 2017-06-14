@@ -94,7 +94,11 @@ class Nav extends React.PureComponent {
             logo={this.props.logo}
             menu={this.props.menu && <MenuSmall {...this.props.menu.props} />}
           >
-            {this.props.children}
+            {React.Children.map(
+              this.props.children,
+              child => React.cloneElement(child, { textPosition: 'Bottom' })
+              )
+            }
           </NavDesktop>
         }
         </CSSTransitionGroup>
@@ -120,7 +124,11 @@ class Nav extends React.PureComponent {
             </MenuMobile>
           }
         >
-          {this.props.children}
+          {React.Children.map(
+            this.props.children,
+            child => React.cloneElement(child, { textPosition: 'Right' })
+            )
+          }
         </NavMobile>
       </Header>
     );

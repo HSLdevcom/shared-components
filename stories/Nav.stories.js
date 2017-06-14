@@ -3,15 +3,14 @@ import { Link } from 'react-router';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
-import Nav, { NavMobile, NavDesktop } from '../src/Nav';
-import IconWithText from '../src/IconWithText/IconWithText';
-import Span from '../src/Span/Span';
-import Div from '../src/Div/Div';
+import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
+import Nav, { NavMobile, NavDesktop, NavItem } from '../src/Nav';
+import Span from '../src/Span';
+import Div from '../src/Div';
 
 import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 
@@ -46,13 +45,16 @@ stories.addWithJSX('default', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
   >
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Right"
       key="travelcard"
+      active
     />
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test2" />}
       icon={<SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Right"
@@ -63,13 +65,13 @@ stories.addWithJSX('default', () => {
   return (<StyledDiv>
     <Nav logo={logo} menu={menu}>
       {icons.map(icon =>
-        (<Link to="/test" key={icon[1]}>
-          <IconWithText
-            icon={icon[0]}
-            text={icon[1]}
-            textPosition={'Bottom'}
-          />
-        </Link>)
+        (<NavItem
+          key={icon[1]}
+          link={<Link to="/test" />}
+          icon={icon[0]}
+          text={icon[1]}
+          textPosition={'Bottom'}
+        />)
      )}
     </Nav>
   </StyledDiv>);
@@ -87,12 +89,6 @@ stories.addWithJSX('scroll', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const NavIWT = IconWithText.extend`
-    .icon {
-      display: none;
-    }
-  `;
-
   const menu = (<MenuSmall
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -100,13 +96,14 @@ stories.addWithJSX('scroll', () => {
 
   return (<NavDesktop logo={logo} menu={menu} scroll>
     {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <NavIWT
+    (
+      <NavItem
+        key={icon[1]}
+        link={<Link to="/test" />}
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
-      />
-    </Link>)
+      />)
      )}
   </NavDesktop>);
 });
@@ -140,13 +137,15 @@ stories.addWithJSX('mobile', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
   >
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Bottom"
       key="travelcard"
     />
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Bottom"
@@ -156,13 +155,47 @@ stories.addWithJSX('mobile', () => {
 
   return (<NavMobile logo={logo} menu={menu} >
     {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <IconWithText
-        icon={icon[0]}
-        text={icon[1]}
-        textPosition={'Right'}
-      />
-    </Link>)
+    (<NavItem
+      key={icon[1]}
+      link={<Link to="/test" />}
+      icon={icon[0]}
+      text={icon[1]}
+      textPosition={'Right'}
+    />)
      )}
   </NavMobile>);
+});
+
+stories.addWithJSX('nav item', () => {
+  const icon = <JourneyPlanner height="2.5rem" width="2.5rem" />;
+  const link = <Link to="/test" />;
+  const StyledMenuItem = NavItem.extend`
+    background-color: #007ac9;
+    color: #ffffff;
+  `;
+
+  const StyledDiv = Div.extend`
+    width: 10em;
+    padding: 2em;
+    background: lightgrey;
+  `;
+  const small = boolean('Small', false);
+  const active = boolean('active', false);
+  const textPosition = select('Text position', {
+    Right: 'Right',
+    Bottom: 'Bottom',
+  }, 'Bottom');
+
+  return (
+    <StyledDiv>
+      <StyledMenuItem
+        link={link}
+        icon={icon}
+        small={small}
+        active={active}
+        textPosition={textPosition}
+        text="Reittiopas"
+      />
+    </StyledDiv>
+  );
 });

@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
-import IconWithText from '../IconWithText/IconWithText';
+import { Flex } from '../Wrapper';
+import MenuItem from './MenuItem';
 
 
-const StyledFlexWrapper = FlexWrapper.extend`
+const StyledFlex = Flex.extend`
   align-items: center;
   justify-content: flex-end;
   height: 100%;
@@ -22,14 +23,9 @@ const StyledFlexWrapper = FlexWrapper.extend`
     top: 3.5rem;
   }
 
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.large`
-      .icon svg, .search-icon {
-        height: 1.75rem;
-      }
-    `
-  )}
+  .icon svg, .search-icon {
+    height: 1.75rem;
+  }
 
   svg {
     fill: currentColor;
@@ -42,19 +38,19 @@ const StyledFlexWrapper = FlexWrapper.extend`
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+
+  ${MenuItem} {
+    align-items: flex-end;
+
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.medium`
+        display: none;
+      `
+    )}
+  }
 `;
 
-const StyledIWT = IconWithText.extend`
-  .text {
-    display: none;
-  }
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.medium`
-      display: none;
-    `
-  )}
-`;
 
 const MenuSmall = ({
   languages,
@@ -63,7 +59,7 @@ const MenuSmall = ({
   className,
   children
 }) => (
-  <StyledFlexWrapper className={className}>
+  <StyledFlex className={className}>
     {children}
     <Search
       className="search-icon"
@@ -75,21 +71,26 @@ const MenuSmall = ({
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
     />
-  </StyledFlexWrapper>
+  </StyledFlex>
 );
 
 const defaultChildren = [
-  <StyledIWT
-    icon={<SignIn height="2rem" />}
+  <MenuItem
+    link={<Link to="/test" />}
+    icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
-    key="signin"
+    key="travelcard"
+    active
+    small
   />,
-  <StyledIWT
-    icon={<TravelCard height="2rem" />}
+  <MenuItem
+    link={<Link to="/test" />}
+    icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
-    key="travelcard"
+    key="signin"
+    small
   />
 ];
 

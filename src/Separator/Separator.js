@@ -1,4 +1,4 @@
-import Div from '../Div/Div';
+import Div from '../Div';
 
 const Separator = Div.extend`
   height: 1px;

@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import { Flex } from '../Wrapper';
 import LangButton from './LangButton';
 
-const StyledFlexWrapper = FlexWrapper.extend`
+const StyledFlex = Flex.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
@@ -16,7 +16,7 @@ const LangSelect = ({
   selectedLanguage,
   className
 }) => (
-  <StyledFlexWrapper className={className}>
+  <StyledFlex className={className}>
     {
       languages.map(lang =>
         (
@@ -30,7 +30,7 @@ const LangSelect = ({
         )
       )
     }
-  </StyledFlexWrapper>
+  </StyledFlex>
 );
 
 

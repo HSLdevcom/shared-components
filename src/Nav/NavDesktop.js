@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import cx from 'classnames';
 
 import { addClass } from '../utils';
-import Span from '../Span/Span';
+import Span from '../Span';
 
 
 const StyledNav = styled.nav`
@@ -87,7 +88,16 @@ const Nav = ({
       <Span className="logo">
         { logo }
       </Span>
-      { addClass(children, 'child') }
+      {React.Children.map(
+        children,
+        child => React.cloneElement(
+          child,
+          {
+            small: scroll,
+            className: cx(child.props.className, 'child'),
+          })
+        )
+      }
       { menu && addClass(menu, 'menu') }
     </StyledNav>);
 
