@@ -1,4 +1,4 @@
-import Div from '../Div/Div';
+import Div from '../Div';
 
 const AppHeader = Div.extend `
   background-color: #222;

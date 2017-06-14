@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import cx from 'classnames';
 
 import { addClass } from '../utils';
-import Span from '../Span/Span';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
+import Span from '../Span';
+import { MenuItem } from '../Menu';
+import { Flex } from '../Wrapper';
 import { Cross, Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
 
@@ -36,13 +37,15 @@ const StyledNav = styled.nav`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;
 
-const TopBar = FlexWrapper.extend`
-  padding-bottom: 1rem;
+const TopBar = Flex.extend`
   align-items: center;
+  height: 4.5rem;
+  align-items: flex-start;
 `;
 
-const TopIcons = FlexWrapper.extend`
-  align-items: center;
+const TopIcons = Flex.extend`
+  align-items: flex-start;
+  align-self: stretch;
   .text {
     display: none;
   }
@@ -50,8 +53,11 @@ const TopIcons = FlexWrapper.extend`
     margin: 0;
     line-height:0;
   }
+  ${MenuItem} {
+    align-self: stretch;
+    margin-right: 2rem;
+  }
   svg {
-    margin-left: 2rem;
     height: 2.5rem;
   }
 `;
@@ -61,6 +67,10 @@ class Nav extends React.PureComponent {
     super(props);
     this.state = { open: false };
     this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  getChildContext() {
+    return { textPosition: 'Right' };
   }
 
   toggleMenu() {
@@ -76,7 +86,9 @@ class Nav extends React.PureComponent {
           { this.props.logo }
         </Span>
         {this.props.menu && <TopIcons>
-          { this.props.menu.props.children }
+          {React.Children.map(this.props.menu.props.children, child => (
+            React.cloneElement(child, { small: true })
+            ))}
           { this.state.open &&
             <ButtonNoStyle onClick={this.toggleMenu}>
               <Cross height="3rem" />
@@ -101,6 +113,10 @@ class Nav extends React.PureComponent {
     </StyledNav>);
   }
 }
+
+Nav.childContextTypes = {
+  textPosition: PropTypes.string
+};
 
 Nav.propTypes = {
   className: PropTypes.string,

@@ -1,12 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 
-import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
+import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
+import Div from '../src/Div';
+
+import { JourneyPlanner } from '../src/Icons';
 
 setAddon(JSXAddon);
 
@@ -66,5 +70,39 @@ stories.addWithJSX('mobile', () => {
       changeLanguage={action('language changed')}
       iconFill={'#FFFFFF'}
     />
+  );
+});
+
+stories.addWithJSX('menu item', () => {
+  const icon = <JourneyPlanner height="2.5rem" width="2.5rem" />;
+  const link = <Link to="/test" />;
+  const StyledMenuItem = MenuItem.extend`
+    background-color: #007ac9;
+    color: #ffffff;
+  `;
+
+  const StyledDiv = Div.extend`
+    width: 10em;
+    padding: 2em;
+    background: lightgrey;
+  `;
+  const small = boolean('Small', false);
+  const active = boolean('active', false);
+  const textPosition = select('Text position', {
+    Right: 'Right',
+    Bottom: 'Bottom',
+  }, 'Bottom');
+
+  return (
+    <StyledDiv>
+      <StyledMenuItem
+        link={link}
+        icon={icon}
+        small={small}
+        active={active}
+        textPosition={textPosition}
+        text="Reittiopas"
+      />
+    </StyledDiv>
   );
 });

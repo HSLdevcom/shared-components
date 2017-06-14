@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import cx from 'classnames';
 
+import MenuItem from './MenuItem';
 import LangSelect, { LangButton } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
-import FlexWrapper from '../FlexWrapper/FlexWrapper';
-import IconWithText from '../IconWithText/IconWithText';
-import Div from '../Div/Div';
-import { addClass } from '../utils';
+import { Flex } from '../Wrapper';
+import Div from '../Div';
 
 const Separator = MenuSeparator.extend`
   height: 2px;
@@ -33,13 +34,14 @@ const StyledDiv = Div.extend`
     padding: 3rem 0;
     .child {
       width: 50%;
+      justify-content: center;
       &:not(:last-child) {
         border-right: 2px solid ${props => props.theme.menuBorder};
       }
     }
   }
 `;
-const StyledFlexWrapper = FlexWrapper.extend`
+const StyledFlex = Flex.extend`
   padding: 0.75rem 0;
 `;
 
@@ -53,33 +55,44 @@ const MenuMobile = ({
 }) => (
   <StyledDiv className={className}>
     <Separator />
-    <StyledFlexWrapper>
+    <StyledFlex>
       <LangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
       <Search height="2rem" />
-    </StyledFlexWrapper>
+    </StyledFlex>
     <Separator />
     { items }
-    <FlexWrapper className="children">
-      { addClass(children, 'child') }
-    </FlexWrapper>
+    <Flex className="children">
+      {React.Children.map(children, child => (
+        React.cloneElement(
+          child,
+          {
+            className: cx(child.props.className, 'child'),
+            small: false,
+            textPosition: 'Bottom'
+          })
+        ))}
+    </Flex>
   </StyledDiv>
 );
 
 const defaultChildren = [
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
-    textPosition="Bottom"
+    textPosition="Right"
     key="travelcard"
+    active
   />,
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
-    textPosition="Bottom"
+    textPosition="Right"
     key="signin"
   />
 ];

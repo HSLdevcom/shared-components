@@ -1,4 +1,4 @@
-import Div from '../Div/Div';
+import Div from '../Div';
 
 const Container = Div.extend`
   border-radius: 10px;

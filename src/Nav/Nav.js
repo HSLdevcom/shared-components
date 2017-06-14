@@ -32,7 +32,11 @@ const Nav = ({
     (
       <Header className={className}>
         <NavDesktop logo={logo} menu={menu} scroll={scroll}>
-          {children}
+          {React.Children.map(
+            children,
+            child => React.cloneElement(child, { textPosition: 'Bottom' })
+            )
+          }
         </NavDesktop>
         <NavMobile
           logo={logo}
@@ -46,7 +50,11 @@ const Nav = ({
             </MenuMobile>
           }
         >
-          {children}
+          {React.Children.map(
+            children,
+            child => React.cloneElement(child, { textPosition: 'Right' })
+            )
+          }
         </NavMobile>
       </Header>
     );
