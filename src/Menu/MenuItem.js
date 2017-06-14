@@ -7,6 +7,10 @@ import { Activatable } from '../Wrapper';
 import IconWithText from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
+  display: flex;
+  >.link {
+    display: flex;
+  }
   ${IconWithText} {
     .text {
       ${props => (
@@ -26,7 +30,7 @@ const MenuItem = ({
   className
 }) => (
   <StyledDiv className={className} small={small}>
-    <link.type {...link.props} >
+    <link.type {...link.props} className="link">
       <Activatable active={active} small={small} >
         <IconWithText icon={icon} text={text} textPosition={textPosition} />
       </Activatable>

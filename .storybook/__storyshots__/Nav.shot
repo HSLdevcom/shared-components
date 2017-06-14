@@ -26,7 +26,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -64,7 +64,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -96,7 +96,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -131,7 +131,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -174,7 +174,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -216,7 +216,7 @@ exports[`default`] = `
       </a>
     </div>
     <div
-      className="menu sc-hMqMXs cPxEnv sc-eNQAEJ hPIcpX">
+      className="menu sc-hMqMXs cPxEnv sc-eNQAEJ hmjZoN">
       <div
         className="top sc-iwsKbI hAZHJM">
         <svg
@@ -281,12 +281,13 @@ exports[`default`] = `
       <div
         className="bottom large sc-iwsKbI hAZHJM">
         <div
-          className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+          className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi eQiype">
+              className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -313,12 +314,13 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+          className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+              className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -353,12 +355,13 @@ exports[`default`] = `
       <div
         className="bottom small sc-iwsKbI hAZHJM">
         <div
-          className="child sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+          className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -387,12 +390,13 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+          className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -431,7 +435,7 @@ exports[`default`] = `
   <nav
     className="sc-gPEVay eQYmiW sc-cMljjf cXCcRv">
     <div
-      className="sc-jAaTju dMBtfS">
+      className="sc-jAaTju eoQgHD">
       <span
         className="logo sc-EHOje jvzENE">
         <svg
@@ -450,14 +454,15 @@ exports[`default`] = `
         </svg>
       </span>
       <div
-        className="sc-jDwBTQ gdtqjn">
+        className="sc-jDwBTQ jvvtl">
         <div
-          className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+          className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
                 <span
@@ -486,12 +491,13 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+          className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
           <a
+            className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
                 <span
@@ -574,7 +580,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -612,7 +618,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -644,7 +650,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -679,7 +685,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -722,7 +728,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -766,12 +772,13 @@ exports[`minimal`] = `
     <div
       className="menu sc-kkGfuU gqJIVH sc-kEYyzF daNXkv">
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
         <a
+          className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
@@ -800,12 +807,13 @@ exports[`minimal`] = `
         </a>
       </div>
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
         <a
+          className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
@@ -878,7 +886,7 @@ exports[`minimal`] = `
   <nav
     className="sc-gPEVay eQYmiW sc-cMljjf cXCcRv">
     <div
-      className="sc-jAaTju dMBtfS">
+      className="sc-jAaTju eoQgHD">
       <span
         className="logo sc-EHOje jvzENE">
         <svg
@@ -897,7 +905,7 @@ exports[`minimal`] = `
         </svg>
       </span>
       <div
-        className="sc-jDwBTQ gdtqjn">
+        className="sc-jDwBTQ jvvtl">
         <button
           className="sc-bxivhb dcGquP"
           onClick={[Function]}>
@@ -924,7 +932,7 @@ exports[`mobile`] = `
 <nav
   className="sc-gPEVay eQYmiW sc-cMljjf cXCcRv">
   <div
-    className="sc-jAaTju dMBtfS">
+    className="sc-jAaTju eoQgHD">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -943,14 +951,15 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jDwBTQ gdtqjn">
+      className="sc-jDwBTQ jvvtl">
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
         <a
+          className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
               <span
@@ -979,12 +988,13 @@ exports[`mobile`] = `
         </a>
       </div>
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
         <a
+          className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
               <span
@@ -1047,7 +1057,7 @@ exports[`nav item`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+        className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
         <div
           className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
           <span
@@ -1112,7 +1122,7 @@ exports[`only title`] = `
   <nav
     className="sc-gPEVay eQYmiW sc-cMljjf cXCcRv">
     <div
-      className="sc-jAaTju dMBtfS">
+      className="sc-jAaTju eoQgHD">
       <span
         className="logo sc-EHOje jvzENE">
         <svg

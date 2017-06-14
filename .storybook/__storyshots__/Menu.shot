@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-hMqMXs cPxEnv sc-eNQAEJ hPIcpX">
+  className="sc-hMqMXs cPxEnv sc-eNQAEJ hmjZoN">
   <div
     className="top sc-iwsKbI hAZHJM">
     <svg
@@ -65,12 +65,13 @@ exports[`default`] = `
   <div
     className="bottom large sc-iwsKbI hAZHJM">
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi eQiype">
+          className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
             <span
@@ -97,12 +98,13 @@ exports[`default`] = `
       </a>
     </div>
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
             <span
@@ -137,12 +139,13 @@ exports[`default`] = `
   <div
     className="bottom small sc-iwsKbI hAZHJM">
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+          className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
             <span
@@ -171,12 +174,13 @@ exports[`default`] = `
       </a>
     </div>
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+          className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
             <span
@@ -217,12 +221,13 @@ exports[`menu item`] = `
 <div
   className="sc-fMiknA eOoESG">
   <div
-    className="sc-fBuWsC bilBDO sc-kgoBCf cTFvaU">
+    className="sc-fBuWsC bilBDO sc-kgoBCf kSLhIv">
     <a
+      className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+        className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
         <div
           className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
           <span
@@ -261,12 +266,13 @@ exports[`minimal`] = `
 <div
   className="sc-kkGfuU gqJIVH sc-kEYyzF daNXkv">
   <div
-    className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+    className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
     <a
+      className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+        className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
         <div
           className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
           <span
@@ -295,12 +301,13 @@ exports[`minimal`] = `
     </a>
   </div>
   <div
-    className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
+    className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
     <a
+      className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+        className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
         <div
           className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
           <span
@@ -418,12 +425,13 @@ exports[`mobile`] = `
   <div
     className="children sc-iwsKbI hAZHJM">
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi eQiype">
+          className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -450,12 +458,13 @@ exports[`mobile`] = `
       </a>
     </div>
     <div
-      className="child sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+      className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
       <a
+        className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span

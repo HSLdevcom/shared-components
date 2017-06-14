@@ -5,6 +5,7 @@ import cx from 'classnames';
 
 import { addClass } from '../utils';
 import Span from '../Span';
+import { MenuItem } from '../Menu';
 import { Flex } from '../Wrapper';
 import { Cross, Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
@@ -37,12 +38,14 @@ const StyledNav = styled.nav`
 `;
 
 const TopBar = Flex.extend`
-  padding-bottom: 1rem;
   align-items: center;
+  height: 4.5rem;
+  align-items: flex-start;
 `;
 
 const TopIcons = Flex.extend`
-  align-items: center;
+  align-items: flex-start;
+  align-self: stretch;
   .text {
     display: none;
   }
@@ -50,8 +53,11 @@ const TopIcons = Flex.extend`
     margin: 0;
     line-height:0;
   }
+  ${MenuItem} {
+    align-self: stretch;
+    margin-right: 2rem;
+  }
   svg {
-    margin-left: 2rem;
     height: 2.5rem;
   }
 `;

@@ -28,7 +28,7 @@ const StyledDiv = Div.extend`
       display: none;
     }
     height: 4rem;
-    align-items: flex-start;
+    align-items: stretch;
     .child svg {
       height: 2rem;
     }

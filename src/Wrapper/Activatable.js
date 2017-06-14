@@ -8,7 +8,6 @@ const StyledDiv = Div.extend`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:100%;
   ${props => (
     !props.small &&
     `border-bottom: 4px solid ${props.active ? '' : 'transparent'};`

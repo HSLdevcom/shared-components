@@ -3,7 +3,7 @@ exports[`Activatable`] = `
   <div
     className="sc-gisBJw bIitFU">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi eQiype">
+      className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ">
       <span>
         Active
       </span>
@@ -12,7 +12,7 @@ exports[`Activatable`] = `
   <div
     className="sc-gisBJw bIitFU">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
+      className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
       <span>
         Inactive
       </span>
@@ -21,7 +21,7 @@ exports[`Activatable`] = `
   <div
     className="sc-gisBJw bIitFU">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+      className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
       <span>
         Active
       </span>
@@ -32,7 +32,7 @@ exports[`Activatable`] = `
   <div
     className="sc-gisBJw bIitFU">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
+      className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
       <span>
         Inactive
       </span>
