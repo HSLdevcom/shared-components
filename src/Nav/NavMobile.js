@@ -87,8 +87,8 @@ const TopIcons = FlexWrapper.extend`
   }
   svg {
     margin-left: 2rem;
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 `;
 

@@ -335,7 +335,7 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="sc-jWBwVP iXcIGQ">
+          className="sc-jWBwVP ebjIky">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -450,7 +450,7 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jWBwVP iXcIGQ">
+      className="sc-jWBwVP ebjIky">
       <div
         className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
         <span
