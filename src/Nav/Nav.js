@@ -17,9 +17,6 @@ const Header = styled.header`
       position: fixed;
       width: 100%;
       overflow: hidden;
-      .icon {
-        display: none;
-      }
       &.scroll-enter {
         max-height: 0rem;
       }
@@ -92,11 +89,20 @@ class Nav extends React.PureComponent {
             className="scroll"
             scroll
             logo={this.props.logo}
-            menu={this.props.menu && <MenuSmall {...this.props.menu.props} />}
+            menu={
+              this.props.menu &&
+              <MenuSmall {...this.props.menu.props}>
+                {React.Children.map(
+                  this.props.menu.props.children,
+                  child => React.cloneElement(child, { small: true })
+                  )
+                }
+              </MenuSmall>
+            }
           >
             {React.Children.map(
               this.props.children,
-              child => React.cloneElement(child, { textPosition: 'Bottom' })
+              child => React.cloneElement(child, { textPosition: 'Bottom', small: true })
               )
             }
           </NavDesktop>
