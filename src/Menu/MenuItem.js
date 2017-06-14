@@ -20,6 +20,7 @@ const MenuItem = ({
   link,
   icon,
   text,
+  textPosition,
   active,
   small,
   className
@@ -27,7 +28,7 @@ const MenuItem = ({
   <StyledDiv className={className} small={small}>
     <link.type {...link.props} >
       <Activatable active={active} small={small} >
-        <IconWithText icon={icon} text={text} />
+        <IconWithText icon={icon} text={text} textPosition={textPosition} />
       </Activatable>
     </link.type>
   </StyledDiv>
@@ -38,6 +39,7 @@ MenuItem.propTypes = {
   link: PropTypes.node.isRequired,
   icon: PropTypes.node.isRequired,
   text: PropTypes.string.isRequired,
+  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   active: PropTypes.bool,
   small: PropTypes.bool,
   className: PropTypes.string

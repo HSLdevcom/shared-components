@@ -22,12 +22,12 @@ const StyledButton = Div.extend`
 const IconWithText = ({ icon,
   text,
   textPosition,
-  className }, context) => (
-    <StyledButton className={className} textPosition={context.textPosition || textPosition}>
+  className }) => (
+    <StyledButton className={className} textPosition={textPosition}>
       <IconWrapper
         className="icon"
         aria-hidden="true"
-        textPosition={context.textPosition || textPosition}
+        textPosition={textPosition}
       >
         { icon }
       </IconWrapper>
@@ -37,10 +37,6 @@ const IconWithText = ({ icon,
 
 IconWithText.defaultProps = {
   textPosition: 'Bottom'
-};
-
-IconWithText.contextTypes = {
-  textPosition: PropTypes.string
 };
 
 IconWithText.propTypes = {

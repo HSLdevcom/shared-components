@@ -88,6 +88,10 @@ stories.addWithJSX('menu item', () => {
   `;
   const small = boolean('Small', false);
   const active = boolean('active', false);
+  const textPosition = select('Text position', {
+    Right: 'Right',
+    Bottom: 'Bottom',
+  }, 'Bottom');
 
   return (
     <StyledDiv>
@@ -96,6 +100,7 @@ stories.addWithJSX('menu item', () => {
         icon={icon}
         small={small}
         active={active}
+        textPosition={textPosition}
         text="Reittiopas"
       />
     </StyledDiv>

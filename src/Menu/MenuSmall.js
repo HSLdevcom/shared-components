@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { Flex } from '../Wrapper';
-import IconWithText from '../IconWithText/IconWithText';
+import MenuItem from './MenuItem';
 
 
 const StyledFlex = Flex.extend`
@@ -42,19 +43,17 @@ const StyledFlex = Flex.extend`
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+
+  ${MenuItem} {
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.medium`
+        display: none;
+      `
+    )}
+  }
 `;
 
-const StyledIWT = IconWithText.extend`
-  .text {
-    display: none;
-  }
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.medium`
-      display: none;
-    `
-  )}
-`;
 
 const MenuSmall = ({
   languages,
@@ -79,17 +78,22 @@ const MenuSmall = ({
 );
 
 const defaultChildren = [
-  <StyledIWT
-    icon={<SignIn height="2rem" />}
+  <MenuItem
+    link={<Link to="/test" />}
+    icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
-    key="signin"
+    key="travelcard"
+    active
+    small
   />,
-  <StyledIWT
-    icon={<TravelCard height="2rem" />}
+  <MenuItem
+    link={<Link to="/test" />}
+    icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
-    key="travelcard"
+    key="signin"
+    small
   />
 ];
 

@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import cx from 'classnames';
 
+import MenuItem from './MenuItem';
 import LangSelect, { LangButton } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import { Flex } from '../Wrapper';
-import IconWithText from '../IconWithText/IconWithText';
 import Div from '../Div';
-import { addClass } from '../utils';
 
 const Separator = MenuSeparator.extend`
   height: 2px;
@@ -65,22 +66,33 @@ const MenuMobile = ({
     <Separator />
     { items }
     <Flex className="children">
-      { addClass(children, 'child') }
+      {React.Children.map(children, child => (
+        React.cloneElement(
+          child,
+          {
+            className: cx(child.props.className, 'child'),
+            small: false,
+            textPosition: 'Bottom'
+          })
+        ))}
     </Flex>
   </StyledDiv>
 );
 
 const defaultChildren = [
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
-    textPosition="Bottom"
+    textPosition="Right"
     key="travelcard"
+    active
   />,
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
-    textPosition="Bottom"
+    textPosition="Right"
     key="signin"
   />
 ];

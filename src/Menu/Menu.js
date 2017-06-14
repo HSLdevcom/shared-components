@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
+import cx from 'classnames';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import MenuItem from './MenuItem';
 import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
@@ -9,7 +12,6 @@ import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span';
 import Div from '../Div';
 import { Flex } from '../Wrapper';
-import IconWithText from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
   .lang-select {
@@ -22,6 +24,9 @@ const StyledDiv = Div.extend`
     fill: currentColor;
   }
   .bottom {
+    &.small {
+      display: none;
+    }
     height: 4rem;
     align-items: flex-start;
     .child svg {
@@ -44,12 +49,13 @@ const StyledDiv = Div.extend`
         margin-right: 0rem;
       }
       .bottom {
-        justify-content: flex-end;
-        ${IconWithText} {
-          .text {
-            display: none;
-          }
+        &.large {
+          display: none;
         }
+        &.small {
+          display: flex;
+        }
+        justify-content: flex-end;
       }
     `
   )}
@@ -101,20 +107,34 @@ const Menu = ({
       </Span>
     </Flex>
     <MenuSeparator />
-    <Flex className="bottom">
+    <Flex className="bottom large">
       { addClass(children, 'child') }
+    </Flex>
+    <Flex className="bottom small">
+      {React.Children.map(children, child => (
+        React.cloneElement(
+          child,
+          {
+            className: cx(child.props.className, 'child'),
+            small: true,
+            textPosition: 'Right'
+          })
+        ))}
     </Flex>
   </StyledDiv>
 );
 
 const defaultChildren = [
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
+    active
   />,
-  <IconWithText
+  <MenuItem
+    link={<Link to="/test" />}
     icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
