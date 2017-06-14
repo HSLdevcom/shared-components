@@ -5,9 +5,10 @@ import { setAddon, storiesOf, action } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 
 import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
+import Div from '../src/Div';
 
 import { JourneyPlanner } from '../src/Icons';
 
@@ -80,11 +81,23 @@ stories.addWithJSX('menu item', () => {
     color: #ffffff;
   `;
 
+  const StyledDiv = Div.extend`
+    width: 10em;
+    padding: 2em;
+    background: lightgrey;
+  `;
+  const small = boolean('Small', false);
+  const active = boolean('active', false);
+
   return (
-    <StyledMenuItem
-      link={link}
-      icon={icon}
-      text="Reittiopas"
-    />
+    <StyledDiv>
+      <StyledMenuItem
+        link={link}
+        icon={icon}
+        small={small}
+        active={active}
+        text="Reittiopas"
+      />
+    </StyledDiv>
   );
 });
