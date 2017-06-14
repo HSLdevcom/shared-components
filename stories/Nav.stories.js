@@ -47,6 +47,7 @@ stories.addWithJSX('default', () => {
       text="Matkakortti"
       textPosition="Right"
       key="travelcard"
+      active
     />
     <MenuItem
       link={<Link to="/test" key="test2" />}

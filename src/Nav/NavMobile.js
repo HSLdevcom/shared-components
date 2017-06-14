@@ -80,7 +80,9 @@ class Nav extends React.PureComponent {
           { this.props.logo }
         </Span>
         {this.props.menu && <TopIcons>
-          { this.props.menu.props.children }
+          {React.Children.map(this.props.menu.props.children, child => (
+            React.cloneElement(child, { small: true })
+            ))}
           { this.state.open &&
             <ButtonNoStyle onClick={this.toggleMenu}>
               <Cross height="3rem" />

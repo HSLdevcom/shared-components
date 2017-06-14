@@ -26,7 +26,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -64,7 +64,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -96,7 +96,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -131,7 +131,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -174,7 +174,7 @@ exports[`default`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -286,7 +286,7 @@ exports[`default`] = `
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+              className="sc-VigVT hjRoCW sc-gZMcBi eQiype">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -318,7 +318,7 @@ exports[`default`] = `
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+              className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -358,7 +358,7 @@ exports[`default`] = `
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -382,7 +382,7 @@ exports[`default`] = `
                 </span>
               </div>
               <div
-                className="sc-gqjmRU feBOhZ" />
+                className="sc-gqjmRU bCEFGS" />
             </div>
           </a>
         </div>
@@ -392,7 +392,7 @@ exports[`default`] = `
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
                 <span
@@ -452,12 +452,12 @@ exports[`default`] = `
       <div
         className="sc-jDwBTQ gdtqjn">
         <div
-          className="sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+          className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
           <a
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
                 <span
@@ -480,16 +480,18 @@ exports[`default`] = `
                   Matkakortti
                 </span>
               </div>
+              <div
+                className="sc-gqjmRU bCEFGS" />
             </div>
           </a>
         </div>
         <div
-          className="sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+          className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
           <a
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+              className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
               <div
                 className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
                 <span
@@ -517,6 +519,8 @@ exports[`default`] = `
                   Kirjaudu
                 </span>
               </div>
+              <div
+                className="sc-gqjmRU feBOhZ" />
             </div>
           </a>
         </div>
@@ -570,7 +574,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -608,7 +612,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -640,7 +644,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -675,7 +679,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -718,7 +722,7 @@ exports[`minimal`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+          className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
           <div
             className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
             <span
@@ -767,7 +771,7 @@ exports[`minimal`] = `
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
@@ -801,7 +805,7 @@ exports[`minimal`] = `
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw jKHdrV">
               <span
@@ -941,12 +945,12 @@ exports[`mobile`] = `
     <div
       className="sc-jDwBTQ gdtqjn">
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
         <a
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
               <span
@@ -969,16 +973,18 @@ exports[`mobile`] = `
                 Matkakortti
               </span>
             </div>
+            <div
+              className="sc-gqjmRU feBOhZ" />
           </div>
         </a>
       </div>
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf cTFvaU">
+        className="sc-kGXeez eIIwaK sc-kgoBCf cBMvpg">
         <a
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+            className="sc-VigVT hjRoCW sc-gZMcBi gUchPD">
             <div
               className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
               <span
@@ -1006,6 +1012,8 @@ exports[`mobile`] = `
                 Kirjaudu
               </span>
             </div>
+            <div
+              className="sc-gqjmRU feBOhZ" />
           </div>
         </a>
       </div>
@@ -1039,7 +1047,7 @@ exports[`nav item`] = `
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+        className="sc-VigVT hjRoCW sc-gZMcBi fNpbPV">
         <div
           className="sc-htoDjs keqScR sc-gzVnrw iUHMos">
           <span
