@@ -7,9 +7,8 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Menu, { MenuSmall, MenuMobile } from '../src/Menu';
+import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
 import Nav, { NavMobile, NavItem } from '../src/Nav';
-import IconWithText from '../src/IconWithText/IconWithText';
 import Span from '../src/Span';
 import Div from '../src/Div';
 
@@ -42,13 +41,15 @@ stories.addWithJSX('default', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
   >
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Right"
       key="travelcard"
     />
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test2" />}
       icon={<SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Right"
@@ -58,13 +59,15 @@ stories.addWithJSX('default', () => {
 
   return (<Nav logo={logo} menu={menu}>
     {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <IconWithText
+    (
+      <NavItem
+        key={icon[1]}
+        link={<Link to="/test" />}
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
       />
-    </Link>)
+      )
      )}
   </Nav>);
 });
@@ -81,12 +84,6 @@ stories.addWithJSX('minimal', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
-  const NavIWT = IconWithText.extend`
-    .icon {
-      display: none;
-    }
-  `;
-
   const menu = (<MenuSmall
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -94,13 +91,14 @@ stories.addWithJSX('minimal', () => {
 
   return (<Nav logo={logo} menu={menu} scroll>
     {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <NavIWT
+    (
+      <NavItem
+        key={icon[1]}
+        link={<Link to="/test" />}
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
-      />
-    </Link>)
+      />)
      )}
   </Nav>);
 });
@@ -134,13 +132,15 @@ stories.addWithJSX('mobile', () => {
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
   >
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Bottom"
       key="travelcard"
     />
-    <IconWithText
+    <MenuItem
+      link={<Link to="/test" key="test1" />}
       icon={<SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Bottom"
@@ -150,13 +150,13 @@ stories.addWithJSX('mobile', () => {
 
   return (<NavMobile logo={logo} menu={menu} >
     {icons.map(icon =>
-    (<Link to="/test" key={icon[1]}>
-      <IconWithText
-        icon={icon[0]}
-        text={icon[1]}
-        textPosition={'Right'}
-      />
-    </Link>)
+    (<NavItem
+      key={icon[1]}
+      link={<Link to="/test" />}
+      icon={icon[0]}
+      text={icon[1]}
+      textPosition={'Right'}
+    />)
      )}
   </NavMobile>);
 });
