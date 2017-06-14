@@ -23,14 +23,9 @@ const StyledFlex = Flex.extend`
     top: 3.5rem;
   }
 
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.large`
-      .icon svg, .search-icon {
-        height: 1.75rem;
-      }
-    `
-  )}
+  .icon svg, .search-icon {
+    height: 1.75rem;
+  }
 
   svg {
     fill: currentColor;
@@ -45,6 +40,8 @@ const StyledFlex = Flex.extend`
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 
   ${MenuItem} {
+    align-items: flex-end;
+
     ${props => (
       props.theme.Media &&
       props.theme.Media.medium`
