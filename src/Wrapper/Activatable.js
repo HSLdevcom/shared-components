@@ -9,7 +9,7 @@ const StyledDiv = Div.extend`
   justify-content: space-between;
   align-items: center;
   ${props => (
-    props.size === 'Large' &&
+    !props.small &&
     `border-bottom: 4px solid ${props.active ? '' : 'transparent'};`
   )}
 `;
@@ -23,13 +23,12 @@ const Pointer = Div.extend`
 `;
 
 const Activatable = ({ active,
-  size,
+  small,
   className,
-  children },
-  context) => (
-    <StyledDiv className={className} active={active} size={context.size || size}>
+  children }) => (
+    <StyledDiv className={className} active={active} small={small}>
       {children}
-      {(context.size || size) === 'Small' && active && <Pointer />}
+      {small && active && <Pointer />}
     </StyledDiv>
 );
 
@@ -43,7 +42,7 @@ Activatable.contextTypes = {
 
 Activatable.propTypes = {
   active: PropTypes.bool,
-  size: PropTypes.oneOf(['Small', 'Large']),
+  small: PropTypes.bool,
   className: PropTypes.string,
   children: PropTypes.node
 };
