@@ -441,9 +441,9 @@ exports[`default`] = `
       </nav>
     </span>
     <nav
-      className="sc-gPEVay eQYmiW sc-cMljjf cXwwmK">
+      className="sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
       <div
-        className="sc-jAaTju eoQgHD">
+        className="sc-jAaTju kTbVcg">
         <span
           className="logo sc-EHOje jvzENE">
           <svg
@@ -462,7 +462,7 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="sc-jDwBTQ kpHDrs">
+          className="sc-jDwBTQ bwyOLF">
           <div
             className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
             <a
@@ -576,9 +576,9 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-gPEVay eQYmiW sc-cMljjf cXwwmK">
+  className="sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
   <div
-    className="sc-jAaTju eoQgHD">
+    className="sc-jAaTju kTbVcg">
     <span
       className="logo sc-EHOje jvzENE">
       <svg
@@ -597,7 +597,7 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jDwBTQ kpHDrs">
+      className="sc-jDwBTQ bwyOLF">
       <div
         className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
         <a
