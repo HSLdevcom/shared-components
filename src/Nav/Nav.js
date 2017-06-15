@@ -22,7 +22,7 @@ const Header = styled.header`
 
       &.scroll-enter.scroll-enter-active {
         max-height: 4rem;
-        transition: max-height .25s ease-in;
+        transition: max-height .35s ease-in;
       }
 
       &.scroll-leave {
@@ -31,7 +31,7 @@ const Header = styled.header`
 
       &.scroll-leave.scroll-leave-active {
         max-height: 0rem;
-        transition: max-height .25s ease-in;
+        transition: max-height .35s ease-in;
       }
     }
   }
@@ -85,8 +85,8 @@ class Nav extends React.PureComponent {
       <Header className={this.props.className}>
         <CSSTransitionGroup
           transitionName="scroll"
-          transitionEnterTimeout={250}
-          transitionLeaveTimeout={250}
+          transitionEnterTimeout={350}
+          transitionLeaveTimeout={350}
         >
           { this.props.menu && this.state.scrollNavVisible && <NavDesktop
             className="scroll"
