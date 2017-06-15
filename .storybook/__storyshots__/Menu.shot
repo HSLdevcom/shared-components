@@ -40,7 +40,7 @@ exports[`default`] = `
         </button>
       </div>
       <div
-        className="small sc-chPdSV byfFmt sc-cSHVUG iPjKmC">
+        className="small sc-chPdSV byfFmt sc-cSHVUG khVPRZ">
         <button
           className="selected-language sc-jTzLTM hERCNo"
           onClick={[Function]}>
@@ -57,6 +57,8 @@ exports[`default`] = `
               id="Shape" />
           </svg>
         </button>
+        <span
+          className="transition-group" />
       </div>
     </span>
   </div>
@@ -264,7 +266,7 @@ exports[`menu item`] = `
 
 exports[`minimal`] = `
 <div
-  className="sc-kkGfuU gqJIVH sc-kEYyzF hnWJdZ">
+  className="sc-kkGfuU gqJIVH sc-kEYyzF hmvgur">
   <div
     className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
     <a
@@ -360,7 +362,7 @@ exports[`minimal`] = `
     </svg>
   </div>
   <div
-    className="sc-chPdSV byfFmt sc-cSHVUG iPjKmC">
+    className="sc-chPdSV byfFmt sc-cSHVUG khVPRZ">
     <button
       className="selected-language sc-jTzLTM hERCNo"
       onClick={[Function]}>
@@ -377,6 +379,8 @@ exports[`minimal`] = `
           id="Shape" />
       </svg>
     </button>
+    <span
+      className="transition-group" />
   </div>
 </div>
 `;

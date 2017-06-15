@@ -75,6 +75,9 @@ const StyledDiv = Div.extend`
         }
         .small {
           display: block;
+          .select-wrapper {
+            margin-top: 1rem;
+          }
         }
       }
     `

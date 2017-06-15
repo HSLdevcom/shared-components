@@ -21,7 +21,7 @@ exports[`default`] = `
 
 exports[`small`] = `
 <div
-  className="sc-chPdSV byfFmt sc-cSHVUG iPjKmC">
+  className="sc-chPdSV byfFmt sc-cSHVUG khVPRZ">
   <button
     className="selected-language sc-jTzLTM hERCNo"
     onClick={[Function]}>
@@ -38,5 +38,7 @@ exports[`small`] = `
         id="Shape" />
     </svg>
   </button>
+  <span
+    className="transition-group" />
 </div>
 `;

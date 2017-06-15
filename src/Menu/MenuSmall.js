@@ -19,9 +19,6 @@ const StyledFlex = Flex.extend`
     display: flex;
     align-items: center;
   }
-  .select-wrapper {
-    top: 3rem;
-  }
 
   .icon svg, .search-icon svg {
     height: 1.75rem;
