@@ -16,21 +16,23 @@ const StyledNav = styled.nav`
     fill: currentColor;
   }
   .logo svg {
-    height: 3rem;
+    height: 2.5rem;
   }
 
   .nav-item {
     border-bottom: 2px solid ${props => props.theme.menuBorder};
     display: flex;
-    padding: 2.5rem 1.5rem 2.5rem 2.5rem;
-    font-size: 2rem;
+    padding: 1.5rem 1.25rem 1.5rem 1.5rem;
+    font-size: 1.75rem;
   }
 
-  .menu-item, .nav-item {
-    svg {
-      height: 3.5rem;
-      width: 3.5rem;
-    }
+  .nav-item svg {
+    height: 3rem;
+    width: 3rem;
+  }
+  .menu-item svg {
+    height: 2.5rem;
+    width: 3rem;
   }
   padding: 1.25rem 1.25rem 0rem;
 
@@ -74,7 +76,7 @@ const StyledNav = styled.nav`
 
 const TopBar = Flex.extend`
   align-items: center;
-  height: 4.5rem;
+  height: 3.75rem;
   align-items: flex-start;
 `;
 
@@ -90,11 +92,11 @@ const TopIcons = Flex.extend`
   }
   ${MenuItem} {
     align-self: stretch;
-    margin-right: 2rem;
+    margin-right: 1.75rem;
   }
   svg {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 2rem;
   }
 `;
 
@@ -103,10 +105,6 @@ class Nav extends React.PureComponent {
     super(props);
     this.state = { open: false };
     this.toggleMenu = this.toggleMenu.bind(this);
-  }
-
-  getChildContext() {
-    return { textPosition: 'Right' };
   }
 
   toggleMenu() {

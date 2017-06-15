@@ -25,12 +25,12 @@ const StyledDiv = Div.extend`
   ${LangSelect} {
     font-size: 1.5rem;
     ${LangButton} {
-      width: 3.75rem;
-      height: 3.25rem;
+      width: 3rem;
+      height: 2.5rem;
     }
   }
   .children {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 3rem 0;
     .child {
       width: 50%;
