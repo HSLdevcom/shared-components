@@ -2,7 +2,7 @@ exports[`default`] = `
 <div
   className="sc-dVhcbM bWelJJ">
   <header
-    className="sc-jlyJG bbyJzT sc-iRbamj cumaDZ">
+    className="sc-jlyJG bbyJzT sc-iRbamj guEZie">
     <span />
     <span
       className="sc-EHOje jvzENE">
@@ -1004,7 +1004,7 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="menu sc-kkGfuU gqJIVH sc-kEYyzF bzQBVV">
+    className="menu sc-kkGfuU gqJIVH sc-kEYyzF gvJPRT">
     <div
       className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
       <a

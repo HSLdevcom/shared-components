@@ -20,7 +20,7 @@ const StyledFlex = Flex.extend`
     align-items: center;
   }
   .select-wrapper {
-    top: 3.5rem;
+    top: 3rem;
   }
 
   .icon svg, .search-icon {

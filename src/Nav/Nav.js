@@ -16,7 +16,6 @@ const Header = styled.header`
     &.scroll {
       position: fixed;
       width: 100%;
-      overflow: hidden;
       &.scroll-enter {
         max-height: 0rem;
       }
