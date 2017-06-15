@@ -441,7 +441,7 @@ exports[`default`] = `
       </nav>
     </span>
     <nav
-      className="sc-gPEVay eQYmiW sc-cMljjf gdmEYr">
+      className="sc-gPEVay eQYmiW sc-cMljjf cXwwmK">
       <div
         className="sc-jAaTju eoQgHD">
         <span
@@ -542,22 +542,7 @@ exports[`default`] = `
             className="sc-bxivhb dcGquP"
             onClick={[Function]}>
             <span
-              className="cross menu-toggle sc-EHOje jvzENE">
-              <svg
-                fill={undefined}
-                height="3rem"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 35 35"
-                width={undefined}>
-                <g>
-                  <path
-                    d="M20.669,17.5 L33.349,30.18 C34.224,31.055 34.224,32.474 33.349,33.349 C32.474,34.224 31.055,34.224 30.18,33.349 L17.5,20.669 L4.82,33.349 C3.945,34.224 2.526,34.224 1.651,33.349 C0.775,32.474 0.775,31.055 1.651,30.18 L14.331,17.5 L1.651,4.821 C0.775,3.945 0.775,2.526 1.651,1.651 C2.526,0.775 3.945,0.775 4.82,1.651 L17.5,14.331 L30.18,1.651 C31.055,0.775 32.474,0.775 33.349,1.651 C34.224,2.526 34.224,3.945 33.349,4.821 L20.669,17.5 Z"
-                    id="Shape" />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="menu menu-toggle visible sc-EHOje jvzENE">
+              className="menu-toggle sc-EHOje jvzENE">
               <svg
                 fill={undefined}
                 height="3rem"
@@ -566,8 +551,17 @@ exports[`default`] = `
                 width={undefined}>
                 <g>
                   <path
-                    d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
-                    id="Shape" />
+                    d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
+                    id="menu-top" />
+                  <path
+                    d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                    id="menu-middle-1" />
+                  <path
+                    d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                    id="menu-middle-2" />
+                  <path
+                    d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
+                    id="menu-bot" />
                 </g>
               </svg>
             </span>
@@ -582,7 +576,7 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-gPEVay eQYmiW sc-cMljjf gdmEYr">
+  className="sc-gPEVay eQYmiW sc-cMljjf cXwwmK">
   <div
     className="sc-jAaTju eoQgHD">
     <span
@@ -683,22 +677,7 @@ exports[`mobile`] = `
         className="sc-bxivhb dcGquP"
         onClick={[Function]}>
         <span
-          className="cross menu-toggle sc-EHOje jvzENE">
-          <svg
-            fill={undefined}
-            height="3rem"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 35 35"
-            width={undefined}>
-            <g>
-              <path
-                d="M20.669,17.5 L33.349,30.18 C34.224,31.055 34.224,32.474 33.349,33.349 C32.474,34.224 31.055,34.224 30.18,33.349 L17.5,20.669 L4.82,33.349 C3.945,34.224 2.526,34.224 1.651,33.349 C0.775,32.474 0.775,31.055 1.651,30.18 L14.331,17.5 L1.651,4.821 C0.775,3.945 0.775,2.526 1.651,1.651 C2.526,0.775 3.945,0.775 4.82,1.651 L17.5,14.331 L30.18,1.651 C31.055,0.775 32.474,0.775 33.349,1.651 C34.224,2.526 34.224,3.945 33.349,4.821 L20.669,17.5 Z"
-                id="Shape" />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="menu menu-toggle visible sc-EHOje jvzENE">
+          className="menu-toggle sc-EHOje jvzENE">
           <svg
             fill={undefined}
             height="3rem"
@@ -707,8 +686,17 @@ exports[`mobile`] = `
             width={undefined}>
             <g>
               <path
-                d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
-                id="Shape" />
+                d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
+                id="menu-top" />
+              <path
+                d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                id="menu-middle-1" />
+              <path
+                d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                id="menu-middle-2" />
+              <path
+                d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
+                id="menu-bot" />
             </g>
           </svg>
         </span>
