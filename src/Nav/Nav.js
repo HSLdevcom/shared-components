@@ -53,14 +53,15 @@ class Nav extends React.PureComponent {
     super(props);
     this.state = { scrollNavVisible: false };
     this.lastScrollValue = 0;
+    // https://gist.github.com/Restuta/e400a555ba24daa396cc
+    this.onScroll = this.onScroll.bind(this);
   }
-
   componentDidMount() {
-    document.addEventListener('scroll', evt => this.onScroll(evt), true);
+    document.addEventListener('scroll', this.onScroll, true);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', evt => this.onScroll(evt), true);
+    document.removeEventListener('scroll', this.onScroll, true);
   }
 
   onScroll(evt) {

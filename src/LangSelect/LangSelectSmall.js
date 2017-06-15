@@ -72,14 +72,15 @@ class LangSelectSmall extends React.PureComponent {
     super(props);
     this.state = { open: false };
     this.toggleLangSelect = this.toggleLangSelect.bind(this);
+    this.onScroll = this.onScroll.bind(this);
   }
 
   componentDidMount() {
-    document.addEventListener('scroll', evt => this.onScroll(evt), true);
+    document.addEventListener('scroll', this.onScroll, true);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', evt => this.onScroll(evt), true);
+    document.removeEventListener('scroll', this.onScroll, true);
   }
 
   onScroll() {
