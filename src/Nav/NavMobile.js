@@ -8,7 +8,7 @@ import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
 import { Flex } from '../Wrapper';
-import { Cross, Menu } from '../Icons';
+import { Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
 
 const StyledNav = styled.nav`
@@ -62,13 +62,24 @@ const StyledNav = styled.nav`
   }
 
   .menu-toggle {
-    transition: opacity .25s linear;
-    opacity: 0;
-    &.visible {
-      opacity: 1;
+    #menu-middle-1, #menu-middle-2, #menu-top, #menu-bot {
+      transition: transform .25s linear;
     }
-    &.cross {
-      position: absolute;
+    &.open {
+      #menu-middle-1 {
+        transform: rotate(-45deg);
+        transform-origin: center;
+      }
+      #menu-middle-2 {
+        transform: rotate(45deg);
+        transform-origin: center;
+      }
+      #menu-top {
+        transform: translate(50%, -25px) scale(0);
+      }
+      #menu-bot {
+        transform: translate(50%, 25px) scale(0);
+      }
     }
   }
 
@@ -124,10 +135,7 @@ class Nav extends React.PureComponent {
             React.cloneElement(child, { small: true })
             ))}
           <ButtonNoStyle onClick={this.toggleMenu}>
-            <Span className={cx('cross', 'menu-toggle', { visible: this.state.open })}>
-              <Cross height="3rem" />
-            </Span>
-            <Span className={cx('menu', 'menu-toggle', { visible: !this.state.open })}>
+            <Span className={cx('menu-toggle', { open: this.state.open })}>
               <Menu height="3rem" />
             </Span>
           </ButtonNoStyle>
