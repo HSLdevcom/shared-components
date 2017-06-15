@@ -16,14 +16,13 @@ const Header = styled.header`
     &.scroll {
       position: fixed;
       width: 100%;
-      overflow: hidden;
       &.scroll-enter {
         max-height: 0rem;
       }
 
       &.scroll-enter.scroll-enter-active {
         max-height: 4rem;
-        transition: max-height .25s ease-in;
+        transition: max-height .35s ease-in;
       }
 
       &.scroll-leave {
@@ -32,7 +31,7 @@ const Header = styled.header`
 
       &.scroll-leave.scroll-leave-active {
         max-height: 0rem;
-        transition: max-height .25s ease-in;
+        transition: max-height .35s ease-in;
       }
     }
   }
@@ -66,14 +65,18 @@ class Nav extends React.PureComponent {
 
   onScroll(evt) {
     // Visible when scrolling up and we have scrolled past the regular nav
-    const newValue = (evt.target.body.scrollTop < this.lastScrollValue) &&
-                     (this.nav &&
-                        this.nav.firstChild &&
-                        evt.target.body.scrollTop > this.nav.firstChild.offsetHeight
-                      );
+    const scrolledPastNav = this.nav &&
+                            this.nav.firstChild &&
+                            this.nav.firstChild.offsetHeight < evt.target.body.scrollTop;
+
+    const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
+
+    // Save current scroll value
     this.lastScrollValue = evt.target.body.scrollTop;
-    if (newValue !== this.state.scrollNavVisible) {
-      this.setState({ scrollNavVisible: newValue });
+
+    // Call setState only if state will change
+    if ((scrolledPastNav && scrollingUp) !== this.state.scrollNavVisible) {
+      this.setState({ scrollNavVisible: (scrolledPastNav && scrollingUp) });
     }
   }
 
@@ -82,8 +85,8 @@ class Nav extends React.PureComponent {
       <Header className={this.props.className}>
         <CSSTransitionGroup
           transitionName="scroll"
-          transitionEnterTimeout={250}
-          transitionLeaveTimeout={250}
+          transitionEnterTimeout={350}
+          transitionLeaveTimeout={350}
         >
           { this.props.menu && this.state.scrollNavVisible && <NavDesktop
             className="scroll"
