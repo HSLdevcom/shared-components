@@ -23,16 +23,32 @@ const StyledFlex = Flex.extend`
     top: 3rem;
   }
 
-  .icon svg, .search-icon {
+  .icon svg, .search-icon svg {
     height: 1.75rem;
+  }
+
+  .search-icon {
+    svg {
+      margin-bottom: 1rem;
+    }
+    align-items: flex-end;
+  }
+
+  ${LangSelectSmall} {
+    align-items: flex-end;
+    > * {
+      margin-bottom: 1rem;
+    }
   }
 
   svg {
     fill: currentColor;
   }
+
+  align-items: stretch;
+
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
-    height: 100%;
     display: flex;
     padding: 0 0.75rem;
   }
@@ -61,11 +77,12 @@ const MenuSmall = ({
 }) => (
   <StyledFlex className={className}>
     {children}
-    <Search
-      className="search-icon"
-      height="2rem"
-      width="2rem"
-    />
+    <Flex className="search-icon">
+      <Search
+        height="2rem"
+        width="2rem"
+      />
+    </Flex>
     <LangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}

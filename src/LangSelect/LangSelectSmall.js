@@ -7,6 +7,7 @@ import LangButton from './LangButton';
 import Div from '../Div';
 
 const StyledDiv = Div.extend`
+  overflow: hidden;
   ${LangButton} {
     display: block;
     width: 2.75rem;
