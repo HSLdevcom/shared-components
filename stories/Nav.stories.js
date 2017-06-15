@@ -8,7 +8,7 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 import JSXAddon from 'storybook-addon-jsx';
 
 import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
-import Nav, { NavMobile, NavItem } from '../src/Nav';
+import Nav, { NavMobile, NavDesktop, NavItem } from '../src/Nav';
 import Span from '../src/Span';
 import Div from '../src/Div';
 
@@ -37,6 +37,10 @@ stories.addWithJSX('default', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
+  const StyledDiv = Div.extend`
+    height: 100rem;
+  `;
+
   const menu = (<Menu
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
@@ -58,23 +62,23 @@ stories.addWithJSX('default', () => {
     />
   </Menu>);
 
-  return (<Nav logo={logo} menu={menu}>
-    {icons.map(icon =>
-    (
-      <NavItem
-        key={icon[1]}
-        link={<Link to="/test" />}
-        icon={icon[0]}
-        text={icon[1]}
-        textPosition={'Bottom'}
-      />
-      )
+  return (<StyledDiv>
+    <Nav logo={logo} menu={menu}>
+      {icons.map(icon =>
+        (<NavItem
+          key={icon[1]}
+          link={<Link to="/test" />}
+          icon={icon[0]}
+          text={icon[1]}
+          textPosition={'Bottom'}
+        />)
      )}
-  </Nav>);
+    </Nav>
+  </StyledDiv>);
 });
 
 
-stories.addWithJSX('minimal', () => {
+stories.addWithJSX('scroll', () => {
   const logo = <HSLLogo height="3.75rem" />;
 
   const options = {
@@ -90,7 +94,7 @@ stories.addWithJSX('minimal', () => {
     changeLanguage={action('language changed')}
   />);
 
-  return (<Nav logo={logo} menu={menu} scroll>
+  return (<NavDesktop logo={logo} menu={menu} scroll>
     {icons.map(icon =>
     (
       <NavItem
@@ -101,7 +105,7 @@ stories.addWithJSX('minimal', () => {
         textPosition={'Bottom'}
       />)
      )}
-  </Nav>);
+  </NavDesktop>);
 });
 
 
@@ -113,9 +117,9 @@ stories.addWithJSX('only title', () => {
     }
   `;
 
-  return (<Nav logo={logo} scroll>
+  return (<NavDesktop logo={logo} scroll>
     <StyledSpan>Lataa kautta</StyledSpan>
-  </Nav>);
+  </NavDesktop>);
 });
 
 stories.addWithJSX('mobile', () => {

@@ -36,10 +36,6 @@ Activatable.defaultProps = {
   size: 'Large'
 };
 
-Activatable.contextTypes = {
-  size: PropTypes.oneOf(['Small', 'Large'])
-};
-
 Activatable.propTypes = {
   active: PropTypes.bool,
   small: PropTypes.bool,

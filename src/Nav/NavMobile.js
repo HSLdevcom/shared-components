@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 import { addClass } from '../utils';
 import Span from '../Span';
@@ -35,6 +36,40 @@ const StyledNav = styled.nav`
 
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+
+  .menu-enter {
+    overflow: hidden;
+    max-height: 0rem;
+  }
+
+  .menu-enter.menu-enter-active {
+    overflow: hidden;
+    max-height: 75rem;
+    transition: max-height .25s ease-in;
+  }
+
+  .menu-leave {
+    overflow: hidden;
+    max-height: 75rem;
+  }
+
+  .menu-leave.menu-leave-active {
+    overflow: hidden;
+    max-height: 0rem;
+    transition: max-height .25s ease-in;
+  }
+
+  .menu-toggle {
+    transition: opacity .25s linear;
+    opacity: 0;
+    &.visible {
+      opacity: 1;
+    }
+    &.cross {
+      position: absolute;
+    }
+  }
+
 `;
 
 const TopBar = Flex.extend`
@@ -59,6 +94,7 @@ const TopIcons = Flex.extend`
   }
   svg {
     height: 2.5rem;
+    width: 2.5rem;
   }
 `;
 
@@ -89,27 +125,30 @@ class Nav extends React.PureComponent {
           {React.Children.map(this.props.menu.props.children, child => (
             React.cloneElement(child, { small: true })
             ))}
-          { this.state.open &&
-            <ButtonNoStyle onClick={this.toggleMenu}>
+          <ButtonNoStyle onClick={this.toggleMenu}>
+            <Span className={cx('cross', 'menu-toggle', { visible: this.state.open })}>
               <Cross height="3rem" />
-            </ButtonNoStyle>
-          }
-          { !this.state.open &&
-            <ButtonNoStyle onClick={this.toggleMenu}>
-              <Menu height="3rem" width="2.5rem" />
-            </ButtonNoStyle>
-          }
+            </Span>
+            <Span className={cx('menu', 'menu-toggle', { visible: !this.state.open })}>
+              <Menu height="3rem" />
+            </Span>
+          </ButtonNoStyle>
         </TopIcons>}
       </TopBar>
-
-      { this.props.menu && this.state.open && React.cloneElement(
-        this.props.menu,
-        { className: cx(this.props.menu.props.className, 'menu'),
-          items: addClass(this.props.children, 'nav-item'),
-        },
-        addClass(this.props.menu.props.children, 'menu-item')
-        )
-      }
+      <CSSTransitionGroup
+        transitionName="menu"
+        transitionEnterTimeout={250}
+        transitionLeaveTimeout={250}
+      >
+        { this.props.menu && this.state.open && React.cloneElement(
+          this.props.menu,
+          { className: cx(this.props.menu.props.className, 'menu'),
+            items: addClass(this.props.children, 'nav-item'),
+          },
+          addClass(this.props.menu.props.children, 'menu-item')
+          )
+        }
+      </CSSTransitionGroup>
     </StyledNav>);
   }
 }
