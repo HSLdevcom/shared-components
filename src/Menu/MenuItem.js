@@ -30,11 +30,13 @@ const MenuItem = ({
   className
 }) => (
   <StyledDiv className={className} small={small}>
-    <link.type {...link.props} className="link">
-      <Activatable active={active} small={small} >
+    {React.cloneElement(
+      link,
+      { className: 'link' },
+      (<Activatable active={active} small={small} >
         <IconWithText icon={icon} text={text} textPosition={textPosition} />
-      </Activatable>
-    </link.type>
+      </Activatable>)
+    )}
   </StyledDiv>
 )
 ;

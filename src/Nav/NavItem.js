@@ -26,11 +26,13 @@ const NavItem = ({
   className
 }) => (
   <StyledDiv className={className} small={small}>
-    <link.type {...link.props} >
-      <Activatable active={active}>
+    {React.cloneElement(
+      link,
+      { className: 'link' },
+      (<Activatable active={active}>
         <IconWithText icon={icon} text={text} textPosition={textPosition} />
-      </Activatable>
-    </link.type>
+      </Activatable>)
+    )}
   </StyledDiv>
 )
 ;
