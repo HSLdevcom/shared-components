@@ -1,0 +1,41 @@
+exports[`default`] = `
+<ul
+  className="sc-bRBYWo cdKSBh">
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    test
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    test
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+  <li
+    className="sc-hzDkRC intZuV">
+    looong teexttt ttttttttttttttttt
+  </li>
+</ul>
+`;
