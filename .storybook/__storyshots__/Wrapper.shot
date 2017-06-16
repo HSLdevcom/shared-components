@@ -1,43 +1,43 @@
 exports[`Activatable`] = `
 <span>
   <div
-    className="sc-kjoXOD kytJMJ">
+    className="sc-kgAjT Wcmwh">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi eTljaZ">
+      className="sc-jzJRlG istBgv sc-jTzLTM ifSnQg">
       <span>
         Active
       </span>
     </div>
   </div>
   <div
-    className="sc-kjoXOD kytJMJ">
+    className="sc-kgAjT Wcmwh">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi ezNiVa">
+      className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
       <span>
         Inactive
       </span>
     </div>
   </div>
   <div
-    className="sc-kjoXOD kytJMJ">
+    className="sc-kgAjT Wcmwh">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+      className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
       <span>
         Active
       </span>
       <div
-        className="sc-gqjmRU bCEFGS" />
+        className="sc-fjdhpX lnOsFp" />
     </div>
   </div>
   <div
-    className="sc-kjoXOD kytJMJ">
+    className="sc-kgAjT Wcmwh">
     <div
-      className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
+      className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
       <span>
         Inactive
       </span>
       <div
-        className="sc-gqjmRU feBOhZ" />
+        className="sc-fjdhpX fgZgIR" />
     </div>
   </div>
 </span>
@@ -45,9 +45,9 @@ exports[`Activatable`] = `
 
 exports[`Flex`] = `
 <div
-  className="sc-gisBJw jgXmEH">
+  className="sc-TOsTZ jfNsPh">
   <div
-    className="sc-iwsKbI hAZHJM">
+    className="sc-VigVT kebjCN">
     <span>
       Span
     </span>

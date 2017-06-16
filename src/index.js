@@ -16,6 +16,7 @@ import Div from './Div';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
 import { Flex, Activatable } from './Wrapper';
+import DropdownMenu from './DropdownMenu';
 
 export {
   AppHeader,
@@ -41,5 +42,6 @@ export {
   MenuMobile,
   MenuItem,
   Flex,
-  Activatable
+  Activatable,
+  DropdownMenu
 };
