@@ -14,13 +14,13 @@ const stories = storiesOf('List', module);
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX('default', () => (
-  <List>
+  <List header="Header">
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
-    <ListItem>test</ListItem>
+    <ListItem>short text</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
-    <ListItem>test</ListItem>
+    <ListItem>short text</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>
     <ListItem>looong teexttt ttttttttttttttttt</ListItem>

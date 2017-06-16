@@ -221,9 +221,9 @@ exports[`default`] = `
 
 exports[`menu item`] = `
 <div
-  className="sc-eqIVtm ffhSGv">
+  className="sc-gisBJw jybqSO">
   <div
-    className="sc-dVhcbM iwnxgr sc-eNQAEJ aFBhS">
+    className="sc-caSCKo ebhxTl sc-eNQAEJ aFBhS">
     <a
       className="link"
       onClick={[Function]}
@@ -387,7 +387,7 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <div
-  className="sc-fMiknA kecTif sc-cvbbAY fNGean">
+  className="sc-fAjcbJ iyMrWJ sc-cvbbAY fNGean">
   <div
     className="sc-eHgmQL hLbCgJ" />
   <div

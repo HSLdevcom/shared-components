@@ -1,41 +1,48 @@
 exports[`default`] = `
-<ul
-  className="sc-bRBYWo cdKSBh">
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    test
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    test
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-  <li
-    className="sc-hzDkRC intZuV">
-    looong teexttt ttttttttttttttttt
-  </li>
-</ul>
+<div
+  className="sc-fBuWsC eeihxG sc-jhAzac bXvoRy">
+  <h3
+    className="sc-hzDkRC kpsoyz">
+    Header
+  </h3>
+  <ul
+    className="sc-bRBYWo ccSRck">
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      short text
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      short text
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-fMiknA eLERyF">
+      looong teexttt ttttttttttttttttt
+    </li>
+  </ul>
+</div>
 `;
