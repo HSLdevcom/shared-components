@@ -19,8 +19,7 @@ stories.addWithJSX('default', () => {
   const menuVisible = boolean('Dropdown menu visible', true);
   return (
     <div>
-      <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
-      <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+      <p>This is always visible</p>
       { menuVisible &&
         <DropdownMenu>
           <div>
@@ -59,6 +58,8 @@ stories.addWithJSX('default', () => {
           </div>
         </DropdownMenu>
       }
+      <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+      <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
     </div>
   );
 }

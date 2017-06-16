@@ -1,52 +1,7 @@
 exports[`default`] = `
 <div>
   <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
-  </p>
-  <p>
-    test
+    This is always visible
   </p>
   <div
     className="sc-jhAzac hmXDXQ sc-hzDkRC kswXTZ">
@@ -198,5 +153,53 @@ exports[`default`] = `
     <div
       className="sc-bRBYWo eSCEJV" />
   </div>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
 </div>
 `;
