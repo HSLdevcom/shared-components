@@ -4,7 +4,7 @@ import { setAddon, storiesOf } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Button from '../src/Button/Button';
+import { Button } from '../src';
 
 setAddon(JSXAddon);
 

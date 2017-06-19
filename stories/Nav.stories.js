@@ -7,10 +7,9 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
-import Nav, { NavMobile, NavDesktop, NavItem } from '../src/Nav';
-import Span from '../src/Span';
-import Div from '../src/Div';
+import { Menu, MenuSmall, MenuMobile, MenuItem,
+         Nav, NavMobile, NavDesktop, NavItem,
+         Div, Span } from '../src';
 
 import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 
