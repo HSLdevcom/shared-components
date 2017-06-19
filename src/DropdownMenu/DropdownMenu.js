@@ -8,20 +8,12 @@ import Mask from './Mask';
 const StyledDiv = styled.div`
   position: absolute;
   width: 100%;
-  bottom:0;
-  top:0;
-  display: flex;
-  flex-direction: column;
   ${Div} {
     background: ${props => props.theme.background};
     display: flex;
     justify-content: space-around;
     padding-top: 2.5rem
     align-items: flex-start;
-  }
-  ${Mask} {
-    display: flex;
-    flex: 1;
   }
 `;
 
