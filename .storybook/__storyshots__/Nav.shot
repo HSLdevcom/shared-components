@@ -151,7 +151,7 @@ exports[`default`] = `
                     height="2.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"
-                    viewBox="0 0 32 32"
+                    viewBox="-4 -4 40 40"
                     width="2.5rem">
                     <g
                       id="icon---uutta">
@@ -195,7 +195,7 @@ exports[`default`] = `
                     height="2.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"
-                    viewBox="0 0 38 10"
+                    viewBox="-5 0 48 10"
                     width="2.5rem">
                     <g
                       id="Group">
@@ -930,7 +930,7 @@ exports[`scroll`] = `
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
-              viewBox="0 0 32 32"
+              viewBox="-4 -4 40 40"
               width="2.5rem">
               <g
                 id="icon---uutta">
@@ -974,7 +974,7 @@ exports[`scroll`] = `
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
-              viewBox="0 0 38 10"
+              viewBox="-5 0 48 10"
               width="2.5rem">
               <g
                 id="Group">
