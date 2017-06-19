@@ -23,6 +23,7 @@ const StyledNav = styled.nav`
     props.theme.Media &&
     props.theme.Media.large`
       padding: 0 1.75rem;
+      height: 7.5rem;
     `
   )}
   > .child {

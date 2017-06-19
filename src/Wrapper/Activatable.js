@@ -19,7 +19,7 @@ const Pointer = Div.extend`
   height: 0;
   border-left: 0.6rem solid transparent;
   border-right: 0.6rem solid transparent;
-  border-bottom: 1rem solid ${props => !props.active && 'transparent'};
+  border-bottom: 0.6rem solid ${props => !props.active && 'transparent'};
 `;
 
 const Activatable = ({ active,

@@ -26,7 +26,7 @@ exports[`Activatable`] = `
         Active
       </span>
       <div
-        className="sc-jTzLTM kTpvHn" />
+        className="sc-jTzLTM cWYOOw" />
     </div>
   </div>
   <div
@@ -37,7 +37,7 @@ exports[`Activatable`] = `
         Inactive
       </span>
       <div
-        className="sc-jTzLTM jfNEAr" />
+        className="sc-jTzLTM cQFuBt" />
     </div>
   </div>
 </span>

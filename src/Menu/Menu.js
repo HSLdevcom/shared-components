@@ -48,11 +48,14 @@ const StyledDiv = Div.extend`
   ${props => (
     props.theme.Media &&
     props.theme.Media.large`
+      .child:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+      ${MenuSeparator} {
+        margin: 0.75rem 0;
+      }
       svg {
         height: 1.75rem;
-      }
-      .child:not(:last-child) {
-        margin-right: 0rem;
       }
       .bottom {
         &.large {
@@ -60,6 +63,7 @@ const StyledDiv = Div.extend`
         }
         &.small {
           display: flex;
+          height: 3rem;
         }
         justify-content: flex-end;
       }
@@ -126,7 +130,7 @@ const Menu = ({
           {
             className: cx(child.props.className, 'child'),
             small: true,
-            textPosition: 'Right'
+            textPosition: 'Bottom'
           })
         ))}
     </Flex>

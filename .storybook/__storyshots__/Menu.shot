@@ -149,10 +149,10 @@ exports[`default`] = `
         <div
           className="sc-fjdhpX AUMvr sc-VigVT dgcBQn">
           <div
-            className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK">
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh">
             <span
               aria-hidden="true"
-              className="icon sc-jzJRlG eelrXJ">
+              className="icon sc-jzJRlG dRUJBY">
               <svg
                 fill={undefined}
                 height="3.5rem"
@@ -171,7 +171,7 @@ exports[`default`] = `
             </span>
           </div>
           <div
-            className="sc-jTzLTM kTpvHn" />
+            className="sc-jTzLTM cWYOOw" />
         </div>
       </a>
     </div>
@@ -184,10 +184,10 @@ exports[`default`] = `
         <div
           className="sc-fjdhpX AUMvr sc-VigVT dgcBQn">
           <div
-            className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK">
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh">
             <span
               aria-hidden="true"
-              className="icon sc-jzJRlG eelrXJ">
+              className="icon sc-jzJRlG dRUJBY">
               <svg
                 height="3.5rem"
                 preserveAspectRatio="xMidYMid meet"
@@ -211,7 +211,7 @@ exports[`default`] = `
             </span>
           </div>
           <div
-            className="sc-jTzLTM jfNEAr" />
+            className="sc-jTzLTM cQFuBt" />
         </div>
       </a>
     </div>
@@ -298,7 +298,7 @@ exports[`minimal`] = `
           </span>
         </div>
         <div
-          className="sc-jTzLTM kTpvHn" />
+          className="sc-jTzLTM cWYOOw" />
       </div>
     </a>
   </div>
@@ -338,7 +338,7 @@ exports[`minimal`] = `
           </span>
         </div>
         <div
-          className="sc-jTzLTM jfNEAr" />
+          className="sc-jTzLTM cQFuBt" />
       </div>
     </a>
   </div>
