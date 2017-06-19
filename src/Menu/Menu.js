@@ -23,6 +23,12 @@ const StyledDiv = Div.extend`
   svg {
     fill: currentColor;
   }
+  .top {
+    justify-content: flex-end;
+    svg {
+      margin-right: 1.5rem;
+    }
+  }
   .bottom {
     &.small {
       display: none;
@@ -93,7 +99,7 @@ const Menu = ({
 }) => (
   <StyledDiv className={className}>
     <Flex className="top">
-      <Search height="2rem" width="2rem" />
+      <Search height="1.5rem" width="1.5rem" />
       <Span className="lang-select">
         <LangSelect
           className="large"
