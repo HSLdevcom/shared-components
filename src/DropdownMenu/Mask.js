@@ -20,7 +20,7 @@ class Mask extends React.PureComponent {
 
   componentDidMount() {
     window.addEventListener('resize', this.onResize, true);
-    this.setHeight();
+    this.onResize();
   }
 
   componentWillUnmount() {
@@ -28,10 +28,6 @@ class Mask extends React.PureComponent {
   }
 
   onResize() {
-    this.setHeight();
-  }
-
-  setHeight() {
     if (!this.mask) {
       return;
     }
