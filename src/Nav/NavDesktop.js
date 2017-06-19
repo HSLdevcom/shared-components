@@ -35,6 +35,17 @@ const StyledNav = styled.nav`
       props.theme.Media.large`
         margin: 0 1rem;
         font-size: 1rem;
+        svg {
+          height: 2.25rem;
+        }
+      `
+    )}
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.medium`
+        svg {
+          height: 2rem;
+        }
       `
     )}
 
@@ -55,7 +66,7 @@ const StyledNav = styled.nav`
     )}
     ${props => (
       props.theme.Media &&
-      props.theme.Media.large`
+      props.theme.Media.medium`
         margin-right: 0.5rem;
           svg {
             height: 2.75rem;

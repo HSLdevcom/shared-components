@@ -54,8 +54,9 @@ const StyledDiv = Div.extend`
       ${MenuSeparator} {
         margin: 0.75rem 0;
       }
-      svg {
-        height: 1.75rem;
+      .top svg {
+        height: 1.5rem;
+        margin-right: 1rem;
       }
       .bottom {
         &.large {
@@ -64,6 +65,9 @@ const StyledDiv = Div.extend`
         &.small {
           display: flex;
           height: 3rem;
+          .child svg {
+            height: 1.75rem;
+          }
         }
         justify-content: flex-end;
       }

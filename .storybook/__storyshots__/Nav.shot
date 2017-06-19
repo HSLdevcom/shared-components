@@ -7,7 +7,7 @@ exports[`default`] = `
     <span
       className="sc-dnqmqq bDsesi">
       <nav
-        className="sc-gZMcBi giNnHm sc-iwsKbI hAhLsJ">
+        className="sc-gZMcBi giNnHm sc-iwsKbI eTgvdp">
         <span
           className="logo sc-dnqmqq bDsesi">
           <svg
@@ -759,7 +759,7 @@ exports[`nav item`] = `
 
 exports[`only title`] = `
 <nav
-  className="sc-gZMcBi giNnHm sc-iwsKbI hONIpH">
+  className="sc-gZMcBi giNnHm sc-iwsKbI fRTKxg">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
@@ -786,7 +786,7 @@ exports[`only title`] = `
 
 exports[`scroll`] = `
 <nav
-  className="sc-gZMcBi giNnHm sc-iwsKbI hONIpH">
+  className="sc-gZMcBi giNnHm sc-iwsKbI fRTKxg">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
