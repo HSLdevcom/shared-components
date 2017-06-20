@@ -19,7 +19,7 @@ const StyledNav = styled.nav`
   justify-content: flex-start;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
-  padding: 0 2.5rem;
+  padding: 0 1rem 0 2.5rem;
   height: 9rem;
   ${props => (
     props.theme.Media &&
@@ -42,7 +42,7 @@ const StyledNav = styled.nav`
     ${props => (
       props.theme.Media &&
       props.theme.Media.large`
-        margin: 0 1rem;
+        margin: 0 0.75rem;
         font-size: 1rem;
         svg {
           height: 2.25rem;
@@ -53,7 +53,8 @@ const StyledNav = styled.nav`
       props.theme.Media &&
       props.theme.Media.medium`
         svg {
-          height: 2rem;
+          height: 1.75rem;
+          width: 2rem;
         }
       `
     )}
@@ -63,7 +64,7 @@ const StyledNav = styled.nav`
     margin-left: auto;
   }
   > .logo {
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
     align-items: center;
     display: flex;
     ${props => (
@@ -78,7 +79,7 @@ const StyledNav = styled.nav`
     ${props => (
       props.theme.Media &&
       props.theme.Media.medium`
-        margin-right: 0.75rem;
+        margin-right: 1.25rem;
           svg {
             height: 2.75rem;
           }
@@ -88,14 +89,24 @@ const StyledNav = styled.nav`
   &.scroll {
     height: ${props => props.theme.scrollNavHeight || '3.75rem'};
     padding: 0;
-    > .child {
-      text-align: center;
-    }
     > .logo {
       padding-left: 1.5rem;
       svg {
         height: 2rem;
       }
+      margin-right: 2.5rem;
+      ${props => (
+        props.theme.Media &&
+        props.theme.Media.large`
+          margin-right: 1.5rem;
+        `
+      )}
+      ${props => (
+        props.theme.Media &&
+        props.theme.Media.medium`
+          margin-right: 0.75rem;
+        `
+      )}
     }
   }
 `;
