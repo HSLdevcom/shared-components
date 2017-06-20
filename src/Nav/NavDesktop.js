@@ -5,6 +5,8 @@ import cx from 'classnames';
 
 import { addClass } from '../utils';
 import Span from '../Span';
+import NavItem from './NavItem';
+import { Activatable } from '../Wrapper';
 
 
 const StyledNav = styled.nav`
@@ -12,7 +14,7 @@ const StyledNav = styled.nav`
     fill: currentColor;
   }
   display: flex;
-  align-items: center;
+  align-items: stretch;
   white-space: nowrap;
   justify-content: flex-start;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
@@ -26,10 +28,17 @@ const StyledNav = styled.nav`
       height: 7.5rem;
     `
   )}
-  > .child {
-    text-align: center;
+  ${NavItem} {
+    display: flex;
+    align-items: stretch;
     font-size: 1.1rem;
     margin: 0 1.5rem;
+    .link {
+      display: flex;
+      ${Activatable} {
+        justify-content: center;
+      }
+    }
     ${props => (
       props.theme.Media &&
       props.theme.Media.large`
@@ -55,6 +64,8 @@ const StyledNav = styled.nav`
   }
   > .logo {
     margin-right: 3.5rem;
+    align-items: center;
+    display: flex;
     ${props => (
       props.theme.Media &&
       props.theme.Media.large`

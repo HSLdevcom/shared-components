@@ -33,7 +33,7 @@ const StyledDiv = Div.extend`
     &.small {
       display: none;
     }
-    height: 4rem;
+    height: calc(4rem + 1px);
     align-items: stretch;
     .child svg {
       height: 2rem;

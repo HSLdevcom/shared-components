@@ -21,7 +21,8 @@ const hslTheme = {
   fontSize: '16px',
   fontWeight: '500',
   letterSpacing: '-0.5px',
-  activatablePointerHeight: '0.6rem'
+  activatablePointerHeight: '0.6rem',
+  activatableLineHeight: '4px'
 };
 
 export default hslTheme;

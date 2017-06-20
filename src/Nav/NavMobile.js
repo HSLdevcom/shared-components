@@ -23,7 +23,10 @@ const StyledNav = styled.nav`
   .nav-item {
     border-bottom: 2px solid ${props => props.theme.menuBorder};
     display: flex;
-    padding: 1rem;
+    ${IconWithText} {
+      padding: 1rem;
+    }
+
     font-size: 1.25rem;
   }
 

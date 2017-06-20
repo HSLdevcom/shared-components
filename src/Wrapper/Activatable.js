@@ -10,7 +10,10 @@ const StyledDiv = Div.extend`
   align-items: center;
   ${props => (
     !props.small &&
-    `border-bottom: 4px solid ${props.active ? '' : 'transparent'};`
+    `
+      border-bottom: ${props.theme.activatableLineHeight || '4px'} solid ${props.active ? '' : 'transparent'};
+      border-top: ${props.theme.activatableLineHeight || '4px'} solid transparent;
+    `
   )}
 `;
 
