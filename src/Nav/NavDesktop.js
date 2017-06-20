@@ -63,13 +63,13 @@ const StyledNav = styled.nav`
     margin-left: auto;
   }
   > .logo {
-    margin-right: 3.5rem;
+    margin-right: 2.5rem;
     align-items: center;
     display: flex;
     ${props => (
       props.theme.Media &&
       props.theme.Media.large`
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         svg {
           height: 3.25rem;
         }
@@ -78,7 +78,7 @@ const StyledNav = styled.nav`
     ${props => (
       props.theme.Media &&
       props.theme.Media.medium`
-        margin-right: 0.5rem;
+        margin-right: 0.75rem;
           svg {
             height: 2.75rem;
           }
