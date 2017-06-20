@@ -13,7 +13,7 @@ const hslTheme = {
   background: primaryBlue,
   menuBorder: '#0062a1',
   md: '900px',
-  navbarHeight: '5rem', // default: auto
+  scrollNavHeight: '3.75rem',
   logoHeight: '4rem',
   logoFill: primaryWhite,
   radioBtnActive: '#0062a1',

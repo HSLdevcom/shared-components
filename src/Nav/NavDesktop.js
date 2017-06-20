@@ -74,12 +74,11 @@ const StyledNav = styled.nav`
       `
     )}
   }
-  ${props => (props.scroll && `
-    height: 4rem;
+  &.scroll {
+    height: ${props => props.theme.scrollNavHeight || '3.75rem'};
     padding: 0;
     > .child {
       text-align: center;
-      font-size: 1rem;
     }
     > .logo {
       padding-left: 1.5rem;
@@ -87,7 +86,7 @@ const StyledNav = styled.nav`
         height: 2rem;
       }
     }
-  `)}
+  }
 `;
 
 const Nav = ({
