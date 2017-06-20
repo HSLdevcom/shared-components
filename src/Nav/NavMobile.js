@@ -23,8 +23,8 @@ const StyledNav = styled.nav`
   .nav-item {
     border-bottom: 2px solid ${props => props.theme.menuBorder};
     display: flex;
-    padding: 1.5rem 1.25rem 1.5rem 1.5rem;
-    font-size: 1.75rem;
+    padding: 1rem;
+    font-size: 1.25rem;
   }
 
   .nav-item svg {
@@ -32,8 +32,8 @@ const StyledNav = styled.nav`
     width: 3rem;
   }
   .menu-item svg {
-    height: 2.5rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2.5rem;
   }
   padding: 0 1.25rem;
 

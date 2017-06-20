@@ -446,7 +446,7 @@ exports[`default`] = `
       </nav>
     </span>
     <nav
-      className="sc-jDwBTQ dWtMUn sc-brqgnP gnmRia">
+      className="sc-jDwBTQ dWtMUn sc-brqgnP eSxtSS">
       <div
         className="sc-cMljjf dqtkwl">
         <span
@@ -578,7 +578,7 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-jDwBTQ dWtMUn sc-brqgnP gnmRia">
+  className="sc-jDwBTQ dWtMUn sc-brqgnP eSxtSS">
   <div
     className="sc-cMljjf dqtkwl">
     <span
