@@ -16,6 +16,13 @@ import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, Travel
 
 setAddon(JSXAddon);
 
+const longArr = [];
+let i = 0;
+while (i < 50) {
+  longArr.push(i);
+  i += 1;
+}
+
 const icons = [
   [<JourneyPlanner height="2.5rem" width="2.5rem" />, 'Reittiopas'],
   [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
@@ -74,6 +81,9 @@ stories.addWithJSX('default', () => {
         />)
      )}
     </Nav>
+    {
+      longArr.map(ix => <p key={`k ${ix}`}>{ix}</p>)
+    }
   </StyledDiv>);
 });
 
