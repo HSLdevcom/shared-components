@@ -20,7 +20,8 @@ const hslTheme = {
   fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B"',
   fontSize: '16px',
   fontWeight: '500',
-  letterSpacing: '-0.5px'
+  letterSpacing: '-0.5px',
+  activatablePointerHeight: '0.6rem'
 };
 
 export default hslTheme;

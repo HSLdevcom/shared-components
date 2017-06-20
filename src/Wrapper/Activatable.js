@@ -17,9 +17,9 @@ const StyledDiv = Div.extend`
 const Pointer = Div.extend`
   width: 0;
   height: 0;
-  border-left: 0.6rem solid transparent;
-  border-right: 0.6rem solid transparent;
-  border-bottom: 0.6rem solid ${props => !props.active && 'transparent'};
+  border-left: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
+  border-right: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
+  border-bottom: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid ${props => !props.active && 'transparent'};
 `;
 
 const Activatable = ({ active,

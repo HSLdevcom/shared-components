@@ -7,6 +7,7 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
+import IconWithText from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import { Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
@@ -16,7 +17,7 @@ const StyledNav = styled.nav`
     fill: currentColor;
   }
   .logo svg {
-    height: 2.5rem;
+    height: 2rem;
   }
 
   .nav-item {
@@ -87,7 +88,7 @@ const StyledNav = styled.nav`
 
 const TopBar = Flex.extend`
   align-items: center;
-  height: 4rem;
+  height: 64px;
 `;
 
 const TopIcons = Flex.extend`
@@ -101,10 +102,12 @@ const TopIcons = Flex.extend`
     line-height:0;
   }
   ${MenuItem} {
-    align-self: flex-end;
+    align-self: stretch;
     margin-right: 1.75rem;
-    svg {
-      margin-bottom: 0.4rem;
+    ${IconWithText} {
+      flex: 1;
+      margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
+      justify-content: center;
     }
   }
   ${ButtonNoStyle} {
