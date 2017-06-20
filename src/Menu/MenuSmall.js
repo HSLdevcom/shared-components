@@ -52,14 +52,17 @@ const StyledFlex = Flex.extend`
       margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
       justify-content: center;
     }
-
-    ${props => (
-      props.theme.Media &&
-      props.theme.Media.medium`
-        display: none;
-      `
-    )}
   }
+
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      .search-icon, ${LangSelectSmall} {
+        display: none;
+      }
+    `
+  )}
+
 `;
 
 
