@@ -34,7 +34,7 @@ const StyledNav = styled.nav`
     height: 2.5rem;
     width: 3rem;
   }
-  padding: 1.25rem 1.25rem 0rem;
+  padding: 0 1.25rem;
 
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
@@ -87,12 +87,11 @@ const StyledNav = styled.nav`
 
 const TopBar = Flex.extend`
   align-items: center;
-  height: 3.75rem;
-  align-items: flex-start;
+  height: 4rem;
 `;
 
 const TopIcons = Flex.extend`
-  align-items: flex-start;
+  align-items: center;
   align-self: stretch;
   .text {
     display: none;
@@ -102,8 +101,14 @@ const TopIcons = Flex.extend`
     line-height:0;
   }
   ${MenuItem} {
-    align-self: stretch;
+    align-self: flex-end;
     margin-right: 1.75rem;
+    svg {
+      margin-bottom: 0.4rem;
+    }
+  }
+  ${ButtonNoStyle} {
+    height: 2rem;
   }
   svg {
     height: 2rem;
@@ -134,10 +139,11 @@ class Nav extends React.PureComponent {
           {React.Children.map(this.props.menu.props.children, child => (
             React.cloneElement(child, { small: true })
             ))}
-          <ButtonNoStyle onClick={this.toggleMenu}>
-            <Span className={cx('menu-toggle', { open: this.state.open })}>
-              <Menu height="3rem" />
-            </Span>
+          <ButtonNoStyle
+            onClick={this.toggleMenu}
+            className={cx('menu-toggle', { open: this.state.open })}
+          >
+            <Menu height="3rem" />
           </ButtonNoStyle>
         </TopIcons>}
       </TopBar>
