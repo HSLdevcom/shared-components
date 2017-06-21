@@ -10,6 +10,31 @@ import { MenuMobile, MenuSmall } from '../Menu';
 const Header = styled.header`
   ${NavMobile} {
     display: none;
+    &.scroll {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      &.scroll-enter {
+        top: -80px; // mobile nav height is 64px on all font sizes
+      }
+
+      &.scroll-enter.scroll-enter-active {
+        top: 0rem;
+        transition: top .35s ease-in;
+      }
+
+      &.scroll-leave {
+        top: 0rem;
+      }
+
+      &.scroll-leave.scroll-leave-active {
+        top: -80px;
+        transition: top .20s ease-in;
+      }
+
+    }
   }
   ${NavDesktop} {
     &.scroll {
@@ -64,21 +89,39 @@ class Nav extends React.PureComponent {
   }
 
   onScroll(evt) {
+    this.onScrollDesktop(evt);
+    this.onScrollMobile(evt);
+    // Save current scroll value
+    this.lastScrollValue = evt.target.body.scrollTop;
+  }
+
+  onScrollDesktop(evt) {
     // Visible when scrolling up and we have scrolled past
     // 3 * nav height
     const navHeight = (this.desktopNav &&
-                      this.desktopNav.firstChild &&
-                      this.desktopNav.firstChild.offsetHeight) || 0;
+                      this.desktopNav.offsetHeight) || 0;
     const scrolledPastBuffer = (navHeight * 3) < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
-    // Save current scroll value
-    this.lastScrollValue = evt.target.body.scrollTop;
+    // Call setState only if state will change
+    if ((scrolledPastBuffer && scrollingUp) !== this.state.desktopScrollNav) {
+      this.setState({ desktopScrollNav: (scrolledPastBuffer && scrollingUp) });
+    }
+  }
+
+  onScrollMobile(evt) {
+    // Visible when scrolling up and we have scrolled past
+    // 5 * nav height
+    const navHeight = (this.mobileNav &&
+                      this.mobileNav.offsetHeight) || 0;
+    const scrolledPastBuffer = (navHeight * 5) < evt.target.body.scrollTop;
+
+    const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
     // Call setState only if state will change
-    if ((scrolledPastBuffer && scrollingUp) !== this.state.scrollNavVisible) {
-      this.setState({ scrollNavVisible: (scrolledPastBuffer && scrollingUp) });
+    if ((scrolledPastBuffer && scrollingUp) !== this.state.mobileScrollNav) {
+      this.setState({ mobileScrollNav: (scrolledPastBuffer && scrollingUp) });
     }
   }
 
@@ -141,6 +184,33 @@ class Nav extends React.PureComponent {
             )
           }
         </NavMobile>
+        <CSSTransitionGroup
+          transitionName="scroll"
+          transitionEnterTimeout={350}
+          transitionLeaveTimeout={350}
+        >
+          { this.state.mobileScrollNav && <NavMobile
+            className="scroll"
+            logo={this.props.logo}
+            menu={this.props.menu &&
+              <MenuMobile {...this.props.menu.props}>
+                {React.Children.map(
+                  this.props.menu.props.children,
+                  child => React.cloneElement(child, { textPosition: 'Bottom' })
+                  )
+                }
+              </MenuMobile>
+            }
+          >
+            {React.Children.map(
+              this.props.children,
+              child => React.cloneElement(child, { textPosition: 'Right' })
+              )
+            }
+          </NavMobile>}
+        </CSSTransitionGroup>
+
+
         {/* eslint-enable no-return-assign */}
       </Header>
     );
