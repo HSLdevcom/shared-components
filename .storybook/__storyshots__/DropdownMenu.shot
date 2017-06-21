@@ -4,7 +4,7 @@ exports[`default`] = `
     This is always visible
   </p>
   <div
-    className="sc-caSCKo jjNSwx sc-fAjcbJ jyJpmu">
+    className="sc-gisBJw kDlVKO sc-caSCKo fIlKIF">
     <div
       className="sc-bdVaJa bDWFJH">
       <div>
@@ -151,7 +151,7 @@ exports[`default`] = `
       </div>
     </div>
     <div
-      className="sc-eqIVtm kRufpp sc-dVhcbM flbBJs"
+      className="sc-fAjcbJ byigni sc-eqIVtm bovQEt"
       height={0} />
   </div>
   <p>

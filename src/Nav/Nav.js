@@ -2,38 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
+import cx from 'classnames';
 
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
+import Div from '../Div';
 
 const Header = styled.header`
   ${NavMobile} {
     display: none;
-    &.scroll {
-      position: fixed;
+    transition: top .20s ease-in;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -80px;
+    &.visible {
       top: 0;
-      left: 0;
-      right: 0;
-
-      &.scroll-enter {
-        top: -80px; // mobile nav height is 64px on all font sizes
-      }
-
-      &.scroll-enter.scroll-enter-active {
-        top: 0rem;
-        transition: top .35s ease-in;
-      }
-
-      &.scroll-leave {
-        top: 0rem;
-      }
-
-      &.scroll-leave.scroll-leave-active {
-        top: -80px;
-        transition: top .20s ease-in;
-      }
-
     }
   }
   ${NavDesktop} {
@@ -72,10 +57,14 @@ const Header = styled.header`
   )}
 `;
 
+const StyledDiv = Div.extend`
+  height: 80px;
+`;
+
 class Nav extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { desktopScrollNav: false };
+    this.state = { desktopScrollNav: false, mobileNavVisible: true };
     this.lastScrollValue = 0;
     // https://gist.github.com/Restuta/e400a555ba24daa396cc
     this.onScroll = this.onScroll.bind(this);
@@ -111,17 +100,11 @@ class Nav extends React.PureComponent {
   }
 
   onScrollMobile(evt) {
-    // Visible when scrolling up and we have scrolled past
-    // 5 * nav height
-    const navHeight = (this.mobileNav &&
-                      this.mobileNav.offsetHeight) || 0;
-    const scrolledPastBuffer = (navHeight * 5) < evt.target.body.scrollTop;
-
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
     // Call setState only if state will change
-    if ((scrolledPastBuffer && scrollingUp) !== this.state.mobileScrollNav) {
-      this.setState({ mobileScrollNav: (scrolledPastBuffer && scrollingUp) });
+    if ((scrollingUp) !== this.state.mobileScrollNav) {
+      this.setState({ mobileNavVisible: (scrollingUp) });
     }
   }
 
@@ -164,8 +147,9 @@ class Nav extends React.PureComponent {
         >
           {this.props.children}
         </NavDesktop>
-
+        <StyledDiv />
         <NavMobile
+          className={cx({ visible: this.state.mobileNavVisible })}
           logo={this.props.logo}
           navRef={x => this.mobileNav = x}
           menu={this.props.menu &&
@@ -184,33 +168,6 @@ class Nav extends React.PureComponent {
             )
           }
         </NavMobile>
-        <CSSTransitionGroup
-          transitionName="scroll"
-          transitionEnterTimeout={350}
-          transitionLeaveTimeout={350}
-        >
-          { this.state.mobileScrollNav && <NavMobile
-            className="scroll"
-            logo={this.props.logo}
-            menu={this.props.menu &&
-              <MenuMobile {...this.props.menu.props}>
-                {React.Children.map(
-                  this.props.menu.props.children,
-                  child => React.cloneElement(child, { textPosition: 'Bottom' })
-                  )
-                }
-              </MenuMobile>
-            }
-          >
-            {React.Children.map(
-              this.props.children,
-              child => React.cloneElement(child, { textPosition: 'Right' })
-              )
-            }
-          </NavMobile>}
-        </CSSTransitionGroup>
-
-
         {/* eslint-enable no-return-assign */}
       </Header>
     );

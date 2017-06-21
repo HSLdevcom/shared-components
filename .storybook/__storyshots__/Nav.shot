@@ -1,8 +1,8 @@
 exports[`default`] = `
 <div
-  className="sc-cJSrbW bbCpmb">
+  className="sc-ksYbfQ WAwEL">
   <header
-    className="sc-jlyJG bbyJzT sc-iRbamj QRmPr">
+    className="sc-gipzik iyhjGb sc-iRbamj jmeFHw">
     <span />
     <nav
       className="sc-gqjmRU hnZXkc sc-gZMcBi efcfhK">
@@ -24,7 +24,7 @@ exports[`default`] = `
         </svg>
       </span>
       <div
-        className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+        className="child sc-Rmtcm gwGgYM sc-csuQGl ifoTIC">
         <a
           className="link"
           onClick={[Function]}
@@ -63,7 +63,7 @@ exports[`default`] = `
         </a>
       </div>
       <div
-        className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+        className="child sc-Rmtcm gwGgYM sc-csuQGl ifoTIC">
         <a
           className="link"
           onClick={[Function]}
@@ -96,7 +96,7 @@ exports[`default`] = `
         </a>
       </div>
       <div
-        className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+        className="child sc-Rmtcm gwGgYM sc-csuQGl ifoTIC">
         <a
           className="link"
           onClick={[Function]}
@@ -132,7 +132,7 @@ exports[`default`] = `
         </a>
       </div>
       <div
-        className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+        className="child sc-Rmtcm gwGgYM sc-csuQGl ifoTIC">
         <a
           className="link"
           onClick={[Function]}
@@ -176,7 +176,7 @@ exports[`default`] = `
         </a>
       </div>
       <div
-        className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+        className="child sc-Rmtcm gwGgYM sc-csuQGl ifoTIC">
         <a
           className="link"
           onClick={[Function]}
@@ -442,8 +442,10 @@ exports[`default`] = `
         </div>
       </div>
     </nav>
+    <div
+      className="sc-jlyJG cvglxl" />
     <nav
-      className="sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
+      className="visible sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
       <div
         className="sc-jAaTju kTbVcg">
         <span
@@ -572,7 +574,6 @@ exports[`default`] = `
       </div>
       <span />
     </nav>
-    <span />
   </header>
 </div>
 `;
@@ -712,9 +713,9 @@ exports[`mobile`] = `
 
 exports[`nav item`] = `
 <div
-  className="sc-frDJqD cpJEDq">
+  className="sc-kvZOFW kjqemz">
   <div
-    className="sc-hmzhuo hZKtmC sc-gipzik ewNSAg">
+    className="sc-frDJqD ccVSqb sc-csuQGl ifoTIC">
     <a
       className="link"
       onClick={[Function]}
@@ -776,7 +777,7 @@ exports[`only title`] = `
     </svg>
   </span>
   <span
-    className="child sc-ksYbfQ gMniFx">
+    className="child sc-hmzhuo dExapt">
     Lataa kautta
   </span>
 </nav>
@@ -803,7 +804,7 @@ exports[`scroll`] = `
     </svg>
   </span>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-Rmtcm gwGgYM sc-csuQGl fZebrG">
     <a
       className="link"
       onClick={[Function]}
@@ -842,7 +843,7 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-Rmtcm gwGgYM sc-csuQGl fZebrG">
     <a
       className="link"
       onClick={[Function]}
@@ -875,7 +876,7 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-Rmtcm gwGgYM sc-csuQGl fZebrG">
     <a
       className="link"
       onClick={[Function]}
@@ -911,7 +912,7 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-Rmtcm gwGgYM sc-csuQGl fZebrG">
     <a
       className="link"
       onClick={[Function]}
@@ -955,7 +956,7 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-Rmtcm gwGgYM sc-csuQGl fZebrG">
     <a
       className="link"
       onClick={[Function]}
