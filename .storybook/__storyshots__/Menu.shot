@@ -221,9 +221,9 @@ exports[`default`] = `
 
 exports[`menu item`] = `
 <div
-  className="sc-fMiknA eOoESG">
+  className="sc-kgAjT bdgZSe">
   <div
-    className="sc-fBuWsC bilBDO sc-kGXeez bYukpu">
+    className="sc-TOsTZ jCxIyr sc-kGXeez bYukpu">
     <a
       className="link"
       onClick={[Function]}
@@ -387,7 +387,7 @@ exports[`minimal`] = `
 
 exports[`mobile`] = `
 <div
-  className="sc-jhAzac kIweCx sc-jWBwVP fvdRvR">
+  className="sc-cHGsZl cVkFQp sc-jWBwVP fvdRvR">
   <div
     className="sc-cvbbAY JgXTe" />
   <div
@@ -438,7 +438,7 @@ exports[`mobile`] = `
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP">
+          className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
           <div
             className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
             <span
