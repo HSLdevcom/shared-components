@@ -64,10 +64,12 @@ class Nav extends React.PureComponent {
   }
 
   onScroll(evt) {
-    // Visible when scrolling up and we have scrolled past the regular nav
-    const scrolledPastNav = this.desktopNav &&
-                            this.desktopNav.firstChild &&
-                            this.desktopNav.firstChild.offsetHeight < evt.target.body.scrollTop;
+    // Visible when scrolling up and we have scrolled past
+    // 3 * nav height
+    const navHeight = (this.desktopNav &&
+                      this.desktopNav.firstChild &&
+                      this.desktopNav.firstChild.offsetHeight) || 0;
+    const scrolledPastBuffer = (navHeight * 3) < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
@@ -75,8 +77,8 @@ class Nav extends React.PureComponent {
     this.lastScrollValue = evt.target.body.scrollTop;
 
     // Call setState only if state will change
-    if ((scrolledPastNav && scrollingUp) !== this.state.desktopScrollNav) {
-      this.setState({ desktopScrollNav: (scrolledPastNav && scrollingUp) });
+    if ((scrolledPastBuffer && scrollingUp) !== this.state.scrollNavVisible) {
+      this.setState({ scrollNavVisible: (scrolledPastBuffer && scrollingUp) });
     }
   }
 
