@@ -17,6 +17,7 @@ import List, { ListItem } from './List';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
 import { Flex, Activatable } from './Wrapper';
+import DropdownMenu from './DropdownMenu';
 
 export {
   AppHeader,
@@ -43,6 +44,7 @@ export {
   MenuItem,
   Flex,
   Activatable,
+  DropdownMenu,
   List,
   ListItem
 };
