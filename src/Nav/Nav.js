@@ -6,7 +6,6 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
-import Span from '../Span/Span';
 
 const Header = styled.header`
   ${NavMobile} {
@@ -51,7 +50,7 @@ const Header = styled.header`
 class Nav extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { scrollNavVisible: false };
+    this.state = { desktopScrollNav: false };
     this.lastScrollValue = 0;
     // https://gist.github.com/Restuta/e400a555ba24daa396cc
     this.onScroll = this.onScroll.bind(this);
@@ -66,9 +65,9 @@ class Nav extends React.PureComponent {
 
   onScroll(evt) {
     // Visible when scrolling up and we have scrolled past the regular nav
-    const scrolledPastNav = this.nav &&
-                            this.nav.firstChild &&
-                            this.nav.firstChild.offsetHeight < evt.target.body.scrollTop;
+    const scrolledPastNav = this.desktopNav &&
+                            this.desktopNav.firstChild &&
+                            this.desktopNav.firstChild.offsetHeight < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
@@ -76,8 +75,8 @@ class Nav extends React.PureComponent {
     this.lastScrollValue = evt.target.body.scrollTop;
 
     // Call setState only if state will change
-    if ((scrolledPastNav && scrollingUp) !== this.state.scrollNavVisible) {
-      this.setState({ scrollNavVisible: (scrolledPastNav && scrollingUp) });
+    if ((scrolledPastNav && scrollingUp) !== this.state.desktopScrollNav) {
+      this.setState({ desktopScrollNav: (scrolledPastNav && scrollingUp) });
     }
   }
 
@@ -89,7 +88,7 @@ class Nav extends React.PureComponent {
           transitionEnterTimeout={350}
           transitionLeaveTimeout={350}
         >
-          { this.props.menu && this.state.scrollNavVisible && <NavDesktop
+          { this.props.menu && this.state.desktopScrollNav && <NavDesktop
             className="scroll"
             scroll
             logo={this.props.logo}
@@ -113,17 +112,17 @@ class Nav extends React.PureComponent {
         }
         </CSSTransitionGroup>
         {/* eslint-disable no-return-assign */}
-        <Span innerRef={x => this.nav = x}>
-          {/* eslint-enable no-return-assign */}
-          <NavDesktop
-            logo={this.props.logo}
-            menu={this.props.menu}
-          >
-            {this.props.children}
-          </NavDesktop>
-        </Span>
+        <NavDesktop
+          navRef={x => this.desktopNav = x}
+          logo={this.props.logo}
+          menu={this.props.menu}
+        >
+          {this.props.children}
+        </NavDesktop>
+
         <NavMobile
           logo={this.props.logo}
+          navRef={x => this.mobileNav = x}
           menu={this.props.menu &&
             <MenuMobile {...this.props.menu.props}>
               {React.Children.map(
@@ -140,6 +139,7 @@ class Nav extends React.PureComponent {
             )
           }
         </NavMobile>
+        {/* eslint-enable no-return-assign */}
       </Header>
     );
   }
