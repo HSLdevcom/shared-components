@@ -11,8 +11,6 @@ import MenuItem from './MenuItem';
 
 
 const StyledFlex = Flex.extend`
-  align-items: center;
-  justify-content: stretch;
   align-self: stretch;
   .icon {
     line-height: 0;
