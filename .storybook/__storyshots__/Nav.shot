@@ -266,7 +266,7 @@ exports[`default`] = `
                 </button>
               </div>
               <div
-                className="small sc-kEYyzF gfWKdx sc-eNQAEJ hZJLLw">
+                className="small sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe">
                 <button
                   className="selected-language sc-dxgOiQ dpMvJx"
                   onClick={[Function]}>
@@ -1056,7 +1056,7 @@ exports[`scroll`] = `
       </svg>
     </div>
     <div
-      className="sc-kEYyzF gfWKdx sc-eNQAEJ hZJLLw">
+      className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe">
       <button
         className="selected-language sc-dxgOiQ dpMvJx"
         onClick={[Function]}>

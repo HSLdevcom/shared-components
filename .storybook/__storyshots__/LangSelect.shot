@@ -21,7 +21,7 @@ exports[`default`] = `
 
 exports[`small`] = `
 <div
-  className="sc-kEYyzF gfWKdx sc-eNQAEJ hZJLLw">
+  className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe">
   <button
     className="selected-language sc-dxgOiQ dpMvJx"
     onClick={[Function]}>
