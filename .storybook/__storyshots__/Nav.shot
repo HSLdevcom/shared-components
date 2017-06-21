@@ -1,13 +1,13 @@
 exports[`default`] = `
 <div
-  className="sc-dVhcbM bWelJJ">
+  className="sc-kjoXOD eCFHkm">
   <header
-    className="sc-jlyJG bbyJzT sc-iRbamj bxkFKU">
+    className="sc-jlyJG bbyJzT sc-iRbamj eBrmVQ">
     <span />
     <span
       className="sc-EHOje jvzENE">
       <nav
-        className="sc-brqgnP SqPLV sc-jWBwVP frxGGP">
+        className="sc-jKJlTe loXQau sc-ckVGcZ kCplMR">
         <span
           className="logo sc-EHOje jvzENE">
           <svg
@@ -226,7 +226,7 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="menu sc-hMqMXs cPxEnv sc-eNQAEJ hmjZoN">
+          className="menu sc-kkGfuU gqJIVH sc-kEYyzF cBoXVD">
           <div
             className="top sc-iwsKbI hAZHJM">
             <svg
@@ -289,11 +289,11 @@ exports[`default`] = `
             </span>
           </div>
           <div
-            className="sc-ckVGcZ idUqfZ" />
+            className="sc-kpOJdX jazaBP" />
           <div
             className="bottom large sc-iwsKbI hAZHJM">
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
+              className="child sc-hMqMXs cPxEnv sc-eNQAEJ aFBhS">
               <a
                 className="link"
                 onClick={[Function]}
@@ -326,7 +326,7 @@ exports[`default`] = `
               </a>
             </div>
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf kSLhIv">
+              className="child sc-hMqMXs cPxEnv sc-eNQAEJ aFBhS">
               <a
                 className="link"
                 onClick={[Function]}
@@ -367,7 +367,7 @@ exports[`default`] = `
           <div
             className="bottom small sc-iwsKbI hAZHJM">
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+              className="child sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
               <a
                 className="link"
                 onClick={[Function]}
@@ -402,7 +402,7 @@ exports[`default`] = `
               </a>
             </div>
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+              className="child sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
               <a
                 className="link"
                 onClick={[Function]}
@@ -467,9 +467,9 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="sc-jDwBTQ bwyOLF">
+          className="sc-jDwBTQ eTRmuJ">
           <div
-            className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+            className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
             <a
               className="link"
               onClick={[Function]}
@@ -504,7 +504,7 @@ exports[`default`] = `
             </a>
           </div>
           <div
-            className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+            className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
             <a
               className="link"
               onClick={[Function]}
@@ -602,9 +602,9 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jDwBTQ bwyOLF">
+      className="sc-jDwBTQ eTRmuJ">
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+        className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
         <a
           className="link"
           onClick={[Function]}
@@ -639,7 +639,7 @@ exports[`mobile`] = `
         </a>
       </div>
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+        className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
         <a
           className="link"
           onClick={[Function]}
@@ -714,9 +714,9 @@ exports[`mobile`] = `
 
 exports[`nav item`] = `
 <div
-  className="sc-caSCKo hWSVek">
+  className="sc-kgAjT bdgZSe">
   <div
-    className="sc-fAjcbJ iyMrWJ sc-gipzik llbGUX">
+    className="sc-TOsTZ jCxIyr sc-gipzik llbGUX">
     <a
       className="link"
       onClick={[Function]}
@@ -759,7 +759,7 @@ exports[`nav item`] = `
 
 exports[`only title`] = `
 <nav
-  className="sc-brqgnP SqPLV sc-jWBwVP fNgPis">
+  className="sc-jKJlTe loXQau sc-ckVGcZ kWwNUl">
   <span
     className="logo sc-EHOje jvzENE">
     <svg
@@ -778,7 +778,7 @@ exports[`only title`] = `
     </svg>
   </span>
   <span
-    className="child sc-eqIVtm cZVxIO">
+    className="child sc-cHGsZl bJfcg">
     Lataa kautta
   </span>
 </nav>
@@ -786,7 +786,7 @@ exports[`only title`] = `
 
 exports[`scroll`] = `
 <nav
-  className="sc-brqgnP SqPLV sc-jWBwVP fNgPis">
+  className="sc-jKJlTe loXQau sc-ckVGcZ kWwNUl">
   <span
     className="logo sc-EHOje jvzENE">
     <svg
@@ -1005,9 +1005,9 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="menu sc-kkGfuU gqJIVH sc-kEYyzF hmvgur">
+    className="menu sc-hSdWYo bIQQAp sc-iAyFgw jXyJav">
     <div
-      className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+      className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
       <a
         className="link"
         onClick={[Function]}
@@ -1042,7 +1042,7 @@ exports[`scroll`] = `
       </a>
     </div>
     <div
-      className="sc-kGXeez eIIwaK sc-kgoBCf bnEcVZ">
+      className="sc-hMqMXs cPxEnv sc-eNQAEJ hlGxrK">
       <a
         className="link"
         onClick={[Function]}
