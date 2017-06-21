@@ -1,0 +1,48 @@
+exports[`default`] = `
+<div
+  className="sc-fMiknA bxZCMx sc-fBuWsC eXOfAj">
+  <h3
+    className="sc-jhAzac hmXDXQ">
+    Header
+  </h3>
+  <ul
+    className="sc-hzDkRC kpsoyz">
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      short text
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      short text
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-dVhcbM kzozOZ">
+      looong teexttt ttttttttttttttttt
+    </li>
+  </ul>
+</div>
+`;
