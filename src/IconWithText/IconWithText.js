@@ -41,7 +41,10 @@ IconWithText.defaultProps = {
 
 IconWithText.propTypes = {
   icon: PropTypes.node.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node
+  ]).isRequired,
   textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   className: PropTypes.string
 };
