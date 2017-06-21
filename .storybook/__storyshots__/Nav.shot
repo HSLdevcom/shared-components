@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-gisBJw dlAAar">
+  className="sc-cJSrbW bbCpmb">
   <header
     className="sc-jlyJG bbyJzT sc-iRbamj hxdLhw">
     <span />
@@ -714,9 +714,9 @@ exports[`mobile`] = `
 
 exports[`nav item`] = `
 <div
-  className="sc-TOsTZ hwPfFF">
+  className="sc-frDJqD cpJEDq">
   <div
-    className="sc-cHGsZl cVkFQp sc-gipzik ewNSAg">
+    className="sc-hmzhuo hZKtmC sc-gipzik ewNSAg">
     <a
       className="link"
       onClick={[Function]}
@@ -778,7 +778,7 @@ exports[`only title`] = `
     </svg>
   </span>
   <span
-    className="child sc-kjoXOD jlZKDC">
+    className="child sc-ksYbfQ gMniFx">
     Lataa kautta
   </span>
 </nav>

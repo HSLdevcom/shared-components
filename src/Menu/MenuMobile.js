@@ -72,7 +72,8 @@ const MenuMobile = ({
           {
             className: cx(child.props.className, 'child'),
             small: false,
-            textPosition: 'Bottom'
+            textPosition: 'Bottom',
+            active: false
           })
         ))}
     </Flex>
