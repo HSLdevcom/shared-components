@@ -8,7 +8,7 @@ const hslTheme = {
   primary: primaryBlue,
   primaryText: primaryWhite,
   primaryHover: '#0565a3',
-  listItemMarker: '#62bae7',
+  listItemMarker: '#7abae3',
   secondary: '#bdbbbb',
   secondaryHover: '#f9f9f9',
   background: primaryBlue,
