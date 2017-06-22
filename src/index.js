@@ -13,6 +13,7 @@ import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span';
 import Div from './Div';
+import A from './Anchor';
 import List, { ListItem } from './List';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
@@ -35,6 +36,7 @@ export {
   IconWithText,
   Span,
   Div,
+  A,
   LangSelect,
   LangSelectSmall,
   LangButton,
