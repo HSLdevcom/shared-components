@@ -2,14 +2,14 @@ exports[`default`] = `
 <div
   className="sc-ksYbfQ WAwEL">
   <header
-    className="sc-jlyJG bbyJzT sc-iRbamj gABqvw">
+    className="sc-gipzik iyhjGb sc-jlyJG cGXqhV">
     <span />
     <span
-      className="sc-iwsKbI jQhHGA">
+      className="sc-dnqmqq bDsesi">
       <nav
-        className="sc-gqjmRU hnZXkc sc-gZMcBi efcfhK">
+        className="sc-kgoBCf kVSTZj sc-chPdSV dyOvcH">
         <span
-          className="logo sc-iwsKbI jQhHGA">
+          className="logo sc-dnqmqq bDsesi">
           <svg
             fill={undefined}
             height="3.75rem"
@@ -26,18 +26,18 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+          className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
           <a
             className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+              className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP">
               <div
-                className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                 <span
                   aria-hidden="true"
-                  className="icon sc-cSHVUG kugfyt">
+                  className="icon sc-jTzLTM iEjgub">
                   <svg
                     fill={undefined}
                     height="2.5rem"
@@ -57,7 +57,7 @@ exports[`default`] = `
                   </svg>
                 </span>
                 <span
-                  className="text sc-iwsKbI jQhHGA">
+                  className="text sc-dnqmqq bDsesi">
                   Reittiopas
                 </span>
               </div>
@@ -65,18 +65,18 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+          className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
           <a
             className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+              className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
               <div
-                className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                 <span
                   aria-hidden="true"
-                  className="icon sc-cSHVUG kugfyt">
+                  className="icon sc-jTzLTM iEjgub">
                   <svg
                     fill={undefined}
                     height="2.5rem"
@@ -90,7 +90,7 @@ exports[`default`] = `
                   </svg>
                 </span>
                 <span
-                  className="text sc-iwsKbI jQhHGA">
+                  className="text sc-dnqmqq bDsesi">
                   Liput ja hinnat
                 </span>
               </div>
@@ -98,18 +98,18 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+          className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
           <a
             className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+              className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
               <div
-                className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                 <span
                   aria-hidden="true"
-                  className="icon sc-cSHVUG kugfyt">
+                  className="icon sc-jTzLTM iEjgub">
                   <svg
                     fill={undefined}
                     height="2.5rem"
@@ -126,7 +126,7 @@ exports[`default`] = `
                   </svg>
                 </span>
                 <span
-                  className="text sc-iwsKbI jQhHGA">
+                  className="text sc-dnqmqq bDsesi">
                   Asiakaspalvelu
                 </span>
               </div>
@@ -134,24 +134,24 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+          className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
           <a
             className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+              className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
               <div
-                className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                 <span
                   aria-hidden="true"
-                  className="icon sc-cSHVUG kugfyt">
+                  className="icon sc-jTzLTM iEjgub">
                   <svg
                     fill={undefined}
                     height="2.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"
-                    viewBox="0 0 32 32"
+                    viewBox="-4 -4 40 40"
                     width="2.5rem">
                     <g
                       id="icon---uutta">
@@ -170,7 +170,7 @@ exports[`default`] = `
                   </svg>
                 </span>
                 <span
-                  className="text sc-iwsKbI jQhHGA">
+                  className="text sc-dnqmqq bDsesi">
                   Uutta
                 </span>
               </div>
@@ -178,24 +178,24 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="child sc-csuQGl CQhxV sc-gipzik ewNSAg">
+          className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
           <a
             className="link"
             onClick={[Function]}
             style={Object {}}>
             <div
-              className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+              className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
               <div
-                className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                 <span
                   aria-hidden="true"
-                  className="icon sc-cSHVUG kugfyt">
+                  className="icon sc-jTzLTM iEjgub">
                   <svg
                     fill={undefined}
                     height="2.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"
-                    viewBox="0 0 38 10"
+                    viewBox="-5 0 48 10"
                     width="2.5rem">
                     <g
                       id="Group">
@@ -218,7 +218,7 @@ exports[`default`] = `
                   </svg>
                 </span>
                 <span
-                  className="text sc-iwsKbI jQhHGA">
+                  className="text sc-dnqmqq bDsesi">
                   Lisää
                 </span>
               </div>
@@ -226,15 +226,15 @@ exports[`default`] = `
           </a>
         </div>
         <div
-          className="menu sc-kkGfuU gqJIVH sc-kEYyzF cBoXVD">
+          className="menu sc-iAyFgw gPlgsX sc-kkGfuU dhjveP">
           <div
-            className="top sc-VigVT kebjCN">
+            className="top sc-iwsKbI hAZHJM">
             <svg
-              height="2rem"
+              height="1.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
               viewBox="0 0 25 25"
-              width="2rem">
+              width="1.5rem">
               <g
                 fill={undefined}>
                 <path
@@ -246,29 +246,29 @@ exports[`default`] = `
               </g>
             </svg>
             <span
-              className="lang-select sc-iwsKbI jQhHGA">
+              className="lang-select sc-dnqmqq bDsesi">
               <div
-                className="large sc-ckVGcZ foYhJp sc-dxgOiQ fgjKYx">
+                className="large sc-jKJlTe loXQau sc-ckVGcZ iKjsUW">
                 <button
-                  className="sc-kpOJdX cdLeag"
+                  className="sc-dxgOiQ dpMvJx"
                   onClick={[Function]}>
                   FI
                 </button>
                 <button
-                  className="sc-kpOJdX cdLeag"
+                  className="sc-dxgOiQ dpMvJx"
                   onClick={[Function]}>
                   SV
                 </button>
                 <button
-                  className="sc-kpOJdX cdLeag"
+                  className="sc-dxgOiQ dpMvJx"
                   onClick={[Function]}>
                   EN
                 </button>
               </div>
               <div
-                className="small sc-hMqMXs cPxEnv sc-jKJlTe eDYkPA">
+                className="small sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe">
                 <button
-                  className="selected-language sc-kpOJdX cdLeag"
+                  className="selected-language sc-dxgOiQ dpMvJx"
                   onClick={[Function]}>
                   FI
                   <svg
@@ -289,22 +289,22 @@ exports[`default`] = `
             </span>
           </div>
           <div
-            className="sc-htoDjs glrzjV" />
+            className="sc-gzVnrw irrFml" />
           <div
-            className="bottom large sc-VigVT kebjCN">
+            className="bottom large sc-iwsKbI hAZHJM">
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf eQStEx">
+              className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu">
               <a
                 className="link"
                 onClick={[Function]}
                 style={Object {}}>
                 <div
-                  className="sc-jzJRlG istBgv sc-jTzLTM ifSnQg">
+                  className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP">
                   <div
-                    className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+                    className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
                     <span
                       aria-hidden="true"
-                      className="icon sc-cSHVUG dXYpzU">
+                      className="icon sc-jTzLTM bpnSj">
                       <svg
                         fill={undefined}
                         height="3.5rem"
@@ -318,7 +318,7 @@ exports[`default`] = `
                       </svg>
                     </span>
                     <span
-                      className="text sc-iwsKbI jQhHGA">
+                      className="text sc-dnqmqq bDsesi">
                       Matkakortti
                     </span>
                   </div>
@@ -326,18 +326,18 @@ exports[`default`] = `
               </a>
             </div>
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf eQStEx">
+              className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu">
               <a
                 className="link"
                 onClick={[Function]}
                 style={Object {}}>
                 <div
-                  className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+                  className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
                   <div
-                    className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+                    className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
                     <span
                       aria-hidden="true"
-                      className="icon sc-cSHVUG dXYpzU">
+                      className="icon sc-jTzLTM bpnSj">
                       <svg
                         height="3.5rem"
                         preserveAspectRatio="xMidYMid meet"
@@ -356,7 +356,7 @@ exports[`default`] = `
                       </svg>
                     </span>
                     <span
-                      className="text sc-iwsKbI jQhHGA">
+                      className="text sc-dnqmqq bDsesi">
                       Kirjaudu
                     </span>
                   </div>
@@ -365,20 +365,20 @@ exports[`default`] = `
             </div>
           </div>
           <div
-            className="bottom small sc-VigVT kebjCN">
+            className="bottom small sc-iwsKbI hAZHJM">
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+              className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
               <a
                 className="link"
                 onClick={[Function]}
                 style={Object {}}>
                 <div
-                  className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+                  className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
                   <div
-                    className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+                    className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                     <span
                       aria-hidden="true"
-                      className="icon sc-cSHVUG dXYpzU">
+                      className="icon sc-jTzLTM iEjgub">
                       <svg
                         fill={undefined}
                         height="3.5rem"
@@ -392,28 +392,28 @@ exports[`default`] = `
                       </svg>
                     </span>
                     <span
-                      className="text sc-iwsKbI jQhHGA">
+                      className="text sc-dnqmqq bDsesi">
                       Matkakortti
                     </span>
                   </div>
                   <div
-                    className="sc-fjdhpX lnOsFp" />
+                    className="sc-gqjmRU jWXuAz" />
                 </div>
               </a>
             </div>
             <div
-              className="child sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+              className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
               <a
                 className="link"
                 onClick={[Function]}
                 style={Object {}}>
                 <div
-                  className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+                  className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
                   <div
-                    className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+                    className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                     <span
                       aria-hidden="true"
-                      className="icon sc-cSHVUG dXYpzU">
+                      className="icon sc-jTzLTM iEjgub">
                       <svg
                         height="3.5rem"
                         preserveAspectRatio="xMidYMid meet"
@@ -432,12 +432,12 @@ exports[`default`] = `
                       </svg>
                     </span>
                     <span
-                      className="text sc-iwsKbI jQhHGA">
+                      className="text sc-dnqmqq bDsesi">
                       Kirjaudu
                     </span>
                   </div>
                   <div
-                    className="sc-fjdhpX fgZgIR" />
+                    className="sc-gqjmRU hgTulP" />
                 </div>
               </a>
             </div>
@@ -446,11 +446,11 @@ exports[`default`] = `
       </nav>
     </span>
     <nav
-      className="sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
+      className="sc-iRbamj blSEcj sc-jAaTju haxQaG">
       <div
-        className="sc-jAaTju kTbVcg">
+        className="sc-jDwBTQ kDZOga">
         <span
-          className="logo sc-iwsKbI jQhHGA">
+          className="logo sc-dnqmqq bDsesi">
           <svg
             fill={undefined}
             height="3.75rem"
@@ -467,20 +467,20 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="sc-jDwBTQ bwyOLF">
+          className="sc-gPEVay joDSDO">
           <div
-            className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+            className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
             <a
               className="link"
               onClick={[Function]}
               style={Object {}}>
               <div
-                className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+                className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
                 <div
-                  className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                  className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                   <span
                     aria-hidden="true"
-                    className="icon sc-cSHVUG kugfyt">
+                    className="icon sc-jTzLTM iEjgub">
                     <svg
                       fill={undefined}
                       height="3.5rem"
@@ -494,28 +494,28 @@ exports[`default`] = `
                     </svg>
                   </span>
                   <span
-                    className="text sc-iwsKbI jQhHGA">
+                    className="text sc-dnqmqq bDsesi">
                     Matkakortti
                   </span>
                 </div>
                 <div
-                  className="sc-fjdhpX lnOsFp" />
+                  className="sc-gqjmRU jWXuAz" />
               </div>
             </a>
           </div>
           <div
-            className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+            className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
             <a
               className="link"
               onClick={[Function]}
               style={Object {}}>
               <div
-                className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+                className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
                 <div
-                  className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+                  className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
                   <span
                     aria-hidden="true"
-                    className="icon sc-cSHVUG kugfyt">
+                    className="icon sc-jTzLTM iEjgub">
                     <svg
                       height="3.5rem"
                       preserveAspectRatio="xMidYMid meet"
@@ -534,42 +534,39 @@ exports[`default`] = `
                     </svg>
                   </span>
                   <span
-                    className="text sc-iwsKbI jQhHGA">
+                    className="text sc-dnqmqq bDsesi">
                     Kirjaudu
                   </span>
                 </div>
                 <div
-                  className="sc-fjdhpX fgZgIR" />
+                  className="sc-gqjmRU hgTulP" />
               </div>
             </a>
           </div>
           <button
-            className="sc-bxivhb dcGquP"
+            className="menu-toggle sc-bxivhb gRAuFd"
             onClick={[Function]}>
-            <span
-              className="menu-toggle sc-iwsKbI jQhHGA">
-              <svg
-                fill={undefined}
-                height="3rem"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 40 24"
-                width={undefined}>
-                <g>
-                  <path
-                    d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
-                    id="menu-top" />
-                  <path
-                    d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
-                    id="menu-middle-1" />
-                  <path
-                    d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
-                    id="menu-middle-2" />
-                  <path
-                    d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
-                    id="menu-bot" />
-                </g>
-              </svg>
-            </span>
+            <svg
+              fill={undefined}
+              height="3rem"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 40 24"
+              width={undefined}>
+              <g>
+                <path
+                  d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
+                  id="menu-top" />
+                <path
+                  d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                  id="menu-middle-1" />
+                <path
+                  d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+                  id="menu-middle-2" />
+                <path
+                  d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
+                  id="menu-bot" />
+              </g>
+            </svg>
           </button>
         </div>
       </div>
@@ -581,11 +578,11 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-gPEVay eQYmiW sc-cMljjf bNwqqL">
+  className="sc-iRbamj blSEcj sc-jAaTju haxQaG">
   <div
-    className="sc-jAaTju kTbVcg">
+    className="sc-jDwBTQ kDZOga">
     <span
-      className="logo sc-iwsKbI jQhHGA">
+      className="logo sc-dnqmqq bDsesi">
       <svg
         fill={undefined}
         height="2rem"
@@ -602,20 +599,20 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-jDwBTQ bwyOLF">
+      className="sc-gPEVay joDSDO">
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+        className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
         <a
           className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
-              className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
               <span
                 aria-hidden="true"
-                className="icon sc-cSHVUG kugfyt">
+                className="icon sc-jTzLTM iEjgub">
                 <svg
                   fill={undefined}
                   height="3.5rem"
@@ -629,28 +626,28 @@ exports[`mobile`] = `
                 </svg>
               </span>
               <span
-                className="text sc-iwsKbI jQhHGA">
+                className="text sc-dnqmqq bDsesi">
                 Matkakortti
               </span>
             </div>
             <div
-              className="sc-fjdhpX fgZgIR" />
+              className="sc-gqjmRU hgTulP" />
           </div>
         </a>
       </div>
       <div
-        className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+        className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
         <a
           className="link"
           onClick={[Function]}
           style={Object {}}>
           <div
-            className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+            className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
             <div
-              className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
               <span
                 aria-hidden="true"
-                className="icon sc-cSHVUG kugfyt">
+                className="icon sc-jTzLTM iEjgub">
                 <svg
                   height="3.5rem"
                   preserveAspectRatio="xMidYMid meet"
@@ -669,42 +666,39 @@ exports[`mobile`] = `
                 </svg>
               </span>
               <span
-                className="text sc-iwsKbI jQhHGA">
+                className="text sc-dnqmqq bDsesi">
                 Kirjaudu
               </span>
             </div>
             <div
-              className="sc-fjdhpX fgZgIR" />
+              className="sc-gqjmRU hgTulP" />
           </div>
         </a>
       </div>
       <button
-        className="sc-bxivhb dcGquP"
+        className="menu-toggle sc-bxivhb gRAuFd"
         onClick={[Function]}>
-        <span
-          className="menu-toggle sc-iwsKbI jQhHGA">
-          <svg
-            fill={undefined}
-            height="3rem"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 40 24"
-            width={undefined}>
-            <g>
-              <path
-                d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
-                id="menu-top" />
-              <path
-                d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
-                id="menu-middle-1" />
-              <path
-                d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
-                id="menu-middle-2" />
-              <path
-                d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
-                id="menu-bot" />
-            </g>
-          </svg>
-        </span>
+        <svg
+          fill={undefined}
+          height="3rem"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 40 24"
+          width={undefined}>
+          <g>
+            <path
+              d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z"
+              id="menu-top" />
+            <path
+              d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+              id="menu-middle-1" />
+            <path
+              d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z"
+              id="menu-middle-2" />
+            <path
+              d="M2,20 L37.999,20 C39.104,20 40,20.895 40,22 C40,23.105 39.104,24 37.999,24 L2,24 C0.896,24 0,23.105 0,22 C0,20.895 0.896,20 2,20 Z"
+              id="menu-bot" />
+          </g>
+        </svg>
       </button>
     </div>
   </div>
@@ -716,18 +710,18 @@ exports[`nav item`] = `
 <div
   className="sc-kvZOFW kjqemz">
   <div
-    className="sc-frDJqD ccVSqb sc-gipzik ewNSAg">
+    className="sc-frDJqD ccVSqb sc-cSHVUG jCgigM">
     <a
       className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
+            className="icon sc-jTzLTM iEjgub">
             <svg
               fill={undefined}
               height="2.5rem"
@@ -747,7 +741,7 @@ exports[`nav item`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Reittiopas
           </span>
         </div>
@@ -759,9 +753,9 @@ exports[`nav item`] = `
 
 exports[`only title`] = `
 <nav
-  className="sc-gqjmRU hnZXkc sc-gZMcBi cUWGgY">
+  className="sc-kgoBCf kVSTZj sc-chPdSV dyOvcH">
   <span
-    className="logo sc-iwsKbI jQhHGA">
+    className="logo sc-dnqmqq bDsesi">
     <svg
       fill={undefined}
       height="3.75rem"
@@ -786,9 +780,9 @@ exports[`only title`] = `
 
 exports[`scroll`] = `
 <nav
-  className="sc-gqjmRU hnZXkc sc-gZMcBi cUWGgY">
+  className="sc-kgoBCf kVSTZj sc-chPdSV dyOvcH">
   <span
-    className="logo sc-iwsKbI jQhHGA">
+    className="logo sc-dnqmqq bDsesi">
     <svg
       fill={undefined}
       height="3.75rem"
@@ -805,57 +799,18 @@ exports[`scroll`] = `
     </svg>
   </span>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW">
     <a
       className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
-            <svg
-              fill={undefined}
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="0 0 46 40"
-              width="2.5rem">
-              <g
-                id="Symbols">
-                <g
-                  id="icon---reittiopas"
-                  transform="translate(-12.000000, -5.000000)">
-                  <path
-                    d="M21.9065312,11.29 C27.2785312,11.29 31.5625312,15.574 31.5625312,20.878 C31.5625312,26.182 21.9065312,40.122 21.9065312,40.122 C21.9065312,40.122 12.3185312,26.182 12.3185312,20.878 C12.3185312,15.574 16.6025312,11.29 21.9065312,11.29 Z M21.9065313,25.094 C24.2865313,25.094 26.1905312,23.19 26.1905312,20.878 C26.1905312,18.498 24.2865313,16.594 21.9065313,16.594 C19.5945313,16.594 17.6225313,18.498 17.6225313,20.878 C17.6225313,23.19 19.5945313,25.094 21.9065313,25.094 Z M51.8945313,5.714 C55.0225313,5.714 57.5385312,8.23 57.5385312,11.358 C57.5385312,14.486 51.8945313,22.646 51.8945313,22.646 C51.8945313,22.646 46.2505313,14.486 46.2505313,11.358 C46.2505313,8.23 48.7665312,5.714 51.8945313,5.714 Z M51.8945313,13.806 C53.2545313,13.806 54.4105313,12.718 54.4105313,11.29 C54.4105313,9.93 53.2545313,8.842 51.8945313,8.842 C50.5345313,8.842 49.3785313,9.93 49.3785313,11.29 C49.3785313,12.718 50.5345313,13.806 51.8945313,13.806 Z M49.1745313,23.462 L47.8145313,25.23 C46.7265313,24.346 45.6385312,24.142 44.3465313,24.278 C44.1425313,24.278 43.8705313,24.346 43.6665313,24.414 L43.1905313,22.17 C43.4625313,22.102 43.8025313,22.034 44.1425313,22.034 C45.9785313,21.83 47.8145313,22.306 49.1745313,23.462 Z M39.7225313,29.786 C39.5865312,28.358 39.9265312,26.93 41.0145313,25.91 L39.3825312,24.414 C37.7505312,25.91 37.2065312,28.018 37.4785313,29.99 L39.7225313,29.786 Z M28.9105312,42.298 C27.6185312,42.094 26.3265313,41.618 25.2385313,40.802 L23.8785313,42.57 C25.3065312,43.658 26.9385312,44.338 28.6385312,44.542 L28.9105312,42.298 Z M32.3105313,44.27 C34.2145313,43.794 35.9825313,42.774 37.2745313,41.346 L35.6425313,39.85 C34.6225313,40.938 33.2625313,41.754 31.7665312,42.094 L32.3105313,44.27 Z M39.2465313,38.286 C39.8585313,36.79 40.1305313,35.158 39.9945313,33.526 L37.7505313,33.73 C37.8185312,35.022 37.6825313,36.246 37.2065313,37.402 L39.2465313,38.286 Z" />
-                </g>
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-iwsKbI jQhHGA">
-            Reittiopas
-          </span>
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
-    <a
-      className="link"
-      onClick={[Function]}
-      style={Object {}}>
-      <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
-        <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
-          <span
-            aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
+            className="icon sc-jTzLTM iEjgub">
             <svg
               fill={undefined}
               height="2.5rem"
@@ -869,7 +824,7 @@ exports[`scroll`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Liput ja hinnat
           </span>
         </div>
@@ -877,18 +832,18 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW">
     <a
       className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
+            className="icon sc-jTzLTM iEjgub">
             <svg
               fill={undefined}
               height="2.5rem"
@@ -905,7 +860,7 @@ exports[`scroll`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Asiakaspalvelu
           </span>
         </div>
@@ -913,24 +868,24 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW">
     <a
       className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
+            className="icon sc-jTzLTM iEjgub">
             <svg
               fill={undefined}
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
-              viewBox="0 0 32 32"
+              viewBox="-4 -4 40 40"
               width="2.5rem">
               <g
                 id="icon---uutta">
@@ -949,7 +904,7 @@ exports[`scroll`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Uutta
           </span>
         </div>
@@ -957,24 +912,24 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="child sc-csuQGl CQhxV sc-gipzik dtQqyV">
+    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW">
     <a
       className="link"
       onClick={[Function]}
       style={Object {}}>
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM encdfw">
+        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY izNNpu">
+          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG kugfyt">
+            className="icon sc-jTzLTM iEjgub">
             <svg
               fill={undefined}
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
-              viewBox="0 0 38 10"
+              viewBox="-5 0 48 10"
               width="2.5rem">
               <g
                 id="Group">
@@ -997,7 +952,7 @@ exports[`scroll`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Lisää
           </span>
         </div>
@@ -1005,20 +960,20 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="menu sc-hSdWYo bIQQAp sc-iAyFgw gVVPKf">
+    className="menu sc-eHgmQL gmKbQu sc-hSdWYo oaJuk">
     <div
-      className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+      className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
       <a
         className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+          className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
           <div
-            className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+            className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
             <span
               aria-hidden="true"
-              className="icon sc-cSHVUG dXYpzU">
+              className="icon sc-jTzLTM bpnSj">
               <svg
                 fill={undefined}
                 height="3.5rem"
@@ -1032,28 +987,28 @@ exports[`scroll`] = `
               </svg>
             </span>
             <span
-              className="text sc-iwsKbI jQhHGA">
+              className="text sc-dnqmqq bDsesi">
               Matkakortti
             </span>
           </div>
           <div
-            className="sc-fjdhpX lnOsFp" />
+            className="sc-gqjmRU jWXuAz" />
         </div>
       </a>
     </div>
     <div
-      className="sc-kGXeez eIIwaK sc-kgoBCf dambRM">
+      className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX">
       <a
         className="link"
         onClick={[Function]}
         style={Object {}}>
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd">
+          className="sc-VigVT hjRoCW sc-gZMcBi QnHAw">
           <div
-            className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+            className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
             <span
               aria-hidden="true"
-              className="icon sc-cSHVUG dXYpzU">
+              className="icon sc-jTzLTM bpnSj">
               <svg
                 height="3.5rem"
                 preserveAspectRatio="xMidYMid meet"
@@ -1072,17 +1027,17 @@ exports[`scroll`] = `
               </svg>
             </span>
             <span
-              className="text sc-iwsKbI jQhHGA">
+              className="text sc-dnqmqq bDsesi">
               Kirjaudu
             </span>
           </div>
           <div
-            className="sc-fjdhpX fgZgIR" />
+            className="sc-gqjmRU hgTulP" />
         </div>
       </a>
     </div>
     <div
-      className="search-icon sc-VigVT kebjCN">
+      className="search-icon sc-iwsKbI hAZHJM">
       <svg
         height="2rem"
         preserveAspectRatio="xMidYMid meet"
@@ -1101,9 +1056,9 @@ exports[`scroll`] = `
       </svg>
     </div>
     <div
-      className="sc-hMqMXs cPxEnv sc-jKJlTe eDYkPA">
+      className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe">
       <button
-        className="selected-language sc-kpOJdX cdLeag"
+        className="selected-language sc-dxgOiQ dpMvJx"
         onClick={[Function]}>
         FI
         <svg

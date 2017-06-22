@@ -16,6 +16,8 @@ const Header = styled.header`
     &.scroll {
       position: fixed;
       width: 100%;
+      top:0;
+      left:0;
       &.scroll-enter {
         top: -5rem; // scroll nav height is 4rem
       }

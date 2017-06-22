@@ -14,7 +14,7 @@ const HorizontalSeparator = Separator.extend`
 
 const MenuSeparator = Separator.extend`
   background: ${props => props.theme.menuBorder};
-  margin: 0.75em 0;
+  margin: 1rem 0;
 `;
 
 const HorizontalMenuSeparator = HorizontalSeparator.extend`

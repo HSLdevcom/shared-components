@@ -6,6 +6,11 @@ import { Flex } from '../Wrapper';
 import LangButton from './LangButton';
 
 const StyledFlex = Flex.extend`
+  ${LangButton} {
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 `;

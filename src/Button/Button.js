@@ -30,6 +30,7 @@ const ButtonNoStyle = styled.button`
   margin: 0;
   border: 0;
   outline: 0;
+  line-height: 0;
   width: auto;
   height: auto;
   background: inherit;
