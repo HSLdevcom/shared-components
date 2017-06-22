@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-gisBJw icPDyr sc-fjdhpX fNCIal">
+  className="sc-cHGsZl hhtWWi sc-fjdhpX fNCIal">
   <span
     aria-hidden="true"
     className="icon sc-jTzLTM iEjgub">
@@ -25,7 +25,7 @@ exports[`default`] = `
 
 exports[`text & svg in text prop`] = `
 <div
-  className="sc-cHGsZl inVpAt sc-fjdhpX fNCIal">
+  className="sc-kgAjT gnFPjE sc-fjdhpX fNCIal">
   <span
     aria-hidden="true"
     className="icon sc-jTzLTM iEjgub">
@@ -63,7 +63,7 @@ exports[`text & svg in text prop`] = `
 
 exports[`with inner & outer fill`] = `
 <div
-  className="sc-kjoXOD jbvfoT sc-fjdhpX fNCIal">
+  className="sc-TOsTZ cQBGqD sc-fjdhpX fNCIal">
   <span
     aria-hidden="true"
     className="icon sc-jTzLTM iEjgub">

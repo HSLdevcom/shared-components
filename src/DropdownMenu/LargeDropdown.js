@@ -7,7 +7,9 @@ import Mask from './Mask';
 
 const StyledDiv = styled.div`
   position: absolute;
-  width: 100%;
+  left: 0;
+  right: 0;
+  top: ${props => props.top}px;
   ${Div} {
     background: ${props => props.theme.background};
     display: flex;
@@ -18,9 +20,10 @@ const StyledDiv = styled.div`
 `;
 
 const Dropdown = ({
+  top,
   className,
   children }) => (
-    <StyledDiv className={className}>
+    <StyledDiv className={className} top={top}>
       <Div>
         { children }
       </Div>
@@ -29,6 +32,7 @@ const Dropdown = ({
     );
 
 Dropdown.propTypes = {
+  top: PropTypes.number.isRequired,
   className: PropTypes.string,
   children: PropTypes.node
 };

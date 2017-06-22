@@ -9,17 +9,62 @@ import JSXAddon from 'storybook-addon-jsx';
 
 import { Menu, MenuSmall, MenuMobile, MenuItem,
          Nav, NavMobile, NavDesktop, NavItem,
+         DropdownMenu, IconWithText,
          Div, Span } from '../src';
 
-import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
+import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, TravelCard, SignIn, Cog } from '../src/Icons';
 
 setAddon(JSXAddon);
+const cog = <Cog height="2.5rem" width="2.5rem" />;
+const DropdownContent = [
+  <div key="1">
+    <h3>Otsikko</h3>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+  </div>,
+  <div key="2">
+    <h3>Otsikko</h3>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+  </div>,
+  <div key="3">
+    <IconWithText
+      icon={cog}
+      text="Esimerkki"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Esimerkki"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Esimerkki"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Esimerkki"
+      textPosition="Right"
+    />
+  </div>
+];
+const Dropdown = (
+  <DropdownMenu
+    text="Lisää"
+    textPosition="Bottom"
+  >
+    { DropdownContent.map(x => x) }
+  </DropdownMenu>
+);
 
 const icons = [
   [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
   [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
   [<Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
-  [<More height="2.5rem" width="2.5rem" />, 'Lisää']
 ];
 
 const stories = storiesOf('Nav', module);
@@ -79,6 +124,7 @@ stories.addWithJSX('default', () => {
           textPosition={'Bottom'}
         />)
      )}
+      { Dropdown }
     </Nav>
   </StyledDiv>);
 });

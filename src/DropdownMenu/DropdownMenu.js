@@ -14,8 +14,28 @@ const Icon = <More height="2.5rem" width="2.5rem" />;
 class DropdownMenu extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { open: false };
+    this.state = { open: false, top: 0 };
     this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.onResize = this.onResize.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.onResize, true);
+    this.onResize();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize, true);
+  }
+
+  onResize() {
+    if (!this.node) {
+      return;
+    }
+    this.setState({
+      top: this.node.getBoundingClientRect().bottom +
+           document.body.scrollTop
+    });
   }
 
   toggleDropdown() {
@@ -25,8 +45,10 @@ class DropdownMenu extends React.PureComponent {
   }
 
   render() {
+    /* eslint-disable no-return-assign */
     return (
-      <Div className={this.props.className}>
+      <Div className={this.props.className} innerRef={x => this.node = x} >
+        {/* eslint-enable no-return-assign */}
         <ButtonNoStyle onClick={this.toggleDropdown}>
           <NavItem
             link={<A />}
@@ -37,7 +59,9 @@ class DropdownMenu extends React.PureComponent {
             small={this.props.small}
           />
         </ButtonNoStyle>
-        {this.state.open && <LargeDropdown>{this.props.children}</LargeDropdown>}
+        { this.state.open &&
+          <LargeDropdown top={this.state.top}>{this.props.children}</LargeDropdown>
+        }
       </Div>
     );
   }

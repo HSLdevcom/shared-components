@@ -7,6 +7,7 @@ import { addClass } from '../utils';
 import Span from '../Span';
 import NavItem from './NavItem';
 import { Activatable } from '../Wrapper';
+import DropdownMenu from '../DropdownMenu';
 
 
 const StyledNav = styled.nav`
@@ -28,7 +29,7 @@ const StyledNav = styled.nav`
       height: 7.5rem;
     `
   )}
-  ${NavItem} {
+  ${NavItem}, ${DropdownMenu} {
     display: flex;
     align-items: stretch;
     font-size: 1.1rem;
