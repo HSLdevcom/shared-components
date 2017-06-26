@@ -16,7 +16,7 @@ const Header = styled.header`
     position: fixed;
     left: 0;
     right: 0;
-    top: -80px;
+    top: -64px;
     &.visible {
       top: 0;
     }
@@ -60,7 +60,7 @@ const Header = styled.header`
 `;
 
 const StyledDiv = Div.extend`
-  height: 80px;
+  height: 64px;
 `;
 
 class Nav extends React.PureComponent {
@@ -91,13 +91,17 @@ class Nav extends React.PureComponent {
     // 3 * nav height
     const navHeight = (this.desktopNav &&
                       this.desktopNav.offsetHeight) || 0;
-    const scrolledPastBuffer = (navHeight * 3) < evt.target.body.scrollTop;
+    // When nav is not visible, dont show nav unless we have scrolled 3 x past nav height
+    // When nav is visible, hide nav when we reach the bottom of nav
+    const boundary = this.state.desktopScrollNav ? navHeight : 3 * navHeight;
+
+    const scrolledPastBoundary = boundary < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
     // Call setState only if state will change
-    if ((scrolledPastBuffer && scrollingUp) !== this.state.desktopScrollNav) {
-      this.setState({ desktopScrollNav: (scrolledPastBuffer && scrollingUp) });
+    if ((scrolledPastBoundary && scrollingUp) !== this.state.desktopScrollNav) {
+      this.setState({ desktopScrollNav: (scrolledPastBoundary && scrollingUp) });
     }
   }
 
