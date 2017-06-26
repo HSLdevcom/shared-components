@@ -37,10 +37,10 @@ exports[`default`] = `
       </div>
       <div>
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG dXYpzU">
+            className="icon sc-jTzLTM bpnSj">
             <svg
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
@@ -60,15 +60,15 @@ exports[`default`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Esimerkki
           </span>
         </div>
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG dXYpzU">
+            className="icon sc-jTzLTM bpnSj">
             <svg
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
@@ -88,15 +88,15 @@ exports[`default`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Esimerkki
           </span>
         </div>
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG dXYpzU">
+            className="icon sc-jTzLTM bpnSj">
             <svg
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
@@ -116,15 +116,15 @@ exports[`default`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Esimerkki
           </span>
         </div>
         <div
-          className="sc-chPdSV AGhxe sc-kAzzGY kEFMdk">
+          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW">
           <span
             aria-hidden="true"
-            className="icon sc-cSHVUG dXYpzU">
+            className="icon sc-jTzLTM bpnSj">
             <svg
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
@@ -144,7 +144,7 @@ exports[`default`] = `
             </svg>
           </span>
           <span
-            className="text sc-iwsKbI jQhHGA">
+            className="text sc-dnqmqq bDsesi">
             Esimerkki
           </span>
         </div>

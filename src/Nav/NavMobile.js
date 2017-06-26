@@ -7,6 +7,7 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
+import IconWithText from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import { Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
@@ -16,14 +17,17 @@ const StyledNav = styled.nav`
     fill: currentColor;
   }
   .logo svg {
-    height: 2.5rem;
+    height: 2rem;
   }
 
   .nav-item {
     border-bottom: 2px solid ${props => props.theme.menuBorder};
     display: flex;
-    padding: 1.5rem 1.25rem 1.5rem 1.5rem;
-    font-size: 1.75rem;
+    ${IconWithText} {
+      padding: 1rem;
+    }
+
+    font-size: 1.25rem;
   }
 
   .nav-item svg {
@@ -31,10 +35,10 @@ const StyledNav = styled.nav`
     width: 3rem;
   }
   .menu-item svg {
-    height: 2.5rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2.5rem;
   }
-  padding: 1.25rem 1.25rem 0rem;
+  padding: 0 1.25rem;
 
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
@@ -87,12 +91,11 @@ const StyledNav = styled.nav`
 
 const TopBar = Flex.extend`
   align-items: center;
-  height: 3.75rem;
-  align-items: flex-start;
+  height: 64px;
 `;
 
 const TopIcons = Flex.extend`
-  align-items: flex-start;
+  align-items: center;
   align-self: stretch;
   .text {
     display: none;
@@ -104,6 +107,14 @@ const TopIcons = Flex.extend`
   ${MenuItem} {
     align-self: stretch;
     margin-right: 1.75rem;
+    ${IconWithText} {
+      flex: 1;
+      margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
+      justify-content: center;
+    }
+  }
+  ${ButtonNoStyle} {
+    height: 2rem;
   }
   svg {
     height: 2rem;
@@ -167,10 +178,11 @@ class Nav extends React.PureComponent {
           {React.Children.map(this.props.menu.props.children, child => (
             React.cloneElement(child, { small: true })
             ))}
-          <ButtonNoStyle onClick={this.toggleMenu}>
-            <Span className={cx('menu-toggle', { open: this.state.open })}>
-              <Menu height="3rem" />
-            </Span>
+          <ButtonNoStyle
+            onClick={this.toggleMenu}
+            className={cx('menu-toggle', { open: this.state.open })}
+          >
+            <Menu height="3rem" />
           </ButtonNoStyle>
         </TopIcons>}
       </TopBar>

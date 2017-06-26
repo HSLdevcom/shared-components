@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import IconWithText from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
 import { Flex } from '../Wrapper';
@@ -10,9 +11,7 @@ import MenuItem from './MenuItem';
 
 
 const StyledFlex = Flex.extend`
-  align-items: center;
-  justify-content: flex-end;
-  height: 100%;
+  align-self: stretch;
   .icon {
     line-height: 0;
     margin: 0;
@@ -21,21 +20,11 @@ const StyledFlex = Flex.extend`
   }
 
   .icon svg, .search-icon svg {
-    height: 1.75rem;
+    height: 1.5rem;
   }
 
   .search-icon {
-    svg {
-      margin-bottom: 1rem;
-    }
-    align-items: flex-end;
-  }
-
-  ${LangSelectSmall} {
-    align-items: flex-end;
-    > * {
-      margin-bottom: 1rem;
-    }
+    align-items: center;
   }
 
   svg {
@@ -47,21 +36,31 @@ const StyledFlex = Flex.extend`
   > * {
     ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
     display: flex;
-    padding: 0 0.75rem;
+
+    width: ${props => props.theme.scrollNavHeight || '3.75rem'};
+    justify-content: center;
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
 
   ${MenuItem} {
-    align-items: flex-end;
-
-    ${props => (
-      props.theme.Media &&
-      props.theme.Media.medium`
-        display: none;
-      `
-    )}
+    align-items: stretch;
+    ${IconWithText} {
+      flex: 1;
+      margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
+      justify-content: center;
+    }
   }
+
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      .search-icon, ${LangSelectSmall} {
+        display: none;
+      }
+    `
+  )}
+
 `;
 
 

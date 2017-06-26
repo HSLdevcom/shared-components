@@ -299,7 +299,7 @@ exports[`Latest`] = `
   height="10em"
   preserveAspectRatio="xMidYMid meet"
   version="1.1"
-  viewBox="0 0 32 32"
+  viewBox="-4 -4 40 40"
   width={undefined}>
   <g
     id="icon---uutta">
@@ -368,7 +368,7 @@ exports[`More`] = `
   height="10em"
   preserveAspectRatio="xMidYMid meet"
   version="1.1"
-  viewBox="0 0 38 10"
+  viewBox="-5 0 48 10"
   width={undefined}>
   <g
     id="Group">

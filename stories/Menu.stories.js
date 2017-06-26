@@ -7,8 +7,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 
-import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
-import Div from '../src/Div';
+import { Menu, MenuSmall, MenuMobile, MenuItem, Div } from '../src';
 
 import { JourneyPlanner } from '../src/Icons';
 

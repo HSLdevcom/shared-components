@@ -23,11 +23,17 @@ const StyledDiv = Div.extend`
   svg {
     fill: currentColor;
   }
+  .top {
+    justify-content: flex-end;
+    svg {
+      margin-right: 1.5rem;
+    }
+  }
   .bottom {
     &.small {
       display: none;
     }
-    height: 4rem;
+    height: calc(4rem + 1px);
     align-items: stretch;
     .child svg {
       height: 2rem;
@@ -42,11 +48,15 @@ const StyledDiv = Div.extend`
   ${props => (
     props.theme.Media &&
     props.theme.Media.large`
-      svg {
-        height: 1.75rem;
-      }
       .child:not(:last-child) {
-        margin-right: 0rem;
+        margin-right: 1.5rem;
+      }
+      ${MenuSeparator} {
+        margin: 0.75rem 0;
+      }
+      .top svg {
+        height: 1.5rem;
+        margin-right: 1rem;
       }
       .bottom {
         &.large {
@@ -54,6 +64,10 @@ const StyledDiv = Div.extend`
         }
         &.small {
           display: flex;
+          height: 3rem;
+          .child svg {
+            height: 1.75rem;
+          }
         }
         justify-content: flex-end;
       }
@@ -93,7 +107,7 @@ const Menu = ({
 }) => (
   <StyledDiv className={className}>
     <Flex className="top">
-      <Search height="2rem" width="2rem" />
+      <Search height="1.5rem" width="1.5rem" />
       <Span className="lang-select">
         <LangSelect
           className="large"
@@ -120,7 +134,7 @@ const Menu = ({
           {
             className: cx(child.props.className, 'child'),
             small: true,
-            textPosition: 'Right'
+            textPosition: 'Bottom'
           })
         ))}
     </Flex>
