@@ -10,6 +10,7 @@ import { Activatable } from '../Wrapper';
 
 
 const StyledNav = styled.nav`
+  z-index: 1000;
   svg {
     fill: currentColor;
   }
