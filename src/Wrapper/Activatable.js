@@ -10,16 +10,19 @@ const StyledDiv = Div.extend`
   align-items: center;
   ${props => (
     !props.small &&
-    `border-bottom: 4px solid ${props.active ? '' : 'transparent'};`
+    `
+      border-bottom: ${props.theme.activatableLineHeight || '4px'} solid ${props.active ? '' : 'transparent'};
+      border-top: ${props.theme.activatableLineHeight || '4px'} solid transparent;
+    `
   )}
 `;
 
 const Pointer = Div.extend`
   width: 0;
   height: 0;
-  border-left: 0.6rem solid transparent;
-  border-right: 0.6rem solid transparent;
-  border-bottom: 1rem solid ${props => !props.active && 'transparent'};
+  border-left: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
+  border-right: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
+  border-bottom: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid ${props => !props.active && 'transparent'};
 `;
 
 const Activatable = ({ active,

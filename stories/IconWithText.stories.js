@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, color, number, text, select } from '@kadira/storybook-addon-knobs';
 
-import IconWithText from '../src/IconWithText/IconWithText';
+import { IconWithText } from '../src';
 import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu } from '../src/Icons';
 
 const iconMap = {
@@ -112,6 +112,43 @@ stories.addWithJSX('with inner & outer fill', () => {
   return (<StyledIWT
     icon={icon}
     text={sampleText}
+    textPosition={textPos}
+  />);
+});
+
+stories.addWithJSX('text & svg in text prop', () => {
+  const btnColor = color('Color', '#007ac9');
+  const background = color('Background', '#ffffff');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const icon = select('Icon', iconList, 'TravelCard');
+  const height = number('Height', defaultValue, options);
+  const sampleText = text('Text', 'Sample text');
+
+  const textPositions = {
+    Right: 'Right',
+    Bottom: 'Bottom',
+  };
+  const textPos = select('Text position', textPositions, 'Bottom');
+  const StyledIWT = IconWithText.extend`
+    color: ${btnColor};
+    background: ${background};
+    .icon svg {
+      height: ${height}em;
+    }
+    svg {
+      fill: currentColor;
+    }
+  `;
+  const textProp = <span>{sampleText}<ArrowDown height="0.75rem" /></span>;
+  return (<StyledIWT
+    icon={iconMap[icon]}
+    text={textProp}
     textPosition={textPos}
   />);
 });

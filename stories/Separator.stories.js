@@ -4,7 +4,7 @@ import { setAddon, storiesOf } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Separator from '../src/Separator/Separator';
+import { Separator } from '../src';
 
 
 setAddon(JSXAddon);

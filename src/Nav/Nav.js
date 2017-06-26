@@ -16,22 +16,24 @@ const Header = styled.header`
     &.scroll {
       position: fixed;
       width: 100%;
+      top:0;
+      left:0;
       &.scroll-enter {
-        max-height: 0rem;
+        top: -5rem; // scroll nav height is 4rem
       }
 
       &.scroll-enter.scroll-enter-active {
-        max-height: 4rem;
-        transition: max-height .35s ease-in;
+        top: 0rem;
+        transition: top .35s ease-in;
       }
 
       &.scroll-leave {
-        max-height: 4rem;
+        top: 0rem;
       }
 
       &.scroll-leave.scroll-leave-active {
-        max-height: 0rem;
-        transition: max-height .35s ease-in;
+        top: -5rem;
+        transition: top .35s ease-in;
       }
     }
   }

@@ -6,7 +6,7 @@ import Separator, {
   HorizontalSeparator,
   HorizontalMenuSeparator
 } from './Separator/Separator';
-import Nav, { NavItem } from './Nav';
+import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
 import Icons from './Icons';
@@ -29,6 +29,8 @@ export {
   HorizontalMenuSeparator,
   Nav,
   NavItem,
+  NavMobile,
+  NavDesktop,
   PageTitleBar,
   Container,
   Icons,

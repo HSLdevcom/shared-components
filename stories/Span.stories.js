@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, text, select } from '@kadira/storybook-addon-knobs';
 
-import Span from '../src/Span';
+import { Span } from '../src';
 
 const options = {
   inline: 'Inline',

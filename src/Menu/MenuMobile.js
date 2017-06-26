@@ -23,15 +23,14 @@ const StyledDiv = Div.extend`
     fill: currentColor;
   }
   ${LangSelect} {
-    font-size: 1.5rem;
     ${LangButton} {
-      width: 3rem;
-      height: 2.5rem;
+      width: 2rem;
+      height: 1.5rem;
     }
   }
   .children {
-    font-size: 1.5rem;
-    padding: 3rem 0;
+    font-size: 1.25rem;
+    padding: 2rem 0;
     .child {
       width: 50%;
       justify-content: center;
@@ -42,7 +41,7 @@ const StyledDiv = Div.extend`
   }
 `;
 const StyledFlex = Flex.extend`
-  padding: 0.75rem 0;
+  padding: 1rem 0;
 `;
 
 const MenuMobile = ({
@@ -61,7 +60,7 @@ const MenuMobile = ({
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Search height="2rem" />
+      <Search height="1.5rem" />
     </StyledFlex>
     <Separator />
     { items }

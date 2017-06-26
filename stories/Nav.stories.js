@@ -7,17 +7,15 @@ import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import Menu, { MenuSmall, MenuMobile, MenuItem } from '../src/Menu';
-import Nav, { NavMobile, NavDesktop, NavItem } from '../src/Nav';
-import Span from '../src/Span';
-import Div from '../src/Div';
+import { Menu, MenuSmall, MenuMobile, MenuItem,
+         Nav, NavMobile, NavDesktop, NavItem,
+         Div, Span } from '../src';
 
 import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
 
 setAddon(JSXAddon);
 
 const icons = [
-  [<JourneyPlanner height="2.5rem" width="2.5rem" />, 'Reittiopas'],
   [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
   [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
   [<Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
@@ -64,6 +62,14 @@ stories.addWithJSX('default', () => {
 
   return (<StyledDiv>
     <Nav logo={logo} menu={menu}>
+      <NavItem
+        key="Reittiopas"
+        link={<Link to="/test" />}
+        icon={<JourneyPlanner height="2.5rem" width="2.5rem" />}
+        text="Reittiopas"
+        textPosition={'Bottom'}
+        active
+      />
       {icons.map(icon =>
         (<NavItem
           key={icon[1]}
