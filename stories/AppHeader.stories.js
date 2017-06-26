@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, text } from '@kadira/storybook-addon-knobs';
 
-import AppHeader from '../src/AppHeader/AppHeader';
+import { AppHeader } from '../src';
 
 
 setAddon(JSXAddon);

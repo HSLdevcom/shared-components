@@ -14,14 +14,16 @@ const hslTheme = {
   background: primaryBlue,
   menuBorder: '#0062a1',
   md: '900px',
-  navbarHeight: '5rem', // default: auto
+  scrollNavHeight: '3.75rem',
   logoHeight: '4rem',
   logoFill: primaryWhite,
   radioBtnActive: '#0062a1',
   fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B"',
   fontSize: '16px',
   fontWeight: '500',
-  letterSpacing: '-0.5px'
+  letterSpacing: '-0.5px',
+  activatablePointerHeight: '0.6rem',
+  activatableLineHeight: '4px'
 };
 
 export default hslTheme;

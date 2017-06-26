@@ -4,8 +4,7 @@ import { setAddon, storiesOf } from '@kadira/storybook';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import { Flex, Activatable } from '../src/Wrapper';
-import Div from '../src/Div';
+import { Flex, Activatable, Div } from '../src';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Wrapper', module);

@@ -11,7 +11,7 @@ const StyledDiv = Div.extend`
   overflow: hidden;
   ${LangButton} {
     display: block;
-    width: 2.75rem;
+    width: 3.25rem;
   }
   padding: 0;
   align-items: center;
@@ -22,7 +22,7 @@ const StyledDiv = Div.extend`
     justify-content: center;
     align-items: center;
     svg {
-      margin-left: 0.25rem;
+      margin-left: 0.375rem;
       fill: currentColor;
     }
   }

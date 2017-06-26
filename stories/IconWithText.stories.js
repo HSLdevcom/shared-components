@@ -6,7 +6,7 @@ import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, color, number, text, select } from '@kadira/storybook-addon-knobs';
 
-import IconWithText from '../src/IconWithText/IconWithText';
+import { IconWithText } from '../src';
 import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu } from '../src/Icons';
 
 const iconMap = {

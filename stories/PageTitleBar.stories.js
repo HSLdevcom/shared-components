@@ -6,7 +6,7 @@ import { action } from '@kadira/storybook-addon-actions';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
-import PageTitleBar from '../src/PageTitleBar/PageTitleBar';
+import { PageTitleBar } from '../src';
 import { ArrowLeft } from '../src/Icons';
 
 setAddon(JSXAddon);
