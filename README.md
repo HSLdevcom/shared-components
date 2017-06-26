@@ -35,3 +35,6 @@ When pushing to the repository make sure to include the lib/**/*.js files so tha
 
 ### Update github pages ###
 `yarn deploy-storybook`
+
+## Documentation
+* [Z-Index Index](docs/ZIndex.md)
