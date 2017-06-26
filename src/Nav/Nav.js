@@ -72,7 +72,11 @@ class Nav extends React.PureComponent {
     const navHeight = (this.nav &&
                       this.nav.firstChild &&
                       this.nav.firstChild.offsetHeight) || 0;
-    const scrolledPastBuffer = (navHeight * 3) < evt.target.body.scrollTop;
+    // When nav is not visible, dont show nav unless we have scrolled 3 x past nav height
+    // When nav is visible, hide nav when we reach the bottom of nav
+    const boundary = this.state.scrollNavVisible ? navHeight : 3 * navHeight;
+
+    const scrolledPastBoundary = boundary < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
@@ -80,8 +84,8 @@ class Nav extends React.PureComponent {
     this.lastScrollValue = evt.target.body.scrollTop;
 
     // Call setState only if state will change
-    if ((scrolledPastBuffer && scrollingUp) !== this.state.scrollNavVisible) {
-      this.setState({ scrollNavVisible: (scrolledPastBuffer && scrollingUp) });
+    if ((scrolledPastBoundary && scrollingUp) !== this.state.scrollNavVisible) {
+      this.setState({ scrollNavVisible: (scrolledPastBoundary && scrollingUp) });
     }
   }
 
