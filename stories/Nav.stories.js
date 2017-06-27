@@ -61,6 +61,13 @@ const Dropdown = (
   </DropdownMenu>
 );
 
+const longArr = [];
+let i = 0;
+while (i < 50) {
+  longArr.push(i);
+  i += 1;
+}
+
 const icons = [
   [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
   [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
@@ -126,6 +133,9 @@ stories.addWithJSX('default', () => {
      )}
       { Dropdown }
     </Nav>
+    {
+      longArr.map(ix => <p key={`k ${ix}`}>{ix}</p>)
+    }
   </StyledDiv>);
 });
 

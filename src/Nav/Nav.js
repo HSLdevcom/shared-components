@@ -2,15 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
+import cx from 'classnames';
 
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
-import Span from '../Span/Span';
+import Div from '../Div';
 
 const Header = styled.header`
   ${NavMobile} {
     display: none;
+    transition: top .20s ease-in;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -64px;
+    &.visible {
+      top: 0;
+    }
   }
   ${NavDesktop} {
     &.scroll {
@@ -50,10 +59,14 @@ const Header = styled.header`
   )}
 `;
 
+const StyledDiv = Div.extend`
+  height: 64px;
+`;
+
 class Nav extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { scrollNavVisible: false };
+    this.state = { desktopScrollNav: false, mobileNavVisible: true };
     this.lastScrollValue = 0;
     // https://gist.github.com/Restuta/e400a555ba24daa396cc
     this.onScroll = this.onScroll.bind(this);
@@ -67,19 +80,37 @@ class Nav extends React.PureComponent {
   }
 
   onScroll(evt) {
-    // Visible when scrolling up and we have scrolled past the regular nav
-    const scrolledPastNav = this.nav &&
-                            this.nav.firstChild &&
-                            this.nav.firstChild.offsetHeight < evt.target.body.scrollTop;
+    this.onScrollDesktop(evt);
+    this.onScrollMobile(evt);
+    // Save current scroll value
+    this.lastScrollValue = evt.target.body.scrollTop;
+  }
+
+  onScrollDesktop(evt) {
+    // Visible when scrolling up and we have scrolled past
+    // 3 * nav height
+    const navHeight = (this.desktopNav &&
+                      this.desktopNav.offsetHeight) || 0;
+    // When nav is not visible, dont show nav unless we have scrolled 3 x past nav height
+    // When nav is visible, hide nav when we reach the bottom of nav
+    const boundary = this.state.desktopScrollNav ? navHeight : 3 * navHeight;
+
+    const scrolledPastBoundary = boundary < evt.target.body.scrollTop;
 
     const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
-    // Save current scroll value
-    this.lastScrollValue = evt.target.body.scrollTop;
+    // Call setState only if state will change
+    if ((scrolledPastBoundary && scrollingUp) !== this.state.desktopScrollNav) {
+      this.setState({ desktopScrollNav: (scrolledPastBoundary && scrollingUp) });
+    }
+  }
+
+  onScrollMobile(evt) {
+    const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
 
     // Call setState only if state will change
-    if ((scrolledPastNav && scrollingUp) !== this.state.scrollNavVisible) {
-      this.setState({ scrollNavVisible: (scrolledPastNav && scrollingUp) });
+    if ((scrollingUp) !== this.state.mobileScrollNav) {
+      this.setState({ mobileNavVisible: (scrollingUp) });
     }
   }
 
@@ -91,7 +122,7 @@ class Nav extends React.PureComponent {
           transitionEnterTimeout={350}
           transitionLeaveTimeout={350}
         >
-          { this.props.menu && this.state.scrollNavVisible && <NavDesktop
+          { this.props.menu && this.state.desktopScrollNav && <NavDesktop
             className="scroll"
             scroll
             logo={this.props.logo}
@@ -115,17 +146,18 @@ class Nav extends React.PureComponent {
         }
         </CSSTransitionGroup>
         {/* eslint-disable no-return-assign */}
-        <Span innerRef={x => this.nav = x}>
-          {/* eslint-enable no-return-assign */}
-          <NavDesktop
-            logo={this.props.logo}
-            menu={this.props.menu}
-          >
-            {this.props.children}
-          </NavDesktop>
-        </Span>
-        <NavMobile
+        <NavDesktop
+          navRef={x => this.desktopNav = x}
           logo={this.props.logo}
+          menu={this.props.menu}
+        >
+          {this.props.children}
+        </NavDesktop>
+        <StyledDiv />
+        <NavMobile
+          className={cx({ visible: this.state.mobileNavVisible })}
+          logo={this.props.logo}
+          navRef={x => this.mobileNav = x}
           menu={this.props.menu &&
             <MenuMobile {...this.props.menu.props}>
               {React.Children.map(
@@ -142,6 +174,7 @@ class Nav extends React.PureComponent {
             )
           }
         </NavMobile>
+        {/* eslint-enable no-return-assign */}
       </Header>
     );
   }

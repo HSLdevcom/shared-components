@@ -1,46 +1,46 @@
 exports[`default`] = `
 <div
-  className="sc-gisBJw kDlVKO sc-caSCKo igpoat">
+  className="sc-cHGsZl bHiaRe sc-kjoXOD jLENLw">
   <h3
-    className="sc-fAjcbJ byigni">
+    className="sc-gisBJw kDlVKO">
     Header
   </h3>
   <ul
-    className="sc-eqIVtm kRufpp">
+    className="sc-caSCKo jjNSwx">
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       short text
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       short text
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-kjoXOD JyJyC">
+      className="sc-TOsTZ ePvIBB">
       looong teexttt ttttttttttttttttt
     </li>
   </ul>
