@@ -1,0 +1,85 @@
+exports[`default`] = `
+<div
+  className="sc-ksYbfQ ksazEK">
+  <div
+    className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
+    <div
+      className="sc-iwsKbI hAZHJM">
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT dQSqxe"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Inactive
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT dMsALQ"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Active
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT kwpQPu"
+        disabled={true}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Disabled
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa bDWFJH">
+      Content of active tab
+    </div>
+  </div>
+</div>
+`;
+
+exports[`rounded`] = `
+<div
+  className="sc-ksYbfQ ksazEK">
+  <div
+    className="sc-TOsTZ kjYrri sc-cHGsZl bjiDuV">
+    <div
+      className="sc-iwsKbI hAZHJM">
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT dQSqxe"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Inactive
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT dMsALQ"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Active
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT kwpQPu"
+        disabled={true}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Disabled
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa bDWFJH">
+      Content of active tab
+    </div>
+  </div>
+</div>
+`;
