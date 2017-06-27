@@ -4,7 +4,7 @@ exports[`default`] = `
     This is always visible
   </p>
   <div
-    className="sc-ckVGcZ foYhJp sc-bdVaJa bDWFJH">
+    className="sc-brqgnP SqPLV sc-bdVaJa bDWFJH">
     <button
       className="sc-bxivhb gRAuFd"
       onClick={[Function]}>

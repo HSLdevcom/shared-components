@@ -15,6 +15,11 @@ const StyledDiv = Div.extend`
     padding: 0;
     list-style: none;
     columns: 2;
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+      columns: 1;
+    `)}
     li::before {
       padding-right: 0.75rem;
       content: "○";

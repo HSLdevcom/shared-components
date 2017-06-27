@@ -1,11 +1,11 @@
 exports[`default`] = `
 <div
-  className="sc-hqyNC dodqjO">
+  className="sc-jbKcbu kxbzni">
   <header
-    className="sc-dVhcbM fghLuF sc-fBuWsC gnlqOL">
+    className="sc-eqIVtm kRufpp sc-fMiknA eVGTmN">
     <span />
     <nav
-      className="sc-eNQAEJ fAbPPh sc-jKJlTe fRlKhP">
+      className="sc-jAaTju fNCBho sc-cMljjf eRiDEz">
       <span
         className="logo sc-dnqmqq bDsesi">
         <svg
@@ -176,7 +176,7 @@ exports[`default`] = `
         </a>
       </div>
       <div
-        className="child sc-ckVGcZ foYhJp sc-bdVaJa bDWFJH">
+        className="child sc-brqgnP SqPLV sc-bdVaJa bDWFJH">
         <button
           className="sc-bxivhb gRAuFd"
           onClick={[Function]}>
@@ -229,7 +229,7 @@ exports[`default`] = `
         </button>
       </div>
       <div
-        className="menu sc-cMljjf eTbdzc sc-brqgnP ihHoyA">
+        className="menu sc-hSdWYo bIQQAp sc-iAyFgw gKPRRn">
         <div
           className="top sc-iwsKbI hAZHJM">
           <svg
@@ -251,27 +251,27 @@ exports[`default`] = `
           <span
             className="lang-select sc-dnqmqq bDsesi">
             <div
-              className="large sc-hSdWYo bIQQAp sc-iAyFgw uLbiV">
+              className="large sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI">
               <button
-                className="sc-kkGfuU kJuEIE"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}>
                 FI
               </button>
               <button
-                className="sc-kkGfuU kJuEIE"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}>
                 SV
               </button>
               <button
-                className="sc-kkGfuU kJuEIE"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}>
                 EN
               </button>
             </div>
             <div
-              className="small sc-jWBwVP fDrbnp sc-eHgmQL fVRIcR">
+              className="small sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg">
               <button
-                className="selected-language sc-kkGfuU kJuEIE"
+                className="selected-language sc-ckVGcZ cUFhzl"
                 onClick={[Function]}>
                 FI
                 <svg
@@ -296,7 +296,7 @@ exports[`default`] = `
         <div
           className="bottom large sc-iwsKbI hAZHJM">
           <div
-            className="child sc-kEYyzF gfWKdx sc-hMqMXs HzeLP">
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId">
             <a
               className="link"
               onClick={[Function]}
@@ -329,7 +329,7 @@ exports[`default`] = `
             </a>
           </div>
           <div
-            className="child sc-kEYyzF gfWKdx sc-hMqMXs HzeLP">
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId">
             <a
               className="link"
               onClick={[Function]}
@@ -370,7 +370,7 @@ exports[`default`] = `
         <div
           className="bottom small sc-iwsKbI hAZHJM">
           <div
-            className="child sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
             <a
               className="link"
               onClick={[Function]}
@@ -405,7 +405,7 @@ exports[`default`] = `
             </a>
           </div>
           <div
-            className="child sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
             <a
               className="link"
               onClick={[Function]}
@@ -448,11 +448,11 @@ exports[`default`] = `
       </div>
     </nav>
     <div
-      className="sc-fMiknA lmexGC" />
+      className="sc-dVhcbM hvhFkJ" />
     <nav
-      className="visible sc-jhAzac hmXDXQ sc-csuQGl fnbJIp">
+      className="visible sc-fBuWsC eeihxG sc-Rmtcm eWMSqO">
       <div
-        className="sc-Rmtcm chIVYH">
+        className="sc-bRBYWo eXgbWv">
         <span
           className="logo sc-dnqmqq bDsesi">
           <svg
@@ -471,9 +471,9 @@ exports[`default`] = `
           </svg>
         </span>
         <div
-          className="sc-bRBYWo hSpprU">
+          className="sc-hzDkRC jGBDgG">
           <div
-            className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+            className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
             <a
               className="link"
               onClick={[Function]}
@@ -508,7 +508,7 @@ exports[`default`] = `
             </a>
           </div>
           <div
-            className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+            className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
             <a
               className="link"
               onClick={[Function]}
@@ -575,7 +575,7 @@ exports[`default`] = `
         </div>
       </div>
       <div
-        className="sc-hzDkRC hDzAK"
+        className="sc-jhAzac ktHvid"
         height={0}>
         <span />
       </div>
@@ -736,9 +736,9 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-jhAzac hmXDXQ sc-csuQGl fnbJIp">
+  className="sc-fBuWsC eeihxG sc-Rmtcm eWMSqO">
   <div
-    className="sc-Rmtcm chIVYH">
+    className="sc-bRBYWo eXgbWv">
     <span
       className="logo sc-dnqmqq bDsesi">
       <svg
@@ -757,9 +757,9 @@ exports[`mobile`] = `
       </svg>
     </span>
     <div
-      className="sc-bRBYWo hSpprU">
+      className="sc-hzDkRC jGBDgG">
       <div
-        className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+        className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
         <a
           className="link"
           onClick={[Function]}
@@ -794,7 +794,7 @@ exports[`mobile`] = `
         </a>
       </div>
       <div
-        className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+        className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
         <a
           className="link"
           onClick={[Function]}
@@ -861,7 +861,7 @@ exports[`mobile`] = `
     </div>
   </div>
   <div
-    className="sc-hzDkRC hDzAK"
+    className="sc-jhAzac ktHvid"
     height={0}>
     <span />
   </div>
@@ -870,9 +870,9 @@ exports[`mobile`] = `
 
 exports[`nav item`] = `
 <div
-  className="sc-jqCOkK loxXMN">
+  className="sc-uJMKN ePzlTX">
   <div
-    className="sc-dNLxif epXhqo sc-cSHVUG jCgigM">
+    className="sc-jqCOkK cvccWj sc-cSHVUG jCgigM">
     <a
       className="link"
       onClick={[Function]}
@@ -915,7 +915,7 @@ exports[`nav item`] = `
 
 exports[`only title`] = `
 <nav
-  className="sc-eNQAEJ fAbPPh sc-jKJlTe fRlKhP">
+  className="sc-jAaTju fNCBho sc-cMljjf eRiDEz">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
@@ -934,7 +934,7 @@ exports[`only title`] = `
     </svg>
   </span>
   <span
-    className="child sc-jbKcbu kZPOJV">
+    className="child sc-dNLxif gnFJnu">
     Lataa kautta
   </span>
 </nav>
@@ -942,7 +942,7 @@ exports[`only title`] = `
 
 exports[`scroll`] = `
 <nav
-  className="sc-eNQAEJ fAbPPh sc-jKJlTe fRlKhP">
+  className="sc-jAaTju fNCBho sc-cMljjf eRiDEz">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
@@ -1074,9 +1074,9 @@ exports[`scroll`] = `
     </a>
   </div>
   <div
-    className="menu sc-jDwBTQ dWtMUn sc-jAaTju hKJIoX">
+    className="menu sc-gPEVay eQYmiW sc-jDwBTQ ejlqXe">
     <div
-      className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+      className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
       <a
         className="link"
         onClick={[Function]}
@@ -1111,7 +1111,7 @@ exports[`scroll`] = `
       </a>
     </div>
     <div
-      className="sc-kEYyzF gfWKdx sc-hMqMXs iqtcM">
+      className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF">
       <a
         className="link"
         onClick={[Function]}
@@ -1170,9 +1170,9 @@ exports[`scroll`] = `
       </svg>
     </div>
     <div
-      className="sc-jWBwVP fDrbnp sc-eHgmQL fVRIcR">
+      className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg">
       <button
-        className="selected-language sc-kkGfuU kJuEIE"
+        className="selected-language sc-ckVGcZ cUFhzl"
         onClick={[Function]}>
         FI
         <svg
