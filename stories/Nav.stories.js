@@ -169,7 +169,7 @@ stories.addWithJSX('mobile', () => {
     />
   </MenuMobile>);
 
-  return (<NavMobile logo={logo} menu={menu} >
+  return (<NavMobile logo={logo} menu={menu} visible>
     {icons.map(icon =>
     (<NavItem
       key={icon[1]}

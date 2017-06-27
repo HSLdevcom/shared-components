@@ -2,10 +2,10 @@ exports[`default`] = `
 <div
   className="sc-frDJqD cUekHk">
   <header
-    className="sc-Rmtcm gwGgYM sc-gipzik itAbHX">
+    className="sc-Rmtcm gwGgYM sc-gipzik YJJGH">
     <span />
     <nav
-      className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ">
+      className="sc-kgoBCf kVSTZj sc-chPdSV iCfNhU">
       <span
         className="logo sc-dnqmqq bDsesi">
         <svg
@@ -445,7 +445,7 @@ exports[`default`] = `
     <div
       className="sc-csuQGl cnzoEw" />
     <nav
-      className="visible sc-jlyJG bbyJzT sc-jAaTju cFBAxM">
+      className="sc-jlyJG bbyJzT sc-jAaTju ecidjj">
       <div
         className="sc-jDwBTQ kDZOga">
         <span
@@ -731,7 +731,7 @@ exports[`default`] = `
 
 exports[`mobile`] = `
 <nav
-  className="sc-jlyJG bbyJzT sc-jAaTju cFBAxM">
+  className="sc-jlyJG bbyJzT sc-jAaTju ecidjj">
   <div
     className="sc-jDwBTQ kDZOga">
     <span
@@ -910,7 +910,7 @@ exports[`nav item`] = `
 
 exports[`only title`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ">
+  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
@@ -937,7 +937,7 @@ exports[`only title`] = `
 
 exports[`scroll`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ">
+  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY">
   <span
     className="logo sc-dnqmqq bDsesi">
     <svg
