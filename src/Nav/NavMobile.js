@@ -169,7 +169,7 @@ class Nav extends React.PureComponent {
   }
 
   render() {
-    return (<StyledNav className={this.props.className}>
+    return (<StyledNav className={this.props.className} innerRef={this.props.navRef}>
       <TopBar>
         <Span className="logo">
           { this.props.logo }
@@ -219,7 +219,8 @@ Nav.propTypes = {
   className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
-  children: PropTypes.node,
+  navRef: PropTypes.func,
+  children: PropTypes.node
 };
 
 export default styled(Nav)``;

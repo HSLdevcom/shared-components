@@ -116,9 +116,10 @@ const Nav = ({
   className,
   logo,
   menu,
+  navRef,
   scroll,
   children }) =>
-    (<StyledNav className={className} scroll={scroll}>
+    (<StyledNav className={className} scroll={scroll} innerRef={navRef}>
       <Span className="logo">
         { logo }
       </Span>
@@ -140,6 +141,7 @@ Nav.propTypes = {
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
   scroll: PropTypes.bool,
+  navRef: PropTypes.func,
   children: PropTypes.node
 };
 
