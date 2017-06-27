@@ -45,23 +45,23 @@ const StyledNav = styled.nav`
 
   .menu-enter {
     overflow: hidden;
-    max-height: 0rem;
+    max-height: 0vh;
   }
 
   .menu-enter.menu-enter-active {
     overflow: hidden;
-    max-height: 75rem;
+    max-height: 100vh;
     transition: max-height .25s ease-in;
   }
 
   .menu-leave {
     overflow: hidden;
-    max-height: 75rem;
+    max-height: 100vh;
   }
 
   .menu-leave.menu-leave-active {
     overflow: hidden;
-    max-height: 0rem;
+    max-height: 0vh;
     transition: max-height .25s ease-in;
   }
 
@@ -121,12 +121,45 @@ const TopIcons = Flex.extend`
     width: 2rem;
   }
 `;
+const MenuWrapper = Flex.extend`
+  position: absolute;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: stretch;
+  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  .menu {
+    ${props => (props.height && `height: ${props.height || 0}px;`)}
+  }
+
+`;
 
 class Nav extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { open: false };
+    this.state = { open: false, menuHeight: 0 };
     this.toggleMenu = this.toggleMenu.bind(this);
+    this.onResize = this.onResize.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.onResize, true);
+    this.onResize();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize, true);
+  }
+
+  onResize() {
+    if (!this.menuWrapper) {
+      return;
+    }
+    this.setState({
+      menuHeight: document.body.scrollHeight -
+        this.menuWrapper.getBoundingClientRect().top -
+        window.pageYOffset
+    });
   }
 
   toggleMenu() {
@@ -153,20 +186,27 @@ class Nav extends React.PureComponent {
           </ButtonNoStyle>
         </TopIcons>}
       </TopBar>
-      <CSSTransitionGroup
-        transitionName="menu"
-        transitionEnterTimeout={250}
-        transitionLeaveTimeout={250}
+      {/* eslint-disable no-return-assign */}
+      <MenuWrapper
+        height={this.props.menu && this.state.menuHeight}
+        innerRef={x => this.menuWrapper = x}
       >
-        { this.props.menu && this.state.open && React.cloneElement(
-          this.props.menu,
-          { className: cx(this.props.menu.props.className, 'menu'),
-            items: addClass(this.props.children, 'nav-item'),
-          },
-          addClass(this.props.menu.props.children, 'menu-item')
-          )
-        }
-      </CSSTransitionGroup>
+        {/* eslint-enable no-return-assign */}
+        <CSSTransitionGroup
+          transitionName="menu"
+          transitionEnterTimeout={250}
+          transitionLeaveTimeout={250}
+        >
+          { this.props.menu && this.state.open && React.cloneElement(
+            this.props.menu,
+            { className: cx(this.props.menu.props.className, 'menu'),
+              items: addClass(this.props.children, 'nav-item'),
+            },
+            addClass(this.props.menu.props.children, 'menu-item')
+            )
+          }
+        </CSSTransitionGroup>
+      </MenuWrapper>
     </StyledNav>);
   }
 }
