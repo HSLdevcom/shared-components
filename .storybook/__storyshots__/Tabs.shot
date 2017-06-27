@@ -1,6 +1,6 @@
 exports[`default`] = `
 <div
-  className="sc-ksYbfQ ksazEK">
+  className="sc-ksYbfQ LEWSK">
   <div
     className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
     <div
@@ -11,7 +11,7 @@ exports[`default`] = `
         onClick={undefined}>
         <span
           className="sc-dnqmqq bDsesi">
-          Inactive
+          First
         </span>
       </div>
       <div
@@ -20,7 +20,16 @@ exports[`default`] = `
         onClick={undefined}>
         <span
           className="sc-dnqmqq bDsesi">
-          Active
+          Second
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT UBLRj"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Third
         </span>
       </div>
       <div
@@ -35,7 +44,7 @@ exports[`default`] = `
     </div>
     <div
       className="sc-bdVaJa bDWFJH">
-      Content of active tab
+      Content of the second tab
     </div>
   </div>
 </div>
@@ -43,7 +52,7 @@ exports[`default`] = `
 
 exports[`one item`] = `
 <div
-  className="sc-ksYbfQ ksazEK">
+  className="sc-ksYbfQ LEWSK">
   <div
     className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
     <div
@@ -68,7 +77,7 @@ exports[`one item`] = `
 
 exports[`rounded`] = `
 <div
-  className="sc-ksYbfQ ksazEK">
+  className="sc-ksYbfQ LEWSK">
   <div
     className="sc-TOsTZ kjYrri sc-cHGsZl bjiDuV">
     <div
@@ -79,7 +88,7 @@ exports[`rounded`] = `
         onClick={undefined}>
         <span
           className="sc-dnqmqq bDsesi">
-          Inactive
+          First
         </span>
       </div>
       <div
@@ -88,7 +97,16 @@ exports[`rounded`] = `
         onClick={undefined}>
         <span
           className="sc-dnqmqq bDsesi">
-          Active
+          Second
+        </span>
+      </div>
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT dsvEkW"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Third
         </span>
       </div>
       <div
@@ -103,7 +121,7 @@ exports[`rounded`] = `
     </div>
     <div
       className="sc-bdVaJa bDWFJH">
-      Content of active tab
+      Content of the second tab
     </div>
   </div>
 </div>
