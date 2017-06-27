@@ -6,7 +6,7 @@ exports[`default`] = `
     <div
       className="sc-iwsKbI hAZHJM">
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT dQSqxe"
+        className="sc-cJSrbW dLwzxs sc-kgAjT UBLRj"
         disabled={undefined}
         onClick={undefined}>
         <span
@@ -15,7 +15,7 @@ exports[`default`] = `
         </span>
       </div>
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT dMsALQ"
+        className="sc-cJSrbW dLwzxs sc-kgAjT gbqgFZ"
         disabled={undefined}
         onClick={undefined}>
         <span
@@ -24,12 +24,37 @@ exports[`default`] = `
         </span>
       </div>
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT kwpQPu"
+        className="sc-cJSrbW dLwzxs sc-kgAjT eqNkah"
         disabled={true}
         onClick={undefined}>
         <span
           className="sc-dnqmqq bDsesi">
           Disabled
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa bDWFJH">
+      Content of active tab
+    </div>
+  </div>
+</div>
+`;
+
+exports[`one item`] = `
+<div
+  className="sc-ksYbfQ ksazEK">
+  <div
+    className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
+    <div
+      className="sc-iwsKbI hAZHJM">
+      <div
+        className="sc-cJSrbW dLwzxs sc-kgAjT gbqgFZ"
+        disabled={undefined}
+        onClick={undefined}>
+        <span
+          className="sc-dnqmqq bDsesi">
+          Active
         </span>
       </div>
     </div>
@@ -49,7 +74,7 @@ exports[`rounded`] = `
     <div
       className="sc-iwsKbI hAZHJM">
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT dQSqxe"
+        className="sc-cJSrbW dLwzxs sc-kgAjT dsvEkW"
         disabled={undefined}
         onClick={undefined}>
         <span
@@ -58,7 +83,7 @@ exports[`rounded`] = `
         </span>
       </div>
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT dMsALQ"
+        className="sc-cJSrbW dLwzxs sc-kgAjT fOQkcJ"
         disabled={undefined}
         onClick={undefined}>
         <span
@@ -67,7 +92,7 @@ exports[`rounded`] = `
         </span>
       </div>
       <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT kwpQPu"
+        className="sc-cJSrbW dLwzxs sc-kgAjT boEEX"
         disabled={true}
         onClick={undefined}>
         <span

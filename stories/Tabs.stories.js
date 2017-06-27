@@ -38,3 +38,11 @@ stories.addWithJSX('rounded', () => (
     </Tabs>
   </StyledDiv>)
 );
+
+stories.addWithJSX('one item', () => (
+  <StyledDiv>
+    <Tabs index={0}>
+      <Tab header="Active">Content of active tab</Tab>
+    </Tabs>
+  </StyledDiv>)
+);

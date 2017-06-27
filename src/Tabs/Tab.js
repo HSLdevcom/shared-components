@@ -9,8 +9,12 @@ const StyledDiv = Div.extend`
   background: #EEF1F3;
   border-right: solid 1px #CFCFCF;
   border-bottom: solid 1px #CFCFCF;
+  &:first-child {
+    ${props => props.rounded && 'border-radius: 6px 0 0 0;'}
+  }
   &:last-child {
     border-right: none;
+    ${props => props.rounded && 'border-radius: 0 6px 0 0;'}
   }
   ${props => props.active && `
     border-bottom: 1px solid transparent;
@@ -42,9 +46,16 @@ const Tabs = ({
   className,
   active,
   action,
-  disabled
+  disabled,
+  rounded
 }) => (
-  <StyledDiv className={className} onClick={action} active={active} disabled={disabled}>
+  <StyledDiv
+    className={className}
+    onClick={action}
+    active={active}
+    disabled={disabled}
+    rounded={rounded}
+  >
     <Span>{ header }</Span>
   </StyledDiv>
 )
@@ -56,7 +67,8 @@ Tabs.propTypes = {
   className: PropTypes.string,
   active: PropTypes.bool,
   action: PropTypes.func,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  rounded: PropTypes.bool
 };
 
 export default styled(Tabs)``;

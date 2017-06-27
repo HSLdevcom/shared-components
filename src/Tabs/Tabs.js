@@ -20,7 +20,7 @@ const Tabs = ({
     <Flex>
       { React.Children.toArray(children).map((child, i) => React.cloneElement(
           child,
-          { active: index === i })
+          { active: index === i, rounded })
         )
       }
     </Flex>
@@ -36,7 +36,7 @@ Tabs.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
-  ]),
+  ]).isRequired,
   className: PropTypes.string,
   rounded: PropTypes.bool
 };
