@@ -1,10 +1,10 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf } from '@kadira/storybook';
+import { setAddon, storiesOf } from '@storybook/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs } from '@kadira/storybook-addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 
 import { List, ListItem } from '../src';
 
