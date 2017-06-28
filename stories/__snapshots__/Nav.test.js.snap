@@ -5,11 +5,11 @@ exports[`Storyshots Nav default 1`] = `
   className="sc-jqCOkK cyjMks"
 >
   <header
-    className="sc-gisBJw kDlVKO sc-caSCKo ionThC"
+    className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
   >
     <span />
     <nav
-      className="sc-iRbamj blSEcj sc-gPEVay rOrET"
+      className="sc-bRBYWo ccSRck sc-Rmtcm hCPabk"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -223,7 +223,8 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-jDwBTQ dWtMUn sc-jAaTju eyWOy"
+        className="child sc-csuQGl CQhxV sc-gipzik dMIjfW"
+        open={false}
       >
         <button
           className="sc-bxivhb gRAuFd"
@@ -565,13 +566,13 @@ exports[`Storyshots Nav default 1`] = `
       </div>
     </nav>
     <div
-      className="sc-fAjcbJ kDXhjv"
+      className="sc-TOsTZ ewOFfi"
     />
     <nav
-      className="sc-eqIVtm kRufpp sc-jhAzac lkVVhp"
+      className="sc-cHGsZl bHiaRe sc-fAjcbJ dzxcKw"
     >
       <div
-        className="sc-fBuWsC ksWupM"
+        className="sc-caSCKo dEXXuK"
       >
         <span
           className="logo sc-dnqmqq bDsesi"
@@ -595,7 +596,7 @@ exports[`Storyshots Nav default 1`] = `
           </svg>
         </span>
         <div
-          className="sc-fMiknA hqSrRX"
+          className="sc-gisBJw bhbYnd"
         >
           <div
             className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -726,7 +727,7 @@ exports[`Storyshots Nav default 1`] = `
         </div>
       </div>
       <div
-        className="sc-dVhcbM bFJnNt"
+        className="sc-kjoXOD SBiUD"
         height={0}
       >
         <span />
@@ -888,10 +889,10 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-eqIVtm kRufpp sc-jhAzac lkVVhp"
+  className="sc-cHGsZl bHiaRe sc-fAjcbJ dzxcKw"
 >
   <div
-    className="sc-fBuWsC ksWupM"
+    className="sc-caSCKo dEXXuK"
   >
     <span
       className="logo sc-dnqmqq bDsesi"
@@ -915,7 +916,7 @@ exports[`Storyshots Nav mobile 1`] = `
       </svg>
     </span>
     <div
-      className="sc-fMiknA hqSrRX"
+      className="sc-gisBJw bhbYnd"
     >
       <div
         className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -1046,7 +1047,7 @@ exports[`Storyshots Nav mobile 1`] = `
     </div>
   </div>
   <div
-    className="sc-dVhcbM bFJnNt"
+    className="sc-kjoXOD SBiUD"
     height={0}
   >
     <span />
@@ -1112,7 +1113,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-iRbamj blSEcj sc-gPEVay dMsQJC"
+  className="sc-bRBYWo ccSRck sc-Rmtcm idaXVy"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1145,7 +1146,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-iRbamj blSEcj sc-gPEVay dMsQJC"
+  className="sc-bRBYWo ccSRck sc-Rmtcm idaXVy"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1310,7 +1311,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="menu sc-gipzik iyhjGb sc-jlyJG bYfBOl"
+    className="menu sc-jhAzac hmXDXQ sc-hzDkRC bOSvdK"
   >
     <div
       className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"

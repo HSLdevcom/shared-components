@@ -29,6 +29,8 @@ const StyledDiv = Div.extend`
     > ${ButtonNoStyle} {
       align-self: flex-start;
     }
+    ${props.open && `background-color: ${props.theme.primaryText};`}
+    ${props.open && `color: ${props.theme.primary};`}
   `)};
 `;
 
@@ -68,7 +70,11 @@ class DropdownMenu extends React.PureComponent {
   render() {
     /* eslint-disable no-return-assign */
     return (
-      <StyledDiv className={this.props.className} innerRef={x => this.node = x} >
+      <StyledDiv
+        className={this.props.className}
+        innerRef={x => this.node = x}
+        open={this.state.open}
+      >
         {/* eslint-enable no-return-assign */}
         <ButtonNoStyle onClick={this.toggleDropdown}>
           <NavItem

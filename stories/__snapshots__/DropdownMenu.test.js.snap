@@ -6,7 +6,8 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-jDwBTQ dWtMUn sc-jAaTju eyWOy"
+    className="sc-csuQGl CQhxV sc-gipzik dMIjfW"
+    open={false}
   >
     <button
       className="sc-bxivhb gRAuFd"
