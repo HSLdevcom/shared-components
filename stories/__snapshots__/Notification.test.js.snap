@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Notification Error 1`] = `
+<button
+  className="sc-htpNat dFpKTM"
+  onClick={[Function]}
+>
+  Primary Button
+</button>
+`;
+
+exports[`Storyshots Notification Success 1`] = `
+<div>
+  <div
+    className="undefined sc-kgAjT jCJqhC"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="icon"
+      />
+      <div
+        className="message"
+      />
+    </div>
+  </div>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Success
+  </button>
+</div>
+`;
