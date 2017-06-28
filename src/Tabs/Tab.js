@@ -45,13 +45,13 @@ const Tabs = ({
   children, // eslint-disable-line no-unused-vars
   className,
   active,
-  action,
+  onClick,
   disabled,
   rounded
 }) => (
   <StyledDiv
     className={className}
-    onClick={action}
+    onClick={onClick}
     active={active}
     disabled={disabled}
     rounded={rounded}
@@ -66,7 +66,7 @@ Tabs.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   active: PropTypes.bool,
-  action: PropTypes.func,
+  onClick: PropTypes.func,
   disabled: PropTypes.bool,
   rounded: PropTypes.bool
 };

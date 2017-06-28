@@ -30,10 +30,10 @@ stories.addWithJSX('default', () => {
   return (
     <StyledDiv>
       <Tabs index={index}>
-        <Tab action={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab action={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab action={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab action={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab onClick={action('tab clicked')} header="First">Content of the first tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Second">Content of the second tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Third">Content of the third tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
       </Tabs>
     </StyledDiv>);
 });
@@ -49,10 +49,10 @@ stories.addWithJSX('rounded', () => {
   return (
     <StyledDiv>
       <Tabs index={index} rounded>
-        <Tab action={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab action={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab action={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab action={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab onClick={action('tab clicked')} header="First">Content of the first tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Second">Content of the second tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Third">Content of the third tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
       </Tabs>
     </StyledDiv>);
 });
@@ -60,7 +60,7 @@ stories.addWithJSX('rounded', () => {
 stories.addWithJSX('one item', () => (
   <StyledDiv>
     <Tabs index={0}>
-      <Tab action={action('tab clicked')} header="Active">Content of active tab</Tab>
+      <Tab onClick={action('tab clicked')} header="Active">Content of active tab</Tab>
     </Tabs>
   </StyledDiv>)
 );
