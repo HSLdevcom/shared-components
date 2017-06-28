@@ -17,24 +17,26 @@ const StyledDiv = Div.extend`
 `;
 
 const StyledFlex = Flex.extend`
+  font-size: 1.1rem;
   background: ${props => props.theme.background};
   justify-content: space-between;
   padding: 2.5rem 1rem 2.5rem 10rem;
+  ${props => (
+  props.theme.Media &&
+  props.theme.Media.large`
+  padding: 2.5rem 1rem 2.5rem 7rem;
+  font-size: 1rem;
+`)};
+${props => (
+  props.theme.Media &&
+  props.theme.Media.medium`
+  padding: 2.5rem 1rem 2.5rem 4rem;
+`)};
   align-items: flex-start;
   > * {
     max-width: ${props => 100 / (Number(props.childrenCount) || 1)}%;
     &:last-child {
       width: ${Width.large};
-      ${props => (
-        props.theme.Media &&
-        props.theme.Media.large`
-        width: ${Width.medium};
-      `)};
-      ${props => (
-        props.theme.Media &&
-        props.theme.Media.medium`
-        width: ${Width.small};
-      `)};
     }
   }
 `;
