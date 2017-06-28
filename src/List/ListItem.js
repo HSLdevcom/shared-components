@@ -10,9 +10,9 @@ const ListItem = styled.li`
     props.theme.Media &&
     props.theme.Media.small`
     text-indent: initial;
-    padding: 0;
     margin: 0;
     font-size: 100%;
+    padding: 1.5rem 0 0 1rem;
   `)}
 `;
 

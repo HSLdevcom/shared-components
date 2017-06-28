@@ -31,6 +31,9 @@ const StyledDiv = Div.extend`
     }
     ${props.open && `background-color: ${props.theme.primaryText};`}
     ${props.open && `color: ${props.theme.primary};`}
+    ${ButtonNoStyle} {
+      ${props.open && 'border-bottom: 1px solid #cccccc;'}
+    }
   `)};
 `;
 

@@ -8,6 +8,8 @@ import IconWithText from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
   white-space: normal;
+  font-size: 1rem;
+  padding: 1.5rem 2rem;
   ${List} {
     color: #000000;
   }
@@ -17,9 +19,16 @@ const StyledDiv = Div.extend`
   }
 
   ${IconWithText} {
+    padding: 0 !important;
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
     .icon {
       display: none;
     }
+  }
+  > *:not(:last-child) {
+    margin-bottom: 2rem;
   }
 `;
 

@@ -10,6 +10,11 @@ const Header = Div.extend``;
 const StyledDiv = Div.extend`
   ${Header} {
     margin-bottom: 1.25rem;
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.small`
+      margin-bottom: 0;
+    `)}
   }
   ${Ul} {
     padding: 0;
@@ -31,6 +36,7 @@ const StyledDiv = Div.extend`
       props.theme.Media.small`
       li::before {
         content: "";
+        padding-right: 0;
       }
     `)}
 
