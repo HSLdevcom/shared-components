@@ -2,7 +2,7 @@
 
 exports[`Storyshots IconWithText default 1`] = `
 <div
-  className="sc-frDJqD bYGTQV sc-fjdhpX fNCIal"
+  className="sc-jqCOkK jZtgxf sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -32,7 +32,7 @@ exports[`Storyshots IconWithText default 1`] = `
 
 exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 <div
-  className="sc-hqyNC dZuCud sc-fjdhpX fNCIal"
+  className="sc-bbmXgH dlPGRu sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -77,7 +77,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 
 exports[`Storyshots IconWithText with inner & outer fill 1`] = `
 <div
-  className="sc-kvZOFW gCncJW sc-fjdhpX fNCIal"
+  className="sc-uJMKN haTJGe sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
