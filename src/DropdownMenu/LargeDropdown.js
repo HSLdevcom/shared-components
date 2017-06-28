@@ -6,6 +6,8 @@ import Div from '../Div';
 import { Flex } from '../Wrapper';
 import Mask from './Mask';
 import { Width } from '../Menu/Menu';
+// we want to use same width for menu and last-child of dropdownmenu,
+// so that their icons align
 
 const StyledDiv = Div.extend`
   border-top: 1px solid black;
@@ -38,6 +40,25 @@ ${props => (
     &:last-child {
       width: ${Width.large};
     }
+    svg {
+      height: 2.5rem;
+    }
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+        svg {
+          height: 2.25rem;
+        }
+      `
+    )}
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.medium`
+        svg {
+          height: 1.75rem;
+        }
+      `
+    )}
   }
 `;
 

@@ -46,6 +46,9 @@ const StyledNav = styled.nav`
         justify-content: center;
       }
     }
+    svg {
+      height: 2.5rem;
+    }
     ${props => (
       props.theme.Media &&
       props.theme.Media.large`
