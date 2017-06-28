@@ -1,9 +1,6 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf } from '@storybook/react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { withKnobs, color, number, text, select } from '@storybook/addon-knobs';
 
 import { IconWithText } from '../src';

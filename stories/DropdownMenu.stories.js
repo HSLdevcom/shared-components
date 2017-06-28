@@ -2,7 +2,6 @@ import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
-
 import { DropdownMenu, IconWithText } from '../src';
 import { Cog } from '../src/Icons';
 

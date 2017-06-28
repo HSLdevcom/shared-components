@@ -1,9 +1,6 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { setAddon, storiesOf } from '@storybook/react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { action } from '@storybook/addon-actions';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 
 import { PageTitleBar } from '../src';

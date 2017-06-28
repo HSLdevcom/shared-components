@@ -12,7 +12,14 @@ import { Flex } from '../Wrapper';
 import { Menu } from '../Icons';
 import { ButtonNoStyle } from '../Button/Button';
 
+export const Height = '64px';
+
 const StyledNav = styled.nav`
+  transition: top .20s ease-in;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: ${props => (props.visible ? 0 : `-${Height}`)};
   svg {
     fill: currentColor;
   }
@@ -91,7 +98,7 @@ const StyledNav = styled.nav`
 
 const TopBar = Flex.extend`
   align-items: center;
-  height: 64px;
+  height: ${Height};
 `;
 
 const TopIcons = Flex.extend`
@@ -169,7 +176,11 @@ class Nav extends React.PureComponent {
   }
 
   render() {
-    return (<StyledNav className={this.props.className} innerRef={this.props.navRef}>
+    return (<StyledNav
+      className={this.props.className}
+      innerRef={this.props.navRef}
+      visible={this.props.visible}
+    >
       <TopBar>
         <Span className="logo">
           { this.props.logo }
@@ -220,7 +231,8 @@ Nav.propTypes = {
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
   navRef: PropTypes.func,
-  children: PropTypes.node
+  children: PropTypes.node,
+  visible: PropTypes.bool.isRequired
 };
 
 export default styled(Nav)``;
