@@ -1,8 +1,0 @@
-exports[`default`] = `
-<div
-  className="sc-bwzfXH gXRUvk">
-  <p>
-    Some content
-  </p>
-</div>
-`;
