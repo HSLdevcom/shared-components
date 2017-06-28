@@ -8,14 +8,18 @@ import NavMobile, { Height } from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
 import Div from '../Div';
 
+const NavMobileSpace = Div.extend`
+  height: ${Height};
+`;
+
 const Header = styled.header`
-  ${NavMobile} {
+  ${NavMobile}, ${NavMobileSpace} {
     display: none;
   }
   ${props => (
     props.theme.Media &&
     props.theme.Media.small`
-    ${NavMobile} {
+    ${NavMobile}, ${NavMobileSpace} {
       display: block;
     }
     ${NavDesktop} {
@@ -23,10 +27,6 @@ const Header = styled.header`
     }
     `
   )}
-`;
-
-const NavMobileSpace = Div.extend`
-  height: ${Height};
 `;
 
 class Nav extends React.PureComponent {

@@ -2,7 +2,7 @@ exports[`default`] = `
 <div
   className="sc-frDJqD cUekHk">
   <header
-    className="sc-Rmtcm gwGgYM sc-gipzik YJJGH">
+    className="sc-Rmtcm gwGgYM sc-csuQGl fETolO">
     <span />
     <nav
       className="sc-kgoBCf kVSTZj sc-chPdSV iCfNhU">
@@ -443,7 +443,7 @@ exports[`default`] = `
       </div>
     </nav>
     <div
-      className="sc-csuQGl cnzoEw" />
+      className="sc-gipzik iqSzmI" />
     <nav
       className="sc-jlyJG bbyJzT sc-jAaTju ecidjj">
       <div
