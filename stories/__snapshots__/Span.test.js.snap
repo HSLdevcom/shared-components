@@ -1,4 +1,6 @@
-exports[`default`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Span default 1`] = `
 <div>
   <span>
     Some other text 
@@ -10,7 +12,8 @@ exports[`default`] = `
         "color": "Black",
         "display": "inline",
       }
-    }>
+    }
+  >
     Sample text
   </span>
 </div>

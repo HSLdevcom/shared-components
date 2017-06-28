@@ -33,7 +33,8 @@
       "functions": "ignore"
     }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", "never"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.stories.js", "**/*.test.js"]}]
   },
   "globals": {
   },

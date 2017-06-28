@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { configure, addDecorator } from '@kadira/storybook';
+import { configure, addDecorator } from '@storybook/react';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import Theme from './../themes/themes.hsl';

@@ -1,10 +1,10 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf } from '@kadira/storybook';
+import { setAddon, storiesOf } from '@storybook/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, color, number } from '@kadira/storybook-addon-knobs';
+import { withKnobs, color, number } from '@storybook/addon-knobs';
 
 import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo,
          Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu,

@@ -1,10 +1,8 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf, action } from '@kadira/storybook';
-// eslint-disable-next-line import/no-extraneous-dependencies
+import { setAddon, storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, number } from '@kadira/storybook-addon-knobs';
+import { withKnobs, number } from '@storybook/addon-knobs';
 
 import { Tabs, Tab, Div } from '../src';
 import { Cog } from '../src/Icons';
