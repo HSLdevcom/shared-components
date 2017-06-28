@@ -49,6 +49,13 @@ const StyledDiv = Div.extend`
   }
 `;
 
+StyledDiv.propTypes = {
+  className: PropTypes.string,
+  active: PropTypes.bool,
+  disabled: PropTypes.bool,
+  rounded: PropTypes.bool
+};
+
 const Tabs = ({
   header,
   children, // eslint-disable-line no-unused-vars

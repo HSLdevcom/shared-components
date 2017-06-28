@@ -10,6 +10,11 @@ const StyledDiv = Div.extend`
   ${props => props.rounded && 'border-radius: 6px;'}
 `;
 
+StyledDiv.propTypes = {
+  className: PropTypes.string,
+  rounded: PropTypes.bool
+};
+
 const Tabs = ({
   index,
   children,
