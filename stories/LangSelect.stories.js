@@ -1,10 +1,8 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf, action } from '@kadira/storybook';
-// eslint-disable-next-line import/no-extraneous-dependencies
+import { setAddon, storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select } from '@kadira/storybook-addon-knobs';
+import { withKnobs, select } from '@storybook/addon-knobs';
 
 import { LangSelect, LangSelectSmall } from '../src';
 
@@ -15,7 +13,7 @@ stories.addDecorator(withKnobs);
 
 stories.addWithJSX('default', () => {
   const options = {
-    fi: 'FI',
+    fi: 'FIn',
     sv: 'SV',
     en: 'EN',
   };
@@ -30,7 +28,7 @@ stories.addWithJSX('default', () => {
 
 stories.addWithJSX('small', () => {
   const options = {
-    fi: 'FI',
+    fi: 'FIn',
     sv: 'SV',
     en: 'EN',
   };

@@ -1,10 +1,7 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf } from '@kadira/storybook';
-// eslint-disable-next-line import/no-extraneous-dependencies
+import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs } from '@kadira/storybook-addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 
 import { DropdownMenu, IconWithText } from '../src';
 import { Cog } from '../src/Icons';

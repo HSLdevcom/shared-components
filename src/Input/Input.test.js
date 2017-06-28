@@ -3,7 +3,7 @@ import React from 'react';
 import {
   renderIntoDocument,
   scryRenderedDOMComponentsWithTag
-} from 'react-addons-test-utils';
+} from 'react-dom/test-utils';
 import { expect } from 'chai';
 import Input from '../../src/Input/Input';
 

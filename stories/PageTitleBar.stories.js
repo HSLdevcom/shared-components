@@ -1,8 +1,8 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf } from '@kadira/storybook';
+import { setAddon, storiesOf } from '@storybook/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { action } from '@kadira/storybook-addon-actions';
+import { action } from '@storybook/addon-actions';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import JSXAddon from 'storybook-addon-jsx';
 

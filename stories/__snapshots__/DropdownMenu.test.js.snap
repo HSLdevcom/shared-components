@@ -1,53 +1,68 @@
-exports[`default`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DropdownMenu default 1`] = `
 <div>
   <p>
     This is always visible
   </p>
   <div
-    className="sc-brqgnP SqPLV sc-bdVaJa bDWFJH">
+    className="sc-brqgnP SqPLV sc-bdVaJa bDWFJH"
+  >
     <button
       className="sc-bxivhb gRAuFd"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <div
-        className="sc-kAzzGY jHprQs sc-cSHVUG jCgigM">
+        className="sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+      >
         <a
-          className="link sc-chPdSV byfFmt">
+          className="link sc-chPdSV byfFmt"
+        >
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi foLCCt">
+            className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
+          >
             <div
-              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal">
+              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
+            >
               <span
                 aria-hidden="true"
-                className="icon sc-jTzLTM iEjgub">
+                className="icon sc-jTzLTM iEjgub"
+              >
                 <svg
                   fill={undefined}
                   height="2.5rem"
                   preserveAspectRatio="xMidYMid meet"
                   version="1.1"
                   viewBox="-5 0 48 10"
-                  width="2.5rem">
+                  width="2.5rem"
+                >
                   <g
-                    id="Group">
+                    id="Group"
+                  >
                     <circle
                       cx="5"
                       cy="5"
                       id="Oval"
-                      r="5" />
+                      r="5"
+                    />
                     <circle
                       cx="19"
                       cy="5"
                       id="Oval"
-                      r="5" />
+                      r="5"
+                    />
                     <circle
                       cx="33"
                       cy="5"
                       id="Oval"
-                      r="5" />
+                      r="5"
+                    />
                   </g>
                 </svg>
               </span>
               <span
-                className="text sc-dnqmqq bDsesi">
+                className="text sc-dnqmqq bDsesi"
+              >
                 Lisää
               </span>
             </div>
