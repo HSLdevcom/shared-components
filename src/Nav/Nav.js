@@ -2,54 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
-import cx from 'classnames';
 
 import NavDesktop from './NavDesktop';
-import NavMobile from './NavMobile';
+import NavMobile, { Height } from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
 import Div from '../Div';
 
+const NavMobileSpace = Div.extend`
+  height: ${Height};
+`;
+
 const Header = styled.header`
-  ${NavMobile} {
+  ${NavMobile}, ${NavMobileSpace} {
     display: none;
-    transition: top .20s ease-in;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: -64px;
-    &.visible {
-      top: 0;
-    }
-  }
-  ${NavDesktop} {
-    &.scroll {
-      position: fixed;
-      width: 100%;
-      top:0;
-      left:0;
-      &.scroll-enter {
-        top: -5rem; // scroll nav height is 4rem
-      }
-
-      &.scroll-enter.scroll-enter-active {
-        top: 0rem;
-        transition: top .35s ease-in;
-      }
-
-      &.scroll-leave {
-        top: 0rem;
-      }
-
-      &.scroll-leave.scroll-leave-active {
-        top: -5rem;
-        transition: top .35s ease-in;
-      }
-    }
   }
   ${props => (
     props.theme.Media &&
     props.theme.Media.small`
-    ${NavMobile} {
+    ${NavMobile}, ${NavMobileSpace} {
       display: block;
     }
     ${NavDesktop} {
@@ -57,10 +27,6 @@ const Header = styled.header`
     }
     `
   )}
-`;
-
-const StyledDiv = Div.extend`
-  height: 64px;
 `;
 
 class Nav extends React.PureComponent {
@@ -123,7 +89,6 @@ class Nav extends React.PureComponent {
           transitionLeaveTimeout={350}
         >
           { this.props.menu && this.state.desktopScrollNav && <NavDesktop
-            className="scroll"
             scroll
             logo={this.props.logo}
             menu={
@@ -153,9 +118,9 @@ class Nav extends React.PureComponent {
         >
           {this.props.children}
         </NavDesktop>
-        <StyledDiv />
+        <NavMobileSpace />
         <NavMobile
-          className={cx({ visible: this.state.mobileNavVisible })}
+          visible={this.state.mobileNavVisible}
           logo={this.props.logo}
           navRef={x => this.mobileNav = x}
           menu={this.props.menu &&

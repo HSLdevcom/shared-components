@@ -5,11 +5,11 @@ exports[`Storyshots Nav default 1`] = `
   className="sc-hmzhuo vaEbD"
 >
   <header
-    className="sc-Rmtcm gwGgYM sc-gipzik itAbHX"
+    className="sc-Rmtcm gwGgYM sc-csuQGl fETolO"
   >
     <span />
     <nav
-      className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ"
+      className="sc-kgoBCf kVSTZj sc-chPdSV iCfNhU"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -558,10 +558,10 @@ exports[`Storyshots Nav default 1`] = `
       </div>
     </nav>
     <div
-      className="sc-csuQGl cnzoEw"
+      className="sc-gipzik iqSzmI"
     />
     <nav
-      className="visible sc-jlyJG bbyJzT sc-jAaTju cFBAxM"
+      className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
     >
       <div
         className="sc-jDwBTQ kDZOga"
@@ -881,7 +881,7 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-jlyJG bbyJzT sc-jAaTju cFBAxM"
+  className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
 >
   <div
     className="sc-jDwBTQ kDZOga"
@@ -1105,7 +1105,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ"
+  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1138,7 +1138,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV eQnwKJ"
+  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
