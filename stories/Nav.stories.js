@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { setAddon, storiesOf, action } from '@kadira/storybook';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { withKnobs, select, boolean } from '@kadira/storybook-addon-knobs';
-// eslint-disable-next-line import/no-extraneous-dependencies
+import { setAddon, storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
+import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 import JSXAddon from 'storybook-addon-jsx';
 
 import { Menu, MenuSmall, MenuMobile, MenuItem,

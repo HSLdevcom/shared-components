@@ -1,6 +1,0 @@
-exports[`default`] = `
-<input
-  className="sc-ifAKCX gWPDfa"
-  placeholder="placeholder"
-  type="text" />
-`;
