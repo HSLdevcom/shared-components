@@ -6,6 +6,7 @@ import Div from '../Div';
 import Span from '../Span';
 
 const StyledDiv = Div.extend`
+  cursor: pointer;
   background: #EEF1F3;
   border-right: solid 1px #CFCFCF;
   border-bottom: solid 1px #CFCFCF;
@@ -24,6 +25,14 @@ const StyledDiv = Div.extend`
   border-top: none;
   flex: 1;
   > ${Span} {
+    > * {
+      display: flex;
+      align-items: center;
+      svg {
+        padding-right: 1rem;
+        fill: currentColor;
+      }
+    }
     color: #017AC9;
     font-size: 1.1rem;
     text-transform: uppercase;

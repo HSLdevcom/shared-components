@@ -7,6 +7,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, number } from '@kadira/storybook-addon-knobs';
 
 import { Tabs, Tab, Div } from '../src';
+import { Cog } from '../src/Icons';
 
 setAddon(JSXAddon);
 
@@ -64,3 +65,30 @@ stories.addWithJSX('one item', () => (
     </Tabs>
   </StyledDiv>)
 );
+
+stories.addWithJSX('with icon', () => {
+  const options = {
+    range: true,
+    min: 0,
+    max: 1,
+    step: 1,
+  };
+  const index = number('Index', 0, options);
+  return (
+    <StyledDiv>
+      <Tabs index={index} rounded>
+        <Tab
+          onClick={action('tab clicked')}
+          header={<span><Cog height="1.5rem" width="1.5rem" /> First</span>}
+        >
+          Content of the first tab
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header={<span><Cog height="1.5rem" width="1.5rem" /> Second</span>}
+        >
+          Content of the second tab
+        </Tab>
+      </Tabs>
+    </StyledDiv>);
+});
