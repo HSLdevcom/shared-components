@@ -280,10 +280,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-hmzhuo cXPVgs"
+  className="sc-hqyNC exubsk"
 >
   <div
-    className="sc-ksYbfQ gsqBAe sc-kpOJdX RNCId"
+    className="sc-kvZOFW fPlyWS sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -336,7 +336,7 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-gPEVay eQYmiW sc-jDwBTQ ejlqXe"
+  className="sc-gipzik iyhjGb sc-jlyJG bYfBOl"
 >
   <div
     className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -488,13 +488,13 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-cJSrbW jGwvXZ sc-jlyJG kQqUKX"
+  className="sc-frDJqD ccVSqb sc-Rmtcm iiWlOd"
 >
   <div
-    className="sc-iRbamj fivTnR"
+    className="sc-csuQGl ceLljh"
   />
   <div
-    className="sc-gipzik cLBybZ"
+    className="sc-bRBYWo gBXwOC"
   >
     <div
       className="sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
@@ -540,7 +540,7 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-iRbamj fivTnR"
+    className="sc-csuQGl ceLljh"
   />
   <div
     className="children sc-iwsKbI hAZHJM"

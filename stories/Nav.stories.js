@@ -59,7 +59,7 @@ const Dropdown = (
     text="Lisää"
     textPosition="Bottom"
   >
-    { DropdownContent.map(x => x) }
+    { DropdownContent }
   </DropdownMenu>
 );
 

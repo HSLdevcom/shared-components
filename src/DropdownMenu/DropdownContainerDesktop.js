@@ -62,7 +62,7 @@ ${props => (
   }
 `;
 
-const Dropdown = ({
+const DropdownContainer = ({
   top,
   className,
   children }) => (
@@ -74,10 +74,10 @@ const Dropdown = ({
     </StyledDiv>
     );
 
-Dropdown.propTypes = {
+DropdownContainer.propTypes = {
   top: PropTypes.number.isRequired,
   className: PropTypes.string,
   children: PropTypes.node
 };
 
-export default styled(Dropdown)``;
+export default styled(DropdownContainer)``;

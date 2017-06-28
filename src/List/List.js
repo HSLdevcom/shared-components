@@ -26,6 +26,14 @@ const StyledDiv = Div.extend`
       content: "○";
       color: ${props => props.theme.listItemMarker};
     }
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.small`
+      li::before {
+        content: "";
+      }
+    `)}
+
   }
 `;
 

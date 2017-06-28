@@ -1,6 +1,7 @@
 import DropdownMenu from './DropdownMenu';
-import LargeDropdown from './LargeDropdown';
+import DropdownContainerDesktop from './DropdownContainerDesktop';
+import DropdownContainerMobile from './DropdownContainerMobile';
 
 export default DropdownMenu;
 
-export { LargeDropdown };
+export { DropdownContainerDesktop, DropdownContainerMobile };

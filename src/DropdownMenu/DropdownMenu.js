@@ -5,11 +5,32 @@ import styled from 'styled-components';
 import { ButtonNoStyle } from '../Button/Button';
 import Div from '../Div';
 import A from '../Anchor';
-import LargeDropdown from './LargeDropdown';
+import DropdownContainerDesktop from './DropdownContainerDesktop';
+import DropdownContainerMobile from './DropdownContainerMobile';
 import { NavItem } from '../Nav';
 import { More } from '../Icons';
 
 const Icon = <More height="2.5rem" width="2.5rem" />;
+
+const StyledDiv = Div.extend`
+  ${DropdownContainerMobile} {
+    display: none;
+  }
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.small`
+    ${DropdownContainerDesktop} {
+      display: none;
+    }
+    ${DropdownContainerMobile} {
+      display: block;
+    }
+    flex-direction: column;
+    > ${ButtonNoStyle} {
+      align-self: flex-start;
+    }
+  `)};
+`;
 
 class DropdownMenu extends React.PureComponent {
   constructor(props) {
@@ -47,7 +68,7 @@ class DropdownMenu extends React.PureComponent {
   render() {
     /* eslint-disable no-return-assign */
     return (
-      <Div className={this.props.className} innerRef={x => this.node = x} >
+      <StyledDiv className={this.props.className} innerRef={x => this.node = x} >
         {/* eslint-enable no-return-assign */}
         <ButtonNoStyle onClick={this.toggleDropdown}>
           <NavItem
@@ -60,9 +81,16 @@ class DropdownMenu extends React.PureComponent {
           />
         </ButtonNoStyle>
         { this.state.open &&
-          <LargeDropdown top={this.state.top}>{this.props.children}</LargeDropdown>
+          <span>
+            <DropdownContainerDesktop top={this.state.top}>
+              {this.props.children}
+            </DropdownContainerDesktop>
+            <DropdownContainerMobile>
+              {this.props.children}
+            </DropdownContainerMobile>
+          </span>
         }
-      </Div>
+      </StyledDiv>
     );
   }
 }
