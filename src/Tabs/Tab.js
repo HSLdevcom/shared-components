@@ -56,9 +56,8 @@ StyledBtn.propTypes = {
   rounded: PropTypes.bool
 };
 
-const Tabs = ({
+const Tab = ({
   header,
-  children, // eslint-disable-line no-unused-vars
   className,
   active,
   onClick,
@@ -77,9 +76,10 @@ const Tabs = ({
 )
 ;
 
-Tabs.propTypes = {
+Tab.propTypes = {
   header: PropTypes.node.isRequired,
-  children: PropTypes.node.isRequired,
+  // Validate the presence of children. Children is used in Tabs component
+  children: PropTypes.node.isRequired, // eslint-disable-line react/no-unused-prop-types
   className: PropTypes.string,
   active: PropTypes.bool,
   onClick: PropTypes.func,
@@ -87,4 +87,4 @@ Tabs.propTypes = {
   rounded: PropTypes.bool
 };
 
-export default styled(Tabs)``;
+export default styled(Tab)``;
