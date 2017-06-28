@@ -61,7 +61,6 @@
     "eslint-plugin-react": "^6.9.0",
     "eslint-watch": "^2.1.14",
     "jest": "^20.0.4",
-    "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.6.1",
     "storybook-addon-jsx": "^4.1.1"
   }
