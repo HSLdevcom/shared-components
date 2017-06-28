@@ -5,42 +5,42 @@ exports[`default`] = `
     className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
     <div
       className="sc-iwsKbI hAZHJM">
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT inPGck"
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT gAVdMk"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           First
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT brZCcA"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT lasyon"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Second
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT inPGck"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT gAVdMk"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Third
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT Yokyd"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT jsibEm"
         disabled={true}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Disabled
         </span>
-      </div>
+      </button>
     </div>
     <div
       className="sc-bdVaJa bDWFJH">
@@ -57,15 +57,15 @@ exports[`one item`] = `
     className="sc-TOsTZ kjYrri sc-cHGsZl cIlnlJ">
     <div
       className="sc-iwsKbI hAZHJM">
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT brZCcA"
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT lasyon"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Active
         </span>
-      </div>
+      </button>
     </div>
     <div
       className="sc-bdVaJa bDWFJH">
@@ -82,42 +82,42 @@ exports[`rounded`] = `
     className="sc-TOsTZ kjYrri sc-cHGsZl bjiDuV">
     <div
       className="sc-iwsKbI hAZHJM">
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT iAMSYC"
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT jlFRxx"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           First
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT gGIgwN"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT hdMFah"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Second
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT iAMSYC"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT jlFRxx"
         disabled={undefined}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Third
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT cSlMrM"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT iogkYq"
         disabled={true}
         onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Disabled
         </span>
-      </div>
+      </button>
     </div>
     <div
       className="sc-bdVaJa bDWFJH">
@@ -134,8 +134,8 @@ exports[`with icon`] = `
     className="sc-TOsTZ kjYrri sc-cHGsZl bjiDuV">
     <div
       className="sc-iwsKbI hAZHJM">
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT gGIgwN"
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT hdMFah"
         disabled={undefined}
         onClick={[Function]}>
         <span
@@ -161,9 +161,9 @@ exports[`with icon`] = `
              First
           </span>
         </span>
-      </div>
-      <div
-        className="sc-cJSrbW dLwzxs sc-kgAjT iAMSYC"
+      </button>
+      <button
+        className="sc-cJSrbW dLwzxs sc-kgAjT jlFRxx"
         disabled={undefined}
         onClick={[Function]}>
         <span
@@ -189,7 +189,7 @@ exports[`with icon`] = `
              Second
           </span>
         </span>
-      </div>
+      </button>
     </div>
     <div
       className="sc-bdVaJa bDWFJH">

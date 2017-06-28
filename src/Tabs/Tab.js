@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from '../Div';
+import { ButtonNoStyle } from '../Button/Button';
 import Span from '../Span';
 
-const StyledDiv = Div.extend`
+const StyledBtn = ButtonNoStyle.extend`
   cursor: pointer;
   background: #EEF1F3;
   border-right: solid 1px #CFCFCF;
@@ -49,7 +49,7 @@ const StyledDiv = Div.extend`
   }
 `;
 
-StyledDiv.propTypes = {
+StyledBtn.propTypes = {
   className: PropTypes.string,
   active: PropTypes.bool,
   disabled: PropTypes.bool,
@@ -65,7 +65,7 @@ const Tabs = ({
   disabled,
   rounded
 }) => (
-  <StyledDiv
+  <StyledBtn
     className={className}
     onClick={onClick}
     active={active}
@@ -73,7 +73,7 @@ const Tabs = ({
     rounded={rounded}
   >
     <Span>{ header }</Span>
-  </StyledDiv>
+  </StyledBtn>
 )
 ;
 
