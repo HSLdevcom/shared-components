@@ -8,7 +8,7 @@ exports[`default`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT UBLRj"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           First
@@ -17,7 +17,7 @@ exports[`default`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT gbqgFZ"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Second
@@ -26,7 +26,7 @@ exports[`default`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT UBLRj"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Third
@@ -35,7 +35,7 @@ exports[`default`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT eqNkah"
         disabled={true}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Disabled
@@ -60,7 +60,7 @@ exports[`one item`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT gbqgFZ"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Active
@@ -85,7 +85,7 @@ exports[`rounded`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT dsvEkW"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           First
@@ -94,7 +94,7 @@ exports[`rounded`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT fOQkcJ"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Second
@@ -103,7 +103,7 @@ exports[`rounded`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT dsvEkW"
         disabled={undefined}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Third
@@ -112,7 +112,7 @@ exports[`rounded`] = `
       <div
         className="sc-cJSrbW dLwzxs sc-kgAjT boEEX"
         disabled={true}
-        onClick={undefined}>
+        onClick={[Function]}>
         <span
           className="sc-dnqmqq bDsesi">
           Disabled
