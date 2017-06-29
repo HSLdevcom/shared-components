@@ -96,46 +96,48 @@ const StyledNav = styled.nav`
       `
     )}
   }
-  ${props => props.scroll && `
-    position: fixed;
-    width: 100%;
-    top:0;
-    left:0;
-    height: ${props.theme.scrollNavHeight || '3.75rem'};
-    padding: 0;
-    > .logo {
-      padding-left: 1.5rem;
-      svg {
-        height: 2rem;
+  &.scroll {
+    ${props => props.scroll && `
+      position: fixed;
+      width: 100%;
+      top:0;
+      left:0;
+      height: ${props.theme.scrollNavHeight || '3.75rem'};
+      padding: 0;
+      > .logo {
+        padding-left: 1.5rem;
+        svg {
+          height: 2rem;
+        }
+        margin-right: 2.5rem;
+        ${props.theme.Media &&
+          props.theme.Media.large`
+            margin-right: 1.5rem;
+          `}
+        ${props.theme.Media &&
+          props.theme.Media.medium`
+            margin-right: 0.75rem;
+          `}
       }
-      margin-right: 2.5rem;
-      ${props.theme.Media &&
-        props.theme.Media.large`
-          margin-right: 1.5rem;
-        `}
-      ${props.theme.Media &&
-        props.theme.Media.medium`
-          margin-right: 0.75rem;
-        `}
-    }
-    &.scroll-enter {
-      top: -5rem; // scroll nav height is 4rem
-    }
+      &.scroll-enter {
+        top: -5rem; // scroll nav height is 4rem
+      }
 
-    &.scroll-enter.scroll-enter-active {
-      top: 0rem;
-      transition: top .35s ease-in;
-    }
+      &.scroll-enter.scroll-enter-active {
+        top: 0rem;
+        transition: top .35s ease-in;
+      }
 
-    &.scroll-leave {
-      top: 0rem;
-    }
+      &.scroll-leave {
+        top: 0rem;
+      }
 
-    &.scroll-leave.scroll-leave-active {
-      top: -5rem;
-      transition: top .35s ease-in;
-    }
-  `}
+      &.scroll-leave.scroll-leave-active {
+        top: -5rem;
+        transition: top .35s ease-in;
+      }
+    `}
+  }
 `;
 
 const Nav = ({
@@ -145,7 +147,11 @@ const Nav = ({
   navRef,
   scroll,
   children }) =>
-    (<StyledNav className={className} scroll={scroll} innerRef={navRef}>
+    (<StyledNav
+      className={cx(className, { scroll })}
+      scroll={scroll}
+      innerRef={navRef}
+    >
       <Span className="logo">
         { logo }
       </Span>
