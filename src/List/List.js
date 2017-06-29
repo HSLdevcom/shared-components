@@ -14,6 +14,7 @@ const StyledDiv = Div.extend`
       props.theme.Media &&
       props.theme.Media.small`
       margin-bottom: 0;
+      padding-left: 2rem;
     `)}
   }
   ${Ul} {

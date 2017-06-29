@@ -12,7 +12,7 @@ const ListItem = styled.li`
     text-indent: initial;
     margin: 0;
     font-size: 100%;
-    padding: 1.5rem 0 0 1rem;
+    padding: 1.5rem 0 0 3rem;
   `)}
 `;
 

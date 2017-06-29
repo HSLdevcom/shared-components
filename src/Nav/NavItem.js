@@ -7,6 +7,10 @@ import { Activatable } from '../Wrapper';
 import IconWithText from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
+  > .link {
+    display: flex;
+    flex: 1;
+  }
   ${IconWithText} {
     .icon {
       ${props => (

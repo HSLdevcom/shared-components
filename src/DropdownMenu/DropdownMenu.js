@@ -26,9 +26,6 @@ const StyledDiv = Div.extend`
       display: block;
     }
     flex-direction: column;
-    > ${ButtonNoStyle} {
-      align-self: flex-start;
-    }
     ${props.open && `background-color: ${props.theme.primaryText};`}
     ${props.open && `color: ${props.theme.primary};`}
     ${ButtonNoStyle} {

@@ -9,17 +9,16 @@ import IconWithText from '../IconWithText/IconWithText';
 const StyledDiv = Div.extend`
   white-space: normal;
   font-size: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 0;
   ${List} {
     color: #000000;
   }
-
   ${ListItem} {
     color: ${props => props.theme.primary};
   }
 
   ${IconWithText} {
-    padding: 0 !important;
+    padding: 0 2rem !important;
     &:not(:last-child) {
       margin-bottom: 1.5rem;
     }

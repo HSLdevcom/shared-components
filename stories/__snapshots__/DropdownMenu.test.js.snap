@@ -14,7 +14,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
       onClick={[Function]}
     >
       <div
-        className="sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link sc-chPdSV byfFmt"

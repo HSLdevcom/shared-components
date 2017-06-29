@@ -33,7 +33,7 @@ exports[`Storyshots Nav default 1`] = `
         </svg>
       </span>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -82,7 +82,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -123,7 +123,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -168,7 +168,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -231,7 +231,7 @@ exports[`Storyshots Nav default 1`] = `
           onClick={[Function]}
         >
           <div
-            className="sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+            className="sc-kAzzGY jHprQs sc-cSHVUG biczzM"
           >
             <a
               className="link sc-chPdSV byfFmt"
@@ -1060,7 +1060,7 @@ exports[`Storyshots Nav nav item 1`] = `
   className="sc-gGBfsJ hESkmM"
 >
   <div
-    className="sc-bbmXgH hptSoi sc-cSHVUG jCgigM"
+    className="sc-bbmXgH hptSoi sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -1170,7 +1170,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </svg>
   </span>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
@@ -1211,7 +1211,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
@@ -1256,7 +1256,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
