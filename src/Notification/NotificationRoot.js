@@ -81,25 +81,31 @@ class NotificationRoot extends Component {
     EE.on('clean', this.cleanWithAnimation);
     EE.on('cleanNow', this.cleanWithoutAnimation);
   }
-  componentWillReceiveProps(nextProps) {
-    if (!_.isEmpty(nextProps.notification)) {
+  componentWillReceiveProps() {
+    this.notificationBar.style.maxHeight = 0;
+    if (this.timerId) {
+      clearTimeout(this.timerId);
+    }
+  }
+  componentDidUpdate(prevProps) {
+    if (
+      !_.isEmpty(this.props.notification) &&
+      !_.isEqual(this.props.notification, prevProps.notification)
+    ) {
       window.scrollTo(0, 0);
       this.notificationBar.animate(
         [
           { maxHeight: '0' },
-          { maxHeight: '100vh' }
+          { maxHeight: `${this.notificationBar.scrollHeight}px` }
         ], {
           fill: 'forwards',
-          duration: 800
+          duration: 100
         }
       );
-    }
-    if (this.timerId) {
-      clearTimeout(this.timerId);
-    }
-    if (nextProps.notification.timeout === true) {
-      this.timerId = _.delay(this.cleanWithAnimation,
-        _.has(nextProps.notification, 'timeoutDelay') ? nextProps.notification.timeoutDelay : this.props.timeoutDelay);
+      if (this.props.notification.timeout === true) {
+        this.timerId = _.delay(this.cleanWithAnimation,
+          _.has(this.props.notification, 'timeoutDelay') ? this.props.notification.timeoutDelay : this.props.timeoutDelay);
+      }
     }
   }
   componentWillUnmount() {
