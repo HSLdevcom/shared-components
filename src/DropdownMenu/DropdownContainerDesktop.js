@@ -68,8 +68,8 @@ const DropdownContainer = ({
   top,
   className,
   children }) => (
-    <StyledDiv className={className} top={top}>
-      <StyledFlex childrenCount={React.Children.count(children)}>
+    <StyledDiv className={className} top={top} childrenCount={React.Children.count(children)}>
+      <StyledFlex>
         { children }
       </StyledFlex>
       <Mask />
