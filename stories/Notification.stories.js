@@ -29,6 +29,23 @@ stories.addWithJSX('Error', () =>
         notification.open(
           {
             content: [
+              { type: 'title', msg: 'This is a notification' }
+            ],
+            type: 'error',
+            closeButton: true,
+            timeout: false
+          }
+        );
+      }}
+    >
+      Error title, close
+    </Button>
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'title', msg: 'Title' },
               { type: 'text', msg: 'This is a notification' }
             ],
             type: 'error',
@@ -38,13 +55,25 @@ stories.addWithJSX('Error', () =>
         );
       }}
     >
-      Error
+      Error title + text, close
     </Button>
-  </div>, { displayName: 'Notification' });
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'title', msg: 'Title' },
+              { type: 'text', msg: 'This is a notification' }
+            ],
+            type: 'success',
+            timeout: true
+          }
+        );
+      }}
+    >
+      Success title + text, timeout
+    </Button>
 
-stories.addWithJSX('Success', () =>
-  <div>
-    <NotificationRoot timeoutDelay={5000} />
     <Button
       onClick={() => {
         notification.open(
@@ -53,12 +82,79 @@ stories.addWithJSX('Success', () =>
               { type: 'text', msg: 'This is a notification' }
             ],
             type: 'success',
-            closeButton: true,
-            timeout: false
+            timeout: true,
+            timeoutDelay: 1000
           }
         );
       }}
     >
-      Success
+      Success text, custom fast timeout
+    </Button>
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'titleLink', msg: 'This is a notification', href: 'www.google.fi' }
+            ],
+            type: 'error',
+            closeButton: true
+          }
+        );
+      }}
+    >
+      Error titleLink, close
+    </Button>
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'titleLink', msg: 'This is a titlelink', href: 'www.google.fi' },
+              { type: 'text', msg: 'This is a text' },
+              { type: 'textLink', msg: 'This is a textlink', href: 'www.google.fi' }
+            ],
+            type: 'error',
+            closeButton: true
+          }
+        );
+      }}
+    >
+      Error titleLink and textLink, close
+    </Button>
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'title', msg: 'This is a title' },
+              { type: 'titleLink', msg: 'This is a titlelink', href: 'www.google.fi' },
+              { type: 'text', msg: 'This is a text' },
+              { type: 'textLink', msg: 'This is a textlink', href: 'www.google.fi' },
+              { type: 'text', msg: 'This is a text' }
+            ],
+            type: 'success',
+            closeButton: true
+          }
+        );
+      }}
+    >
+      Success everything notification, close
+    </Button>
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'title', msg: 'This is a title' },
+              { type: 'text', msg: 'This is a text' }
+            ],
+            type: 'neutral',
+            closeButton: true
+          }
+        );
+      }}
+    >
+      Neutral, close
     </Button>
   </div>, { displayName: 'Notification' });

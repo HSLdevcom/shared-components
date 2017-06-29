@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import { Checkmark, Cross, ArrowLeft, Alert } from '../Icons';
+import { Checkmark, Cross, ArrowLeft, Alert, PositionAlert } from '../Icons';
+import { Div, Span } from '../';
 import { EE } from './index';
 import * as actions from './actions';
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
@@ -35,10 +36,24 @@ const NotificationBar = UltraWideContainer.extend`
       padding: 1.5em 0;
       display: flex;
       flex-direction: column;
+      ${Span} {
+        font-weight: 300;
+        margin: 0.3em 0;
+      }
       h3 {
         margin: 0;
-        svg {
-          padding-left: 0.5em;
+        > ${Span} {
+          font-weight: 500;
+        }
+        &.link-icon svg {
+          transform: rotate(180deg);
+          padding-right: 0.5em;
+        }
+      }
+      a {
+        color: inherit;
+        &.title-link {
+          text-decoration: none;
         }
       }
     }
@@ -48,6 +63,7 @@ const NotificationBar = UltraWideContainer.extend`
         background-color: transparent;
         border: none;
         padding: 0 1em 0 0.5em;
+        font-size: 1em;
       }
     }
   }
@@ -114,20 +130,26 @@ class NotificationRoot extends Component {
       switch (contentItem.type) {
         case 'text':
           return (
-            <span key={idx}>{contentItem.msg}</span>
+            <Span key={idx}>{contentItem.msg}</Span>
+          );
+        case 'textLink':
+          return (
+            <a href={contentItem.href} className="text-link" key={idx}>
+              <Span>{contentItem.msg}</Span>
+            </a>
           );
         case 'title':
           return (
             <h3 key={idx}>
-              <span>{contentItem.msg}</span>
+              <Span>{contentItem.msg}</Span>
             </h3>
           );
-        case 'link':
+        case 'titleLink':
           return (
-            <a href={contentItem.href} key={idx}>
-              <h3>
-                <span>{contentItem.msg}</span>
-                <ArrowLeft className="type-icon" fill="#fff" height="1em" />
+            <a href={contentItem.href} className="title-link" key={idx}>
+              <h3 className="link-icon">
+                <Span>{contentItem.msg}</Span>
+                <ArrowLeft fill="#fff" height="0.8em" />
               </h3>
             </a>
           );
@@ -139,36 +161,38 @@ class NotificationRoot extends Component {
     const renderTypeIcon = (type) => {
       switch (type) {
         case 'success':
-          return <Checkmark fill={{ inner: '#fff', outer: '#4ea700' }} height="1em" />;
+          return <Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
         case 'error':
           return <Alert fill="#fff" height="1em" />;
+        case 'neutral':
+          return <PositionAlert height="1em" />;
         default:
           return null;
       }
     };
 
     const renderCloseButton = () =>
-      <div className="close-button">
+      <Div className="close-button">
         <button onClick={this.cleanWithAnimation}>
-          <Cross fill="#fff" height="1em" />
+          <Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
         </button>
-      </div>;
+      </Div>;
     return (
       <NotificationBar
         innerRef={ref => (this.notificationBar = ref)}
         className={`${notification.type}`}
       >
-        <div className="content">
-          <div className="icon">
+        <Div className="content">
+          <Div className="icon">
             {renderTypeIcon(notification.type)}
-          </div>
-          <div className="message">
+          </Div>
+          <Div className="message">
             {notification.content && notification.content.map((contentItem, idx) =>
               renderNotificationMessage(contentItem, idx)
             )}
-          </div>
+          </Div>
           {notification.closeButton && renderCloseButton()}
-        </div>
+        </Div>
       </NotificationBar>
     );
   }
