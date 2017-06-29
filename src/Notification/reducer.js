@@ -1,13 +1,12 @@
 import { OPEN_NOTIFICATION, CLEAN_NOTIFICATIONS } from './types';
 
-const initialState = {
-  notification: {}
-};
+const initialState = {};
 
 export default function(state = initialState, action) {
   switch (action.type) {
     case OPEN_NOTIFICATION: {
-      return { notification: action.notification };
+      const newState = { ...state, notification: action.notification };
+      return newState;
     }
     case CLEAN_NOTIFICATIONS: {
       return initialState;
