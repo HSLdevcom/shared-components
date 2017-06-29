@@ -40,14 +40,10 @@ const NotificationBar = UltraWideContainer.extend`
       display: flex;
       flex-direction: column;
       ${Span} {
-        font-weight: 300;
         margin: 0.3em 0;
       }
       h3 {
         margin: 0;
-        > ${Span} {
-          font-weight: 500;
-        }
         &.link-icon svg {
           transform: rotate(180deg);
           padding-right: 0.5em;
@@ -85,10 +81,7 @@ class NotificationRoot extends Component {
     EE.on('cleanNow', this.cleanWithoutAnimation);
   }
   componentWillReceiveProps() {
-    this.notificationBar.style.maxHeight = 0;
-    if (this.timerId) {
-      clearTimeout(this.timerId);
-    }
+    this.clearPreviousNotification();
   }
   componentDidUpdate(prevProps) {
     if (
@@ -117,8 +110,15 @@ class NotificationRoot extends Component {
     EE.removeListener('clean');
     EE.removeListener('cleanNow');
   }
+  clearPreviousNotification() {
+    this.notificationBar.style.maxHeight = 0;
+    if (this.timerId) {
+      clearTimeout(this.timerId);
+    }
+  }
   cleanWithoutAnimation() {
     if (!_.isEmpty(this.props.notification)) {
+      this.clearPreviousNotification();
       this.props.clean();
     }
   }
@@ -133,7 +133,10 @@ class NotificationRoot extends Component {
           duration: 100
         }
       );
-      _.delay(() => this.props.clean(), 100);
+      _.delay(() => {
+        this.clearPreviousNotification();
+        this.props.clean()
+      }, 100);
     }
   }
 
@@ -162,7 +165,7 @@ class NotificationRoot extends Component {
           return (
             <a href={contentItem.href} className="title-link" key={idx}>
               <h3 className="link-icon">
-                <Span>{contentItem.msg}</Span>
+                {contentItem.msg}
                 <ArrowLeft fill="#fff" height="0.8em" />
               </h3>
             </a>
