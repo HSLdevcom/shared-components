@@ -99,7 +99,8 @@ class NotificationRoot extends Component {
           { maxHeight: `${this.notificationBar.scrollHeight}px` }
         ], {
           fill: 'forwards',
-          duration: 100
+          easing: 'cubic-bezier(0.39, 0.575, 0.565, 1)',
+          duration: 200
         }
       );
       if (this.props.notification.timeout === true) {
