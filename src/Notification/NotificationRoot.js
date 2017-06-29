@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import { connect } from 'react-redux';
 import _ from 'lodash';
 import { Checkmark, Cross, ArrowLeft, Alert, PositionAlert } from '../Icons';
 import { Div, Span } from '../';
-import { EE } from './index';
-import * as actions from './actions';
+import { emitter as EE } from './notification';
+import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
+
 const renderNotificationMessage = (contentItem, idx) => {
   switch (contentItem.type) {
     case 'text':
@@ -50,8 +50,6 @@ const renderTypeIcon = (type) => {
       return null;
   }
 };
-
-import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
 
 const NotificationBar = UltraWideContainer.extend`
   max-height: 0;
@@ -113,7 +111,7 @@ const NotificationBar = UltraWideContainer.extend`
   }
   `;
 
-class NotificationRoot extends Component {
+export default class NotificationRoot extends Component {
   constructor(props) {
     super(props);
     this.timerId = null;
@@ -222,5 +220,3 @@ NotificationRoot.propTypes = {
   clean: PropTypes.func.isRequired,
   timeoutDelay: PropTypes.number.isRequired
 };
-const mapStateToProps = state => ({ notification: state.notification });
-export default connect(mapStateToProps, actions)(NotificationRoot);
