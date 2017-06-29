@@ -34,7 +34,7 @@ const StyledDiv = Div.extend`
   `)};
 `;
 
-class DropdownMenu extends React.PureComponent {
+class DropdownMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = { open: false, top: 0 };

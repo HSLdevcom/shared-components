@@ -9,6 +9,8 @@ import { Width } from '../Menu/Menu';
 // we want to use same width for menu and last-child of dropdownmenu,
 // so that their icons align
 
+const StyledFlex = Flex.extend``;
+
 const StyledDiv = Div.extend`
   border-top: 1px solid ${props => props.theme.menuBorder};
   position: absolute;
@@ -16,49 +18,49 @@ const StyledDiv = Div.extend`
   right: 0;
   top: ${props => props.top}px;
   white-space: normal;
-`;
 
-const StyledFlex = Flex.extend`
-  font-size: 1.1rem;
-  background: ${props => props.theme.background};
-  justify-content: space-between;
-  padding: 2.5rem 1rem 2.5rem 10rem;
+  ${StyledFlex} {
+    font-size: 1.1rem;
+    background: ${props => props.theme.background};
+    justify-content: space-between;
+    padding: 2.5rem 1rem 2.5rem 10rem;
+    ${props => (
+    props.theme.Media &&
+    props.theme.Media.large`
+    padding: 2.5rem 1rem 2.5rem 7rem;
+    font-size: 1rem;
+  `)};
   ${props => (
-  props.theme.Media &&
-  props.theme.Media.large`
-  padding: 2.5rem 1rem 2.5rem 7rem;
-  font-size: 1rem;
-`)};
-${props => (
-  props.theme.Media &&
-  props.theme.Media.medium`
-  padding: 2.5rem 1rem 2.5rem 4rem;
-`)};
-  align-items: flex-start;
-  > * {
-    max-width: ${props => 100 / (Number(props.childrenCount) || 1)}%;
-    &:last-child {
-      width: ${Width.large};
+    props.theme.Media &&
+    props.theme.Media.medium`
+    padding: 2.5rem 1rem 2.5rem 4rem;
+  `)};
+    align-items: flex-start;
+    > * {
+      max-width: ${props => 100 / (Number(props.childrenCount) || 1)}%;
+      &:last-child {
+        width: ${Width.large};
+      }
+      svg {
+        height: 2.5rem;
+      }
+      ${props => (
+        props.theme.Media &&
+        props.theme.Media.large`
+          svg {
+            height: 2.25rem;
+          }
+        `
+      )}
+      ${props => (
+        props.theme.Media &&
+        props.theme.Media.medium`
+          svg {
+            height: 1.75rem;
+          }
+        `
+      )}
     }
-    svg {
-      height: 2.5rem;
-    }
-    ${props => (
-      props.theme.Media &&
-      props.theme.Media.large`
-        svg {
-          height: 2.25rem;
-        }
-      `
-    )}
-    ${props => (
-      props.theme.Media &&
-      props.theme.Media.medium`
-        svg {
-          height: 1.75rem;
-        }
-      `
-    )}
   }
 `;
 

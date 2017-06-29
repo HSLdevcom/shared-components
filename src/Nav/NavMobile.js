@@ -145,7 +145,7 @@ const MenuWrapper = Flex.extend`
 
 `;
 
-class Nav extends React.PureComponent {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = { menuOpen: false, menuHeight: 0 };
