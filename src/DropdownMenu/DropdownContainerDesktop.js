@@ -10,7 +10,7 @@ import { Width } from '../Menu/Menu';
 // so that their icons align
 
 const StyledDiv = Div.extend`
-  border-top: 1px solid black;
+  border-top: 1px solid ${props => props.theme.menuBorder};
   position: absolute;
   left: 0;
   right: 0;
