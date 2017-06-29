@@ -4,15 +4,32 @@ import styled from 'styled-components';
 
 import { ButtonNoStyle } from '../Button/Button';
 import Div from '../Div';
+import Span from '../Span';
 import A from '../Anchor';
 import DropdownContainerDesktop from './DropdownContainerDesktop';
 import DropdownContainerMobile from './DropdownContainerMobile';
 import { NavItem } from '../Nav';
-import { More } from '../Icons';
+import { More, ArrowDown } from '../Icons';
 
 const Icon = <More height="2.5rem" width="2.5rem" />;
+const Arrow = <ArrowDown height="0.5rem" width="0.75rem" />;
 
 const StyledDiv = Div.extend`
+  ${NavItem} ${ButtonNoStyle} ${Span} svg {
+    padding-left: 0.5rem;
+    height: 0.5rem;
+    width: 0.75rem;
+    #arrow {
+      transition: transform .25s linear;
+      transform-origin: center;
+      transform: rotate(0deg);
+    }
+    ${props => props.open && `
+      #arrow {
+        transform: rotate(-180deg);
+      }
+    `}
+  }
   ${DropdownContainerMobile} {
     display: none;
   }
@@ -80,7 +97,7 @@ class DropdownMenu extends React.Component {
           <NavItem
             link={<A />}
             icon={Icon}
-            text={this.props.text}
+            text={<Span>{this.props.text}{Arrow}</Span>}
             textPosition={this.props.textPosition}
             active={this.props.active}
             small={this.props.small}

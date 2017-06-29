@@ -44,7 +44,10 @@ const NavItem = ({
 NavItem.propTypes = {
   link: PropTypes.node.isRequired,
   icon: PropTypes.node.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node
+  ]).isRequired,
   textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   active: PropTypes.bool,
   small: PropTypes.bool,

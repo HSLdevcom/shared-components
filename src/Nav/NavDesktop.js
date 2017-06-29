@@ -35,7 +35,7 @@ const StyledNav = styled.nav`
     align-items: stretch;
     margin: 0 1.5rem;
   }
-  ${NavItem}, ${DropdownMenu} ${NavItem} {
+  ${NavItem} {
     display: flex;
     align-items: stretch;
     font-size: 1.1rem;
