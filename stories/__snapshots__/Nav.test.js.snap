@@ -2,14 +2,14 @@
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-hMFtBS iTAyoS"
+  className="sc-cQFLBn bPSwhm"
 >
   <header
     className="sc-Rmtcm gwGgYM sc-csuQGl fETolO"
   >
     <span />
     <nav
-      className="sc-kgoBCf kVSTZj sc-chPdSV iCfNhU"
+      className="sc-kgoBCf kVSTZj sc-chPdSV jsJEPX"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -1049,10 +1049,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-hORach epbWuD"
+  className="sc-bXGyLb pfIUK"
 >
   <div
-    className="sc-gqPbQI bPFHE sc-cSHVUG jCgigM"
+    className="sc-daURTG cyDZko sc-cSHVUG jCgigM"
   >
     <a
       className="link"
@@ -1105,7 +1105,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY"
+  className="sc-kgoBCf kVSTZj scroll sc-chPdSV gqJjU"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1129,7 +1129,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-cLQEGU ipuocC"
+    className="child sc-gojNiO dKWayh"
   >
     Lataa kautta
   </span>
@@ -1138,7 +1138,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj sc-chPdSV fOXPgY"
+  className="sc-kgoBCf kVSTZj scroll sc-chPdSV gqJjU"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
