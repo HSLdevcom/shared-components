@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import { Checkmark, Cross, ArrowLeft, Info } from '../Icons';
+import { Checkmark, Cross, ArrowLeft, Alert } from '../Icons';
 import { EE } from './index';
 import * as actions from './actions';
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
@@ -141,7 +141,7 @@ class NotificationRoot extends Component {
         case 'success':
           return <Checkmark fill={{ inner: '#fff', outer: '#4ea700' }} height="1em" />;
         case 'error':
-          return <Info fill="#fff" height="1em" />;
+          return <Alert fill="#fff" height="1em" />;
         default:
           return null;
       }

@@ -1,4 +1,5 @@
 import AddCard from './AddCard';
+import Alert from './Alert';
 import ArrowDown from './ArrowDown';
 import ArrowLeft from './ArrowLeft';
 import CardOrder from './CardOrder';
@@ -23,6 +24,7 @@ import TravelCard from './TravelCard';
 
 export {
   AddCard,
+  Alert,
   ArrowDown,
   ArrowLeft,
   CardOrder,
