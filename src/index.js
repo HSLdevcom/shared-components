@@ -19,6 +19,7 @@ import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
 import { Flex, Activatable } from './Wrapper';
 import DropdownMenu from './DropdownMenu';
 import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
+import { Tab, Tabs } from './Tabs';
 
 export {
   AppHeader,
@@ -50,5 +51,7 @@ export {
   DropdownMenu,
   List,
   ListItem,
-  UltraWideContainer
+  UltraWideContainer,
+  Tab,
+  Tabs
 };
