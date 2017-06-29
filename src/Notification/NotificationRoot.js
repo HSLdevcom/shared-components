@@ -6,6 +6,51 @@ import { Checkmark, Cross, ArrowLeft, Alert, PositionAlert } from '../Icons';
 import { Div, Span } from '../';
 import { EE } from './index';
 import * as actions from './actions';
+const renderNotificationMessage = (contentItem, idx) => {
+  switch (contentItem.type) {
+    case 'text':
+      return (
+        <Span key={idx}>{contentItem.msg}</Span>
+      );
+    case 'textLink':
+      return (
+        <a href={contentItem.href} className="text-link" key={idx}>
+          <Span>{contentItem.msg}</Span>
+        </a>
+      );
+    case 'title':
+      return (
+        <h3 key={idx}>
+          <Span>{contentItem.msg}</Span>
+        </h3>
+      );
+    case 'titleLink':
+      return (
+        <a href={contentItem.href} className="title-link" key={idx}>
+          <h3 className="link-icon">
+            {contentItem.msg}
+            <ArrowLeft fill="#fff" height="0.8em" />
+          </h3>
+        </a>
+      );
+    default:
+      return null;
+  }
+};
+
+const renderTypeIcon = (type) => {
+  switch (type) {
+    case 'success':
+      return <Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
+    case 'error':
+      return <Alert fill="#fff" height="1em" />;
+    case 'neutral':
+      return <PositionAlert height="1em" />;
+    default:
+      return null;
+  }
+};
+
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
 
 const NotificationBar = UltraWideContainer.extend`
@@ -133,67 +178,23 @@ class NotificationRoot extends Component {
           duration: 100
         }
       );
-      _.delay(() => {
-        this.clearPreviousNotification();
-        this.props.clean()
-      }, 100);
+      _.delay(() => this.props.clean(), 100);
     }
+  }
+
+  renderCloseButton(notification) {
+    return (
+      <Div className="close-button">
+        <button onClick={this.cleanWithAnimation}>
+          <Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
+        </button>
+      </Div>
+    );
   }
 
   render() {
     const notification = this.props.notification;
 
-    const renderNotificationMessage = (contentItem, idx) => {
-      switch (contentItem.type) {
-        case 'text':
-          return (
-            <Span key={idx}>{contentItem.msg}</Span>
-          );
-        case 'textLink':
-          return (
-            <a href={contentItem.href} className="text-link" key={idx}>
-              <Span>{contentItem.msg}</Span>
-            </a>
-          );
-        case 'title':
-          return (
-            <h3 key={idx}>
-              <Span>{contentItem.msg}</Span>
-            </h3>
-          );
-        case 'titleLink':
-          return (
-            <a href={contentItem.href} className="title-link" key={idx}>
-              <h3 className="link-icon">
-                {contentItem.msg}
-                <ArrowLeft fill="#fff" height="0.8em" />
-              </h3>
-            </a>
-          );
-        default:
-          return null;
-      }
-    };
-
-    const renderTypeIcon = (type) => {
-      switch (type) {
-        case 'success':
-          return <Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
-        case 'error':
-          return <Alert fill="#fff" height="1em" />;
-        case 'neutral':
-          return <PositionAlert height="1em" />;
-        default:
-          return null;
-      }
-    };
-
-    const renderCloseButton = () =>
-      <Div className="close-button">
-        <button onClick={this.cleanWithAnimation}>
-          <Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
-        </button>
-      </Div>;
     return (
       <NotificationBar
         innerRef={ref => (this.notificationBar = ref)}
@@ -208,7 +209,7 @@ class NotificationRoot extends Component {
               renderNotificationMessage(contentItem, idx)
             )}
           </Div>
-          {notification.closeButton && renderCloseButton()}
+          {notification.closeButton && this.renderCloseButton(notification)}
         </Div>
       </NotificationBar>
     );
