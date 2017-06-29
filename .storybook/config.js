@@ -10,17 +10,11 @@ function loadStories() {
   req.keys().forEach(filename => req(filename));
 }
 
+
+
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    <div
-      style={{
-        fontFamily: Theme.fontFamily,
-        fontSize: Theme.fontSize,
-        fontWeight: Theme.fontWeight
-      }}
-    >
-      {story()}
-    </div>
+    {story()}
   </ThemeProvider>
 ));
 
