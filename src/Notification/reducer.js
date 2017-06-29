@@ -5,8 +5,7 @@ const initialState = {};
 export default function(state = initialState, action) {
   switch (action.type) {
     case OPEN_NOTIFICATION: {
-      const newState = { ...state, notification: action.notification };
-      return newState;
+      return action.notification;
     }
     case CLEAN_NOTIFICATIONS: {
       return initialState;

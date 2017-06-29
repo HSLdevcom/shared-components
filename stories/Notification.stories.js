@@ -1,13 +1,17 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, combineReducers } from 'redux';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 
 import { Button } from '../src';
 import NotificationRoot, { notification, reducer } from '../lib/Notification';
 
-const store = createStore(reducer, { notification: {} });
+const store = createStore(
+  combineReducers({
+    notification: reducer
+  })
+);
 
 setAddon(JSXAddon);
 
