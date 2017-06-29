@@ -3,11 +3,30 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number } from '@storybook/addon-knobs';
 
-import { AddCard, Alert, ArrowDown, ArrowLeft, CardOrder,
-        CardWithCheckmark, Checkmark, Logo, HSLLogo,
-         Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu,
-         Cog, Edit, PositionAlert
-       } from '../src/Icons';
+import {
+  AddCard,
+  Alert,
+  ArrowDown,
+  ArrowLeft,
+  CardOrder,
+  CardWithCheckmark,
+  Checkmark,
+  Cog,
+  Cross,
+  Edit,
+  HSLLogo,
+  Info,
+  JourneyPlanner,
+  Latest,
+  Logo,
+  Menu,
+  More,
+  PositionAlert,
+  Search,
+  SignIn,
+  Tickets,
+  TravelCard,
+} from '../src/Icons';
 
 setAddon(JSXAddon);
 
