@@ -16,20 +16,20 @@ setAddon(JSXAddon);
 const cog = <Cog height="2.5rem" width="2.5rem" />;
 const DropdownContent = [
   <List header="Liikkumisen palveluita" key="1">
-    <ListItem>Kaupunkipyörät</ListItem>
-    <ListItem>Pyöräparkki</ListItem>
-    <ListItem>Liityntäpysäköinti</ListItem>
-    <ListItem>Lähibussit</ListItem>
-    <ListItem>Pikaratikka</ListItem>
+    <ListItem><Link to="/test">Kaupunkipyörät</Link></ListItem>
+    <ListItem><Link to="/test">Pyöräparkki</Link></ListItem>
+    <ListItem><Link to="/test">Liityntäpysäköinti</Link></ListItem>
+    <ListItem><Link to="/test">Lähibussit</Link></ListItem>
+    <ListItem><Link to="/test">Pikaratikka</Link></ListItem>
   </List>,
   <List header="Tietoa HSL:stä" key="2">
-    <ListItem>Päätöksenteko</ListItem>
-    <ListItem>Strategia</ListItem>
-    <ListItem>Talous</ListItem>
-    <ListItem>Hankinnat</ListItem>
-    <ListItem>Julkaisut</ListItem>
-    <ListItem>HSL työpaikkana ja avoimet työpaikat</ListItem>
-    <ListItem>Viestintä</ListItem>
+    <ListItem><Link to="/test">Päätöksenteko</Link></ListItem>
+    <ListItem><Link to="/test">Strategia</Link></ListItem>
+    <ListItem><Link to="/test">Talous</Link></ListItem>
+    <ListItem><Link to="/test">Hankinnat</Link></ListItem>
+    <ListItem><Link to="/test">Julkaisut</Link></ListItem>
+    <ListItem><Link to="/test">HSL työpaikkana ja avoimet työpaikat</Link></ListItem>
+    <ListItem><Link to="/test">Viestintä</Link></ListItem>
   </List>,
   <div key="3">
     <IconWithText
