@@ -72,6 +72,7 @@ const NotificationBar = UltraWideContainer.extend`
 class NotificationRoot extends Component {
   constructor(props) {
     super(props);
+    this.timerId = null;
     this.cleanWithAnimation = this.cleanWithAnimation.bind(this);
     this.cleanWithoutAnimation = this.cleanWithoutAnimation.bind(this);
   }
@@ -93,8 +94,11 @@ class NotificationRoot extends Component {
         }
       );
     }
+    if (this.timerId) {
+      clearTimeout(this.timerId);
+    }
     if (nextProps.notification.timeout === true) {
-      _.delay(this.cleanWithAnimation,
+      this.timerId = _.delay(this.cleanWithAnimation,
         _.has(nextProps.notification, 'timeoutDelay') ? nextProps.notification.timeoutDelay : this.props.timeoutDelay);
     }
   }
