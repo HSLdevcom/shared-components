@@ -57,15 +57,24 @@ class DropdownMenu extends React.Component {
     this.state = { open: false, top: 0 };
     this.toggleDropdown = this.toggleDropdown.bind(this);
     this.onResize = this.onResize.bind(this);
+    this.onScroll = this.onScroll.bind(this);
   }
 
   componentDidMount() {
     window.addEventListener('resize', this.onResize, true);
+    document.addEventListener('scroll', this.onScroll, true);
     this.onResize();
   }
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.onResize, true);
+    document.removeEventListener('scroll', this.onScroll, true);
+  }
+
+  onScroll() {
+    if (this.state.open) {
+      this.setState({ open: false });
+    }
   }
 
   onResize() {
@@ -73,8 +82,7 @@ class DropdownMenu extends React.Component {
       return;
     }
     this.setState({
-      top: this.node.getBoundingClientRect().bottom +
-           document.body.scrollTop
+      top: this.node.getBoundingClientRect().bottom
     });
   }
 
