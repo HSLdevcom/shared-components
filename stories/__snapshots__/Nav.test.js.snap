@@ -9,7 +9,7 @@ exports[`Storyshots Nav default 1`] = `
   >
     <span />
     <nav
-      className="sc-bRBYWo ccSRck sc-Rmtcm bkwIdA"
+      className="sc-bRBYWo ccSRck sc-Rmtcm iLBlhR"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -1130,7 +1130,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-bRBYWo ccSRck scroll sc-Rmtcm fNyUgH"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1163,7 +1163,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-bRBYWo ccSRck scroll sc-Rmtcm fNyUgH"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"

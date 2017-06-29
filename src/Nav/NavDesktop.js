@@ -33,13 +33,13 @@ const StyledNav = styled.nav`
   ${DropdownMenu} {
     display: flex;
     align-items: stretch;
-    margin: 0 1.5rem;
+    margin: 0 1.25rem;
   }
   ${NavItem} {
     display: flex;
     align-items: stretch;
     font-size: 1.1rem;
-    margin: 0 1.5rem;
+    margin: 0 1.25rem;
     .link {
       display: flex;
       ${Activatable} {
