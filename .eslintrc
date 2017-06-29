@@ -18,7 +18,6 @@
     "es6": true,
     "browser": true,
     "node": true,
-    "jquery": true,
     "mocha": true
   },
   "rules": {
@@ -28,8 +27,8 @@
     "comma-dangle": ["error", {
       "arrays": "only-multiline",
       "objects": "only-multiline",
-      "imports": "never",
-      "exports": "never",
+      "imports": "only-multiline",
+      "exports": "only-multiline",
       "functions": "ignore"
     }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
