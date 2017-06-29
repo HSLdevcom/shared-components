@@ -157,4 +157,24 @@ stories.addWithJSX('Error', () =>
     >
       Neutral, close
     </Button>
+
+    <Button
+      onClick={() => {
+        notification.open(
+          {
+            content: [
+              { type: 'title', msg: 'This is a title' },
+              { type: 'titleLink', msg: 'This is a titlelink', href: 'www.google.fi' },
+              { type: 'text', msg: 'This is a text' },
+              { type: 'textLink', msg: 'This is a textlink', href: 'www.google.fi' },
+              { type: 'text', msg: 'This is a text' }
+            ],
+            type: 'neutral',
+            closeButton: true
+          }
+        );
+      }}
+    >
+      Netural everything notification, close
+    </Button>
   </div>, { displayName: 'Notification' });

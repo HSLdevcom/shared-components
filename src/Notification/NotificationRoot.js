@@ -21,6 +21,9 @@ const NotificationBar = UltraWideContainer.extend`
   &.neutral {
     background-color: #fff;
     color: #333;
+    .content .message a {
+      color: navy;
+    }
   }
   .content {
     max-width: 1100px;
