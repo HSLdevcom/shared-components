@@ -3,9 +3,10 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number } from '@storybook/addon-knobs';
 
-import { AddCard, ArrowDown, ArrowLeft, CardOrder, CardWithCheckmark, Checkmark, Logo, HSLLogo,
+import { AddCard, Alert, ArrowDown, ArrowLeft, CardOrder,
+        CardWithCheckmark, Checkmark, Logo, HSLLogo,
          Info, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu,
-         Cog, Edit
+         Cog, Edit, PositionAlert
        } from '../src/Icons';
 
 setAddon(JSXAddon);
@@ -28,6 +29,19 @@ stories.addWithJSX('AddCard', () => {
   const height = number('Height', defaultValue, options);
   return (<AddCard fill={fill} height={`${height}em`} />);
 }, { displayName: 'AddCard' });
+
+stories.addWithJSX('Alert', () => {
+  const fill = '#dc4501';
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Alert fill={fill} height={`${height}em`} />);
+}, { displayName: 'Alert' });
 
 stories.addWithJSX('ArrowDown', () => {
   const fill = color('Fill', '#007ac9');
@@ -279,3 +293,14 @@ stories.addWithJSX('TravelCard', () => {
   const height = number('Height', defaultValue, options);
   return (<TravelCard fill={fill} height={`${height}em`} />);
 }, { displayName: 'TravelCard' });
+stories.addWithJSX('PositionAlert', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<PositionAlert height={`${height}em`} />);
+}, { displayName: 'PositionAlert' });

@@ -16,6 +16,7 @@ import JourneyPlanner from './JourneyPlanner';
 import Latest from './Latest';
 import More from './More';
 import Menu from './Menu';
+import PositionAlert from './PositionAlert';
 import Search from './Search';
 import SignIn from './SignIn';
 import Tickets from './Tickets';
@@ -42,6 +43,7 @@ export {
   More,
   Menu,
   Search,
+  PositionAlert,
   SignIn,
   Tickets,
   TravelCard
