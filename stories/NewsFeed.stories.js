@@ -2,7 +2,7 @@ import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
-
+import { action } from '@storybook/addon-actions';
 import { NewsFeed, NewsFeedItem } from '../src';
 
 setAddon(JSXAddon);
@@ -13,8 +13,9 @@ const TODAY_2PM = new Date();
 TODAY_2PM.setHours(14, 0, 0, 0);
 const ONE_DAY = 86400000;
 const YESTERDAY_2PM = new Date(TODAY_2PM - ONE_DAY);
+
 stories.addWithJSX('default', () => (
-  <NewsFeed header="Header" more="Näytä lisää">
+  <NewsFeed header="Header" more={{ text: 'Näytä lisää', action: action('button clicked') }}>
     <NewsFeedItem
       category="example"
       title="example example example example"

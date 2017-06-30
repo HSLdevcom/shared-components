@@ -193,6 +193,7 @@ exports[`Storyshots NewsFeed default 1`] = `
   >
     <button
       className="show-more sc-htpNat dFpKTM"
+      onClick={[Function]}
     >
       Näytä lisää
     </button>

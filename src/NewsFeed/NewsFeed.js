@@ -29,14 +29,17 @@ const NewsFeed = ({
       { children }
     </Ul>
     <Div>
-      <Button className="show-more">{more}</Button>
+      <Button className="show-more" onClick={more.action}>{more.text}</Button>
     </Div>
   </StyledDiv>
 )
 ;
 
 NewsFeed.propTypes = {
-  more: PropTypes.string.isRequired,
+  more: PropTypes.shape({
+    text: PropTypes.string.isRequired,
+    action: PropTypes.func.isRequired
+  }),
   children: PropTypes.node,
   className: PropTypes.string
 };
