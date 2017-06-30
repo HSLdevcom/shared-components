@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import { darken, lighten } from 'polished';
 
 const Button = styled.button`
   height: auto;
@@ -26,13 +27,13 @@ const Button = styled.button`
     background-color: ${props.theme.primary};
     color: ${props.theme.primaryText};
     &:hover {
-      border-color: ${props.theme.primaryHover};
-      background-color: ${props.theme.primaryHover};
+      border-color: ${darken(0.1, props.theme.primary)};
+      background-color: ${darken(0.1, props.theme.primary)};
     }
   `}
   ${props => props.secondary && `
-    border-color: ${props.theme.secondary};
-    color: ${props.theme.secondary};
+    border-color: ${darken(0.2, props.theme.default)};
+    color: ${darken(0.2, props.theme.default)};
     &:hover {
       border-color: ${props.theme.primary};
     }
@@ -46,11 +47,11 @@ const Button = styled.button`
   `}
 
   ${props => props.disabled && props.primary && `
-    background-color: ${props.theme.defaultBackground};
-    border-color: ${props.theme.defaultBackground};
+    background-color: ${lighten(0.175, props.theme.default)};
+    border-color: ${lighten(0.175, props.theme.default)};;
     &:hover {
-      background-color: ${props.theme.defaultBackground};
-      border-color: ${props.theme.defaultBackground};
+      background-color: ${lighten(0.175, props.theme.default)};;
+      border-color: ${lighten(0.175, props.theme.default)};;
     }
   `}
 `;
