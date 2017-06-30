@@ -6218,9 +6218,9 @@ react-komposer@^2.0.0:
     react-stubber "^1.0.0"
     shallowequal "^0.2.2"
 
-react-map-gl@3.0.0-alpha.14:
-  version "3.0.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/react-map-gl/-/react-map-gl-3.0.0-alpha.14.tgz#c445232b163ca6987abfe5c40c6e066d2a5ac644"
+react-map-gl@3.0.0-alpha.15:
+  version "3.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/react-map-gl/-/react-map-gl-3.0.0-alpha.15.tgz#b2dc644ca64042a6b9d807c736f1c7f112462ff2"
   dependencies:
     bowser "^1.2.0"
     hammerjs "^2.0.8"
