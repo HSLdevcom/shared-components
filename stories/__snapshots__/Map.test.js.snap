@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Map simple 1`] = `
+<div
+  style={
+    Object {
+      "height": 600,
+      "position": "relative",
+      "width": 600,
+    }
+  }
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "height": 600,
+        "visibility": "visible",
+        "width": 600,
+      }
+    }
+  />
+  <div
+    className="overlays"
+    style={
+      Object {
+        "height": 600,
+        "left": 0,
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": 0,
+        "width": 600,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Map with extra layers 1`] = `
+<div
+  style={
+    Object {
+      "height": 600,
+      "position": "relative",
+      "width": 600,
+    }
+  }
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "height": 600,
+        "visibility": "visible",
+        "width": 600,
+      }
+    }
+  />
+  <div
+    className="overlays"
+    style={
+      Object {
+        "height": 600,
+        "left": 0,
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": 0,
+        "width": 600,
+      }
+    }
+  />
+</div>
+`;
