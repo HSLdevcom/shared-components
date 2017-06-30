@@ -8,87 +8,183 @@ exports[`Storyshots NewsFeed default 1`] = `
     className="sc-fAjcbJ byigni"
   >
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
+      className="sc-kgAjT cuzzPp sc-TOsTZ cCPEbL"
     >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Today at 2:00 PM
-      </span>
       <div
-        className="bottom sc-bdVaJa bDWFJH"
+        className="text-container sc-cHGsZl bHiaRe"
       >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/125x521"
-        />
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
       </div>
+      <img
+        alt="news image"
+        className="sc-kjoXOD hpTAeq"
+        src="https://placehold.it/125x521"
+      />
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
+      className="sc-kgAjT cuzzPp sc-TOsTZ cCPEbL"
     >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Today at 2:00 PM
-      </span>
       <div
-        className="bottom sc-bdVaJa bDWFJH"
+        className="text-container sc-cHGsZl bHiaRe"
       >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/521x125"
-        />
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
       </div>
+      <img
+        alt="news image"
+        className="sc-kjoXOD hpTAeq"
+        src="https://placehold.it/521x125"
+      />
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
+      className="sc-kgAjT cuzzPp sc-TOsTZ cCPEbL"
     >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Today at 2:00 PM
-      </span>
       <div
-        className="bottom sc-bdVaJa bDWFJH"
+        className="text-container sc-cHGsZl bHiaRe"
       >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/500x500"
-        />
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
       </div>
+      <img
+        alt="news image"
+        className="sc-kjoXOD hpTAeq"
+        src="https://placehold.it/500x500"
+      />
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
+      className="sc-kgAjT cuzzPp sc-TOsTZ cCPEbL"
     >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Yesterday at 2:00 PM
-      </span>
       <div
-        className="bottom sc-bdVaJa bDWFJH"
+        className="text-container sc-cHGsZl bHiaRe"
       >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/50x50"
-        />
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-kjoXOD hpTAeq"
+        src="https://placehold.it/50x50"
+      />
+    </li>
+    <li
+      className="sc-kgAjT cuzzPp sc-TOsTZ cCPEbL"
+    >
+      <div
+        className="text-container sc-cHGsZl bHiaRe"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
       </div>
     </li>
   </ul>

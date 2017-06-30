@@ -2,16 +2,16 @@
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-dNLxif kgjNmZ"
+  className="sc-jqCOkK gjsfoL"
 >
   <div
-    className="sc-kvZOFW eiPhbT sc-frDJqD isoJps"
+    className="sc-hqyNC keRCOE sc-kvZOFW jNLmwK"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC efRIRg"
+        className="sc-dNLxif KzmkZ sc-jbKcbu kiabJf"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -22,7 +22,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC dglfzg"
+        className="sc-dNLxif KzmkZ sc-jbKcbu eCJuBo"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -33,7 +33,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC efRIRg"
+        className="sc-dNLxif KzmkZ sc-jbKcbu kiabJf"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -44,7 +44,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC dCxSaz"
+        className="sc-dNLxif KzmkZ sc-jbKcbu kXzsde"
         disabled={true}
         onClick={[Function]}
       >
@@ -66,16 +66,16 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-dNLxif kgjNmZ"
+  className="sc-jqCOkK gjsfoL"
 >
   <div
-    className="sc-kvZOFW eiPhbT sc-frDJqD isoJps"
+    className="sc-hqyNC keRCOE sc-kvZOFW jNLmwK"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC dglfzg"
+        className="sc-dNLxif KzmkZ sc-jbKcbu eCJuBo"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -97,16 +97,16 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-dNLxif kgjNmZ"
+  className="sc-jqCOkK gjsfoL"
 >
   <div
-    className="sc-kvZOFW eiPhbT sc-frDJqD fSmkdh"
+    className="sc-hqyNC keRCOE sc-kvZOFW fKRoZE"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC lfqtOs"
+        className="sc-dNLxif KzmkZ sc-jbKcbu gHnIpe"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -117,7 +117,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC dJvfua"
+        className="sc-dNLxif KzmkZ sc-jbKcbu hAeaEH"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -128,7 +128,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC lfqtOs"
+        className="sc-dNLxif KzmkZ sc-jbKcbu gHnIpe"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -139,7 +139,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC fUPSEe"
+        className="sc-dNLxif KzmkZ sc-jbKcbu drVTaH"
         disabled={true}
         onClick={[Function]}
       >
@@ -161,16 +161,16 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-dNLxif kgjNmZ"
+  className="sc-jqCOkK gjsfoL"
 >
   <div
-    className="sc-kvZOFW eiPhbT sc-frDJqD fSmkdh"
+    className="sc-hqyNC keRCOE sc-kvZOFW fKRoZE"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC dJvfua"
+        className="sc-dNLxif KzmkZ sc-jbKcbu hAeaEH"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -203,7 +203,7 @@ exports[`Storyshots Tabs with icon 1`] = `
         </span>
       </button>
       <button
-        className="sc-jbKcbu cWSlbe sc-hqyNC lfqtOs"
+        className="sc-dNLxif KzmkZ sc-jbKcbu gHnIpe"
         disabled={undefined}
         onClick={[Function]}
       >

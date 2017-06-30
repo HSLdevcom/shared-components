@@ -6,7 +6,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-hmzhuo eRtqMp sc-ksYbfQ hBomfk"
+    className="sc-frDJqD gCEYuZ sc-hmzhuo cmDawj"
   >
     <div
       className="sc-bdVaJa bDWFJH"
@@ -179,7 +179,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
       </div>
     </div>
     <div
-      className="sc-cJSrbW dLwzxs sc-kgAjT kLIWWl"
+      className="sc-ksYbfQ jHwjmi sc-cJSrbW hfRpOG"
       height={0}
     />
   </div>

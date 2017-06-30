@@ -39,5 +39,10 @@ stories.addWithJSX('default', () => (
       timestamp={YESTERDAY_2PM}
       image="https://placehold.it/50x50"
     />
+    <NewsFeedItem
+      category="example"
+      title="example example example example"
+      timestamp={YESTERDAY_2PM}
+    />
   </NewsFeed>)
 );

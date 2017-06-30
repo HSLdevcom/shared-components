@@ -8,21 +8,36 @@ import Span from '../Span';
 
 const Image = styled.img``;
 
+const TextContainer = Div.extend``;
+
 const StyledLi = styled.li`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.25rem 1.25rem 1.75rem;
   border-bottom: 1px solid #dddddd;
-  .top {
-    font-size: 13px;
-  }
-  .bottom {
-    font-size: 28px;
+  ${TextContainer} {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-self: stretch;
+    flex-direction: column;
+    .top {
+      font-size: 13px;
+      color: ${props => props.theme.secondary};
+      .category {
+        text-transform: uppercase;
+      }
+    }
+    .bottom {
+      margin-top: 1rem;
+      padding-bottom: 0.75rem;
+      font-size: 28px;
+      color: ${props => props.theme.primary}
+    }
   }
   ${Image} {
     object-fit: contain;
-    height: 120px;
-    width: 180px;
+    height: 7.5rem;
+    width: 11.25rem;
   }
 `;
 
@@ -34,13 +49,17 @@ const NewsFeedItem = ({
   className
 }) => (
   <StyledLi className={className}>
-    <Span className="top">
-      { category } - { moment(timestamp).calendar() }
-    </Span>
-    <Div className="bottom">
-      { title }
-      <Image src={image} alt="news image" />
-    </Div>
+    <TextContainer className="text-container">
+      <Span className="top">
+        <Span className="category">{ category }</Span>
+        <Span> — </Span>
+        <Span>{ moment(timestamp).calendar() }</Span>
+      </Span>
+      <Span className="bottom">
+        { title }
+      </Span>
+    </TextContainer>
+    { image && <Image src={image} alt="news image" /> }
   </StyledLi>
 )
 ;
