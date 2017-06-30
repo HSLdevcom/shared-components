@@ -19,6 +19,7 @@ import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
 import { Flex, Activatable } from './Wrapper';
 import DropdownMenu from './DropdownMenu';
+import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
 import { Tab, Tabs } from './Tabs';
 
 export {
@@ -53,6 +54,7 @@ export {
   ListItem,
   NewsFeed,
   NewsFeedItem,
+  UltraWideContainer,
   Tab,
   Tabs
 };

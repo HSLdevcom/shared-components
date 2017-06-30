@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Notification Error 1`] = `
+<div>
+  <div
+    className="undefined sc-eilVRo bZRUva"
+  >
+    <div
+      className="content sc-uJMKN jsQhVl"
+    >
+      <div
+        className="icon sc-uJMKN jsQhVl"
+      />
+      <div
+        className="message sc-uJMKN jsQhVl"
+      />
+    </div>
+  </div>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Error title, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Error title + text, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Success title + text, timeout
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Success text, custom fast timeout
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Error titleLink, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Error titleLink and textLink, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Success everything notification, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Neutral, close
+  </button>
+  <button
+    className="sc-htpNat dFpKTM"
+    onClick={[Function]}
+  >
+    Netural everything notification, close
+  </button>
+</div>
+`;
