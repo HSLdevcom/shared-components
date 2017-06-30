@@ -12,6 +12,11 @@ const StyledDiv = Div.extend`
     padding: 0;
     list-style: none;
   }
+  ${Button}.show-more {
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
 `;
 
 const NewsFeed = ({
@@ -24,7 +29,7 @@ const NewsFeed = ({
       { children }
     </Ul>
     <Div>
-      <Button>{more}</Button>
+      <Button className="show-more">{more}</Button>
     </Div>
   </StyledDiv>
 )

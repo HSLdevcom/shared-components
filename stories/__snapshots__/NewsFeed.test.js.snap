@@ -2,7 +2,7 @@
 
 exports[`Storyshots NewsFeed default 1`] = `
 <div
-  className="sc-gisBJw kDlVKO sc-caSCKo gFwIiY"
+  className="sc-gisBJw kDlVKO sc-caSCKo gHEelq"
 >
   <ul
     className="sc-fAjcbJ byigni"
@@ -192,7 +192,7 @@ exports[`Storyshots NewsFeed default 1`] = `
     className="sc-bdVaJa bDWFJH"
   >
     <button
-      className="sc-htpNat dFpKTM"
+      className="show-more sc-htpNat dFpKTM"
     >
       Näytä lisää
     </button>
