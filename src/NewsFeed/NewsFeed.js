@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Div from '../Div';
+import Button from '../Button/Button';
 
 const Ul = styled.ul``;
 
@@ -21,6 +22,9 @@ const NewsFeed = ({
     <Ul>
       { children }
     </Ul>
+    <Div>
+      <Button>Näytä lísää</Button>
+    </Div>
   </StyledDiv>
 )
 ;

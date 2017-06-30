@@ -8,7 +8,7 @@ exports[`Storyshots NewsFeed default 1`] = `
     className="sc-fAjcbJ byigni"
   >
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
+      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
     >
       <span
         className="top sc-dnqmqq bDsesi"
@@ -29,7 +29,7 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
+      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
     >
       <span
         className="top sc-dnqmqq bDsesi"
@@ -50,7 +50,7 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
+      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
     >
       <span
         className="top sc-dnqmqq bDsesi"
@@ -71,112 +71,7 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
     </li>
     <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
-    >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Today at 2:00 PM
-      </span>
-      <div
-        className="bottom sc-bdVaJa bDWFJH"
-      >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/300x500"
-        />
-      </div>
-    </li>
-    <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
-    >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Yesterday at 2:00 PM
-      </span>
-      <div
-        className="bottom sc-bdVaJa bDWFJH"
-      >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/700x500"
-        />
-      </div>
-    </li>
-    <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
-    >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Yesterday at 2:00 PM
-      </span>
-      <div
-        className="bottom sc-bdVaJa bDWFJH"
-      >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/500x300"
-        />
-      </div>
-    </li>
-    <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
-    >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Yesterday at 2:00 PM
-      </span>
-      <div
-        className="bottom sc-bdVaJa bDWFJH"
-      >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/500x700"
-        />
-      </div>
-    </li>
-    <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
-    >
-      <span
-        className="top sc-dnqmqq bDsesi"
-      >
-        example
-         - 
-        Yesterday at 2:00 PM
-      </span>
-      <div
-        className="bottom sc-bdVaJa bDWFJH"
-      >
-        example example example example
-        <img
-          alt="news image"
-          className="sc-kjoXOD hpTAeq"
-          src="https://placehold.it/300x400"
-        />
-      </div>
-    </li>
-    <li
-      className="sc-TOsTZ kjYrri sc-cHGsZl eCdKBT"
+      className="sc-TOsTZ kjYrri sc-cHGsZl dFRBhy"
     >
       <span
         className="top sc-dnqmqq bDsesi"
@@ -197,5 +92,14 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
     </li>
   </ul>
+  <div
+    className="sc-bdVaJa bDWFJH"
+  >
+    <button
+      className="sc-htpNat dFpKTM"
+    >
+      Näytä lísää
+    </button>
+  </div>
 </div>
 `;

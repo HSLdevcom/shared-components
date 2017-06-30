@@ -9,9 +9,7 @@ import Span from '../Span';
 const Image = styled.img``;
 
 const StyledLi = styled.li`
-  &:not(:last-child) {
-    margin-bottom: 0.5rem;
-  }
+  border-bottom: 1px solid #dddddd;
   .top {
     font-size: 13px;
   }

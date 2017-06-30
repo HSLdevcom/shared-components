@@ -36,36 +36,6 @@ stories.addWithJSX('default', () => (
     <NewsFeedItem
       category="example"
       title="example example example example"
-      timestamp={TODAY_2PM}
-      image="https://placehold.it/300x500"
-    />
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
-      timestamp={YESTERDAY_2PM}
-      image="https://placehold.it/700x500"
-    />
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
-      timestamp={YESTERDAY_2PM}
-      image="https://placehold.it/500x300"
-    />
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
-      timestamp={YESTERDAY_2PM}
-      image="https://placehold.it/500x700"
-    />
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
-      timestamp={YESTERDAY_2PM}
-      image="https://placehold.it/300x400"
-    />
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
       timestamp={YESTERDAY_2PM}
       image="https://placehold.it/50x50"
     />
