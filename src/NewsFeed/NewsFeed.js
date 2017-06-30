@@ -15,6 +15,7 @@ const StyledDiv = Div.extend`
 `;
 
 const NewsFeed = ({
+  more,
   children,
   className
 }) => (
@@ -23,13 +24,14 @@ const NewsFeed = ({
       { children }
     </Ul>
     <Div>
-      <Button>Näytä lísää</Button>
+      <Button>{more}</Button>
     </Div>
   </StyledDiv>
 )
 ;
 
 NewsFeed.propTypes = {
+  more: PropTypes.string.isRequired,
   children: PropTypes.node,
   className: PropTypes.string
 };

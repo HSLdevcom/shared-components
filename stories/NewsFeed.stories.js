@@ -14,7 +14,7 @@ TODAY_2PM.setHours(14, 0, 0, 0);
 const ONE_DAY = 86400000;
 const YESTERDAY_2PM = new Date(TODAY_2PM - ONE_DAY);
 stories.addWithJSX('default', () => (
-  <NewsFeed header="Header">
+  <NewsFeed header="Header" more="Näytä lisää">
     <NewsFeedItem
       category="example"
       title="example example example example"
