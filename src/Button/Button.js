@@ -27,13 +27,13 @@ const Button = styled.button`
     background-color: ${props.theme.primary};
     color: ${props.theme.primaryText};
     &:hover {
-      border-color: ${darken(0.1, props.theme.primary)};
-      background-color: ${darken(0.1, props.theme.primary)};
+      border-color: ${darken(0.1, props.theme.primary || '#007ac9')};
+      background-color: ${darken(0.1, props.theme.primary || '#007ac9')};
     }
   `}
   ${props => props.secondary && `
-    border-color: ${darken(0.2, props.theme.default)};
-    color: ${darken(0.2, props.theme.default)};
+    border-color: ${darken(0.2, props.theme.default || '#b7b7b7')};
+    color: ${darken(0.2, props.theme.default || '#b7b7b7')};
     &:hover {
       border-color: ${props.theme.primary};
     }
@@ -47,11 +47,11 @@ const Button = styled.button`
   `}
 
   ${props => props.disabled && props.primary && `
-    background-color: ${lighten(0.175, props.theme.default)};
-    border-color: ${lighten(0.175, props.theme.default)};;
+    background-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};
+    border-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};;
     &:hover {
-      background-color: ${lighten(0.175, props.theme.default)};;
-      border-color: ${lighten(0.175, props.theme.default)};;
+      background-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};;
+      border-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};;
     }
   `}
 `;

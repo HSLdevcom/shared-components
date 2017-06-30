@@ -59,7 +59,7 @@ const StyledDiv = Div.extend`
 const SelectWrapper = Div.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   border-radius: 3px;
-  border: 1px solid ${props => darken(0.1, props.theme.primary)};
+  border: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
   ${LangButton} {
     &:hover {
 

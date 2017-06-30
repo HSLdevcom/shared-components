@@ -29,7 +29,7 @@ const StyledNav = styled.nav`
   }
 
   .nav-item {
-    border-bottom: 2px solid ${props => darken(0.1, props.theme.primary)};
+    border-bottom: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
     display: flex;
     ${IconWithText} {
       padding: 1rem;

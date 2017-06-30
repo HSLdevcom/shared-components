@@ -36,7 +36,7 @@ const StyledDiv = Div.extend`
       width: 50%;
       justify-content: center;
       &:not(:last-child) {
-        border-right: 2px solid ${props => darken(0.1, props.theme.primary)};
+        border-right: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
       }
     }
   }

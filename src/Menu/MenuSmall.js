@@ -35,7 +35,7 @@ const StyledFlex = Flex.extend`
   align-items: stretch;
 
   > * {
-    border-left: 1px solid ${props => darken(0.1, props.theme.primary)};
+    border-left: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
     display: flex;
 
     width: ${props => props.theme.scrollNavHeight || '3.75rem'};
