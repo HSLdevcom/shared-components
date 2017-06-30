@@ -11,7 +11,7 @@ exports[`Storyshots Button default 1`] = `
 
 exports[`Storyshots Button primary 1`] = `
 <button
-  className="sc-htpNat kvNWTK"
+  className="sc-htpNat cQJqWF"
   disabled={false}
 >
   Primary Button

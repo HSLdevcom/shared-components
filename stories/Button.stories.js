@@ -25,11 +25,9 @@ stories.addWithJSX('default', () => {
 
 stories.addWithJSX('primary', () => {
   const disabled = boolean('Disabled', false);
-  const rounded = boolean('Rounded', false);
   return (
     <Button
       disabled={disabled}
-      rounded={rounded}
       primary
     >
     Primary Button

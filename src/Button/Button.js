@@ -23,6 +23,7 @@ const Button = styled.button`
     border-color: ${props => props.theme.primary};
   }
   ${props => props.primary && `
+    border-radius: 2em;
     border-color: ${props.theme.primary};
     background-color: ${props.theme.primary};
     color: ${props.theme.primaryText};
