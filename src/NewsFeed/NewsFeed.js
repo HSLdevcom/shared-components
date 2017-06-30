@@ -29,7 +29,7 @@ const NewsFeed = ({
       { children }
     </Ul>
     <Div>
-      <Button className="show-more" onClick={more.action}>{more.text}</Button>
+      <Button rounded className="show-more" onClick={more.action}>{more.text}</Button>
     </Div>
   </StyledDiv>
 )
