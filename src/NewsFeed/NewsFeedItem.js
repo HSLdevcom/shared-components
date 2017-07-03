@@ -36,6 +36,7 @@ const StyledLi = styled.li`
     }
   }
   ${Image} {
+    margin-left: 2rem;
     object-fit: contain;
     height: 7.5rem;
     width: 11.25rem;
