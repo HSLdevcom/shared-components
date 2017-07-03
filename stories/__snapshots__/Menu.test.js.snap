@@ -280,10 +280,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-daURTG erTHKL"
+  className="sc-TFwJa gGccWQ"
 >
   <div
-    className="sc-gojNiO cUBWYj sc-kGXeez bYukpu"
+    className="sc-fjmCvl kkdWcg sc-kGXeez bYukpu"
   >
     <a
       className="link"
@@ -488,7 +488,7 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-cQFLBn jdNpTN sc-jWBwVP fvdRvR"
+  className="sc-hGoxap khQHjR sc-jWBwVP fvdRvR"
 >
   <div
     className="sc-cvbbAY JgXTe"

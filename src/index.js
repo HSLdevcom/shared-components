@@ -20,6 +20,7 @@ import { Flex, Activatable } from './Wrapper';
 import DropdownMenu from './DropdownMenu';
 import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
 import { Tab, Tabs } from './Tabs';
+import { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from './Typography';
 
 export {
   AppHeader,
@@ -53,5 +54,17 @@ export {
   ListItem,
   UltraWideContainer,
   Tab,
-  Tabs
+  Tabs,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  P,
+  Quote,
+  Ingress,
+  Caption,
+  InfoText,
+  ErrorText,
+  ListText
 };
