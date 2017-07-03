@@ -11,6 +11,7 @@ const Image = styled.img``;
 const TextContainer = Div.extend``;
 
 const StyledLi = styled.li`
+  text-align: start;
   display: flex;
   justify-content: space-between;
   align-items: center;
