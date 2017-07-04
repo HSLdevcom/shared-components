@@ -4,12 +4,12 @@ const P = Text.extend`
   text-align: left;
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: calc(1.25 * 16px);
   ${props => (
     props.theme.Media &&
     props.theme.Media.small`
       font-size: 14px;
-      line-height: 1.29;
+      line-height: calc(1.29 * 14px);
     `
   )}
 `;

@@ -1,7 +1,7 @@
-import Span from '../Span';
+import styled from 'styled-components/primitives';
 
-const Text = Span.extend`
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+const Text = styled.Text`
+  font-family: "Gotham Rounded SSm A, Gotham Rounded SSm B";
   color: #333333;
 `;
 

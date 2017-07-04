@@ -2,16 +2,26 @@ import PropTypes from 'prop-types';
 import Text from './Text';
 
 const InfoText = Text.extend`
-  font-weight: ${props => (props.large ? '500' : '300')};
-  font-size: ${props => (props.large ? '18px' : '16px')};
-  line-height: ${props => (props.large ? '0.89' : '1')};
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #8c4799;
+  ${props => props.large && `
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(0.89 * 18px);
+    color: #ff5200;
+  `}
   text-align: left;
-  color: ${props => (props.large ? '#ff5200' : '#8c4799')};
   ${props => (
     props.theme.Media &&
     props.theme.Media.small`
-      font-size: font-size: ${props.large ? '16px' : '14px'};;
-      line-height: ${props.large ? '1' : '1.14'};
+      font-size: 14px;
+      line-height: calc(1.14 * 14px);
+      ${props.large && `
+        font-size: 16px;
+        line-height: 16px;
+      `}
     `
   )}
 `;
