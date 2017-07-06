@@ -3,4 +3,4 @@ node_modules/
 npm-debug.*
 storybook-static/
 .expo/
-
+.idea/
