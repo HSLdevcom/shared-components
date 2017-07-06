@@ -1,8 +1,12 @@
 import Text from './Text';
 
-const P = Text.extend`
-  text-align: left;
+const PNative = Text.extend`
   font-weight: 300;
+  font-size: 14px;
+  line-height: calc(1.29 * 14px);
+`;
+
+const P = PNative.extend`
   font-size: 16px;
   line-height: calc(1.25 * 16px);
   ${props => (
@@ -15,3 +19,5 @@ const P = Text.extend`
 `;
 
 export default P;
+
+export { PNative };

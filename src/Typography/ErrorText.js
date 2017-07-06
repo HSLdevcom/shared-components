@@ -1,11 +1,15 @@
 import Text from './Text';
 
-const ErrorText = Text.extend`
+const ErrorTextNative = Text.extend`
   font-weight: 300;
+  font-size: 14px;
+  line-height: calc(1.14 * 14px);
+  color: #dc0451;
+`;
+
+const ErrorText = ErrorTextNative.extend`
   font-size: 16px;
   line-height: 16px;
-  text-align: left;
-  color: #dc0451;
   ${props => (
     props.theme.Media &&
     props.theme.Media.small`
@@ -16,3 +20,5 @@ const ErrorText = Text.extend`
 `;
 
 export default ErrorText;
+
+export { ErrorTextNative };

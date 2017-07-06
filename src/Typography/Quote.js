@@ -14,7 +14,6 @@ const Quote = Text.extend`
   font-size: 20px;
   font-style: italic;
   line-height: calc(1.25 * 20px);
-  text-align: left;
   font-weight: 300;
   padding: 3px 0px 3px 20px;
   font-family: "Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, Serif";
