@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Text from './Text';
 
 const View = styled.View`
-  border-left-style: solid;
+  border-style: solid;
   border-left-width: 3px;
   border-left-color: #b7b7b7;
 `;
@@ -13,10 +13,10 @@ const View = styled.View`
 const Quote = Text.extend`
   font-size: 20px;
   font-style: italic;
-  line-height: calc(1.25 * 20px);
+  line-height: 25;
   font-weight: 300;
   padding: 3px 0px 3px 20px;
-  font-family: "Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, Serif";
+  font-family: "Gotham XNarrow SSm A, Gotham XNarrow SSm B";
 `;
 
 const QuoteBlock = ({ className, children }) => (

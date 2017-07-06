@@ -44,6 +44,9 @@
       "lodash"
     ]
   },
+  "rnpm": {
+    "assets": ["static/gotham.css"]
+  },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "build:babel": "babel src/ --out-dir lib/ --ignore test.js",
