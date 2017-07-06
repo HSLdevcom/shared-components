@@ -1,23 +1,37 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Font } from 'expo';
 import StorybookUI from './storybook';
+
+const font = require('./static/gotham.ttf');
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { fontLoaded: false};
+    this.state = { fontLoaded: false };
   }
 
   async componentDidMount() {
+    this.loadFont();
+  }
+
+  async loadFont() {
     await Font.loadAsync({
-      'Gotham Rounded SSm A, Gotham Rounded SSm B': require('./static/gotham.ttf'),
-      'Gotham XNarrow SSm A, Gotham XNarrow SSm B': require('./static/gotham.ttf'),
+      'Gotham Rounded SSm A, Gotham Rounded SSm B': font,
+      'Gotham XNarrow SSm A, Gotham XNarrow SSm B': font,
     });
     this.setState({ fontLoaded: true });
   }
 
   render() {
+    const styles = StyleSheet.create({
+      container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+    });
     return (
       <View style={styles.container}>
         { this.state.fontLoaded && <StorybookUI />}
@@ -25,12 +39,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

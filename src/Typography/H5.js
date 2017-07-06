@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import Text from './Text';
 
 
@@ -10,8 +9,8 @@ const StyledText = Text.extend`
   letter-spacing: -0.2px;
 `;
 
-const H5 = ({children, className}) => (
-  <StyledText>{children.toUpperCase()}</StyledText>
+const H5 = ({ children, className }) => (
+  <StyledText className={className}>{children.toUpperCase()}</StyledText>
 );
 
 H5.propTypes = {
@@ -20,5 +19,3 @@ H5.propTypes = {
 };
 
 export default H5;
-
-

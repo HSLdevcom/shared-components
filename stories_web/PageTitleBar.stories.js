@@ -10,10 +10,10 @@ setAddon(JSXAddon);
 
 storiesOf('PageTitleBar', module)
   .addWithJSX('with back button', () =>
-    <PageTitleBar backButton={<ArrowLeft fill="#007ac9" height={'1em'} />} onBackClick={action('back button clicked')}>
+    (<PageTitleBar backButton={<ArrowLeft fill="#007ac9" height={'1em'} />} onBackClick={action('back button clicked')}>
       <h1>Title</h1>
-    </PageTitleBar>)
+    </PageTitleBar>))
   .addWithJSX('without back button', () =>
-    <PageTitleBar>
+    (<PageTitleBar>
       <h1>Title</h1>
-    </PageTitleBar>);
+    </PageTitleBar>));

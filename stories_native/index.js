@@ -1,5 +1,5 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react-native';
+import { storiesOf } from '@storybook/react-native';
 import { Text } from 'react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import CenterView from './CenterView';
@@ -21,12 +21,13 @@ storiesOf('Typography', module)
   .add('Caption', () => <Caption>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</Caption>)
 
   .add('InfoText', () => {
-    const large = boolean('Large', false)
+    const large = boolean('Large', false);
     return (
       <InfoText
         large={large}
       >
-        Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+        Aenean lacinia bibendum nulla sed consectetur.
+        Etiam porta sem malesuada magna mollis euismod.
       </InfoText>
     );
   })

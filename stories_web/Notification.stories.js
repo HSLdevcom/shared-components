@@ -17,12 +17,12 @@ setAddon(JSXAddon);
 
 const stories = storiesOf('Notification', module);
 stories.addDecorator(story =>
-  <Provider store={store}>
+  (<Provider store={store}>
     {story()}
-  </Provider>
+  </Provider>)
 );
 stories.addWithJSX('Error', () =>
-  <div>
+  (<div>
     <NotificationRoot timeoutDelay={5000} />
     <Button
       onClick={() => {
@@ -177,4 +177,4 @@ stories.addWithJSX('Error', () =>
     >
       Netural everything notification, close
     </Button>
-  </div>, { displayName: 'Notification' });
+  </div>), { displayName: 'Notification' });
