@@ -4,3 +4,4 @@ npm-debug.*
 storybook-static/
 .expo/
 .idea/
+build/
