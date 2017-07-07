@@ -10,16 +10,41 @@ All the needed setup is command `yarn install` in project root
 
 `hooks/init-hooks`
 
-### Running the storybook ###
+### Running the web storybook ###
+
+`yarn storybook:web`
+
+### Running the native storybook ###
 
 `yarn storybook`
 
+[Running devices](https://github.com/storybooks/storybook/blob/master/app/react-native/docs/using-devices.md)
+
+#### TL;DR ####
+
+IOS
+- ?
+
+Android
+- launch emulator/device
+- `yarn storybook`
+- ```
+  adb reverse tcp:8081 tcp:8081
+  adb reverse tcp:9001 tcp:9001
+  adb reverse tcp:7007 tcp:7007
+  yarn run android
+  ```
+
 ### Usage in application ###
 
-Add this repository as a dependency to your project in package.json and give it a name like 'sharedcomponents'.
+`yarn add hsl-shared-components`
+
+or
+
+`npm i --save hsl-shared-components`
 
 In the desired react class use named imports to get the components needed:
-`import {Button} from 'sharedcomponents';`
+`import {Button} from 'hsl-shared-components';`
 
 ### Writing components ###
 
@@ -35,6 +60,13 @@ When pushing to the repository make sure to include the lib/**/*.js files so tha
 
 ### Update github pages ###
 `yarn deploy-storybook`
+
+### Publish package ###
+[Bump version](https://docs.npmjs.com/cli/version)
+
+`yarn build`
+
+`cd build && npm publish`
 
 ## Documentation
 * [Z-Index Index](docs/ZIndex.md)
