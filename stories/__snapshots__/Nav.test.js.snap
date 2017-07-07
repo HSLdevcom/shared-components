@@ -361,7 +361,7 @@ exports[`Storyshots Nav default 1`] = `
           </span>
         </div>
         <div
-          className="sc-gzVnrw irrFml"
+          className="sc-gzVnrw Latqt"
         />
         <div
           className="bottom large sc-iwsKbI hAZHJM"
@@ -561,7 +561,7 @@ exports[`Storyshots Nav default 1`] = `
       className="sc-gipzik iqSzmI"
     />
     <nav
-      className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
+      className="sc-jlyJG bbyJzT sc-jAaTju fPunLO"
     >
       <div
         className="sc-jDwBTQ kDZOga"
@@ -881,7 +881,7 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
+  className="sc-jlyJG bbyJzT sc-jAaTju fPunLO"
 >
   <div
     className="sc-jDwBTQ kDZOga"
@@ -1362,7 +1362,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="menu sc-eHgmQL gmKbQu sc-hSdWYo oaJuk"
+    className="menu sc-eHgmQL gmKbQu sc-hSdWYo ddHiRs"
   >
     <div
       className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"

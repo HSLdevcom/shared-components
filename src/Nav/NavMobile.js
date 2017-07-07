@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
 import { CSSTransitionGroup } from 'react-transition-group';
+import { darken } from 'polished';
 
 import { addClass } from '../utils';
 import Span from '../Span';
@@ -28,7 +29,7 @@ const StyledNav = styled.nav`
   }
 
   .nav-item {
-    border-bottom: 2px solid ${props => props.theme.menuBorder};
+    border-bottom: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
     display: flex;
     ${IconWithText} {
       padding: 1rem;

@@ -1,6 +1,6 @@
 {
   "name": "sharedcomponents",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "main": "lib/index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "classnames": "^2.2.5",
     "eventemitter3": "^2.0.3",
     "lodash": "^4.17.4",
+    "polished": "^1.2.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.0",
     "react-dom": "^15.5.0",
