@@ -13,6 +13,12 @@ import Span from '../Span';
 import Div from '../Div';
 import { Flex } from '../Wrapper';
 
+export const Width = {
+  large: '18rem',
+  medium: '10rem',
+  small: '6rem'
+};
+
 const StyledDiv = Div.extend`
   .lang-select {
     .small {
@@ -45,9 +51,11 @@ const StyledDiv = Div.extend`
   .child:not(:last-child) {
     margin-right: 2rem;
   }
+  width: ${Width.large};
   ${props => (
     props.theme.Media &&
     props.theme.Media.large`
+      width: ${Width.medium};
       .child:not(:last-child) {
         margin-right: 1.5rem;
       }
@@ -76,6 +84,7 @@ const StyledDiv = Div.extend`
   ${props => (
     props.theme.Media &&
     props.theme.Media.medium`
+      width: ${Width.small};
       .top, .bottom {
         justify-content: space-between;
       }

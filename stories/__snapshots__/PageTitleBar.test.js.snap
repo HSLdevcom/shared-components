@@ -2,7 +2,7 @@
 
 exports[`Storyshots PageTitleBar with back button 1`] = `
 <div
-  className="sc-bRBYWo BgwJw"
+  className="sc-ksYbfQ eKZPQS"
 >
   <div
     className="content-container"
@@ -38,7 +38,7 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
 
 exports[`Storyshots PageTitleBar without back button 1`] = `
 <div
-  className="sc-bRBYWo BgwJw"
+  className="sc-ksYbfQ eKZPQS"
 >
   <div
     className="content-container"
