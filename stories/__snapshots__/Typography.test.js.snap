@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Typography Caption 1`] = `
+<span
+  className="sc-lhVmIH fnWHfw"
+>
+  Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+</span>
+`;
+
+exports[`Storyshots Typography ErrorText 1`] = `
+<span
+  className="sc-elJkPf foIutM"
+>
+  Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+</span>
+`;
+
+exports[`Storyshots Typography H1 1`] = `
+<span
+  className="sc-ktHwxA kKubKt"
+>
+  HSL Liikuttaa
+</span>
+`;
+
+exports[`Storyshots Typography H2 1`] = `
+<span
+  className="sc-cIShpX jljKpO"
+>
+  HSL Liikuttaa
+</span>
+`;
+
+exports[`Storyshots Typography H3 1`] = `
+<span
+  className="sc-kafWEX isTWnZ"
+>
+  HSL Liikuttaa
+</span>
+`;
+
+exports[`Storyshots Typography H4 1`] = `
+<span
+  className="sc-feJyhm ixzeCR"
+>
+  HSL Liikuttaa
+</span>
+`;
+
+exports[`Storyshots Typography H5 1`] = `
+<span
+  className="sc-iELTvK ZrGqs"
+>
+  HSL Liikuttaa
+</span>
+`;
+
+exports[`Storyshots Typography InfoText 1`] = `
+<span
+  className="sc-bYSBpT hwfEdk"
+>
+  Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+</span>
+`;
+
+exports[`Storyshots Typography Ingress 1`] = `
+<span
+  className="sc-btzYZH kmxxMJ"
+>
+  Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+</span>
+`;
+
+exports[`Storyshots Typography ListText 1`] = `
+<span
+  className="sc-jtRfpW isOPHi"
+>
+  Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+</span>
+`;
+
+exports[`Storyshots Typography Paragraph 1`] = `
+<span
+  className="sc-cmTdod dYfhVs"
+>
+  Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+</span>
+`;
+
+exports[`Storyshots Typography Quote 1`] = `
+<span
+  className="sc-jwKygS lguCyW"
+>
+  Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+</span>
+`;

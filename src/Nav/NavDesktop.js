@@ -7,6 +7,7 @@ import { addClass } from '../utils';
 import Span from '../Span';
 import NavItem from './NavItem';
 import { Activatable } from '../Wrapper';
+import DropdownMenu from '../DropdownMenu';
 
 
 const StyledNav = styled.nav`
@@ -29,16 +30,24 @@ const StyledNav = styled.nav`
       height: 7.5rem;
     `
   )}
+  ${DropdownMenu} {
+    display: flex;
+    align-items: stretch;
+    margin: 0 1.25rem;
+  }
   ${NavItem} {
     display: flex;
     align-items: stretch;
     font-size: 1.1rem;
-    margin: 0 1.5rem;
+    margin: 0 1.25rem;
     .link {
       display: flex;
       ${Activatable} {
         justify-content: center;
       }
+    }
+    svg {
+      height: 2.5rem;
     }
     ${props => (
       props.theme.Media &&

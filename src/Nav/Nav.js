@@ -29,7 +29,7 @@ const Header = styled.header`
   )}
 `;
 
-class Nav extends React.PureComponent {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = { desktopScrollNav: false, mobileNavVisible: true };

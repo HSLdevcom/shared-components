@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
 import { CSSTransitionGroup } from 'react-transition-group';
+import { darken } from 'polished';
 
 import { addClass } from '../utils';
 import Span from '../Span';
@@ -15,11 +16,15 @@ import { ButtonNoStyle } from '../Button/Button';
 export const Height = '64px';
 
 const StyledNav = styled.nav`
-  transition: top .20s ease-in;
-  position: fixed;
+  transition: top .20s linear;
+  position: absolute;
+  top: 0;
+  ${props => !props.menuOpen && `
+    position: fixed;
+    top: ${props.visible ? 0 : `-${Height}`};
+  `}
   left: 0;
   right: 0;
-  top: ${props => (props.visible ? 0 : `-${Height}`)};
   svg {
     fill: currentColor;
   }
@@ -28,7 +33,7 @@ const StyledNav = styled.nav`
   }
 
   .nav-item {
-    border-bottom: 2px solid ${props => props.theme.menuBorder};
+    border-bottom: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
     display: flex;
     ${IconWithText} {
       padding: 1rem;
@@ -52,24 +57,24 @@ const StyledNav = styled.nav`
 
   .menu-enter {
     overflow: hidden;
-    max-height: 0vh;
+    height: 0vh;
   }
 
   .menu-enter.menu-enter-active {
     overflow: hidden;
-    max-height: 100vh;
-    transition: max-height .25s ease-in;
+    height: 100vh;
+    transition: height .25s ease-in;
   }
 
   .menu-leave {
     overflow: hidden;
-    max-height: 100vh;
+    height: 100vh;
   }
 
   .menu-leave.menu-leave-active {
     overflow: hidden;
-    max-height: 0vh;
-    transition: max-height .25s ease-in;
+    height: 0vh;
+    transition: height .25s ease-in;
   }
 
   .menu-toggle {
@@ -135,16 +140,16 @@ const MenuWrapper = Flex.extend`
   flex-direction: column;
   align-items: stretch;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  .menu {
-    ${props => (props.height && `height: ${props.height || 0}px;`)}
+  .menu:not(.menu-leave):not(.menu-enter) {
+    ${props => (props.height && `min-height: ${props.height || 0}px;`)}
   }
 
 `;
 
-class Nav extends React.PureComponent {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { open: false, menuHeight: 0 };
+    this.state = { menuOpen: false, menuHeight: 0 };
     this.toggleMenu = this.toggleMenu.bind(this);
     this.onResize = this.onResize.bind(this);
   }
@@ -171,7 +176,7 @@ class Nav extends React.PureComponent {
 
   toggleMenu() {
     this.setState(prevState => ({
-      open: !prevState.open
+      menuOpen: !prevState.menuOpen
     }));
   }
 
@@ -180,6 +185,7 @@ class Nav extends React.PureComponent {
       className={this.props.className}
       innerRef={this.props.navRef}
       visible={this.props.visible}
+      menuOpen={this.state.menuOpen}
     >
       <TopBar>
         <Span className="logo">
@@ -191,7 +197,7 @@ class Nav extends React.PureComponent {
             ))}
           <ButtonNoStyle
             onClick={this.toggleMenu}
-            className={cx('menu-toggle', { open: this.state.open })}
+            className={cx('menu-toggle', { open: this.state.menuOpen })}
           >
             <Menu height="3rem" />
           </ButtonNoStyle>
@@ -208,7 +214,7 @@ class Nav extends React.PureComponent {
           transitionEnterTimeout={250}
           transitionLeaveTimeout={250}
         >
-          { this.props.menu && this.state.open && React.cloneElement(
+          { this.props.menu && this.state.menuOpen && React.cloneElement(
             this.props.menu,
             { className: cx(this.props.menu.props.className, 'menu'),
               items: addClass(this.props.children, 'nav-item'),

@@ -2,33 +2,126 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import { ButtonNoStyle } from '../Button/Button';
 import Div from '../Div';
-import Mask from './Mask';
+import Span from '../Span';
+import A from '../Anchor';
+import DropdownContainerDesktop from './DropdownContainerDesktop';
+import DropdownContainerMobile from './DropdownContainerMobile';
+import { NavItem } from '../Nav';
+import { More, ArrowDown } from '../Icons';
 
-const StyledDiv = styled.div`
-  position: absolute;
-  width: 100%;
-  ${Div} {
-    background: ${props => props.theme.background};
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2.5rem
-    align-items: flex-start;
+const Icon = <More height="2.5rem" width="2.5rem" />;
+const Arrow = <ArrowDown height="0.5rem" width="0.75rem" />;
+
+const StyledDiv = Div.extend`
+  ${NavItem} ${ButtonNoStyle} ${Span} svg {
+    padding-left: 0.5rem;
+    height: 0.5rem;
+    width: 0.75rem;
+    #arrow {
+      transition: transform .25s linear;
+      transform-origin: center;
+      transform: rotate(0deg);
+    }
+    ${props => props.open && `
+      #arrow {
+        transform: rotate(-180deg);
+      }
+    `}
   }
+  ${DropdownContainerMobile} {
+    display: none;
+  }
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.small`
+    ${DropdownContainerDesktop} {
+      display: none;
+    }
+    ${DropdownContainerMobile} {
+      display: block;
+    }
+    flex-direction: column;
+    ${props.open && `background-color: ${props.theme.primaryText};`}
+    ${props.open && `color: ${props.theme.primary};`}
+    ${ButtonNoStyle} {
+      ${props.open && 'border-bottom: 1px solid #cccccc;'}
+    }
+  `)};
 `;
 
-const DropdownMenu = ({
-  className,
-  children }) => (
-    <StyledDiv className={className}>
-      <Div>
-        { children }
-      </Div>
-      <Mask />
-    </StyledDiv>
+class DropdownMenu extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { open: false, top: 0 };
+    this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.onResize = this.onResize.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.onResize, true);
+    this.onResize();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize, true);
+  }
+
+  onResize() {
+    if (!this.node) {
+      return;
+    }
+    this.setState({
+      top: this.node.getBoundingClientRect().bottom
+    });
+  }
+
+  toggleDropdown() {
+    this.setState(prevState => ({
+      open: !prevState.open
+    }));
+  }
+
+  render() {
+    /* eslint-disable no-return-assign */
+    return (
+      <StyledDiv
+        className={this.props.className}
+        innerRef={x => this.node = x}
+        open={this.state.open}
+      >
+        {/* eslint-enable no-return-assign */}
+        <ButtonNoStyle onClick={this.toggleDropdown}>
+          <NavItem
+            link={<A />}
+            icon={Icon}
+            text={<Span>{this.props.text}{Arrow}</Span>}
+            textPosition={this.props.textPosition}
+            active={this.props.active}
+            small={this.props.small}
+          />
+        </ButtonNoStyle>
+        { this.state.open &&
+          <span>
+            <DropdownContainerDesktop top={this.state.top}>
+              {this.props.children}
+            </DropdownContainerDesktop>
+            <DropdownContainerMobile>
+              {this.props.children}
+            </DropdownContainerMobile>
+          </span>
+        }
+      </StyledDiv>
     );
+  }
+}
 
 DropdownMenu.propTypes = {
+  text: PropTypes.string.isRequired,
+  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
+  active: PropTypes.bool,
+  small: PropTypes.bool,
   className: PropTypes.string,
   children: PropTypes.node
 };

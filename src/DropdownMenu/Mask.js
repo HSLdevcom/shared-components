@@ -10,7 +10,7 @@ const StyledDiv = Div.extend`
   height: ${props => props.height}px;
 `;
 
-class Mask extends React.PureComponent {
+class Mask extends React.Component {
   constructor(props) {
     super(props);
     this.state = { height: 0 };

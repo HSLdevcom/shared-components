@@ -2,7 +2,7 @@
 
 exports[`Storyshots Menu default 1`] = `
 <div
-  className="sc-iAyFgw gPlgsX sc-kkGfuU dhjveP"
+  className="sc-hSdWYo bIQQAp sc-iAyFgw gKPRRn"
 >
   <div
     className="top sc-iwsKbI hAZHJM"
@@ -31,32 +31,32 @@ exports[`Storyshots Menu default 1`] = `
       className="lang-select sc-dnqmqq bDsesi"
     >
       <div
-        className="large sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+        className="large sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
       >
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           FI
         </button>
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           SV
         </button>
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           EN
         </button>
       </div>
       <div
-        className="small sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+        className="small sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
       >
         <button
-          className="selected-language sc-dxgOiQ dpMvJx"
+          className="selected-language sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           FI
@@ -70,7 +70,7 @@ exports[`Storyshots Menu default 1`] = `
           >
             <path
               d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-              id="Shape"
+              id="arrow"
             />
           </svg>
         </button>
@@ -81,13 +81,13 @@ exports[`Storyshots Menu default 1`] = `
     </span>
   </div>
   <div
-    className="sc-gzVnrw irrFml"
+    className="sc-gzVnrw Latqt"
   />
   <div
     className="bottom large sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -128,7 +128,7 @@ exports[`Storyshots Menu default 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -180,7 +180,7 @@ exports[`Storyshots Menu default 1`] = `
     className="bottom small sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -224,7 +224,7 @@ exports[`Storyshots Menu default 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -280,10 +280,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-dymIpo hlUvMA"
+  className="sc-jKVCRD hkXLKn"
 >
   <div
-    className="sc-cpmLhU lotMCk sc-kGXeez bYukpu"
+    className="sc-ebFjAB bsNNyw sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -336,10 +336,10 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-eHgmQL gmKbQu sc-hSdWYo oaJuk"
+  className="sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
 >
   <div
-    className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+    className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
   >
     <a
       className="link"
@@ -383,7 +383,7 @@ exports[`Storyshots Menu minimal 1`] = `
     </a>
   </div>
   <div
-    className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+    className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
   >
     <a
       className="link"
@@ -458,10 +458,10 @@ exports[`Storyshots Menu minimal 1`] = `
     </svg>
   </div>
   <div
-    className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+    className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
   >
     <button
-      className="selected-language sc-dxgOiQ dpMvJx"
+      className="selected-language sc-ckVGcZ cUFhzl"
       onClick={[Function]}
     >
       FI
@@ -475,7 +475,7 @@ exports[`Storyshots Menu minimal 1`] = `
       >
         <path
           d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-          id="Shape"
+          id="arrow"
         />
       </svg>
     </button>
@@ -488,31 +488,31 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-emmjRN kjIPyI sc-jWBwVP fvdRvR"
+  className="sc-jtggT hjAuWQ sc-fMiknA dtMtQX"
 >
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
-    className="sc-brqgnP dqetmm"
+    className="sc-dVhcbM diHZgX"
   >
     <div
-      className="sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+      className="sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
     >
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         FI
       </button>
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         SV
       </button>
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         EN
@@ -540,13 +540,13 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
     className="children sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -587,7 +587,7 @@ exports[`Storyshots Menu mobile 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
