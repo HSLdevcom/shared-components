@@ -1,7 +1,6 @@
 {
-  "name": "ver42",
-  "version": "0.1.0",
-  "private": true,
+  "name": "shared-components",
+  "version": "0.6.0",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
     "@storybook/addon-knobs": "3.1.2",
@@ -33,19 +32,6 @@
     "react-native-scripts": "^0.0.22",
     "react-test-renderer": "15.4.x",
     "storybook-addon-jsx": "^4.1.1"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ],
-    "plugins": [
-      "transform-object-rest-spread",
-      "lodash"
-    ]
-  },
-  "rnpm": {
-    "assets": ["static/gotham.css"]
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
