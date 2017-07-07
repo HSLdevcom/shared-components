@@ -18,7 +18,7 @@ const hslTheme = {
   logoHeight: '4rem',
   logoFill: primaryWhite,
   radioBtnActive: '#0062a1',
-  fontFamily: '"Gotham Rounded SSm A","Gotham Rounded SSm B"',
+  fontFamily: '"Gotham Rounded SSm A,Gotham Rounded SSm B"',
   fontFamilyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B"',
   fontSize: '16px',
   fontWeight: '500',

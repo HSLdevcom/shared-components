@@ -16,7 +16,7 @@ const Quote = Text.extend`
   line-height: 25;
   font-weight: 300;
   padding: 3px 0px 3px 20px;
-  font-family: "Gotham XNarrow SSm A, Gotham XNarrow SSm B";
+  font-family: ${props => props.theme.fontFamilyNarrow || 'initial'};
 `;
 
 const QuoteBlock = ({ className, children }) => (
