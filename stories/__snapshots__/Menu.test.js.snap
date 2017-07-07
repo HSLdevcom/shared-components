@@ -81,7 +81,7 @@ exports[`Storyshots Menu default 1`] = `
     </span>
   </div>
   <div
-    className="sc-gzVnrw irrFml"
+    className="sc-gzVnrw Latqt"
   />
   <div
     className="bottom large sc-iwsKbI hAZHJM"
@@ -336,7 +336,7 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-eHgmQL gmKbQu sc-hSdWYo oaJuk"
+  className="sc-eHgmQL gmKbQu sc-hSdWYo ddHiRs"
 >
   <div
     className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
@@ -488,10 +488,10 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-hGoxap khQHjR sc-jWBwVP fvdRvR"
+  className="sc-hGoxap khQHjR sc-jWBwVP iRVSnI"
 >
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-cvbbAY kTdfTv"
   />
   <div
     className="sc-brqgnP dqetmm"
@@ -540,7 +540,7 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-cvbbAY kTdfTv"
   />
   <div
     className="children sc-iwsKbI hAZHJM"
