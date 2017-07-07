@@ -16,7 +16,7 @@ const Quote = Text.extend`
   line-height: 25;
   font-weight: 300;
   padding: 3px 0px 3px 20px;
-  font-family: ${props => props.theme.fontFamilyNarrow || 'initial'};
+  ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
 `;
 
 const QuoteBlock = ({ className, children }) => (

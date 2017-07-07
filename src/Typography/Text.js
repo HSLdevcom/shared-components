@@ -1,7 +1,7 @@
 import styled from 'styled-components/primitives';
 
 const Text = styled.Text`
-  font-family: ${props => props.theme.fontFamily || 'initial'};
+  ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily};`}
   color: #333333;
 `;
 

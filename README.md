@@ -70,3 +70,12 @@ When pushing to the repository make sure to include the lib/**/*.js files so tha
 
 ## Documentation
 * [Z-Index Index](docs/ZIndex.md)
+
+## Common problems ##
+
+### AVD manager button is disabled ###
+- Try running Android Studio in administrator mode
+or
+- Delete .idea folder
+- Reopen the project
+- Configure the project when studio suggests it

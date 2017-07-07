@@ -1,6 +1,9 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Font } from 'expo';
+import { ThemeProvider } from 'styled-components';
+
+import Theme from './themes/themes.hsl';
 import StorybookUI from './storybook';
 
 const font = require('./static/gotham.ttf');
@@ -33,9 +36,11 @@ export default class App extends React.Component {
       },
     });
     return (
-      <View style={styles.container}>
-        { this.state.fontLoaded && <StorybookUI />}
-      </View>
+      <ThemeProvider theme={Theme}>
+        <View style={styles.container}>
+          { this.state.fontLoaded && <StorybookUI />}
+        </View>
+      </ThemeProvider>
     );
   }
 }
