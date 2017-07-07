@@ -2,7 +2,7 @@
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
     className="sc-kgAjT cuzzPp sc-TOsTZ jcqZCY"
@@ -66,7 +66,7 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
     className="sc-kgAjT cuzzPp sc-TOsTZ jcqZCY"
@@ -97,7 +97,7 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
     className="sc-kgAjT cuzzPp sc-TOsTZ ifCTxv"
@@ -161,7 +161,7 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
     className="sc-kgAjT cuzzPp sc-TOsTZ ifCTxv"
