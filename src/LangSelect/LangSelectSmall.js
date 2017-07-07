@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
+import { darken } from 'polished';
 
 import { ArrowDown } from '../Icons';
 import LangButton from './LangButton';
@@ -58,7 +59,7 @@ const StyledDiv = Div.extend`
 const SelectWrapper = Div.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   border-radius: 3px;
-  ${props => (props.theme.menuBorder && `border: 1px solid ${props.theme.menuBorder};`)}
+  border: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
   ${LangButton} {
     &:hover {
 

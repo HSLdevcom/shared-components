@@ -3,69 +3,69 @@
 exports[`Storyshots Notification Error 1`] = `
 <div>
   <div
-    className="undefined sc-dUjcNx dRRkot"
+    className="undefined sc-jVODtj cHrWBb"
   >
     <div
-      className="content sc-jqCOkK heXNii"
+      className="content sc-cmTdod kHxQNt"
     >
       <div
-        className="icon sc-jqCOkK heXNii"
+        className="icon sc-cmTdod kHxQNt"
       />
       <div
-        className="message sc-jqCOkK heXNii"
+        className="message sc-cmTdod kHxQNt"
       />
     </div>
   </div>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error title, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error title + text, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success title + text, timeout
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success text, custom fast timeout
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error titleLink, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error titleLink and textLink, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success everything notification, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Neutral, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Netural everything notification, close

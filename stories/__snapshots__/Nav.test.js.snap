@@ -2,7 +2,7 @@
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-eilVRo hMkDyD"
+  className="sc-giadOv itTIke"
 >
   <header
     className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
@@ -386,7 +386,7 @@ exports[`Storyshots Nav default 1`] = `
           </span>
         </div>
         <div
-          className="sc-gzVnrw irrFml"
+          className="sc-gzVnrw Latqt"
         />
         <div
           className="bottom large sc-iwsKbI hAZHJM"
@@ -586,7 +586,7 @@ exports[`Storyshots Nav default 1`] = `
       className="sc-TOsTZ ewOFfi"
     />
     <nav
-      className="sc-cHGsZl bHiaRe sc-fAjcbJ dzxcKw"
+      className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
     >
       <div
         className="sc-caSCKo dEXXuK"
@@ -906,7 +906,7 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-cHGsZl bHiaRe sc-fAjcbJ dzxcKw"
+  className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
 >
   <div
     className="sc-caSCKo dEXXuK"
@@ -1074,10 +1074,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-cpmLhU dbQTSj"
+  className="sc-ipXKqB hvPPst"
 >
   <div
-    className="sc-emmjRN kjIPyI sc-cSHVUG biczzM"
+    className="sc-VJcYb iFZgBV sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -1154,7 +1154,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-eerKOB fKjyKH"
+    className="child sc-fONwsr kmyppw"
   >
     Lataa kautta
   </span>
@@ -1328,7 +1328,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="menu sc-jhAzac hmXDXQ sc-hzDkRC bOSvdK"
+    className="menu sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
   >
     <div
       className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
