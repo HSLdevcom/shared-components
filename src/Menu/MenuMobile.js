@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
+import { darken } from 'polished';
 
 import MenuItem from './MenuItem';
 import LangSelect, { LangButton } from '../LangSelect';
@@ -35,7 +36,7 @@ const StyledDiv = Div.extend`
       width: 50%;
       justify-content: center;
       &:not(:last-child) {
-        border-right: 2px solid ${props => props.theme.menuBorder};
+        border-right: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
       }
     }
   }

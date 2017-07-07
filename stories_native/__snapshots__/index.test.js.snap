@@ -10,9 +10,19 @@ exports[`Storyshots AppHeader default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Button default 1`] = `
+<button
+  className="sc-htpNat kIHcXL"
+  disabled={false}
+>
+  Default Button
+</button>
+`;
+
 exports[`Storyshots Button primary 1`] = `
 <button
-  className="sc-htpNat dPjcuE"
+  className="sc-htpNat cQJqWF"
+  disabled={false}
 >
   Primary Button
 </button>
@@ -20,7 +30,8 @@ exports[`Storyshots Button primary 1`] = `
 
 exports[`Storyshots Button secondary 1`] = `
 <button
-  className="sc-htpNat dFpKTM"
+  className="sc-htpNat erupkY"
+  disabled={false}
 >
   Secondary Button
 </button>
@@ -28,7 +39,7 @@ exports[`Storyshots Button secondary 1`] = `
 
 exports[`Storyshots Container default 1`] = `
 <div
-  className="sc-hzDkRC foEXZn"
+  className="sc-hmzhuo fDMeHO"
 >
   <p>
     Some content
@@ -42,182 +53,88 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-kjoXOD hpTAeq sc-gisBJw bmNJJs"
+    className="sc-csuQGl CQhxV sc-gipzik fVOZQz"
+    open={false}
   >
-    <div
-      className="sc-bdVaJa bDWFJH"
+    <button
+      className="sc-bxivhb gRAuFd"
+      onClick={[Function]}
     >
-      <div>
-        <h3>
-          Otsikko
-        </h3>
-        <p>
-          123
-        </p>
-        <p>
-          123
-        </p>
-        <p>
-          123
-        </p>
+      <div
+        className="sc-kAzzGY jHprQs sc-cSHVUG biczzM"
+      >
+        <a
+          className="link sc-chPdSV byfFmt"
+        >
+          <div
+            className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
+          >
+            <div
+              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
+            >
+              <span
+                aria-hidden="true"
+                className="icon sc-jTzLTM iEjgub"
+              >
+                <svg
+                  fill={undefined}
+                  height="2.5rem"
+                  preserveAspectRatio="xMidYMid meet"
+                  version="1.1"
+                  viewBox="-5 0 48 10"
+                  width="2.5rem"
+                >
+                  <g
+                    id="Group"
+                  >
+                    <circle
+                      cx="5"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                    <circle
+                      cx="19"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                    <circle
+                      cx="33"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span
+                className="text sc-dnqmqq bDsesi"
+              >
+                <span
+                  className="sc-dnqmqq bDsesi"
+                >
+                  Lisää
+                  <svg
+                    fill={undefined}
+                    height="0.5rem"
+                    preserveAspectRatio="xMidYMid meet"
+                    version="1.1"
+                    viewBox="0 0 42.5 27.47"
+                    width="0.75rem"
+                  >
+                    <path
+                      d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+                      id="arrow"
+                    />
+                  </svg>
+                </span>
+              </span>
+            </div>
+          </div>
+        </a>
       </div>
-      <div>
-        <h3>
-          Otsikko
-        </h3>
-        <p>
-          123
-        </p>
-        <p>
-          123
-        </p>
-        <p>
-          123
-        </p>
-      </div>
-      <div>
-        <div
-          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW"
-        >
-          <span
-            aria-hidden="true"
-            className="icon sc-jTzLTM bpnSj"
-          >
-            <svg
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="0 0 70 70"
-              width="2.5rem"
-            >
-              <g
-                fill={undefined}
-                fillRule="evenodd"
-                id="Page-1"
-                stroke="none"
-                strokeWidth="1"
-              >
-                <path
-                  d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                  id="Shape"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-dnqmqq bDsesi"
-          >
-            Esimerkki
-          </span>
-        </div>
-        <div
-          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW"
-        >
-          <span
-            aria-hidden="true"
-            className="icon sc-jTzLTM bpnSj"
-          >
-            <svg
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="0 0 70 70"
-              width="2.5rem"
-            >
-              <g
-                fill={undefined}
-                fillRule="evenodd"
-                id="Page-1"
-                stroke="none"
-                strokeWidth="1"
-              >
-                <path
-                  d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                  id="Shape"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-dnqmqq bDsesi"
-          >
-            Esimerkki
-          </span>
-        </div>
-        <div
-          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW"
-        >
-          <span
-            aria-hidden="true"
-            className="icon sc-jTzLTM bpnSj"
-          >
-            <svg
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="0 0 70 70"
-              width="2.5rem"
-            >
-              <g
-                fill={undefined}
-                fillRule="evenodd"
-                id="Page-1"
-                stroke="none"
-                strokeWidth="1"
-              >
-                <path
-                  d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                  id="Shape"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-dnqmqq bDsesi"
-          >
-            Esimerkki
-          </span>
-        </div>
-        <div
-          className="sc-jzJRlG istBgv sc-fjdhpX iWeuHW"
-        >
-          <span
-            aria-hidden="true"
-            className="icon sc-jTzLTM bpnSj"
-          >
-            <svg
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="0 0 70 70"
-              width="2.5rem"
-            >
-              <g
-                fill={undefined}
-                fillRule="evenodd"
-                id="Page-1"
-                stroke="none"
-                strokeWidth="1"
-              >
-                <path
-                  d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                  id="Shape"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-dnqmqq bDsesi"
-          >
-            Esimerkki
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="sc-caSCKo jjNSwx sc-fAjcbJ kYDAsv"
-      height={0}
-    />
+    </button>
   </div>
   <p>
     test
@@ -272,7 +189,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
 
 exports[`Storyshots IconWithText default 1`] = `
 <div
-  className="sc-cQFLBn kskfQy sc-fjdhpX fNCIal"
+  className="sc-hGoxap eIyyUf sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -302,7 +219,7 @@ exports[`Storyshots IconWithText default 1`] = `
 
 exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 <div
-  className="sc-daURTG jwSKyk sc-fjdhpX fNCIal"
+  className="sc-TFwJa hccBiq sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -337,7 +254,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
       >
         <path
           d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-          id="Shape"
+          id="arrow"
         />
       </svg>
     </span>
@@ -347,7 +264,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 
 exports[`Storyshots IconWithText with inner & outer fill 1`] = `
 <div
-  className="sc-gojNiO fmNlxU sc-fjdhpX fNCIal"
+  className="sc-fjmCvl dxbWoN sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -476,7 +393,7 @@ exports[`Storyshots Icons ArrowDown 1`] = `
 >
   <path
     d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-    id="Shape"
+    id="arrow"
   />
 </svg>
 `;
@@ -1099,22 +1016,22 @@ exports[`Storyshots Input default 1`] = `
 
 exports[`Storyshots LangSelect default 1`] = `
 <div
-  className="sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+  className="sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
 >
   <button
-    className="sc-dxgOiQ dpMvJx"
+    className="sc-ckVGcZ cUFhzl"
     onClick={[Function]}
   >
     FI
   </button>
   <button
-    className="sc-dxgOiQ dpMvJx"
+    className="sc-ckVGcZ cUFhzl"
     onClick={[Function]}
   >
     SV
   </button>
   <button
-    className="sc-dxgOiQ dpMvJx"
+    className="sc-ckVGcZ cUFhzl"
     onClick={[Function]}
   >
     EN
@@ -1124,10 +1041,10 @@ exports[`Storyshots LangSelect default 1`] = `
 
 exports[`Storyshots LangSelect small 1`] = `
 <div
-  className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+  className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
 >
   <button
-    className="selected-language sc-dxgOiQ dpMvJx"
+    className="selected-language sc-ckVGcZ cUFhzl"
     onClick={[Function]}
   >
     FI
@@ -1141,7 +1058,7 @@ exports[`Storyshots LangSelect small 1`] = `
     >
       <path
         d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-        id="Shape"
+        id="arrow"
       />
     </svg>
   </button>
@@ -1153,58 +1070,58 @@ exports[`Storyshots LangSelect small 1`] = `
 
 exports[`Storyshots List default 1`] = `
 <div
-  className="sc-dVhcbM fghLuF sc-fMiknA bOVypf"
+  className="sc-jDwBTQ dWtMUn sc-jAaTju hyJgMB"
 >
-  <h3
-    className="sc-fBuWsC eeihxG"
+  <div
+    className="sc-cMljjf eTbdzc"
   >
     Header
-  </h3>
+  </div>
   <ul
-    className="sc-jhAzac hmXDXQ"
+    className="sc-brqgnP SqPLV"
   >
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       short text
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       short text
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-eqIVtm nhYWg"
+      className="sc-gPEVay fhEiWg"
     >
       looong teexttt ttttttttttttttttt
     </li>
@@ -1214,7 +1131,7 @@ exports[`Storyshots List default 1`] = `
 
 exports[`Storyshots Menu default 1`] = `
 <div
-  className="sc-iAyFgw gPlgsX sc-kkGfuU dhjveP"
+  className="sc-hSdWYo bIQQAp sc-iAyFgw gKPRRn"
 >
   <div
     className="top sc-iwsKbI hAZHJM"
@@ -1243,32 +1160,32 @@ exports[`Storyshots Menu default 1`] = `
       className="lang-select sc-dnqmqq bDsesi"
     >
       <div
-        className="large sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+        className="large sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
       >
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           FI
         </button>
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           SV
         </button>
         <button
-          className="sc-dxgOiQ dpMvJx"
+          className="sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           EN
         </button>
       </div>
       <div
-        className="small sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+        className="small sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
       >
         <button
-          className="selected-language sc-dxgOiQ dpMvJx"
+          className="selected-language sc-ckVGcZ cUFhzl"
           onClick={[Function]}
         >
           FI
@@ -1282,7 +1199,7 @@ exports[`Storyshots Menu default 1`] = `
           >
             <path
               d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-              id="Shape"
+              id="arrow"
             />
           </svg>
         </button>
@@ -1293,13 +1210,13 @@ exports[`Storyshots Menu default 1`] = `
     </span>
   </div>
   <div
-    className="sc-gzVnrw irrFml"
+    className="sc-gzVnrw Latqt"
   />
   <div
     className="bottom large sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -1340,7 +1257,7 @@ exports[`Storyshots Menu default 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -1392,7 +1309,7 @@ exports[`Storyshots Menu default 1`] = `
     className="bottom small sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -1436,7 +1353,7 @@ exports[`Storyshots Menu default 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -1492,10 +1409,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-eLExRp gJuQjG"
+  className="sc-dTdPqK dGLXoG"
 >
   <div
-    className="sc-lkqHmb cDOiIc sc-kGXeez bYukpu"
+    className="sc-krDsej LiCTT sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -1548,10 +1465,10 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-eHgmQL gmKbQu sc-hSdWYo oaJuk"
+  className="sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
 >
   <div
-    className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+    className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
   >
     <a
       className="link"
@@ -1595,7 +1512,7 @@ exports[`Storyshots Menu minimal 1`] = `
     </a>
   </div>
   <div
-    className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+    className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
   >
     <a
       className="link"
@@ -1670,10 +1587,10 @@ exports[`Storyshots Menu minimal 1`] = `
     </svg>
   </div>
   <div
-    className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+    className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
   >
     <button
-      className="selected-language sc-dxgOiQ dpMvJx"
+      className="selected-language sc-ckVGcZ cUFhzl"
       onClick={[Function]}
     >
       FI
@@ -1687,7 +1604,7 @@ exports[`Storyshots Menu minimal 1`] = `
       >
         <path
           d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-          id="Shape"
+          id="arrow"
         />
       </svg>
     </button>
@@ -1700,31 +1617,31 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-bXGyLb kSJpgq sc-jWBwVP fvdRvR"
+  className="sc-bHwgHz cnyAnQ sc-fMiknA dtMtQX"
 >
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
-    className="sc-brqgnP dqetmm"
+    className="sc-dVhcbM diHZgX"
   >
     <div
-      className="sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+      className="sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
     >
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         FI
       </button>
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         SV
       </button>
       <button
-        className="sc-dxgOiQ dpMvJx"
+        className="sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         EN
@@ -1752,13 +1669,13 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-cvbbAY JgXTe"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
     className="children sc-iwsKbI hAZHJM"
   >
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -1799,7 +1716,7 @@ exports[`Storyshots Menu mobile 1`] = `
       </a>
     </div>
     <div
-      className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+      className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
     >
       <a
         className="link"
@@ -1852,14 +1769,14 @@ exports[`Storyshots Menu mobile 1`] = `
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-cbkKFq fcavNM"
+  className="sc-itybZL hJXcPO"
 >
   <header
-    className="sc-Rmtcm gwGgYM sc-csuQGl fETolO"
+    className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
   >
     <span />
     <nav
-      className="sc-kgoBCf kVSTZj sc-chPdSV jsJEPX"
+      className="sc-bRBYWo ccSRck sc-Rmtcm iLBlhR"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -1883,7 +1800,7 @@ exports[`Storyshots Nav default 1`] = `
         </svg>
       </span>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -1932,7 +1849,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -1973,7 +1890,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -2018,7 +1935,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-kAzzGY jHprQs sc-cSHVUG biczzM"
       >
         <a
           className="link"
@@ -2073,66 +1990,91 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-kAzzGY jHprQs sc-cSHVUG jCgigM"
+        className="child sc-csuQGl CQhxV sc-gipzik fVOZQz"
+        open={false}
       >
-        <a
-          className="link"
+        <button
+          className="sc-bxivhb gRAuFd"
           onClick={[Function]}
-          style={Object {}}
         >
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
+            className="sc-kAzzGY jHprQs sc-cSHVUG biczzM"
           >
-            <div
-              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
+            <a
+              className="link sc-chPdSV byfFmt"
             >
-              <span
-                aria-hidden="true"
-                className="icon sc-jTzLTM iEjgub"
+              <div
+                className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
               >
-                <svg
-                  fill={undefined}
-                  height="2.5rem"
-                  preserveAspectRatio="xMidYMid meet"
-                  version="1.1"
-                  viewBox="-5 0 48 10"
-                  width="2.5rem"
+                <div
+                  className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
                 >
-                  <g
-                    id="Group"
+                  <span
+                    aria-hidden="true"
+                    className="icon sc-jTzLTM iEjgub"
                   >
-                    <circle
-                      cx="5"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                    <circle
-                      cx="19"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                    <circle
-                      cx="33"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                  </g>
-                </svg>
-              </span>
-              <span
-                className="text sc-dnqmqq bDsesi"
-              >
-                Lisää
-              </span>
-            </div>
+                    <svg
+                      fill={undefined}
+                      height="2.5rem"
+                      preserveAspectRatio="xMidYMid meet"
+                      version="1.1"
+                      viewBox="-5 0 48 10"
+                      width="2.5rem"
+                    >
+                      <g
+                        id="Group"
+                      >
+                        <circle
+                          cx="5"
+                          cy="5"
+                          id="Oval"
+                          r="5"
+                        />
+                        <circle
+                          cx="19"
+                          cy="5"
+                          id="Oval"
+                          r="5"
+                        />
+                        <circle
+                          cx="33"
+                          cy="5"
+                          id="Oval"
+                          r="5"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <span
+                    className="text sc-dnqmqq bDsesi"
+                  >
+                    <span
+                      className="sc-dnqmqq bDsesi"
+                    >
+                      Lisää
+                      <svg
+                        fill={undefined}
+                        height="0.5rem"
+                        preserveAspectRatio="xMidYMid meet"
+                        version="1.1"
+                        viewBox="0 0 42.5 27.47"
+                        width="0.75rem"
+                      >
+                        <path
+                          d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+                          id="arrow"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
           </div>
-        </a>
+        </button>
       </div>
       <div
-        className="menu sc-iAyFgw gPlgsX sc-kkGfuU dhjveP"
+        className="menu sc-hSdWYo bIQQAp sc-iAyFgw gKPRRn"
       >
         <div
           className="top sc-iwsKbI hAZHJM"
@@ -2161,32 +2103,32 @@ exports[`Storyshots Nav default 1`] = `
             className="lang-select sc-dnqmqq bDsesi"
           >
             <div
-              className="large sc-jKJlTe loXQau sc-ckVGcZ iKjsUW"
+              className="large sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
             >
               <button
-                className="sc-dxgOiQ dpMvJx"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}
               >
                 FI
               </button>
               <button
-                className="sc-dxgOiQ dpMvJx"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}
               >
                 SV
               </button>
               <button
-                className="sc-dxgOiQ dpMvJx"
+                className="sc-ckVGcZ cUFhzl"
                 onClick={[Function]}
               >
                 EN
               </button>
             </div>
             <div
-              className="small sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+              className="small sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
             >
               <button
-                className="selected-language sc-dxgOiQ dpMvJx"
+                className="selected-language sc-ckVGcZ cUFhzl"
                 onClick={[Function]}
               >
                 FI
@@ -2200,7 +2142,7 @@ exports[`Storyshots Nav default 1`] = `
                 >
                   <path
                     d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-                    id="Shape"
+                    id="arrow"
                   />
                 </svg>
               </button>
@@ -2211,13 +2153,13 @@ exports[`Storyshots Nav default 1`] = `
           </span>
         </div>
         <div
-          className="sc-gzVnrw irrFml"
+          className="sc-gzVnrw Latqt"
         />
         <div
           className="bottom large sc-iwsKbI hAZHJM"
         >
           <div
-            className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
           >
             <a
               className="link"
@@ -2258,7 +2200,7 @@ exports[`Storyshots Nav default 1`] = `
             </a>
           </div>
           <div
-            className="child sc-kpOJdX kAzjOl sc-kGXeez bYukpu"
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX RNCId"
           >
             <a
               className="link"
@@ -2310,7 +2252,7 @@ exports[`Storyshots Nav default 1`] = `
           className="bottom small sc-iwsKbI hAZHJM"
         >
           <div
-            className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
           >
             <a
               className="link"
@@ -2354,7 +2296,7 @@ exports[`Storyshots Nav default 1`] = `
             </a>
           </div>
           <div
-            className="child sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+            className="child sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
           >
             <a
               className="link"
@@ -2408,13 +2350,13 @@ exports[`Storyshots Nav default 1`] = `
       </div>
     </nav>
     <div
-      className="sc-gipzik iqSzmI"
+      className="sc-TOsTZ ewOFfi"
     />
     <nav
-      className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
+      className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
     >
       <div
-        className="sc-jDwBTQ kDZOga"
+        className="sc-caSCKo dEXXuK"
       >
         <span
           className="logo sc-dnqmqq bDsesi"
@@ -2438,10 +2380,10 @@ exports[`Storyshots Nav default 1`] = `
           </svg>
         </span>
         <div
-          className="sc-gPEVay joDSDO"
+          className="sc-gisBJw bhbYnd"
         >
           <div
-            className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+            className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
           >
             <a
               className="link"
@@ -2485,7 +2427,7 @@ exports[`Storyshots Nav default 1`] = `
             </a>
           </div>
           <div
-            className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+            className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
           >
             <a
               className="link"
@@ -2569,7 +2511,7 @@ exports[`Storyshots Nav default 1`] = `
         </div>
       </div>
       <div
-        className="sc-iRbamj ctrFpJ"
+        className="sc-kjoXOD SBiUD"
         height={0}
       >
         <span />
@@ -2731,10 +2673,10 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-jlyJG bbyJzT sc-jAaTju ecidjj"
+  className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
 >
   <div
-    className="sc-jDwBTQ kDZOga"
+    className="sc-caSCKo dEXXuK"
   >
     <span
       className="logo sc-dnqmqq bDsesi"
@@ -2758,10 +2700,10 @@ exports[`Storyshots Nav mobile 1`] = `
       </svg>
     </span>
     <div
-      className="sc-gPEVay joDSDO"
+      className="sc-gisBJw bhbYnd"
     >
       <div
-        className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+        className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
       >
         <a
           className="link"
@@ -2805,7 +2747,7 @@ exports[`Storyshots Nav mobile 1`] = `
         </a>
       </div>
       <div
-        className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+        className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
       >
         <a
           className="link"
@@ -2889,7 +2831,7 @@ exports[`Storyshots Nav mobile 1`] = `
     </div>
   </div>
   <div
-    className="sc-iRbamj ctrFpJ"
+    className="sc-kjoXOD SBiUD"
     height={0}
   >
     <span />
@@ -2899,10 +2841,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-fOKMvo kwFLex"
+  className="sc-gPWkxV cIdUTo"
 >
   <div
-    className="sc-fYiAbW hfGAcf sc-cSHVUG jCgigM"
+    className="sc-fzsDOv crgqzS sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -2955,7 +2897,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj scroll sc-chPdSV gqJjU"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -2979,7 +2921,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-krvtoX bQmaee"
+    className="child sc-eMigcr lirAqo"
   >
     Lataa kautta
   </span>
@@ -2988,7 +2930,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-kgoBCf kVSTZj scroll sc-chPdSV gqJjU"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -3012,7 +2954,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </svg>
   </span>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
@@ -3053,7 +2995,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
@@ -3098,7 +3040,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
+    className="child sc-kAzzGY jHprQs sc-cSHVUG cKIuGo"
   >
     <a
       className="link"
@@ -3153,69 +3095,10 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="child sc-kAzzGY jHprQs sc-cSHVUG fkqONW"
-  >
-    <a
-      className="link"
-      onClick={[Function]}
-      style={Object {}}
-    >
-      <div
-        className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
-      >
-        <div
-          className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
-        >
-          <span
-            aria-hidden="true"
-            className="icon sc-jTzLTM iEjgub"
-          >
-            <svg
-              fill={undefined}
-              height="2.5rem"
-              preserveAspectRatio="xMidYMid meet"
-              version="1.1"
-              viewBox="-5 0 48 10"
-              width="2.5rem"
-            >
-              <g
-                id="Group"
-              >
-                <circle
-                  cx="5"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-                <circle
-                  cx="19"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-                <circle
-                  cx="33"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="text sc-dnqmqq bDsesi"
-          >
-            Lisää
-          </span>
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    className="menu sc-eHgmQL gmKbQu sc-hSdWYo oaJuk"
+    className="menu sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
   >
     <div
-      className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -3259,7 +3142,7 @@ exports[`Storyshots Nav scroll 1`] = `
       </a>
     </div>
     <div
-      className="sc-kpOJdX kAzjOl sc-kGXeez ccdpLX"
+      className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
     >
       <a
         className="link"
@@ -3334,10 +3217,10 @@ exports[`Storyshots Nav scroll 1`] = `
       </svg>
     </div>
     <div
-      className="sc-kEYyzF gfWKdx sc-eNQAEJ LzyFe"
+      className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
     >
       <button
-        className="selected-language sc-dxgOiQ dpMvJx"
+        className="selected-language sc-ckVGcZ cUFhzl"
         onClick={[Function]}
       >
         FI
@@ -3351,7 +3234,7 @@ exports[`Storyshots Nav scroll 1`] = `
         >
           <path
             d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-            id="Shape"
+            id="arrow"
           />
         </svg>
       </button>
@@ -3363,72 +3246,273 @@ exports[`Storyshots Nav scroll 1`] = `
 </nav>
 `;
 
+exports[`Storyshots NewsFeed default 1`] = `
+<div
+  className="sc-hqyNC keRCOE sc-kvZOFW fSUwKK"
+>
+  <ul
+    className="sc-frDJqD gCEYuZ"
+  >
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/125x521"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/521x125"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/500x500"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/50x50"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+    </li>
+  </ul>
+  <div
+    className="sc-bdVaJa bDWFJH"
+  >
+    <button
+      className="show-more sc-htpNat fvIpva"
+      onClick={[Function]}
+    >
+      Näytä lisää
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Notification Error 1`] = `
 <div>
   <div
-    className="undefined sc-GMQeP bePjZj"
+    className="undefined sc-CtfFt bdigYj"
   >
     <div
-      className="content sc-hmzhuo eRtqMp"
+      className="content sc-hEsumM epeevU"
     >
       <div
-        className="icon sc-hmzhuo eRtqMp"
+        className="icon sc-hEsumM epeevU"
       />
       <div
-        className="message sc-hmzhuo eRtqMp"
+        className="message sc-hEsumM epeevU"
       />
     </div>
   </div>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error title, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error title + text, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success title + text, timeout
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success text, custom fast timeout
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error titleLink, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Error titleLink and textLink, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Success everything notification, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Neutral, close
   </button>
   <button
-    className="sc-htpNat dFpKTM"
+    className="sc-htpNat kIHcXL"
     onClick={[Function]}
   >
     Netural everything notification, close
@@ -3438,7 +3522,7 @@ exports[`Storyshots Notification Error 1`] = `
 
 exports[`Storyshots PageTitleBar with back button 1`] = `
 <div
-  className="sc-bRBYWo BgwJw"
+  className="sc-ksYbfQ eKZPQS"
 >
   <div
     className="content-container"
@@ -3474,7 +3558,7 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
 
 exports[`Storyshots PageTitleBar without back button 1`] = `
 <div
-  className="sc-bRBYWo BgwJw"
+  className="sc-ksYbfQ eKZPQS"
 >
   <div
     className="content-container"
@@ -3513,16 +3597,16 @@ exports[`Storyshots Span default 1`] = `
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
-    className="sc-kgAjT cuzzPp sc-TOsTZ jcqZCY"
+    className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW AelVN"
+        className="sc-tilXH jMVAVb sc-fYxtnH gojapJ"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3533,7 +3617,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW jhjthk"
+        className="sc-tilXH jMVAVb sc-fYxtnH fGRPJc"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3544,7 +3628,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW AelVN"
+        className="sc-tilXH jMVAVb sc-fYxtnH gojapJ"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3555,7 +3639,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW hoCQzu"
+        className="sc-tilXH jMVAVb sc-fYxtnH klzGZf"
         disabled={true}
         onClick={[Function]}
       >
@@ -3577,16 +3661,16 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
-    className="sc-kgAjT cuzzPp sc-TOsTZ jcqZCY"
+    className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW jhjthk"
+        className="sc-tilXH jMVAVb sc-fYxtnH fGRPJc"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3608,16 +3692,16 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
-    className="sc-kgAjT cuzzPp sc-TOsTZ ifCTxv"
+    className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW htYOoA"
+        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3628,7 +3712,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW jLvYFV"
+        className="sc-tilXH jMVAVb sc-fYxtnH limGHE"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3639,7 +3723,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW htYOoA"
+        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3650,7 +3734,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW lnhCOS"
+        className="sc-tilXH jMVAVb sc-fYxtnH jVvmMI"
         disabled={true}
         onClick={[Function]}
       >
@@ -3672,16 +3756,16 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-exAgwC iYmHJJ"
+  className="sc-laTMn coLnsu"
 >
   <div
-    className="sc-kgAjT cuzzPp sc-TOsTZ ifCTxv"
+    className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW jLvYFV"
+        className="sc-tilXH jMVAVb sc-fYxtnH limGHE"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3714,7 +3798,7 @@ exports[`Storyshots Tabs with icon 1`] = `
         </span>
       </button>
       <button
-        className="sc-ksYbfQ jHwjmi sc-cJSrbW htYOoA"
+        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3872,7 +3956,7 @@ exports[`Storyshots Typography Quote 1`] = `
 exports[`Storyshots Wrapper Activatable 1`] = `
 <span>
   <div
-    className="sc-gHboQg gakyRs"
+    className="sc-kUaPvJ ictqPJ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP"
@@ -3883,7 +3967,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-gHboQg gakyRs"
+    className="sc-kUaPvJ ictqPJ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
@@ -3894,7 +3978,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-gHboQg gakyRs"
+    className="sc-kUaPvJ ictqPJ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -3908,7 +3992,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-gHboQg gakyRs"
+    className="sc-kUaPvJ ictqPJ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -3926,7 +4010,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
 
 exports[`Storyshots Wrapper Flex 1`] = `
 <div
-  className="sc-dUjcNx hOiKwi"
+  className="sc-jVODtj bZpmIj"
 >
   <div
     className="sc-iwsKbI hAZHJM"

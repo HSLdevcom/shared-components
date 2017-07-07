@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots NewsFeed default 1`] = `
+<div
+  className="sc-hqyNC keRCOE sc-kvZOFW fSUwKK"
+>
+  <ul
+    className="sc-frDJqD gCEYuZ"
+  >
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/125x521"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/521x125"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Today at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/500x500"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+      <img
+        alt="news image"
+        className="sc-jbKcbu cWSlbe"
+        src="https://placehold.it/50x50"
+      />
+    </li>
+    <li
+      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+    >
+      <div
+        className="text-container sc-dNLxif KzmkZ"
+      >
+        <span
+          className="top sc-dnqmqq bDsesi"
+        >
+          <span
+            className="category sc-dnqmqq bDsesi"
+          >
+            example
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+             — 
+          </span>
+          <span
+            className="sc-dnqmqq bDsesi"
+          >
+            Yesterday at 2:00 PM
+          </span>
+        </span>
+        <span
+          className="bottom sc-dnqmqq bDsesi"
+        >
+          example example example example
+        </span>
+      </div>
+    </li>
+  </ul>
+  <div
+    className="sc-bdVaJa bDWFJH"
+  >
+    <button
+      className="show-more sc-htpNat fvIpva"
+      onClick={[Function]}
+    >
+      Näytä lisää
+    </button>
+  </div>
+</div>
+`;

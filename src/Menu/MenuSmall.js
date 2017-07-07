@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { darken } from 'polished';
 
 import IconWithText from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
@@ -34,7 +35,7 @@ const StyledFlex = Flex.extend`
   align-items: stretch;
 
   > * {
-    ${props => (props.theme.menuBorder && `border-left: 1px solid ${props.theme.menuBorder};`)}
+    border-left: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
     display: flex;
 
     width: ${props => props.theme.scrollNavHeight || '3.75rem'};

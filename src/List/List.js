@@ -5,21 +5,42 @@ import styled from 'styled-components';
 import Div from '../Div';
 
 const Ul = styled.ul``;
-const H3 = styled.h3``;
+const Header = Div.extend``;
 
 const StyledDiv = Div.extend`
-  ${H3} {
-
+  ${Header} {
+    margin-bottom: 1.25rem;
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.small`
+      margin-bottom: 0;
+      padding-left: 2rem;
+    `)}
   }
   ${Ul} {
     padding: 0;
+    margin: 0;
     list-style: none;
     columns: 2;
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+      columns: 1;
+    `)}
     li::before {
       padding-right: 0.75rem;
       content: "○";
       color: ${props => props.theme.listItemMarker};
     }
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.small`
+      li::before {
+        content: "";
+        padding-right: 0;
+      }
+    `)}
+
   }
 `;
 
@@ -29,7 +50,7 @@ const List = ({
   className
 }) => (
   <StyledDiv className={className}>
-    <H3>{ header }</H3>
+    <Header>{ header }</Header>
     <Ul>
       { children }
     </Ul>

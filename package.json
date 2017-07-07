@@ -1,6 +1,7 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.6.0",
+  "version": "0.7.0",
+  "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
     "@storybook/addon-knobs": "3.1.2",
@@ -57,6 +58,8 @@
     "eventemitter3": "^2.0.3",
     "expo": "15.x.x",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "polished": "^1.2.1",
     "prop-types": "^15.5.10",
     "react": "15.4.x",
     "react-native": "0.42.x",

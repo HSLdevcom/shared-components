@@ -7,11 +7,61 @@ import JSXAddon from 'storybook-addon-jsx';
 
 import { Menu, MenuSmall, MenuMobile, MenuItem,
          Nav, NavMobile, NavDesktop, NavItem,
-         Div, Span } from '../src';
+         DropdownMenu, IconWithText,
+         Div, Span, List, ListItem } from '../src';
 
-import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, More, TravelCard, SignIn } from '../src/Icons';
+import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, TravelCard, SignIn, Cog } from '../src/Icons';
 
 setAddon(JSXAddon);
+const cog = <Cog height="2.5rem" width="2.5rem" />;
+const DropdownContent = [
+  <List header="Liikkumisen palveluita" key="1">
+    <ListItem><Link to="/test">Kaupunkipyörät</Link></ListItem>
+    <ListItem><Link to="/test">Pyöräparkki</Link></ListItem>
+    <ListItem><Link to="/test">Liityntäpysäköinti</Link></ListItem>
+    <ListItem><Link to="/test">Lähibussit</Link></ListItem>
+    <ListItem><Link to="/test">Pikaratikka</Link></ListItem>
+  </List>,
+  <List header="Tietoa HSL:stä" key="2">
+    <ListItem><Link to="/test">Päätöksenteko</Link></ListItem>
+    <ListItem><Link to="/test">Strategia</Link></ListItem>
+    <ListItem><Link to="/test">Talous</Link></ListItem>
+    <ListItem><Link to="/test">Hankinnat</Link></ListItem>
+    <ListItem><Link to="/test">Julkaisut</Link></ListItem>
+    <ListItem><Link to="/test">HSL työpaikkana ja avoimet työpaikat</Link></ListItem>
+    <ListItem><Link to="/test">Viestintä</Link></ListItem>
+  </List>,
+  <div key="3">
+    <IconWithText
+      icon={cog}
+      text="Yrityksille"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Oppilaitoksille"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Asiakasedut"
+      textPosition="Right"
+    />
+    <IconWithText
+      icon={cog}
+      text="Osta HSL-fanituotteita"
+      textPosition="Right"
+    />
+  </div>
+];
+const Dropdown = (
+  <DropdownMenu
+    text="Lisää"
+    textPosition="Bottom"
+  >
+    { DropdownContent }
+  </DropdownMenu>
+);
 
 const longArr = [];
 let i = 0;
@@ -24,7 +74,6 @@ const icons = [
   [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
   [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
   [<Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
-  [<More height="2.5rem" width="2.5rem" />, 'Lisää']
 ];
 
 const stories = storiesOf('Nav', module);
@@ -84,6 +133,7 @@ stories.addWithJSX('default', () => {
           textPosition={'Bottom'}
         />)
      )}
+      { Dropdown }
     </Nav>
     {
       longArr.map(ix => <p key={`k ${ix}`}>{ix}</p>)

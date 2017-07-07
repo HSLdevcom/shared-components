@@ -13,7 +13,9 @@ import Icons from './Icons';
 import IconWithText from './IconWithText/IconWithText';
 import Span from './Span';
 import Div from './Div';
+import A from './Anchor';
 import List, { ListItem } from './List';
+import NewsFeed, { NewsFeedItem } from './NewsFeed';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
 import { Flex, Activatable } from './Wrapper';
@@ -40,6 +42,7 @@ export {
   IconWithText,
   Span,
   Div,
+  A,
   LangSelect,
   LangSelectSmall,
   LangButton,
@@ -52,6 +55,8 @@ export {
   DropdownMenu,
   List,
   ListItem,
+  NewsFeed,
+  NewsFeedItem,
   UltraWideContainer,
   Tab,
   Tabs,
