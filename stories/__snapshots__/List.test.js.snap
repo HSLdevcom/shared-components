@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots List default 1`] = `
+<div
+  className="sc-dVhcbM fghLuF sc-fMiknA bOVypf"
+>
+  <h3
+    className="sc-fBuWsC eeihxG"
+  >
+    Header
+  </h3>
+  <ul
+    className="sc-jhAzac hmXDXQ"
+  >
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      short text
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      short text
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+    <li
+      className="sc-eqIVtm nhYWg"
+    >
+      looong teexttt ttttttttttttttttt
+    </li>
+  </ul>
+</div>
+`;

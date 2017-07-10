@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Span default 1`] = `
+<div>
+  <span>
+    Some other text 
+  </span>
+  <span
+    className="sc-dnqmqq bDsesi"
+    style={
+      Object {
+        "color": "Black",
+        "display": "inline",
+      }
+    }
+  >
+    Sample text
+  </span>
+</div>
+`;
