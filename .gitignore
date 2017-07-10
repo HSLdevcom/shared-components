@@ -5,3 +5,4 @@ storybook-static/
 .expo/
 .idea/
 build/
+lib/
