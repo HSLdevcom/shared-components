@@ -10,6 +10,9 @@ import Caption from './Caption';
 import InfoText, { InfoTextNative } from './InfoText';
 import ErrorText, { ErrorTextNative } from './ErrorText';
 import ListText, { ListTextNative } from './ListText';
+import Text from './Text';
+
+export default Text;
 
 export { H1, H2, H3, H4, H5, P, PNative, Quote, Ingress, Caption, InfoText,
          InfoTextNative, ErrorText, ErrorTextNative, ListText, ListTextNative };

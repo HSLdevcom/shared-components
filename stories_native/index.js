@@ -1,15 +1,15 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
-import { Text } from 'react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import CenterView from './CenterView';
 
-import { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from '../src/native';
+import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText,
+          NewsFeedItem } from '../src/native';
 
 storiesOf('Typography', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('default', () => <Text>asdf</Text>)
+  .add('default', () => <Text>HSL Liikuttaa</Text>)
   .add('H1', () => <H1>HSL Liikuttaa</H1>)
   .add('H2', () => <H2>HSL Liikuttaa</H2>)
   .add('H3', () => <H3>HSL Liikuttaa</H3>)
@@ -33,3 +33,19 @@ storiesOf('Typography', module)
   })
   .add('ErrorText', () => <ErrorText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ErrorText>)
   .add('ListText', () => <ListText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ListText>);
+
+
+const TODAY_2PM = new Date();
+TODAY_2PM.setHours(14, 0, 0, 0);
+
+storiesOf('News feed', module)
+  .addDecorator(withKnobs)
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('News feed item', () => (
+    <NewsFeedItem
+      category="example"
+      title="example example example example"
+      timestamp={TODAY_2PM}
+      image="https://placehold.it/500x500"
+    />
+  ));
