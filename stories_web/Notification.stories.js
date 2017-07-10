@@ -5,7 +5,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 
 import { Button } from '../src';
-import NotificationRoot, { notification, reducer } from '../lib/Notification';
+import NotificationRoot, { notification, reducer } from '../src/Notification';
 
 const store = createStore(
   combineReducers({
