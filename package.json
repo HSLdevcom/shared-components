@@ -37,7 +37,7 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "build:babel": "babel src/ --out-dir lib/ --ignore test.js",
-    "build:babelw": "babel src/ --out-dir lib/ --watch --ignore test.js",
+    "build": "yarn run build:babel && ./scripts/publish.sh",
     "lint:tight": "esw src/ --color --max-warnings 0",
     "lint:watch": "esw src/ -w --color",
     "start": "react-native-scripts start",
@@ -50,7 +50,6 @@
     "build-storybook": "build-storybook -c .storybook -s ./static",
     "deploy-storybook": "storybook-to-ghpages",
     "test-update": "./scripts/updateShots.sh",
-    "build": "yarn run build:babel && ./scripts/publish.sh",
     "es-lint": "eslint ."
   },
   "dependencies": {

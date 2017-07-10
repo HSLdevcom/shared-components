@@ -189,7 +189,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
 
 exports[`Storyshots IconWithText default 1`] = `
 <div
-  className="sc-hGoxap eIyyUf sc-fjdhpX fNCIal"
+  className="sc-cIShpX gQprzq sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -219,7 +219,7 @@ exports[`Storyshots IconWithText default 1`] = `
 
 exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 <div
-  className="sc-TFwJa hccBiq sc-fjdhpX fNCIal"
+  className="sc-feJyhm ePnQgM sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -264,7 +264,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 
 exports[`Storyshots IconWithText with inner & outer fill 1`] = `
 <div
-  className="sc-fjmCvl dxbWoN sc-fjdhpX fNCIal"
+  className="sc-kafWEX kwHksu sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -1409,10 +1409,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-dTdPqK dGLXoG"
+  className="sc-jwKygS fjEGHG"
 >
   <div
-    className="sc-krDsej LiCTT sc-kpOJdX RNCId"
+    className="sc-cmTdod jJyOug sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -1617,7 +1617,7 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-bHwgHz cnyAnQ sc-fMiknA dtMtQX"
+  className="sc-iELTvK jQonFf sc-fMiknA dtMtQX"
 >
   <div
     className="sc-fBuWsC hFbCwQ"
@@ -1769,7 +1769,7 @@ exports[`Storyshots Menu mobile 1`] = `
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-itybZL hJXcPO"
+  className="sc-btzYZH cpFQSo"
 >
   <header
     className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
@@ -2841,10 +2841,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-gPWkxV cIdUTo"
+  className="sc-elJkPf cEjkTZ"
 >
   <div
-    className="sc-fzsDOv crgqzS sc-cSHVUG biczzM"
+    className="sc-bYSBpT cWGxby sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -2921,7 +2921,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-eMigcr lirAqo"
+    className="child sc-lhVmIH gtVoLN"
   >
     Lataa kautta
   </span>
@@ -3450,16 +3450,16 @@ exports[`Storyshots NewsFeed default 1`] = `
 exports[`Storyshots Notification Error 1`] = `
 <div>
   <div
-    className="undefined sc-CtfFt bdigYj"
+    className="undefined sc-hEsumM bnMFce"
   >
     <div
-      className="content sc-hEsumM epeevU"
+      className="content sc-bdVaJa bDWFJH"
     >
       <div
-        className="icon sc-hEsumM epeevU"
+        className="icon sc-bdVaJa bDWFJH"
       />
       <div
-        className="message sc-hEsumM epeevU"
+        className="message sc-bdVaJa bDWFJH"
       />
     </div>
   </div>
@@ -3597,7 +3597,7 @@ exports[`Storyshots Span default 1`] = `
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-laTMn coLnsu"
+  className="sc-ktHwxA iZWXHg"
 >
   <div
     className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
@@ -3661,7 +3661,7 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-laTMn coLnsu"
+  className="sc-ktHwxA iZWXHg"
 >
   <div
     className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
@@ -3692,7 +3692,7 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-laTMn coLnsu"
+  className="sc-ktHwxA iZWXHg"
 >
   <div
     className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
@@ -3756,7 +3756,7 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-laTMn coLnsu"
+  className="sc-ktHwxA iZWXHg"
 >
   <div
     className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
@@ -3956,7 +3956,7 @@ exports[`Storyshots Typography Quote 1`] = `
 exports[`Storyshots Wrapper Activatable 1`] = `
 <span>
   <div
-    className="sc-kUaPvJ ictqPJ"
+    className="sc-kTUwUJ jSuPvx"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP"
@@ -3967,7 +3967,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kUaPvJ ictqPJ"
+    className="sc-kTUwUJ jSuPvx"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
@@ -3978,7 +3978,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kUaPvJ ictqPJ"
+    className="sc-kTUwUJ jSuPvx"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -3992,7 +3992,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kUaPvJ ictqPJ"
+    className="sc-kTUwUJ jSuPvx"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -4010,7 +4010,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
 
 exports[`Storyshots Wrapper Flex 1`] = `
 <div
-  className="sc-jVODtj bZpmIj"
+  className="sc-jtRfpW kJajQz"
 >
   <div
     className="sc-iwsKbI hAZHJM"
