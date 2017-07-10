@@ -4,23 +4,31 @@ import styled from 'styled-components/primitives';
 import moment from 'moment';
 
 import View from '../View';
-import Text from '../Typography';
+import Text, { H3 } from '../Typography';
 
 const Image = styled.Image`
   margin-left: 30px;
-  height: 50px;
-  width: 100px;
+  height: 80px;
+  width: 30%;
 `;
 
 const TextContainer = View.extend`
   align-self: stretch;
   flex-direction: column;
+  width: 55%;
+`;
+
+const Header = View.extend`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 const StyledLi = View.extend`
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 20px 20px;
+  padding: 15px 15px 15px 15px;
   border-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #dddddd;
@@ -35,14 +43,14 @@ const NewsFeedItemNative = ({
 }) => (
   <StyledLi className={className}>
     <TextContainer>
-      <View>
+      <Header>
         <Text>{ category.toUpperCase() }</Text>
         <Text> — </Text>
         <Text>{ moment(timestamp).calendar() }</Text>
-      </View>
-      <Text>
+      </Header>
+      <H3>
         { title }
-      </Text>
+      </H3>
     </TextContainer>
     { image && <Image source={{ uri: image }} alt="news image" /> }
   </StyledLi>
