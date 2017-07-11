@@ -6,6 +6,10 @@ import moment from 'moment';
 import View from '../View';
 import Text, { H3 } from '../Typography';
 
+const StyledH3 = H3.extend`
+  color: ${props => props.theme.primary}
+`;
+
 const Image = styled.Image`
   margin-left: 30px;
   height: 80px;
@@ -34,6 +38,14 @@ const StyledLi = View.extend`
   border-bottom-color: #dddddd;
 `;
 
+const Timestamp = Text.extend`
+  color: ${props => props.theme.secondary}
+`;
+
+const Category = Timestamp.extend`
+  font-weight: 500;
+`;
+
 const NewsFeedItemNative = ({
   category,
   timestamp,
@@ -44,13 +56,12 @@ const NewsFeedItemNative = ({
   <StyledLi className={className}>
     <TextContainer>
       <Header>
-        <Text>{ category.toUpperCase() }</Text>
-        <Text> — </Text>
-        <Text>{ moment(timestamp).calendar() }</Text>
+        <Category>{ category.toUpperCase() } — </Category>
+        <Timestamp>{ moment(timestamp).calendar() }</Timestamp>
       </Header>
-      <H3>
+      <StyledH3>
         { title }
-      </H3>
+      </StyledH3>
     </TextContainer>
     { image && <Image source={{ uri: image }} alt="news image" /> }
   </StyledLi>
