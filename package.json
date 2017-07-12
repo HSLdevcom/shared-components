@@ -31,6 +31,7 @@
     "jest-expo": "^0.3.0",
     "react-dom": "^15.6.1",
     "react-native-scripts": "^0.0.22",
+    "react-native-storybook-loader": "^1.4.1",
     "react-test-renderer": "15.4.x",
     "storybook-addon-jsx": "^4.1.1"
   },
@@ -45,6 +46,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
+    "prestorybook": "rnstl",
     "storybook": "storybook start -p 7007",
     "storybook:web": "start-storybook -c .storybook -s ./static -p 6006",
     "build-storybook": "build-storybook -c .storybook -s ./static",
@@ -69,5 +71,12 @@
     "react-transition-group": "^1.2.0",
     "redux": "^3.7.1",
     "styled-components": "^2.1.1"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": ["./stories_native"],
+      "pattern": "**/*.stories.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
   }
 }

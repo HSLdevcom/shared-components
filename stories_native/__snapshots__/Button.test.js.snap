@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button default 1`] = `
+<button
+  className="sc-htpNat kIHcXL"
+  disabled={false}
+>
+  Default Button
+</button>
+`;
+
+exports[`Storyshots Button primary 1`] = `
+<button
+  className="sc-htpNat cQJqWF"
+  disabled={false}
+>
+  Primary Button
+</button>
+`;
+
+exports[`Storyshots Button secondary 1`] = `
+<button
+  className="sc-htpNat erupkY"
+  disabled={false}
+>
+  Secondary Button
+</button>
+`;

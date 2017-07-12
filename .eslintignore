@@ -4,3 +4,4 @@ hooks
 .storybook
 storybook-static
 static
+storybook/storyLoader.js
