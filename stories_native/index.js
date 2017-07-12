@@ -46,7 +46,7 @@ storiesOf('News feed', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('News feed', () => (
-    <NewsFeed>
+    <NewsFeed more={{ text: 'Näytä lisää', action: action('Button pressed') }}>
       <NewsFeedItem
         category="example"
         title="example example example example"

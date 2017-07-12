@@ -5,12 +5,23 @@ import styled from 'styled-components';
 import View from '../View';
 import { ButtonNative } from '../Button';
 
-const StyledButton = ButtonNative.extend`
+const StyledView = View.extend`
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+`;
 
+const ButtonWrapper = View.extend`
+  padding: 25px 50px 25px 50px;
+  background-color: #eef1f3;
+  justify-content: center;
+  align-items: center;
 `;
 
 const List = View.extend`
-  padding: 0;
+  flex-direction: column;
 `;
 
 
@@ -19,14 +30,14 @@ const NewsFeed = ({
   children,
   className
 }) => (
-  <View className={className}>
+  <StyledView className={className}>
     <List>
       { children }
     </List>
-    <View>
-      <StyledButton rounded onPress={more.action}>{more.text}</StyledButton>
-    </View>
-  </View>
+    <ButtonWrapper>
+      <ButtonNative rounded onPress={more.action}>{more.text}</ButtonNative>
+    </ButtonWrapper>
+  </StyledView>
 )
 ;
 
