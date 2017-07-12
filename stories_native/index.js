@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import CenterView from './CenterView';
 
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText,
@@ -69,6 +70,8 @@ storiesOf('Button', module)
     return (<Button
       disabled={disabled}
       rounded={rounded}
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       Default Button
     </Button>);
@@ -80,6 +83,8 @@ storiesOf('Button', module)
       disabled={disabled}
       rounded={rounded}
       primary
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       Primary Button
     </Button>);
@@ -91,6 +96,8 @@ storiesOf('Button', module)
       disabled={disabled}
       rounded={rounded}
       secondary
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       Secondary Button
     </Button>);
