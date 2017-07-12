@@ -95,4 +95,4 @@ ButtonNative.propTypes = {
   children: PropTypes.node
 };
 
-export default ButtonNative;
+export default styled(ButtonNative)``;

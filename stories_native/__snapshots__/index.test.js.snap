@@ -189,7 +189,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
 
 exports[`Storyshots IconWithText default 1`] = `
 <div
-  className="sc-cIShpX gQprzq sc-fjdhpX fNCIal"
+  className="sc-kafWEX kwHksu sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -219,7 +219,7 @@ exports[`Storyshots IconWithText default 1`] = `
 
 exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 <div
-  className="sc-feJyhm ePnQgM sc-fjdhpX fNCIal"
+  className="sc-iELTvK fuFeBa sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -264,7 +264,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 
 exports[`Storyshots IconWithText with inner & outer fill 1`] = `
 <div
-  className="sc-kafWEX kwHksu sc-fjdhpX fNCIal"
+  className="sc-feJyhm kZsGZa sc-fjdhpX fNCIal"
 >
   <span
     aria-hidden="true"
@@ -1409,10 +1409,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-jwKygS fjEGHG"
+  className="sc-btzYZH gUkCHL"
 >
   <div
-    className="sc-cmTdod jJyOug sc-kpOJdX RNCId"
+    className="sc-jwKygS krAGlO sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -1617,7 +1617,7 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-iELTvK jQonFf sc-fMiknA dtMtQX"
+  className="sc-cmTdod jJyOug sc-fMiknA dtMtQX"
 >
   <div
     className="sc-fBuWsC hFbCwQ"
@@ -1769,7 +1769,7 @@ exports[`Storyshots Menu mobile 1`] = `
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-btzYZH cpFQSo"
+  className="sc-lhVmIH bznMjy"
 >
   <header
     className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
@@ -2841,10 +2841,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-elJkPf cEjkTZ"
+  className="sc-jtRfpW halILs"
 >
   <div
-    className="sc-bYSBpT cWGxby sc-cSHVUG biczzM"
+    className="sc-elJkPf cnPYeQ sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -2921,7 +2921,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-lhVmIH gtVoLN"
+    className="child sc-bYSBpT knTsYw"
   >
     Lataa kautta
   </span>
@@ -3450,7 +3450,7 @@ exports[`Storyshots NewsFeed default 1`] = `
 exports[`Storyshots Notification Error 1`] = `
 <div>
   <div
-    className="undefined sc-hEsumM bnMFce"
+    className="undefined sc-ktHwxA gCnVKo"
   >
     <div
       className="content sc-bdVaJa bDWFJH"
@@ -3597,16 +3597,16 @@ exports[`Storyshots Span default 1`] = `
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-ktHwxA iZWXHg"
+  className="sc-cIShpX cfHyhK"
 >
   <div
-    className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
+    className="sc-fYxtnH hSLfWw sc-jnlKLf dmayHg"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH gojapJ"
+        className="sc-hEsumM epeevU sc-tilXH uHAUh"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3617,7 +3617,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH fGRPJc"
+        className="sc-hEsumM epeevU sc-tilXH iEIQnK"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3628,7 +3628,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH gojapJ"
+        className="sc-hEsumM epeevU sc-tilXH uHAUh"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3639,7 +3639,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH klzGZf"
+        className="sc-hEsumM epeevU sc-tilXH gdDOvE"
         disabled={true}
         onClick={[Function]}
       >
@@ -3661,16 +3661,16 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-ktHwxA iZWXHg"
+  className="sc-cIShpX cfHyhK"
 >
   <div
-    className="sc-jnlKLf jKMWma sc-gGBfsJ eyiJuV"
+    className="sc-fYxtnH hSLfWw sc-jnlKLf dmayHg"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH fGRPJc"
+        className="sc-hEsumM epeevU sc-tilXH iEIQnK"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3692,16 +3692,16 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-ktHwxA iZWXHg"
+  className="sc-cIShpX cfHyhK"
 >
   <div
-    className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
+    className="sc-fYxtnH hSLfWw sc-jnlKLf jjlLXd"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
+        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3712,7 +3712,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH limGHE"
+        className="sc-hEsumM epeevU sc-tilXH lnHLMO"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3723,7 +3723,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
+        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3734,7 +3734,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH jVvmMI"
+        className="sc-hEsumM epeevU sc-tilXH jwRvtu"
         disabled={true}
         onClick={[Function]}
       >
@@ -3756,16 +3756,16 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-ktHwxA iZWXHg"
+  className="sc-cIShpX cfHyhK"
 >
   <div
-    className="sc-jnlKLf jKMWma sc-gGBfsJ LdvfI"
+    className="sc-fYxtnH hSLfWw sc-jnlKLf jjlLXd"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH limGHE"
+        className="sc-hEsumM epeevU sc-tilXH lnHLMO"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3798,7 +3798,7 @@ exports[`Storyshots Tabs with icon 1`] = `
         </span>
       </button>
       <button
-        className="sc-tilXH jMVAVb sc-fYxtnH cLafka"
+        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -3956,7 +3956,7 @@ exports[`Storyshots Typography Quote 1`] = `
 exports[`Storyshots Wrapper Activatable 1`] = `
 <span>
   <div
-    className="sc-kTUwUJ jSuPvx"
+    className="sc-dqBHgY fPKGjQ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi dyYxFP"
@@ -3967,7 +3967,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kTUwUJ jSuPvx"
+    className="sc-dqBHgY fPKGjQ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
@@ -3978,7 +3978,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kTUwUJ jSuPvx"
+    className="sc-dqBHgY fPKGjQ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -3992,7 +3992,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kTUwUJ jSuPvx"
+    className="sc-dqBHgY fPKGjQ"
   >
     <div
       className="sc-VigVT hjRoCW sc-gZMcBi QnHAw"
@@ -4010,7 +4010,7 @@ exports[`Storyshots Wrapper Activatable 1`] = `
 
 exports[`Storyshots Wrapper Flex 1`] = `
 <div
-  className="sc-jtRfpW kJajQz"
+  className="sc-kTUwUJ erbLXI"
 >
   <div
     className="sc-iwsKbI hAZHJM"

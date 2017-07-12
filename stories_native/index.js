@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 import CenterView from './CenterView';
 
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText,
-          NewsFeedItem,
+          NewsFeedItem, NewsFeed,
           Button } from '../src/native';
 
 storiesOf('Typography', module)
@@ -39,17 +39,27 @@ storiesOf('Typography', module)
 
 const TODAY_2PM = new Date();
 TODAY_2PM.setHours(14, 0, 0, 0);
+const ONE_DAY = 86400000;
+const YESTERDAY_2PM = new Date(TODAY_2PM - ONE_DAY);
 
 storiesOf('News feed', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('News feed', () => (
-    <NewsFeedItem
-      category="example"
-      title="example example example example"
-      timestamp={TODAY_2PM}
-      image="https://placehold.it/500x500"
-    />
+    <NewsFeed>
+      <NewsFeedItem
+        category="example"
+        title="example example example example"
+        timestamp={TODAY_2PM}
+        image="https://placehold.it/500x500"
+      />
+      <NewsFeedItem
+        category="example"
+        title="example example example example"
+        timestamp={YESTERDAY_2PM}
+        image="https://placehold.it/500x500"
+      />
+    </NewsFeed>
   ))
   .add('News feed item', () => (
     <NewsFeedItem

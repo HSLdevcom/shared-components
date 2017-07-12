@@ -2,36 +2,31 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from '../Div';
-import Button from '../Button/Button';
+import View from '../View';
+import { ButtonNative } from '../Button';
 
-const Ul = styled.ul``;
+const StyledButton = ButtonNative.extend`
 
-const StyledDiv = Div.extend`
-  ${Ul} {
-    padding: 0;
-    list-style: none;
-  }
-  ${Button}.show-more {
-    width: 15rem;
-    height: 2.5rem;
-    font-size: 1rem;
-  }
 `;
+
+const List = View.extend`
+  padding: 0;
+`;
+
 
 const NewsFeed = ({
   more,
   children,
   className
 }) => (
-  <StyledDiv className={className}>
-    <Ul>
+  <View className={className}>
+    <List>
       { children }
-    </Ul>
-    <Div>
-      <Button rounded className="show-more" onClick={more.action}>{more.text}</Button>
-    </Div>
-  </StyledDiv>
+    </List>
+    <View>
+      <StyledButton rounded onPress={more.action}>{more.text}</StyledButton>
+    </View>
+  </View>
 )
 ;
 
