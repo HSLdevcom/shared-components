@@ -4,7 +4,8 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import CenterView from './CenterView';
 
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText,
-          NewsFeedItem } from '../src/native';
+          NewsFeedItem,
+          Button } from '../src/native';
 
 storiesOf('Typography', module)
   .addDecorator(withKnobs)
@@ -41,6 +42,14 @@ TODAY_2PM.setHours(14, 0, 0, 0);
 storiesOf('News feed', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('News feed', () => (
+    <NewsFeedItem
+      category="example"
+      title="example example example example"
+      timestamp={TODAY_2PM}
+      image="https://placehold.it/500x500"
+    />
+  ))
   .add('News feed item', () => (
     <NewsFeedItem
       category="example"
@@ -49,3 +58,40 @@ storiesOf('News feed', module)
       image="https://placehold.it/500x500"
     />
   ));
+
+
+storiesOf('Button', module)
+  .addDecorator(withKnobs)
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('default', () => {
+    const disabled = boolean('Disabled', false);
+    const rounded = boolean('Rounded', false);
+    return (<Button
+      disabled={disabled}
+      rounded={rounded}
+    >
+      Default Button
+    </Button>);
+  })
+  .add('primary', () => {
+    const disabled = boolean('Disabled', false);
+    const rounded = boolean('Rounded', false);
+    return (<Button
+      disabled={disabled}
+      rounded={rounded}
+      primary
+    >
+      Primary Button
+    </Button>);
+  })
+  .add('secondary', () => {
+    const disabled = boolean('Disabled', false);
+    const rounded = boolean('Rounded', false);
+    return (<Button
+      disabled={disabled}
+      rounded={rounded}
+      secondary
+    >
+      Secondary Button
+    </Button>);
+  });

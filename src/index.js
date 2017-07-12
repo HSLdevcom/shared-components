@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button from './Button/Button';
+import Button from './Button';
 import Input from './Input/Input';
 import Separator, {
   MenuSeparator,
