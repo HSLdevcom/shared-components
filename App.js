@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import Theme from './themes/themes.hsl';
 import StorybookUI from './storybook';
 
-const font = require('./static/gotham.ttf');
+const font = require('./static/Digitalt.ttf');
 
 export default class App extends React.Component {
   constructor(props) {
@@ -20,8 +20,7 @@ export default class App extends React.Component {
 
   async loadFont() {
     await Font.loadAsync({
-      'Gotham Rounded SSm A, Gotham Rounded SSm B': font,
-      'Gotham XNarrow SSm A, Gotham XNarrow SSm B': font,
+      Digitalt: font,
     });
     this.setState({ fontLoaded: true });
   }
