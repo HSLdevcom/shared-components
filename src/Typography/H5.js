@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Text from './Text';
 
-
 const StyledText = Text.extend`
-  font-size: 16px;
   font-weight: 500;
   letter-spacing: -0.2px;
 `;

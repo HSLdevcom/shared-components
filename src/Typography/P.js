@@ -1,23 +1,10 @@
 import Text from './Text';
+import { size } from '../utils';
 
-const PNative = Text.extend`
+const P = Text.extend`
   font-weight: 300;
-  font-size: 14px;
+  font-size: ${size(14)};
   line-height: 18;
 `;
 
-const P = PNative.extend`
-  font-size: 16px;
-  line-height: 20;
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.small`
-      font-size: 14px;
-      line-height: 18;
-    `
-  )}
-`;
-
 export default P;
-
-export { PNative };
