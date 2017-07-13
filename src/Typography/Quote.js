@@ -2,6 +2,7 @@ import styled from 'styled-components/primitives';
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { size } from '../utils';
 import Text from './Text';
 
 const View = styled.View`
@@ -11,7 +12,7 @@ const View = styled.View`
 `;
 
 const Quote = Text.extend`
-  font-size: 20px;
+  font-size: ${size(20)};
   font-style: italic;
   line-height: 25;
   font-weight: 300;
