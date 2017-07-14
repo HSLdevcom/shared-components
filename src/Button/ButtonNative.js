@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { darken, lighten } from 'polished';
 import Text from '../Typography';
 import View from '../View';
+import Touchable from '../Touchable';
 
-const Touchable = styled.Touchable``;
 
 const TouchableText = Text.extend`
   font-size: 30px;
@@ -59,6 +59,7 @@ const ButtonNative = ({
   onPress,
   onLongPress,
   className,
+  style,
   children }) => (
     <Touchable onPress={onPress} onLongPress={onLongPress}>
       <TouchableView
@@ -67,6 +68,7 @@ const ButtonNative = ({
         disabled={disabled}
         rounded={rounded}
         className={className}
+        style={style}
       >
         {
           React.isValidElement(children) ?
@@ -92,7 +94,8 @@ ButtonNative.propTypes = {
   className: PropTypes.string,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  children: PropTypes.node
+  children: PropTypes.node,
+  style: PropTypes.node
 };
 
 export default styled(ButtonNative)``;
