@@ -4,7 +4,7 @@ import { Font } from 'expo';
 import { ThemeProvider } from 'styled-components';
 
 import Theme from './themes/themes.hsl';
-import StorybookUI from './storybook';
+import StorybookUI from './storybook_native';
 
 const font = require('./static/Digitalt.ttf');
 
