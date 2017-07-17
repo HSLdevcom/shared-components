@@ -1,17 +1,11 @@
 import Text from './Text';
+import { size } from '../utils';
 
 const ListText = Text.extend`
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1;
-  text-align: left;
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.small`
-      font-size: 14px;
-      line-height: 1.14;
-    `
-  )}
+  font-size: ${size(16)};
+  line-height: 16;
 `;
+
 
 export default ListText;

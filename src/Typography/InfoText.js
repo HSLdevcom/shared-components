@@ -1,19 +1,17 @@
 import PropTypes from 'prop-types';
 import Text from './Text';
+import { size } from '../utils';
 
 const InfoText = Text.extend`
-  font-weight: ${props => (props.large ? '500' : '300')};
-  font-size: ${props => (props.large ? '18px' : '16px')};
-  line-height: ${props => (props.large ? '0.89' : '1')};
-  text-align: left;
-  color: ${props => (props.large ? '#ff5200' : '#8c4799')};
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.small`
-      font-size: font-size: ${props.large ? '16px' : '14px'};;
-      line-height: ${props.large ? '1' : '1.14'};
-    `
-  )}
+  font-weight: 300;
+  font-size: ${size(16)};
+  line-height: 16;
+  color: #8c4799;
+  ${props => props.large && `
+    font-weight: 500;
+    font-size: ${size(18)};
+    color: #ff5200;
+  `}
 `;
 
 InfoText.propTypes = {

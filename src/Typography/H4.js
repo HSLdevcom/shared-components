@@ -1,10 +1,9 @@
 import Text from './Text';
+import { size } from '../utils';
 
 const H4 = Text.extend`
-  font-size: 21px;
+  font-size: ${size(21)};
   font-weight: 500;
-  letter-spacing: normal;
-  text-align: left;
 `;
 
 export default H4;

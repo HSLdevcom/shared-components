@@ -1,17 +1,10 @@
 import Text from './Text';
+import { size } from '../utils';
 
 const P = Text.extend`
-  text-align: left;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1.25;
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.small`
-      font-size: 14px;
-      line-height: 1.29;
-    `
-  )}
+  font-size: ${size(14)};
+  line-height: 18;
 `;
 
 export default P;

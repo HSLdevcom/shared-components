@@ -7,7 +7,7 @@
     "import"
   ],
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2017,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true,
@@ -33,7 +33,7 @@
     }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "space-before-function-paren": ["error", "never"],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.stories.js", "**/*.test.js"]}]
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.stories.js", "**/*.test.js", "storybook/*.js", "stories_native/index.js"]}]
   },
   "globals": {
   },

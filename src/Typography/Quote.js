@@ -1,15 +1,36 @@
+import styled from 'styled-components/primitives';
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import { size } from '../utils';
 import Text from './Text';
 
-const Quote = Text.extend`
-  font-size: 20px;
-  font-style: italic;
-  line-height: 1.25;
-  text-align: left;
-  font-weight: 300;
-  border-left: solid 3px #b7b7b7;
-  padding: 3px 0px 3px 20px;
-  display: block;
-  font-family: "Gotham XNarrow SSm A","Gotham XNarrow SSm B", Arial, Georgia, Serif;
+const View = styled.View`
+  border-style: solid;
+  border-left-width: 3px;
+  border-left-color: #b7b7b7;
 `;
 
-export default Quote;
+const Quote = Text.extend`
+  font-size: ${size(20)};
+  font-style: italic;
+  line-height: 25;
+  font-weight: 300;
+  padding: 3px 0px 3px 20px;
+  ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
+`;
+
+const QuoteBlock = ({ className, children }) => (
+  <View className={className}>
+    <Quote>
+      {children}
+    </Quote>
+  </View>
+);
+
+QuoteBlock.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.node
+};
+
+export default QuoteBlock;

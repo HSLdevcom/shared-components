@@ -1,10 +1,10 @@
 import Text from './Text';
+import { size } from '../utils';
 
 const Caption = Text.extend`
   font-weight: 300;
-  font-size: 13px;
-  line-height: 1.08;
-  text-align: left;
+  font-size: ${size(13)};
+  line-height: 14;
 `;
 
 export default Caption;
