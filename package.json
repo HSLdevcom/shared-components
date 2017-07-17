@@ -45,9 +45,9 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
-    "storybook": "storybook start -p 7007",
-    "storybook:web": "start-storybook -c .storybook -s ./static -p 6006",
-    "build-storybook": "build-storybook -c .storybook -s ./static",
+    "storybook": "storybook start -p 7007 -c storybook_native",
+    "storybook:web": "start-storybook -c storybook_web -s ./static -p 6006",
+    "build-storybook": "build-storybook -c storybook_web -s ./static",
     "deploy-storybook": "storybook-to-ghpages",
     "test-update": "./scripts/updateShots.sh",
     "es-lint": "eslint ."
