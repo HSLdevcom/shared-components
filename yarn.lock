@@ -5958,6 +5958,15 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+ktj-storyshots@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/ktj-storyshots/-/ktj-storyshots-3.1.2.tgz#36a31a812c87e4c34cf262212996e0a2addf4eae"
+  dependencies:
+    babel-runtime "^6.23.0"
+    global "^4.3.2"
+    prop-types "^15.5.8"
+    read-pkg-up "^2.0.0"
+
 latest-version@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/latest-version/-/latest-version-2.0.0.tgz#56f8d6139620847b8017f8f1f4d78e211324168b"

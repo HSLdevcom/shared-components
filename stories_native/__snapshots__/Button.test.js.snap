@@ -1,28 +1,229 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Button default 1`] = `
-<button
-  className="sc-htpNat kIHcXL"
-  disabled={false}
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
 >
-  Default Button
-</button>
+  <View
+    className={undefined}
+    disabled={false}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    primary={undefined}
+    rounded={false}
+    secondary={undefined}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderColor": "#b7b7b7",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 10,
+          "width": "70%",
+        },
+        Array [
+          Object {},
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      primary={undefined}
+      rounded={false}
+      secondary={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#007ac9",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 30,
+            "fontWeight": "500",
+            "letterSpacing": -0.7,
+            "lineHeight": 30,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Default Button
+    </Text>
+  </View>
+</View>
 `;
 
 exports[`Storyshots Button primary 1`] = `
-<button
-  className="sc-htpNat cQJqWF"
-  disabled={false}
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
 >
-  Primary Button
-</button>
+  <View
+    className={undefined}
+    disabled={false}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    primary={true}
+    rounded={false}
+    secondary={undefined}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#007ac9",
+          "borderColor": "#007ac9",
+          "borderRadius": 40,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 10,
+          "width": "70%",
+        },
+        Array [
+          Object {},
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      primary={true}
+      rounded={false}
+      secondary={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 30,
+            "fontWeight": "500",
+            "letterSpacing": -0.7,
+            "lineHeight": 30,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Primary Button
+    </Text>
+  </View>
+</View>
 `;
 
 exports[`Storyshots Button secondary 1`] = `
-<button
-  className="sc-htpNat erupkY"
-  disabled={false}
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
 >
-  Secondary Button
-</button>
+  <View
+    className={undefined}
+    disabled={false}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    primary={undefined}
+    rounded={false}
+    secondary={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderColor": "#848484",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 10,
+          "width": "70%",
+        },
+        Array [
+          Object {},
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      primary={undefined}
+      rounded={false}
+      secondary={true}
+      style={
+        Array [
+          Object {
+            "color": "#848484",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 30,
+            "fontWeight": "500",
+            "letterSpacing": -0.7,
+            "lineHeight": 30,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Secondary Button
+    </Text>
+  </View>
+</View>
 `;

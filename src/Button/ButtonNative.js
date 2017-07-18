@@ -95,7 +95,7 @@ ButtonNative.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
-  style: PropTypes.node
+  style: PropTypes.array  // eslint-disable-line react/forbid-prop-types
 };
 
 export default styled(ButtonNative)``;
