@@ -25,7 +25,9 @@ const TouchableText = Text.extend`
   `}
 `;
 
-const TouchableView = View.extend`
+const TouchableView = styled(({ primary, secondary, disabled, rounded, ...rest }) => (
+  <View {...rest} />
+))`
   border-radius: ${props => (props.rounded ? '40px' : '4px')};
   border-style: solid;
   border-width: 1px;

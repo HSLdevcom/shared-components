@@ -4,11 +4,17 @@ import View from '../View';
 import Touchable from '../Touchable';
 import { size } from '../utils';
 
+const TouchableView = styled(({ active, children, ...rest }) => (
+  <View {...rest}>
+    {children}
+  </View>
+))``;
+
 const LangButton = styled(({ children, onPress, onLongPress, ...rest }) => (
   <Touchable onPress={onPress} onLongPress={onLongPress}>
-    <View {...rest}>
+    <TouchableView {...rest}>
       { children }
-    </View>
+    </TouchableView>
   </Touchable>
 ))`
   border-radius: 3px;

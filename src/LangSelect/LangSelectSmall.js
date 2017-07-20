@@ -108,7 +108,7 @@ class LangSelectSmall extends React.PureComponent {
     return (
       <StyledDiv className={this.props.className}>
         <LanguageButton
-          onClick={this.toggleLangSelect}
+          onPress={this.toggleLangSelect}
         >
           <Text>
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
@@ -130,7 +130,7 @@ class LangSelectSmall extends React.PureComponent {
                 (
                   <LanguageButton
                     key={lang.id}
-                    onClick={() => {
+                    onPress={() => {
                       this.props.changeLanguage(lang.id);
                       this.toggleLangSelect();
                     }}

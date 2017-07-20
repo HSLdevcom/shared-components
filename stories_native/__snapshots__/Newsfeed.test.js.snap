@@ -16,38 +16,27 @@ exports[`Storyshots NewsFeed News feed 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "justifyContent": "center",
+          "alignItems": "stretch",
+          "flexBasis": 0,
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-start",
+          "width": "100%",
         },
-        Array [
-          Object {
-            "alignItems": "stretch",
-            "flexBasis": 0,
-            "flexDirection": "column",
-            "flexGrow": 1,
-            "flexShrink": 1,
-            "justifyContent": "flex-start",
-            "width": "100%",
-          },
-          undefined,
-        ],
+        undefined,
       ]
     }
   >
     <View
-      className={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
+            "flexDirection": "column",
             "justifyContent": "center",
           },
-          Array [
-            Object {
-              "flexDirection": "column",
-            },
-            undefined,
-          ],
+          undefined,
         ]
       }
     >
@@ -57,61 +46,43 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "justifyContent": "center",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
             },
-            Array [
-              Object {
-                "alignItems": "center",
-                "borderBottomColor": "#dddddd",
-                "borderBottomWidth": 1,
-                "borderStyle": "solid",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "paddingBottom": 15,
-                "paddingLeft": 15,
-                "paddingRight": 15,
-                "paddingTop": 15,
-              },
-              undefined,
-            ],
+            undefined,
           ]
         }
       >
         <View
-          className={undefined}
           style={
             Array [
               Object {
                 "alignItems": "center",
+                "alignSelf": "stretch",
+                "flexDirection": "column",
                 "justifyContent": "center",
+                "width": "55%",
               },
-              Array [
-                Object {
-                  "alignSelf": "stretch",
-                  "flexDirection": "column",
-                  "width": "55%",
-                },
-                undefined,
-              ],
+              undefined,
             ]
           }
         >
           <View
-            className={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "justifyContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
                 },
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "flexDirection": "row",
-                    "justifyContent": "space-between",
-                  },
-                  undefined,
-                ],
+                undefined,
               ]
             }
           >
@@ -197,61 +168,43 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "justifyContent": "center",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
             },
-            Array [
-              Object {
-                "alignItems": "center",
-                "borderBottomColor": "#dddddd",
-                "borderBottomWidth": 1,
-                "borderStyle": "solid",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "paddingBottom": 15,
-                "paddingLeft": 15,
-                "paddingRight": 15,
-                "paddingTop": 15,
-              },
-              undefined,
-            ],
+            undefined,
           ]
         }
       >
         <View
-          className={undefined}
           style={
             Array [
               Object {
                 "alignItems": "center",
+                "alignSelf": "stretch",
+                "flexDirection": "column",
                 "justifyContent": "center",
+                "width": "55%",
               },
-              Array [
-                Object {
-                  "alignSelf": "stretch",
-                  "flexDirection": "column",
-                  "width": "55%",
-                },
-                undefined,
-              ],
+              undefined,
             ]
           }
         >
           <View
-            className={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "justifyContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
                 },
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "flexDirection": "row",
-                    "justifyContent": "space-between",
-                  },
-                  undefined,
-                ],
+                undefined,
               ]
             }
           >
@@ -333,30 +286,29 @@ exports[`Storyshots NewsFeed News feed 1`] = `
       </View>
     </View>
     <View
-      className={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#eef1f3",
             "justifyContent": "center",
+            "paddingBottom": 25,
+            "paddingLeft": 50,
+            "paddingRight": 50,
+            "paddingTop": 25,
           },
-          Array [
-            Object {
-              "alignItems": "center",
-              "backgroundColor": "#eef1f3",
-              "justifyContent": "center",
-              "paddingBottom": 25,
-              "paddingLeft": 50,
-              "paddingRight": 50,
-              "paddingTop": 25,
-            },
-            undefined,
-          ],
+          undefined,
         ]
       }
     >
       <View
         className={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Array [
             Object {
@@ -435,61 +387,43 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "justifyContent": "center",
+          "borderBottomColor": "#dddddd",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
         },
-        Array [
-          Object {
-            "alignItems": "center",
-            "borderBottomColor": "#dddddd",
-            "borderBottomWidth": 1,
-            "borderStyle": "solid",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-            "paddingBottom": 15,
-            "paddingLeft": 15,
-            "paddingRight": 15,
-            "paddingTop": 15,
-          },
-          undefined,
-        ],
+        undefined,
       ]
     }
   >
     <View
-      className={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "column",
             "justifyContent": "center",
+            "width": "55%",
           },
-          Array [
-            Object {
-              "alignSelf": "stretch",
-              "flexDirection": "column",
-              "width": "55%",
-            },
-            undefined,
-          ],
+          undefined,
         ]
       }
     >
       <View
-        className={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
-              "justifyContent": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
             },
-            Array [
-              Object {
-                "alignItems": "center",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-              },
-              undefined,
-            ],
+            undefined,
           ]
         }
       >

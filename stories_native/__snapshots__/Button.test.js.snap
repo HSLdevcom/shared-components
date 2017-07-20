@@ -13,6 +13,12 @@ exports[`Storyshots Button default 1`] = `
 >
   <View
     className={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
@@ -85,6 +91,12 @@ exports[`Storyshots Button primary 1`] = `
 >
   <View
     className={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
@@ -157,6 +169,12 @@ exports[`Storyshots Button secondary 1`] = `
 >
   <View
     className={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {

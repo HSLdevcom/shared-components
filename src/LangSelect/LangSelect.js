@@ -4,11 +4,15 @@ import styled from 'styled-components/primitives';
 
 import View from '../View';
 import LangButton from './LangButton';
+import Text from '../Typography';
 import { size } from '../utils';
+
+const LangText = Text.extend`
+  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+`;
 
 const StyledView = View.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
   justify-content: space-between;
   flex-direction: row;
   width: ${size(112)}
@@ -27,9 +31,9 @@ const LangSelect = ({
           <LangButton
             key={lang.id}
             active={selectedLanguage === lang.id}
-            onClick={() => { changeLanguage(lang.id); }}
+            onPress={() => { changeLanguage(lang.id); }}
           >
-            {lang.name}
+            <LangText>{lang.name}</LangText>
           </LangButton>
         )
       )
