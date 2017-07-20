@@ -1,8 +1,8 @@
 import React from 'react';
 /* eslint-disable */
-export default function({ fill, height, width }) {
+export default function({ fill, ...rest }) {
   return (
-    <svg height={height} width={width} viewBox="0 0 60 44"  preserveAspectRatio="xMidYMid meet">
+    <svg { ...rest } viewBox="0 0 60 44"  preserveAspectRatio="xMidYMid meet">
       <g id="Page-1">
           <g id="icon---addcard" transform="translate(1.000000, 0.000000)">
               <g id="icon_tilaa_kortti" transform="translate(0.616520, 0.171505)">

@@ -1,27 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
 
-import { Flex } from '../Wrapper';
+import View from '../View';
 import LangButton from './LangButton';
+import { size } from '../utils';
 
-const StyledFlex = Flex.extend`
-  ${LangButton} {
-    &:not(:last-child) {
-      margin-right: 0.5rem;
-    }
-  }
+const StyledView = View.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  justify-content: space-between;
+  flex-direction: row;
+  width: ${size(112)}
 `;
 
 const LangSelect = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  className
+  ...rest
 }) => (
-  <StyledFlex className={className}>
+  <StyledView {...rest}>
     {
       languages.map(lang =>
         (
@@ -35,7 +34,7 @@ const LangSelect = ({
         )
       )
     }
-  </StyledFlex>
+  </StyledView>
 );
 
 

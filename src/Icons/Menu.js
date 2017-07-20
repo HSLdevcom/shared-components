@@ -1,8 +1,8 @@
 import React from 'react';
 /* eslint-disable */
-export default function({ fill, height, width }) {
+export default function({ ...props }) {
   return (
-    <svg  fill={fill} height={height} width={width} viewBox="0 0 40 24" preserveAspectRatio="xMidYMid meet">
+    <svg  {...props} viewBox="0 0 40 24" preserveAspectRatio="xMidYMid meet">
         <g>
         	<path d="M37.999,4 L2,4 C0.896,4 0,3.105 0,2 C0,0.895 0.896,0 2,0 L37.999,0 C39.104,0 40,0.895 40,2 C40,3.105 39.104,4 37.999,4 Z" id="menu-top"></path>
           <path d="M37.999,14 L2,14 C0.896,14 0,13.105 0,12 C0,10.895 0.896,10 2,10 L37.999,10 C39.104,10 40,10.895 40,12 C40,13.105 39.104,14 37.999,14 Z" id="menu-middle-1"></path>

@@ -7,13 +7,21 @@ import { darken } from 'polished';
 import { ArrowDown } from '../Icons';
 import LangButton from './LangButton';
 import Div from '../Div';
+import Text from '../Typography';
+import { size } from '../utils';
+
+const Icon = styled(ArrowDown)`
+  fill: currentColor;
+`;
+
+const LanguageButton = LangButton.extend`
+  width: ${size(52)};
+  justify-content: space-between;
+  flex-direction: row;
+`;
 
 const StyledDiv = Div.extend`
   overflow: hidden;
-  ${LangButton} {
-    display: block;
-    width: 3.25rem;
-  }
   padding: 0;
   align-items: center;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
@@ -99,13 +107,14 @@ class LangSelectSmall extends React.PureComponent {
   render() {
     return (
       <StyledDiv className={this.props.className}>
-        <LangButton
-          className="selected-language"
+        <LanguageButton
           onClick={this.toggleLangSelect}
         >
-          { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
-          <ArrowDown height="0.75rem" width="0.75rem" />
-        </LangButton>
+          <Text>
+            { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
+          </Text>
+          <Icon height="0.75rem" width="0.75rem" />
+        </LanguageButton>
         <CSSTransitionGroup
           className="transition-group"
           transitionName="lang-select"
@@ -119,7 +128,7 @@ class LangSelectSmall extends React.PureComponent {
                 .filter(lang => lang.id !== this.props.selectedLanguage)
                 .map(lang =>
                 (
-                  <LangButton
+                  <LanguageButton
                     key={lang.id}
                     onClick={() => {
                       this.props.changeLanguage(lang.id);
@@ -127,7 +136,7 @@ class LangSelectSmall extends React.PureComponent {
                     }}
                   >
                     {lang.name}
-                  </LangButton>
+                  </LanguageButton>
                 )
               )
             }
