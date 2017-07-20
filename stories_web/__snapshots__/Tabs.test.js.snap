@@ -2,16 +2,16 @@
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-cIShpX cfHyhK"
+  className="sc-hEsumM bQwhDh"
 >
   <div
-    className="sc-fYxtnH hSLfWw sc-jnlKLf dmayHg"
+    className="sc-gGBfsJ eaQlFN sc-bbmXgH hUwSCs"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-hEsumM epeevU sc-tilXH uHAUh"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf iZGSOJ"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -22,7 +22,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH iEIQnK"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf jFuEcS"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -33,7 +33,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH uHAUh"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf iZGSOJ"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -44,7 +44,7 @@ exports[`Storyshots Tabs default 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH gdDOvE"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf iDiEVu"
         disabled={true}
         onClick={[Function]}
       >
@@ -66,16 +66,16 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-cIShpX cfHyhK"
+  className="sc-hEsumM bQwhDh"
 >
   <div
-    className="sc-fYxtnH hSLfWw sc-jnlKLf dmayHg"
+    className="sc-gGBfsJ eaQlFN sc-bbmXgH hUwSCs"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-hEsumM epeevU sc-tilXH iEIQnK"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf jFuEcS"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -97,16 +97,16 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-cIShpX cfHyhK"
+  className="sc-hEsumM bQwhDh"
 >
   <div
-    className="sc-fYxtnH hSLfWw sc-jnlKLf jjlLXd"
+    className="sc-gGBfsJ eaQlFN sc-bbmXgH gZqpUv"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf dhryjc"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -117,7 +117,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH lnHLMO"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf kriiWy"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -128,7 +128,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf dhryjc"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -139,7 +139,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH jwRvtu"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf gOqkln"
         disabled={true}
         onClick={[Function]}
       >
@@ -161,16 +161,16 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-cIShpX cfHyhK"
+  className="sc-hEsumM bQwhDh"
 >
   <div
-    className="sc-fYxtnH hSLfWw sc-jnlKLf jjlLXd"
+    className="sc-gGBfsJ eaQlFN sc-bbmXgH gZqpUv"
   >
     <div
       className="sc-iwsKbI hAZHJM"
     >
       <button
-        className="sc-hEsumM epeevU sc-tilXH lnHLMO"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf kriiWy"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -186,7 +186,6 @@ exports[`Storyshots Tabs with icon 1`] = `
               width="1.5rem"
             >
               <g
-                fill={undefined}
                 fillRule="evenodd"
                 id="Page-1"
                 stroke="none"
@@ -203,7 +202,7 @@ exports[`Storyshots Tabs with icon 1`] = `
         </span>
       </button>
       <button
-        className="sc-hEsumM epeevU sc-tilXH fRSeoX"
+        className="sc-fYxtnH hSLfWw sc-jnlKLf dhryjc"
         disabled={undefined}
         onClick={[Function]}
       >
@@ -219,7 +218,6 @@ exports[`Storyshots Tabs with icon 1`] = `
               width="1.5rem"
             >
               <g
-                fill={undefined}
                 fillRule="evenodd"
                 id="Page-1"
                 stroke="none"

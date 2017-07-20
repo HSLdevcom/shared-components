@@ -6,7 +6,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-csuQGl CQhxV sc-gipzik fVOZQz"
+    className="sc-jlyJG bbyJzT sc-iRbamj cIwpsB"
     open={false}
   >
     <button
@@ -30,7 +30,6 @@ exports[`Storyshots DropdownMenu default 1`] = `
                 className="icon sc-jTzLTM iEjgub"
               >
                 <svg
-                  fill={undefined}
                   height="2.5rem"
                   preserveAspectRatio="xMidYMid meet"
                   version="1.1"
@@ -69,7 +68,6 @@ exports[`Storyshots DropdownMenu default 1`] = `
                 >
                   Lisää
                   <svg
-                    fill={undefined}
                     height="0.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"

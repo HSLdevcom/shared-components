@@ -13,35 +13,31 @@ exports[`Storyshots Button default 1`] = `
 >
   <View
     className={undefined}
-    disabled={false}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    primary={undefined}
-    rounded={false}
-    secondary={undefined}
     style={
       Array [
         Object {
-          "backgroundColor": "#fff",
-          "borderColor": "#b7b7b7",
-          "borderRadius": 4,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "paddingBottom": 10,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 10,
-          "width": "70%",
+          "alignItems": "center",
+          "justifyContent": "center",
         },
         Array [
-          Object {},
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#b7b7b7",
+            "borderRadius": 4,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 22,
+            "paddingRight": 22,
+            "paddingTop": 10,
+            "width": "70%",
+          },
           Array [
             Object {},
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ],
         ],
       ]
@@ -89,35 +85,31 @@ exports[`Storyshots Button primary 1`] = `
 >
   <View
     className={undefined}
-    disabled={false}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    primary={true}
-    rounded={false}
-    secondary={undefined}
     style={
       Array [
         Object {
-          "backgroundColor": "#007ac9",
-          "borderColor": "#007ac9",
-          "borderRadius": 40,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "paddingBottom": 10,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 10,
-          "width": "70%",
+          "alignItems": "center",
+          "justifyContent": "center",
         },
         Array [
-          Object {},
+          Object {
+            "backgroundColor": "#007ac9",
+            "borderColor": "#007ac9",
+            "borderRadius": 40,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 22,
+            "paddingRight": 22,
+            "paddingTop": 10,
+            "width": "70%",
+          },
           Array [
             Object {},
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ],
         ],
       ]
@@ -165,35 +157,31 @@ exports[`Storyshots Button secondary 1`] = `
 >
   <View
     className={undefined}
-    disabled={false}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    primary={undefined}
-    rounded={false}
-    secondary={true}
     style={
       Array [
         Object {
-          "backgroundColor": "#fff",
-          "borderColor": "#848484",
-          "borderRadius": 4,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "paddingBottom": 10,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 10,
-          "width": "70%",
+          "alignItems": "center",
+          "justifyContent": "center",
         },
         Array [
-          Object {},
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#848484",
+            "borderRadius": 4,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 22,
+            "paddingRight": 22,
+            "paddingTop": 10,
+            "width": "70%",
+          },
           Array [
             Object {},
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ],
         ],
       ]

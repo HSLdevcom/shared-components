@@ -2,7 +2,7 @@
 
 exports[`Storyshots Menu default 1`] = `
 <div
-  className="sc-hSdWYo bIQQAp sc-iAyFgw gKPRRn"
+  className="sc-kkGfuU gqJIVH sc-kEYyzF lmZKTz"
 >
   <div
     className="top sc-iwsKbI hAZHJM"
@@ -14,9 +14,7 @@ exports[`Storyshots Menu default 1`] = `
       viewBox="0 0 25 25"
       width="1.5rem"
     >
-      <g
-        fill={undefined}
-      >
+      <g>
         <path
           d="M21.7791928,23.9088401 L15.6032157,17.732863 L17.7896536,15.5464251 L23.9656307,21.7224022 C24.5619319,22.3187035 24.5619319,23.2983412 23.9656307,23.9088401 L23.9656307,23.9088401 C23.3551318,24.5051413 22.3754941,24.5051413 21.7791928,23.9088401 Z"
           id="Shape"
@@ -31,49 +29,66 @@ exports[`Storyshots Menu default 1`] = `
       className="lang-select sc-dnqmqq bDsesi"
     >
       <div
-        className="large sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
+        className="large rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
       >
-        <button
-          className="sc-ckVGcZ cUFhzl"
-          onClick={[Function]}
+        <div
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         >
-          FI
-        </button>
-        <button
-          className="sc-ckVGcZ cUFhzl"
-          onClick={[Function]}
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+          >
+            FI
+          </div>
+        </div>
+        <div
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         >
-          SV
-        </button>
-        <button
-          className="sc-ckVGcZ cUFhzl"
-          onClick={[Function]}
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+          >
+            SV
+          </div>
+        </div>
+        <div
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         >
-          EN
-        </button>
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+          >
+            EN
+          </div>
+        </div>
       </div>
       <div
-        className="small sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
+        className="small sc-hMqMXs cPxEnv sc-jKJlTe kmtgqb"
       >
-        <button
-          className="selected-language sc-ckVGcZ cUFhzl"
-          onClick={[Function]}
+        <div
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         >
-          FI
-          <svg
-            fill={undefined}
-            height="0.75rem"
-            preserveAspectRatio="xMidYMid meet"
-            version="1.1"
-            viewBox="0 0 42.5 27.47"
-            width="0.75rem"
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-1tbo1j0 rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-a3k72m"
           >
-            <path
-              d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-              id="arrow"
-            />
-          </svg>
-        </button>
+            <div
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              dir="auto"
+            >
+              FI
+            </div>
+            <svg
+              className="sc-ckVGcZ iBcfbg"
+              height="0.75rem"
+              preserveAspectRatio="xMidYMid meet"
+              version="1.1"
+              viewBox="0 0 42.5 27.47"
+              width="0.75rem"
+            >
+              <path
+                d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+                id="arrow"
+              />
+            </svg>
+          </div>
+        </div>
         <span
           className="transition-group"
         />
@@ -105,12 +120,10 @@ exports[`Storyshots Menu default 1`] = `
               className="icon sc-jTzLTM bpnSj"
             >
               <svg
-                fill={undefined}
                 height="3.5rem"
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 39 32"
-                width={undefined}
               >
                 <path
                   d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
@@ -150,11 +163,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 27 31"
-                width={undefined}
               >
-                <g
-                  fill={undefined}
-                >
+                <g>
                   <path
                     d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
                     id="Shape"
@@ -198,12 +208,10 @@ exports[`Storyshots Menu default 1`] = `
               className="icon sc-jTzLTM iEjgub"
             >
               <svg
-                fill={undefined}
                 height="3.5rem"
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 39 32"
-                width={undefined}
               >
                 <path
                   d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
@@ -246,11 +254,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 27 31"
-                width={undefined}
               >
-                <g
-                  fill={undefined}
-                >
+                <g>
                   <path
                     d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
                     id="Shape"
@@ -280,10 +285,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-iELTvK gNKEAU"
+  className="sc-kafWEX iMfMYJ"
 >
   <div
-    className="sc-feJyhm itkgbb sc-kpOJdX RNCId"
+    className="sc-cIShpX fPboP sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -301,7 +306,6 @@ exports[`Storyshots Menu menu item 1`] = `
             className="icon sc-jTzLTM iEjgub"
           >
             <svg
-              fill={undefined}
               height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
@@ -336,7 +340,7 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
+  className="sc-bRBYWo ccSRck sc-Rmtcm hVOwuq"
 >
   <div
     className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -357,12 +361,10 @@ exports[`Storyshots Menu minimal 1`] = `
             className="icon sc-jTzLTM bpnSj"
           >
             <svg
-              fill={undefined}
               height="3.5rem"
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
               viewBox="0 0 39 32"
-              width={undefined}
             >
               <path
                 d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
@@ -405,11 +407,8 @@ exports[`Storyshots Menu minimal 1`] = `
               preserveAspectRatio="xMidYMid meet"
               version="1.1"
               viewBox="0 0 27 31"
-              width={undefined}
             >
-              <g
-                fill={undefined}
-              >
+              <g>
                 <path
                   d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
                   id="Shape"
@@ -443,9 +442,7 @@ exports[`Storyshots Menu minimal 1`] = `
       viewBox="0 0 25 25"
       width="2rem"
     >
-      <g
-        fill={undefined}
-      >
+      <g>
         <path
           d="M21.7791928,23.9088401 L15.6032157,17.732863 L17.7896536,15.5464251 L23.9656307,21.7224022 C24.5619319,22.3187035 24.5619319,23.2983412 23.9656307,23.9088401 L23.9656307,23.9088401 C23.3551318,24.5051413 22.3754941,24.5051413 21.7791928,23.9088401 Z"
           id="Shape"
@@ -458,27 +455,35 @@ exports[`Storyshots Menu minimal 1`] = `
     </svg>
   </div>
   <div
-    className="sc-kkGfuU gqJIVH sc-hMqMXs cgQlDg"
+    className="sc-hMqMXs cPxEnv sc-jKJlTe kmtgqb"
   >
-    <button
-      className="selected-language sc-ckVGcZ cUFhzl"
-      onClick={[Function]}
+    <div
+      className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
-      FI
-      <svg
-        fill={undefined}
-        height="0.75rem"
-        preserveAspectRatio="xMidYMid meet"
-        version="1.1"
-        viewBox="0 0 42.5 27.47"
-        width="0.75rem"
+      <div
+        className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-1tbo1j0 rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-a3k72m"
       >
-        <path
-          d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-          id="arrow"
-        />
-      </svg>
-    </button>
+        <div
+          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+          dir="auto"
+        >
+          FI
+        </div>
+        <svg
+          className="sc-ckVGcZ iBcfbg"
+          height="0.75rem"
+          preserveAspectRatio="xMidYMid meet"
+          version="1.1"
+          viewBox="0 0 42.5 27.47"
+          width="0.75rem"
+        >
+          <path
+            d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+            id="arrow"
+          />
+        </svg>
+      </div>
+    </div>
     <span
       className="transition-group"
     />
@@ -488,46 +493,52 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-kafWEX dWgISZ sc-fMiknA dtMtQX"
+  className="sc-ktHwxA btDbSk sc-jhAzac cGzwm"
 >
   <div
-    className="sc-fBuWsC hFbCwQ"
+    className="sc-hzDkRC hHUWoC"
   />
   <div
-    className="sc-dVhcbM diHZgX"
+    className="sc-fBuWsC fQDSaR"
   >
     <div
-      className="sc-eNQAEJ fAbPPh sc-jKJlTe dZTsFI"
+      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
     >
-      <button
-        className="sc-ckVGcZ cUFhzl"
-        onClick={[Function]}
+      <div
+        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
-        FI
-      </button>
-      <button
-        className="sc-ckVGcZ cUFhzl"
-        onClick={[Function]}
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+        >
+          FI
+        </div>
+      </div>
+      <div
+        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
-        SV
-      </button>
-      <button
-        className="sc-ckVGcZ cUFhzl"
-        onClick={[Function]}
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+        >
+          SV
+        </div>
+      </div>
+      <div
+        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
-        EN
-      </button>
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1tbo1j0 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
+        >
+          EN
+        </div>
+      </div>
     </div>
     <svg
       height="1.5rem"
       preserveAspectRatio="xMidYMid meet"
       version="1.1"
       viewBox="0 0 25 25"
-      width={undefined}
     >
-      <g
-        fill={undefined}
-      >
+      <g>
         <path
           d="M21.7791928,23.9088401 L15.6032157,17.732863 L17.7896536,15.5464251 L23.9656307,21.7224022 C24.5619319,22.3187035 24.5619319,23.2983412 23.9656307,23.9088401 L23.9656307,23.9088401 C23.3551318,24.5051413 22.3754941,24.5051413 21.7791928,23.9088401 Z"
           id="Shape"
@@ -540,7 +551,7 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-fBuWsC hFbCwQ"
+    className="sc-hzDkRC hHUWoC"
   />
   <div
     className="children sc-iwsKbI hAZHJM"
@@ -564,12 +575,10 @@ exports[`Storyshots Menu mobile 1`] = `
               className="icon sc-jTzLTM iEjgub"
             >
               <svg
-                fill={undefined}
                 height="3.5rem"
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 39 32"
-                width={undefined}
               >
                 <path
                   d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
@@ -609,11 +618,8 @@ exports[`Storyshots Menu mobile 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 version="1.1"
                 viewBox="0 0 27 31"
-                width={undefined}
               >
-                <g
-                  fill={undefined}
-                >
+                <g>
                   <path
                     d="M5.77845689,7.92908558 C5.77845689,12.2520665 9.27594395,15.8147241 13.4903072,15.8147241 L13.5989249,15.8147241 C17.8132882,15.8147241 21.3107752,12.2520665 21.3107752,7.92908558 C21.3107752,3.60610468 17.8132882,0.108617611 13.5989249,0.108617611 C9.27594395,0.108617611 5.77845689,3.60610468 5.77845689,7.92908558 Z"
                     id="Shape"

@@ -2,16 +2,16 @@
 
 exports[`Storyshots NewsFeed default 1`] = `
 <div
-  className="sc-hqyNC keRCOE sc-kvZOFW fSUwKK"
+  className="sc-frDJqD gCEYuZ sc-hmzhuo hPNJyp"
 >
   <ul
-    className="sc-frDJqD gCEYuZ"
+    className="sc-ksYbfQ jHwjmi"
   >
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-dNLxif KzmkZ sc-jbKcbu eEPSc"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-hqyNC keRCOE"
       >
         <span
           className="top sc-dnqmqq bDsesi"
@@ -40,15 +40,15 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-kvZOFW eiPhbT"
         src="https://placehold.it/125x521"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-dNLxif KzmkZ sc-jbKcbu eEPSc"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-hqyNC keRCOE"
       >
         <span
           className="top sc-dnqmqq bDsesi"
@@ -77,15 +77,15 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-kvZOFW eiPhbT"
         src="https://placehold.it/521x125"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-dNLxif KzmkZ sc-jbKcbu eEPSc"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-hqyNC keRCOE"
       >
         <span
           className="top sc-dnqmqq bDsesi"
@@ -114,15 +114,15 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-kvZOFW eiPhbT"
         src="https://placehold.it/500x500"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-dNLxif KzmkZ sc-jbKcbu eEPSc"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-hqyNC keRCOE"
       >
         <span
           className="top sc-dnqmqq bDsesi"
@@ -151,15 +151,15 @@ exports[`Storyshots NewsFeed default 1`] = `
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-kvZOFW eiPhbT"
         src="https://placehold.it/50x50"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-dNLxif KzmkZ sc-jbKcbu eEPSc"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-hqyNC keRCOE"
       >
         <span
           className="top sc-dnqmqq bDsesi"

@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components/primitives';
 import PropTypes from 'prop-types';
 
-import Text from '../Typography';
+import Text from '../../Typography';
 
-const Element = styled.Touchable``;
+const Element = styled.View``;
 
-const Touchable = ({ onPress, onLongPress, children, ...rest }) => (
-  <Element onPress={onPress} onLongPress={onLongPress}>
+const Touchable = ({ children, ...rest }) => (
+  <Element>
     { React.isValidElement(children) ?
       children :
       (<Text {...rest}>{children}</Text>)
