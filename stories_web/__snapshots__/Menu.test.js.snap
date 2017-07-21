@@ -308,10 +308,10 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-kafWEX iMfMYJ"
+  className="sc-iELTvK gNKEAU"
 >
   <div
-    className="sc-cIShpX fPboP sc-kpOJdX RNCId"
+    className="sc-feJyhm itkgbb sc-kpOJdX RNCId"
   >
     <a
       className="link"
@@ -363,7 +363,7 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-bRBYWo ccSRck sc-Rmtcm hVOwuq"
+  className="sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
 >
   <div
     className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -518,13 +518,13 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-ktHwxA btDbSk sc-jhAzac cGzwm"
+  className="sc-kafWEX dWgISZ sc-fMiknA cvlICE"
 >
   <div
-    className="sc-hzDkRC hHUWoC"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
-    className="sc-fBuWsC fQDSaR"
+    className="sc-dVhcbM diHZgX"
   >
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
@@ -597,7 +597,7 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-hzDkRC hHUWoC"
+    className="sc-fBuWsC hFbCwQ"
   />
   <div
     className="children sc-iwsKbI hAZHJM"

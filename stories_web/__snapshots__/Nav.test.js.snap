@@ -2,14 +2,14 @@
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-ktHwxA kEjcUR"
+  className="sc-kafWEX CAvlk"
 >
   <header
-    className="sc-TOsTZ kjYrri sc-cHGsZl hiAdvn"
+    className="sc-cJSrbW dLwzxs sc-kgAjT gdaPzt"
   >
     <span />
     <nav
-      className="sc-csuQGl CQhxV sc-gipzik jZRXSP"
+      className="sc-bRBYWo ccSRck sc-Rmtcm iLBlhR"
     >
       <span
         className="logo sc-dnqmqq bDsesi"
@@ -217,11 +217,11 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-jlyJG bbyJzT sc-iRbamj cIwpsB"
+        className="child sc-csuQGl CQhxV sc-gipzik dcCTdP"
         open={false}
       >
         <button
-          className="sc-bxivhb gRAuFd"
+          className="sc-jlyJG eWYvrn"
           onClick={[Function]}
         >
           <div
@@ -274,11 +274,17 @@ exports[`Storyshots Nav default 1`] = `
                   <span
                     className="text sc-dnqmqq bDsesi"
                   >
-                    <span
-                      className="sc-dnqmqq bDsesi"
+                    <div
+                      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
                     >
-                      Lisää
+                      <div
+                        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                        dir="auto"
+                      >
+                        Lisää
+                      </div>
                       <svg
+                        className="sc-iRbamj daXtoo"
                         height="0.5rem"
                         preserveAspectRatio="xMidYMid meet"
                         version="1.1"
@@ -290,7 +296,7 @@ exports[`Storyshots Nav default 1`] = `
                           id="arrow"
                         />
                       </svg>
-                    </span>
+                    </div>
                   </span>
                 </div>
               </div>
@@ -603,13 +609,13 @@ exports[`Storyshots Nav default 1`] = `
       </div>
     </nav>
     <div
-      className="sc-kjoXOD casObG"
+      className="sc-TOsTZ ewOFfi"
     />
     <nav
-      className="sc-gisBJw kDlVKO sc-dVhcbM bAIoWV"
+      className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
     >
       <div
-        className="sc-eqIVtm hDCQFw"
+        className="sc-caSCKo dEXXuK"
       >
         <span
           className="logo sc-dnqmqq bDsesi"
@@ -631,7 +637,7 @@ exports[`Storyshots Nav default 1`] = `
           </svg>
         </span>
         <div
-          className="sc-fAjcbJ iQogpB"
+          className="sc-gisBJw ffceTB"
         >
           <div
             className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -759,7 +765,7 @@ exports[`Storyshots Nav default 1`] = `
         </div>
       </div>
       <div
-        className="sc-caSCKo jQbOpc"
+        className="sc-kjoXOD SBiUD"
         height={0}
       >
         <span />
@@ -921,10 +927,10 @@ exports[`Storyshots Nav default 1`] = `
 
 exports[`Storyshots Nav mobile 1`] = `
 <nav
-  className="sc-gisBJw kDlVKO sc-dVhcbM bAIoWV"
+  className="sc-cHGsZl bHiaRe sc-fAjcbJ dkIavi"
 >
   <div
-    className="sc-eqIVtm hDCQFw"
+    className="sc-caSCKo dEXXuK"
   >
     <span
       className="logo sc-dnqmqq bDsesi"
@@ -946,7 +952,7 @@ exports[`Storyshots Nav mobile 1`] = `
       </svg>
     </span>
     <div
-      className="sc-fAjcbJ iQogpB"
+      className="sc-gisBJw ffceTB"
     >
       <div
         className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
@@ -1074,7 +1080,7 @@ exports[`Storyshots Nav mobile 1`] = `
     </div>
   </div>
   <div
-    className="sc-caSCKo jQbOpc"
+    className="sc-kjoXOD SBiUD"
     height={0}
   >
     <span />
@@ -1084,10 +1090,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-feJyhm epiZoI"
+  className="sc-cmTdod cVoZve"
 >
   <div
-    className="sc-kafWEX dWgISZ sc-cSHVUG biczzM"
+    className="sc-iELTvK jQonFf sc-cSHVUG biczzM"
   >
     <a
       className="link"
@@ -1139,7 +1145,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-csuQGl CQhxV scroll sc-gipzik bllkPS"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1161,7 +1167,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-cIShpX jFXbRb"
+    className="child sc-feJyhm cAwyug"
   >
     Lataa kautta
   </span>
@@ -1170,7 +1176,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-csuQGl CQhxV scroll sc-gipzik bllkPS"
+  className="sc-bRBYWo ccSRck scroll sc-Rmtcm kiRaP"
 >
   <span
     className="logo sc-dnqmqq bDsesi"
@@ -1330,7 +1336,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="menu sc-bRBYWo ccSRck sc-Rmtcm hVOwuq"
+    className="menu sc-jhAzac hmXDXQ sc-hzDkRC bVvPYu"
   >
     <div
       className="sc-dxgOiQ hTjMfW sc-kpOJdX dXpYcF"
