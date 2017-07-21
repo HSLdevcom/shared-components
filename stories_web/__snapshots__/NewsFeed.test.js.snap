@@ -2,186 +2,186 @@
 
 exports[`Storyshots NewsFeed default 1`] = `
 <div
-  className="sc-hqyNC keRCOE sc-kvZOFW fSUwKK"
+  className="sc-kvZOFW eiPhbT sc-frDJqD bRFSdc"
 >
   <ul
-    className="sc-frDJqD gCEYuZ"
+    className="sc-hmzhuo eRtqMp"
   >
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-jqCOkK heXNii sc-dNLxif lhJCQN"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-jbKcbu cWSlbe"
       >
         <span
-          className="top sc-dnqmqq bDsesi"
+          className="top sc-htoDjs bZzhDu"
         >
           <span
-            className="category sc-dnqmqq bDsesi"
+            className="category sc-htoDjs bZzhDu"
           >
             example
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
              — 
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-dnqmqq bDsesi"
+          className="bottom sc-htoDjs bZzhDu"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-hqyNC keRCOE"
         src="https://placehold.it/125x521"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-jqCOkK heXNii sc-dNLxif lhJCQN"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-jbKcbu cWSlbe"
       >
         <span
-          className="top sc-dnqmqq bDsesi"
+          className="top sc-htoDjs bZzhDu"
         >
           <span
-            className="category sc-dnqmqq bDsesi"
+            className="category sc-htoDjs bZzhDu"
           >
             example
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
              — 
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-dnqmqq bDsesi"
+          className="bottom sc-htoDjs bZzhDu"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-hqyNC keRCOE"
         src="https://placehold.it/521x125"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-jqCOkK heXNii sc-dNLxif lhJCQN"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-jbKcbu cWSlbe"
       >
         <span
-          className="top sc-dnqmqq bDsesi"
+          className="top sc-htoDjs bZzhDu"
         >
           <span
-            className="category sc-dnqmqq bDsesi"
+            className="category sc-htoDjs bZzhDu"
           >
             example
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
              — 
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-dnqmqq bDsesi"
+          className="bottom sc-htoDjs bZzhDu"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-hqyNC keRCOE"
         src="https://placehold.it/500x500"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-jqCOkK heXNii sc-dNLxif lhJCQN"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-jbKcbu cWSlbe"
       >
         <span
-          className="top sc-dnqmqq bDsesi"
+          className="top sc-htoDjs bZzhDu"
         >
           <span
-            className="category sc-dnqmqq bDsesi"
+            className="category sc-htoDjs bZzhDu"
           >
             example
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
              — 
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-dnqmqq bDsesi"
+          className="bottom sc-htoDjs bZzhDu"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jbKcbu cWSlbe"
+        className="sc-hqyNC keRCOE"
         src="https://placehold.it/50x50"
       />
     </li>
     <li
-      className="sc-uJMKN jsQhVl sc-jqCOkK jdJLDP"
+      className="sc-jqCOkK heXNii sc-dNLxif lhJCQN"
     >
       <div
-        className="text-container sc-dNLxif KzmkZ"
+        className="text-container sc-jbKcbu cWSlbe"
       >
         <span
-          className="top sc-dnqmqq bDsesi"
+          className="top sc-htoDjs bZzhDu"
         >
           <span
-            className="category sc-dnqmqq bDsesi"
+            className="category sc-htoDjs bZzhDu"
           >
             example
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
              — 
           </span>
           <span
-            className="sc-dnqmqq bDsesi"
+            className="sc-htoDjs bZzhDu"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-dnqmqq bDsesi"
+          className="bottom sc-htoDjs bZzhDu"
         >
           example example example example
         </span>

@@ -2,11 +2,11 @@
 
 exports[`Storyshots IconWithText default 1`] = `
 <div
-  className="sc-kafWEX kwHksu sc-fjdhpX fNCIal"
+  className="sc-hEsumM ktRqae sc-jTzLTM eJyaRN"
 >
   <span
     aria-hidden="true"
-    className="icon sc-jTzLTM iEjgub"
+    className="icon sc-VigVT kRfzAX"
   >
     <svg
       height="4rem"
@@ -21,7 +21,7 @@ exports[`Storyshots IconWithText default 1`] = `
     </svg>
   </span>
   <span
-    className="text sc-dnqmqq bDsesi"
+    className="text sc-htoDjs bZzhDu"
   >
     Sample text
   </span>
@@ -30,11 +30,11 @@ exports[`Storyshots IconWithText default 1`] = `
 
 exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 <div
-  className="sc-iELTvK fuFeBa sc-fjdhpX fNCIal"
+  className="sc-cIShpX cyeuop sc-jTzLTM eJyaRN"
 >
   <span
     aria-hidden="true"
-    className="icon sc-jTzLTM iEjgub"
+    className="icon sc-VigVT kRfzAX"
   >
     <svg
       height="4rem"
@@ -49,7 +49,7 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
     </svg>
   </span>
   <span
-    className="text sc-dnqmqq bDsesi"
+    className="text sc-htoDjs bZzhDu"
   >
     <span>
       Sample text
@@ -71,11 +71,11 @@ exports[`Storyshots IconWithText text & svg in text prop 1`] = `
 
 exports[`Storyshots IconWithText with inner & outer fill 1`] = `
 <div
-  className="sc-feJyhm kZsGZa sc-fjdhpX fNCIal"
+  className="sc-ktHwxA kdgdWf sc-jTzLTM eJyaRN"
 >
   <span
     aria-hidden="true"
-    className="icon sc-jTzLTM iEjgub"
+    className="icon sc-VigVT kRfzAX"
   >
     <svg
       height="4rem"
@@ -110,7 +110,7 @@ exports[`Storyshots IconWithText with inner & outer fill 1`] = `
     </svg>
   </span>
   <span
-    className="text sc-dnqmqq bDsesi"
+    className="text sc-htoDjs bZzhDu"
   >
     Sample text
   </span>

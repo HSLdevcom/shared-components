@@ -66,18 +66,3 @@ Button.propTypes = {
 };
 
 export default Button;
-
-const ButtonNoStyle = styled.button`
-  padding: 0;
-  margin: 0;
-  border: 0;
-  outline: 0;
-  line-height: 0;
-  width: auto;
-  height: auto;
-  background: inherit;
-  color: inherit;
-  font: inherit;
-`;
-
-export { ButtonNoStyle };

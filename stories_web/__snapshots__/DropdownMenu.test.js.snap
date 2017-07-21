@@ -6,28 +6,28 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-csuQGl CQhxV sc-gipzik dcCTdP"
+    className="sc-gipzik iyhjGb sc-jlyJG eQyhXL"
     open={false}
   >
     <button
-      className="sc-jlyJG eWYvrn"
+      className="sc-iRbamj ewtnuE"
       onClick={[Function]}
     >
       <div
-        className="sc-kAzzGY jHprQs sc-cSHVUG biczzM"
+        className="sc-cSHVUG CAuLq sc-jzJRlG cwyxsR"
       >
         <a
-          className="link sc-chPdSV byfFmt"
+          className="link sc-kAzzGY jHprQs"
         >
           <div
-            className="sc-VigVT hjRoCW sc-gZMcBi foLCCt"
+            className="sc-gqjmRU dopYQG sc-iwsKbI cpPLuk"
           >
             <div
-              className="sc-jzJRlG istBgv sc-fjdhpX fNCIal"
+              className="sc-fjdhpX AUMvr sc-jTzLTM eJyaRN"
             >
               <span
                 aria-hidden="true"
-                className="icon sc-jTzLTM iEjgub"
+                className="icon sc-VigVT kRfzAX"
               >
                 <svg
                   height="2.5rem"
@@ -61,7 +61,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
                 </svg>
               </span>
               <span
-                className="text sc-dnqmqq bDsesi"
+                className="text sc-htoDjs bZzhDu"
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -73,7 +73,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
                     Lisää
                   </div>
                   <svg
-                    className="sc-iRbamj daXtoo"
+                    className="sc-gPEVay iOtZqe"
                     height="0.5rem"
                     preserveAspectRatio="xMidYMid meet"
                     version="1.1"
