@@ -2,13 +2,19 @@ import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import JSXAddon from 'storybook-addon-jsx';
+import { ThemeProvider } from 'styled-components';
 
+import Theme from './../themes/themes.hsl';
 import { Button } from '../src';
 
 setAddon(JSXAddon);
 
 const stories = storiesOf('Button', module);
 stories.addDecorator(withKnobs);
+stories.addDecorator(getStory => (
+  <ThemeProvider theme={Theme}>
+    {getStory()}
+  </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
   const disabled = boolean('Disabled', false);

@@ -3,12 +3,20 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
+import { ThemeProvider } from 'styled-components';
+
+import Theme from './../themes/themes.hsl';
 import { NewsFeed, NewsFeedItem } from '../src';
 
 setAddon(JSXAddon);
 
 const stories = storiesOf('NewsFeed', module);
 stories.addDecorator(withKnobs);
+stories.addDecorator(getStory => (
+  <ThemeProvider theme={Theme}>
+    {getStory()}
+  </ThemeProvider>));
+
 const TODAY_2PM = new Date();
 TODAY_2PM.setHours(14, 0, 0, 0);
 const ONE_DAY = 86400000;

@@ -3,7 +3,9 @@ import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
+import { ThemeProvider } from 'styled-components';
 
+import Theme from './../themes/themes.hsl';
 import { Button } from '../src';
 import NotificationRoot, { notification, reducer } from '../src/Notification';
 
@@ -21,6 +23,11 @@ stories.addDecorator(story =>
     {story()}
   </Provider>)
 );
+stories.addDecorator(getStory => (
+  <ThemeProvider theme={Theme}>
+    {getStory()}
+  </ThemeProvider>));
+
 stories.addWithJSX('Error', () =>
   (<div>
     <NotificationRoot timeoutDelay={5000} />
