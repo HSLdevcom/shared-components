@@ -112,14 +112,12 @@ class DropdownMenu extends React.Component {
   }
 
   render() {
-    /* eslint-disable no-return-assign */
     return (
       <StyledDiv
         className={this.props.className}
-        innerRef={x => this.node = x}
+        innerRef={(x) => { this.node = x; }}
         open={this.state.open}
       >
-        {/* eslint-enable no-return-assign */}
         <ButtonNoStyle onClick={this.toggleDropdown}>
           <NavItem
             link={<A />}

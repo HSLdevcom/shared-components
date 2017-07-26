@@ -200,12 +200,10 @@ class Nav extends React.Component {
           </Touchable>
         </TopIcons>}
       </TopBar>
-      {/* eslint-disable no-return-assign */}
       <MenuWrapper
         height={this.props.menu && this.state.menuHeight}
-        innerRef={x => this.menuWrapper = x}
+        innerRef={(x) => { this.menuWrapper = x; }}
       >
-        {/* eslint-enable no-return-assign */}
         <CSSTransitionGroup
           transitionName="menu"
           transitionEnterTimeout={250}
