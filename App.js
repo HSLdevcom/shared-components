@@ -20,7 +20,8 @@ export default class App extends React.Component {
 
   async loadFont() {
     await Font.loadAsync({
-      Digitalt: font,
+      'Gotham Rounded SSm A, Gotham Rounded SSm B': font,
+      'Gotham XNarrow SSm A, Gotham XNarrow SSm B': font,
     });
     this.setState({ fontLoaded: true });
   }

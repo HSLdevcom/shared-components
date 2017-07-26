@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button from './Button/Button';
+import Button from './Button';
 import Input from './Input/Input';
 import Separator, {
   MenuSeparator,
@@ -22,7 +22,8 @@ import { Flex, Activatable } from './Wrapper';
 import DropdownMenu from './DropdownMenu';
 import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
 import { Tab, Tabs } from './Tabs';
-import { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from './Typography';
+import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from './Typography';
+import Touchable from './Touchable';
 
 export {
   AppHeader,
@@ -60,6 +61,7 @@ export {
   UltraWideContainer,
   Tab,
   Tabs,
+  Text,
   H1,
   H2,
   H3,
@@ -71,5 +73,6 @@ export {
   Caption,
   InfoText,
   ErrorText,
-  ListText
+  ListText,
+  Touchable
 };

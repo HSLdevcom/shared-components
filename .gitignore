@@ -6,3 +6,4 @@ storybook-static/
 .idea/
 build/
 lib/
+storybook_native/storyLoader.js

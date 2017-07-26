@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Typography Caption 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 11.375,
+          "fontWeight": "300",
+          "lineHeight": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography ErrorText 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#dc0451",
+          "fontSize": 14,
+          "fontWeight": "300",
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography H1 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 42,
+          "fontWeight": "500",
+          "letterSpacing": -0.4,
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL Liikuttaa
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography H2 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 31.5,
+          "fontWeight": "500",
+          "letterSpacing": -0.4,
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL Liikuttaa
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography H3 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 21,
+          "fontWeight": "500",
+          "letterSpacing": -0.4,
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL Liikuttaa
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography H4 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 18.375,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL Liikuttaa
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography H5 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    className={undefined}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "500",
+          "letterSpacing": -0.2,
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL LIIKUTTAA
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography InfoText 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    large={false}
+    style={
+      Array [
+        Object {
+          "color": "#8c4799",
+          "fontSize": 14,
+          "fontWeight": "300",
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography Ingress 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 17.5,
+          "fontWeight": "300",
+          "lineHeight": 25,
+        },
+        undefined,
+      ]
+    }
+  >
+    Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography ListText 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "300",
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography Paragraph 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 12.25,
+          "fontWeight": "300",
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography Quote 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    className={undefined}
+    style={
+      Array [
+        Object {
+          "borderLeftColor": "#b7b7b7",
+          "borderLeftWidth": 3,
+          "borderStyle": "solid",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 17.5,
+            "fontStyle": "italic",
+            "fontWeight": "300",
+            "lineHeight": 25,
+            "paddingBottom": 3,
+            "paddingLeft": 20,
+            "paddingRight": 0,
+            "paddingTop": 3,
+          },
+          undefined,
+        ]
+      }
+    >
+      Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Typography default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    HSL Liikuttaa
+  </Text>
+</View>
+`;

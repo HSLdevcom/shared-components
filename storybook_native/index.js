@@ -1,12 +1,14 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { getStorybookUI, configure, addDecorator } from '@storybook/react-native';
 import { ThemeProvider } from 'styled-components';
-
+// eslint-disable-next-line import/extensions, import/no-unresolved
+import { loadStories } from './storyLoader';
 import Theme from './../themes/themes.hsl';
 
 // import stories
 configure(() => {
-  require('../stories_native'); // eslint-disable-line global-require
+  loadStories();
 }, module);
 
 addDecorator(story => (

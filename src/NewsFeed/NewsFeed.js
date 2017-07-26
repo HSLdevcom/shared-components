@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Div from '../Div';
-import Button from '../Button/Button';
+import Button from '../Button';
 
 const Ul = styled.ul``;
 

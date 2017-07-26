@@ -1,0 +1,9 @@
+{
+  "preset": "react-native",
+  "globals": {
+    "__DEV__": true
+  },
+  "moduleNameMapper": {
+    "@storybook/addon-storyshots": "<rootDir>/node_modules/ktj-storyshots"
+  }
+}
