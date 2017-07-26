@@ -79,3 +79,7 @@ or
 - Delete .idea folder
 - Reopen the project
 - Configure the project when studio suggests it
+
+### Expo: something went wrong ###
+- rm -rf $HOME/.expo/*
+- Android Virtual Device Manager -> actions -> Wipe data
