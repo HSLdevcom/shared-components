@@ -18,7 +18,7 @@ const TouchableText = Text.extend`
     color: ${props.theme.primaryText};
   `}
   ${props => props.secondary && `
-    color: ${darken(0.2, props.theme.default || '#b7b7b7')};
+    color: ${darken(0.2, props.theme.default)};
   `}
   ${props => props.disabled && `
     color: ${props.theme.default};
@@ -41,15 +41,15 @@ const TouchableView = styled(({ primary, secondary, disabled, rounded, ...rest }
     background-color: ${props.theme.primary};
   `}
   ${props => props.secondary && `
-    border-color: ${darken(0.2, props.theme.default || '#b7b7b7')};
+    border-color: ${darken(0.2, props.theme.default)};
   `}
   ${props => props.disabled && `
     border-color: ${props.theme.default};
   `}
 
   ${props => props.disabled && props.primary && `
-    background-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};
-    border-color: ${lighten(0.175, props.theme.default || '#b7b7b7')};;
+    background-color: ${lighten(0.175, props.theme.default)};
+    border-color: ${lighten(0.175, props.theme.default)};
   `}
 `;
 
