@@ -30,7 +30,6 @@ const StyledText = styled(({ disabled, active, children, ...rest }) => (
     { children.toUpperCase() }
   </Text>
 ))`
-  margin-left: ${size(16)};
   color: #017AC9;
   font-size: ${size(18)};
   ${props => props.active && `
