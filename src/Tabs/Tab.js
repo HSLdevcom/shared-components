@@ -13,6 +13,7 @@ const Content = styled(({ active, ...rest }) => (
   flex: 1;
   flex-direction: row;
   margin-bottom: ${size(16)};
+  margin-horizontal: ${size(26)};
   padding-top: ${size(12)};
   justify-content: center;
   border-style: solid;
@@ -23,17 +24,23 @@ const Content = styled(({ active, ...rest }) => (
   `}
 `;
 
+function fill(active, disabled) {
+  if (disabled) {
+    return '#B7B7B7';
+  }
+  if (active) {
+    return '#000000';
+  }
+  return '#017AC9';
+}
+
 const StyledText = styled(({ disabled, active, children, ...rest }) => (
   <Text {...rest}>
     { children.toUpperCase() }
   </Text>
 ))`
-  color: #017AC9;
   font-size: ${size(18)};
-  ${props => props.active && `
-    color: #000000;
-  `}
-  ${props => props.disabled && 'color: #B7B7B7;'}
+  ${props => `color: ${fill(props.active, props.disabled)};`}
 `;
 
 const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
@@ -46,6 +53,7 @@ const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
   ${props => props.last && 'border-right-width: 0;'}
   flex: 1;
   flex-direction: row;
+  align-items: stretch;
   ${props => props.rounded && props.first && 'border-top-left-radius: 6;'}
   ${props => props.rounded && props.last && 'border-top-right-radius: 6;'}
   ${props => props.active && `
@@ -66,8 +74,10 @@ const Tab = styled(({
   <Touchable onPress={onPress}>
     <StyledView active={active} {...rest}>
       <Content active={active}>
-        { header.icon }
-        <StyledText active={active} disabled={disabled}>{ header.text || header }</StyledText>
+        { header.icon && React.cloneElement(header.icon, { fill: fill(active, disabled) }) }
+        {
+          <StyledText active={active} disabled={disabled}>{ header.text || header }</StyledText>
+        }
       </Content>
     </StyledView>
   </Touchable>

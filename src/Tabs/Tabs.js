@@ -7,6 +7,7 @@ import { size } from '../utils';
 
 const StyledView = View.extend`
   flex-direction: row;
+  align-items: stretch;
 `;
 
 const Tabs = styled(({ rounded, children, index, ...rest }) => {

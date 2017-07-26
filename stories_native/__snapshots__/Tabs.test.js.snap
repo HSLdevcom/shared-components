@@ -38,7 +38,7 @@ exports[`Storyshots Tabs Default 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
+            "alignItems": "stretch",
             "flexDirection": "row",
             "justifyContent": "center",
           },
@@ -61,6 +61,7 @@ exports[`Storyshots Tabs Default 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 1,
@@ -99,6 +100,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -145,6 +147,7 @@ exports[`Storyshots Tabs Default 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#FFFFFF",
                 "borderBottomColor": "transparent",
                 "borderColor": "#CFCFCF",
@@ -184,6 +187,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -230,6 +234,7 @@ exports[`Storyshots Tabs Default 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 1,
@@ -268,6 +273,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -314,6 +320,7 @@ exports[`Storyshots Tabs Default 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 0,
@@ -352,6 +359,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -454,7 +462,7 @@ exports[`Storyshots Tabs one item 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
+            "alignItems": "stretch",
             "flexDirection": "row",
             "justifyContent": "center",
           },
@@ -477,6 +485,7 @@ exports[`Storyshots Tabs one item 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#FFFFFF",
                 "borderBottomColor": "transparent",
                 "borderColor": "#CFCFCF",
@@ -516,6 +525,7 @@ exports[`Storyshots Tabs one item 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -619,7 +629,7 @@ exports[`Storyshots Tabs rounded 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
+            "alignItems": "stretch",
             "flexDirection": "row",
             "justifyContent": "center",
           },
@@ -642,6 +652,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 1,
@@ -681,6 +692,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -727,6 +739,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#FFFFFF",
                 "borderBottomColor": "transparent",
                 "borderColor": "#CFCFCF",
@@ -766,6 +779,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -812,6 +826,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 1,
@@ -850,6 +865,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
@@ -896,6 +912,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             },
             Array [
               Object {
+                "alignItems": "stretch",
                 "backgroundColor": "#EEF1F3",
                 "borderColor": "#CFCFCF",
                 "borderRightWidth": 0,
@@ -935,6 +952,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "flexShrink": 1,
                   "justifyContent": "center",
                   "marginBottom": 14,
+                  "marginHorizontal": 22.75,
                   "paddingTop": 10.5,
                 },
                 undefined,
