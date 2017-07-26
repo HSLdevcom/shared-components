@@ -53,7 +53,7 @@ const TouchableView = styled(({ primary, secondary, disabled, rounded, ...rest }
   `}
 `;
 
-const ButtonNative = ({
+const Button = styled(({
   primary,
   secondary,
   disabled,
@@ -86,9 +86,9 @@ const ButtonNative = ({
         }
       </TouchableView>
     </Touchable>
-);
+))``;
 
-ButtonNative.propTypes = {
+Button.propTypes = {
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
   disabled: PropTypes.bool,
@@ -100,4 +100,4 @@ ButtonNative.propTypes = {
   style: PropTypes.array  // eslint-disable-line react/forbid-prop-types
 };
 
-export default styled(ButtonNative)``;
+export default Button;
