@@ -1,5 +1,6 @@
 import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from '../Typography';
 import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
+import { Tabs, Tab } from '../Tabs';
 import { ButtonNative } from '../Button';
 import Touchable from '../Touchable';
 
@@ -20,5 +21,7 @@ export {
   NewsFeedItemNative as NewsFeedItem,
   NewsFeedNative as NewsFeed,
   ButtonNative as Button,
-  Touchable
+  Touchable,
+  Tabs,
+  Tab
 };

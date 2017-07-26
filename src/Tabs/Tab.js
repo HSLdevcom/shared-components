@@ -60,13 +60,13 @@ const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
 
 const Tab = styled(({
   children,
-  onClick,
+  onPress,
   header,
   active,
   disabled,
   ...rest
 }) => (
-  <Touchable onPress={onClick}>
+  <Touchable onPress={onPress}>
     <StyledView active={active} {...rest}>
       <Content active={active}>
         { header.icon }
@@ -90,7 +90,7 @@ Tab.propTypes = {
   children: PropTypes.node.isRequired, // eslint-disable-line react/no-unused-prop-types
   className: PropTypes.string,
   active: PropTypes.bool,
-  onClick: PropTypes.func,
+  onPress: PropTypes.func,
   disabled: PropTypes.bool,
   rounded: PropTypes.bool,
   first: PropTypes.bool,
