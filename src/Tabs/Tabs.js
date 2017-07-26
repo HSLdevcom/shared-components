@@ -12,7 +12,7 @@ const StyledView = View.extend`
 const Tabs = styled(({ rounded, children, index, ...rest }) => {
   const childrenArray = React.Children.toArray(children);
   return (<View {...rest}>
-    <StyledView className="derp">
+    <StyledView>
       { childrenArray.map((child, i) => React.cloneElement(
           child,
           { active: index === i, rounded })
@@ -29,6 +29,7 @@ const Tabs = styled(({ rounded, children, index, ...rest }) => {
   border-width: 1px;
   ${props => props.rounded && `border-radius: ${size(6)};`}
   align-items: stretch;
+  width: 100%;
 `;
 
 Tabs.propTypes = {

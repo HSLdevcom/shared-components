@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { withKnobs, number } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 
-import { Tabs, Tab } from '../src/native';
+import { Tabs, Tab, Text } from '../src/native';
 
 import Theme from './../themes/themes.hsl';
 
@@ -27,10 +27,10 @@ storiesOf('Tabs', module)
     const index = number('Index', 1, options);
     return (
       <Tabs index={index}>
-        <Tab first onPress={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab last onPress={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab first onPress={action('tab clicked')} header="First"><Text>Content of the first tab</Text></Tab>
+        <Tab onPress={action('tab clicked')} header="Second"><Text>Content of the second tab</Text></Tab>
+        <Tab onPress={action('tab clicked')} header="Third"><Text>Content of the third tab</Text></Tab>
+        <Tab last onPress={action('tab clicked')} header="Disabled" disabled><Text>Content of disabled tab</Text></Tab>
       </Tabs>);
   })
     .add('rounded', () => {
@@ -43,14 +43,14 @@ storiesOf('Tabs', module)
       const index = number('Index', 1, options);
       return (
         <Tabs index={index} rounded>
-          <Tab first onPress={action('tab clicked')} header="First">Content of the first tab</Tab>
-          <Tab onPress={action('tab clicked')} header="Second">Content of the second tab</Tab>
-          <Tab onPress={action('tab clicked')} header="Third">Content of the third tab</Tab>
-          <Tab last onPress={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+          <Tab first onPress={action('tab clicked')} header="First"><Text>Content of the first tab</Text></Tab>
+          <Tab onPress={action('tab clicked')} header="Second"><Text>Content of the second tab</Text></Tab>
+          <Tab onPress={action('tab clicked')} header="Third"><Text>Content of the third tab</Text></Tab>
+          <Tab last onPress={action('tab clicked')} header="Disabled" disabled><Text>Content of disabled tab</Text></Tab>
         </Tabs>);
     })
     .add('one item', () => (
       <Tabs index={0}>
-        <Tab first last onPress={action('tab clicked')} header="Active">Content of active tab</Tab>
+        <Tab first last onPress={action('tab clicked')} header="Active"><Text>Content of active tab</Text></Tab>
       </Tabs>)
     );

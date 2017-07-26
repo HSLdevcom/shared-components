@@ -12,10 +12,8 @@ const Content = styled(({ active, ...rest }) => (
 ))`
   flex: 1;
   flex-direction: row;
-  margin-horizontal: ${size(32)};
   margin-bottom: ${size(16)};
   padding-top: ${size(12)};
-  display: flex;
   justify-content: center;
   border-style: solid;
   border-color: transparent;
@@ -41,7 +39,6 @@ const StyledText = styled(({ disabled, active, children, ...rest }) => (
 const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
   <View {...rest} />
 ))`
-  cursor: pointer;
   background: #EEF1F3;
   border-color: #CFCFCF;
   border-style: solid;
