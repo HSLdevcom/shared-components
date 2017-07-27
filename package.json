@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
@@ -38,10 +38,7 @@
     "storybook-addon-jsx": "^4.1.1",
     "react-scripts": "^1.0.10",
     "expo": "15.x.x",
-    "classnames": "^2.2.5",
     "eventemitter3": "^2.0.3",
-    "lodash": "^4.17.4",
-    "moment": "^2.18.1",
     "prop-types": "^15.5.10",
     "react": "15.4.x",
     "react-native": "0.42.x",
@@ -73,7 +70,9 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "polished": "^1.2.1",
-    "react-primitives": "ktj/primitives-build"
+    "react-primitives": "ktj/primitives-build",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
   },
   "config": {
     "react-native-storybook-loader": {
@@ -86,6 +85,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "styled-components": "*"
+    "styled-components": "*",
+    "react-transition-group": "^1.2.0"
   }
 }

@@ -128,9 +128,8 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq gaMhLc"
@@ -167,9 +166,8 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"
@@ -216,9 +214,8 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
@@ -258,9 +255,8 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
@@ -369,9 +365,8 @@ exports[`Storyshots Menu minimal 1`] = `
     className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
   >
     <a
-      className="link"
-      onClick={[Function]}
-      style={Object {}}
+      className="link sc-cSHVUG CAuLq"
+      href="/test"
     >
       <div
         className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
@@ -411,9 +406,8 @@ exports[`Storyshots Menu minimal 1`] = `
     className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
   >
     <a
-      className="link"
-      onClick={[Function]}
-      style={Object {}}
+      className="link sc-cSHVUG CAuLq"
+      href="/test"
     >
       <div
         className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
@@ -606,9 +600,8 @@ exports[`Storyshots Menu mobile 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"
@@ -645,9 +638,8 @@ exports[`Storyshots Menu mobile 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"

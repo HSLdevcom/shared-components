@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import A from '../Anchor';
 import MenuItem from './MenuItem';
 import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
@@ -152,7 +152,7 @@ const Menu = ({
 
 const defaultChildren = [
   <MenuItem
-    link={<Link to="/test" />}
+    link={<A href="/test" />}
     icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
@@ -160,7 +160,7 @@ const defaultChildren = [
     active
   />,
   <MenuItem
-    link={<Link to="/test" />}
+    link={<A href="/test" />}
     icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"

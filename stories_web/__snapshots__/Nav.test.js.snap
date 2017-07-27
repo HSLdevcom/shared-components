@@ -1342,9 +1342,8 @@ exports[`Storyshots Nav scroll 1`] = `
       className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
@@ -1384,9 +1383,8 @@ exports[`Storyshots Nav scroll 1`] = `
       className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link"
-        onClick={[Function]}
-        style={Object {}}
+        className="link sc-cSHVUG CAuLq"
+        href="/test"
       >
         <div
           className="sc-gZMcBi cwkXTh sc-dnqmqq gnpAsW"
