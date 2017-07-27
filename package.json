@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.9.1",
+  "version": "0.9.6",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
@@ -37,11 +37,23 @@
     "react-test-renderer": "15.4.x",
     "storybook-addon-jsx": "^4.1.1",
     "react-scripts": "^1.0.10",
-    "expo": "15.x.x"
+    "expo": "15.x.x",
+    "classnames": "^2.2.5",
+    "eventemitter3": "^2.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "15.4.x",
+    "react-native": "0.42.x",
+    "react-redux": "^5.0.5",
+    "react-router": "^3.0.2",
+    "react-transition-group": "^1.2.0",
+    "redux": "^3.7.1",
+    "styled-components": "^2.1.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "build:babel": "babel src/ --out-dir lib/ --ignore test.js",
+    "build:babel": "babel src/ --out-dir lib/ --ignore .test.js",
     "build": "yarn run build:babel && ./scripts/publish.sh",
     "lint:tight": "esw src/ --color --max-warnings 0",
     "lint:watch": "esw src/ -w --color",
@@ -60,19 +72,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "eventemitter3": "^2.0.3",
-    "lodash": "^4.17.4",
-    "moment": "^2.18.1",
     "polished": "^1.2.1",
-    "prop-types": "^15.5.10",
-    "react": "15.4.x",
-    "react-native": "0.42.x",
-    "react-primitives": "ktj/primitives-build",
-    "react-redux": "^5.0.5",
-    "react-router": "^3.0.2",
-    "react-transition-group": "^1.2.0",
-    "redux": "^3.7.1",
-    "styled-components": "^2.1.1"
+    "react-primitives": "ktj/primitives-build"
   },
   "config": {
     "react-native-storybook-loader": {
@@ -82,5 +83,9 @@
       "pattern": "**/*.stories.js",
       "outputFile": "./storybook_native/storyLoader.js"
     }
+  },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*"
   }
 }
