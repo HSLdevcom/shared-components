@@ -3,8 +3,12 @@
 Shared components to be used in HSL projects. React and styled components.
 
 ### Summary of set up ###
+- Install Lerna
+```
+npm install --global lerna
 
-All the needed setup is command `yarn install` in project root
+lerna bootstrap
+```
 
 ### Installing git hooks ###
 
