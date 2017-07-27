@@ -319,13 +319,10 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               Object {
                 "backgroundColor": "#fff",
                 "borderColor": "#b7b7b7",
-                "borderRadius": 40,
+                "borderRadius": 35,
                 "borderStyle": "solid",
                 "borderWidth": 1,
-                "paddingBottom": 10,
-                "paddingLeft": 22,
-                "paddingRight": 22,
-                "paddingTop": 10,
+                "height": 39.375,
                 "width": "70%",
               },
               Array [
@@ -342,23 +339,22 @@ exports[`Storyshots NewsFeed News feed 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          disabled={undefined}
           ellipsizeMode="tail"
-          primary={undefined}
-          rounded={true}
-          secondary={undefined}
           style={
             Array [
               Object {
-                "color": "#007ac9",
                 "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 30,
-                "fontWeight": "500",
-                "letterSpacing": -0.7,
-                "lineHeight": 30,
-                "textAlign": "center",
+                "fontSize": 14,
               },
-              undefined,
+              Array [
+                Object {
+                  "color": "#007ac9",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "textAlign": "center",
+                },
+                undefined,
+              ],
             ]
           }
         >

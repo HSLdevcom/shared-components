@@ -1,6 +1,7 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
 
@@ -19,10 +20,14 @@ stories.addDecorator(getStory => (
 stories.addWithJSX('default', () => {
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
+  const small = boolean('Small', false);
   return (
     <Button
       disabled={disabled}
       rounded={rounded}
+      small={small}
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       Default Button
     </Button>);
@@ -31,10 +36,14 @@ stories.addWithJSX('default', () => {
 
 stories.addWithJSX('primary', () => {
   const disabled = boolean('Disabled', false);
+  const small = boolean('Small', false);
   return (
     <Button
       disabled={disabled}
+      small={small}
       primary
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
     Primary Button
   </Button>);
@@ -44,11 +53,15 @@ stories.addWithJSX('primary', () => {
 stories.addWithJSX('secondary', () => {
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
+  const small = boolean('Small', false);
   return (
     <Button
       disabled={disabled}
       rounded={rounded}
+      small={small}
       secondary
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
     Secondary Button
   </Button>);
