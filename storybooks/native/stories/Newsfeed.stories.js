@@ -3,12 +3,11 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
+import { NewsFeedItem, NewsFeed } from 'hsl-shared-components/native';
 
 import Theme from './../themes/themes.hsl';
 
 import CenterView from './CenterView';
-
-import { NewsFeedItem, NewsFeed } from 'hsl-shared-components/native';
 
 
 const TODAY_2PM = new Date();

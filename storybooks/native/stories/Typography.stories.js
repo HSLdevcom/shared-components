@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
-import CenterView from './CenterView';
-
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components/native';
+
+import CenterView from './CenterView';
 
 storiesOf('Typography', module)
   .addDecorator(withKnobs)

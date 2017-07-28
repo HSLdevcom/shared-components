@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, number } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-
 import { Tabs, Tab, Text } from 'hsl-shared-components/native';
 
 import Theme from './../themes/themes.hsl';

@@ -3,11 +3,10 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
+import { Button } from 'hsl-shared-components/native';
 
 import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
-
-import { Button } from 'hsl-shared-components/native';
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)

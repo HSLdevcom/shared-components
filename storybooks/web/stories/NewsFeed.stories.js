@@ -4,9 +4,9 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
+import { NewsFeed, NewsFeedItem } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
-import { NewsFeed, NewsFeedItem } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 

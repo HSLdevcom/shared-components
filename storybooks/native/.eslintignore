@@ -1,8 +1,5 @@
 node_modules
-lib
-build
 hooks
-.storybook
 storybook-static
 static
-storybook_native/storyLoader.js
+storybook/storyLoader.js
