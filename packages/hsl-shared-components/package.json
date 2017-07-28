@@ -39,8 +39,7 @@
   "scripts": {
     "build:babel": "babel src/ --out-dir lib/ --ignore .test.js",
     "build": "yarn run build:babel && ./scripts/publish.sh",
-    "test": "jest --testPathPattern=stories_web && jest --testPathPattern=stories_native --config=native.jest.config.json",
-    "test-update": "jest --testPathPattern=stories_web -u && jest --testPathPattern=stories_native --config=native.jest.config.json -u",
+    "test": "jest",
     "es-lint": "eslint ."
   },
   "dependencies": {

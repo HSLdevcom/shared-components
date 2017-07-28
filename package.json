@@ -59,14 +59,14 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest --testPathPattern=stories_web && jest --testPathPattern=stories_native --config=native.jest.config.json",
+    "test": "lerna run test",
     "prestorybook": "rnstl",
     "storybook": "storybook start -p 7007 -c storybook_native",
     "storybook:web": "start-storybook -c storybook_web -s ./static -p 6006",
     "build-storybook": "build-storybook -c storybook_web -s ./static",
     "deploy-storybook": "storybook-to-ghpages",
-    "test-update": "jest --testPathPattern=stories_web -u && jest --testPathPattern=stories_native --config=native.jest.config.json -u",
-    "es-lint": "eslint ."
+    "test-update": "lerna run test-update",
+    "es-lint": "lerna run es-lint"
   },
   "dependencies": {
     "classnames": "^2.2.5",
