@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.9.7",
+  "version": "0.10.0",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -35,7 +35,7 @@
     "redux": "^3.7.1",
     "styled-components": "^2.1.1"
   },
-  "main": "./src/lib.js",
+  "main": "lib/index.js",
   "scripts": {
     "build:babel": "babel src/ --out-dir lib/ --ignore .test.js",
     "build": "yarn run build:babel && ./scripts/publish.sh",

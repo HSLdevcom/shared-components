@@ -3,10 +3,10 @@
 
 function loadStories() {
   
-  require('../stories_native/Button.stories.js');
-  require('../stories_native/Newsfeed.stories.js');
-  require('../stories_native/Tabs.stories.js');
-  require('../stories_native/Typography.stories.js');
+  require('../stories/Button.stories.js');
+  require('../stories/Newsfeed.stories.js');
+  require('../stories/Tabs.stories.js');
+  require('../stories/Typography.stories.js');
   
 }
 

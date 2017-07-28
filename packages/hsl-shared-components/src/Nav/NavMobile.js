@@ -10,7 +10,7 @@ import Span from '../Span';
 import { MenuItem } from '../Menu';
 import IconWithText from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
-import { Menu } from '../Icons';
+import Icons from '../Icons';
 import Touchable from '../Touchable';
 import View from '../View';
 
@@ -195,7 +195,7 @@ class Nav extends React.Component {
             ))}
           <Touchable onPress={this.toggleMenu}>
             <View className={cx('menu-toggle', { open: this.state.menuOpen })}>
-              <Menu height="2rem" />
+              <Icons.Menu height="2rem" />
             </View>
           </Touchable>
         </TopIcons>}

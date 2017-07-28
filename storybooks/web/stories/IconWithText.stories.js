@@ -3,23 +3,22 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number, text, select } from '@storybook/addon-knobs';
 
-import { IconWithText } from 'hsl-shared-components';
-import { ArrowDown, ArrowLeft, Checkmark, Logo, HSLLogo, JourneyPlanner, Latest, More, Search, SignIn, Tickets, TravelCard, Cross, Menu } from '../src/Icons';
+import { IconWithText, Icons } from 'hsl-shared-components';
 
 const iconMap = {
-  ArrowDown: <ArrowDown height="4rem" />,
-  ArrowLeft: <ArrowLeft height="4rem" />,
-  Logo: <Logo height="4rem" />,
-  HSLLogo: <HSLLogo height="4rem" />,
-  Cross: <Cross height="4rem" />,
-  JourneyPlanner: <JourneyPlanner height="4rem" />,
-  Latest: <Latest height="4rem" />,
-  More: <More height="4rem" />,
-  Menu: <Menu height="4rem" />,
-  Search: <Search height="4rem" />,
-  SignIn: <SignIn height="4rem" />,
-  Tickets: <Tickets height="4rem" />,
-  TravelCard: <TravelCard height="4rem" />,
+  ArrowDown: <Icons.ArrowDown height="4rem" />,
+  ArrowLeft: <Icons.ArrowLeft height="4rem" />,
+  Logo: <Icons.Logo height="4rem" />,
+  HSLLogo: <Icons.HSLLogo height="4rem" />,
+  Cross: <Icons.Cross height="4rem" />,
+  JourneyPlanner: <Icons.JourneyPlanner height="4rem" />,
+  Latest: <Icons.Latest height="4rem" />,
+  More: <Icons.More height="4rem" />,
+  Menu: <Icons.Menu height="4rem" />,
+  Search: <Icons.Search height="4rem" />,
+  SignIn: <Icons.SignIn height="4rem" />,
+  Tickets: <Icons.Tickets height="4rem" />,
+  TravelCard: <Icons.TravelCard height="4rem" />,
 };
 
 const iconList = {
@@ -98,7 +97,7 @@ stories.addWithJSX('with inner & outer fill', () => {
     Bottom: 'Bottom',
   };
   const textPos = select('Text position', textPositions, 'Bottom');
-  const icon = <Checkmark height="4rem" fill={fill} />;
+  const icon = <Icons.Checkmark height="4rem" fill={fill} />;
   const StyledIWT = IconWithText.extend`
     color: ${btnColor};
     background: ${background};
@@ -142,7 +141,7 @@ stories.addWithJSX('text & svg in text prop', () => {
       fill: currentColor;
     }
   `;
-  const textProp = <span>{sampleText}<ArrowDown height="0.75rem" /></span>;
+  const textProp = <span>{sampleText}<Icons.ArrowDown height="0.75rem" /></span>;
   return (<StyledIWT
     icon={iconMap[icon]}
     text={textProp}

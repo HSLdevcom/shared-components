@@ -1,5 +1,5 @@
 {
-  "name": "Shared components native storybook",
+  "name": "native-storybook",
   "private": true,
   "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
@@ -29,7 +29,7 @@
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
     "expo": "15.x.x",
-    "hsl-shared-components": "^0.9.7",
+    "hsl-shared-components": "^0.10.0",
     "jest": "^20.0.4",
     "jest-expo": "^0.3.0",
     "prop-types": "^15.5.10",
@@ -57,10 +57,10 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest --testPathPattern=stories --config=native.jest.config.json",
+    "test": "jest --testPathPattern=stories --config=jest.config.json",
     "prestorybook": "rnstl",
     "storybook": "storybook start -p 7007 -c storybook",
-    "test-update": "jest --testPathPattern=stories --config=native.jest.config.json -u",
+    "test-update": "jest --testPathPattern=stories --config=jest.config.json -u",
     "es-lint": "eslint ."
   },
   "config": {

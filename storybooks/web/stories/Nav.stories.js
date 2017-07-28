@@ -8,12 +8,11 @@ import JSXAddon from 'storybook-addon-jsx';
 import { Menu, MenuSmall, MenuMobile, MenuItem,
          Nav, NavMobile, NavDesktop, NavItem,
          DropdownMenu, IconWithText,
-         Div, Span, List, ListItem } from 'hsl-shared-components';
-
-import { HSLLogo, JourneyPlanner, Tickets, CustomerService, Latest, TravelCard, SignIn, Cog } from '../src/Icons';
+         Div, Span, List, ListItem,
+         Icons } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
-const cog = <Cog height="2.5rem" width="2.5rem" />;
+const cog = <Icons.Cog height="2.5rem" width="2.5rem" />;
 const DropdownContent = [
   <List header="Liikkumisen palveluita" key="1">
     <ListItem><Link to="/test">Kaupunkipyörät</Link></ListItem>
@@ -71,16 +70,16 @@ while (i < 50) {
 }
 
 const icons = [
-  [<Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
-  [<CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
-  [<Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
+  [<Icons.Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
+  [<Icons.CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
+  [<Icons.Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
 ];
 
 const stories = storiesOf('Nav', module);
 
 stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
-  const logo = <HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo height="3.75rem" />;
   const options = {
     fi: 'FI',
     sv: 'SV',
@@ -99,7 +98,7 @@ stories.addWithJSX('default', () => {
   >
     <MenuItem
       link={<Link to="/test" key="test1" />}
-      icon={<TravelCard height="3.5rem" />}
+      icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Right"
       key="travelcard"
@@ -107,7 +106,7 @@ stories.addWithJSX('default', () => {
     />
     <MenuItem
       link={<Link to="/test" key="test2" />}
-      icon={<SignIn height="3.5rem" />}
+      icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Right"
       key="signin"
@@ -119,7 +118,7 @@ stories.addWithJSX('default', () => {
       <NavItem
         key="Reittiopas"
         link={<Link to="/test" />}
-        icon={<JourneyPlanner height="2.5rem" width="2.5rem" />}
+        icon={<Icons.JourneyPlanner height="2.5rem" width="2.5rem" />}
         text="Reittiopas"
         textPosition={'Bottom'}
         active
@@ -143,7 +142,7 @@ stories.addWithJSX('default', () => {
 
 
 stories.addWithJSX('scroll', () => {
-  const logo = <HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo height="3.75rem" />;
 
   const options = {
     fi: 'FI',
@@ -174,7 +173,7 @@ stories.addWithJSX('scroll', () => {
 
 
 stories.addWithJSX('only title', () => {
-  const logo = <HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo height="3.75rem" />;
   const StyledSpan = Span.extend`
     &.child {
       margin: auto;
@@ -187,7 +186,7 @@ stories.addWithJSX('only title', () => {
 });
 
 stories.addWithJSX('mobile', () => {
-  const logo = <HSLLogo height="2rem" />;
+  const logo = <Icons.HSLLogo height="2rem" />;
 
   const options = {
     fi: 'FI',
@@ -203,14 +202,14 @@ stories.addWithJSX('mobile', () => {
   >
     <MenuItem
       link={<Link to="/test" key="test1" />}
-      icon={<TravelCard height="3.5rem" />}
+      icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Bottom"
       key="travelcard"
     />
     <MenuItem
       link={<Link to="/test" key="test1" />}
-      icon={<SignIn height="3.5rem" />}
+      icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Bottom"
       key="signin"
@@ -231,7 +230,7 @@ stories.addWithJSX('mobile', () => {
 });
 
 stories.addWithJSX('nav item', () => {
-  const icon = <JourneyPlanner height="2.5rem" width="2.5rem" />;
+  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
   const link = <Link to="/test" />;
   const StyledMenuItem = NavItem.extend`
     background-color: #007ac9;

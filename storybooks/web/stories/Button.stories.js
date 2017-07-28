@@ -4,9 +4,10 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
+import { Button } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
-import { Button } from 'hsl-shared-components';
+
 
 setAddon(JSXAddon);
 

@@ -7,7 +7,7 @@ import { darken } from 'polished';
 import A from '../Anchor';
 import MenuItem from './MenuItem';
 import LangSelect, { LangButton } from '../LangSelect';
-import { Search, TravelCard, SignIn } from '../Icons';
+import Icons from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import { Flex } from '../Wrapper';
 import Div from '../Div';
@@ -61,7 +61,7 @@ const MenuMobile = ({
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Search height="1.5rem" />
+      <Icons.Search height="1.5rem" />
     </StyledFlex>
     <Separator />
     { items }
@@ -83,7 +83,7 @@ const MenuMobile = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -91,7 +91,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<SignIn height="3.5rem" />}
+    icon={<Icons.SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

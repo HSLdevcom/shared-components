@@ -3,30 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, color, number } from '@storybook/addon-knobs';
 
-import {
-  AddCard,
-  Alert,
-  ArrowDown,
-  ArrowLeft,
-  CardOrder,
-  CardWithCheckmark,
-  Checkmark,
-  Cog,
-  Cross,
-  Edit,
-  HSLLogo,
-  Info,
-  JourneyPlanner,
-  Latest,
-  Logo,
-  Menu,
-  More,
-  PositionAlert,
-  Search,
-  SignIn,
-  Tickets,
-  TravelCard,
-} from '../src/Icons';
+import { Icons } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -46,7 +23,7 @@ stories.addWithJSX('AddCard', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<AddCard fill={fill} height={`${height}em`} />);
+  return (<Icons.AddCard fill={fill} height={`${height}em`} />);
 }, { displayName: 'AddCard' });
 
 stories.addWithJSX('Alert', () => {
@@ -59,7 +36,7 @@ stories.addWithJSX('Alert', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Alert fill={fill} height={`${height}em`} />);
+  return (<Icons.Alert fill={fill} height={`${height}em`} />);
 }, { displayName: 'Alert' });
 
 stories.addWithJSX('ArrowDown', () => {
@@ -72,7 +49,7 @@ stories.addWithJSX('ArrowDown', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<ArrowDown fill={fill} height={`${height}em`} />);
+  return (<Icons.ArrowDown fill={fill} height={`${height}em`} />);
 }, { displayName: 'ArrowDown' });
 
 stories.addWithJSX('ArrowLeft', () => {
@@ -85,7 +62,7 @@ stories.addWithJSX('ArrowLeft', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<ArrowLeft fill={fill} height={`${height}em`} />);
+  return (<Icons.ArrowLeft fill={fill} height={`${height}em`} />);
 }, { displayName: 'ArrowLeft' });
 
 stories.addWithJSX('CardOrder', () => {
@@ -101,7 +78,7 @@ stories.addWithJSX('CardOrder', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<CardOrder fill={fill} height={`${height}em`} />);
+  return (<Icons.CardOrder fill={fill} height={`${height}em`} />);
 }, { displayName: 'CardOrder' });
 
 stories.addWithJSX('CardWithCheckmark', () => {
@@ -117,7 +94,7 @@ stories.addWithJSX('CardWithCheckmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<CardWithCheckmark fill={fill} height={`${height}em`} />);
+  return (<Icons.CardWithCheckmark fill={fill} height={`${height}em`} />);
 }, { displayName: 'CardWithCheckmark' });
 
 stories.addWithJSX('Checkmark', () => {
@@ -133,7 +110,7 @@ stories.addWithJSX('Checkmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Checkmark fill={fill} height={`${height}em`} />);
+  return (<Icons.Checkmark fill={fill} height={`${height}em`} />);
 }, { displayName: 'Checkmark' });
 
 stories.addWithJSX('Cog', () => {
@@ -146,7 +123,7 @@ stories.addWithJSX('Cog', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Cog fill={fill} height={`${height}em`} />);
+  return (<Icons.Cog fill={fill} height={`${height}em`} />);
 }, { displayName: 'Cog' });
 
 stories.addWithJSX('Cross', () => {
@@ -159,7 +136,7 @@ stories.addWithJSX('Cross', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Cross fill={fill} height={`${height}em`} />);
+  return (<Icons.Cross fill={fill} height={`${height}em`} />);
 }, { displayName: 'Cross' });
 
 stories.addWithJSX('Edit', () => {
@@ -172,7 +149,7 @@ stories.addWithJSX('Edit', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Edit fill={fill} height={`${height}em`} />);
+  return (<Icons.Edit fill={fill} height={`${height}em`} />);
 }, { displayName: 'Edit' });
 
 stories.addWithJSX('Logo', () => {
@@ -185,7 +162,7 @@ stories.addWithJSX('Logo', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Logo fill={fill} height={`${height}em`} />);
+  return (<Icons.Logo fill={fill} height={`${height}em`} />);
 }, { displayName: 'Logo' });
 
 stories.addWithJSX('HSLLogo', () => {
@@ -198,7 +175,7 @@ stories.addWithJSX('HSLLogo', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<HSLLogo fill={fill} height={`${height}em`} />);
+  return (<Icons.HSLLogo fill={fill} height={`${height}em`} />);
 }, { displayName: 'HSLLogo' });
 
 stories.addWithJSX('Info', () => {
@@ -211,7 +188,7 @@ stories.addWithJSX('Info', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Info fill={fill} height={`${height}em`} />);
+  return (<Icons.Info fill={fill} height={`${height}em`} />);
 }, { displayName: 'Info' });
 
 stories.addWithJSX('JourneyPlanner', () => {
@@ -224,7 +201,7 @@ stories.addWithJSX('JourneyPlanner', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<JourneyPlanner fill={fill} height={`${height}em`} />);
+  return (<Icons.JourneyPlanner fill={fill} height={`${height}em`} />);
 }, { displayName: 'JourneyPlanner' });
 stories.addWithJSX('Latest', () => {
   const fill = color('fill', '#d1d1d1');
@@ -236,7 +213,7 @@ stories.addWithJSX('Latest', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Latest fill={fill} height={`${height}em`} />);
+  return (<Icons.Latest fill={fill} height={`${height}em`} />);
 }, { displayName: 'Latest' });
 stories.addWithJSX('More', () => {
   const fill = color('fill', '#d1d1d1');
@@ -248,7 +225,7 @@ stories.addWithJSX('More', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<More fill={fill} height={`${height}em`} />);
+  return (<Icons.More fill={fill} height={`${height}em`} />);
 }, { displayName: 'More' });
 
 stories.addWithJSX('Menu', () => {
@@ -261,7 +238,7 @@ stories.addWithJSX('Menu', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Menu fill={fill} height={`${height}em`} />);
+  return (<Icons.Menu fill={fill} height={`${height}em`} />);
 }, { displayName: 'Menu' });
 
 stories.addWithJSX('Search', () => {
@@ -274,7 +251,7 @@ stories.addWithJSX('Search', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Search fill={fill} height={`${height}em`} />);
+  return (<Icons.Search fill={fill} height={`${height}em`} />);
 }, { displayName: 'Search' });
 stories.addWithJSX('SignIn', () => {
   const fill = color('fill', '#d1d1d1');
@@ -286,7 +263,7 @@ stories.addWithJSX('SignIn', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<SignIn fill={fill} height={`${height}em`} />);
+  return (<Icons.SignIn fill={fill} height={`${height}em`} />);
 }, { displayName: 'SignIn' });
 stories.addWithJSX('Tickets', () => {
   const fill = color('fill', '#d1d1d1');
@@ -298,7 +275,7 @@ stories.addWithJSX('Tickets', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Tickets fill={fill} height={`${height}em`} />);
+  return (<Icons.Tickets fill={fill} height={`${height}em`} />);
 }, { displayName: 'Tickets' });
 stories.addWithJSX('TravelCard', () => {
   const fill = color('fill', '#d1d1d1');
@@ -310,7 +287,7 @@ stories.addWithJSX('TravelCard', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<TravelCard fill={fill} height={`${height}em`} />);
+  return (<Icons.TravelCard fill={fill} height={`${height}em`} />);
 }, { displayName: 'TravelCard' });
 stories.addWithJSX('PositionAlert', () => {
   const defaultValue = 10;
@@ -321,5 +298,5 @@ stories.addWithJSX('PositionAlert', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<PositionAlert height={`${height}em`} />);
+  return (<Icons.PositionAlert height={`${height}em`} />);
 }, { displayName: 'PositionAlert' });

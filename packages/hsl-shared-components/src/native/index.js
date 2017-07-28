@@ -3,6 +3,7 @@ import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
 import { Tabs, Tab } from '../Tabs';
 import Button from '../Button';
 import Touchable from '../Touchable';
+import View from '../View';
 
 export {
   Text,
@@ -23,5 +24,6 @@ export {
   Button,
   Touchable,
   Tabs,
-  Tab
+  Tab,
+  View
 };

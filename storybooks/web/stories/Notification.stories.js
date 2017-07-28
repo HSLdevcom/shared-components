@@ -6,12 +6,11 @@ import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
 
 import Theme from './../themes/themes.hsl';
-import { Button } from 'hsl-shared-components';
-import NotificationRoot, { notification, reducer } from '../src/Notification';
+import { Button, Notification } from 'hsl-shared-components';
 
 const store = createStore(
   combineReducers({
-    notification: reducer
+    notification: Notification.reducer
   })
 );
 
@@ -30,10 +29,10 @@ stories.addDecorator(getStory => (
 
 stories.addWithJSX('Error', () =>
   (<div>
-    <NotificationRoot timeoutDelay={5000} />
+    <Notification.Notification timeoutDelay={5000} />
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'This is a notification' }
@@ -49,7 +48,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'Title' },
@@ -66,7 +65,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'Title' },
@@ -83,7 +82,7 @@ stories.addWithJSX('Error', () =>
 
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'text', msg: 'This is a notification' }
@@ -99,7 +98,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'titleLink', msg: 'This is a notification', href: 'www.google.fi' }
@@ -114,7 +113,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'titleLink', msg: 'This is a titlelink', href: 'www.google.fi' },
@@ -131,7 +130,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'This is a title' },
@@ -150,7 +149,7 @@ stories.addWithJSX('Error', () =>
     </Button>
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'This is a title' },
@@ -167,7 +166,7 @@ stories.addWithJSX('Error', () =>
 
     <Button
       onClick={() => {
-        notification.open(
+        Notification.service.open(
           {
             content: [
               { type: 'title', msg: 'This is a title' },

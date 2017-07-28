@@ -24,6 +24,8 @@ import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
 import { Tab, Tabs } from './Tabs';
 import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from './Typography';
 import Touchable from './Touchable';
+import Notification from './Notification';
+import View from './View';
 
 export {
   AppHeader,
@@ -74,5 +76,7 @@ export {
   InfoText,
   ErrorText,
   ListText,
-  Touchable
+  Touchable,
+  Notification,
+  View
 };

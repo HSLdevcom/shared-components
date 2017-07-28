@@ -6,7 +6,7 @@ import { darken } from 'polished';
 import A from '../Anchor';
 import IconWithText from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
-import { Search, TravelCard, SignIn } from '../Icons';
+import Icons from '../Icons';
 import { Flex } from '../Wrapper';
 import MenuItem from './MenuItem';
 
@@ -75,7 +75,7 @@ const MenuSmall = ({
   <StyledFlex className={className}>
     {children}
     <Flex className="search-icon">
-      <Search
+      <Icons.Search
         height="2rem"
         width="2rem"
       />
@@ -91,7 +91,7 @@ const MenuSmall = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -100,7 +100,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<SignIn height="3.5rem" />}
+    icon={<Icons.SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

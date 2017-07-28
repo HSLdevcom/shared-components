@@ -2,10 +2,9 @@ import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
-import { DropdownMenu, IconWithText } from 'hsl-shared-components';
-import { Cog } from '../src/Icons';
+import { DropdownMenu, IconWithText, Icons } from 'hsl-shared-components';
 
-const icon = <Cog height="2.5rem" width="2.5rem" />;
+const icon = <Icons.Cog height="2.5rem" width="2.5rem" />;
 setAddon(JSXAddon);
 
 const stories = storiesOf('DropdownMenu', module);

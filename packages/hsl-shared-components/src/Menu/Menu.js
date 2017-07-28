@@ -7,7 +7,7 @@ import A from '../Anchor';
 import MenuItem from './MenuItem';
 import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
-import { Search, TravelCard, SignIn } from '../Icons';
+import Icons from '../Icons';
 import { MenuSeparator } from '../Separator/Separator';
 import Span from '../Span';
 import Div from '../Div';
@@ -116,7 +116,7 @@ const Menu = ({
 }) => (
   <StyledDiv className={className}>
     <Flex className="top">
-      <Search height="1.5rem" width="1.5rem" />
+      <Icons.Search height="1.5rem" width="1.5rem" />
       <Span className="lang-select">
         <LangSelect
           className="large"
@@ -153,7 +153,7 @@ const Menu = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -161,7 +161,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<SignIn height="3.5rem" />}
+    icon={<Icons.SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

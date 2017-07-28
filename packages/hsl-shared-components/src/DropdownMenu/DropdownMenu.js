@@ -7,15 +7,15 @@ import A from '../Anchor';
 import DropdownContainerDesktop from './DropdownContainerDesktop';
 import DropdownContainerMobile from './DropdownContainerMobile';
 import { NavItem } from '../Nav';
-import { More, ArrowDown } from '../Icons';
+import Icons from '../Icons';
 import Text from '../Typography';
 
 import View from '../View';
 import { size } from '../utils';
 
-const Icon = <More height="2.5rem" width="2.5rem" />;
+const Icon = <Icons.More height="2.5rem" width="2.5rem" />;
 
-const Arrow = styled(({ open, ...rest }) => (<ArrowDown height="0.5rem" width="0.75rem" {...rest} />))`
+const Arrow = styled(({ open, ...rest }) => (<Icons.ArrowDown height="0.5rem" width="0.75rem" {...rest} />))`
   padding-left: ${size(8)};
   height: ${size(8)} !important;
   width: ${size(12)} !important;

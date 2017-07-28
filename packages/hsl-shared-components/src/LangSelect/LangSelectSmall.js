@@ -4,13 +4,13 @@ import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
 import { darken } from 'polished';
 
-import { ArrowDown } from '../Icons';
+import Icons from '../Icons';
 import LangButton from './LangButton';
 import Div from '../Div';
 import Text from '../Typography';
 import { size } from '../utils';
 
-const Icon = styled(ArrowDown)`
+const Icon = styled(Icons.ArrowDown)`
   fill: currentColor;
 `;
 

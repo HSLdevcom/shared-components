@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import _ from 'lodash';
-import { Checkmark, Cross, ArrowLeft, Alert, PositionAlert } from '../Icons';
+import Icons from '../Icons';
 import { Div, Span } from '../';
 import { emitter as EE } from './notification';
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
@@ -29,7 +29,7 @@ const renderNotificationMessage = (contentItem, idx) => {
         <a href={contentItem.href} className="title-link" key={idx}>
           <h3 className="link-icon">
             {contentItem.msg}
-            <ArrowLeft fill="#fff" height="0.8em" />
+            <Icons.ArrowLeft fill="#fff" height="0.8em" />
           </h3>
         </a>
       );
@@ -41,11 +41,11 @@ const renderNotificationMessage = (contentItem, idx) => {
 const renderTypeIcon = (type) => {
   switch (type) {
     case 'success':
-      return <Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
+      return <Icons.Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
     case 'error':
-      return <Alert fill="#fff" height="1em" />;
+      return <Icons.Alert fill="#fff" height="1em" />;
     case 'neutral':
-      return <PositionAlert height="1em" />;
+      return <Icons.PositionAlert height="1em" />;
     default:
       return null;
   }
@@ -184,7 +184,7 @@ export default class NotificationRoot extends Component {
     return (
       <Div className="close-button">
         <button onClick={this.cleanWithAnimation}>
-          <Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
+          <Icons.Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
         </button>
       </Div>
     );

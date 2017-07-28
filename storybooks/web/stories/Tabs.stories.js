@@ -4,8 +4,7 @@ import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, number } from '@storybook/addon-knobs';
 
-import { Tabs, Tab, Div } from 'hsl-shared-components';
-import { Cog } from '../src/Icons';
+import { Tabs, Tab, Div, Icons } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -79,7 +78,7 @@ stories.addWithJSX('with icon', () => {
           first
           onPress={action('tab clicked')}
           header={{
-            icon: <Cog height="1.5rem" width="1.5rem" />,
+            icon: <Icons.Cog height="1.5rem" width="1.5rem" />,
             text: 'First'
           }}
         >
@@ -89,7 +88,7 @@ stories.addWithJSX('with icon', () => {
           last
           onPress={action('tab clicked')}
           header={{
-            icon: <Cog height="1.5rem" width="1.5rem" />,
+            icon: <Icons.Cog height="1.5rem" width="1.5rem" />,
             text: 'Second'
           }}
         >

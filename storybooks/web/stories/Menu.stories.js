@@ -5,9 +5,8 @@ import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
-import { Menu, MenuSmall, MenuMobile, MenuItem, Div } from 'hsl-shared-components';
+import { Menu, MenuSmall, MenuMobile, MenuItem, Div, Icons } from 'hsl-shared-components';
 
-import { JourneyPlanner } from '../src/Icons';
 
 setAddon(JSXAddon);
 
@@ -71,7 +70,7 @@ stories.addWithJSX('mobile', () => {
 });
 
 stories.addWithJSX('menu item', () => {
-  const icon = <JourneyPlanner height="2.5rem" width="2.5rem" />;
+  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
   const link = <Link to="/test" />;
   const StyledMenuItem = MenuItem.extend`
     background-color: #007ac9;

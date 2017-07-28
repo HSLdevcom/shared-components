@@ -23,7 +23,7 @@ import Tickets from './Tickets';
 import TravelCard from './TravelCard';
 
 
-export {
+export default {
   AddCard,
   Alert,
   ArrowDown,
