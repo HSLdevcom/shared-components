@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import View from '../View';
-import { ButtonNative } from '../Button';
+import Button from '../Button';
 
 const StyledView = View.extend`
   flex: 1;
@@ -35,7 +35,7 @@ const NewsFeed = ({
       { children }
     </List>
     <ButtonWrapper>
-      <ButtonNative rounded onPress={more.action}>{more.text}</ButtonNative>
+      <Button rounded onPress={more.action}>{more.text}</Button>
     </ButtonWrapper>
   </StyledView>
 )

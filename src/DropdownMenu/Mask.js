@@ -39,13 +39,11 @@ class Mask extends React.Component {
   }
 
   render() {
-    /* eslint-disable no-return-assign */
     return (<StyledDiv
       className={this.props.className}
       height={this.state.height}
-      innerRef={x => this.mask = x}
+      innerRef={(x) => { this.mask = x; }}
     />);
-    /* eslint-enable no-return-assign */
   }
 }
 

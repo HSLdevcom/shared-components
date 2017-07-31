@@ -110,9 +110,8 @@ class Nav extends React.Component {
           </NavDesktop>
         }
         </CSSTransitionGroup>
-        {/* eslint-disable no-return-assign */}
         <NavDesktop
-          navRef={x => this.desktopNav = x}
+          navRef={(x) => { this.desktopNav = x; }}
           logo={this.props.logo}
           menu={this.props.menu}
         >
@@ -122,7 +121,7 @@ class Nav extends React.Component {
         <NavMobile
           visible={this.state.mobileNavVisible}
           logo={this.props.logo}
-          navRef={x => this.mobileNav = x}
+          navRef={(x) => { this.mobileNav = x; }}
           menu={this.props.menu &&
             <MenuMobile {...this.props.menu.props}>
               {React.Children.map(
@@ -139,7 +138,6 @@ class Nav extends React.Component {
             )
           }
         </NavMobile>
-        {/* eslint-enable no-return-assign */}
       </Header>
     );
   }

@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.8.0",
+  "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
@@ -31,15 +31,26 @@
     "eslint-watch": "^2.1.14",
     "jest": "^20.0.4",
     "jest-expo": "^0.3.0",
-    "react-dom": "^15.6.1",
+    "react-dom": "^15.4.x",
     "react-native-scripts": "^0.0.22",
     "react-native-storybook-loader": "^1.4.1",
     "react-test-renderer": "15.4.x",
-    "storybook-addon-jsx": "^4.1.1"
+    "storybook-addon-jsx": "^4.1.1",
+    "react-scripts": "^1.0.10",
+    "expo": "15.x.x",
+    "eventemitter3": "^2.0.3",
+    "prop-types": "^15.5.10",
+    "react": "15.4.x",
+    "react-native": "0.42.x",
+    "react-redux": "^5.0.5",
+    "react-router": "^3.0.2",
+    "react-transition-group": "^1.2.0",
+    "redux": "^3.7.1",
+    "styled-components": "^2.1.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "build:babel": "babel src/ --out-dir lib/ --ignore test.js",
+    "build:babel": "babel src/ --out-dir lib/ --ignore .test.js",
     "build": "yarn run build:babel && ./scripts/publish.sh",
     "lint:tight": "esw src/ --color --max-warnings 0",
     "lint:watch": "esw src/ -w --color",
@@ -58,21 +69,10 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "eventemitter3": "^2.0.3",
-    "expo": "15.x.x",
-    "lodash": "^4.17.4",
-    "moment": "^2.18.1",
     "polished": "^1.2.1",
-    "prop-types": "^15.5.10",
-    "react": "15.4.x",
-    "react-native": "0.42.x",
     "react-primitives": "ktj/primitives-build",
-    "react-redux": "^5.0.5",
-    "react-router": "^3.0.2",
-    "react-scripts": "^1.0.10",
-    "react-transition-group": "^1.2.0",
-    "redux": "^3.7.1",
-    "styled-components": "^2.1.1"
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
   },
   "config": {
     "react-native-storybook-loader": {
@@ -82,5 +82,10 @@
       "pattern": "**/*.stories.js",
       "outputFile": "./storybook_native/storyLoader.js"
     }
+  },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*",
+    "react-transition-group": "^1.2.0"
   }
 }

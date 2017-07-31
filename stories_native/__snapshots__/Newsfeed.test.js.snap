@@ -12,7 +12,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
   }
 >
   <View
-    className="sc-gZMcBi giNnHm"
+    className="sc-dnqmqq bDsesi"
     style={
       Array [
         Object {
@@ -32,7 +32,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
       style={
         Array [
           Object {
+            "alignItems": "center",
             "flexDirection": "column",
+            "justifyContent": "center",
           },
           undefined,
         ]
@@ -62,8 +64,10 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           style={
             Array [
               Object {
+                "alignItems": "center",
                 "alignSelf": "stretch",
                 "flexDirection": "column",
+                "justifyContent": "center",
                 "width": "55%",
               },
               undefined,
@@ -182,8 +186,10 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           style={
             Array [
               Object {
+                "alignItems": "center",
                 "alignSelf": "stretch",
                 "flexDirection": "column",
+                "justifyContent": "center",
                 "width": "55%",
               },
               undefined,
@@ -297,35 +303,34 @@ exports[`Storyshots NewsFeed News feed 1`] = `
     >
       <View
         className={undefined}
-        disabled={undefined}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        primary={undefined}
-        rounded={true}
-        secondary={undefined}
         style={
           Array [
             Object {
-              "backgroundColor": "#fff",
-              "borderColor": "#b7b7b7",
-              "borderRadius": 40,
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "paddingBottom": 10,
-              "paddingLeft": 22,
-              "paddingRight": 22,
-              "paddingTop": 10,
-              "width": "70%",
+              "alignItems": "center",
+              "justifyContent": "center",
             },
             Array [
-              Object {},
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#b7b7b7",
+                "borderRadius": 35,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 39.375,
+                "width": "70%",
+              },
               Array [
                 Object {},
-                undefined,
+                Array [
+                  Object {},
+                  undefined,
+                ],
               ],
             ],
           ]
@@ -334,23 +339,22 @@ exports[`Storyshots NewsFeed News feed 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          disabled={undefined}
           ellipsizeMode="tail"
-          primary={undefined}
-          rounded={true}
-          secondary={undefined}
           style={
             Array [
               Object {
-                "color": "#007ac9",
                 "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 30,
-                "fontWeight": "500",
-                "letterSpacing": -0.7,
-                "lineHeight": 30,
-                "textAlign": "center",
+                "fontSize": 14,
               },
-              undefined,
+              Array [
+                Object {
+                  "color": "#007ac9",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "textAlign": "center",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -397,8 +401,10 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
       style={
         Array [
           Object {
+            "alignItems": "center",
             "alignSelf": "stretch",
             "flexDirection": "column",
+            "justifyContent": "center",
             "width": "55%",
           },
           undefined,

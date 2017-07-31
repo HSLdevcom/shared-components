@@ -11,7 +11,8 @@ import { MenuItem } from '../Menu';
 import IconWithText from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import { Menu } from '../Icons';
-import { ButtonNoStyle } from '../Button/Button';
+import Touchable from '../Touchable';
+import View from '../View';
 
 export const Height = '64px';
 
@@ -125,9 +126,6 @@ const TopIcons = Flex.extend`
       justify-content: center;
     }
   }
-  ${ButtonNoStyle} {
-    height: 2rem;
-  }
   svg {
     height: 2rem;
     width: 2rem;
@@ -195,20 +193,17 @@ class Nav extends React.Component {
           {React.Children.map(this.props.menu.props.children, child => (
             React.cloneElement(child, { small: true })
             ))}
-          <ButtonNoStyle
-            onClick={this.toggleMenu}
-            className={cx('menu-toggle', { open: this.state.menuOpen })}
-          >
-            <Menu height="3rem" />
-          </ButtonNoStyle>
+          <Touchable onPress={this.toggleMenu}>
+            <View className={cx('menu-toggle', { open: this.state.menuOpen })}>
+              <Menu height="2rem" />
+            </View>
+          </Touchable>
         </TopIcons>}
       </TopBar>
-      {/* eslint-disable no-return-assign */}
       <MenuWrapper
         height={this.props.menu && this.state.menuHeight}
-        innerRef={x => this.menuWrapper = x}
+        innerRef={(x) => { this.menuWrapper = x; }}
       >
-        {/* eslint-enable no-return-assign */}
         <CSSTransitionGroup
           transitionName="menu"
           transitionEnterTimeout={250}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { Font } from 'expo';
 import { ThemeProvider } from 'styled-components';
 

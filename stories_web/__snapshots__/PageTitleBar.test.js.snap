@@ -2,7 +2,7 @@
 
 exports[`Storyshots PageTitleBar with back button 1`] = `
 <div
-  className="sc-ksYbfQ eKZPQS"
+  className="sc-kgAjT fklFA"
 >
   <div
     className="content-container"
@@ -17,7 +17,6 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
         preserveAspectRatio="xMidYMid meet"
         version="1.1"
         viewBox="0 0 17 36"
-        width={undefined}
       >
         <g
           id="Page-1"
@@ -38,7 +37,7 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
 
 exports[`Storyshots PageTitleBar without back button 1`] = `
 <div
-  className="sc-ksYbfQ eKZPQS"
+  className="sc-kgAjT fklFA"
 >
   <div
     className="content-container"

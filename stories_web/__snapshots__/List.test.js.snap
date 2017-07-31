@@ -2,58 +2,58 @@
 
 exports[`Storyshots List default 1`] = `
 <div
-  className="sc-jDwBTQ dWtMUn sc-jAaTju hyJgMB"
+  className="sc-jWBwVP fDrbnp sc-cvbbAY eSQRxp"
 >
   <div
-    className="sc-cMljjf eTbdzc"
+    className="sc-eHgmQL gmKbQu"
   >
     Header
   </div>
   <ul
-    className="sc-brqgnP SqPLV"
+    className="sc-hSdWYo bIQQAp"
   >
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       short text
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       short text
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-gPEVay fhEiWg"
+      className="sc-brqgnP kfBAPU"
     >
       looong teexttt ttttttttttttttttt
     </li>

@@ -1,40 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
 
-import Div from '../Div';
-import { Flex } from '../Wrapper';
+import View from '../View';
+import { size } from '../utils';
 
-const StyledDiv = Div.extend`
-  border: solid 1px #cfcfcf;
-  ${props => props.rounded && 'border-radius: 6px;'}
+const StyledView = View.extend`
+  flex-direction: row;
+  align-items: stretch;
 `;
 
-StyledDiv.propTypes = {
-  className: PropTypes.string,
-  rounded: PropTypes.bool
-};
-
-const Tabs = ({
-  index,
-  children,
-  className,
-  rounded
-}) => (
-  <StyledDiv className={className} rounded={rounded}>
-    <Flex>
-      { React.Children.toArray(children).map((child, i) => React.cloneElement(
+const Tabs = styled(({ rounded, children, index, ...rest }) => {
+  const childrenArray = React.Children.toArray(children);
+  return (<View {...rest}>
+    <StyledView>
+      { childrenArray.map((child, i) => React.cloneElement(
           child,
           { active: index === i, rounded })
         )
       }
-    </Flex>
-    <Div>
-      { React.Children.toArray(children)[index].props.children }
-    </Div>
-  </StyledDiv>
-)
-;
+    </StyledView>
+    <View>
+      { childrenArray[index].props.children }
+    </View>
+  </View>);
+})`
+  border-style: solid;
+  border-color: #CFCFCF;
+  border-width: 1px;
+  ${props => props.rounded && `border-radius: ${size(6)};`}
+  align-items: stretch;
+  width: 100%;
+`;
 
 Tabs.propTypes = {
   index: PropTypes.number,

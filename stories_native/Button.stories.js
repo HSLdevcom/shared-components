@@ -18,9 +18,11 @@ storiesOf('Button', module)
   .add('default', () => {
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
+    const small = boolean('Small', false);
     return (<Button
       disabled={disabled}
       rounded={rounded}
+      small={small}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -29,10 +31,10 @@ storiesOf('Button', module)
   })
   .add('primary', () => {
     const disabled = boolean('Disabled', false);
-    const rounded = boolean('Rounded', false);
+    const small = boolean('Small', false);
     return (<Button
       disabled={disabled}
-      rounded={rounded}
+      small={small}
       primary
       onPress={action('press')}
       onLongPress={action('long press')}
@@ -43,9 +45,11 @@ storiesOf('Button', module)
   .add('secondary', () => {
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
+    const small = boolean('Small', false);
     return (<Button
       disabled={disabled}
       rounded={rounded}
+      small={small}
       secondary
       onPress={action('press')}
       onLongPress={action('long press')}

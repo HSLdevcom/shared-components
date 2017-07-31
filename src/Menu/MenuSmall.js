@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { darken } from 'polished';
 
+import A from '../Anchor';
 import IconWithText from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import { Search, TravelCard, SignIn } from '../Icons';
@@ -90,7 +90,7 @@ const MenuSmall = ({
 
 const defaultChildren = [
   <MenuItem
-    link={<Link to="/test" />}
+    link={<A href="/test" />}
     icon={<TravelCard height="3.5rem" />}
     text="Matkakortti"
     textPosition="Right"
@@ -99,7 +99,7 @@ const defaultChildren = [
     small
   />,
   <MenuItem
-    link={<Link to="/test" />}
+    link={<A href="/test" />}
     icon={<SignIn height="3.5rem" />}
     text="Kirjaudu"
     textPosition="Right"

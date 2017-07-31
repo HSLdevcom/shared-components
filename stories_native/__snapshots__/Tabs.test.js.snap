@@ -1,0 +1,1018 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tabs Default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "borderColor": "#CFCFCF",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "width": "100%",
+          },
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#017AC9",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            FIRST
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomColor": "transparent",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "#017AC9",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            SECOND
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#017AC9",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            THIRD
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#B7B7B7",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            DISABLED
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }
+      >
+        Content of the second tab
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Tabs one item 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "borderColor": "#CFCFCF",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "width": "100%",
+          },
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomColor": "transparent",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "#017AC9",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            ACTIVE
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }
+      >
+        Content of active tab
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Tabs rounded 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "borderColor": "#CFCFCF",
+            "borderRadius": 5.25,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "width": "100%",
+          },
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "borderTopLeftRadius": 6,
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#017AC9",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            FIRST
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomColor": "transparent",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "#017AC9",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            SECOND
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#017AC9",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            THIRD
+          </Text>
+        </View>
+      </View>
+      <View
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#EEF1F3",
+                "borderColor": "#CFCFCF",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopWidth": 4,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#B7B7B7",
+                    "fontSize": 15.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            DISABLED
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }
+      >
+        Content of the second tab
+      </Text>
+    </View>
+  </View>
+</View>
+`;

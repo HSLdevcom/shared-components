@@ -33,7 +33,7 @@
     }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "space-before-function-paren": ["error", "never"],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.stories.js", "**/*.test.js", "storybook_native/*.js", "stories_native/index.js"]}]
+    "import/no-extraneous-dependencies": 0
   },
   "globals": {
   },

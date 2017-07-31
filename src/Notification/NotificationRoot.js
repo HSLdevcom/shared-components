@@ -192,10 +192,9 @@ export default class NotificationRoot extends Component {
 
   render() {
     const notification = this.props.notification;
-
     return (
       <NotificationBar
-        innerRef={ref => (this.notificationBar = ref)}
+        innerRef={(ref) => { this.notificationBar = ref; }}
         className={`${notification.type}`}
       >
         <Div className="content">
