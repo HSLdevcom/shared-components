@@ -32,12 +32,15 @@
     "jest-expo": "^0.3.0",
     "prop-types": "^15.5.10",
     "react": "15.4.x",
-    "react-native": "0.42.x",
+    "react-dom": "15.4.x",
     "react-native-scripts": "^0.0.22",
     "react-native-storybook-loader": "^1.4.1",
     "react-scripts": "^1.0.10",
     "react-test-renderer": "15.4.x",
     "styled-components": "^2.1.1"
+  },
+  "dependencies": {
+    "react-native": "0.42.x"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
