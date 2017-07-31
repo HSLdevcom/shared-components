@@ -34,7 +34,7 @@ exports[`Storyshots Nav default 1`] = `
         className="child sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -81,7 +81,7 @@ exports[`Storyshots Nav default 1`] = `
         className="child sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -120,7 +120,7 @@ exports[`Storyshots Nav default 1`] = `
         className="child sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -163,7 +163,7 @@ exports[`Storyshots Nav default 1`] = `
         className="child sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -224,7 +224,7 @@ exports[`Storyshots Nav default 1`] = `
             className="sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
             >
               <div
                 className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"
@@ -427,7 +427,7 @@ exports[`Storyshots Nav default 1`] = `
             className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -465,7 +465,7 @@ exports[`Storyshots Nav default 1`] = `
             className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -513,7 +513,7 @@ exports[`Storyshots Nav default 1`] = `
             className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -554,7 +554,7 @@ exports[`Storyshots Nav default 1`] = `
             className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -635,7 +635,7 @@ exports[`Storyshots Nav default 1`] = `
             className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -676,7 +676,7 @@ exports[`Storyshots Nav default 1`] = `
             className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
           >
             <a
-              className="link sc-cSHVUG CAuLq"
+              className="link sc-cSHVUG bpgBJV"
               href="/test"
             >
               <div
@@ -948,7 +948,7 @@ exports[`Storyshots Nav mobile 1`] = `
         className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -989,7 +989,7 @@ exports[`Storyshots Nav mobile 1`] = `
         className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
       >
         <a
-          className="link sc-cSHVUG CAuLq"
+          className="link sc-cSHVUG bpgBJV"
           href="/test"
         >
           <div
@@ -1084,7 +1084,7 @@ exports[`Storyshots Nav nav item 1`] = `
     className="sc-tilXH isEAav sc-fjdhpX jFZSHu"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -1188,7 +1188,7 @@ exports[`Storyshots Nav scroll 1`] = `
     className="child sc-jzJRlG enxKql sc-fjdhpX eDtSWZ"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -1227,7 +1227,7 @@ exports[`Storyshots Nav scroll 1`] = `
     className="child sc-jzJRlG enxKql sc-fjdhpX eDtSWZ"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -1270,7 +1270,7 @@ exports[`Storyshots Nav scroll 1`] = `
     className="child sc-jzJRlG enxKql sc-fjdhpX eDtSWZ"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -1326,7 +1326,7 @@ exports[`Storyshots Nav scroll 1`] = `
       className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -1367,7 +1367,7 @@ exports[`Storyshots Nav scroll 1`] = `
       className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div

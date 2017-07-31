@@ -128,7 +128,7 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -166,7 +166,7 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -214,7 +214,7 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -255,7 +255,7 @@ exports[`Storyshots Menu default 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -310,7 +310,7 @@ exports[`Storyshots Menu menu item 1`] = `
     className="sc-fYxtnH AwHiP sc-kgoBCf fIVFma"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -364,7 +364,7 @@ exports[`Storyshots Menu minimal 1`] = `
     className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -405,7 +405,7 @@ exports[`Storyshots Menu minimal 1`] = `
     className="sc-kGXeez eIIwaK sc-kgoBCf MnUDw"
   >
     <a
-      className="link sc-cSHVUG CAuLq"
+      className="link sc-cSHVUG bpgBJV"
       href="/test"
     >
       <div
@@ -599,7 +599,7 @@ exports[`Storyshots Menu mobile 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
@@ -637,7 +637,7 @@ exports[`Storyshots Menu mobile 1`] = `
       className="child sc-kGXeez eIIwaK sc-kgoBCf fIVFma"
     >
       <a
-        className="link sc-cSHVUG CAuLq"
+        className="link sc-cSHVUG bpgBJV"
         href="/test"
       >
         <div
