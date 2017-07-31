@@ -7,3 +7,8 @@ storybook-static/
 build/
 lib/
 storybook_native/storyLoader.js
+
+# Haul
+#
+haul-debug.log
+.happypack

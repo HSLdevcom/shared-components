@@ -4,10 +4,10 @@
   "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
-    "@storybook/addon-actions": "3.1.2",
-    "@storybook/addon-knobs": "3.1.2",
-    "@storybook/addon-storyshots": "3.1.2",
-    "@storybook/react-native": "3.1.2",
+    "@storybook/addon-actions": "3.1.6",
+    "@storybook/addon-knobs": "3.1.6",
+    "@storybook/addon-storyshots": "3.1.6",
+    "@storybook/react-native": "3.1.6",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-jest": "^20.0.3",
@@ -27,14 +27,15 @@
     "eslint-plugin-react": "^6.9.0",
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
+    "haul": "^1.0.0-beta.2",
     "hsl-shared-components": "^0.10.0",
     "jest": "^20.0.4",
     "prop-types": "^15.5.10",
-    "react": "15.4.x",
-    "react-dom": "15.4.x",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-native-storybook-loader": "^1.4.1",
     "react-scripts": "^1.0.10",
-    "react-test-renderer": "15.4.x",
+    "react-test-renderer": "^15.6.1",
     "styled-components": "^2.1.1"
   },
   "dependencies": {
@@ -44,11 +45,12 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest --testPathPattern=stories --config=jest.config.json",
+    "test": "jest --testPathPattern=stories --config=jest.config.json ",
     "prestorybook": "rnstl",
-    "storybook": "storybook start -p 7007 -c storybook",
+    "storybook": "storybook start -p 7007 --haul webpack.haul.storybook.js -c storybook",
     "test-update": "jest --testPathPattern=stories --config=jest.config.json -u",
-    "es-lint": "eslint ."
+    "es-lint": "eslint .",
+    "haul": "haul start"
   },
   "config": {
     "react-native-storybook-loader": {
