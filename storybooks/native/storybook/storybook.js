@@ -19,5 +19,5 @@ addDecorator(story => (
 ));
 
 const StorybookUI = getStorybookUI({ port: 7007, host: 'localhost' });
-AppRegistry.registerComponent('asd', () => StorybookUI);
+AppRegistry.registerComponent('nativestorybook', () => StorybookUI);
 export default StorybookUI;
