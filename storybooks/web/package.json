@@ -34,11 +34,8 @@
     "react-dom": "^15.4.x",
     "react-primitives": "ktj/primitives-build",
     "react-redux": "^5.0.5",
-    "react-router": "^3.0.2",
     "react-scripts": "^1.0.10",
     "react-test-renderer": "15.4.x",
-    "react-transition-group": "^1.2.0",
-    "redux": "^3.7.1",
     "storybook-addon-jsx": "^4.1.1",
     "styled-components": "^2.1.1"
   },

@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router';
 import { setAddon, storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
-import { Menu, MenuSmall, MenuMobile, MenuItem, Div, Icons } from 'hsl-shared-components';
+import { A, Menu, MenuSmall, MenuMobile, MenuItem, Div, Icons } from 'hsl-shared-components';
 
 
 setAddon(JSXAddon);
@@ -71,7 +70,7 @@ stories.addWithJSX('mobile', () => {
 
 stories.addWithJSX('menu item', () => {
   const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
-  const link = <Link to="/test" />;
+  const link = <A href="/test" />;
   const StyledMenuItem = MenuItem.extend`
     background-color: #007ac9;
     color: #ffffff;

@@ -310,9 +310,8 @@ exports[`Storyshots Menu menu item 1`] = `
     className="sc-fYxtnH AwHiP sc-kgoBCf fIVFma"
   >
     <a
-      className="link"
-      onClick={[Function]}
-      style={Object {}}
+      className="link sc-cSHVUG CAuLq"
+      href="/test"
     >
       <div
         className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"

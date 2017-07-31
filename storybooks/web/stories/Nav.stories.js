@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 import { setAddon, storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
@@ -9,26 +8,27 @@ import { Menu, MenuSmall, MenuMobile, MenuItem,
          Nav, NavMobile, NavDesktop, NavItem,
          DropdownMenu, IconWithText,
          Div, Span, List, ListItem,
-         Icons } from 'hsl-shared-components';
+         Icons,
+         A } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 const cog = <Icons.Cog height="2.5rem" width="2.5rem" />;
 const DropdownContent = [
   <List header="Liikkumisen palveluita" key="1">
-    <ListItem><Link to="/test">Kaupunkipyörät</Link></ListItem>
-    <ListItem><Link to="/test">Pyöräparkki</Link></ListItem>
-    <ListItem><Link to="/test">Liityntäpysäköinti</Link></ListItem>
-    <ListItem><Link to="/test">Lähibussit</Link></ListItem>
-    <ListItem><Link to="/test">Pikaratikka</Link></ListItem>
+    <ListItem><A href="/test">Kaupunkipyörät</A></ListItem>
+    <ListItem><A href="/test">Pyöräparkki</A></ListItem>
+    <ListItem><A href="/test">Liityntäpysäköinti</A></ListItem>
+    <ListItem><A href="/test">Lähibussit</A></ListItem>
+    <ListItem><A href="/test">Pikaratikka</A></ListItem>
   </List>,
   <List header="Tietoa HSL:stä" key="2">
-    <ListItem><Link to="/test">Päätöksenteko</Link></ListItem>
-    <ListItem><Link to="/test">Strategia</Link></ListItem>
-    <ListItem><Link to="/test">Talous</Link></ListItem>
-    <ListItem><Link to="/test">Hankinnat</Link></ListItem>
-    <ListItem><Link to="/test">Julkaisut</Link></ListItem>
-    <ListItem><Link to="/test">HSL työpaikkana ja avoimet työpaikat</Link></ListItem>
-    <ListItem><Link to="/test">Viestintä</Link></ListItem>
+    <ListItem><A href="/test">Päätöksenteko</A></ListItem>
+    <ListItem><A href="/test">Strategia</A></ListItem>
+    <ListItem><A href="/test">Talous</A></ListItem>
+    <ListItem><A href="/test">Hankinnat</A></ListItem>
+    <ListItem><A href="/test">Julkaisut</A></ListItem>
+    <ListItem><A href="/test">HSL työpaikkana ja avoimet työpaikat</A></ListItem>
+    <ListItem><A href="/test">Viestintä</A></ListItem>
   </List>,
   <div key="3">
     <IconWithText
@@ -97,7 +97,7 @@ stories.addWithJSX('default', () => {
     changeLanguage={action('language changed')}
   >
     <MenuItem
-      link={<Link to="/test" key="test1" />}
+      link={<A href="/test" key="test1" />}
       icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Right"
@@ -105,7 +105,7 @@ stories.addWithJSX('default', () => {
       active
     />
     <MenuItem
-      link={<Link to="/test" key="test2" />}
+      link={<A href="/test" key="test2" />}
       icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Right"
@@ -117,7 +117,7 @@ stories.addWithJSX('default', () => {
     <Nav logo={logo} menu={menu}>
       <NavItem
         key="Reittiopas"
-        link={<Link to="/test" />}
+        link={<A href="/test" />}
         icon={<Icons.JourneyPlanner height="2.5rem" width="2.5rem" />}
         text="Reittiopas"
         textPosition={'Bottom'}
@@ -126,7 +126,7 @@ stories.addWithJSX('default', () => {
       {icons.map(icon =>
         (<NavItem
           key={icon[1]}
-          link={<Link to="/test" />}
+          link={<A href="/test" />}
           icon={icon[0]}
           text={icon[1]}
           textPosition={'Bottom'}
@@ -162,7 +162,7 @@ stories.addWithJSX('scroll', () => {
     (
       <NavItem
         key={icon[1]}
-        link={<Link to="/test" />}
+        link={<A href="/test" />}
         icon={icon[0]}
         text={icon[1]}
         textPosition={'Bottom'}
@@ -201,14 +201,14 @@ stories.addWithJSX('mobile', () => {
     changeLanguage={action('language changed')}
   >
     <MenuItem
-      link={<Link to="/test" key="test1" />}
+      link={<A href="/test" key="test1" />}
       icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
       textPosition="Bottom"
       key="travelcard"
     />
     <MenuItem
-      link={<Link to="/test" key="test1" />}
+      link={<A href="/test" key="test1" />}
       icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
       textPosition="Bottom"
@@ -220,7 +220,7 @@ stories.addWithJSX('mobile', () => {
     {icons.map(icon =>
     (<NavItem
       key={icon[1]}
-      link={<Link to="/test" />}
+      link={<A href="/test" />}
       icon={icon[0]}
       text={icon[1]}
       textPosition={'Right'}
@@ -231,7 +231,7 @@ stories.addWithJSX('mobile', () => {
 
 stories.addWithJSX('nav item', () => {
   const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
-  const link = <Link to="/test" />;
+  const link = <A href="/test" />;
   const StyledMenuItem = NavItem.extend`
     background-color: #007ac9;
     color: #ffffff;
