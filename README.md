@@ -49,6 +49,11 @@ or
 
 In the desired react class use named imports to get the components needed:
 `import {Button} from 'hsl-shared-components';`
+#### Native ####
+- Install react-native-svg peer dependency
+```
+  react-native link react-native-svg
+```
 
 ### Writing components ###
 

@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.10.0",
+  "version": "0.11.1",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -27,6 +27,7 @@
     "react-dom": "^15.4.x",
     "react-native": "0.42.x",
     "react-native-scripts": "^0.0.22",
+    "react-native-svg": "4.5.0",
     "react-redux": "^5.0.5",
     "react-router": "^3.0.2",
     "react-scripts": "^1.0.10",
@@ -46,10 +47,12 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "polished": "^1.2.1",
-    "react-primitives": "ktj/primitives-build"
+    "react-primitives": "ktj/primitives-build",
+    "react-primitives-svg": "^0.0.2"
   },
   "peerDependencies": {
     "react": "*",
+    "react-native-svg": "*",
     "react-transition-group": "^1.2.0",
     "styled-components": "*"
   }

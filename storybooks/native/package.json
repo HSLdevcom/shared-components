@@ -28,7 +28,7 @@
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
     "haul": "^1.0.0-beta.2",
-    "hsl-shared-components": "^0.10.0",
+    "hsl-shared-components": "^0.11.0",
     "jest": "^20.0.4",
     "prop-types": "^15.5.10",
     "react": "15.5.x",
@@ -39,7 +39,8 @@
     "styled-components": "^2.1.1"
   },
   "dependencies": {
-    "react-native": "0.42.x"
+    "react-native": "0.42.x",
+    "react-native-svg": "4.5.0"
   },
   "scripts": {
     "start": "react-native start",
