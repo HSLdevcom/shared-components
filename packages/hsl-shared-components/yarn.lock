@@ -6765,9 +6765,9 @@ react-native@0.42.x:
     xmldoc "^0.4.0"
     yargs "^6.4.0"
 
-react-primitives-svg@^0.0.2:
+react-primitives-svg@ktj/primitives-svg-build:
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/react-primitives-svg/-/react-primitives-svg-0.0.2.tgz#543881e75011b28578b6fc7cf28287556c0963fc"
+  resolved "https://codeload.github.com/ktj/primitives-svg-build/tar.gz/52c80927f050f3a761a4373d09b3a12035343862"
 
 react-primitives@ktj/primitives-build:
   version "0.4.3"

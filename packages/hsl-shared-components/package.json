@@ -48,7 +48,7 @@
     "moment": "^2.18.1",
     "polished": "^1.2.1",
     "react-primitives": "ktj/primitives-build",
-    "react-primitives-svg": "^0.0.2"
+    "react-primitives-svg": "ktj/primitives-svg-build"
   },
   "peerDependencies": {
     "react": "*",
