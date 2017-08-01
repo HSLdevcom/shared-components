@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeedItem, NewsFeed } from 'hsl-shared-components/native';
+import { NewsFeedItem, NewsFeed } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
