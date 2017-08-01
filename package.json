@@ -1,5 +1,5 @@
 {
-  "name": "hsl-shared-components",
+  "name": "hsl-shared-components-monorepo",
   "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
@@ -8,6 +8,10 @@
   "scripts": {
     "test": "lerna run test",
     "test-update": "lerna run test-update",
-    "es-lint": "lerna run es-lint"
+    "es-lint": "lerna run es-lint",
+    "storybook:web": "lerna run --scope web-storybook storybook",
+    "storybook:native": "lerna run --scope native-storybook storybook",
+    "android": "lerna run --scope native-storybook android",
+    "ios": "lerna run --scope native-storybook ios"
   }
 }

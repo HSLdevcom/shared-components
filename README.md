@@ -80,6 +80,11 @@ or
 - Reopen the project
 - Configure the project when studio suggests it
 
-### Expo: something went wrong ###
-- rm -rf $HOME/.expo/*
-- Android Virtual Device Manager -> actions -> Wipe data
+### Mocking a dependency in tests ###
+- Example of mocking Touchable in a test
+```
+  jest.mock('hsl-shared-components/lib/Touchable/Touchable', () => {
+    const View = require.requireActual('hsl-shared-components/lib/View/View');
+    return View;
+  });
+```
