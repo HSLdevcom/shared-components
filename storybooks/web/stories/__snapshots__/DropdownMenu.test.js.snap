@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DropdownMenu default 1`] = `
+<div>
+  <p>
+    This is always visible
+  </p>
+  <div
+    className="sc-jlyJG bbyJzT sc-iRbamj hHTjuw"
+    open={false}
+  >
+    <button
+      className="sc-gPEVay QTvQm"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
+      >
+        <a
+          className="link sc-cSHVUG bpgBJV"
+        >
+          <div
+            className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"
+          >
+            <div
+              className="sc-jTzLTM hkFqJX sc-VigVT bpQWLy"
+            >
+              <span
+                aria-hidden="true"
+                className="icon sc-gqjmRU iBddiO"
+              >
+                <svg
+                  height="2.5rem"
+                  preserveAspectRatio="xMidYMid meet"
+                  version="1.1"
+                  viewBox="-5 0 48 10"
+                  width="2.5rem"
+                >
+                  <g
+                    id="Group"
+                  >
+                    <circle
+                      cx="5"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                    <circle
+                      cx="19"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                    <circle
+                      cx="33"
+                      cy="5"
+                      id="Oval"
+                      r="5"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span
+                className="text sc-gzVnrw ibZhkv"
+              >
+                <div
+                  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+                >
+                  <div
+                    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                    dir="auto"
+                  >
+                    Lisää
+                  </div>
+                  <svg
+                    className="sc-jDwBTQ dBloyA"
+                    height="0.5rem"
+                    preserveAspectRatio="xMidYMid meet"
+                    version="1.1"
+                    viewBox="0 0 42.5 27.47"
+                    width="0.75rem"
+                  >
+                    <path
+                      d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+                      id="arrow"
+                    />
+                  </svg>
+                </div>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </button>
+  </div>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+  <p>
+    test
+  </p>
+</div>
+`;
