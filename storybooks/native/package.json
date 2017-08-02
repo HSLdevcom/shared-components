@@ -28,7 +28,7 @@
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
     "haul": "^1.0.0-beta.2",
-    "hsl-shared-components": "^0.11.0",
+    "hsl-shared-components": "^0.11.2",
     "jest": "^20.0.4",
     "prop-types": "^15.5.10",
     "react": "15.5.x",
