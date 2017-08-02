@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "react-native": "0.42.x",
-    "react-native-svg": "4.5.0"
+    "react-native-svg": "4.6.1"
   },
   "scripts": {
     "start": "react-native start",

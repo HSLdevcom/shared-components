@@ -2822,8 +2822,8 @@ es-to-primitive@^1.1.1:
     is-symbol "^1.0.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.24"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.24.tgz#a55877c9924bc0c8d9bd3c2cbe17495ac1709b14"
+  version "0.10.26"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.26.tgz#51b2128a531b70c4f6764093a73cbebb82186372"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -6661,16 +6661,16 @@ react-native-scripts@^0.0.22:
     qrcode-terminal "^0.11.0"
     xdl "^36.0.0"
 
-react-native-svg@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-4.5.0.tgz#322d2f4cf75688c892524b818bea043d581a7e9f"
+react-native-svg@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-4.6.1.tgz#08fbc57137e8d570a73c2d35c6b89abb239cd40b"
   dependencies:
     color "^0.11.1"
     lodash "^4.0.0"
 
 react-native-web@0.0.x:
-  version "0.0.118"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.0.118.tgz#5a85fd62cc9214cfba2ff1c19e89635ce69ef91a"
+  version "0.0.119"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.0.119.tgz#dd89de1d1db2e2b5efa3f5031f557e3ad96d52d3"
   dependencies:
     animated "^0.2.0"
     array-find-index "^1.0.2"

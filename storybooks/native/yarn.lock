@@ -126,8 +126,8 @@
     ws "^3.0.0"
 
 "@storybook/ui@^3.1.6":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.0.tgz#ce60155412bfd700d6f8bac2bae40efca4f6d768"
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.3.tgz#9579c191a1695d3d5aaabcef93a7a5456d8f19af"
   dependencies:
     "@storybook/react-fuzzy" "^0.4.0"
     babel-runtime "^6.23.0"
@@ -152,8 +152,8 @@
     redux "^3.6.0"
 
 "@types/react@>=15":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.0.tgz#3b3e92a60b65045e4df48fda324de84d83addbc4"
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.0.tgz#fec7e6302e11c1cd307129d8ce1e6d5dca4a0283"
 
 abab@^1.0.3:
   version "1.0.3"
@@ -2944,8 +2944,8 @@ es-to-primitive@^1.1.1:
     is-symbol "^1.0.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.24"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.24.tgz#a55877c9924bc0c8d9bd3c2cbe17495ac1709b14"
+  version "0.10.26"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.26.tgz#51b2128a531b70c4f6764093a73cbebb82186372"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -3138,13 +3138,6 @@ eslint-plugin-jsx-a11y@^4.0.0:
     emoji-regex "^6.1.0"
     jsx-ast-utils "^1.0.0"
     object-assign "^4.0.1"
-
-eslint-plugin-prettier@^2.0.1:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.1.2.tgz#4b90f4ee7f92bfbe2e926017e1ca40eb628965ea"
-  dependencies:
-    fast-diff "^1.1.1"
-    jest-docblock "^20.0.1"
 
 eslint-plugin-react@7.1.0:
   version "7.1.0"
@@ -3433,10 +3426,6 @@ fancy-log@^1.1.0:
 fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
-
-fast-diff@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.1.tgz#0aea0e4e605b6a2189f0e936d4b7fbaf1b7cfd9b"
 
 fast-levenshtein@~2.0.4:
   version "2.0.6"
@@ -3934,9 +3923,9 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
-"happypack@github:amireh/happypack#3256a3380dde2e06e3ad2ca3b41e9a81fd4f9673":
-  version "3.0.3"
-  resolved "https://codeload.github.com/amireh/happypack/tar.gz/3256a3380dde2e06e3ad2ca3b41e9a81fd4f9673"
+happypack@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/happypack/-/happypack-3.1.0.tgz#8bc55e3701bacff718d3889cb88b5021641cad59"
   dependencies:
     async "1.5.0"
     json-stringify-safe "5.0.1"
@@ -4006,8 +3995,8 @@ hasha@^2.2.0:
     pinkie-promise "^2.0.0"
 
 haul@^1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/haul/-/haul-1.0.0-beta.2.tgz#d8fe6d66d5f6e2419e145e425003489fef54931b"
+  version "1.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/haul/-/haul-1.0.0-beta.3.tgz#a56af71fe1b1edd254b8c3ffedfa775a60c46d02"
   dependencies:
     babel-core "^6.24.0"
     babel-loader "^6.4.1"
@@ -4025,9 +4014,8 @@ haul@^1.0.0-beta.2:
     dedent "^0.7.0"
     dlv "^1.1.0"
     escape-string-regexp "^1.0.5"
-    eslint-plugin-prettier "^2.0.1"
     express "^4.15.2"
-    happypack "github:amireh/happypack#3256a3380dde2e06e3ad2ca3b41e9a81fd4f9673"
+    happypack "3.1.0"
     hasha "^2.2.0"
     image-size "^0.5.1"
     inquirer "^3.0.6"
@@ -4762,7 +4750,7 @@ jest-diff@^20.0.3:
     jest-matcher-utils "^20.0.3"
     pretty-format "^20.0.3"
 
-jest-docblock@^20.0.1, jest-docblock@^20.0.3:
+jest-docblock@^20.0.3:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-20.0.3.tgz#17bea984342cc33d83c50fbe1545ea0efaa44712"
 
@@ -6840,9 +6828,9 @@ react-native-storybook-loader@^1.4.1:
     glob "^7.1.1"
     yargs "^8.0.2"
 
-react-native-svg@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-4.5.0.tgz#322d2f4cf75688c892524b818bea043d581a7e9f"
+react-native-svg@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-4.6.1.tgz#08fbc57137e8d570a73c2d35c6b89abb239cd40b"
   dependencies:
     color "^0.11.1"
     lodash "^4.0.0"
