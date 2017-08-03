@@ -39,6 +39,7 @@
   "main": "lib/",
   "scripts": {
     "prepublish": "babel src/ --out-dir lib/ --ignore .test.js",
+    "build:watch": "babel src/ --out-dir lib/ --watch --ignore .test.js",
     "test": "jest",
     "es-lint": "eslint ."
   },
