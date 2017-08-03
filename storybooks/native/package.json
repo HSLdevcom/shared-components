@@ -34,6 +34,7 @@
     "react": "15.5.x",
     "react-dom": "15.5.x",
     "react-native-storybook-loader": "^1.4.1",
+    "react-primitives": "ktj/primitives-build",
     "react-scripts": "^1.0.10",
     "react-test-renderer": "15.5.x",
     "styled-components": "^2.1.1"
