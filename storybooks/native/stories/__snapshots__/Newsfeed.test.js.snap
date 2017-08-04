@@ -331,6 +331,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
     >
       <View
         className={undefined}
+        large={undefined}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}

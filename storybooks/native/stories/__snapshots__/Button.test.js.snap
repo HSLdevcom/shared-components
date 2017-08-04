@@ -13,6 +13,7 @@ exports[`Storyshots Button default 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -90,6 +91,7 @@ exports[`Storyshots Button primary 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -167,6 +169,7 @@ exports[`Storyshots Button secondary 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

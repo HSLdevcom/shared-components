@@ -22,11 +22,13 @@ stories.addWithJSX('default', () => {
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
   const small = boolean('Small', false);
+  const large = boolean('Large', false);
   return (
     <Button
       disabled={disabled}
       rounded={rounded}
       small={small}
+      large={large}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -38,10 +40,12 @@ stories.addWithJSX('default', () => {
 stories.addWithJSX('primary', () => {
   const disabled = boolean('Disabled', false);
   const small = boolean('Small', false);
+  const large = boolean('Large', false);
   return (
     <Button
       disabled={disabled}
       small={small}
+      large={large}
       primary
       onPress={action('press')}
       onLongPress={action('long press')}
@@ -55,11 +59,13 @@ stories.addWithJSX('secondary', () => {
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
   const small = boolean('Small', false);
+  const large = boolean('Large', false);
   return (
     <Button
       disabled={disabled}
       rounded={rounded}
       small={small}
+      large={large}
       secondary
       onPress={action('press')}
       onLongPress={action('long press')}

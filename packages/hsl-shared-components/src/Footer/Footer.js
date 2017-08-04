@@ -31,6 +31,7 @@ const Instagram = withTheme(({ theme }) => (
 
 const StyledButton = Button.extend`
   margin-top: ${size(50)};
+  width: 50%;
 `;
 
 const Containers = styled(({ border, ...rest }) => (
@@ -68,7 +69,7 @@ const Footer = styled(({ ...rest }) => (
         <StyledListText size={2}>Tallenna suosikki linjat, reitit ja paikat</StyledListText>
         <StyledListText size={2}>Ota kaupunkipyörät käyttöön</StyledListText>
       </FlexStart>
-      <StyledButton primary>Luo tunnus</StyledButton>
+      <StyledButton primary large>Luo tunnus</StyledButton>
     </Containers>
     <Containers border>
       <H2>Tykkää, seuraa ja keskustele</H2>
