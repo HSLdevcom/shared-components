@@ -92,13 +92,16 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                    "fontWeight": "500",
-                  },
-                  undefined,
+                  Object {},
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -111,12 +114,15 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  undefined,
+                  Object {},
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -129,14 +135,22 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             ellipsizeMode="tail"
             style={
               Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 21,
-                  "fontWeight": "500",
-                  "letterSpacing": -0.4,
-                },
-                undefined,
+                Object {},
+                Array [
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
+                  Array [
+                    Object {
+                      "color": "#007ac9",
+                      "fontSize": 21,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
+                    },
+                    undefined,
+                  ],
+                ],
               ]
             }
           >
@@ -214,13 +228,16 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                    "fontWeight": "500",
-                  },
-                  undefined,
+                  Object {},
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -233,12 +250,15 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  undefined,
+                  Object {},
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -251,14 +271,22 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             ellipsizeMode="tail"
             style={
               Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 21,
-                  "fontWeight": "500",
-                  "letterSpacing": -0.4,
-                },
-                undefined,
+                Object {},
+                Array [
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
+                  Array [
+                    Object {
+                      "color": "#007ac9",
+                      "fontSize": 21,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
+                    },
+                    undefined,
+                  ],
+                ],
               ]
             }
           >
@@ -342,18 +370,21 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-              },
+              Object {},
               Array [
                 Object {
-                  "color": "#007ac9",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                   "fontSize": 14,
-                  "fontWeight": "500",
-                  "textAlign": "center",
                 },
-                undefined,
+                Array [
+                  Object {
+                    "color": "#007ac9",
+                    "fontSize": 14,
+                    "fontWeight": "500",
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ],
               ],
             ]
           }
@@ -429,13 +460,16 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "color": "#888888",
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-                "fontWeight": "500",
-              },
-              undefined,
+              Object {},
+              Array [
+                Object {
+                  "color": "#888888",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -448,12 +482,15 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "color": "#888888",
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-              },
-              undefined,
+              Object {},
+              Array [
+                Object {
+                  "color": "#888888",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -466,14 +503,22 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
         ellipsizeMode="tail"
         style={
           Array [
-            Object {
-              "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-              "fontSize": 21,
-              "fontWeight": "500",
-              "letterSpacing": -0.4,
-            },
-            undefined,
+            Object {},
+            Array [
+              Object {
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                "fontSize": 14,
+              },
+              Array [
+                Object {
+                  "color": "#007ac9",
+                  "fontSize": 21,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.4,
+                },
+                undefined,
+              ],
+            ],
           ]
         }
       >

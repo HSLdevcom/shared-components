@@ -52,18 +52,21 @@ exports[`Storyshots Button default 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#007ac9",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
               "fontSize": 14,
-              "fontWeight": "500",
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }
@@ -126,18 +129,21 @@ exports[`Storyshots Button primary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#ffffff",
-              "fontSize": 15.75,
-              "fontWeight": "500",
-              "textAlign": "center",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontSize": 14,
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 15.75,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }
@@ -200,18 +206,21 @@ exports[`Storyshots Button secondary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#848484",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
               "fontSize": 14,
-              "fontWeight": "500",
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#848484",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }

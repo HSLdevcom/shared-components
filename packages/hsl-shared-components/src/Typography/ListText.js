@@ -1,33 +1,44 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
+import PropTypes from 'prop-types';
 
 import Text from './Text';
 import View from '../View';
-import { size } from '../utils';
+import { size as utilsSize } from '../utils';
 
-const Dot = View.extend`
+const Dot = styled(({ size, ...rest }) => (
+  <View {...rest} />
+))`
   background-color: black;
-  width: ${size(7)};
-  height: ${size(7)};
-  border-radius: ${size(1000)};
-  margin-right: ${size(20)};
+  width: ${props => utilsSize(7 * (props.size || 1))};
+  height: ${props => utilsSize(7 * (props.size || 1))};
+  border-radius: ${utilsSize(1000)};
+  margin-right: ${props => utilsSize(20 * (props.size || 1))};
 `;
 
-const StyledText = Text.extend`
+const StyledText = styled(({ size, ...rest }) => (
+  <Text {...rest} />
+))`
   font-weight: 300;
-  font-size: ${size(16)};
-  line-height: 16;
+  font-size: ${props => utilsSize(16 * (props.size || 1))};
+  line-height: ${props => 16 * (props.size || 1)};
 `;
 
-const ListText = styled(({ children, ...rest }) => (
+
+const ListText = styled(({ size, children, ...rest }) => (
   <View {...rest}>
-    <Dot />
-    <StyledText>{children}</StyledText>
+    <Dot size={size} />
+    <StyledText size={size}>{children}</StyledText>
   </View>
 ))`
   flex-direction: row;
   justify-content: flex-start;
 
 `;
+
+ListText.propTypes = {
+  size: PropTypes.number,
+  children: PropTypes.string
+};
 
 export default ListText;

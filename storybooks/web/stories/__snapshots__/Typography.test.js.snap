@@ -56,7 +56,7 @@ exports[`Storyshots Typography H4 1`] = `
 
 exports[`Storyshots Typography H5 1`] = `
 <div
-  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-fontWeight-majxgm rn-letterSpacing-afbznj rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
 >
   HSL LIIKUTTAA
@@ -67,7 +67,6 @@ exports[`Storyshots Typography InfoText 1`] = `
 <div
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-f1vk86 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
-  large={false}
 >
   Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
 </div>
