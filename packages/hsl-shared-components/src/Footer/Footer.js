@@ -4,7 +4,7 @@ import styled from 'styled-components/primitives';
 import { lighten } from 'polished';
 
 import View from '../View';
-import Button, { SocialMediaButton } from '../Button';
+import Button, { RoundButton } from '../Button';
 import Text, { H2, ListText } from '../Typography';
 import { size } from '../utils';
 
@@ -63,12 +63,12 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         <HorizontalView>
           { socialMedia &&
             socialMedia.map(SM => (
-              <SocialMediaButton
+              <RoundButton
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
               >
                 {React.cloneElement(SM.icon)}
-              </SocialMediaButton>)
+              </RoundButton>)
             )
           }
         </HorizontalView>

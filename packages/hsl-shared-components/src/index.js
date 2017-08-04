@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button from './Button';
+import Button, { RoundButton } from './Button';
 import Input from './Input/Input';
 import Separator, {
   MenuSeparator,
@@ -31,6 +31,7 @@ import Footer from './Footer';
 export {
   AppHeader,
   Button,
+  RoundButton,
   Input,
   Separator,
   MenuSeparator,

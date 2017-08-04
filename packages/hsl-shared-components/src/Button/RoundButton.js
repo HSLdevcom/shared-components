@@ -11,7 +11,7 @@ const StyledView = View.extend`
   color: ${props => props.theme.primary};
 `;
 
-const SocialMediaButton = styled(({ children, ...props }) => (
+const RoundButton = styled(({ children, ...props }) => (
   <Button
     rounded
     {...props}
@@ -24,8 +24,8 @@ const SocialMediaButton = styled(({ children, ...props }) => (
   border-color: ${props => props.theme.primary};
 `;
 
-SocialMediaButton.propTypes = {
+RoundButton.propTypes = {
   children: PropTypes.element
 };
 
-export default SocialMediaButton;
+export default RoundButton;

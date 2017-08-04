@@ -1,8 +1,8 @@
 import Button from './Button';
-import SocialMediaButton from './SocialMediaButton';
+import RoundButton from './RoundButton';
 
 export {
-  SocialMediaButton
+  RoundButton
 };
 
 export default Button;

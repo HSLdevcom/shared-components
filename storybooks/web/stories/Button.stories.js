@@ -4,7 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button } from 'hsl-shared-components';
+import { Button, RoundButton, Icons } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -74,3 +74,7 @@ stories.addWithJSX('secondary', () => {
   </Button>);
 }
 , { displayName: 'Button' });
+
+stories.addWithJSX('round button', () => (
+  <RoundButton><Icons.Facebook height="36px" width="18px" /></RoundButton>
+), { displayName: 'SocialMediaButton' });
