@@ -4,6 +4,7 @@ import { Tabs, Tab } from '../Tabs';
 import Button from '../Button';
 import Touchable from '../Touchable';
 import View from '../View';
+import Icons from '../Icons';
 
 export {
   Text,
@@ -25,5 +26,6 @@ export {
   Touchable,
   Tabs,
   Tab,
-  View
+  View,
+  Icons
 };

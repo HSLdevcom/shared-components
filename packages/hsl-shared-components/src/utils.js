@@ -40,3 +40,14 @@ export function addClass(element, newClass) {
   }
   return addClassChildren(element, newClass);
 }
+
+/*
+* Converts input to native or web depending on platform
+* svgTranslate(12,34)
+* Native: { translateX: '12', translateY: '34' }
+* Web: { transform: 'translate(12,34)' }
+*/
+export function svgTranslate(x, y) {
+  return isNative() ? { translateX: `${x || 0}`, translateY: `${y || 0}` } :
+  { transform: `translate(${x || 0},${y || 0})` };
+}

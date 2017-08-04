@@ -3,3 +3,4 @@ hooks
 storybook-static
 static
 storybook/storyLoader.js
+__mocks__/
