@@ -371,6 +371,7 @@ exports[`Storyshots Typography ListText 1`] = `
         },
         Array [
           Object {
+            "alignItems": "flex-start",
             "flexDirection": "row",
             "justifyContent": "flex-start",
           },
@@ -392,6 +393,7 @@ exports[`Storyshots Typography ListText 1`] = `
               "borderRadius": 875,
               "height": 6.125,
               "marginRight": 17.5,
+              "marginVertical": 3.9375,
               "width": 6.125,
             },
             undefined,

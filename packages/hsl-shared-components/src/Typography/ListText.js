@@ -6,10 +6,15 @@ import Text from './Text';
 import View from '../View';
 import { size as utilsSize } from '../utils';
 
+// Center Dot in middle of the of the first line
+// (ListText line height - dot height) / 2
+const VERTICAL_MARGIN = (16 - 7) / 2;
+
 const Dot = styled(({ size, ...rest }) => (
   <View {...rest} />
 ))`
   background-color: black;
+  margin-vertical: ${props => utilsSize(VERTICAL_MARGIN * (props.size || 1))}
   width: ${props => utilsSize(7 * (props.size || 1))};
   height: ${props => utilsSize(7 * (props.size || 1))};
   border-radius: ${utilsSize(1000)};
@@ -33,6 +38,7 @@ const ListText = styled(({ size, children, ...rest }) => (
 ))`
   flex-direction: row;
   justify-content: flex-start;
+  align-items: flex-start;
 
 `;
 

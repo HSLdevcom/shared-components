@@ -63,10 +63,10 @@ const Footer = styled(({ ...rest }) => (
     <Containers>
       <H2>Ota HSL -tunnus käyttöön</H2>
       <FlexStart>
-        <StyledListText>Lataa matkakorttia verkossa</StyledListText>
-        <StyledListText>Hyödynnä asiakasetuja</StyledListText>
-        <StyledListText>Tallenna suosikki linjat, reitit ja paikat</StyledListText>
-        <StyledListText>Ota kaupunkipyörät käyttöön</StyledListText>
+        <StyledListText size={2}>Lataa matkakorttia verkossa</StyledListText>
+        <StyledListText size={2}>Hyödynnä asiakasetuja</StyledListText>
+        <StyledListText size={2}>Tallenna suosikki linjat, reitit ja paikat</StyledListText>
+        <StyledListText size={2}>Ota kaupunkipyörät käyttöön</StyledListText>
       </FlexStart>
       <StyledButton primary>Luo tunnus</StyledButton>
     </Containers>
