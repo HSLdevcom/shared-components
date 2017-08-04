@@ -293,23 +293,57 @@ exports[`Storyshots Typography ListText 1`] = `
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Array [
         Object {
-          "fontSize": 14,
-          "fontWeight": "300",
-          "lineHeight": 16,
+          "alignItems": "center",
+          "justifyContent": "center",
         },
-        undefined,
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          },
+          undefined,
+        ],
       ]
     }
   >
-    Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-  </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "black",
+            "borderRadius": 875,
+            "height": 6.125,
+            "justifyContent": "center",
+            "marginRight": 17.5,
+            "width": 6.125,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "300",
+            "lineHeight": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+    </Text>
+  </View>
 </View>
 `;
 
