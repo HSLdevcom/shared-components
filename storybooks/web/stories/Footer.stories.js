@@ -18,7 +18,6 @@ setAddon(JSXAddon);
 
 const stories = storiesOf('Footer', module);
 
-stories.addWithJSX('default', () => {
-  // const placeholder = text('Placeholder', 'placeholder');
-  return (<Footer />);
-}, { displayName: 'Footer' });
+stories.addWithJSX('default', () => (
+  <Footer />
+), { displayName: 'Footer' });
