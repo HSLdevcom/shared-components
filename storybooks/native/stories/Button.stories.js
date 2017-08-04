@@ -63,5 +63,5 @@ storiesOf('Button', module)
     </Button>);
   })
   .add('round button', () => (
-    <RoundButton><Icons.Facebook height="36px" width="18px" /></RoundButton>
+    <RoundButton><Icons.Facebook height="36" width="18" fill="#007ac9" /></RoundButton>
   ));

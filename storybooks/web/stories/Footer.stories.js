@@ -35,17 +35,17 @@ stories.addWithJSX('default', () => {
 
   const socialMedia = [
     {
-      icon: <Icons.Facebook height="36px" width="18px" />,
+      icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
       onPress: () => {},
       onLongPress: () => {}
     },
     {
-      icon: <Icons.Twitter height="27px" width="36px" />,
+      icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
       onPress: () => {},
       onLongPress: () => {}
     },
     {
-      icon: <Icons.Instagram height="30px" width="30px" />,
+      icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
       onPress: () => {},
       onLongPress: () => {}
     }

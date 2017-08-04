@@ -8,7 +8,6 @@ import { size } from '../utils';
 const StyledView = View.extend`
   height: ${size(36)};
   width: ${size(36)};
-  color: ${props => props.theme.primary};
 `;
 
 const RoundButton = styled(({ children, ...props }) => (
@@ -16,7 +15,11 @@ const RoundButton = styled(({ children, ...props }) => (
     rounded
     {...props}
   >
-    <StyledView>{ React.cloneElement(children, { style: { fill: 'currentColor' } }) }</StyledView>
+    <StyledView>
+      {
+        children
+      }
+    </StyledView>
   </Button>
 ))`
   height: ${size(80)};
