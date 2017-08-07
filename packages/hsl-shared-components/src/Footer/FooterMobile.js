@@ -64,7 +64,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     }
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
-        { info.links }
+        { info.links.map(link => React.cloneElement(link, { size: 2 })) }
       </View>
       <CopyrightText size={2}>{info.copyright}</CopyrightText>
     </MobileContainer>

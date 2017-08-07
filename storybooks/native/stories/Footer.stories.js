@@ -57,10 +57,10 @@ storiesOf('Footer', module)
     const info = {
       copyright: '© Copyright HSL',
       links: [
-        <LinkText key="1" size={2}>Yhteystiedot</LinkText>,
-        <LinkText key="2" size={2}>Tietosuojalauseke</LinkText>,
-        <LinkText key="3" size={2}>Rekisteriseloste</LinkText>,
-        <LinkText key="4" size={2}>Tietoa sivustosta</LinkText>
+        <LinkText key="1">Yhteystiedot</LinkText>,
+        <LinkText key="2">Tietosuojalauseke</LinkText>,
+        <LinkText key="3">Rekisteriseloste</LinkText>,
+        <LinkText key="4">Tietoa sivustosta</LinkText>
       ]
     };
     return (
