@@ -50,17 +50,19 @@ stories.addWithJSX('default', () => {
       onLongPress: () => {}
     }
   ];
-
+  const LinkText = Text.extend`
+    color: ${props => props.theme.primary};
+  `;
   const info = {
     copyright: '© Copyright HSL',
     links: [
-      <Text size={2}>Yhteystiedot</Text>,
-      <Text size={2}>Tietosuojalauseke</Text>,
-      <Text size={2}>Rekisteriseloste</Text>,
-      <Text size={2}>Tietoa sivustosta</Text>
+      <LinkText size={2}>Yhteystiedot</LinkText>,
+      <LinkText size={2}>Tietosuojalauseke</LinkText>,
+      <LinkText size={2}>Rekisteriseloste</LinkText>,
+      <LinkText size={2}>Tietoa sivustosta</LinkText>
     ]
   };
   return (
     <Footer info={info} account={account} socialMedia={socialMedia} />
   );
-}, { displayName: 'Footer' });
+});

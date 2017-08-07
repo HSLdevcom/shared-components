@@ -20,3 +20,4 @@ export default function Icon({ fill, ...rest }) {
 Icon.propTypes = {
   fill: PropTypes.string
 };
+Icon.displayName = 'Icon.Linkedin';
