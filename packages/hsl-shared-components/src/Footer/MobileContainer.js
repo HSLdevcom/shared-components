@@ -11,7 +11,7 @@ const StyledH2 = H2.extend`
   margin-bottom: ${size(40)};
   text-align: center;
 `;
-const FooterContainer = styled(({ border, title, children, ...rest }) => (
+const MobileContainer = styled(({ border, title, children, ...rest }) => (
   <View {...rest}>
     <StyledH2>{title}</StyledH2>
     {children}
@@ -24,11 +24,11 @@ const FooterContainer = styled(({ border, title, children, ...rest }) => (
 `;
 
 
-FooterContainer.propTypes = {
+MobileContainer.propTypes = {
   border: PropTypes.bool,
   title: PropTypes.string,
   children: PropTypes.node.isRequired
 };
 
-export default FooterContainer;
+export default MobileContainer;
 
