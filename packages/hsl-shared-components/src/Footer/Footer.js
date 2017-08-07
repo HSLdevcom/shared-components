@@ -46,16 +46,15 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
       </FooterContainer>
     }
     { socialMedia &&
-      <FooterContainer border={!!account} title={'Tykkää, seuraa ja keskustele'}>
+      <FooterContainer border={!!account} title={socialMedia.title}>
         <HorizontalView>
-          { socialMedia &&
-            socialMedia.map(SM => (
-              <RoundButton
-                onPress={SM.onPress}
-                onLongPress={SM.onLongPress}
-              >
-                {React.cloneElement(SM.icon)}
-              </RoundButton>)
+          { socialMedia.icons.map(SM => (
+            <RoundButton
+              onPress={SM.onPress}
+              onLongPress={SM.onLongPress}
+            >
+              {React.cloneElement(SM.icon)}
+            </RoundButton>)
             )
           }
         </HorizontalView>
@@ -89,12 +88,17 @@ Footer.propTypes = {
     copyright: PropTypes.string,
     links: PropTypes.arrayOf(PropTypes.node)
   }),
-  socialMedia: PropTypes.arrayOf(PropTypes.shape({
-    icon: PropTypes.node,
-    onPress: PropTypes.func,
-    onLongPress: PropTypes.func
-  }))
+  socialMedia: PropTypes.shape({
+    title: PropTypes.string,
+    icons: PropTypes.arrayOf(PropTypes.shape({
+      icon: PropTypes.node,
+      onPress: PropTypes.func,
+      onLongPress: PropTypes.func
+    }))
+  })
 };
+
+Footer.displayName = 'Footer';
 
 export default Footer;
 

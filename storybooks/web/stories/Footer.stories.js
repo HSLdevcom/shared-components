@@ -33,23 +33,26 @@ stories.addWithJSX('default', () => {
     ]
   };
 
-  const socialMedia = [
-    {
-      icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
-      onPress: () => {},
-      onLongPress: () => {}
-    },
-    {
-      icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
-      onPress: () => {},
-      onLongPress: () => {}
-    },
-    {
-      icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
-      onPress: () => {},
-      onLongPress: () => {}
-    }
-  ];
+  const socialMedia = {
+    title: 'Tykkää, seuraa ja keskustele',
+    icons: [
+      {
+        icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
+        onPress: () => {},
+        onLongPress: () => {}
+      },
+      {
+        icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
+        onPress: () => {},
+        onLongPress: () => {}
+      },
+      {
+        icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
+        onPress: () => {},
+        onLongPress: () => {}
+      }
+    ]
+  };
   const LinkText = Text.extend`
     color: ${props => props.theme.primary};
   `;
