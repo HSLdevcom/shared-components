@@ -1,10 +1,11 @@
-import Media from './media-templates';
+import Media, { sizes } from './media-templates';
 
 const primaryBlue = '#007ac9';
 const primaryWhite = '#ffffff';
 
 const hslTheme = {
-  Media,
+  Media, // used in components
+  sizes, // used by utils
   primary: primaryBlue,
   primaryText: primaryWhite,
   listItemMarker: '#62bae7',

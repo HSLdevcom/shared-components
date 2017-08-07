@@ -3,9 +3,11 @@ import cx from 'classnames';
 import { Platform } from 'react-primitives';
 import { rem } from 'polished';
 
-export function isNative() {
-  return Platform.OS !== 'web';
-}
+import { Desktop, Mobile } from './Utils';
+
+export { Desktop, Mobile };
+
+export const IS_NATIVE = Platform.OS !== 'web';
 
 // 14px font-size in mobile
 // 16px font-size default web
@@ -20,7 +22,7 @@ const pxString = 'px';
 * @return {string} px in native and rem in web
 */
 export function size(fontSize) {
-  if (isNative()) {
+  if (IS_NATIVE) {
     return (fontSize * NATIVE_RATIO) + pxString;
   }
   return rem(fontSize + pxString);
@@ -48,6 +50,6 @@ export function addClass(element, newClass) {
 * Web: { transform: 'translate(12,34)' }
 */
 export function svgTranslate(x, y) {
-  return isNative() ? { translateX: `${x || 0}`, translateY: `${y || 0}` } :
+  return IS_NATIVE ? { translateX: `${x || 0}`, translateY: `${y || 0}` } :
   { transform: `translate(${x || 0},${y || 0})` };
 }
