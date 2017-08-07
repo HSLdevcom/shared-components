@@ -5,6 +5,7 @@ import Button, { RoundButton } from '../Button';
 import Touchable from '../Touchable';
 import View from '../View';
 import Icons from '../Icons';
+import Footer from '../Footer';
 
 export {
   Text,
@@ -28,5 +29,6 @@ export {
   Tabs,
   Tab,
   View,
-  Icons
+  Icons,
+  Footer
 };

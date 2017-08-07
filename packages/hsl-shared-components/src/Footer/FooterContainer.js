@@ -9,6 +9,7 @@ import { H2 } from '../Typography';
 
 const StyledH2 = H2.extend`
   margin-bottom: ${size(40)};
+  text-align: center;
 `;
 const FooterContainer = styled(({ border, title, children, ...rest }) => (
   <View {...rest}>
@@ -26,7 +27,7 @@ const FooterContainer = styled(({ border, title, children, ...rest }) => (
 FooterContainer.propTypes = {
   border: PropTypes.bool,
   title: PropTypes.string,
-  children: PropTypes.element.isRequired
+  children: PropTypes.node.isRequired
 };
 
 export default FooterContainer;

@@ -27,6 +27,7 @@ const StyledText = styled(({ size, ...rest }) => (
   font-weight: 300;
   font-size: ${props => utilsSize(16 * (props.size || 1))};
   line-height: ${props => 16 * (props.size || 1)};
+  flex: 1;
 `;
 
 
@@ -39,7 +40,7 @@ const ListText = styled(({ size, children, ...rest }) => (
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-
+  width: 100%;
 `;
 
 ListText.propTypes = {

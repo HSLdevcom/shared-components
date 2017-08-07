@@ -39,17 +39,20 @@ stories.addWithJSX('default', () => {
       {
         icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
         onPress: () => {},
-        onLongPress: () => {}
+        onLongPress: () => {},
+        key: 'facebook'
       },
       {
         icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
         onPress: () => {},
-        onLongPress: () => {}
+        onLongPress: () => {},
+        key: 'twitter'
       },
       {
         icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
         onPress: () => {},
-        onLongPress: () => {}
+        onLongPress: () => {},
+        key: 'instagram'
       }
     ]
   };
@@ -59,10 +62,10 @@ stories.addWithJSX('default', () => {
   const info = {
     copyright: '© Copyright HSL',
     links: [
-      <LinkText size={2}>Yhteystiedot</LinkText>,
-      <LinkText size={2}>Tietosuojalauseke</LinkText>,
-      <LinkText size={2}>Rekisteriseloste</LinkText>,
-      <LinkText size={2}>Tietoa sivustosta</LinkText>
+      <LinkText key="1" size={2}>Yhteystiedot</LinkText>,
+      <LinkText key="2" size={2}>Tietosuojalauseke</LinkText>,
+      <LinkText key="3" size={2}>Rekisteriseloste</LinkText>,
+      <LinkText key="4" size={2}>Tietoa sivustosta</LinkText>
     ]
   };
   return (

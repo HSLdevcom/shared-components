@@ -7,7 +7,7 @@ import { NewsFeedItem, NewsFeed } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
-import CenterView from './CenterView';
+import ScrollView from './ScrollView';
 
 
 const TODAY_2PM = new Date();
@@ -19,7 +19,7 @@ storiesOf('NewsFeed', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <CenterView>{getStory()}</CenterView>
+      <ScrollView>{getStory()}</ScrollView>
     </ThemeProvider>))
   .add('News feed', () => (
     <NewsFeed more={{ text: 'Näytä lisää', action: action('Button pressed') }}>

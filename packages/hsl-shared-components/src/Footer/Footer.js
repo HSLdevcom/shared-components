@@ -16,11 +16,12 @@ const StyledButton = Button.extend`
 const HorizontalView = View.extend`
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
 `;
 
 const FlexStart = View.extend`
   align-items: flex-start;
+  width: 100%;
 `;
 
 const CopyrightText = Text.extend`
@@ -34,7 +35,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     { account &&
       <FooterContainer title={account.title}>
         <FlexStart>
-          { account.benefits.map(txt => (<ListText size={2}>{txt}</ListText>))}
+          { account.benefits.map(txt => (<ListText size={2} key={txt}>{txt}</ListText>))}
         </FlexStart>
         <StyledButton
           primary
@@ -50,6 +51,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         <HorizontalView>
           { socialMedia.icons.map(SM => (
             <RoundButton
+              key={SM.key}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
             >
@@ -92,6 +94,7 @@ Footer.propTypes = {
     title: PropTypes.string,
     icons: PropTypes.arrayOf(PropTypes.shape({
       icon: PropTypes.node,
+      key: PropTypes.string,
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
