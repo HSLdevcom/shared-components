@@ -1,36 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
-import Text, { H2, ListText } from '../Typography';
+import Text, { ListText } from '../Typography';
 import { size } from '../utils';
+import FooterContainer from './FooterContainer';
 
 const StyledButton = Button.extend`
   margin-top: ${size(50)};
   width: 50%;
 `;
 
-const Containers = styled(({ border, ...rest }) => (
-  <View {...rest} />
-))`
-  padding-vertical: ${size(50)};
-  border-style: solid;
-  border-color: ${props => lighten(0.15, props.theme.default)};
-  border-top-width: ${props => (props.border ? '2px' : '0px')};
-`;
-
 const HorizontalView = View.extend`
-  margin-top: ${size(50)};
   flex-direction: row;
   justify-content: space-between;
   width: 50%;
 `;
 
 const FlexStart = View.extend`
-  margin-top: ${size(40)};
   align-items: flex-start;
 `;
 
@@ -43,8 +32,7 @@ const CopyrightText = Text.extend`
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
     { account &&
-      <Containers>
-        <H2>{account.title}</H2>
+      <FooterContainer title={account.title}>
         <FlexStart>
           { account.benefits.map(txt => (<ListText size={2}>{txt}</ListText>))}
         </FlexStart>
@@ -55,11 +43,10 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         >
           {account.button.text}
         </StyledButton>
-      </Containers>
+      </FooterContainer>
     }
     { socialMedia &&
-      <Containers border>
-        <H2>Tykkää, seuraa ja keskustele</H2>
+      <FooterContainer border={!!account} title={'Tykkää, seuraa ja keskustele'}>
         <HorizontalView>
           { socialMedia &&
             socialMedia.map(SM => (
@@ -72,14 +59,14 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
             )
           }
         </HorizontalView>
-      </Containers>
+      </FooterContainer>
     }
-    <Containers border>
+    <FooterContainer border={!!account || !!socialMedia}>
       <View>
         { info.links }
       </View>
       <CopyrightText size={2}>{info.copyright}</CopyrightText>
-    </Containers>
+    </FooterContainer>
   </View>
 ))`
   width: 100%;
