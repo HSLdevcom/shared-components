@@ -18,13 +18,7 @@ exports[`Storyshots Footer default 1`] = `
             "justifyContent": "center",
           },
           Array [
-            Object {
-              "alignItems": "stretch",
-              "borderColor": "#007ac9",
-              "borderStyle": "solid",
-              "borderTopWidth": 4,
-              "width": "100%",
-            },
+            Object {},
             undefined,
           ],
         ]
@@ -37,348 +31,43 @@ exports[`Storyshots Footer default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            Array [
-              Object {
-                "borderColor": "#ddd",
-                "borderStyle": "solid",
-                "borderTopWidth": 0,
-                "paddingVertical": 43.75,
-              },
-              undefined,
-            ],
+            undefined,
           ]
         }
+        theme={
+          Object {
+            "Media": Object {
+              "large": [Function],
+              "medium": [Function],
+              "small": [Function],
+            },
+            "activatableLineHeight": "4px",
+            "activatablePointerHeight": "0.6rem",
+            "background": "#007ac9",
+            "default": "#b7b7b7",
+            "fontFamily": "\\"Gotham Rounded SSm A, Gotham Rounded SSm B\\"",
+            "fontFamilyNarrow": "\\"Gotham XNarrow SSm A, Gotham XNarrow SSm B\\"",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "letterSpacing": "-0.5px",
+            "listItemMarker": "#62bae7",
+            "logoFill": "#ffffff",
+            "logoHeight": "4rem",
+            "md": "900px",
+            "primary": "#007ac9",
+            "primaryText": "#ffffff",
+            "radioBtnActive": "#0062a1",
+            "scrollNavHeight": "3.75rem",
+            "secondary": "#888888",
+            "sizes": Object {
+              "large": 1299,
+              "medium": 999,
+              "small": 869,
+            },
+          }
+        }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {},
-              Array [
-                Object {
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
-                },
-                Array [
-                  Object {
-                    "fontSize": 31.5,
-                    "fontWeight": "500",
-                    "letterSpacing": -0.4,
-                    "marginBottom": 35,
-                    "textAlign": "center",
-                  },
-                  undefined,
-                ],
-              ],
-            ]
-          }
-        >
-          Ota HSL -tunnus käyttöön
-        </Text>
         <View
-          style={
-            Array [
-              Object {
-                "alignItems": "flex-start",
-                "justifyContent": "center",
-                "width": "100%",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "alignItems": "flex-start",
-                    "flexDirection": "row",
-                    "justifyContent": "flex-start",
-                    "width": "100%",
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "backgroundColor": "black",
-                      "borderRadius": 875,
-                      "height": 12.25,
-                      "marginRight": 35,
-                      "marginVertical": 7.875,
-                      "width": 12.25,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
-                    },
-                    Array [
-                      Object {
-                        "flexBasis": 0,
-                        "flexGrow": 1,
-                        "flexShrink": 1,
-                        "fontSize": 28,
-                        "fontWeight": "300",
-                        "lineHeight": 32,
-                      },
-                      undefined,
-                    ],
-                  ],
-                ]
-              }
-            >
-              Lataa matkakorttia verkossa
-            </Text>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "alignItems": "flex-start",
-                    "flexDirection": "row",
-                    "justifyContent": "flex-start",
-                    "width": "100%",
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "backgroundColor": "black",
-                      "borderRadius": 875,
-                      "height": 12.25,
-                      "marginRight": 35,
-                      "marginVertical": 7.875,
-                      "width": 12.25,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
-                    },
-                    Array [
-                      Object {
-                        "flexBasis": 0,
-                        "flexGrow": 1,
-                        "flexShrink": 1,
-                        "fontSize": 28,
-                        "fontWeight": "300",
-                        "lineHeight": 32,
-                      },
-                      undefined,
-                    ],
-                  ],
-                ]
-              }
-            >
-              Hyödynnä asiakasetuja
-            </Text>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "alignItems": "flex-start",
-                    "flexDirection": "row",
-                    "justifyContent": "flex-start",
-                    "width": "100%",
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "backgroundColor": "black",
-                      "borderRadius": 875,
-                      "height": 12.25,
-                      "marginRight": 35,
-                      "marginVertical": 7.875,
-                      "width": 12.25,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
-                    },
-                    Array [
-                      Object {
-                        "flexBasis": 0,
-                        "flexGrow": 1,
-                        "flexShrink": 1,
-                        "fontSize": 28,
-                        "fontWeight": "300",
-                        "lineHeight": 32,
-                      },
-                      undefined,
-                    ],
-                  ],
-                ]
-              }
-            >
-              Tallenna suosikki linjat, reitit ja paikat
-            </Text>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "alignItems": "flex-start",
-                    "flexDirection": "row",
-                    "justifyContent": "flex-start",
-                    "width": "100%",
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "backgroundColor": "black",
-                      "borderRadius": 875,
-                      "height": 12.25,
-                      "marginRight": 35,
-                      "marginVertical": 7.875,
-                      "width": 12.25,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
-                    },
-                    Array [
-                      Object {
-                        "flexBasis": 0,
-                        "flexGrow": 1,
-                        "flexShrink": 1,
-                        "fontSize": 28,
-                        "fontWeight": "300",
-                        "lineHeight": 32,
-                      },
-                      undefined,
-                    ],
-                  ],
-                ]
-              }
-            >
-              Ota kaupunkipyörät käyttöön
-            </Text>
-          </View>
-        </View>
-        <View
-          className={undefined}
-          large={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
@@ -387,484 +76,854 @@ exports[`Storyshots Footer default 1`] = `
               },
               Array [
                 Object {
-                  "backgroundColor": "#007ac9",
+                  "alignItems": "stretch",
                   "borderColor": "#007ac9",
-                  "borderRadius": 35,
                   "borderStyle": "solid",
-                  "borderWidth": 1,
-                  "height": 70,
-                  "width": "70%",
-                },
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "marginTop": 43.75,
-                      "width": "50%",
-                    },
-                    undefined,
-                  ],
-                ],
-              ],
-            ]
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {},
-                Array [
-                  Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  Array [
-                    Object {
-                      "color": "#ffffff",
-                      "fontSize": 26.25,
-                      "fontWeight": "500",
-                      "textAlign": "center",
-                    },
-                    undefined,
-                  ],
-                ],
-              ]
-            }
-          >
-            Luo tunnus
-          </Text>
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            Array [
-              Object {
-                "borderColor": "#ddd",
-                "borderStyle": "solid",
-                "borderTopWidth": 2,
-                "paddingVertical": 43.75,
-              },
-              undefined,
-            ],
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {},
-              Array [
-                Object {
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
-                },
-                Array [
-                  Object {
-                    "fontSize": 31.5,
-                    "fontWeight": "500",
-                    "letterSpacing": -0.4,
-                    "marginBottom": 35,
-                    "textAlign": "center",
-                  },
-                  undefined,
-                ],
-              ],
-            ]
-          }
-        >
-          Tykkää, seuraa ja keskustele
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "width": "70%",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            className={undefined}
-            large={undefined}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "backgroundColor": "#fff",
-                    "borderColor": "#b7b7b7",
-                    "borderRadius": 35,
-                    "borderStyle": "solid",
-                    "borderWidth": 1,
-                    "height": 39.375,
-                    "width": "70%",
-                  },
-                  Array [
-                    Object {},
-                    Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "borderColor": "#007ac9",
-                          "height": 70,
-                          "width": 70,
-                        },
-                        undefined,
-                      ],
-                    ],
-                  ],
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "height": 31.5,
-                    "justifyContent": "center",
-                    "width": 31.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Svg
-                height="36"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 17 33"
-                width="18"
-              >
-                <Path
-                  d="M16.7982286,11.9856261 L11.034563,11.9856261 L11.034563,8.26958518 C11.034563,6.58443921 11.5045179,5.43616736 13.920705,5.43616736 L17,5.43464647 L17,0.229147407 C16.4681955,0.158172546 14.6405928,0 12.5103331,0 C8.06629291,0 5.02603406,2.71276056 5.02603406,7.69367489 L5.02603406,11.9856261 L0,11.9856261 L0,17.8050577 L5.02603406,17.8050577 L5.02603406,32.7381684 L11.034563,32.7381684 L11.034563,17.8050577 L16.047416,17.8050577 L16.7982286,11.9856261 Z"
-                  fill="#007ac9"
-                />
-              </Svg>
-            </View>
-          </View>
-          <View
-            className={undefined}
-            large={undefined}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "backgroundColor": "#fff",
-                    "borderColor": "#b7b7b7",
-                    "borderRadius": 35,
-                    "borderStyle": "solid",
-                    "borderWidth": 1,
-                    "height": 39.375,
-                    "width": "70%",
-                  },
-                  Array [
-                    Object {},
-                    Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "borderColor": "#007ac9",
-                          "height": 70,
-                          "width": 70,
-                        },
-                        undefined,
-                      ],
-                    ],
-                  ],
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "height": 31.5,
-                    "justifyContent": "center",
-                    "width": 31.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Svg
-                height="27"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 37 30"
-                width="36"
-              >
-                <Path
-                  d="M32.378152,4.71583229 C33.932806,3.78362439 35.1287498,2.30933321 35.6890973,0.550119553 C34.2359927,1.41292326 32.6250848,2.04048328 30.9089748,2.3787374 C29.5347718,0.91394364 27.576843,0 25.4114322,0 C21.2530251,0 17.8807119,3.37158265 17.8807119,7.52998969 C17.8807119,8.12102119 17.9479244,8.69451899 18.0750436,9.24536912 C11.8177077,8.93268496 6.26975565,5.93515438 2.55480488,1.37712531 C1.90751946,2.49124525 1.5356591,3.78362439 1.5356591,5.16440255 C1.5356591,7.77546136 2.86456676,10.0818723 4.88459407,11.4312359 C3.65066057,11.3932463 2.48978411,11.0528004 1.47429118,10.4895306 L1.47429118,10.5845048 C1.47429118,14.232243 4.07073858,17.2757996 7.51391714,17.9676498 C6.88343483,18.1393338 6.21642401,18.2335774 5.52968778,18.2335774 C5.04605014,18.2335774 4.57264048,18.1846292 4.11384224,18.0962302 C5.0716201,21.0886468 7.85217126,23.2642856 11.147044,23.3271147 C8.57178316,25.3464114 5.32512805,26.5503915 1.79428104,26.5503915 C1.18790756,26.5503915 0.588839787,26.513863 0,26.4451894 C3.33213185,28.5799162 7.29036258,29.827 11.5444743,29.827 C25.394629,29.827 32.968453,18.3548521 32.968453,8.40302138 C32.968453,8.07718696 32.9596861,7.75281368 32.9472664,7.42697925 C34.415713,6.36765209 35.691289,5.04093615 36.7031291,3.53011644 C35.3523044,4.12991479 33.9006609,4.53465082 32.378152,4.71583229 Z"
-                  fill="#007ac9"
-                />
-              </Svg>
-            </View>
-          </View>
-          <View
-            className={undefined}
-            large={undefined}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Array [
-                  Object {
-                    "backgroundColor": "#fff",
-                    "borderColor": "#b7b7b7",
-                    "borderRadius": 35,
-                    "borderStyle": "solid",
-                    "borderWidth": 1,
-                    "height": 39.375,
-                    "width": "70%",
-                  },
-                  Array [
-                    Object {},
-                    Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "borderColor": "#007ac9",
-                          "height": 70,
-                          "width": 70,
-                        },
-                        undefined,
-                      ],
-                    ],
-                  ],
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "height": 31.5,
-                    "justifyContent": "center",
-                    "width": 31.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Svg
-                height="30"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 30 30"
-                width="30"
-              >
-                <Path
-                  d="M3.85199662,0 L26.1498167,0 C28.2683241,0 30,1.73288472 30,3.85139219 L30,26.1492122 C30,28.2671153 28.2683241,29.9981867 26.1498167,29.9981867 L3.85199662,29.9981867 C1.73348914,29.9981867 0,28.2671153 0,26.1492122 L0,3.85139219 C0,1.73288472 1.73348914,0 3.85199662,0 Z M21.854777,3.33219164 C21.1107305,3.33219164 20.5038885,3.94145142 20.5038885,4.684289 L20.5038885,7.91614619 C20.5038885,8.65958819 21.1107305,9.26763912 21.854777,9.26763912 L25.2455978,9.26763912 C25.9878309,9.26763912 26.5958819,8.65958819 26.5958819,7.91614619 L26.5958819,4.684289 C26.5958819,3.94145142 25.9878309,3.33219164 25.2455978,3.33219164 L21.854777,3.33219164 Z M26.6085748,12.6862634 L23.9690535,12.6862634 C24.2198896,13.5034452 24.3546762,14.3659588 24.3546762,15.2623202 C24.3546762,20.2506346 20.1787081,24.2960471 15.0284079,24.2960471 C9.8793166,24.2960471 5.70274409,20.2506346 5.70274409,15.2623202 C5.70274409,14.3659588 5.839344,13.5034452 6.08836685,12.6862634 L3.33521376,12.6862634 L3.33521376,25.359834 C3.33521376,26.0162389 3.87073377,26.5499456 4.52653423,26.5499456 L25.4172543,26.5499456 C26.0736592,26.5499456 26.6085748,26.0162389 26.6085748,25.359834 L26.6085748,12.6862634 Z M15.0284079,9.09719144 C11.7022605,9.09719144 9.00411009,11.7101181 9.00411009,14.935931 C9.00411009,18.1587218 11.7022605,20.7734617 15.0284079,20.7734617 C18.3563686,20.7734617 21.0539147,18.1587218 21.0539147,14.935931 C21.0539147,11.7101181 18.3563686,9.09719144 15.0284079,9.09719144 L15.0284079,9.09719144 Z"
-                  fill="#007ac9"
-                />
-              </Svg>
-            </View>
-          </View>
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            Array [
-              Object {
-                "borderColor": "#ddd",
-                "borderStyle": "solid",
-                "borderTopWidth": 2,
-                "paddingVertical": 43.75,
-              },
-              undefined,
-            ],
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {},
-              Array [
-                Object {
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
-                },
-                Array [
-                  Object {
-                    "fontSize": 31.5,
-                    "fontWeight": "500",
-                    "letterSpacing": -0.4,
-                    "marginBottom": 35,
-                    "textAlign": "center",
-                  },
-                  undefined,
-                ],
-              ],
-            ]
-          }
-        />
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "justifyContent": "center",
-              },
-              undefined,
-            ]
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 28,
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            Yhteystiedot
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 28,
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            Tietosuojalauseke
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 28,
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            Rekisteriseloste
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 28,
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          >
-            Tietoa sivustosta
-          </Text>
-        </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {},
-              Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 28,
-                  "marginTop": 43.75,
+                  "borderTopWidth": 4,
+                  "width": "100%",
                 },
                 undefined,
               ],
             ]
           }
         >
-          © Copyright HSL
-        </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Array [
+                  Object {
+                    "borderColor": "#ddd",
+                    "borderStyle": "solid",
+                    "borderTopWidth": 0,
+                    "paddingVertical": 43.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 31.5,
+                        "fontWeight": "500",
+                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            >
+              Ota HSL -tunnus käyttöön
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "width": "100%",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "black",
+                          "borderRadius": 875,
+                          "height": 12.25,
+                          "marginRight": 35,
+                          "marginVertical": 7.875,
+                          "width": 12.25,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {},
+                      Array [
+                        Object {
+                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                          "fontSize": 14,
+                        },
+                        Array [
+                          Object {
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "fontSize": 28,
+                            "fontWeight": "300",
+                            "lineHeight": 32,
+                          },
+                          undefined,
+                        ],
+                      ],
+                    ]
+                  }
+                >
+                  Lataa matkakorttia verkossa
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "width": "100%",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "black",
+                          "borderRadius": 875,
+                          "height": 12.25,
+                          "marginRight": 35,
+                          "marginVertical": 7.875,
+                          "width": 12.25,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {},
+                      Array [
+                        Object {
+                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                          "fontSize": 14,
+                        },
+                        Array [
+                          Object {
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "fontSize": 28,
+                            "fontWeight": "300",
+                            "lineHeight": 32,
+                          },
+                          undefined,
+                        ],
+                      ],
+                    ]
+                  }
+                >
+                  Hyödynnä asiakasetuja
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "width": "100%",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "black",
+                          "borderRadius": 875,
+                          "height": 12.25,
+                          "marginRight": 35,
+                          "marginVertical": 7.875,
+                          "width": 12.25,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {},
+                      Array [
+                        Object {
+                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                          "fontSize": 14,
+                        },
+                        Array [
+                          Object {
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "fontSize": 28,
+                            "fontWeight": "300",
+                            "lineHeight": 32,
+                          },
+                          undefined,
+                        ],
+                      ],
+                    ]
+                  }
+                >
+                  Tallenna suosikki linjat, reitit ja paikat
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "width": "100%",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "black",
+                          "borderRadius": 875,
+                          "height": 12.25,
+                          "marginRight": 35,
+                          "marginVertical": 7.875,
+                          "width": 12.25,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {},
+                      Array [
+                        Object {
+                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                          "fontSize": 14,
+                        },
+                        Array [
+                          Object {
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "fontSize": 28,
+                            "fontWeight": "300",
+                            "lineHeight": 32,
+                          },
+                          undefined,
+                        ],
+                      ],
+                    ]
+                  }
+                >
+                  Ota kaupunkipyörät käyttöön
+                </Text>
+              </View>
+            </View>
+            <View
+              className={undefined}
+              large={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Array [
+                    Object {
+                      "backgroundColor": "#007ac9",
+                      "borderColor": "#007ac9",
+                      "borderRadius": 35,
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "height": 70,
+                      "width": "70%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {
+                          "marginTop": 43.75,
+                          "width": "50%",
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ],
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
+                      Array [
+                        Object {
+                          "color": "#ffffff",
+                          "fontSize": 26.25,
+                          "fontWeight": "500",
+                          "textAlign": "center",
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+              >
+                Luo tunnus
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Array [
+                  Object {
+                    "borderColor": "#ddd",
+                    "borderStyle": "solid",
+                    "borderTopWidth": 2,
+                    "paddingVertical": 43.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 31.5,
+                        "fontWeight": "500",
+                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            >
+              Tykkää, seuraa ja keskustele
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "width": "70%",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                className={undefined}
+                large={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "#fff",
+                        "borderColor": "#b7b7b7",
+                        "borderRadius": 35,
+                        "borderStyle": "solid",
+                        "borderWidth": 1,
+                        "height": 39.375,
+                        "width": "70%",
+                      },
+                      Array [
+                        Object {},
+                        Array [
+                          Object {},
+                          Array [
+                            Object {
+                              "borderColor": "#007ac9",
+                              "height": 70,
+                              "width": 70,
+                            },
+                            undefined,
+                          ],
+                        ],
+                      ],
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 31.5,
+                        "justifyContent": "center",
+                        "width": 31.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Svg
+                    height="36"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 17 33"
+                    width="18"
+                  >
+                    <Path
+                      d="M16.7982286,11.9856261 L11.034563,11.9856261 L11.034563,8.26958518 C11.034563,6.58443921 11.5045179,5.43616736 13.920705,5.43616736 L17,5.43464647 L17,0.229147407 C16.4681955,0.158172546 14.6405928,0 12.5103331,0 C8.06629291,0 5.02603406,2.71276056 5.02603406,7.69367489 L5.02603406,11.9856261 L0,11.9856261 L0,17.8050577 L5.02603406,17.8050577 L5.02603406,32.7381684 L11.034563,32.7381684 L11.034563,17.8050577 L16.047416,17.8050577 L16.7982286,11.9856261 Z"
+                      fill="#007ac9"
+                    />
+                  </Svg>
+                </View>
+              </View>
+              <View
+                className={undefined}
+                large={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "#fff",
+                        "borderColor": "#b7b7b7",
+                        "borderRadius": 35,
+                        "borderStyle": "solid",
+                        "borderWidth": 1,
+                        "height": 39.375,
+                        "width": "70%",
+                      },
+                      Array [
+                        Object {},
+                        Array [
+                          Object {},
+                          Array [
+                            Object {
+                              "borderColor": "#007ac9",
+                              "height": 70,
+                              "width": 70,
+                            },
+                            undefined,
+                          ],
+                        ],
+                      ],
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 31.5,
+                        "justifyContent": "center",
+                        "width": 31.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Svg
+                    height="27"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 37 30"
+                    width="36"
+                  >
+                    <Path
+                      d="M32.378152,4.71583229 C33.932806,3.78362439 35.1287498,2.30933321 35.6890973,0.550119553 C34.2359927,1.41292326 32.6250848,2.04048328 30.9089748,2.3787374 C29.5347718,0.91394364 27.576843,0 25.4114322,0 C21.2530251,0 17.8807119,3.37158265 17.8807119,7.52998969 C17.8807119,8.12102119 17.9479244,8.69451899 18.0750436,9.24536912 C11.8177077,8.93268496 6.26975565,5.93515438 2.55480488,1.37712531 C1.90751946,2.49124525 1.5356591,3.78362439 1.5356591,5.16440255 C1.5356591,7.77546136 2.86456676,10.0818723 4.88459407,11.4312359 C3.65066057,11.3932463 2.48978411,11.0528004 1.47429118,10.4895306 L1.47429118,10.5845048 C1.47429118,14.232243 4.07073858,17.2757996 7.51391714,17.9676498 C6.88343483,18.1393338 6.21642401,18.2335774 5.52968778,18.2335774 C5.04605014,18.2335774 4.57264048,18.1846292 4.11384224,18.0962302 C5.0716201,21.0886468 7.85217126,23.2642856 11.147044,23.3271147 C8.57178316,25.3464114 5.32512805,26.5503915 1.79428104,26.5503915 C1.18790756,26.5503915 0.588839787,26.513863 0,26.4451894 C3.33213185,28.5799162 7.29036258,29.827 11.5444743,29.827 C25.394629,29.827 32.968453,18.3548521 32.968453,8.40302138 C32.968453,8.07718696 32.9596861,7.75281368 32.9472664,7.42697925 C34.415713,6.36765209 35.691289,5.04093615 36.7031291,3.53011644 C35.3523044,4.12991479 33.9006609,4.53465082 32.378152,4.71583229 Z"
+                      fill="#007ac9"
+                    />
+                  </Svg>
+                </View>
+              </View>
+              <View
+                className={undefined}
+                large={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "#fff",
+                        "borderColor": "#b7b7b7",
+                        "borderRadius": 35,
+                        "borderStyle": "solid",
+                        "borderWidth": 1,
+                        "height": 39.375,
+                        "width": "70%",
+                      },
+                      Array [
+                        Object {},
+                        Array [
+                          Object {},
+                          Array [
+                            Object {
+                              "borderColor": "#007ac9",
+                              "height": 70,
+                              "width": 70,
+                            },
+                            undefined,
+                          ],
+                        ],
+                      ],
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 31.5,
+                        "justifyContent": "center",
+                        "width": 31.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Svg
+                    height="30"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 30 30"
+                    width="30"
+                  >
+                    <Path
+                      d="M3.85199662,0 L26.1498167,0 C28.2683241,0 30,1.73288472 30,3.85139219 L30,26.1492122 C30,28.2671153 28.2683241,29.9981867 26.1498167,29.9981867 L3.85199662,29.9981867 C1.73348914,29.9981867 0,28.2671153 0,26.1492122 L0,3.85139219 C0,1.73288472 1.73348914,0 3.85199662,0 Z M21.854777,3.33219164 C21.1107305,3.33219164 20.5038885,3.94145142 20.5038885,4.684289 L20.5038885,7.91614619 C20.5038885,8.65958819 21.1107305,9.26763912 21.854777,9.26763912 L25.2455978,9.26763912 C25.9878309,9.26763912 26.5958819,8.65958819 26.5958819,7.91614619 L26.5958819,4.684289 C26.5958819,3.94145142 25.9878309,3.33219164 25.2455978,3.33219164 L21.854777,3.33219164 Z M26.6085748,12.6862634 L23.9690535,12.6862634 C24.2198896,13.5034452 24.3546762,14.3659588 24.3546762,15.2623202 C24.3546762,20.2506346 20.1787081,24.2960471 15.0284079,24.2960471 C9.8793166,24.2960471 5.70274409,20.2506346 5.70274409,15.2623202 C5.70274409,14.3659588 5.839344,13.5034452 6.08836685,12.6862634 L3.33521376,12.6862634 L3.33521376,25.359834 C3.33521376,26.0162389 3.87073377,26.5499456 4.52653423,26.5499456 L25.4172543,26.5499456 C26.0736592,26.5499456 26.6085748,26.0162389 26.6085748,25.359834 L26.6085748,12.6862634 Z M15.0284079,9.09719144 C11.7022605,9.09719144 9.00411009,11.7101181 9.00411009,14.935931 C9.00411009,18.1587218 11.7022605,20.7734617 15.0284079,20.7734617 C18.3563686,20.7734617 21.0539147,18.1587218 21.0539147,14.935931 C21.0539147,11.7101181 18.3563686,9.09719144 15.0284079,9.09719144 L15.0284079,9.09719144 Z"
+                      fill="#007ac9"
+                    />
+                  </Svg>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Array [
+                  Object {
+                    "borderColor": "#ddd",
+                    "borderStyle": "solid",
+                    "borderTopWidth": 2,
+                    "paddingVertical": 43.75,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 31.5,
+                        "fontWeight": "500",
+                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 28,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Yhteystiedot
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 28,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Tietosuojalauseke
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 28,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Rekisteriseloste
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 28,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Tietoa sivustosta
+              </Text>
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 28,
+                      "marginTop": 43.75,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              © Copyright HSL
+            </Text>
+          </View>
+        </View>
       </View>
     </View>
   </View>

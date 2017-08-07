@@ -14,17 +14,20 @@ class Mobile extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.onResize, true);
-    this.onResize();
+    if (Dimensions.addEventListener) {
+      Dimensions.addEventListener('change', this.onResize);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.onResize, true);
+    if (Dimensions.removeEventListener) {
+      Dimensions.removeEventListener('change', this.onResize);
+    }
   }
 
-  onResize() {
+  onResize({ window }) {
     this.setState({
-      width: Dimensions.get('window').width
+      width: window.width
     });
   }
 
