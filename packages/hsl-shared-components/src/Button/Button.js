@@ -65,7 +65,7 @@ const TouchableText = styled(({ primary, secondary, disabled, small, large, ...r
   `}
 `;
 
-const TouchableView = styled(({ primary, secondary, disabled, rounded, small, ...rest }) => (
+const TouchableView = styled(({ primary, secondary, disabled, rounded, small, large, ...rest }) => (
   <View {...rest} />
 ))`
   height: ${props => size('height', props.primary, props.large, props.small)};

@@ -13,7 +13,9 @@ const HorizontalView = View.extend`
   justify-content: space-between;
 `;
 
-const FlexWrapper = View.extend`
+const FlexWrapper = styled(({ flex, ...rest }) => (
+  <View {...rest} />
+))`
   flex: ${props => props.flex};
   align-items: stretch;
 `;
@@ -23,7 +25,7 @@ const Account = View.extend`
   padding-left: ${size(150)};
   flex-direction: row;
   align-items: stretch;
-  justify-content: start;
+  justify-content: flex-start;
 `;
 
 const AccountBtnTitle = View.extend`

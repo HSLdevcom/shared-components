@@ -402,7 +402,6 @@ exports[`Storyshots Footer default 1`] = `
             </View>
             <View
               className={undefined}
-              large={true}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
               onResponderRelease={[Function]}
@@ -530,7 +529,6 @@ exports[`Storyshots Footer default 1`] = `
             >
               <View
                 className={undefined}
-                large={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -603,7 +601,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 className={undefined}
-                large={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -676,7 +673,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 className={undefined}
-                large={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
