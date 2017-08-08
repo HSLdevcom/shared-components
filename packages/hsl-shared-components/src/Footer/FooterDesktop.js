@@ -13,11 +13,17 @@ const HorizontalView = View.extend`
   justify-content: space-between;
 `;
 
+const FlexWrapper = View.extend`
+  flex: ${props => props.flex};
+  align-items: stretch;
+`;
+
+
 const Account = View.extend`
-  flex: 2;
-  padding-horizontal: ${size(14)};
+  padding-left: ${size(150)};
   flex-direction: row;
   align-items: stretch;
+  justify-content: start;
 `;
 
 const AccountBtnTitle = View.extend`
@@ -56,8 +62,8 @@ const Info = View.extend`
 `;
 
 const InfoLinks = HorizontalView.extend`
-  justify-content: space-around;
-  flex: 2;
+  justify-content: space-between;
+  padding-horizontal: ${size(150)};
 `;
 
 const CopyrightText = Text.extend`
@@ -66,26 +72,27 @@ const CopyrightText = Text.extend`
   text-align: center;
 `;
 
-
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
     <HorizontalView>
       { account &&
-        <Account>
-          <AccountBtnTitle>
-            <H3>{account.title}</H3>
-            <StyledButton
-              primary
-              small
-              onPress={account.button.onPress}
-            >
-              {account.button.text}
-            </StyledButton>
-          </AccountBtnTitle>
-          <Benefits>
-            { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
-          </Benefits>
-        </Account>
+        <FlexWrapper flex="2">
+          <Account>
+            <AccountBtnTitle>
+              <H3>{account.title}</H3>
+              <StyledButton
+                primary
+                small
+                onPress={account.button.onPress}
+              >
+                {account.button.text}
+              </StyledButton>
+            </AccountBtnTitle>
+            <Benefits>
+              { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
+            </Benefits>
+          </Account>
+        </FlexWrapper>
       }
       { socialMedia &&
         <SocialMedia>
@@ -107,9 +114,11 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
       }
     </HorizontalView>
     <Info>
-      <InfoLinks>
-        { info.links }
-      </InfoLinks>
+      <FlexWrapper flex="2">
+        <InfoLinks>
+          { info.links }
+        </InfoLinks>
+      </FlexWrapper>
       <CopyrightText>{info.copyright}</CopyrightText>
     </Info>
   </View>
