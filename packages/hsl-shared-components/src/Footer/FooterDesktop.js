@@ -8,6 +8,8 @@ import Button, { RoundButton } from '../Button';
 import Text, { ListText, H3 } from '../Typography';
 import { size } from '../utils';
 
+const LEFT_PADDING = 150;
+
 const HorizontalView = View.extend`
   flex-direction: row;
   justify-content: space-between;
@@ -22,7 +24,7 @@ const FlexWrapper = styled(({ flex, ...rest }) => (
 
 
 const Account = View.extend`
-  padding-left: ${size(150)};
+  padding-left: ${size(LEFT_PADDING)};
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
@@ -41,23 +43,28 @@ const Benefits = View.extend`
   align-items: flex-start;
   justify-content: space-between;
   padding-top: ${size(6)};
-  margin-left: ${size(76)};
+  margin-horizontal: auto;
 `;
 
 const SocialMedia = View.extend`
   align-items: flex-start;
-  flex: 1;
-  padding-horizontal: ${size(14)};
+  padding-left: ${size(20)};
   border-style: solid;
   border-color: ${props => lighten(0.15, props.theme.default)};
   border-left-width: 1px;
+`;
+
+const StyledRoundButton = RoundButton.extend`
+  margin-horizontal: ${size(10)};
+  margin-bottom: ${size(20)};
+  margin-top: ${size(15)};
 `;
 
 const Info = View.extend`
   flex-direction: row;
   padding-top: ${size(20)};
   padding-bottom: ${size(64)}
-  margin-top: ${size(26)};
+  margin-top: ${size(35)};
   border-style: solid;
   border-color: ${props => lighten(0.15, props.theme.default)};
   border-top-width: 2px;
@@ -65,13 +72,12 @@ const Info = View.extend`
 
 const InfoLinks = HorizontalView.extend`
   justify-content: space-between;
-  padding-horizontal: ${size(150)};
+  padding-right: ${size(200)};
 `;
 
 const CopyrightText = Text.extend`
+  padding-left: ${size(LEFT_PADDING)};
   color: ${props => props.theme.primary};
-  flex: 1;
-  text-align: center;
 `;
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
@@ -97,31 +103,35 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         </FlexWrapper>
       }
       { socialMedia &&
-        <SocialMedia>
-          <H3>{socialMedia.title}</H3>
-          <HorizontalView>
-            { socialMedia.icons.map(SM => (
-              <RoundButton
-                key={SM.key}
-                onPress={SM.onPress}
-                onLongPress={SM.onLongPress}
-                small
-              >
-                {React.cloneElement(SM.icon)}
-              </RoundButton>)
-              )
-            }
-          </HorizontalView>
-        </SocialMedia>
+        <FlexWrapper flex="1">
+          <SocialMedia>
+            <H3>{socialMedia.title}</H3>
+            <HorizontalView>
+              { socialMedia.icons.map(SM => (
+                <StyledRoundButton
+                  key={SM.key}
+                  onPress={SM.onPress}
+                  onLongPress={SM.onLongPress}
+                  small
+                >
+                  {React.cloneElement(SM.icon)}
+                </StyledRoundButton>)
+                )
+              }
+            </HorizontalView>
+          </SocialMedia>
+        </FlexWrapper>
       }
     </HorizontalView>
     <Info>
+      <FlexWrapper flex="1">
+        <CopyrightText>{info.copyright}</CopyrightText>
+      </FlexWrapper>
       <FlexWrapper flex="2">
         <InfoLinks>
           { info.links }
         </InfoLinks>
       </FlexWrapper>
-      <CopyrightText>{info.copyright}</CopyrightText>
     </Info>
   </View>
 ))`
