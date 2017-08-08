@@ -6,38 +6,6 @@ exports[`Storyshots Footer default 1`] = `
 >
   <div
     className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-    theme={
-      Object {
-        "Media": Object {
-          "large": [Function],
-          "medium": [Function],
-          "small": [Function],
-        },
-        "activatableLineHeight": "4px",
-        "activatablePointerHeight": "0.6rem",
-        "background": "#007ac9",
-        "default": "#b7b7b7",
-        "fontFamily": "\\"Gotham Rounded SSm A, Gotham Rounded SSm B\\"",
-        "fontFamilyNarrow": "\\"Gotham XNarrow SSm A, Gotham XNarrow SSm B\\"",
-        "fontSize": "16px",
-        "fontWeight": "500",
-        "letterSpacing": "-0.5px",
-        "listItemMarker": "#62bae7",
-        "logoFill": "#ffffff",
-        "logoHeight": "4rem",
-        "md": "900px",
-        "primary": "#007ac9",
-        "primaryText": "#ffffff",
-        "radioBtnActive": "#0062a1",
-        "scrollNavHeight": "3.75rem",
-        "secondary": "#888888",
-        "sizes": Object {
-          "large": 1299,
-          "medium": 999,
-          "small": 869,
-        },
-      }
-    }
   >
     <div
       className="rn-alignItems-1oszu61 rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"

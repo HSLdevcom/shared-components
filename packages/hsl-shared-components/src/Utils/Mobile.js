@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Dimensions } from 'react-primitives';
 import { withTheme } from 'styled-components';
+import styled from 'styled-components/primitives';
+import _ from 'lodash';
 
 import View from '../View';
 import { IS_NATIVE } from '../utils';
@@ -34,7 +36,7 @@ class Mobile extends React.Component {
 
   render() {
     return (IS_NATIVE || this.state.width <= this.props.theme.sizes.small) &&
-    <View {...this.props} />;
+    <View {..._.omit(this.props, 'theme')} />;
   }
 }
 
@@ -48,4 +50,4 @@ Mobile.propTypes = {
 
 Mobile.displayName = 'Mobile';
 
-export default withTheme(Mobile);
+export default styled(withTheme(Mobile))``;

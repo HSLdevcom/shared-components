@@ -31,40 +31,11 @@ exports[`Storyshots Footer default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ]
-        }
-        theme={
-          Object {
-            "Media": Object {
-              "large": [Function],
-              "medium": [Function],
-              "small": [Function],
-            },
-            "activatableLineHeight": "4px",
-            "activatablePointerHeight": "0.6rem",
-            "background": "#007ac9",
-            "default": "#b7b7b7",
-            "fontFamily": "\\"Gotham Rounded SSm A, Gotham Rounded SSm B\\"",
-            "fontFamilyNarrow": "\\"Gotham XNarrow SSm A, Gotham XNarrow SSm B\\"",
-            "fontSize": "16px",
-            "fontWeight": "500",
-            "letterSpacing": "-0.5px",
-            "listItemMarker": "#62bae7",
-            "logoFill": "#ffffff",
-            "logoHeight": "4rem",
-            "md": "900px",
-            "primary": "#007ac9",
-            "primaryText": "#ffffff",
-            "radioBtnActive": "#0062a1",
-            "scrollNavHeight": "3.75rem",
-            "secondary": "#888888",
-            "sizes": Object {
-              "large": 1299,
-              "medium": 999,
-              "small": 869,
-            },
-          }
         }
       >
         <View
