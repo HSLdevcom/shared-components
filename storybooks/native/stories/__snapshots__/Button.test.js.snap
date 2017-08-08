@@ -199,8 +199,8 @@ exports[`Storyshots Button round button 1`] = `
               Array [
                 Object {
                   "borderColor": "#007ac9",
-                  "height": 70,
-                  "width": 70,
+                  "height": 52.5,
+                  "width": 52.5,
                 },
                 undefined,
               ],
@@ -215,11 +215,15 @@ exports[`Storyshots Button round button 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "height": 31.5,
             "justifyContent": "center",
-            "width": 31.5,
           },
-          undefined,
+          Array [
+            Object {
+              "height": 21.875,
+              "width": 21.875,
+            },
+            undefined,
+          ],
         ]
       }
     >

@@ -18,7 +18,9 @@ exports[`Storyshots Footer default 1`] = `
             "justifyContent": "center",
           },
           Array [
-            Object {},
+            Object {
+              "width": "100%",
+            },
             undefined,
           ],
         ]
@@ -574,11 +576,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
-                        "height": 31.5,
                         "justifyContent": "center",
-                        "width": 31.5,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "height": 31.5,
+                          "width": 31.5,
+                        },
+                        undefined,
+                      ],
                     ]
                   }
                 >
@@ -643,11 +649,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
-                        "height": 31.5,
                         "justifyContent": "center",
-                        "width": 31.5,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "height": 31.5,
+                          "width": 31.5,
+                        },
+                        undefined,
+                      ],
                     ]
                   }
                 >
@@ -712,11 +722,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
-                        "height": 31.5,
                         "justifyContent": "center",
-                        "width": 31.5,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "height": 31.5,
+                          "width": 31.5,
+                        },
+                        undefined,
+                      ],
                     ]
                   }
                 >

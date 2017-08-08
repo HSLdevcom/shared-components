@@ -8,6 +8,10 @@ import { Mobile, Desktop } from '../utils';
 import FooterMobile from './FooterMobile';
 import FooterDesktop from './FooterDesktop';
 
+const StyledDesktop = Desktop.extend`
+  width: 100%;
+`;
+
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
     <Mobile>
@@ -17,15 +21,16 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         info={info}
       />
     </Mobile>
-    <Desktop>
+    <StyledDesktop>
       <FooterDesktop
         account={account}
         socialMedia={socialMedia}
         info={info}
       />
-    </Desktop>
+    </StyledDesktop>
   </View>
 ))`
+  width: 100%;
 `;
 
 Footer.propTypes = {

@@ -54,6 +54,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
               key={SM.key}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
+              large
             >
               {React.cloneElement(SM.icon)}
             </RoundButton>)

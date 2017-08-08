@@ -1,31 +1,69 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
-import Text, { ListText } from '../Typography';
+import Text, { ListText, H3 } from '../Typography';
 import { size } from '../utils';
-import DesktopContainer from './DesktopContainer';
-
-const StyledButton = Button.extend`
-  margin-top: ${size(21)};
-  width: 50%;
-`;
 
 const HorizontalView = View.extend`
   flex-direction: row;
   justify-content: space-between;
 `;
 
-const FlexStart = View.extend`
+const Account = View.extend`
+  flex: 2;
+  padding-horizontal: ${size(14)};
+  flex-direction: row;
+  align-items: stretch;
+`;
+
+const AccountBtnTitle = View.extend`
   align-items: flex-start;
-  width: 100%;
+`;
+
+const StyledButton = Button.extend`
+  margin-top: ${size(21)};
+  width: 50%;
+`;
+
+const Benefits = View.extend`
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: ${size(6)};
+  margin-left: ${size(76)};
+`;
+
+const SocialMedia = View.extend`
+  align-items: flex-start;
+  flex: 1;
+  padding-horizontal: ${size(14)};
+  border-style: solid;
+  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-left-width: 1px;
+`;
+
+const Info = View.extend`
+  flex-direction: row;
+  padding-top: ${size(20)};
+  padding-bottom: ${size(64)}
+  margin-top: ${size(26)};
+  border-style: solid;
+  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-top-width: 2px;
+`;
+
+const InfoLinks = HorizontalView.extend`
+  justify-content: space-around;
+  flex: 2;
 `;
 
 const CopyrightText = Text.extend`
   color: ${props => props.theme.primary};
-  margin-top: ${size(50)};
+  flex: 1;
+  text-align: center;
 `;
 
 
@@ -33,43 +71,47 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
     <HorizontalView>
       { account &&
-        <DesktopContainer title={account.title}>
-          <HorizontalView>
+        <Account>
+          <AccountBtnTitle>
+            <H3>{account.title}</H3>
             <StyledButton
               primary
+              small
               onPress={account.button.onPress}
             >
               {account.button.text}
             </StyledButton>
-            <FlexStart>
-              { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
-            </FlexStart>
-          </HorizontalView>
-        </DesktopContainer>
+          </AccountBtnTitle>
+          <Benefits>
+            { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
+          </Benefits>
+        </Account>
       }
       { socialMedia &&
-        <DesktopContainer title={socialMedia.title}>
+        <SocialMedia>
+          <H3>{socialMedia.title}</H3>
           <HorizontalView>
             { socialMedia.icons.map(SM => (
               <RoundButton
                 key={SM.key}
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
+                small
               >
                 {React.cloneElement(SM.icon)}
               </RoundButton>)
               )
             }
           </HorizontalView>
-        </DesktopContainer>
+        </SocialMedia>
       }
     </HorizontalView>
-    <DesktopContainer border={!!account || !!socialMedia}>
-      <HorizontalView>
+    <Info>
+      <InfoLinks>
         { info.links }
-        <CopyrightText>{info.copyright}</CopyrightText>
-      </HorizontalView>
-    </DesktopContainer>
+      </InfoLinks>
+      <CopyrightText>{info.copyright}</CopyrightText>
+    </Info>
   </View>
 ))`
   width: 100%;
@@ -77,6 +119,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
+  padding-top: ${size(36)};
 `;
 
 Footer.propTypes = {

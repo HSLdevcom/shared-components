@@ -75,6 +75,15 @@ stories.addWithJSX('secondary', () => {
 }
 , { displayName: 'Button' });
 
-stories.addWithJSX('round button', () => (
-  <RoundButton><Icons.Facebook height="36px" width="18px" fill="#007ac9" /></RoundButton>
-), { displayName: 'SocialMediaButton' });
+stories.addWithJSX('round button', () => {
+  const small = boolean('Small', false);
+  const large = boolean('Large', false);
+  return (
+    <RoundButton
+      small={small}
+      large={large}
+    >
+      <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
+    </RoundButton>
+  );
+}, { displayName: 'RoundButton' });
