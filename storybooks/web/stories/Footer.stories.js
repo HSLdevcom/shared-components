@@ -53,6 +53,18 @@ stories.addWithJSX('default', () => {
         onPress: () => {},
         onLongPress: () => {},
         key: 'instagram'
+      },
+      {
+        icon: <Icons.Linkedin height="30px" width="36px" fill="#007ac9" />,
+        onPress: () => {},
+        onLongPress: () => {},
+        key: 'linkedin'
+      },
+      {
+        icon: <Icons.Youtube height="34px" width="34px" fill="#007ac9" />,
+        onPress: () => {},
+        onLongPress: () => {},
+        key: 'youtube'
       }
     ]
   };
