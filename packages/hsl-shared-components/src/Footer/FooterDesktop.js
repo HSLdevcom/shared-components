@@ -18,9 +18,9 @@ const HorizontalView = View.extend`
 const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   <HorizontalView {...rest} />
 ))`
+  align-items: stretch;
   ${props => (props.theme.sizes.large >= props.width) && `
     flex-direction: column;
-    align-items: stretch;
   `};
 `);
 
@@ -32,7 +32,9 @@ const Account = WindowSize(styled(({ width, ...rest }) => (
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  margin-top: ${size(36)};
   ${props => (props.theme.sizes.large >= props.width) && `
+    margin-top: ${size(26)};
     flex: 1;
     flex-basis: 0%;
   `};
@@ -40,6 +42,7 @@ const Account = WindowSize(styled(({ width, ...rest }) => (
 
 const AccountBtnTitle = View.extend`
   align-items: flex-start;
+  justify-content: flex-start;
 `;
 
 const StyledButton = Button.extend`
@@ -64,7 +67,11 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   border-style: solid;
   border-color: ${props => lighten(0.15, props.theme.default)};
   border-top-width: 2px;
+  padding-top: ${size(26)};
+  margin-top: ${size(40)};
   ${props => (props.width > props.theme.sizes.large) && `
+    padding-top: 0;
+    margin-top: ${size(36)};
     align-items: flex-start;
     border-left-width: 1px;
     border-top-width: 0px;
@@ -98,6 +105,9 @@ const CopyrightText = Text.extend`
   padding-left: ${size(LEFT_PADDING)};
   color: ${props => props.theme.primary};
   flex: 1;
+`;
+const LinkWrapper = View.extend`
+  padding-horizontal: ${size(10)};
 `;
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
@@ -142,7 +152,11 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     <Info>
       <CopyrightText>{info.copyright}</CopyrightText>
       <InfoLinks>
-        { info.links }
+        {
+          info.links.map(link => (
+            <LinkWrapper>{ link }</LinkWrapper>
+          ))
+        }
       </InfoLinks>
     </Info>
   </View>
@@ -152,7 +166,6 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
-  padding-top: ${size(36)};
 `;
 
 Footer.propTypes = {
