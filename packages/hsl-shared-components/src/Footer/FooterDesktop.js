@@ -15,13 +15,6 @@ const HorizontalView = View.extend`
   justify-content: flex-start;
 `;
 
-const FlexWrapper = styled(({ flex, ...rest }) => (
-  <View {...rest} />
-))`
-  flex: ${props => props.flex};
-  align-items: stretch;
-`;
-
 const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   <HorizontalView {...rest} />
 ))`
@@ -31,21 +24,19 @@ const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   `};
 `);
 
-const AccountFlexWrapper = WindowSize(styled(({ width, flex, ...rest }) => (
-  <FlexWrapper flex={flex} {...rest} />
+const Account = WindowSize(styled(({ width, ...rest }) => (
+  <View {...rest} />
 ))`
+  flex: 2;
+  padding-left: ${size(LEFT_PADDING)};
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
   ${props => (props.theme.sizes.large >= props.width) && `
     flex: 1;
     flex-basis: 0%;
   `};
 `);
-
-const Account = View.extend`
-  padding-left: ${size(LEFT_PADDING)};
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
-`;
 
 const AccountBtnTitle = View.extend`
   align-items: flex-start;
@@ -66,6 +57,8 @@ const Benefits = View.extend`
 const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   <View {...rest} />
 ))`
+  flex: 1;
+  flex-basis: 0%;
   align-items: center;
   padding-left: ${size(20)};
   border-style: solid;
@@ -98,65 +91,59 @@ const InfoLinks = HorizontalView.extend`
   justify-content: space-between;
   padding-right: ${size(200)};
   flex-wrap: wrap;
+  flex: 2;
 `;
 
 const CopyrightText = Text.extend`
   padding-left: ${size(LEFT_PADDING)};
   color: ${props => props.theme.primary};
+  flex: 1;
 `;
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
     <AccountSMWrapper>
       { account &&
-        <AccountFlexWrapper flex="2">
-          <Account>
-            <AccountBtnTitle>
-              <H3>{account.title}</H3>
-              <StyledButton
-                primary
-                small
-                onPress={account.button.onPress}
-              >
-                {account.button.text}
-              </StyledButton>
-            </AccountBtnTitle>
-            <Benefits>
-              { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
-            </Benefits>
-          </Account>
-        </AccountFlexWrapper>
+        <Account>
+          <AccountBtnTitle>
+            <H3>{account.title}</H3>
+            <StyledButton
+              primary
+              small
+              onPress={account.button.onPress}
+            >
+              {account.button.text}
+            </StyledButton>
+          </AccountBtnTitle>
+          <Benefits>
+            { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
+          </Benefits>
+        </Account>
       }
       { socialMedia &&
-        <AccountFlexWrapper flex="1">
-          <SocialMedia>
-            <H3>{socialMedia.title}</H3>
-            <HorizontalView>
-              { socialMedia.icons.map(SM => (
-                <StyledRoundButton
-                  key={SM.key}
-                  onPress={SM.onPress}
-                  onLongPress={SM.onLongPress}
-                  small
-                >
-                  {React.cloneElement(SM.icon)}
-                </StyledRoundButton>)
-                )
-              }
-            </HorizontalView>
-          </SocialMedia>
-        </AccountFlexWrapper>
+        <SocialMedia>
+          <H3>{socialMedia.title}</H3>
+          <HorizontalView>
+            { socialMedia.icons.map(SM => (
+              <StyledRoundButton
+                key={SM.key}
+                onPress={SM.onPress}
+                onLongPress={SM.onLongPress}
+                small
+              >
+                {React.cloneElement(SM.icon)}
+              </StyledRoundButton>)
+              )
+            }
+          </HorizontalView>
+        </SocialMedia>
       }
     </AccountSMWrapper>
     <Info>
-      <FlexWrapper flex="1">
-        <CopyrightText>{info.copyright}</CopyrightText>
-      </FlexWrapper>
-      <FlexWrapper flex="2">
-        <InfoLinks>
-          { info.links }
-        </InfoLinks>
-      </FlexWrapper>
+      <CopyrightText>{info.copyright}</CopyrightText>
+      <InfoLinks>
+        { info.links }
+      </InfoLinks>
     </Info>
   </View>
 ))`
