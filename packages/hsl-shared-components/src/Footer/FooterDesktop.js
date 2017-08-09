@@ -6,13 +6,13 @@ import { lighten } from 'polished';
 import View from '../View';
 import Button, { RoundButton } from '../Button';
 import Text, { ListText, H3 } from '../Typography';
-import { size } from '../utils';
+import { size, WindowSize } from '../utils';
 
 const LEFT_PADDING = 150;
 
 const HorizontalView = View.extend`
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 `;
 
 const FlexWrapper = styled(({ flex, ...rest }) => (
@@ -22,6 +22,23 @@ const FlexWrapper = styled(({ flex, ...rest }) => (
   align-items: stretch;
 `;
 
+const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
+  <HorizontalView {...rest} />
+))`
+  ${props => (props.theme.sizes.large >= props.width) && `
+    flex-direction: column;
+    align-items: stretch;
+  `};
+`);
+
+const AccountFlexWrapper = WindowSize(styled(({ width, flex, ...rest }) => (
+  <FlexWrapper flex={flex} {...rest} />
+))`
+  ${props => (props.theme.sizes.large >= props.width) && `
+    flex: 1;
+    flex-basis: 0%;
+  `};
+`);
 
 const Account = View.extend`
   padding-left: ${size(LEFT_PADDING)};
@@ -46,13 +63,20 @@ const Benefits = View.extend`
   margin-horizontal: auto;
 `;
 
-const SocialMedia = View.extend`
-  align-items: flex-start;
+const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
+  <View {...rest} />
+))`
+  align-items: center;
   padding-left: ${size(20)};
   border-style: solid;
   border-color: ${props => lighten(0.15, props.theme.default)};
-  border-left-width: 1px;
-`;
+  border-top-width: 2px;
+  ${props => (props.width > props.theme.sizes.large) && `
+    align-items: flex-start;
+    border-left-width: 1px;
+    border-top-width: 0px;
+  `};
+`);
 
 const StyledRoundButton = RoundButton.extend`
   margin-horizontal: ${size(10)};
@@ -82,9 +106,9 @@ const CopyrightText = Text.extend`
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
-    <HorizontalView>
+    <AccountSMWrapper>
       { account &&
-        <FlexWrapper flex="2">
+        <AccountFlexWrapper flex="2">
           <Account>
             <AccountBtnTitle>
               <H3>{account.title}</H3>
@@ -100,10 +124,10 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
               { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
             </Benefits>
           </Account>
-        </FlexWrapper>
+        </AccountFlexWrapper>
       }
       { socialMedia &&
-        <FlexWrapper flex="1">
+        <AccountFlexWrapper flex="1">
           <SocialMedia>
             <H3>{socialMedia.title}</H3>
             <HorizontalView>
@@ -120,9 +144,9 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
               }
             </HorizontalView>
           </SocialMedia>
-        </FlexWrapper>
+        </AccountFlexWrapper>
       }
-    </HorizontalView>
+    </AccountSMWrapper>
     <Info>
       <FlexWrapper flex="1">
         <CopyrightText>{info.copyright}</CopyrightText>
