@@ -134,9 +134,10 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         <SocialMedia>
           <H3>{socialMedia.title}</H3>
           <HorizontalView>
-            { socialMedia.icons.map(SM => (
+            {/* eslint-disable react/no-array-index-key */}
+            { socialMedia.icons.map((SM, index) => (
               <StyledRoundButton
-                key={SM.key}
+                key={index}
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
                 small
@@ -153,8 +154,8 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
       <CopyrightText>{info.copyright}</CopyrightText>
       <InfoLinks>
         {
-          info.links.map(link => (
-            <LinkWrapper>{ link }</LinkWrapper>
+          info.links.map((link, index) => (
+            <LinkWrapper key={index}>{ link }</LinkWrapper>
           ))
         }
       </InfoLinks>

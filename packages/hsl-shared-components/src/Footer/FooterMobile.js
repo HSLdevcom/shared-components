@@ -48,10 +48,11 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     }
     { socialMedia &&
       <MobileContainer border={!!account} title={socialMedia.title}>
+        {/* eslint-disable react/no-array-index-key */}
         <HorizontalView>
-          { socialMedia.icons.map(SM => (
+          { socialMedia.icons.map((SM, index) => (
             <RoundButton
-              key={SM.key}
+              key={index}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
             >
@@ -64,7 +65,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     }
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
-        { info.links.map(link => React.cloneElement(link, { size: 2 })) }
+        { info.links.map((link, index) => React.cloneElement(link, { size: 2, key: index })) }
       </View>
       <CopyrightText size={2}>{info.copyright}</CopyrightText>
     </MobileContainer>
