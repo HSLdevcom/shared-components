@@ -31,3 +31,4 @@ Icon.propTypes = {
     outer: PropTypes.string
   })
 };
+Icon.displayName = 'Icon.CardWithCheckmark';

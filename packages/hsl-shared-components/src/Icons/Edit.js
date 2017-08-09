@@ -22,3 +22,4 @@ Icon.propTypes = {
   fill: PropTypes.string
 };
 
+Icon.displayName = 'Icon.Edit';

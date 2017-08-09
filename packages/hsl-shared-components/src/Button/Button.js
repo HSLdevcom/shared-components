@@ -5,18 +5,56 @@ import { darken, lighten } from 'polished';
 import Text from '../Typography';
 import View from '../View';
 import Touchable from '../Touchable';
-import { size } from '../utils';
+import { size as utilsSize } from '../utils';
 
-const TouchableText = styled(({ primary, secondary, disabled, small, ...rest }) => (
+const sizeMap = {
+  fontSize: {
+    primary: {
+      large: utilsSize(30),
+      default: utilsSize(18),
+      small: utilsSize(16)
+    },
+    default: {
+      large: utilsSize(24),
+      default: utilsSize(16),
+      small: utilsSize(14)
+    }
+  },
+  height: {
+    primary: {
+      large: utilsSize(80),
+      default: utilsSize(50),
+      small: utilsSize(45)
+    },
+    default: {
+      large: utilsSize(50),
+      default: utilsSize(45),
+      small: utilsSize(36)
+    }
+  }
+};
+
+function size(kind, primary, large, small) {
+  const map = primary ? sizeMap[kind].primary : sizeMap[kind].default;
+  if (large) {
+    return map.large;
+  }
+  if (small) {
+    return map.small;
+  }
+  return map.default;
+}
+
+
+const TouchableText = styled(({ primary, secondary, disabled, small, large, ...rest }) => (
   <Text {...rest} />
 ))`
-  font-size: ${props => (props.small ? size(14) : size(16))};
+  font-size: ${props => size('fontSize', props.primary, props.large, props.small)};
   font-weight: 500;
   text-align: center;
   color: ${props => props.theme.primary};
 
   ${props => props.primary && `
-    font-size: ${props.small ? size(16) : size(18)};
     color: ${props.theme.primaryText};
   `}
   ${props => props.secondary && `
@@ -30,18 +68,17 @@ const TouchableText = styled(({ primary, secondary, disabled, small, ...rest }) 
 const TouchableView = styled(({ primary, secondary, disabled, rounded, small, ...rest }) => (
   <View {...rest} />
 ))`
-  height: ${props => (props.small ? size(36) : size(45))};
-  border-radius: ${props => (props.rounded ? size(40) : size(4))};
+  height: ${props => size('height', props.primary, props.large, props.small)};
+  border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
   border-style: solid;
   border-width: 1px;
   width: 70%;
   border-color: ${props => props.theme.default};
   background-color: #fff;
   ${props => props.primary && `
-    border-radius: ${size(40)};
+    border-radius: ${utilsSize(40)};
     border-color: ${props.theme.primary};
     background-color: ${props.theme.primary};
-    height: ${props.small ? size(45) : size(50)};
   `}
   ${props => props.secondary && `
     border-color: ${darken(0.2, props.theme.default)};
@@ -62,6 +99,7 @@ const Button = styled(({
   disabled,
   rounded,
   small,
+  large,
   onPress,
   onLongPress,
   className,
@@ -74,6 +112,7 @@ const Button = styled(({
         disabled={disabled}
         rounded={rounded}
         small={small}
+        large={large}
         className={className}
         style={style}
       >
@@ -85,6 +124,7 @@ const Button = styled(({
               secondary={secondary}
               disabled={disabled}
               small={small}
+              large={large}
             >
               {children}
             </TouchableText>)
@@ -99,6 +139,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   rounded: PropTypes.bool,
   small: PropTypes.bool,
+  large: PropTypes.bool,
   className: PropTypes.string,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,

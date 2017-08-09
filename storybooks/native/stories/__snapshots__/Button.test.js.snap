@@ -13,6 +13,7 @@ exports[`Storyshots Button default 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -52,18 +53,21 @@ exports[`Storyshots Button default 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#007ac9",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
               "fontSize": 14,
-              "fontWeight": "500",
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }
@@ -87,6 +91,7 @@ exports[`Storyshots Button primary 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -126,24 +131,110 @@ exports[`Storyshots Button primary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#ffffff",
-              "fontSize": 15.75,
-              "fontWeight": "500",
-              "textAlign": "center",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontSize": 14,
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 15.75,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }
     >
       Primary Button
     </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button round button 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    className={undefined}
+    large={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#b7b7b7",
+            "borderRadius": 35,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 39.375,
+            "width": "70%",
+          },
+          Array [
+            Object {},
+            Array [
+              Object {},
+              Array [
+                Object {
+                  "borderColor": "#007ac9",
+                  "height": 70,
+                  "width": 70,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 31.5,
+            "justifyContent": "center",
+            "width": 31.5,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Svg
+        height="36"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 17 33"
+        width="18"
+      >
+        <Path
+          d="M16.7982286,11.9856261 L11.034563,11.9856261 L11.034563,8.26958518 C11.034563,6.58443921 11.5045179,5.43616736 13.920705,5.43616736 L17,5.43464647 L17,0.229147407 C16.4681955,0.158172546 14.6405928,0 12.5103331,0 C8.06629291,0 5.02603406,2.71276056 5.02603406,7.69367489 L5.02603406,11.9856261 L0,11.9856261 L0,17.8050577 L5.02603406,17.8050577 L5.02603406,32.7381684 L11.034563,32.7381684 L11.034563,17.8050577 L16.047416,17.8050577 L16.7982286,11.9856261 Z"
+          fill="#007ac9"
+        />
+      </Svg>
+    </View>
   </View>
 </View>
 `;
@@ -161,6 +252,7 @@ exports[`Storyshots Button secondary 1`] = `
 >
   <View
     className={undefined}
+    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -200,18 +292,21 @@ exports[`Storyshots Button secondary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-            "fontSize": 14,
-          },
+          Object {},
           Array [
             Object {
-              "color": "#848484",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
               "fontSize": 14,
-              "fontWeight": "500",
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#848484",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ],
         ]
       }

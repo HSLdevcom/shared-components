@@ -45,8 +45,8 @@
     "lint:tight": "esw src/ --color --max-warnings 0",
     "lint:watch": "esw src/ -w --color",
     "test": "jest --testPathPattern=stories",
-    "storybook": "start-storybook -c storybook -s ./static -p 6006",
-    "build-storybook": "build-storybook -c storybook -s ./static",
+    "storybook": "start-storybook -c storybook -p 6006",
+    "build-storybook": "build-storybook -c storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "test-update": "jest --testPathPattern=stories -u",
     "es-lint": "eslint ."

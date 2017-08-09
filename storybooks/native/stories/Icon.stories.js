@@ -123,4 +123,24 @@ storiesOf('Icons', module)
   .add('TravelCard', () => {
     const fill = color('fill', '#d1d1d1');
     return (<Icons.TravelCard fill={fill} height="200" width="200" />);
-  }, { displayName: 'TravelCard' });
+  }, { displayName: 'TravelCard' })
+  .add('Youtube', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Youtube fill={fill} height="200" width="200" />);
+  }, { displayName: 'Youtube' })
+  .add('Twitter', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Twitter fill={fill} height="200" width="200" />);
+  }, { displayName: 'Twitter' })
+  .add('Facebook', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Facebook fill={fill} height="200" width="200" />);
+  }, { displayName: 'Facebook' })
+  .add('Instagram', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Instagram fill={fill} height="200" width="200" />);
+  }, { displayName: 'Instagram' })
+  .add('Linkedin', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Linkedin fill={fill} height="200" width="200" />);
+  }, { displayName: 'Linkedin' });

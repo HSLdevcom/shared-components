@@ -1,411 +1,428 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots NewsFeed News feed 1`] = `
-<View
+<RCTScrollView
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
-      "flex": 1,
-      "justifyContent": "center",
-    }
+    Array [
+      Object {},
+      undefined,
+    ]
   }
 >
-  <View
-    className="sc-dnqmqq bDsesi"
-    style={
-      Array [
-        Object {
-          "alignItems": "stretch",
-          "flexBasis": 0,
-          "flexDirection": "column",
-          "flexGrow": 1,
-          "flexShrink": 1,
-          "justifyContent": "flex-start",
-          "width": "100%",
-        },
-        undefined,
-      ]
-    }
-  >
+  <View>
     <View
+      className="sc-dnqmqq bDsesi"
       style={
         Array [
           Object {
-            "alignItems": "center",
+            "alignItems": "stretch",
+            "flexBasis": 0,
             "flexDirection": "column",
-            "justifyContent": "center",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "flex-start",
+            "width": "100%",
           },
           undefined,
         ]
       }
     >
       <View
-        className={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
-              "borderBottomColor": "#dddddd",
-              "borderBottomWidth": 1,
-              "borderStyle": "solid",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "paddingBottom": 15,
-              "paddingLeft": 15,
-              "paddingRight": 15,
-              "paddingTop": 15,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "alignSelf": "stretch",
-                "flexDirection": "column",
-                "justifyContent": "center",
-                "width": "55%",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "flexDirection": "row",
-                  "justifyContent": "space-between",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                    "fontWeight": "500",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              EXAMPLE
-               — 
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              Today at 2:00 PM
-            </Text>
-          </View>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 21,
-                  "fontWeight": "500",
-                  "letterSpacing": -0.4,
-                },
-                undefined,
-              ]
-            }
-          >
-            example example example example
-          </Text>
-        </View>
-        <Image
-          alt="news image"
-          source={
-            Object {
-              "uri": "https://placehold.it/500x500",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 80,
-                "marginLeft": 30,
-                "width": "30%",
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-      <View
-        className={undefined}
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "borderBottomColor": "#dddddd",
-              "borderBottomWidth": 1,
-              "borderStyle": "solid",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "paddingBottom": 15,
-              "paddingLeft": 15,
-              "paddingRight": 15,
-              "paddingTop": 15,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "alignSelf": "stretch",
-                "flexDirection": "column",
-                "justifyContent": "center",
-                "width": "55%",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "flexDirection": "row",
-                  "justifyContent": "space-between",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                    "fontWeight": "500",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              EXAMPLE
-               — 
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              Yesterday at 2:00 PM
-            </Text>
-          </View>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 21,
-                  "fontWeight": "500",
-                  "letterSpacing": -0.4,
-                },
-                undefined,
-              ]
-            }
-          >
-            example example example example
-          </Text>
-        </View>
-        <Image
-          alt="news image"
-          source={
-            Object {
-              "uri": "https://placehold.it/500x500",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 80,
-                "marginLeft": 30,
-                "width": "30%",
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#eef1f3",
-            "justifyContent": "center",
-            "paddingBottom": 25,
-            "paddingLeft": 50,
-            "paddingRight": 50,
-            "paddingTop": 25,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        className={undefined}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
+              "flexDirection": "column",
               "justifyContent": "center",
             },
+            undefined,
+          ]
+        }
+      >
+        <View
+          className={undefined}
+          style={
             Array [
               Object {
-                "backgroundColor": "#fff",
-                "borderColor": "#b7b7b7",
-                "borderRadius": 35,
+                "alignItems": "center",
+                "borderBottomColor": "#dddddd",
+                "borderBottomWidth": 1,
                 "borderStyle": "solid",
-                "borderWidth": 1,
-                "height": 39.375,
-                "width": "70%",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 15,
               },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "width": "55%",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#888888",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                EXAMPLE
+                 — 
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#888888",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Today at 2:00 PM
+              </Text>
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontSize": 21,
+                        "fontWeight": "500",
+                        "letterSpacing": -0.4,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            >
+              example example example example
+            </Text>
+          </View>
+          <Image
+            alt="news image"
+            source={
+              Object {
+                "uri": "https://placehold.it/500x500",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 80,
+                  "marginLeft": 30,
+                  "width": "30%",
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+        <View
+          className={undefined}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#dddddd",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 15,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "width": "55%",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#888888",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                EXAMPLE
+                 — 
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {},
+                    Array [
+                      Object {
+                        "color": "#888888",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Yesterday at 2:00 PM
+              </Text>
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {},
+                  Array [
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "fontSize": 21,
+                        "fontWeight": "500",
+                        "letterSpacing": -0.4,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            >
+              example example example example
+            </Text>
+          </View>
+          <Image
+            alt="news image"
+            source={
+              Object {
+                "uri": "https://placehold.it/500x500",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 80,
+                  "marginLeft": 30,
+                  "width": "30%",
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#eef1f3",
+              "justifyContent": "center",
+              "paddingBottom": 25,
+              "paddingLeft": 50,
+              "paddingRight": 50,
+              "paddingTop": 25,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          className={undefined}
+          large={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#b7b7b7",
+                  "borderRadius": 35,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 39.375,
+                  "width": "70%",
+                },
+                Array [
+                  Object {},
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
+                ],
+              ],
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
               Array [
                 Object {},
                 Array [
-                  Object {},
-                  undefined,
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
+                  Array [
+                    Object {
+                      "color": "#007ac9",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "textAlign": "center",
+                    },
+                    undefined,
+                  ],
                 ],
-              ],
-            ],
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-              },
-              Array [
-                Object {
-                  "color": "#007ac9",
-                  "fontSize": 14,
-                  "fontWeight": "500",
-                  "textAlign": "center",
-                },
-                undefined,
-              ],
-            ]
-          }
-        >
-          Näytä lisää
-        </Text>
+              ]
+            }
+          >
+            Näytä lisää
+          </Text>
+        </View>
       </View>
     </View>
   </View>
-</View>
+</RCTScrollView>
 `;
 
 exports[`Storyshots NewsFeed News feed item 1`] = `
-<View
+<RCTScrollView
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
-      "flex": 1,
-      "justifyContent": "center",
-    }
+    Array [
+      Object {},
+      undefined,
+    ]
   }
 >
-  <View
-    className={undefined}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderBottomColor": "#dddddd",
-          "borderBottomWidth": 1,
-          "borderStyle": "solid",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "paddingBottom": 15,
-          "paddingLeft": 15,
-          "paddingRight": 15,
-          "paddingTop": 15,
-        },
-        undefined,
-      ]
-    }
-  >
+  <View>
     <View
+      className={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
-            "alignSelf": "stretch",
-            "flexDirection": "column",
-            "justifyContent": "center",
-            "width": "55%",
+            "borderBottomColor": "#dddddd",
+            "borderBottomWidth": 1,
+            "borderStyle": "solid",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
           },
           undefined,
         ]
@@ -416,88 +433,117 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
+              "alignSelf": "stretch",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "width": "55%",
             },
             undefined,
           ]
         }
       >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {},
+                Array [
+                  Object {
+                    "color": "#888888",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            EXAMPLE
+             — 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {},
+                Array [
+                  Object {
+                    "color": "#888888",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Today at 2:00 PM
+          </Text>
+        </View>
         <Text
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "color": "#888888",
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-                "fontWeight": "500",
-              },
-              undefined,
+              Object {},
+              Array [
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "color": "#007ac9",
+                    "fontSize": 21,
+                    "fontWeight": "500",
+                    "letterSpacing": -0.4,
+                  },
+                  undefined,
+                ],
+              ],
             ]
           }
         >
-          EXAMPLE
-           — 
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#888888",
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
-              },
-              undefined,
-            ]
-          }
-        >
-          Today at 2:00 PM
+          example example example example
         </Text>
       </View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <Image
+        alt="news image"
+        source={
+          Object {
+            "uri": "https://placehold.it/500x500",
+          }
+        }
         style={
           Array [
             Object {
-              "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-              "fontSize": 21,
-              "fontWeight": "500",
-              "letterSpacing": -0.4,
+              "height": 80,
+              "marginLeft": 30,
+              "width": "30%",
             },
             undefined,
           ]
         }
-      >
-        example example example example
-      </Text>
+      />
     </View>
-    <Image
-      alt="news image"
-      source={
-        Object {
-          "uri": "https://placehold.it/500x500",
-        }
-      }
-      style={
-        Array [
-          Object {
-            "height": 80,
-            "marginLeft": 30,
-            "width": "30%",
-          },
-          undefined,
-        ]
-      }
-    />
   </View>
-</View>
+</RCTScrollView>
 `;

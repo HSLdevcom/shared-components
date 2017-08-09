@@ -21,6 +21,11 @@ import Search from './Search';
 import SignIn from './SignIn';
 import Tickets from './Tickets';
 import TravelCard from './TravelCard';
+import Facebook from './Facebook';
+import Instagram from './Instagram';
+import Linkedin from './Linkedin';
+import Twitter from './Twitter';
+import Youtube from './Youtube';
 
 
 export default {
@@ -46,5 +51,10 @@ export default {
   PositionAlert,
   SignIn,
   Tickets,
-  TravelCard
+  TravelCard,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube
 };

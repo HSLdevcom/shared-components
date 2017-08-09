@@ -1,10 +1,19 @@
-import Text from './Text';
-import { size } from '../utils';
+import React from 'react';
+import styled from 'styled-components/primitives';
+import PropTypes from 'prop-types';
 
-const H4 = Text.extend`
-  font-size: ${size(21)};
+import Text from './Text';
+import { size as utilsSize } from '../utils';
+
+const H4 = styled(({ size, ...rest }) => (
+  <Text {...rest} />
+))`
   font-weight: 500;
+  font-size: ${props => utilsSize(21 * (props.size || 1))};
 `;
 
-export default H4;
+H4.propTypes = {
+  size: PropTypes.number
+};
 
+export default H4;

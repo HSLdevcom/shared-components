@@ -93,3 +93,8 @@ or
     return View;
   });
 ```
+
+### SurfaceView should have explicit width and height set ###
+- In native svg width and height are floats, so either of these
+  - `<Icon.someIcon width="123" height="123" fill="#123456" />`
+  - `<Icon.someIcon width={number1} height={number2} fill="#123456" />`

@@ -1,10 +1,20 @@
+import React from 'react';
 import styled from 'styled-components/primitives';
-import { size } from '../utils';
+import PropTypes from 'prop-types';
 
-const Text = styled.Text`
-  font-size: ${size(16)};
+import { size as utilsSize } from '../utils';
+
+const Txt = styled.Text``;
+
+const Text = styled(({ size, ...rest }) => (
+  <Txt {...rest} />
+))`
+  font-size: ${props => utilsSize(16 * (props.size || 1))};
   ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily};`}
 `;
 
-export default Text;
+Text.propTypes = {
+  size: PropTypes.number
+};
 
+export default Text;

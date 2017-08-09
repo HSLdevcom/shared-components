@@ -300,3 +300,64 @@ stories.addWithJSX('PositionAlert', () => {
   const height = number('Height', defaultValue, options);
   return (<Icons.PositionAlert height={`${height}em`} />);
 }, { displayName: 'PositionAlert' });
+
+stories.addWithJSX('Facebook', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Facebook fill={fill} height={`${height}em`} />);
+}, { displayName: 'Facebook' });
+stories.addWithJSX('Twitter', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Twitter fill={fill} height={`${height}em`} />);
+}, { displayName: 'Twitter' });
+stories.addWithJSX('Instagram', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Instagram fill={fill} height={`${height}em`} />);
+}, { displayName: 'Instagram' });
+stories.addWithJSX('Youtube', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Youtube fill={fill} height={`${height}em`} />);
+}, { displayName: 'Youtube' });
+stories.addWithJSX('Linkedin', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Linkedin fill={fill} height={`${height}em`} />);
+}, { displayName: 'Linkedin' });

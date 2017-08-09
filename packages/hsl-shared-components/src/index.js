@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button from './Button';
+import Button, { RoundButton } from './Button';
 import Input from './Input/Input';
 import Separator, {
   MenuSeparator,
@@ -26,10 +26,12 @@ import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorTe
 import Touchable from './Touchable';
 import Notification from './Notification';
 import View from './View';
+import Footer, { FooterContainer } from './Footer';
 
 export {
   AppHeader,
   Button,
+  RoundButton,
   Input,
   Separator,
   MenuSeparator,
@@ -78,5 +80,7 @@ export {
   ListText,
   Touchable,
   Notification,
-  View
+  View,
+  Footer,
+  FooterContainer
 };
