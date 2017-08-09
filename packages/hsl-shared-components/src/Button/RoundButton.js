@@ -50,7 +50,6 @@ const RoundButton = styled(({ children, large, small, ...rest }) => (
 ))`
   height: ${props => size('button', props.large, props.small)};
   width: ${props => size('button', props.large, props.small)};
-  border-color: ${props => props.theme.primary};
 `;
 
 RoundButton.propTypes = {

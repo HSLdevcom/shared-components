@@ -195,7 +195,6 @@ exports[`Storyshots Button round button 1`] = `
               Object {},
               Array [
                 Object {
-                  "borderColor": "#007ac9",
                   "height": 52.5,
                   "width": 52.5,
                 },

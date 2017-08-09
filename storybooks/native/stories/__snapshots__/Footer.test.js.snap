@@ -557,7 +557,6 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "borderColor": "#007ac9",
                               "height": 70,
                               "width": 70,
                             },
@@ -629,7 +628,6 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "borderColor": "#007ac9",
                               "height": 70,
                               "width": 70,
                             },
@@ -701,7 +699,6 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "borderColor": "#007ac9",
                               "height": 70,
                               "width": 70,
                             },
