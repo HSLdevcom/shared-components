@@ -48,6 +48,18 @@ storiesOf('Footer', module)
           onPress: () => {},
           onLongPress: () => {},
           key: 'instagram'
+        },
+        {
+          icon: <Icons.Linkedin height="30" width="36" fill="#007ac9" />,
+          onPress: () => {},
+          onLongPress: () => {},
+          key: 'linkedin'
+        },
+        {
+          icon: <Icons.Youtube height="34" width="34" fill="#007ac9" />,
+          onPress: () => {},
+          onLongPress: () => {},
+          key: 'youtube'
         }
       ]
     };

@@ -15,8 +15,8 @@ const StyledButton = Button.extend`
 
 const HorizontalView = View.extend`
   flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-around;
+  width: 100%;
 `;
 
 const FlexStart = View.extend`
@@ -54,7 +54,6 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
               key={SM.key}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
-              large
             >
               {React.cloneElement(SM.icon)}
             </RoundButton>)
