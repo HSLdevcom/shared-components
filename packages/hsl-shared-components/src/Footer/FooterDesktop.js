@@ -97,6 +97,7 @@ const Info = View.extend`
 const InfoLinks = HorizontalView.extend`
   justify-content: space-between;
   padding-right: ${size(200)};
+  flex-wrap: wrap;
 `;
 
 const CopyrightText = Text.extend`
