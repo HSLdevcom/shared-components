@@ -5,6 +5,15 @@ import { Dimensions } from 'react-primitives';
 export default function(WrappedComponent) {
   return class extends React.Component {
     constructor(props) {
+      if (typeof WrappedComponent.styledComponentId !== 'string') {
+        // Atm there is no isStyledComponent function available in styled components exposed api.
+        // Using same method as the creators of styled components.
+        // eslint-disable-next-line no-console
+        console.warn(`
+          ${WrappedComponent.displayName} is possibly not a styled component.
+          Use only styled components.
+        `);
+      }
       super(props);
       this.state = { width: Dimensions.get('window').width };
       this.onResize = this.onResize.bind(this);
@@ -23,6 +32,10 @@ export default function(WrappedComponent) {
     }
 
     onResize({ window }) {
+      // Dimensions has debounce in eventlistener, this may be called once after unmounting.
+      if (!this.node) {
+        return;
+      }
       this.setState({
         width: window.width
       });
@@ -30,7 +43,13 @@ export default function(WrappedComponent) {
 
 
     render() {
-      return <WrappedComponent width={this.state.width} {...this.props} />;
+      return (
+        <WrappedComponent
+          innerRef={(x) => { this.node = x; }}
+          width={this.state.width}
+          {...this.props}
+        />
+      );
     }
   };
 }
