@@ -3,16 +3,16 @@
 exports[`Storyshots Notification Error 1`] = `
 <div>
   <div
-    className="undefined sc-bbmXgH dfgUmI"
+    className="undefined sc-jWBwVP iYSBPM"
   >
     <div
-      className="content sc-bdVaJa bDWFJH"
+      className="content Div__Div-kfqSaA dGHLD"
     >
       <div
-        className="icon sc-bdVaJa bDWFJH"
+        className="icon Div__Div-kfqSaA dGHLD"
       />
       <div
-        className="message sc-bdVaJa bDWFJH"
+        className="message Div__Div-kfqSaA dGHLD"
       />
     </div>
   </div>

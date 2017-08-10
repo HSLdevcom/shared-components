@@ -2,186 +2,186 @@
 
 exports[`Storyshots NewsFeed default 1`] = `
 <div
-  className="sc-frDJqD gCEYuZ sc-hmzhuo dqXIrH"
+  className="NewsFeed-ibQDCr iqhSff sc-eHgmQL jKsMS"
 >
   <ul
-    className="sc-ksYbfQ jHwjmi"
+    className="NewsFeed__Ul-eTMuWb fMIaAE"
   >
     <li
-      className="sc-dNLxif KzmkZ sc-jbKcbu ivMJso"
+      className="NewsFeedItem-bpPKog jWwdSj NewsFeedItem__StyledLi-bxqRcj kDsMQI"
     >
       <div
-        className="text-container sc-hqyNC keRCOE"
+        className="text-container sc-cvbbAY dbHDoR"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top Span__Span-jgiyY XqSdH"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category Span__Span-jgiyY XqSdH"
           >
             example
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom Span__Span-jgiyY XqSdH"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-kvZOFW eiPhbT"
+        className="NewsFeedItem__Image-hoASwC bRzfLS"
         src="https://placehold.it/125x521"
       />
     </li>
     <li
-      className="sc-dNLxif KzmkZ sc-jbKcbu ivMJso"
+      className="NewsFeedItem-bpPKog jWwdSj NewsFeedItem__StyledLi-bxqRcj kDsMQI"
     >
       <div
-        className="text-container sc-hqyNC keRCOE"
+        className="text-container sc-cvbbAY dbHDoR"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top Span__Span-jgiyY XqSdH"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category Span__Span-jgiyY XqSdH"
           >
             example
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom Span__Span-jgiyY XqSdH"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-kvZOFW eiPhbT"
+        className="NewsFeedItem__Image-hoASwC bRzfLS"
         src="https://placehold.it/521x125"
       />
     </li>
     <li
-      className="sc-dNLxif KzmkZ sc-jbKcbu ivMJso"
+      className="NewsFeedItem-bpPKog jWwdSj NewsFeedItem__StyledLi-bxqRcj kDsMQI"
     >
       <div
-        className="text-container sc-hqyNC keRCOE"
+        className="text-container sc-cvbbAY dbHDoR"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top Span__Span-jgiyY XqSdH"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category Span__Span-jgiyY XqSdH"
           >
             example
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom Span__Span-jgiyY XqSdH"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-kvZOFW eiPhbT"
+        className="NewsFeedItem__Image-hoASwC bRzfLS"
         src="https://placehold.it/500x500"
       />
     </li>
     <li
-      className="sc-dNLxif KzmkZ sc-jbKcbu ivMJso"
+      className="NewsFeedItem-bpPKog jWwdSj NewsFeedItem__StyledLi-bxqRcj kDsMQI"
     >
       <div
-        className="text-container sc-hqyNC keRCOE"
+        className="text-container sc-cvbbAY dbHDoR"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top Span__Span-jgiyY XqSdH"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category Span__Span-jgiyY XqSdH"
           >
             example
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom Span__Span-jgiyY XqSdH"
         >
           example example example example
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-kvZOFW eiPhbT"
+        className="NewsFeedItem__Image-hoASwC bRzfLS"
         src="https://placehold.it/50x50"
       />
     </li>
     <li
-      className="sc-dNLxif KzmkZ sc-jbKcbu ivMJso"
+      className="NewsFeedItem-bpPKog jWwdSj NewsFeedItem__StyledLi-bxqRcj kDsMQI"
     >
       <div
-        className="text-container sc-hqyNC keRCOE"
+        className="text-container sc-cvbbAY dbHDoR"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top Span__Span-jgiyY XqSdH"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category Span__Span-jgiyY XqSdH"
           >
             example
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="Span__Span-jgiyY XqSdH"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom Span__Span-jgiyY XqSdH"
         >
           example example example example
         </span>
@@ -189,7 +189,7 @@ exports[`Storyshots NewsFeed default 1`] = `
     </li>
   </ul>
   <div
-    className="sc-bdVaJa bDWFJH"
+    className="Div__Div-kfqSaA dGHLD"
   >
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
