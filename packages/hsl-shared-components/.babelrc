@@ -5,5 +5,5 @@
       "plugins": ["transform-react-jsx-source"]
     }
   },
-  "plugins": ["transform-class-properties", "transform-object-rest-spread", "lodash"]
+  "plugins": ["transform-class-properties", "transform-object-rest-spread", "lodash", "styled-components"]
 }
