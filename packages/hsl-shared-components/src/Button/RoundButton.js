@@ -58,4 +58,6 @@ RoundButton.propTypes = {
   small: PropTypes.bool
 };
 
+RoundButton.displayName = 'RoundButton';
+
 export default RoundButton;

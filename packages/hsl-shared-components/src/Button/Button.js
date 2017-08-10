@@ -104,6 +104,7 @@ const Button = styled(({
   onLongPress,
   className,
   style,
+  innerRef,
   children }) => (
     <Touchable onPress={onPress} onLongPress={onLongPress}>
       <TouchableView
@@ -115,6 +116,7 @@ const Button = styled(({
         large={large}
         className={className}
         style={style}
+        innerRef={innerRef}
       >
         {
           React.isValidElement(children) ?
@@ -144,7 +146,8 @@ Button.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
-  style: PropTypes.array  // eslint-disable-line react/forbid-prop-types
+  style: PropTypes.array,  // eslint-disable-line react/forbid-prop-types
+  innerRef: PropTypes.func
 };
 
 export default Button;

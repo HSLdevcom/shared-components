@@ -5,13 +5,19 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import Button, { RoundButton } from '../Button';
 import Text, { ListText } from '../Typography';
-import { size } from '../utils';
+import { size, WindowSize } from '../utils';
 import MobileContainer from './MobileContainer';
+
+const LARGE_MOBILE = 640;
 
 const StyledButton = Button.extend`
   margin-top: ${size(50)};
   width: 50%;
 `;
+
+const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
+  <RoundButton {...rest} large={width >= LARGE_MOBILE} />
+))``);
 
 const HorizontalView = View.extend`
   flex-direction: row;
@@ -51,13 +57,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         {/* eslint-disable react/no-array-index-key */}
         <HorizontalView>
           { socialMedia.icons.map((SM, index) => (
-            <RoundButton
+            <StyledRoundButton
               key={index}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
             >
               {React.cloneElement(SM.icon)}
-            </RoundButton>)
+            </StyledRoundButton>)
             )
           }
         </HorizontalView>

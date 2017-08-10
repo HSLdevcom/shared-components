@@ -1,6 +1,25 @@
 import React from 'react';
 import { Dimensions } from 'react-primitives';
 
+/*
+  You may encounter problems with components wrapped with Touchable.
+  Example Button had this problem.
+  When the components looks something like this:
+  ({ ... }) => (
+    <Touchable .... >
+      <View .....
+    </Touchable>
+  )
+
+  Remember to add innerRef prop for the component.
+
+  ({ innerRef, .... }) => (
+    <Touchable ....>
+      <View innerRef={innerRef} ....
+    </Touchable>
+  )
+
+*/
 
 export default function(WrappedComponent) {
   return class extends React.Component {

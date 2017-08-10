@@ -557,10 +557,13 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "height": 52.5,
-                              "width": 52.5,
+                              "height": 70,
+                              "width": 70,
                             },
-                            undefined,
+                            Array [
+                              Object {},
+                              undefined,
+                            ],
                           ],
                         ],
                       ],
@@ -577,8 +580,8 @@ exports[`Storyshots Footer default 1`] = `
                       },
                       Array [
                         Object {
-                          "height": 21.875,
-                          "width": 21.875,
+                          "height": 31.5,
+                          "width": 31.5,
                         },
                         undefined,
                       ],
@@ -628,10 +631,13 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "height": 52.5,
-                              "width": 52.5,
+                              "height": 70,
+                              "width": 70,
                             },
-                            undefined,
+                            Array [
+                              Object {},
+                              undefined,
+                            ],
                           ],
                         ],
                       ],
@@ -648,8 +654,8 @@ exports[`Storyshots Footer default 1`] = `
                       },
                       Array [
                         Object {
-                          "height": 21.875,
-                          "width": 21.875,
+                          "height": 31.5,
+                          "width": 31.5,
                         },
                         undefined,
                       ],
@@ -699,10 +705,13 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "height": 52.5,
-                              "width": 52.5,
+                              "height": 70,
+                              "width": 70,
                             },
-                            undefined,
+                            Array [
+                              Object {},
+                              undefined,
+                            ],
                           ],
                         ],
                       ],
@@ -719,8 +728,8 @@ exports[`Storyshots Footer default 1`] = `
                       },
                       Array [
                         Object {
-                          "height": 21.875,
-                          "width": 21.875,
+                          "height": 31.5,
+                          "width": 31.5,
                         },
                         undefined,
                       ],
@@ -770,10 +779,13 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "height": 52.5,
-                              "width": 52.5,
+                              "height": 70,
+                              "width": 70,
                             },
-                            undefined,
+                            Array [
+                              Object {},
+                              undefined,
+                            ],
                           ],
                         ],
                       ],
@@ -790,8 +802,8 @@ exports[`Storyshots Footer default 1`] = `
                       },
                       Array [
                         Object {
-                          "height": 21.875,
-                          "width": 21.875,
+                          "height": 31.5,
+                          "width": 31.5,
                         },
                         undefined,
                       ],
@@ -847,10 +859,13 @@ exports[`Storyshots Footer default 1`] = `
                           Object {},
                           Array [
                             Object {
-                              "height": 52.5,
-                              "width": 52.5,
+                              "height": 70,
+                              "width": 70,
                             },
-                            undefined,
+                            Array [
+                              Object {},
+                              undefined,
+                            ],
                           ],
                         ],
                       ],
@@ -867,8 +882,8 @@ exports[`Storyshots Footer default 1`] = `
                       },
                       Array [
                         Object {
-                          "height": 21.875,
-                          "width": 21.875,
+                          "height": 31.5,
+                          "width": 31.5,
                         },
                         undefined,
                       ],
