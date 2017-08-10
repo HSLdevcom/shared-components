@@ -14,13 +14,21 @@ lerna bootstrap
 
 `hooks/init-hooks`
 
-### Running the web storybook ###
+### Before running storybook ###
+Launch watcher
+`cd packages/hsl-shared-components && yarn build:watch`
 
+### Running the web storybook ###
+`cd storybooks/web && yarn storybook
+or
 `yarn storybook:web`
+latter doesn't display debug information
 
 ### Running the native storybook ###
-
-`yarn storybook`
+`cd storybooks/native && yarn storybook`
+or
+`yarn storybook:native`
+latter doesn't display debug information
 
 [Running devices](https://github.com/storybooks/storybook/blob/master/app/react-native/docs/using-devices.md)
 
@@ -67,11 +75,8 @@ Native components to src/native/index.js
 `yarn deploy-storybook`
 
 ### Publish package ###
-[Bump version](https://docs.npmjs.com/cli/version)
 
-`yarn build`
-
-`cd build && npm publish`
+`lerna publish`
 
 ## Documentation
 * [Z-Index Index](docs/ZIndex.md)
