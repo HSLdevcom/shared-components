@@ -92,6 +92,7 @@ const Info = View.extend`
   border-style: solid;
   border-color: ${props => lighten(0.15, props.theme.default)};
   border-top-width: 2px;
+  align-items: flex-start;
 `;
 
 const InfoLinks = HorizontalView.extend`
