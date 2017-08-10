@@ -427,11 +427,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {},
                       Array [
-                        Object {
-                          "marginTop": 43.75,
-                          "width": "50%",
-                        },
-                        undefined,
+                        Object {},
+                        Array [
+                          Object {
+                            "marginTop": 43.75,
+                            "paddingHorizontal": 57.75,
+                            "width": "auto",
+                          },
+                          undefined,
+                        ],
                       ],
                     ],
                   ],

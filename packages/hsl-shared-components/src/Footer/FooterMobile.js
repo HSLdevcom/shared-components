@@ -10,16 +10,19 @@ import MobileContainer from './MobileContainer';
 
 const LARGE_MOBILE = 640;
 
-const StyledButton = Button.extend`
+const StyledButton = WindowSize(styled(({ width, ...rest }) => (
+  <Button {...rest} large={width >= LARGE_MOBILE} />
+))`
   margin-top: ${size(50)};
-  width: 50%;
-`;
+  width: auto;
+  padding-horizontal: ${size(66)};
+`);
+
 
 const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
   <RoundButton {...rest} large={width >= LARGE_MOBILE} />
 ))`
   margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? size(10) : size(3))};
-
 `);
 
 const HorizontalView = View.extend`
@@ -48,7 +51,6 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         </FlexStart>
         <StyledButton
           primary
-          large
           onPress={account.button.onPress}
         >
           {account.button.text}
