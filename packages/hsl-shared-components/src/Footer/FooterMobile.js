@@ -47,7 +47,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     { account &&
       <MobileContainer title={account.title}>
         <FlexStart>
-          { account.benefits.map(txt => (<ListText size={2} key={txt}>{txt}</ListText>))}
+          { account.benefits.map(txt => (<ListText size={1.75} key={txt}>{txt}</ListText>))}
         </FlexStart>
         <StyledButton
           primary
@@ -76,9 +76,9 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     }
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
-        { info.links.map((link, index) => React.cloneElement(link, { size: 2, key: index })) }
+        { info.links.map((link, index) => React.cloneElement(link, { size: 1.5, key: index })) }
       </View>
-      <CopyrightText size={2}>{info.copyright}</CopyrightText>
+      <CopyrightText size={1.5}>{info.copyright}</CopyrightText>
     </MobileContainer>
   </View>
 ))`

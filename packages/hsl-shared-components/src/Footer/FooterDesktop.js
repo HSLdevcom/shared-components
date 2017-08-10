@@ -108,7 +108,7 @@ const CopyrightText = Text.extend`
   flex: 1;
 `;
 const LinkWrapper = View.extend`
-  padding-horizontal: ${size(10)};
+  padding-horizontal: ${size(15)};
 `;
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
@@ -152,11 +152,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
       }
     </AccountSMWrapper>
     <Info>
-      <CopyrightText>{info.copyright}</CopyrightText>
+      <CopyrightText size={0.9}>{info.copyright}</CopyrightText>
       <InfoLinks>
         {
           info.links.map((link, index) => (
-            <LinkWrapper key={index}>{ link }</LinkWrapper>
+            <LinkWrapper key={index}>
+              { React.cloneElement(link, { size: 0.9, key: index }) }
+            </LinkWrapper>
           ))
         }
       </InfoLinks>

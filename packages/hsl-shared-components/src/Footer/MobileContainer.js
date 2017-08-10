@@ -9,6 +9,7 @@ import { H2 } from '../Typography';
 
 const StyledH2 = H2.extend`
   margin-bottom: ${size(40)};
+  font-size: ${size(40)};
   text-align: center;
 `;
 const MobileContainer = styled(({ border, title, children, ...rest }) => (
