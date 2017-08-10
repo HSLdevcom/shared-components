@@ -13,7 +13,7 @@ const StyledH2 = H2.extend`
 `;
 const MobileContainer = styled(({ border, title, children, ...rest }) => (
   <View {...rest}>
-    <StyledH2>{title}</StyledH2>
+    {!!title && <StyledH2>{title}</StyledH2>}
     {children}
   </View>
 ))`

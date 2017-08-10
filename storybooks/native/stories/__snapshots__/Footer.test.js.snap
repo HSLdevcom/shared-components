@@ -944,32 +944,6 @@ exports[`Storyshots Footer default 1`] = `
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {},
-                  Array [
-                    Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
-                    },
-                    Array [
-                      Object {
-                        "fontSize": 31.5,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
-                        "marginBottom": 35,
-                        "textAlign": "center",
-                      },
-                      undefined,
-                    ],
-                  ],
-                ]
-              }
-            />
             <View
               style={
                 Array [
