@@ -520,7 +520,7 @@ exports[`Storyshots Footer default 1`] = `
                   Object {
                     "alignItems": "center",
                     "flexDirection": "row",
-                    "justifyContent": "space-around",
+                    "justifyContent": "center",
                     "width": "100%",
                   },
                   undefined,
@@ -561,7 +561,9 @@ exports[`Storyshots Footer default 1`] = `
                               "width": 70,
                             },
                             Array [
-                              Object {},
+                              Object {
+                                "marginHorizontal": 8.75,
+                              },
                               undefined,
                             ],
                           ],
@@ -635,7 +637,9 @@ exports[`Storyshots Footer default 1`] = `
                               "width": 70,
                             },
                             Array [
-                              Object {},
+                              Object {
+                                "marginHorizontal": 8.75,
+                              },
                               undefined,
                             ],
                           ],
@@ -709,7 +713,9 @@ exports[`Storyshots Footer default 1`] = `
                               "width": 70,
                             },
                             Array [
-                              Object {},
+                              Object {
+                                "marginHorizontal": 8.75,
+                              },
                               undefined,
                             ],
                           ],
@@ -783,7 +789,9 @@ exports[`Storyshots Footer default 1`] = `
                               "width": 70,
                             },
                             Array [
-                              Object {},
+                              Object {
+                                "marginHorizontal": 8.75,
+                              },
                               undefined,
                             ],
                           ],
@@ -863,7 +871,9 @@ exports[`Storyshots Footer default 1`] = `
                               "width": 70,
                             },
                             Array [
-                              Object {},
+                              Object {
+                                "marginHorizontal": 8.75,
+                              },
                               undefined,
                             ],
                           ],

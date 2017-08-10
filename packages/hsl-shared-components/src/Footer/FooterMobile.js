@@ -17,11 +17,14 @@ const StyledButton = Button.extend`
 
 const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
   <RoundButton {...rest} large={width >= LARGE_MOBILE} />
-))``);
+))`
+  margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? size(10) : size(3))};
+
+`);
 
 const HorizontalView = View.extend`
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 `;
 
