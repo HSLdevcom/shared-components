@@ -5,7 +5,7 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import Button, { RoundButton } from '../Button';
 import Text, { ListText } from '../Typography';
-import { size, WindowSize } from '../utils';
+import { size as utilsSize, WindowSize } from '../utils';
 import MobileContainer from './MobileContainer';
 
 const LARGE_MOBILE = 640;
@@ -13,17 +13,24 @@ const LARGE_MOBILE = 640;
 const StyledButton = WindowSize(styled(({ width, ...rest }) => (
   <Button {...rest} large={width >= LARGE_MOBILE} />
 ))`
-  margin-top: ${size(50)};
+  margin-top: ${utilsSize(50)};
   width: auto;
-  padding-horizontal: ${size(66)};
+  padding-horizontal: ${utilsSize(66)};
 `);
 
 
 const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
   <RoundButton {...rest} large={width >= LARGE_MOBILE} />
 ))`
-  margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? size(10) : size(3))};
+  margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? utilsSize(10) : utilsSize(3))};
 `);
+
+const SIZE_REDUCE_RATIO = 0.8;
+
+const ScaleSize = WindowSize(styled(({ width, size, innerRef, children }) => {
+  const scaledSize = width >= LARGE_MOBILE ? size : SIZE_REDUCE_RATIO * size;
+  return React.cloneElement(children, { size: scaledSize, innerRef });
+})``);
 
 const HorizontalView = View.extend`
   flex-direction: row;
@@ -38,7 +45,7 @@ const FlexStart = View.extend`
 
 const CopyrightText = Text.extend`
   color: ${props => props.theme.primary};
-  margin-top: ${size(50)};
+  margin-top: ${utilsSize(50)};
 `;
 
 
@@ -47,7 +54,11 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     { account &&
       <MobileContainer title={account.title}>
         <FlexStart>
-          { account.benefits.map(txt => (<ListText size={1.75} key={txt}>{txt}</ListText>))}
+          { account.benefits.map(txt => (
+            <ScaleSize size={1.75} key={txt}>
+              <ListText>{txt}</ListText>
+            </ScaleSize>
+          ))}
         </FlexStart>
         <StyledButton
           primary
@@ -76,9 +87,14 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     }
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
-        { info.links.map((link, index) => React.cloneElement(link, { size: 1.5, key: index })) }
+        { info.links.map((link, index) => (
+          <ScaleSize size={1.5} key={index}>{link}</ScaleSize>
+          ))
+        }
       </View>
-      <CopyrightText size={1.5}>{info.copyright}</CopyrightText>
+      <ScaleSize size={1.5}>
+        <CopyrightText>{info.copyright}</CopyrightText>
+      </ScaleSize>
     </MobileContainer>
   </View>
 ))`

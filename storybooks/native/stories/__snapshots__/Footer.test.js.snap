@@ -93,13 +93,17 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "fontSize": 35,
+                        "fontSize": 34.65,
                         "fontWeight": "500",
                         "letterSpacing": -0.4,
-                        "marginBottom": 35,
-                        "textAlign": "center",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "marginBottom": 35,
+                          "textAlign": "center",
+                        },
+                        undefined,
+                      ],
                     ],
                   ],
                 ]
@@ -504,13 +508,17 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "fontSize": 35,
+                        "fontSize": 34.65,
                         "fontWeight": "500",
                         "letterSpacing": -0.4,
-                        "marginBottom": 35,
-                        "textAlign": "center",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "marginBottom": 35,
+                          "textAlign": "center",
+                        },
+                        undefined,
+                      ],
                     ],
                   ],
                 ]
