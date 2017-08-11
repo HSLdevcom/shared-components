@@ -1,7 +1,7 @@
 {
   "name": "web-storybook",
   "private": true,
-  "version": "0.9.7",
+  "version": "0.12.0",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.2",
@@ -28,7 +28,7 @@
     "eslint-plugin-react": "^6.9.0",
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
-    "hsl-shared-components": "^0.11.2",
+    "hsl-shared-components": "^0.12.0",
     "jest": "^20.0.4",
     "prop-types": "^15.5.10",
     "react": "15.4.x",
