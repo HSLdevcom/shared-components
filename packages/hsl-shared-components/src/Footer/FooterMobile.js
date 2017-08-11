@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
@@ -48,7 +49,7 @@ const CopyrightText = Text.extend`
 `;
 
 
-const Footer = styled(({ account, socialMedia, info, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
   <View {...rest}>
     { account &&
       <MobileContainer title={account.title}>
@@ -102,9 +103,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
+  ${props => props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 Footer.propTypes = {
+  frontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({

@@ -111,7 +111,7 @@ const LinkWrapper = View.extend`
   padding-horizontal: ${size(15)};
 `;
 
-const Footer = styled(({ account, socialMedia, info, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
   <View {...rest}>
     <AccountSMWrapper>
       { account &&
@@ -170,9 +170,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
+  ${props => props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 Footer.propTypes = {
+  frontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({
