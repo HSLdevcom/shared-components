@@ -1,5 +1,6 @@
 {
   "name": "web-storybook",
+  "private": true,
   "version": "0.9.7",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
