@@ -4,7 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons } from 'hsl-shared-components';
+import { Button, RoundButton, ButtonWithText, Icons } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -86,4 +86,19 @@ stories.addWithJSX('round button', () => {
       <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
     </RoundButton>
   );
-}, { displayName: 'RoundButton' });
+});
+
+stories.addWithJSX('button with text', () => {
+  const small = boolean('Small', false);
+  const large = boolean('Large', false);
+  const icon = <Icons.Bike height="30px" width="30px" fill="#eeaaff" />;
+  return (
+    <ButtonWithText
+      small={small}
+      large={large}
+      text="Kaupunkipyörät"
+      icon={icon}
+      onPress={action('press')}
+    />
+  );
+});
