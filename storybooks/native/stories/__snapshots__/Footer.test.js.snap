@@ -405,7 +405,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
             </View>
             <View
-              className={undefined}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
               onResponderRelease={[Function]}
@@ -426,7 +425,6 @@ exports[`Storyshots Footer default 1`] = `
                       "borderStyle": "solid",
                       "borderWidth": 1,
                       "height": 70,
-                      "width": "70%",
                     },
                     Array [
                       Object {},
@@ -436,7 +434,6 @@ exports[`Storyshots Footer default 1`] = `
                           Object {
                             "marginTop": 43.75,
                             "paddingHorizontal": 57.75,
-                            "width": "auto",
                           },
                           undefined,
                         ],
@@ -540,7 +537,6 @@ exports[`Storyshots Footer default 1`] = `
               }
             >
               <View
-                className={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -561,7 +557,6 @@ exports[`Storyshots Footer default 1`] = `
                         "borderStyle": "solid",
                         "borderWidth": 1,
                         "height": 39.375,
-                        "width": "70%",
                       },
                       Array [
                         Object {},
@@ -616,7 +611,6 @@ exports[`Storyshots Footer default 1`] = `
                 </View>
               </View>
               <View
-                className={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -637,7 +631,6 @@ exports[`Storyshots Footer default 1`] = `
                         "borderStyle": "solid",
                         "borderWidth": 1,
                         "height": 39.375,
-                        "width": "70%",
                       },
                       Array [
                         Object {},
@@ -692,7 +685,6 @@ exports[`Storyshots Footer default 1`] = `
                 </View>
               </View>
               <View
-                className={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -713,7 +705,6 @@ exports[`Storyshots Footer default 1`] = `
                         "borderStyle": "solid",
                         "borderWidth": 1,
                         "height": 39.375,
-                        "width": "70%",
                       },
                       Array [
                         Object {},
@@ -768,7 +759,6 @@ exports[`Storyshots Footer default 1`] = `
                 </View>
               </View>
               <View
-                className={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -789,7 +779,6 @@ exports[`Storyshots Footer default 1`] = `
                         "borderStyle": "solid",
                         "borderWidth": 1,
                         "height": 39.375,
-                        "width": "70%",
                       },
                       Array [
                         Object {},
@@ -850,7 +839,6 @@ exports[`Storyshots Footer default 1`] = `
                 </View>
               </View>
               <View
-                className={undefined}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -871,7 +859,6 @@ exports[`Storyshots Footer default 1`] = `
                         "borderStyle": "solid",
                         "borderWidth": 1,
                         "height": 39.375,
-                        "width": "70%",
                       },
                       Array [
                         Object {},

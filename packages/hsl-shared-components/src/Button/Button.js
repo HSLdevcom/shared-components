@@ -72,7 +72,6 @@ const TouchableView = styled(({ primary, secondary, disabled, rounded, small, la
   border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
   border-style: solid;
   border-width: 1px;
-  width: 70%;
   border-color: ${props => props.theme.default};
   background-color: #fff;
   ${props => props.primary && `
@@ -102,10 +101,9 @@ const Button = styled(({
   large,
   onPress,
   onLongPress,
-  className,
-  style,
   innerRef,
-  children }) => (
+  children,
+  ...rest }) => (
     <Touchable onPress={onPress} onLongPress={onLongPress}>
       <TouchableView
         primary={primary}
@@ -114,8 +112,7 @@ const Button = styled(({
         rounded={rounded}
         small={small}
         large={large}
-        className={className}
-        style={style}
+        {...rest}
         innerRef={innerRef}
       >
         {
@@ -142,11 +139,9 @@ Button.propTypes = {
   rounded: PropTypes.bool,
   small: PropTypes.bool,
   large: PropTypes.bool,
-  className: PropTypes.string,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
-  style: PropTypes.array,  // eslint-disable-line react/forbid-prop-types
   innerRef: PropTypes.func
 };
 

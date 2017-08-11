@@ -14,7 +14,6 @@ const StyledButton = WindowSize(styled(({ width, ...rest }) => (
   <Button {...rest} large={width >= LARGE_MOBILE} />
 ))`
   margin-top: ${utilsSize(50)};
-  width: auto;
   padding-horizontal: ${utilsSize(66)};
 `);
 
