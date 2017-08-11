@@ -1,7 +1,7 @@
 // these sizes are arbitrary and you can set them to whatever you wish
 import { css } from 'styled-components';
 
-const sizes = {
+export const sizes = {
   large: 1299,
   medium: 999,
   small: 869,

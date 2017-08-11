@@ -12,8 +12,6 @@ exports[`Storyshots Button default 1`] = `
   }
 >
   <View
-    className={undefined}
-    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -34,7 +32,6 @@ exports[`Storyshots Button default 1`] = `
             "borderStyle": "solid",
             "borderWidth": 1,
             "height": 39.375,
-            "width": "70%",
           },
           Array [
             Object {},
@@ -90,8 +87,6 @@ exports[`Storyshots Button primary 1`] = `
   }
 >
   <View
-    className={undefined}
-    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -112,7 +107,6 @@ exports[`Storyshots Button primary 1`] = `
             "borderStyle": "solid",
             "borderWidth": 1,
             "height": 43.75,
-            "width": "70%",
           },
           Array [
             Object {},
@@ -168,8 +162,6 @@ exports[`Storyshots Button round button 1`] = `
   }
 >
   <View
-    className={undefined}
-    large={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -190,7 +182,6 @@ exports[`Storyshots Button round button 1`] = `
             "borderStyle": "solid",
             "borderWidth": 1,
             "height": 39.375,
-            "width": "70%",
           },
           Array [
             Object {},
@@ -198,9 +189,8 @@ exports[`Storyshots Button round button 1`] = `
               Object {},
               Array [
                 Object {
-                  "borderColor": "#007ac9",
-                  "height": 70,
-                  "width": 70,
+                  "height": 52.5,
+                  "width": 52.5,
                 },
                 undefined,
               ],
@@ -215,11 +205,15 @@ exports[`Storyshots Button round button 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "height": 31.5,
             "justifyContent": "center",
-            "width": 31.5,
           },
-          undefined,
+          Array [
+            Object {
+              "height": 21.875,
+              "width": 21.875,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -251,8 +245,6 @@ exports[`Storyshots Button secondary 1`] = `
   }
 >
   <View
-    className={undefined}
-    large={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -273,7 +265,6 @@ exports[`Storyshots Button secondary 1`] = `
             "borderStyle": "solid",
             "borderWidth": 1,
             "height": 39.375,
-            "width": "70%",
           },
           Array [
             Object {},

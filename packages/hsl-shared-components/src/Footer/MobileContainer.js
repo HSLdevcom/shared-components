@@ -4,16 +4,21 @@ import styled from 'styled-components/primitives';
 import { lighten } from 'polished';
 
 import View from '../View';
-import { size } from '../utils';
+import { size, WindowSize } from '../utils';
 import { H2 } from '../Typography';
 
-const StyledH2 = H2.extend`
+const LARGE_MOBILE = 640;
+
+const StyledH2 = WindowSize(styled(({ width, ...rest }) => (
+  <H2 {...rest} size={width >= LARGE_MOBILE ? 1.1 : 0.9} />
+))`
   margin-bottom: ${size(40)};
   text-align: center;
-`;
-const FooterContainer = styled(({ border, title, children, ...rest }) => (
+`);
+
+const MobileContainer = styled(({ border, title, children, ...rest }) => (
   <View {...rest}>
-    <StyledH2>{title}</StyledH2>
+    {!!title && <StyledH2>{title}</StyledH2>}
     {children}
   </View>
 ))`
@@ -24,11 +29,11 @@ const FooterContainer = styled(({ border, title, children, ...rest }) => (
 `;
 
 
-FooterContainer.propTypes = {
+MobileContainer.propTypes = {
   border: PropTypes.bool,
   title: PropTypes.string,
   children: PropTypes.node.isRequired
 };
 
-export default FooterContainer;
+export default MobileContainer;
 

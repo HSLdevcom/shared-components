@@ -65,14 +65,13 @@ const TouchableText = styled(({ primary, secondary, disabled, small, large, ...r
   `}
 `;
 
-const TouchableView = styled(({ primary, secondary, disabled, rounded, small, ...rest }) => (
+const TouchableView = styled(({ primary, secondary, disabled, rounded, small, large, ...rest }) => (
   <View {...rest} />
 ))`
   height: ${props => size('height', props.primary, props.large, props.small)};
   border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
   border-style: solid;
   border-width: 1px;
-  width: 70%;
   border-color: ${props => props.theme.default};
   background-color: #fff;
   ${props => props.primary && `
@@ -102,9 +101,9 @@ const Button = styled(({
   large,
   onPress,
   onLongPress,
-  className,
-  style,
-  children }) => (
+  innerRef,
+  children,
+  ...rest }) => (
     <Touchable onPress={onPress} onLongPress={onLongPress}>
       <TouchableView
         primary={primary}
@@ -113,8 +112,8 @@ const Button = styled(({
         rounded={rounded}
         small={small}
         large={large}
-        className={className}
-        style={style}
+        {...rest}
+        innerRef={innerRef}
       >
         {
           React.isValidElement(children) ?
@@ -140,11 +139,10 @@ Button.propTypes = {
   rounded: PropTypes.bool,
   small: PropTypes.bool,
   large: PropTypes.bool,
-  className: PropTypes.string,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
-  style: PropTypes.array  // eslint-disable-line react/forbid-prop-types
+  innerRef: PropTypes.func
 };
 
 export default Button;

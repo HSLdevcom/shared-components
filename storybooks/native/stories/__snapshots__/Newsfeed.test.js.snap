@@ -329,8 +329,6 @@ exports[`Storyshots NewsFeed News feed 1`] = `
         }
       >
         <View
-          className={undefined}
-          large={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -351,7 +349,6 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "borderStyle": "solid",
                   "borderWidth": 1,
                   "height": 39.375,
-                  "width": "70%",
                 },
                 Array [
                   Object {},

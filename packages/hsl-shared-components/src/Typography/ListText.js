@@ -26,7 +26,7 @@ const StyledText = styled(({ size, ...rest }) => (
 ))`
   font-weight: 300;
   font-size: ${props => utilsSize(16 * (props.size || 1))};
-  line-height: ${props => 16 * (props.size || 1)};
+  line-height: ${props => Math.round(16 * (props.size || 1))};
   flex: 1;
 `;
 

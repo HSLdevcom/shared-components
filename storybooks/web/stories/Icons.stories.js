@@ -24,7 +24,7 @@ stories.addWithJSX('AddCard', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.AddCard fill={fill} height={`${height}em`} />);
-}, { displayName: 'AddCard' });
+});
 
 stories.addWithJSX('Alert', () => {
   const fill = '#dc4501';
@@ -37,7 +37,7 @@ stories.addWithJSX('Alert', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Alert fill={fill} height={`${height}em`} />);
-}, { displayName: 'Alert' });
+});
 
 stories.addWithJSX('ArrowDown', () => {
   const fill = color('Fill', '#007ac9');
@@ -50,7 +50,7 @@ stories.addWithJSX('ArrowDown', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.ArrowDown fill={fill} height={`${height}em`} />);
-}, { displayName: 'ArrowDown' });
+});
 
 stories.addWithJSX('ArrowLeft', () => {
   const fill = color('Fill', '#007ac9');
@@ -63,7 +63,7 @@ stories.addWithJSX('ArrowLeft', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.ArrowLeft fill={fill} height={`${height}em`} />);
-}, { displayName: 'ArrowLeft' });
+});
 
 stories.addWithJSX('CardOrder', () => {
   const fill = {
@@ -79,7 +79,7 @@ stories.addWithJSX('CardOrder', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.CardOrder fill={fill} height={`${height}em`} />);
-}, { displayName: 'CardOrder' });
+});
 
 stories.addWithJSX('CardWithCheckmark', () => {
   const fill = {
@@ -95,7 +95,7 @@ stories.addWithJSX('CardWithCheckmark', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.CardWithCheckmark fill={fill} height={`${height}em`} />);
-}, { displayName: 'CardWithCheckmark' });
+});
 
 stories.addWithJSX('Checkmark', () => {
   const fill = {
@@ -111,7 +111,7 @@ stories.addWithJSX('Checkmark', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Checkmark fill={fill} height={`${height}em`} />);
-}, { displayName: 'Checkmark' });
+});
 
 stories.addWithJSX('Cog', () => {
   const fill = color('fill', '#d1d1d1');
@@ -124,7 +124,7 @@ stories.addWithJSX('Cog', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Cog fill={fill} height={`${height}em`} />);
-}, { displayName: 'Cog' });
+});
 
 stories.addWithJSX('Cross', () => {
   const fill = color('fill', '#d1d1d1');
@@ -137,7 +137,7 @@ stories.addWithJSX('Cross', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Cross fill={fill} height={`${height}em`} />);
-}, { displayName: 'Cross' });
+});
 
 stories.addWithJSX('Edit', () => {
   const fill = color('fill', '#d1d1d1');
@@ -150,7 +150,7 @@ stories.addWithJSX('Edit', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Edit fill={fill} height={`${height}em`} />);
-}, { displayName: 'Edit' });
+});
 
 stories.addWithJSX('Logo', () => {
   const fill = color('fill', '#d1d1d1');
@@ -163,7 +163,7 @@ stories.addWithJSX('Logo', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Logo fill={fill} height={`${height}em`} />);
-}, { displayName: 'Logo' });
+});
 
 stories.addWithJSX('HSLLogo', () => {
   const fill = color('fill', '#d1d1d1');
@@ -176,7 +176,7 @@ stories.addWithJSX('HSLLogo', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.HSLLogo fill={fill} height={`${height}em`} />);
-}, { displayName: 'HSLLogo' });
+});
 
 stories.addWithJSX('Info', () => {
   const fill = color('Fill', '#007ac9');
@@ -189,7 +189,7 @@ stories.addWithJSX('Info', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Info fill={fill} height={`${height}em`} />);
-}, { displayName: 'Info' });
+});
 
 stories.addWithJSX('JourneyPlanner', () => {
   const fill = color('fill', '#d1d1d1');
@@ -202,7 +202,7 @@ stories.addWithJSX('JourneyPlanner', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.JourneyPlanner fill={fill} height={`${height}em`} />);
-}, { displayName: 'JourneyPlanner' });
+});
 stories.addWithJSX('Latest', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -214,7 +214,7 @@ stories.addWithJSX('Latest', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Latest fill={fill} height={`${height}em`} />);
-}, { displayName: 'Latest' });
+});
 stories.addWithJSX('More', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -226,7 +226,7 @@ stories.addWithJSX('More', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.More fill={fill} height={`${height}em`} />);
-}, { displayName: 'More' });
+});
 
 stories.addWithJSX('Menu', () => {
   const fill = color('fill', '#d1d1d1');
@@ -239,7 +239,7 @@ stories.addWithJSX('Menu', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Menu fill={fill} height={`${height}em`} />);
-}, { displayName: 'Menu' });
+});
 
 stories.addWithJSX('Search', () => {
   const fill = color('fill', '#d1d1d1');
@@ -252,7 +252,7 @@ stories.addWithJSX('Search', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Search fill={fill} height={`${height}em`} />);
-}, { displayName: 'Search' });
+});
 stories.addWithJSX('SignIn', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -264,7 +264,7 @@ stories.addWithJSX('SignIn', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.SignIn fill={fill} height={`${height}em`} />);
-}, { displayName: 'SignIn' });
+});
 stories.addWithJSX('Tickets', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -276,7 +276,7 @@ stories.addWithJSX('Tickets', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Tickets fill={fill} height={`${height}em`} />);
-}, { displayName: 'Tickets' });
+});
 stories.addWithJSX('TravelCard', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -288,7 +288,7 @@ stories.addWithJSX('TravelCard', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.TravelCard fill={fill} height={`${height}em`} />);
-}, { displayName: 'TravelCard' });
+});
 stories.addWithJSX('PositionAlert', () => {
   const defaultValue = 10;
   const options = {
@@ -299,7 +299,7 @@ stories.addWithJSX('PositionAlert', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.PositionAlert height={`${height}em`} />);
-}, { displayName: 'PositionAlert' });
+});
 
 stories.addWithJSX('Facebook', () => {
   const fill = color('fill', '#d1d1d1');
@@ -312,7 +312,7 @@ stories.addWithJSX('Facebook', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Facebook fill={fill} height={`${height}em`} />);
-}, { displayName: 'Facebook' });
+});
 stories.addWithJSX('Twitter', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -324,7 +324,7 @@ stories.addWithJSX('Twitter', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Twitter fill={fill} height={`${height}em`} />);
-}, { displayName: 'Twitter' });
+});
 stories.addWithJSX('Instagram', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -336,7 +336,7 @@ stories.addWithJSX('Instagram', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Instagram fill={fill} height={`${height}em`} />);
-}, { displayName: 'Instagram' });
+});
 stories.addWithJSX('Youtube', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -348,7 +348,7 @@ stories.addWithJSX('Youtube', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Youtube fill={fill} height={`${height}em`} />);
-}, { displayName: 'Youtube' });
+});
 stories.addWithJSX('Linkedin', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
@@ -360,4 +360,4 @@ stories.addWithJSX('Linkedin', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Linkedin fill={fill} height={`${height}em`} />);
-}, { displayName: 'Linkedin' });
+});

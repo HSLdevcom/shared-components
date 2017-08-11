@@ -3,78 +3,34 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 
 import View from '../View';
-import Button, { RoundButton } from '../Button';
-import Text, { ListText } from '../Typography';
-import { size } from '../utils';
-import FooterContainer from './FooterContainer';
+import { Mobile, Desktop } from '../utils';
 
-const StyledButton = Button.extend`
-  margin-top: ${size(50)};
-  width: 50%;
-`;
+import FooterMobile from './FooterMobile';
+import FooterDesktop from './FooterDesktop';
 
-const HorizontalView = View.extend`
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-`;
-
-const FlexStart = View.extend`
-  align-items: flex-start;
+const StyledDesktop = Desktop.extend`
   width: 100%;
 `;
-
-const CopyrightText = Text.extend`
-  color: ${props => props.theme.primary};
-  margin-top: ${size(50)};
-`;
-
 
 const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   <View {...rest}>
-    { account &&
-      <FooterContainer title={account.title}>
-        <FlexStart>
-          { account.benefits.map(txt => (<ListText size={2} key={txt}>{txt}</ListText>))}
-        </FlexStart>
-        <StyledButton
-          primary
-          large
-          onPress={account.button.onPress}
-        >
-          {account.button.text}
-        </StyledButton>
-      </FooterContainer>
-    }
-    { socialMedia &&
-      <FooterContainer border={!!account} title={socialMedia.title}>
-        <HorizontalView>
-          { socialMedia.icons.map(SM => (
-            <RoundButton
-              key={SM.key}
-              onPress={SM.onPress}
-              onLongPress={SM.onLongPress}
-            >
-              {React.cloneElement(SM.icon)}
-            </RoundButton>)
-            )
-          }
-        </HorizontalView>
-      </FooterContainer>
-    }
-    <FooterContainer border={!!account || !!socialMedia}>
-      <View>
-        { info.links }
-      </View>
-      <CopyrightText size={2}>{info.copyright}</CopyrightText>
-    </FooterContainer>
+    <Mobile>
+      <FooterMobile
+        account={account}
+        socialMedia={socialMedia}
+        info={info}
+      />
+    </Mobile>
+    <StyledDesktop>
+      <FooterDesktop
+        account={account}
+        socialMedia={socialMedia}
+        info={info}
+      />
+    </StyledDesktop>
   </View>
 ))`
   width: 100%;
-  align-items: stretch;
-  border-style: solid;
-  border-top-width: 4px;
-  border-color: ${props => props.theme.primary};
 `;
 
 Footer.propTypes = {

@@ -34,20 +34,27 @@ storiesOf('Footer', module)
         {
           icon: <Icons.Facebook height="36" width="18" fill="#007ac9" />,
           onPress: () => {},
-          onLongPress: () => {},
-          key: 'facebook'
+          onLongPress: () => {}
         },
         {
           icon: <Icons.Twitter height="27" width="36" fill="#007ac9" />,
           onPress: () => {},
-          onLongPress: () => {},
-          key: 'twitter'
+          onLongPress: () => {}
         },
         {
           icon: <Icons.Instagram height="30" width="30" fill="#007ac9" />,
           onPress: () => {},
-          onLongPress: () => {},
-          key: 'instagram'
+          onLongPress: () => {}
+        },
+        {
+          icon: <Icons.Linkedin height="30" width="36" fill="#007ac9" />,
+          onPress: () => {},
+          onLongPress: () => {}
+        },
+        {
+          icon: <Icons.Youtube height="34" width="34" fill="#007ac9" />,
+          onPress: () => {},
+          onLongPress: () => {}
         }
       ]
     };
@@ -57,10 +64,10 @@ storiesOf('Footer', module)
     const info = {
       copyright: '© Copyright HSL',
       links: [
-        <LinkText key="1" size={2}>Yhteystiedot</LinkText>,
-        <LinkText key="2" size={2}>Tietosuojalauseke</LinkText>,
-        <LinkText key="3" size={2}>Rekisteriseloste</LinkText>,
-        <LinkText key="4" size={2}>Tietoa sivustosta</LinkText>
+        <LinkText >Yhteystiedot</LinkText>,
+        <LinkText >Tietosuojalauseke</LinkText>,
+        <LinkText >Rekisteriseloste</LinkText>,
+        <LinkText >Tietoa sivustosta</LinkText>
       ]
     };
     return (

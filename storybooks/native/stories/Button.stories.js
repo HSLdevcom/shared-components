@@ -62,6 +62,15 @@ storiesOf('Button', module)
       Secondary Button
     </Button>);
   })
-  .add('round button', () => (
-    <RoundButton><Icons.Facebook height="36" width="18" fill="#007ac9" /></RoundButton>
-  ));
+  .add('round button', () => {
+    const small = boolean('Small', false);
+    const large = boolean('Large', false);
+    return (
+      <RoundButton
+        small={small}
+        large={large}
+      >
+        <Icons.Facebook height="36" width="18" fill="#007ac9" />
+      </RoundButton>
+    );
+  });
