@@ -26,6 +26,8 @@ import Instagram from './Instagram';
 import Linkedin from './Linkedin';
 import Twitter from './Twitter';
 import Youtube from './Youtube';
+import Bike from './Bike';
+import MobileTicket from './MobileTicket';
 
 
 export default {
@@ -56,5 +58,7 @@ export default {
   Instagram,
   Linkedin,
   Twitter,
-  Youtube
+  Youtube,
+  Bike,
+  MobileTicket
 };

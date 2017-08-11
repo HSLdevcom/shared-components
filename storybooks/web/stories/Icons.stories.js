@@ -361,3 +361,27 @@ stories.addWithJSX('Linkedin', () => {
   const height = number('Height', defaultValue, options);
   return (<Icons.Linkedin fill={fill} height={`${height}em`} />);
 });
+stories.addWithJSX('Bike', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Bike fill={fill} height={`${height}em`} />);
+});
+stories.addWithJSX('MobileTicket', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.MobileTicket fill={fill} height={`${height}em`} />);
+});
