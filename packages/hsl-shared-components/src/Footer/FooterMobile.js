@@ -19,10 +19,13 @@ const StyledButton = WindowSize(styled(({ width, ...rest }) => (
 `);
 
 
-const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
+const StyledRoundButton = WindowSize(styled(({ width, frontpage, ...rest }) => (
   <RoundButton {...rest} large={width >= LARGE_MOBILE} />
 ))`
   margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? utilsSize(10) : utilsSize(3))};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `);
 
 const SIZE_REDUCE_RATIO = 0.8;
@@ -77,6 +80,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
               key={index}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
+              frontpage={frontpage}
             >
               {React.cloneElement(SM.icon)}
             </StyledRoundButton>)
@@ -103,7 +107,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
-  ${props => props.frontpage && `
+  ${props => !props.frontpage && `
     background-color: ${lighten(0.225, props.theme.default)}
   `}
 `;

@@ -51,7 +51,6 @@ exports[`Storyshots Footer default 1`] = `
               Array [
                 Object {
                   "alignItems": "stretch",
-                  "backgroundColor": "#f0f0f0",
                   "borderColor": "#007ac9",
                   "borderStyle": "solid",
                   "borderTopWidth": 4,
@@ -1117,6 +1116,7 @@ exports[`Storyshots Footer sub site 1`] = `
               Array [
                 Object {
                   "alignItems": "stretch",
+                  "backgroundColor": "#f0f0f0",
                   "borderColor": "#007ac9",
                   "borderStyle": "solid",
                   "borderTopWidth": 4,
@@ -1636,6 +1636,7 @@ exports[`Storyshots Footer sub site 1`] = `
                             },
                             Array [
                               Object {
+                                "backgroundColor": "#f0f0f0",
                                 "marginHorizontal": 8.75,
                               },
                               undefined,
@@ -1710,6 +1711,7 @@ exports[`Storyshots Footer sub site 1`] = `
                             },
                             Array [
                               Object {
+                                "backgroundColor": "#f0f0f0",
                                 "marginHorizontal": 8.75,
                               },
                               undefined,
@@ -1784,6 +1786,7 @@ exports[`Storyshots Footer sub site 1`] = `
                             },
                             Array [
                               Object {
+                                "backgroundColor": "#f0f0f0",
                                 "marginHorizontal": 8.75,
                               },
                               undefined,
@@ -1858,6 +1861,7 @@ exports[`Storyshots Footer sub site 1`] = `
                             },
                             Array [
                               Object {
+                                "backgroundColor": "#f0f0f0",
                                 "marginHorizontal": 8.75,
                               },
                               undefined,
@@ -1938,6 +1942,7 @@ exports[`Storyshots Footer sub site 1`] = `
                             },
                             Array [
                               Object {
+                                "backgroundColor": "#f0f0f0",
                                 "marginHorizontal": 8.75,
                               },
                               undefined,

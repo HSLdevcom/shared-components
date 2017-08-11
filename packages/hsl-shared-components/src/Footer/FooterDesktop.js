@@ -78,10 +78,15 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   `};
 `);
 
-const StyledRoundButton = RoundButton.extend`
+const StyledRoundButton = styled(({ frontpage, ...rest }) => (
+  <RoundButton {...rest} />
+))`
   margin-horizontal: ${size(10)};
   margin-bottom: ${size(20)};
   margin-top: ${size(15)};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 const Info = View.extend`
@@ -142,6 +147,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
                 small
+                frontpage={frontpage}
               >
                 {React.cloneElement(SM.icon)}
               </StyledRoundButton>)
@@ -170,7 +176,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
-  ${props => props.frontpage && `
+  ${props => !props.frontpage && `
     background-color: ${lighten(0.225, props.theme.default)}
   `}
 `;
