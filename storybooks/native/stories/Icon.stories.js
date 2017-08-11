@@ -143,4 +143,12 @@ storiesOf('Icons', module)
   .add('Linkedin', () => {
     const fill = color('fill', '#d1d1d1');
     return (<Icons.Linkedin fill={fill} height="200" width="200" />);
-  }, { displayName: 'Linkedin' });
+  }, { displayName: 'Linkedin' })
+  .add('Bike', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.Bike fill={fill} height="200" width="200" />);
+  }, { displayName: 'Bike' })
+  .add('MobileTicket', () => {
+    const fill = color('fill', '#d1d1d1');
+    return (<Icons.MobileTicket fill={fill} height="200" width="200" />);
+  }, { displayName: 'MobileTicket' });
