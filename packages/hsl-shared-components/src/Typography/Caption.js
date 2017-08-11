@@ -10,7 +10,7 @@ const Caption = styled(({ size, ...rest }) => (
 ))`
   font-weight: 300;
   font-size: ${props => utilsSize(13 * (props.size || 1))};
-  line-height: ${props => 14 * (props.size || 1)};
+  line-height: ${props => Math.round(14 * (props.size || 1))};
 `;
 
 Caption.propTypes = {

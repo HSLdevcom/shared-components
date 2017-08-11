@@ -16,7 +16,7 @@ const Quote = styled(({ size, ...rest }) => (
 ))`
   font-weight: 300;
   font-size: ${props => utilsSize(20 * (props.size || 1))};
-  line-height: ${props => 25 * (props.size || 1)};
+  line-height: ${props => Math.round(25 * (props.size || 1))};
   font-style: italic;
   padding: 3px 0px 3px 20px;
   ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}

@@ -10,7 +10,7 @@ const P = styled(({ size, ...rest }) => (
 ))`
   font-weight: 300;
   font-size: ${props => utilsSize(14 * (props.size || 1))};
-  line-height: ${props => 18 * (props.size || 1)};
+  line-height: ${props => Math.round(18 * (props.size || 1))};
 `;
 
 P.propTypes = {

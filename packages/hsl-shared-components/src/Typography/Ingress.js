@@ -10,7 +10,7 @@ const Ingress = styled(({ size, ...rest }) => (
 ))`
   font-weight: 300;
   font-size: ${props => utilsSize(20 * (props.size || 1))};
-  line-height: ${props => 25 * (props.size || 1)};
+  line-height: ${props => Math.round(25 * (props.size || 1))};
   ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
 `;
 
