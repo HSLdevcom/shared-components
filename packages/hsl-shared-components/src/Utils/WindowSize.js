@@ -1,5 +1,6 @@
 import React from 'react';
 import { Dimensions } from 'react-primitives';
+import _ from 'lodash';
 
 /*
   You may encounter problems with components wrapped with Touchable.
@@ -35,7 +36,7 @@ export default function(WrappedComponent) {
       }
       super(props);
       this.state = { width: Dimensions.get('window').width };
-      this.onResize = this.onResize.bind(this);
+      this.onResize = _.debounce(this.onResize.bind(this), 200);
     }
 
     componentDidMount() {
@@ -53,6 +54,9 @@ export default function(WrappedComponent) {
     onResize({ window }) {
       // Dimensions has debounce in eventlistener, this may be called once after unmounting.
       if (!this.node) {
+        return;
+      }
+      if (this.state.width === window.width) {
         return;
       }
       this.setState({

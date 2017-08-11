@@ -12,7 +12,7 @@ class Mobile extends React.Component {
   constructor(props) {
     super(props);
     this.state = { width: Dimensions.get('window').width };
-    this.onResize = this.onResize.bind(this);
+    this.onResize = _.debounce(this.onResize.bind(this), 200);
   }
 
   componentDidMount() {
