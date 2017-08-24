@@ -8,7 +8,7 @@ import { darken } from 'polished';
 import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import Icons from '../Icons';
 import Touchable from '../Touchable';
@@ -113,7 +113,7 @@ const TopIcons = Flex.extend`
   .text {
     display: none;
   }
-  .icon {
+  ${IconWrapper} {
     margin: 0;
     line-height:0;
   }

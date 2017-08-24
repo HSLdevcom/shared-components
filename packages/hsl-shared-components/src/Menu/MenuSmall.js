@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 import A from '../Anchor';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
 import { Flex } from '../Wrapper';
@@ -13,14 +13,14 @@ import MenuItem from './MenuItem';
 
 const StyledFlex = Flex.extend`
   align-self: stretch;
-  .icon {
+  ${IconWrapper} {
     line-height: 0;
     margin: 0;
     display: flex;
     align-items: center;
   }
 
-  .icon svg, .search-icon svg {
+  ${IconWrapper} svg, .search-icon svg {
     height: 1.5rem;
   }
 

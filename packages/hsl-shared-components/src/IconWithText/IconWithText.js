@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Span from '../Span';
 import Div from '../Div';
 
-const IconWrapper = Span.extend`
+export const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
   margin: ${props => (props.textPosition === 'Right' ? '0 0.75rem 0 0' : '0 0 0.75rem 0')};

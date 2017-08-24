@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import Div from '../Div';
 import List, { ListItem } from '../List';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
   white-space: normal;
@@ -22,7 +22,7 @@ const StyledDiv = Div.extend`
     &:not(:last-child) {
       margin-bottom: 1.5rem;
     }
-    .icon {
+    ${IconWrapper} {
       display: none;
     }
   }
