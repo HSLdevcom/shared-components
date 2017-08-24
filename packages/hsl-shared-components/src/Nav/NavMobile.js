@@ -17,12 +17,12 @@ import View from '../View';
 export const Height = '64px';
 
 const StyledNav = styled.nav`
-  transition: top .20s linear;
+  transition: transform .20s linear;
   position: absolute;
   top: 0;
   ${props => !props.menuOpen && `
     position: fixed;
-    top: ${props.visible ? 0 : `-${Height}`};
+    transform: translateY(${props.visible ? 0 : `-${Height}`});
   `}
   left: 0;
   right: 0;
