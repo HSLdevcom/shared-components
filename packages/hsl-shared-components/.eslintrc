@@ -34,7 +34,7 @@
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "space-before-function-paren": ["error", "never"],
     "import/no-extraneous-dependencies": 0,
-    "react/forbid-component-props": ["error", { "forbid": ["className"]}]
+    "import/named": "error"
   },
   "globals": {
   },
