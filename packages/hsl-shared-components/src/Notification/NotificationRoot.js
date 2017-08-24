@@ -3,7 +3,8 @@ import { PropTypes } from 'prop-types';
 import styled, { css } from 'styled-components';
 import _ from 'lodash';
 import Icons from '../Icons';
-import { Div, Span } from '../';
+import Div from '../Div';
+import Span from '../Span';
 import { emitter as EE } from './notification';
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
 
