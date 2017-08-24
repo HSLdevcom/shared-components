@@ -10,6 +10,9 @@ import Icons from '../Icons';
 import { Flex } from '../Wrapper';
 import MenuItem from './MenuItem';
 
+const SearchIcon = Flex.extend`
+  align-items: center;
+`;
 
 const StyledFlex = Flex.extend`
   align-self: stretch;
@@ -20,12 +23,8 @@ const StyledFlex = Flex.extend`
     align-items: center;
   }
 
-  ${IconWrapper} svg, .search-icon svg {
+  ${IconWrapper} svg, ${SearchIcon} svg {
     height: 1.5rem;
-  }
-
-  .search-icon {
-    align-items: center;
   }
 
   svg {
@@ -56,7 +55,7 @@ const StyledFlex = Flex.extend`
   ${props => (
     props.theme.Media &&
     props.theme.Media.medium`
-      .search-icon, ${LangSelectSmall} {
+      ${SearchIcon}, ${LangSelectSmall} {
         display: none;
       }
     `
@@ -74,12 +73,12 @@ const MenuSmall = ({
 }) => (
   <StyledFlex className={className}>
     {children}
-    <Flex className="search-icon">
+    <SearchIcon>
       <Icons.Search
         height="2rem"
         width="2rem"
       />
-    </Flex>
+    </SearchIcon>
     <LangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
