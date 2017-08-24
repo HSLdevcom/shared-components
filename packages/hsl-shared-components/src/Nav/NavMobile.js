@@ -8,7 +8,7 @@ import { darken } from 'polished';
 import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
-import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper, TextWrapper } from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import Icons from '../Icons';
 import Touchable from '../Touchable';
@@ -110,7 +110,7 @@ const TopBar = Flex.extend`
 const TopIcons = Flex.extend`
   align-items: center;
   align-self: stretch;
-  .text {
+  ${TextWrapper} {
     display: none;
   }
   ${IconWrapper} {

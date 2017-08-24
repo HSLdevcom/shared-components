@@ -13,6 +13,8 @@ export const IconWrapper = Span.extend`
   }
 `;
 
+export const TextWrapper = Span.extend``;
+
 const StyledButton = Div.extend`
   display: flex;
   flex-direction: ${props => (props.textPosition === 'Right' ? 'row' : 'column')};
@@ -25,13 +27,12 @@ const IconWithText = ({ icon,
   className }) => (
     <StyledButton className={className} textPosition={textPosition}>
       <IconWrapper
-        className="icon"
         aria-hidden="true"
         textPosition={textPosition}
       >
         { icon }
       </IconWrapper>
-      <Span className="text">{text}</Span>
+      <TextWrapper>{text}</TextWrapper>
     </StyledButton>
 );
 
