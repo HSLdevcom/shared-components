@@ -195,7 +195,7 @@ class Nav extends React.Component {
             ))}
           <Touchable onPress={this.toggleMenu}>
             <View className={cx('menu-toggle', { open: this.state.menuOpen })}>
-              <Icons.Menu height="2rem" />
+              <Icons.Menu style={{ height: '2rem' }} />
             </View>
           </Touchable>
         </TopIcons>}

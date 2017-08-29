@@ -75,8 +75,7 @@ const MenuSmall = ({
     {children}
     <SearchIcon>
       <Icons.Search
-        height="2rem"
-        width="2rem"
+        style={{ height: '2rem', width: '2rem' }}
       />
     </SearchIcon>
     <LangSelectSmall
@@ -90,7 +89,7 @@ const MenuSmall = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -99,7 +98,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn height="3.5rem" />}
+    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

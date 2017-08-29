@@ -133,7 +133,7 @@ const Menu = ({
 }) => (
   <StyledDiv className={className}>
     <Top>
-      <Icons.Search height="1.5rem" width="1.5rem" />
+      <Icons.Search style={{ height: '1.5rem', width: '1.5rem' }} />
       <LangSelectWrapper>
         <LangSelect
           className="large"
@@ -170,7 +170,7 @@ const Menu = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -178,7 +178,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn height="3.5rem" />}
+    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"
