@@ -3,7 +3,7 @@ import cx from 'classnames';
 import { Platform } from 'react-primitives';
 import { rem } from 'polished';
 
-import { Desktop, Mobile, WindowSize } from './Utils';
+import { Desktop, Mobile, WindowSize } from './Utils/';
 
 export { Desktop, Mobile, WindowSize };
 
