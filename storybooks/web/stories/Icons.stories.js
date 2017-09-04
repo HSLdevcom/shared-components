@@ -139,6 +139,19 @@ stories.addWithJSX('Cross', () => {
   return (<Icons.Cross fill={fill} height={`${height}em`} />);
 });
 
+stories.addWithJSX('CustomerService', () => {
+  const fill = color('fill', '#d1d1d1');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.CustomerService fill={fill} height={`${height}em`} />);
+});
+
 stories.addWithJSX('Edit', () => {
   const fill = color('fill', '#d1d1d1');
   const defaultValue = 10;
