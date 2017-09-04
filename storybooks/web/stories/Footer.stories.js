@@ -143,14 +143,14 @@ stories.addWithJSX('sub site', () => {
       icon={<Icons.Alert fill="#ffffff" height="30px" width="30px" />}
       onPress={() => {}}
       text="Häiriöt ja poikkeukset"
-      style={{ background: '#dc0451' }}
+      style={{ backgroundColor: '#dc0451' }}
       small
     />,
     <ButtonWithText
       icon={<Icons.TravelCard fill="#ffffff" height="30px" width="30px" />}
       onPress={() => {}}
       text="Lataa matkakorttia"
-      style={{ background: '#4ea700' }}
+      style={{ backgroundColor: '#4ea700' }}
       small
     />,
     <ButtonWithText
@@ -163,7 +163,7 @@ stories.addWithJSX('sub site', () => {
       icon={<Icons.Bike fill="#ffffff" height="30px" width="30px" />}
       onPress={() => {}}
       text="Kaupunkipyörät"
-      style={{ background: '#fcbc19' }}
+      style={{ backgroundColor: '#fcbc19' }}
       small
     />,
     <ButtonWithText
