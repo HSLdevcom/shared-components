@@ -1,0 +1,18 @@
+
+{
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+		{
+			"name": "react-sketchapp: Basic Setup",
+			"identifier": "main",
+			"script": "./sketchapp.js"
+		}
+	],
+	"menu": {
+		"isRoot": true,
+		"items": [
+			"main"
+		]
+	}
+}

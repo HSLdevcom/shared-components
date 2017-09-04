@@ -34,14 +34,24 @@
     "react-test-renderer": "15.4.x",
     "react-transition-group": "^1.2.0",
     "redux": "^3.7.1",
+    "skpm": "^0.10.5",
     "styled-components": "^2.1.1"
   },
   "main": "lib/",
+  "skpm": {
+    "main": "hsl-shared-components.sketchplugin",
+    "manifest": "./skpm-manifest.json"
+  },
   "scripts": {
     "prepublish": "babel src/ --out-dir lib/ --ignore .test.js",
     "build:watch": "babel src/ --out-dir lib/ --watch --ignore .test.js",
     "test": "jest",
-    "es-lint": "eslint ."
+    "es-lint": "eslint .",
+    "sketch:build": "skpm build",
+    "sketch:watch": "skpm build --watch",
+    "sketch:render": "skpm build --watch --run",
+    "sketch:render:once": "skpm build --run",
+    "sketch:link-plugin": "skpm link"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -49,7 +59,8 @@
     "moment": "^2.18.1",
     "polished": "^1.2.1",
     "react-primitives": "ktj/primitives-build",
-    "react-primitives-svg": "ktj/primitives-svg-build"
+    "react-primitives-svg": "ktj/primitives-svg-build",
+    "react-sketchapp": "^0.12.1"
   },
   "peerDependencies": {
     "react": "*",
