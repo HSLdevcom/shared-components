@@ -52,10 +52,23 @@ const CopyrightText = Text.extend`
 `;
 
 
-const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
+    {
+      !frontpage && links &&
+      <MobileContainer>
+        <FlexStart>
+          {
+            links.map(link => (
+              React.cloneElement(link, { large: true })
+            ))
+          }
+        </FlexStart>
+      </MobileContainer>
+
+    }
     { account &&
-      <MobileContainer title={account.title}>
+      <MobileContainer border={!frontpage && !!links} title={account.title}>
         <FlexStart>
           { account.benefits.map(txt => (
             <ScaleSize size={1.75} key={txt}>
@@ -134,7 +147,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';

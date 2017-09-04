@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons } from 'hsl-shared-components';
+import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -131,7 +131,44 @@ storiesOf('Footer', module)
         <LinkText >Tietoa sivustosta</LinkText>
       ]
     };
+
+    const links = [
+      <ButtonWithText
+        icon={<Icons.Alert fill="#ffffff" height="30" width="30" />}
+        onPress={() => {}}
+        text="Häiriöt ja poikkeukset"
+        style={{ background: '#dc0451' }}
+        small
+      />,
+      <ButtonWithText
+        icon={<Icons.TravelCard fill="#ffffff" height="30" width="30" />}
+        onPress={() => {}}
+        text="Lataa matkakorttia"
+        style={{ background: '#4ea700' }}
+        small
+      />,
+      <ButtonWithText
+        icon={<Icons.MobileTicket fill="#ffffff" height="30" width="30" />}
+        onPress={() => {}}
+        text="Ota mobiililippu käyttöön"
+        small
+      />,
+      <ButtonWithText
+        icon={<Icons.Bike fill="#ffffff" height="30" width="30" />}
+        onPress={() => {}}
+        text="Kaupunkipyörät"
+        style={{ background: '#fcbc19' }}
+        small
+      />,
+      <ButtonWithText
+        icon={<Icons.CustomerService fill="#ffffff" height="30" width="30" />}
+        onPress={() => {}}
+        text="Asiakaspalvelu ja palaute"
+        small
+      />
+    ];
+
     return (
-      <Footer info={info} account={account} socialMedia={socialMedia} />
+      <Footer info={info} account={account} socialMedia={socialMedia} links={links} />
     );
   });
