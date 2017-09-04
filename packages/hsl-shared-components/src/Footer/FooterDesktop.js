@@ -15,6 +15,22 @@ const HorizontalView = View.extend`
   justify-content: flex-start;
 `;
 
+const Links = HorizontalView.extend`
+  padding-horizontal: ${size(LEFT_PADDING)};
+  padding-vertical: ${size(16)};
+  justify-content: flex-start;
+  flex-wrap: wrap;
+`;
+
+const LinkWrapper = styled(({ last, ...rest }) => (
+  <View {...rest} />
+))`
+  width: ${size(200)};
+  overflow: hidden;
+  ${props => !props.last && `margin-right: ${size(32)};`}
+  margin-vertical: ${size(16)};
+`;
+
 const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   <HorizontalView {...rest} />
 ))`
@@ -112,12 +128,24 @@ const CopyrightText = Text.extend`
   color: ${props => props.theme.primary};
   flex: 1;
 `;
-const LinkWrapper = View.extend`
+const InfoLinkWrapper = View.extend`
   padding-horizontal: ${size(15)};
 `;
 
-const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
+    { !frontpage && links &&
+      <Links>
+        {/* eslint-disable react/no-array-index-key */}
+        {
+          links.map((link, index, arr) => (
+            <LinkWrapper key={index} last={(arr.length - 1) === index}>
+              {link}
+            </LinkWrapper>
+          ))
+        }
+      </Links>
+    }
     <AccountSMWrapper>
       { account &&
         <Account>
@@ -140,7 +168,6 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
         <SocialMedia>
           <H3>{socialMedia.title}</H3>
           <HorizontalView>
-            {/* eslint-disable react/no-array-index-key */}
             { socialMedia.icons.map((SM, index) => (
               <StyledRoundButton
                 key={index}
@@ -162,9 +189,9 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
       <InfoLinks>
         {
           info.links.map((link, index) => (
-            <LinkWrapper key={index}>
+            <InfoLinkWrapper key={index}>
               { React.cloneElement(link, { size: 0.9, key: index }) }
-            </LinkWrapper>
+            </InfoLinkWrapper>
           ))
         }
       </InfoLinks>
@@ -203,7 +230,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';

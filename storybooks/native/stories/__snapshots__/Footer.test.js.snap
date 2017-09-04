@@ -42,6 +42,7 @@ exports[`Storyshots Footer default 1`] = `
         }
       >
         <View
+          links={undefined}
           style={
             Array [
               Object {
@@ -1107,6 +1108,7 @@ exports[`Storyshots Footer sub site 1`] = `
         }
       >
         <View
+          links={undefined}
           style={
             Array [
               Object {

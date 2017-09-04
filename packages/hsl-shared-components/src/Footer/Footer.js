@@ -8,7 +8,7 @@ import { Mobile, Desktop } from '../utils';
 import FooterMobile from './FooterMobile';
 import FooterDesktop from './FooterDesktop';
 
-const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
     <Mobile>
       <FooterMobile
@@ -16,6 +16,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
         socialMedia={socialMedia}
         info={info}
         frontpage={frontpage}
+        links={links}
       />
     </Mobile>
     <Desktop>
@@ -24,6 +25,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, ...rest }) => (
         socialMedia={socialMedia}
         info={info}
         frontpage={frontpage}
+        links={links}
       />
     </Desktop>
   </View>
@@ -54,7 +56,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';
