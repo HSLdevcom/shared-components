@@ -38,6 +38,9 @@ const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   ${props => (props.theme.sizes.large >= props.width) && `
     flex-direction: column;
   `};
+  border-style: solid;
+  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-top-width: 2px;
 `);
 
 const Account = WindowSize(styled(({ width, ...rest }) => (
