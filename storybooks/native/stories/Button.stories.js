@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons } from 'hsl-shared-components';
+import { Button, RoundButton, Icons, ButtonWithText } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
@@ -72,5 +72,19 @@ storiesOf('Button', module)
       >
         <Icons.Facebook height="36" width="18" fill="#007ac9" />
       </RoundButton>
+    );
+  })
+  .add('button with text', () => {
+    const small = boolean('Small', false);
+    const large = boolean('Large', false);
+    const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
+    return (
+      <ButtonWithText
+        small={small}
+        large={large}
+        text="Kaupunkipyörät"
+        icon={icon}
+        onPress={action('press')}
+      />
     );
   });

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Text from '../Typography';
 import Touchable from '../Touchable';
 import View from '../View';
-import { size as utilsSize } from '../utils';
+import { size as utilsSize, IS_NATIVE } from '../utils';
 
 const sizeMap = {
   button: {
@@ -45,6 +45,8 @@ const Icon = styled(({ large, small, ...rest }) => (
 ))`
   height: ${props => size('icon', props.large, props.small)};
   width: ${props => size('icon', props.large, props.small)};
+  justify-content: center;
+  align-items: center;
 `;
 
 const StyledText = styled(({ large, small, ...rest }) => (
@@ -62,7 +64,15 @@ const ButtonWithText = styled(({ large, small, text, icon, onPress, ...rest }) =
     <StyledView>
       <View {...rest}>
         <Icon large={large} small={small}>
-          {icon}
+          {
+            React.cloneElement(
+              icon,
+              {
+                height: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%', // note: native doesnt work with dynamic props
+                width: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%'
+              }
+            )
+          }
         </Icon>
       </View>
       <StyledText large={large} small={small}>{text}</StyledText>
