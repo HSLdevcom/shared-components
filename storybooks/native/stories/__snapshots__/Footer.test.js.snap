@@ -116,11 +116,17 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "flex-start",
+                    "alignItems": "center",
                     "justifyContent": "center",
-                    "width": "100%",
                   },
-                  undefined,
+                  Array [
+                    Object {
+                      "alignItems": "flex-start",
+                      "paddingLeft": 52.5,
+                      "width": "100%",
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -1150,11 +1156,17 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "flex-start",
+                    "alignItems": "center",
                     "justifyContent": "center",
-                    "width": "100%",
                   },
-                  undefined,
+                  Array [
+                    Object {
+                      "alignItems": "flex-start",
+                      "paddingLeft": 52.5,
+                      "width": "100%",
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >
@@ -1715,11 +1727,17 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "flex-start",
+                    "alignItems": "center",
                     "justifyContent": "center",
-                    "width": "100%",
                   },
-                  undefined,
+                  Array [
+                    Object {
+                      "alignItems": "flex-start",
+                      "paddingLeft": 52.5,
+                      "width": "100%",
+                    },
+                    undefined,
+                  ],
                 ]
               }
             >

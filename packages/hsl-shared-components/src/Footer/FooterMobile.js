@@ -44,6 +44,7 @@ const HorizontalView = View.extend`
 const FlexStart = View.extend`
   align-items: flex-start;
   width: 100%;
+  padding-left: ${utilsSize(60)};
 `;
 
 const CopyrightText = Text.extend`
