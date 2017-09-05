@@ -140,22 +140,31 @@ exports[`Storyshots Footer default 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -224,22 +233,31 @@ exports[`Storyshots Footer default 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -308,22 +326,31 @@ exports[`Storyshots Footer default 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -392,22 +419,31 @@ exports[`Storyshots Footer default 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -1026,22 +1062,31 @@ exports[`Storyshots Footer default 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Yhteystiedot
@@ -1060,22 +1105,31 @@ exports[`Storyshots Footer default 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Tietosuojalauseke
@@ -1094,22 +1148,31 @@ exports[`Storyshots Footer default 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Rekisteriseloste
@@ -1128,22 +1191,31 @@ exports[`Storyshots Footer default 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Tietoa sivustosta
@@ -1164,22 +1236,31 @@ exports[`Storyshots Footer default 1`] = `
                       "marginTop": 43.75,
                     },
                     Array [
-                      Object {
-                        "transform": Array [
-                          Object {
-                            "scale": 1,
-                          },
-                        ],
-                      },
+                      Object {},
                       undefined,
                     ],
                   ],
                 ]
               }
-              transform={
-                Object {
-                  "scale": 1,
-                }
+              transformMatrix={
+                Array [
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                ]
               }
             >
               © Copyright HSL
@@ -1283,21 +1364,30 @@ exports[`Storyshots Footer sub site 1`] = `
                     "width": "100%",
                   },
                   Array [
-                    Object {
-                      "transform": Array [
-                        Object {
-                          "scale": 1,
-                        },
-                      ],
-                    },
+                    Object {},
                     undefined,
                   ],
                 ]
               }
-              transform={
-                Object {
-                  "scale": 1,
-                }
+              transformMatrix={
+                Array [
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                ]
               }
             >
               <View
@@ -1881,22 +1971,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -1965,22 +2064,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -2049,22 +2157,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -2133,22 +2250,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "width": "100%",
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 <View
@@ -2772,22 +2898,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Yhteystiedot
@@ -2806,22 +2941,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Tietosuojalauseke
@@ -2840,22 +2984,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Rekisteriseloste
@@ -2874,22 +3027,31 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontSize": 21,
                       },
                       Array [
-                        Object {
-                          "transform": Array [
-                            Object {
-                              "scale": 1,
-                            },
-                          ],
-                        },
+                        Object {},
                         undefined,
                       ],
                     ],
                   ]
                 }
-                transform={
-                  Object {
-                    "scale": 1,
-                  }
+                transformMatrix={
+                  Array [
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                  ]
                 }
               >
                 Tietoa sivustosta
@@ -2910,22 +3072,31 @@ exports[`Storyshots Footer sub site 1`] = `
                       "marginTop": 43.75,
                     },
                     Array [
-                      Object {
-                        "transform": Array [
-                          Object {
-                            "scale": 1,
-                          },
-                        ],
-                      },
+                      Object {},
                       undefined,
                     ],
                   ],
                 ]
               }
-              transform={
-                Object {
-                  "scale": 1,
-                }
+              transformMatrix={
+                Array [
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                ]
               }
             >
               © Copyright HSL
