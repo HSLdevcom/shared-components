@@ -6,7 +6,7 @@ import { lighten } from 'polished';
 import View from '../View';
 import Button, { RoundButton } from '../Button';
 import Text, { ListText } from '../Typography';
-import { size as utilsSize, WindowSize } from '../utils';
+import { size as utilsSize, WindowSize, IS_NATIVE } from '../utils';
 import MobileContainer from './MobileContainer';
 
 const LARGE_MOBILE = 640;
@@ -30,10 +30,14 @@ const StyledRoundButton = WindowSize(styled(({ width, frontpage, ...rest }) => (
 
 const SIZE_REDUCE_RATIO = 0.8;
 
-const ScaleSize = WindowSize(styled(({ width, size, innerRef, children }) => {
-  const scaledSize = width >= LARGE_MOBILE ? size : SIZE_REDUCE_RATIO * size;
-  return React.cloneElement(children, { size: scaledSize, innerRef });
-})``);
+/* transform: matrix(0.8, 0, 0, 0.8, 0, 0); */
+const Scale = WindowSize(styled(({ width, children, ...rest }) => {
+  const scale = width >= LARGE_MOBILE ? 1 : SIZE_REDUCE_RATIO;
+  return React.cloneElement(children, { transform: { scale }, ...rest });
+})`
+  transform: scale(${props => (props.width >= LARGE_MOBILE ? 1 : SIZE_REDUCE_RATIO)});
+  ${!IS_NATIVE && 'transform-origin: 0 0;'/* todo fix native */}
+`);
 
 const HorizontalView = View.extend`
   flex-direction: row;
@@ -44,7 +48,7 @@ const HorizontalView = View.extend`
 const FlexStart = View.extend`
   align-items: flex-start;
   width: 100%;
-  padding-left: ${utilsSize(60)};
+  padding-left: ${utilsSize(40)};
 `;
 
 const CopyrightText = Text.extend`
@@ -58,13 +62,15 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
     {
       !frontpage && links &&
       <MobileContainer>
-        <FlexStart>
-          {
-            links.map(link => (
-              React.cloneElement(link, { large: true })
-            ))
-          }
-        </FlexStart>
+        <Scale>
+          <FlexStart>
+            {
+              links.map(link => (
+                React.cloneElement(link, { large: true })
+              ))
+            }
+          </FlexStart>
+        </Scale>
       </MobileContainer>
 
     }
@@ -72,9 +78,9 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
       <MobileContainer border={!frontpage && !!links} title={account.title}>
         <FlexStart>
           { account.benefits.map(txt => (
-            <ScaleSize size={1.75} key={txt}>
-              <ListText>{txt}</ListText>
-            </ScaleSize>
+            <Scale key={txt}>
+              <ListText size={1.75}>{txt}</ListText>
+            </Scale>
           ))}
         </FlexStart>
         <StyledButton
@@ -106,13 +112,13 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
         { info.links.map((link, index) => (
-          <ScaleSize size={1.5} key={index}>{link}</ScaleSize>
+          <Scale key={index}>{React.cloneElement(link, { size: 1.5 })}</Scale>
           ))
         }
       </View>
-      <ScaleSize size={1.5}>
-        <CopyrightText>{info.copyright}</CopyrightText>
-      </ScaleSize>
+      <Scale>
+        <CopyrightText size={1.5}>{info.copyright}</CopyrightText>
+      </Scale>
     </MobileContainer>
   </View>
 ))`

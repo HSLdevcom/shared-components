@@ -116,17 +116,12 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
+                    "alignItems": "flex-start",
                     "justifyContent": "center",
+                    "paddingLeft": 35,
+                    "width": "100%",
                   },
-                  Array [
-                    Object {
-                      "alignItems": "flex-start",
-                      "paddingLeft": 52.5,
-                      "width": "100%",
-                    },
-                    undefined,
-                  ],
+                  undefined,
                 ]
               }
             >
@@ -144,9 +139,23 @@ exports[`Storyshots Footer default 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -214,9 +223,23 @@ exports[`Storyshots Footer default 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -284,9 +307,23 @@ exports[`Storyshots Footer default 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -354,9 +391,23 @@ exports[`Storyshots Footer default 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -974,9 +1025,23 @@ exports[`Storyshots Footer default 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Yhteystiedot
@@ -994,9 +1059,23 @@ exports[`Storyshots Footer default 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Tietosuojalauseke
@@ -1014,9 +1093,23 @@ exports[`Storyshots Footer default 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Rekisteriseloste
@@ -1034,9 +1127,23 @@ exports[`Storyshots Footer default 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Tietoa sivustosta
@@ -1056,9 +1163,23 @@ exports[`Storyshots Footer default 1`] = `
                       "fontSize": 21,
                       "marginTop": 43.75,
                     },
-                    undefined,
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scale": 1,
+                          },
+                        ],
+                      },
+                      undefined,
+                    ],
                   ],
                 ]
+              }
+              transform={
+                Object {
+                  "scale": 1,
+                }
               }
             >
               © Copyright HSL
@@ -1156,18 +1277,27 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
+                    "alignItems": "flex-start",
                     "justifyContent": "center",
+                    "paddingLeft": 35,
+                    "width": "100%",
                   },
                   Array [
                     Object {
-                      "alignItems": "flex-start",
-                      "paddingLeft": 52.5,
-                      "width": "100%",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
                     },
                     undefined,
                   ],
                 ]
+              }
+              transform={
+                Object {
+                  "scale": 1,
+                }
               }
             >
               <View
@@ -1727,17 +1857,12 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
+                    "alignItems": "flex-start",
                     "justifyContent": "center",
+                    "paddingLeft": 35,
+                    "width": "100%",
                   },
-                  Array [
-                    Object {
-                      "alignItems": "flex-start",
-                      "paddingLeft": 52.5,
-                      "width": "100%",
-                    },
-                    undefined,
-                  ],
+                  undefined,
                 ]
               }
             >
@@ -1755,9 +1880,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -1825,9 +1964,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -1895,9 +2048,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -1965,9 +2132,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "justifyContent": "flex-start",
                         "width": "100%",
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 <View
@@ -2590,9 +2771,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Yhteystiedot
@@ -2610,9 +2805,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Tietosuojalauseke
@@ -2630,9 +2839,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Rekisteriseloste
@@ -2650,9 +2873,23 @@ exports[`Storyshots Footer sub site 1`] = `
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 21,
                       },
-                      undefined,
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scale": 1,
+                            },
+                          ],
+                        },
+                        undefined,
+                      ],
                     ],
                   ]
+                }
+                transform={
+                  Object {
+                    "scale": 1,
+                  }
                 }
               >
                 Tietoa sivustosta
@@ -2672,9 +2909,23 @@ exports[`Storyshots Footer sub site 1`] = `
                       "fontSize": 21,
                       "marginTop": 43.75,
                     },
-                    undefined,
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scale": 1,
+                          },
+                        ],
+                      },
+                      undefined,
+                    ],
                   ],
                 ]
+              }
+              transform={
+                Object {
+                  "scale": 1,
+                }
               }
             >
               © Copyright HSL
