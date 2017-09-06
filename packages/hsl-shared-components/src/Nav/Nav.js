@@ -34,7 +34,7 @@ class Nav extends React.Component {
     super(props);
     this.state = { desktopScrollNav: false, mobileNavVisible: true };
     this.lastScrollValue = 0;
-    // https://gist.github.com/Restuta/e400a555ba24daa396cc
+    this.ticking = false;
     this.onScroll = this.onScroll.bind(this);
   }
   componentDidMount() {
@@ -45,14 +45,21 @@ class Nav extends React.Component {
     document.removeEventListener('scroll', this.onScroll, true);
   }
 
-  onScroll(evt) {
-    this.onScrollDesktop(evt);
-    this.onScrollMobile(evt);
-    // Save current scroll value
-    this.lastScrollValue = evt.target.body.scrollTop;
+  onScroll() {
+    if (!this.ticking) {
+      const scrollY = window.scrollY;
+      window.requestAnimationFrame(() => {
+        this.onScrollDesktop(scrollY);
+        this.onScrollMobile(scrollY);
+        // Save current scroll value
+        this.lastScrollValue = scrollY;
+        this.ticking = false;
+      });
+      this.ticking = true;
+    }
   }
 
-  onScrollDesktop(evt) {
+  onScrollDesktop(scrollY) {
     // Visible when scrolling up and we have scrolled past
     // 3 * nav height
     const navHeight = (this.desktopNav &&
@@ -61,22 +68,32 @@ class Nav extends React.Component {
     // When nav is visible, hide nav when we reach the bottom of nav
     const boundary = this.state.desktopScrollNav ? navHeight : 3 * navHeight;
 
-    const scrolledPastBoundary = boundary < evt.target.body.scrollTop;
+    const scrolledPastBoundary = boundary < scrollY;
 
-    const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
+    const scrollingUp = scrollY < this.lastScrollValue;
 
     // Call setState only if state will change
+    // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
     if ((scrolledPastBoundary && scrollingUp) !== this.state.desktopScrollNav) {
-      this.setState({ desktopScrollNav: (scrolledPastBoundary && scrollingUp) });
+      this.setState(prevState => (
+        (scrolledPastBoundary && scrollingUp) !== prevState.desktopScrollNav
+        ? { desktopScrollNav: scrolledPastBoundary && scrollingUp }
+        : undefined
+      ));
     }
   }
 
-  onScrollMobile(evt) {
-    const scrollingUp = evt.target.body.scrollTop < this.lastScrollValue;
+  onScrollMobile(scrollY) {
+    const scrollingUp = scrollY < this.lastScrollValue;
 
     // Call setState only if state will change
-    if ((scrollingUp) !== this.state.mobileScrollNav) {
-      this.setState({ mobileNavVisible: (scrollingUp) });
+    // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
+    if (scrollingUp !== this.state.mobileNavVisible) {
+      this.setState(prevState => (
+        scrollingUp !== prevState.mobileNavVisible
+        ? { mobileNavVisible: scrollingUp }
+        : undefined
+      ));
     }
   }
 

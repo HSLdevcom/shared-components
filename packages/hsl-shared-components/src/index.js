@@ -26,7 +26,7 @@ import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorTe
 import Touchable from './Touchable';
 import Notification from './Notification';
 import View from './View';
-import Footer, { FooterContainer } from './Footer';
+import Footer from './Footer';
 
 export {
   AppHeader,
@@ -82,6 +82,5 @@ export {
   Touchable,
   Notification,
   View,
-  Footer,
-  FooterContainer
+  Footer
 };

@@ -119,22 +119,24 @@ const StyledNav = styled.nav`
             margin-right: 0.75rem;
           `}
       }
+
       &.scroll-enter {
-        top: -5rem; // scroll nav height is 4rem
+        // scroll nav height is 4rem
+        transform: translateY(-5rem);
       }
 
       &.scroll-enter.scroll-enter-active {
-        top: 0rem;
-        transition: top .35s ease-in;
+        transform: translateY(0);
+        transition: transform .35s ease-in;
       }
 
       &.scroll-leave {
-        top: 0rem;
+        transform: translateY(0);
       }
 
       &.scroll-leave.scroll-leave-active {
-        top: -5rem;
-        transition: top .35s ease-in;
+        transform: translateY(-5rem);
+        transition: transform .35s ease-in;
       }
     `}
   }

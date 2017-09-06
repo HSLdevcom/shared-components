@@ -61,7 +61,7 @@ const MenuMobile = ({
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Icons.Search height="1.5rem" />
+      <Icons.Search style={{ height: '1.5rem' }} />
     </StyledFlex>
     <Separator />
     { items }
@@ -83,7 +83,7 @@ const MenuMobile = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -91,7 +91,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn height="3.5rem" />}
+    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

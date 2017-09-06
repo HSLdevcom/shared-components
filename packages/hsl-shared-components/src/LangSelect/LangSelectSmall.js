@@ -113,7 +113,7 @@ class LangSelectSmall extends React.PureComponent {
           <Text>
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
           </Text>
-          <Icon height="0.75rem" width="0.75rem" />
+          <Icon style={{ height: '0.75rem', width: '0.75rem' }} />
         </LanguageButton>
         <CSSTransitionGroup
           className="transition-group"

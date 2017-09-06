@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
+import styled, { css } from 'styled-components';
 import _ from 'lodash';
 import Icons from '../Icons';
-import { Div, Span } from '../';
+import Div from '../Div';
+import Span from '../Span';
 import { emitter as EE } from './notification';
 import UltraWideContainer from '../UltraWideContainer/UltraWideContainer';
+
+const TitleLink = styled.a`
+  text-decoration: none;
+`;
+
+const ArrowRight = styled(Icons.ArrowLeft)`
+  transform: rotate(180deg);
+  padding-right: 0.5em;
+`;
 
 const renderNotificationMessage = (contentItem, idx) => {
   switch (contentItem.type) {
@@ -14,7 +25,7 @@ const renderNotificationMessage = (contentItem, idx) => {
       );
     case 'textLink':
       return (
-        <a href={contentItem.href} className="text-link" key={idx}>
+        <a href={contentItem.href} key={idx}>
           <Span>{contentItem.msg}</Span>
         </a>
       );
@@ -26,12 +37,12 @@ const renderNotificationMessage = (contentItem, idx) => {
       );
     case 'titleLink':
       return (
-        <a href={contentItem.href} className="title-link" key={idx}>
-          <h3 className="link-icon">
+        <TitleLink href={contentItem.href} key={idx}>
+          <h3>
             {contentItem.msg}
-            <Icons.ArrowLeft fill="#fff" height="0.8em" />
+            <ArrowRight fill="#fff" height="0.8em" />
           </h3>
-        </a>
+        </TitleLink>
       );
     default:
       return null;
@@ -51,65 +62,66 @@ const renderTypeIcon = (type) => {
   }
 };
 
+const Content = Div.extend`
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+const CloseButton = Div.extend`
+  margin-left: auto;
+  button {
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0.5em;
+    font-size: 1em;
+  }
+`;
+
+const Icon = Div.extend`
+  svg {
+    height: 2em;
+    padding: 0 1em;
+  }
+`;
+
+const Message = Div.extend`
+  padding: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  ${Span} {
+    margin: 0.3em 0;
+  }
+  h3 {
+    margin: 0;
+  }
+  a {
+    color: inherit;
+  }
+`;
+
+// TODO: Should these be in theme=
+const COLORS = {
+  error: '#dc0451',
+  success: '#4ea700',
+  neutral: '#fff'
+};
+
 const NotificationBar = UltraWideContainer.extend`
   max-height: 0;
   overflow: hidden;
-  color: #fff;
-  &.error {
-    background-color: #dc0451;
-  }
-  &.success {
-    background-color: #4ea700;
-  }
-  &.neutral {
-    background-color: #fff;
-    color: #333;
-    .content .message a {
+  color: ${({ type }) => (type === 'neutral' ? '#333' : '#fff')};
+  background-color: ${({ type }) => COLORS[type]}
+
+  ${({ type }) => type === 'neutral' && css`
+    ${Content} ${Message} a {
       color: navy;
     }
+    `}
   }
-  .content {
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    .icon svg {
-      height: 2em;
-      padding: 0 1em;
-    }
-    .message {
-      padding: 1.5em 0;
-      display: flex;
-      flex-direction: column;
-      ${Span} {
-        margin: 0.3em 0;
-      }
-      h3 {
-        margin: 0;
-        &.link-icon svg {
-          transform: rotate(180deg);
-          padding-right: 0.5em;
-        }
-      }
-      a {
-        color: inherit;
-        &.title-link {
-          text-decoration: none;
-        }
-      }
-    }
-    .close-button {
-      margin-left: auto;
-      button {
-        background-color: transparent;
-        border: none;
-        padding: 0 1em 0 0.5em;
-        font-size: 1em;
-      }
-    }
-  }
-  `;
+`;
 
 export default class NotificationRoot extends Component {
   constructor(props) {
@@ -182,11 +194,11 @@ export default class NotificationRoot extends Component {
 
   renderCloseButton(notification) {
     return (
-      <Div className="close-button">
+      <CloseButton>
         <button onClick={this.cleanWithAnimation}>
           <Icons.Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
         </button>
-      </Div>
+      </CloseButton>
     );
   }
 
@@ -195,19 +207,19 @@ export default class NotificationRoot extends Component {
     return (
       <NotificationBar
         innerRef={(ref) => { this.notificationBar = ref; }}
-        className={`${notification.type}`}
+        type={notification.type}
       >
-        <Div className="content">
-          <Div className="icon">
+        <Content>
+          <Icon>
             {renderTypeIcon(notification.type)}
-          </Div>
-          <Div className="message">
+          </Icon>
+          <Message>
             {notification.content && notification.content.map((contentItem, idx) =>
               renderNotificationMessage(contentItem, idx)
             )}
-          </Div>
+          </Message>
           {notification.closeButton && this.renderCloseButton(notification)}
-        </Div>
+        </Content>
       </NotificationBar>
     );
   }
