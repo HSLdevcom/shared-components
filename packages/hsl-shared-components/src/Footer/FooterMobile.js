@@ -36,9 +36,11 @@ const RATIO = 0.8; // Size reduce ratio
 */
 const Scale = WindowSize(styled(({ width, children, ...rest }) => {
   const matrix = [RATIO, 0, 0, 0, 0, RATIO, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1];
+  const nativeProps = { transformMatrix: matrix, ...rest };
+  const webProps = { ...rest };
   // RN 0.48 change this to: transform: {matrix}
   // transformMatrix is deprecated in 0.48, but looks like matrix is not supported yet in 0.42
-  return React.cloneElement(children, { transformMatrix: matrix, ...rest });
+  return React.cloneElement(children, IS_NATIVE ? nativeProps : webProps);
 })`
   ${props => !IS_NATIVE && `transform: scale(${(props.width >= LARGE_MOBILE ? 1 : RATIO)});`}
   ${!IS_NATIVE && 'transform-origin: 0 0;'}

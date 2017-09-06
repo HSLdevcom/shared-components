@@ -134,30 +134,35 @@ storiesOf('Footer', module)
 
     const links = [
       <ButtonWithText
+        key="1"
         icon={<Icons.Alert fill="#ffffff" height="30" width="30" />}
         onPress={() => {}}
         text="Häiriöt ja poikkeukset"
         small
       />,
       <ButtonWithText
+        key="2"
         icon={<Icons.TravelCard fill="#ffffff" height="30" width="30" />}
         onPress={() => {}}
         text="Lataa matkakorttia"
         small
       />,
       <ButtonWithText
+        key="3"
         icon={<Icons.MobileTicket fill="#ffffff" height="30" width="30" />}
         onPress={() => {}}
         text="Ota mobiililippu käyttöön"
         small
       />,
       <ButtonWithText
+        key="4"
         icon={<Icons.Bike fill="#ffffff" height="30" width="30" />}
         onPress={() => {}}
         text="Kaupunkipyörät"
         small
       />,
       <ButtonWithText
+        key="5"
         icon={<Icons.CustomerService fill="#ffffff" height="30" width="30" />}
         onPress={() => {}}
         text="Asiakaspalvelu ja palaute"
