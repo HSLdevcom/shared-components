@@ -19,21 +19,54 @@ export const Width = {
   small: '6rem'
 };
 
-const StyledDiv = Div.extend`
-  .lang-select {
-    .small {
-      display: none;
-    }
+const Top = Flex.extend`
+  justify-content: flex-end;
+  svg {
+    margin-right: 1.5rem;
+
+    ${props => (
+      props.theme.Media &&
+      props.theme.Media.large`
+        height: 1.5rem;
+        margin-right: 1rem;
+      `
+    )}
   }
+
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      justify-content: space-between;
+    `
+  )}
+`;
+
+const LangSelectWrapper = Span.extend`
+  .small {
+    display: none;
+  }
+
+  ${props => (
+    props.theme.Media &&
+    props.theme.Media.medium`
+      width: auto;
+      .large {
+        display: none;
+      }
+      .small {
+        display: block;
+        .select-wrapper {
+          margin-top: 1rem;
+        }
+      }
+    `
+  )}
+`;
+
+const StyledDiv = Div.extend`
   align-self: flex-end;
   svg {
     fill: currentColor;
-  }
-  .top {
-    justify-content: flex-end;
-    svg {
-      margin-right: 1.5rem;
-    }
   }
   .bottom {
     &.small {
@@ -62,10 +95,6 @@ const StyledDiv = Div.extend`
       ${MenuSeparator} {
         margin: 0.75rem 0;
       }
-      .top svg {
-        height: 1.5rem;
-        margin-right: 1rem;
-      }
       .bottom {
         &.large {
           display: none;
@@ -85,23 +114,11 @@ const StyledDiv = Div.extend`
     props.theme.Media &&
     props.theme.Media.medium`
       width: ${Width.small};
-      .top, .bottom {
+      .bottom {
         justify-content: space-between;
       }
       .child:not(:last-child) {
         margin-right: 1rem;
-      }
-      .lang-select {
-        width: auto;
-        .large {
-          display: none;
-        }
-        .small {
-          display: block;
-          .select-wrapper {
-            margin-top: 1rem;
-          }
-        }
       }
     `
   )}
@@ -115,9 +132,9 @@ const Menu = ({
   children
 }) => (
   <StyledDiv className={className}>
-    <Flex className="top">
-      <Icons.Search height="1.5rem" width="1.5rem" />
-      <Span className="lang-select">
+    <Top>
+      <Icons.Search style={{ height: '1.5rem', width: '1.5rem' }} />
+      <LangSelectWrapper>
         <LangSelect
           className="large"
           languages={languages}
@@ -130,8 +147,8 @@ const Menu = ({
           selectedLanguage={selectedLanguage}
           changeLanguage={changeLanguage}
         />
-      </Span>
-    </Flex>
+      </LangSelectWrapper>
+    </Top>
     <MenuSeparator />
     <Flex className="bottom large">
       { addClass(children, 'child') }
@@ -153,7 +170,7 @@ const Menu = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -161,7 +178,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn height="3.5rem" />}
+    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import Div from '../Div';
 import { Activatable } from '../Wrapper';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { TextWrapper } from '../IconWithText/IconWithText';
 
 const StyledDiv = Div.extend`
   display: flex;
@@ -12,7 +12,7 @@ const StyledDiv = Div.extend`
     display: flex;
   }
   ${IconWithText} {
-    .text {
+    ${TextWrapper} {
       ${props => (
         props.small && 'display: none;'
       )}

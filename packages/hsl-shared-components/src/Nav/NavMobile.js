@@ -8,7 +8,7 @@ import { darken } from 'polished';
 import { addClass } from '../utils';
 import Span from '../Span';
 import { MenuItem } from '../Menu';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper, TextWrapper } from '../IconWithText/IconWithText';
 import { Flex } from '../Wrapper';
 import Icons from '../Icons';
 import Touchable from '../Touchable';
@@ -17,12 +17,12 @@ import View from '../View';
 export const Height = '64px';
 
 const StyledNav = styled.nav`
-  transition: top .20s linear;
+  transition: transform .20s linear;
   position: absolute;
   top: 0;
   ${props => !props.menuOpen && `
     position: fixed;
-    top: ${props.visible ? 0 : `-${Height}`};
+    transform: translateY(${props.visible ? 0 : `-${Height}`});
   `}
   left: 0;
   right: 0;
@@ -110,10 +110,10 @@ const TopBar = Flex.extend`
 const TopIcons = Flex.extend`
   align-items: center;
   align-self: stretch;
-  .text {
+  ${TextWrapper} {
     display: none;
   }
-  .icon {
+  ${IconWrapper} {
     margin: 0;
     line-height:0;
   }
@@ -195,7 +195,7 @@ class Nav extends React.Component {
             ))}
           <Touchable onPress={this.toggleMenu}>
             <View className={cx('menu-toggle', { open: this.state.menuOpen })}>
-              <Icons.Menu height="2rem" />
+              <Icons.Menu style={{ height: '2rem' }} />
             </View>
           </Touchable>
         </TopIcons>}

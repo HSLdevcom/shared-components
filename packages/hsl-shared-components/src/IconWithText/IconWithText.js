@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Span from '../Span';
 import Div from '../Div';
 
-const IconWrapper = Span.extend`
+export const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;
   margin: ${props => (props.textPosition === 'Right' ? '0 0.75rem 0 0' : '0 0 0.75rem 0')};
@@ -12,6 +12,8 @@ const IconWrapper = Span.extend`
     fill: currentColor;
   }
 `;
+
+export const TextWrapper = Span.extend``;
 
 const StyledButton = Div.extend`
   display: flex;
@@ -25,13 +27,12 @@ const IconWithText = ({ icon,
   className }) => (
     <StyledButton className={className} textPosition={textPosition}>
       <IconWrapper
-        className="icon"
         aria-hidden="true"
         textPosition={textPosition}
       >
         { icon }
       </IconWrapper>
-      <Span className="text">{text}</Span>
+      <TextWrapper>{text}</TextWrapper>
     </StyledButton>
 );
 

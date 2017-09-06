@@ -6,35 +6,39 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-jlyJG bbyJzT sc-iRbamj hHTjuw"
+    className="sc-Rmtcm gwGgYM sc-csuQGl gIPuMC"
     open={false}
   >
     <button
-      className="sc-gPEVay QTvQm"
+      className="sc-gipzik etWpht"
       onClick={[Function]}
     >
       <div
-        className="sc-jzJRlG enxKql sc-fjdhpX jFZSHu"
+        className="sc-cSHVUG CAuLq sc-jzJRlG bLSJOc"
       >
         <a
-          className="link sc-cSHVUG bpgBJV"
+          className="link sc-kAzzGY fvbuby"
         >
           <div
             className="sc-gZMcBi cwkXTh sc-dnqmqq deglxo"
           >
             <div
-              className="sc-jTzLTM hkFqJX sc-VigVT bpQWLy"
+              className="sc-fjdhpX AUMvr sc-jTzLTM eJyaRN"
             >
               <span
                 aria-hidden="true"
-                className="icon sc-gqjmRU iBddiO"
+                className="sc-gqjmRU iBddiO"
               >
                 <svg
-                  height="2.5rem"
                   preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "height": "2.5rem",
+                      "width": "2.5rem",
+                    }
+                  }
                   version="1.1"
                   viewBox="-5 0 48 10"
-                  width="2.5rem"
                 >
                   <g
                     fill={undefined}
@@ -61,7 +65,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
                 </svg>
               </span>
               <span
-                className="text sc-gzVnrw ibZhkv"
+                className="sc-VigVT fIhGog"
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -73,12 +77,16 @@ exports[`Storyshots DropdownMenu default 1`] = `
                     Lisää
                   </div>
                   <svg
-                    className="sc-jDwBTQ dBloyA"
-                    height="0.5rem"
+                    className="sc-jlyJG ycuDD"
                     preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "height": "0.5rem",
+                        "width": "0.75rem",
+                      }
+                    }
                     version="1.1"
                     viewBox="0 0 42.5 27.47"
-                    width="0.75rem"
                   >
                     <path
                       d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"

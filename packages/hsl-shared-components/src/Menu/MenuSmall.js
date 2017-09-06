@@ -4,28 +4,27 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 import A from '../Anchor';
-import IconWithText from '../IconWithText/IconWithText';
+import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
 import { Flex } from '../Wrapper';
 import MenuItem from './MenuItem';
 
+const SearchIcon = Flex.extend`
+  align-items: center;
+`;
 
 const StyledFlex = Flex.extend`
   align-self: stretch;
-  .icon {
+  ${IconWrapper} {
     line-height: 0;
     margin: 0;
     display: flex;
     align-items: center;
   }
 
-  .icon svg, .search-icon svg {
+  ${IconWrapper} svg, ${SearchIcon} svg {
     height: 1.5rem;
-  }
-
-  .search-icon {
-    align-items: center;
   }
 
   svg {
@@ -56,7 +55,7 @@ const StyledFlex = Flex.extend`
   ${props => (
     props.theme.Media &&
     props.theme.Media.medium`
-      .search-icon, ${LangSelectSmall} {
+      ${SearchIcon}, ${LangSelectSmall} {
         display: none;
       }
     `
@@ -74,12 +73,11 @@ const MenuSmall = ({
 }) => (
   <StyledFlex className={className}>
     {children}
-    <Flex className="search-icon">
+    <SearchIcon>
       <Icons.Search
-        height="2rem"
-        width="2rem"
+        style={{ height: '2rem', width: '2rem' }}
       />
-    </Flex>
+    </SearchIcon>
     <LangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
@@ -91,7 +89,7 @@ const MenuSmall = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard height="3.5rem" />}
+    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -100,7 +98,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn height="3.5rem" />}
+    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"
