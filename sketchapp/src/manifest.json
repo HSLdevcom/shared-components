@@ -5,7 +5,7 @@
 		{
 			"name": "react-sketchapp: Basic Setup",
 			"identifier": "main",
-			"script": "./my-command.js"
+			"script": "./main.js"
 		}
 	],
 	"menu": {
