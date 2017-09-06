@@ -1422,6 +1422,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         Object {
                           "backgroundColor": "#007ac9",
                           "borderRadius": 4,
+                          "flexGrow": 0,
+                          "flexShrink": 0,
                           "height": 75.25,
                           "marginRight": 28.875,
                           "width": 75.25,
@@ -1479,6 +1481,9 @@ exports[`Storyshots Footer sub site 1`] = `
                         Array [
                           Object {
                             "color": "#007ac9",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
                           },
                           undefined,
                         ],
@@ -1521,6 +1526,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         Object {
                           "backgroundColor": "#007ac9",
                           "borderRadius": 4,
+                          "flexGrow": 0,
+                          "flexShrink": 0,
                           "height": 75.25,
                           "marginRight": 28.875,
                           "width": 75.25,
@@ -1579,6 +1586,9 @@ exports[`Storyshots Footer sub site 1`] = `
                         Array [
                           Object {
                             "color": "#007ac9",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
                           },
                           undefined,
                         ],
@@ -1621,6 +1631,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         Object {
                           "backgroundColor": "#007ac9",
                           "borderRadius": 4,
+                          "flexGrow": 0,
+                          "flexShrink": 0,
                           "height": 75.25,
                           "marginRight": 28.875,
                           "width": 75.25,
@@ -1677,6 +1689,9 @@ exports[`Storyshots Footer sub site 1`] = `
                         Array [
                           Object {
                             "color": "#007ac9",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
                           },
                           undefined,
                         ],
@@ -1719,6 +1734,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         Object {
                           "backgroundColor": "#007ac9",
                           "borderRadius": 4,
+                          "flexGrow": 0,
+                          "flexShrink": 0,
                           "height": 75.25,
                           "marginRight": 28.875,
                           "width": 75.25,
@@ -1780,6 +1797,9 @@ exports[`Storyshots Footer sub site 1`] = `
                         Array [
                           Object {
                             "color": "#007ac9",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
                           },
                           undefined,
                         ],
@@ -1822,6 +1842,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         Object {
                           "backgroundColor": "#007ac9",
                           "borderRadius": 4,
+                          "flexGrow": 0,
+                          "flexShrink": 0,
                           "height": 75.25,
                           "marginRight": 28.875,
                           "width": 75.25,
@@ -1880,6 +1902,9 @@ exports[`Storyshots Footer sub site 1`] = `
                         Array [
                           Object {
                             "color": "#007ac9",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
                           },
                           undefined,
                         ],

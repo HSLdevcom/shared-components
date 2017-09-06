@@ -53,6 +53,7 @@ const StyledText = styled(({ large, small, ...rest }) => (
   <Text {...rest} size={size('text', large, small)} />
 ))`
   color: ${props => props.theme.primary};
+  flex: 1;
 `;
 
 const StyledView = View.extend`
@@ -84,6 +85,9 @@ const ButtonWithText = styled(({ large, small, text, icon, onPress, ...rest }) =
   background-color: ${props => props.theme.primary};
   border-radius: 4px;
   margin-right: ${props => size('margin', props.large, props.small)};
+  flex-grow: 0;
+  flex-shrink: 0;
+
 `;
 
 ButtonWithText.propTypes = {
