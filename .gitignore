@@ -5,6 +5,7 @@ lerna-debug.log
 storybook-static/
 lib/
 storybook_native/storyLoader.js
+sketchapp/hsl-shared-components.sketchplugin
 
 # Xcode
 #
