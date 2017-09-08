@@ -45,8 +45,7 @@ const Icon = styled(({ large, small, ...rest }) => (
 ))`
   height: ${props => size('icon', props.large, props.small)};
   width: ${props => size('icon', props.large, props.small)};
-  justify-content: center;
-  align-items: center;
+  align-items: stretch;
 `;
 
 const StyledText = styled(({ large, small, ...rest }) => (
@@ -69,8 +68,8 @@ const ButtonWithText = styled(({ large, small, text, icon, onPress, ...rest }) =
             React.cloneElement(
               icon,
               {
-                height: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%', // note: native doesnt work with dynamic props
-                width: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%'
+                style: { flex: 1 },
+                width: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%'// note: native doesnt work with dynamic props
               }
             )
           }

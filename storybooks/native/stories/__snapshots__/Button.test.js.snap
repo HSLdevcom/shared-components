@@ -63,9 +63,8 @@ exports[`Storyshots Button button with text 1`] = `
             },
             Array [
               Object {
-                "alignItems": "center",
+                "alignItems": "stretch",
                 "height": 36.75,
-                "justifyContent": "center",
                 "width": 36.75,
               },
               undefined,
@@ -74,8 +73,13 @@ exports[`Storyshots Button button with text 1`] = `
         }
       >
         <Svg
-          height={36}
+          height="30"
           preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
           viewBox="0 0 35 24"
           width={36}
         >

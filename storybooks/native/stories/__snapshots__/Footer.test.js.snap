@@ -1442,9 +1442,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         },
                         Array [
                           Object {
-                            "alignItems": "center",
+                            "alignItems": "stretch",
                             "height": 58.625,
-                            "justifyContent": "center",
                             "width": 58.625,
                           },
                           undefined,
@@ -1453,7 +1452,12 @@ exports[`Storyshots Footer sub site 1`] = `
                     }
                   >
                     <Svg
-                      height={58}
+                      height="30"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
                       version="1.1"
                       viewBox="0 0 35 32"
                       width={58}
@@ -1546,9 +1550,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         },
                         Array [
                           Object {
-                            "alignItems": "center",
+                            "alignItems": "stretch",
                             "height": 58.625,
-                            "justifyContent": "center",
                             "width": 58.625,
                           },
                           undefined,
@@ -1557,8 +1560,13 @@ exports[`Storyshots Footer sub site 1`] = `
                     }
                   >
                     <Svg
-                      height={58}
+                      height="30"
                       preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
                       version="1.1"
                       viewBox="0 0 39 32"
                       width={58}
@@ -1651,9 +1659,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         },
                         Array [
                           Object {
-                            "alignItems": "center",
+                            "alignItems": "stretch",
                             "height": 58.625,
-                            "justifyContent": "center",
                             "width": 58.625,
                           },
                           undefined,
@@ -1662,8 +1669,13 @@ exports[`Storyshots Footer sub site 1`] = `
                     }
                   >
                     <Svg
-                      height={58}
+                      height="30"
                       preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
                       viewBox="0 0 28 30"
                       width={58}
                     >
@@ -1754,9 +1766,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         },
                         Array [
                           Object {
-                            "alignItems": "center",
+                            "alignItems": "stretch",
                             "height": 58.625,
-                            "justifyContent": "center",
                             "width": 58.625,
                           },
                           undefined,
@@ -1765,8 +1776,13 @@ exports[`Storyshots Footer sub site 1`] = `
                     }
                   >
                     <Svg
-                      height={58}
+                      height="30"
                       preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
                       viewBox="0 0 35 24"
                       width={58}
                     >
@@ -1862,9 +1878,8 @@ exports[`Storyshots Footer sub site 1`] = `
                         },
                         Array [
                           Object {
-                            "alignItems": "center",
+                            "alignItems": "stretch",
                             "height": 58.625,
-                            "justifyContent": "center",
                             "width": 58.625,
                           },
                           undefined,
@@ -1873,8 +1888,13 @@ exports[`Storyshots Footer sub site 1`] = `
                     }
                   >
                     <Svg
-                      height={58}
+                      height="30"
                       preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
                       version="1.1"
                       viewBox="0 0 43 35"
                       width={58}
