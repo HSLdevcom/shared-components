@@ -4,6 +4,10 @@ import styled from 'styled-components';
 import Span from '../Span';
 import Div from '../Div';
 
+/*
+Todo:
+- remove this and start using ButtonWithText
+*/
 export const IconWrapper = Span.extend`
   vertical-align: middle;
   display: inline-block;

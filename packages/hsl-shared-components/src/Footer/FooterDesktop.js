@@ -15,6 +15,22 @@ const HorizontalView = View.extend`
   justify-content: flex-start;
 `;
 
+const Links = HorizontalView.extend`
+  padding-horizontal: ${size(LEFT_PADDING)};
+  padding-vertical: ${size(16)};
+  justify-content: flex-start;
+  flex-wrap: wrap;
+`;
+
+const LinkWrapper = styled(({ last, ...rest }) => (
+  <View {...rest} />
+))`
+  width: ${size(200)};
+  overflow: hidden;
+  ${props => !props.last && `margin-right: ${size(32)};`}
+  margin-vertical: ${size(16)};
+`;
+
 const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   <HorizontalView {...rest} />
 ))`
@@ -22,6 +38,9 @@ const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   ${props => (props.theme.sizes.large >= props.width) && `
     flex-direction: column;
   `};
+  border-style: solid;
+  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-top-width: 2px;
 `);
 
 const Account = WindowSize(styled(({ width, ...rest }) => (
@@ -78,10 +97,15 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   `};
 `);
 
-const StyledRoundButton = RoundButton.extend`
+const StyledRoundButton = styled(({ frontpage, ...rest }) => (
+  <RoundButton {...rest} />
+))`
   margin-horizontal: ${size(10)};
   margin-bottom: ${size(20)};
   margin-top: ${size(15)};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 const Info = View.extend`
@@ -107,12 +131,24 @@ const CopyrightText = Text.extend`
   color: ${props => props.theme.primary};
   flex: 1;
 `;
-const LinkWrapper = View.extend`
+const InfoLinkWrapper = View.extend`
   padding-horizontal: ${size(15)};
 `;
 
-const Footer = styled(({ account, socialMedia, info, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
+    { !frontpage && links &&
+      <Links>
+        {/* eslint-disable react/no-array-index-key */}
+        {
+          links.map((link, index, arr) => (
+            <LinkWrapper key={index} last={(arr.length - 1) === index}>
+              {link}
+            </LinkWrapper>
+          ))
+        }
+      </Links>
+    }
     <AccountSMWrapper>
       { account &&
         <Account>
@@ -135,13 +171,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
         <SocialMedia>
           <H3>{socialMedia.title}</H3>
           <HorizontalView>
-            {/* eslint-disable react/no-array-index-key */}
             { socialMedia.icons.map((SM, index) => (
               <StyledRoundButton
                 key={index}
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
                 small
+                frontpage={frontpage}
               >
                 {React.cloneElement(SM.icon)}
               </StyledRoundButton>)
@@ -156,9 +192,9 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
       <InfoLinks>
         {
           info.links.map((link, index) => (
-            <LinkWrapper key={index}>
+            <InfoLinkWrapper key={index}>
               { React.cloneElement(link, { size: 0.9, key: index }) }
-            </LinkWrapper>
+            </InfoLinkWrapper>
           ))
         }
       </InfoLinks>
@@ -170,9 +206,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 Footer.propTypes = {
+  frontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({
@@ -193,7 +233,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';

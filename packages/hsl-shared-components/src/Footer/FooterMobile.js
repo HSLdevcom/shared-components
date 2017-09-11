@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
 import Text, { ListText } from '../Typography';
-import { size as utilsSize, WindowSize } from '../utils';
+import { size as utilsSize, WindowSize, IS_NATIVE } from '../utils';
 import MobileContainer from './MobileContainer';
 
 const LARGE_MOBILE = 640;
@@ -18,18 +19,32 @@ const StyledButton = WindowSize(styled(({ width, ...rest }) => (
 `);
 
 
-const StyledRoundButton = WindowSize(styled(({ width, ...rest }) => (
+const StyledRoundButton = WindowSize(styled(({ width, frontpage, ...rest }) => (
   <RoundButton {...rest} large={width >= LARGE_MOBILE} />
 ))`
   margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? utilsSize(10) : utilsSize(3))};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `);
 
-const SIZE_REDUCE_RATIO = 0.8;
+const RATIO = 0.8; // Size reduce ratio
 
-const ScaleSize = WindowSize(styled(({ width, size, innerRef, children }) => {
-  const scaledSize = width >= LARGE_MOBILE ? size : SIZE_REDUCE_RATIO * size;
-  return React.cloneElement(children, { size: scaledSize, innerRef });
-})``);
+/*
+ transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+ Same as 'transform: scale(0.8); transform-origin: 0 0;'
+*/
+const Scale = WindowSize(styled(({ width, children, ...rest }) => {
+  const matrix = [RATIO, 0, 0, 0, 0, RATIO, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1];
+  const nativeProps = { transformMatrix: matrix, ...rest };
+  const webProps = { ...rest };
+  // RN 0.48 change this to: transform: {matrix}
+  // transformMatrix is deprecated in 0.48, but looks like matrix is not supported yet in 0.42
+  return React.cloneElement(children, IS_NATIVE ? nativeProps : webProps);
+})`
+  ${props => !IS_NATIVE && `transform: scale(${(props.width >= LARGE_MOBILE ? 1 : RATIO)});`}
+  ${!IS_NATIVE && 'transform-origin: 0 0;'}
+`);
 
 const HorizontalView = View.extend`
   flex-direction: row;
@@ -40,6 +55,7 @@ const HorizontalView = View.extend`
 const FlexStart = View.extend`
   align-items: flex-start;
   width: 100%;
+  padding-left: ${utilsSize(40)};
 `;
 
 const CopyrightText = Text.extend`
@@ -48,15 +64,30 @@ const CopyrightText = Text.extend`
 `;
 
 
-const Footer = styled(({ account, socialMedia, info, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
+    {
+      !frontpage && links &&
+      <MobileContainer>
+        <Scale>
+          <FlexStart>
+            {
+              links.map(link => (
+                React.cloneElement(link, { large: true })
+              ))
+            }
+          </FlexStart>
+        </Scale>
+      </MobileContainer>
+
+    }
     { account &&
-      <MobileContainer title={account.title}>
+      <MobileContainer border={!frontpage && !!links} title={account.title}>
         <FlexStart>
           { account.benefits.map(txt => (
-            <ScaleSize size={1.75} key={txt}>
-              <ListText>{txt}</ListText>
-            </ScaleSize>
+            <Scale key={txt}>
+              <ListText size={1.75}>{txt}</ListText>
+            </Scale>
           ))}
         </FlexStart>
         <StyledButton
@@ -76,6 +107,7 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
               key={index}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
+              frontpage={frontpage}
             >
               {React.cloneElement(SM.icon)}
             </StyledRoundButton>)
@@ -87,13 +119,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
     <MobileContainer border={!!account || !!socialMedia}>
       <View>
         { info.links.map((link, index) => (
-          <ScaleSize size={1.5} key={index}>{link}</ScaleSize>
+          <Scale key={index}>{React.cloneElement(link, { size: 1.5 })}</Scale>
           ))
         }
       </View>
-      <ScaleSize size={1.5}>
-        <CopyrightText>{info.copyright}</CopyrightText>
-      </ScaleSize>
+      <Scale>
+        <CopyrightText size={1.5}>{info.copyright}</CopyrightText>
+      </Scale>
     </MobileContainer>
   </View>
 ))`
@@ -102,9 +134,13 @@ const Footer = styled(({ account, socialMedia, info, ...rest }) => (
   border-style: solid;
   border-top-width: 4px;
   border-color: ${props => props.theme.primary};
+  ${props => !props.frontpage && `
+    background-color: ${lighten(0.225, props.theme.default)}
+  `}
 `;
 
 Footer.propTypes = {
+  frontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({
@@ -125,7 +161,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';

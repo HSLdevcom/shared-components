@@ -8,32 +8,34 @@ import { Mobile, Desktop } from '../utils';
 import FooterMobile from './FooterMobile';
 import FooterDesktop from './FooterDesktop';
 
-const StyledDesktop = Desktop.extend`
-  width: 100%;
-`;
-
-const Footer = styled(({ account, socialMedia, info, ...rest }) => (
+const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
   <View {...rest}>
     <Mobile>
       <FooterMobile
         account={account}
         socialMedia={socialMedia}
         info={info}
+        frontpage={frontpage}
+        links={links}
       />
     </Mobile>
-    <StyledDesktop>
+    <Desktop>
       <FooterDesktop
         account={account}
         socialMedia={socialMedia}
         info={info}
+        frontpage={frontpage}
+        links={links}
       />
-    </StyledDesktop>
+    </Desktop>
   </View>
 ))`
-  width: 100%;
+  align-self: stretch;
+  align-items: stretch;
 `;
 
 Footer.propTypes = {
+  fontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({
@@ -54,7 +56,8 @@ Footer.propTypes = {
       onPress: PropTypes.func,
       onLongPress: PropTypes.func
     }))
-  })
+  }),
+  links: PropTypes.arrayOf(PropTypes.node)
 };
 
 Footer.displayName = 'Footer';
