@@ -6,9 +6,11 @@ import { Svg,
 } from 'react-primitives-svg';
 import PropTypes from 'prop-types';
 
-export default function Icon({ fill, ...rest }) {
+import { svgSize } from '../utils';
+
+export default function Icon({ fill, height, width, ...rest }) {
   return (
-    <Svg {...rest} viewBox="0 0 34 34" preserveAspectRatio="xMidYMid meet">
+    <Svg {...rest} {...svgSize(height, width)} viewBox="0 0 34 34" preserveAspectRatio="xMidYMid meet">
       <G fill={fill}>
         <Path d="M0.550538462,33.5897404 L7.50288462,33.5897404 L7.50288462,11.2556635 L0.550538462,11.2556635 L0.550538462,33.5897404 Z M4.029,0.152701916 C6.25207692,0.152701916 8.05407692,1.9573173 8.05407692,4.17647115 C8.05407692,6.39824038 6.25207692,8.20285576 4.029,8.20285576 C1.79873077,8.20285576 0,6.39824038 0,4.17647115 C0,1.9573173 1.79873077,0.152701916 4.029,0.152701916 L4.029,0.152701916 Z" />
         <Path d="M11.8614231,11.2556635 L18.5188846,11.2556635 L18.5188846,14.3078173 L18.6136923,14.3078173 C19.5395385,12.5509327 21.8070769,10.7005481 25.1861538,10.7005481 C32.2136923,10.7005481 33.5135385,15.3238942 33.5135385,21.3392788 L33.5135385,33.5897404 L26.5742692,33.5897404 L26.5742692,22.7313173 C26.5742692,20.1388173 26.5232692,16.8068173 22.9643846,16.8068173 C19.3492692,16.8068173 18.7987308,19.6281635 18.7987308,22.5397404 L18.7987308,33.5897404 L11.8614231,33.5897404 L11.8614231,11.2556635" />
@@ -18,6 +20,8 @@ export default function Icon({ fill, ...rest }) {
 }
 
 Icon.propTypes = {
-  fill: PropTypes.string
+  fill: PropTypes.string,
+  height: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOf([PropTypes.string, PropTypes.number])
 };
-Icon.displayName = 'Icon.Linkedin';
+Icon.displayName = 'Icons.Linkedin';

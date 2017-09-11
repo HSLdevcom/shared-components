@@ -23,7 +23,7 @@ stories.addWithJSX('AddCard', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.AddCard fill={fill} height={`${height}em`} />);
+  return (<Icons.AddCard fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Alert', () => {
@@ -36,7 +36,7 @@ stories.addWithJSX('Alert', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Alert fill={fill} height={`${height}em`} />);
+  return (<Icons.Alert fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('ArrowDown', () => {
@@ -49,7 +49,7 @@ stories.addWithJSX('ArrowDown', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.ArrowDown fill={fill} height={`${height}em`} />);
+  return (<Icons.ArrowDown fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('ArrowLeft', () => {
@@ -62,7 +62,7 @@ stories.addWithJSX('ArrowLeft', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.ArrowLeft fill={fill} height={`${height}em`} />);
+  return (<Icons.ArrowLeft fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('CardOrder', () => {
@@ -78,7 +78,7 @@ stories.addWithJSX('CardOrder', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.CardOrder fill={fill} height={`${height}em`} />);
+  return (<Icons.CardOrder fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('CardWithCheckmark', () => {
@@ -94,7 +94,7 @@ stories.addWithJSX('CardWithCheckmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.CardWithCheckmark fill={fill} height={`${height}em`} />);
+  return (<Icons.CardWithCheckmark fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Checkmark', () => {
@@ -110,7 +110,7 @@ stories.addWithJSX('Checkmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Checkmark fill={fill} height={`${height}em`} />);
+  return (<Icons.Checkmark fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Cog', () => {
@@ -123,7 +123,7 @@ stories.addWithJSX('Cog', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Cog fill={fill} height={`${height}em`} />);
+  return (<Icons.Cog fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Cross', () => {
@@ -136,7 +136,7 @@ stories.addWithJSX('Cross', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Cross fill={fill} height={`${height}em`} />);
+  return (<Icons.Cross fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('CustomerService', () => {
@@ -149,7 +149,7 @@ stories.addWithJSX('CustomerService', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.CustomerService fill={fill} height={`${height}em`} />);
+  return (<Icons.CustomerService fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Edit', () => {
@@ -162,7 +162,7 @@ stories.addWithJSX('Edit', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Edit fill={fill} height={`${height}em`} />);
+  return (<Icons.Edit fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Logo', () => {
@@ -175,7 +175,7 @@ stories.addWithJSX('Logo', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Logo fill={fill} height={`${height}em`} />);
+  return (<Icons.Logo fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('HSLLogo', () => {
@@ -188,7 +188,7 @@ stories.addWithJSX('HSLLogo', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.HSLLogo fill={fill} height={`${height}em`} />);
+  return (<Icons.HSLLogo fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Info', () => {
@@ -201,7 +201,7 @@ stories.addWithJSX('Info', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Info fill={fill} height={`${height}em`} />);
+  return (<Icons.Info fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('JourneyPlanner', () => {
@@ -214,7 +214,7 @@ stories.addWithJSX('JourneyPlanner', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.JourneyPlanner fill={fill} height={`${height}em`} />);
+  return (<Icons.JourneyPlanner fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Latest', () => {
   const fill = color('fill', '#d1d1d1');
@@ -226,7 +226,7 @@ stories.addWithJSX('Latest', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Latest fill={fill} height={`${height}em`} />);
+  return (<Icons.Latest fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('More', () => {
   const fill = color('fill', '#d1d1d1');
@@ -238,7 +238,7 @@ stories.addWithJSX('More', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.More fill={fill} height={`${height}em`} />);
+  return (<Icons.More fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Menu', () => {
@@ -251,7 +251,7 @@ stories.addWithJSX('Menu', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Menu fill={fill} height={`${height}em`} />);
+  return (<Icons.Menu fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Search', () => {
@@ -264,7 +264,7 @@ stories.addWithJSX('Search', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Search fill={fill} height={`${height}em`} />);
+  return (<Icons.Search fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('SignIn', () => {
   const fill = color('fill', '#d1d1d1');
@@ -276,7 +276,7 @@ stories.addWithJSX('SignIn', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.SignIn fill={fill} height={`${height}em`} />);
+  return (<Icons.SignIn fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Tickets', () => {
   const fill = color('fill', '#d1d1d1');
@@ -288,7 +288,7 @@ stories.addWithJSX('Tickets', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Tickets fill={fill} height={`${height}em`} />);
+  return (<Icons.Tickets fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('TravelCard', () => {
   const fill = color('fill', '#d1d1d1');
@@ -300,7 +300,7 @@ stories.addWithJSX('TravelCard', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.TravelCard fill={fill} height={`${height}em`} />);
+  return (<Icons.TravelCard fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('PositionAlert', () => {
   const defaultValue = 10;
@@ -311,7 +311,7 @@ stories.addWithJSX('PositionAlert', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.PositionAlert height={`${height}em`} />);
+  return (<Icons.PositionAlert height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Facebook', () => {
@@ -324,7 +324,7 @@ stories.addWithJSX('Facebook', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Facebook fill={fill} height={`${height}em`} />);
+  return (<Icons.Facebook fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Twitter', () => {
   const fill = color('fill', '#d1d1d1');
@@ -336,7 +336,7 @@ stories.addWithJSX('Twitter', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Twitter fill={fill} height={`${height}em`} />);
+  return (<Icons.Twitter fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Instagram', () => {
   const fill = color('fill', '#d1d1d1');
@@ -348,7 +348,7 @@ stories.addWithJSX('Instagram', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Instagram fill={fill} height={`${height}em`} />);
+  return (<Icons.Instagram fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Youtube', () => {
   const fill = color('fill', '#d1d1d1');
@@ -360,7 +360,7 @@ stories.addWithJSX('Youtube', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Youtube fill={fill} height={`${height}em`} />);
+  return (<Icons.Youtube fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Linkedin', () => {
   const fill = color('fill', '#d1d1d1');
@@ -372,7 +372,7 @@ stories.addWithJSX('Linkedin', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Linkedin fill={fill} height={`${height}em`} />);
+  return (<Icons.Linkedin fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('Bike', () => {
   const fill = color('fill', '#d1d1d1');
@@ -384,7 +384,7 @@ stories.addWithJSX('Bike', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Bike fill={fill} height={`${height}em`} />);
+  return (<Icons.Bike fill={fill} height={`${height}rem`} />);
 });
 stories.addWithJSX('MobileTicket', () => {
   const fill = color('fill', '#d1d1d1');
@@ -396,5 +396,5 @@ stories.addWithJSX('MobileTicket', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.MobileTicket fill={fill} height={`${height}em`} />);
+  return (<Icons.MobileTicket fill={fill} height={`${height}rem`} />);
 });
