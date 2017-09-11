@@ -28,7 +28,7 @@ Icon.propTypes = {
     inner: PropTypes.string,
     outer: PropTypes.string
   }),
-  height: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
-  width: PropTypes.oneOf([PropTypes.string, PropTypes.number])
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 Icon.displayName = 'Icons.CardOrder';

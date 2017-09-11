@@ -22,8 +22,8 @@ export default function Icon({ fill, height, width, ...rest }) {
 
 Icon.propTypes = {
   fill: PropTypes.string,
-  height: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
-  width: PropTypes.oneOf([PropTypes.string, PropTypes.number])
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 Icon.displayName = 'Icons.Search';
