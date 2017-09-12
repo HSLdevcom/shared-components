@@ -220,7 +220,7 @@ exports[`Storyshots Icons Checkmark 1`] = `
   preserveAspectRatio="xMidYMid meet"
   style={
     Object {
-      "height": "10rem",
+      "height": "10em",
       "width": undefined,
     }
   }
@@ -237,8 +237,13 @@ exports[`Storyshots Icons Checkmark 1`] = `
 
 exports[`Storyshots Icons CircleCheckmark 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10em",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 376 376"
 >

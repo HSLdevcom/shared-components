@@ -123,11 +123,7 @@ stories.addWithJSX('CircleCheckmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-<<<<<<< HEAD
   return (<Icons.CircleCheckmark fill={fill} height={`${height}em`} />);
-=======
-  return (<Icons.Checkmark fill={fill} height={`${height}rem`} />);
->>>>>>> SVGinFirefox
 });
 
 stories.addWithJSX('Cog', () => {
