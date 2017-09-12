@@ -1,14 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { render } from 'react-sketchapp';
+import { render, Artboard } from 'react-sketchapp';
 import { ThemeProvider } from 'styled-components';
-import Buttons from './artboards/buttons'
+import Typography from './artboards/Typography';
+import Buttons from './artboards/Buttons';
 import Theme from '../themes/themes.hsl';
 
 const Document = () => {
   return (
     <ThemeProvider theme={Theme}>
-      <Buttons />
+      <Artboard style={{ width: 1440, flexDirection: 'column' }}>
+        <Typography />
+        <Buttons />
+      </Artboard>
     </ThemeProvider>
   );
 };
