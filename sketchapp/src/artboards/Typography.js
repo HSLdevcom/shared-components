@@ -1,68 +1,134 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
+import { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
 import { View } from 'react-sketchapp';
+import { WithDescription } from '../presentation';
 
-const mockText = `HSL Liikuttaa`;
+const heading = 'HSL Liikuttaa';
 
-const typoLayoutStyles = {
-  margin: 20,
+const sentence = 'Aenean lacinia bibendum nulla sed consectur.';
+
+const paragraph = 'Omia joukkoliikennelinjoja koskevat linjatiedotteet voi tilata myös sähköpostiin luomalla HSL-tunnuksen. Sitä kautta saa tietoa ajankohtaisista liikennemuutoksista, suunnitelmista ja poikkeustilanteista niiltä linjoilta, joita itse käyttää. Palvelu on maksuton.';
+
+const sectionPresentationStyles = {
+  marginTop: 20,
+  marginBottom: 20,
 };
 
-const Buttons = () => {
-  return (
+const paragraphPresentationStyles = {
+  width: 768,
+};
+
+const Buttons = () =>
+  (
     <View
       name="Typography"
       style={{ flexDirection: 'column' }}
     >
-      <H1 style={typoLayoutStyles}>
-        {mockText}
-      </H1>
-      <H2 style={typoLayoutStyles}>
-        {mockText}
-      </H2>
-      <H3 style={typoLayoutStyles}>
-        {mockText}
-      </H3>
-      <H3 style={typoLayoutStyles}>
-        {mockText}
-      </H3>
-      <H4 style={typoLayoutStyles}>
-        {mockText}
-      </H4>
-      <H5 style={typoLayoutStyles}>
-        {mockText}
-      </H5>
-      <Text style={typoLayoutStyles}>
-        {mockText}
-      </Text>
-      <P style={typoLayoutStyles}>
-        {mockText}
-      </P>
-      <Quote style={typoLayoutStyles}>
-        {mockText}
-      </Quote>
-      <Ingress style={typoLayoutStyles}>
-        {mockText}
-      </Ingress>
-      <Caption style={typoLayoutStyles}>
-        {mockText}
-      </Caption>
-      <InfoText style={typoLayoutStyles}>
-        {mockText}
-      </InfoText>
-      <ErrorText style={typoLayoutStyles}>
-        {mockText}
-      </ErrorText>
-      <ListText style={typoLayoutStyles}>
-        {mockText}
-      </ListText>
+      <WithDescription
+        text={'Header 1\r\n48px'}
+        style={sectionPresentationStyles}
+      >
+        <H1>
+          {heading}
+        </H1>
+      </WithDescription>
+      <WithDescription
+        text={'Header 2\r\n36px'}
+        style={sectionPresentationStyles}
+      >
+        <H2>
+          {heading}
+        </H2>
+      </WithDescription>
+      <WithDescription
+        text={'Header 3\r\n24px'}
+        style={sectionPresentationStyles}
+      >
+        <H3>
+          {heading}
+        </H3>
+      </WithDescription>
+      <WithDescription
+        text={'Header 4\r\n21px'}
+        style={sectionPresentationStyles}
+      >
+        <H4>
+          {heading}
+        </H4>
+      </WithDescription>
+      <WithDescription
+        text={'Header 5\r\n16px'}
+        style={sectionPresentationStyles}
+      >
+        <H5>
+          {heading}
+        </H5>
+      </WithDescription>
+      <WithDescription
+        text={'Paragraph\r\nMobile 14px'}
+        style={sectionPresentationStyles}
+      >
+        <P style={paragraphPresentationStyles}>
+          {paragraph}
+        </P>
+      </WithDescription>
+      <WithDescription
+        text={'Paragraph\r\nDesktop 16px'}
+        style={sectionPresentationStyles}
+      >
+        <P style={paragraphPresentationStyles}>
+          {paragraph}
+        </P>
+      </WithDescription>
+      <WithDescription
+        text={'Quote\r\n18px'}
+        style={sectionPresentationStyles}
+      >
+        <Quote style={paragraphPresentationStyles}>
+          {paragraph}
+        </Quote>
+      </WithDescription>
+      <WithDescription
+        text={'Ingress\r\n18px'}
+        style={sectionPresentationStyles}
+      >
+        <Ingress style={paragraphPresentationStyles}>
+          {paragraph}
+        </Ingress>
+      </WithDescription>
+      <WithDescription
+        text={'Caption\r\n13px'}
+        style={sectionPresentationStyles}
+      >
+        <Caption>
+          {sentence}
+        </Caption>
+      </WithDescription>
+      <WithDescription
+        text={'Info text\r\nMobile 14px\r\nDesktop 16px'}
+        style={sectionPresentationStyles}
+      >
+        <InfoText>
+          {sentence}
+        </InfoText>
+      </WithDescription>
+      <WithDescription
+        text={'Error text\r\nMobile 14px\r\nDesktop 16px'}
+        style={sectionPresentationStyles}
+      >
+        <ErrorText>
+          {sentence}
+        </ErrorText>
+      </WithDescription>
+      <WithDescription
+        text={'List text\r\nMobile 14px\r\nDesktop 16px'}
+        style={sectionPresentationStyles}
+      >
+        <ListText>
+          {sentence}
+        </ListText>
+      </WithDescription>
     </View>
   );
-};
 
-Buttons.propTypes = {
-
-};
-
-export default Buttons
+export default Buttons;

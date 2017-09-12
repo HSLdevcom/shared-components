@@ -1,14 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { View } from 'react-sketchapp';
 import { Button } from 'hsl-shared-components';
 
 const buttonLayoutStyles = {
-  margin: 20,
+  marginTop: 20,
+  marginBottom: 20,
 };
 
-const Buttons = () => {
-  return (
+const PrimaryButtons = () =>
+  (
     <View name="Buttons" style={{ flexDirection: 'row' }}>
       <Button
         name="Primary Button"
@@ -20,11 +20,11 @@ const Buttons = () => {
         onLongPress={() => false}
         style={buttonLayoutStyles}
       >
-        Primary Button
+        Button default
       </Button>
       <Button
-        name="Primary Button"
-        disabled={true}
+        name="Primary Button Disabled"
+        disabled
         small={false}
         large={false}
         primary
@@ -32,14 +32,9 @@ const Buttons = () => {
         onLongPress={() => false}
         style={buttonLayoutStyles}
       >
-        Primary Button
+        Button default
       </Button>
     </View>
   );
-};
 
-Buttons.propTypes = {
-
-};
-
-export default Buttons
+export default PrimaryButtons;
