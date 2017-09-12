@@ -27,6 +27,7 @@ import Touchable from './Touchable';
 import Notification from './Notification';
 import View from './View';
 import Footer from './Footer';
+import Checkbox from './Checkbox';
 
 export {
   AppHeader,
@@ -82,5 +83,6 @@ export {
   Touchable,
   Notification,
   View,
-  Footer
+  Footer,
+  Checkbox
 };

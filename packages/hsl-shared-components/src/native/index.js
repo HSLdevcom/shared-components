@@ -6,6 +6,7 @@ import Touchable from '../Touchable';
 import View from '../View';
 import Icons from '../Icons';
 import Footer from '../Footer';
+import Checkbox from '../Checkbox';
 
 export {
   Text,
@@ -31,5 +32,6 @@ export {
   Tab,
   View,
   Icons,
-  Footer
+  Footer,
+  Checkbox
 };
