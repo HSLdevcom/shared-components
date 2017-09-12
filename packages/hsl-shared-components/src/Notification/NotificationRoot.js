@@ -52,7 +52,7 @@ const renderNotificationMessage = (contentItem, idx) => {
 const renderTypeIcon = (type) => {
   switch (type) {
     case 'success':
-      return <Icons.Checkmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
+      return <Icons.CircleCheckmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
     case 'error':
       return <Icons.Alert fill="#fff" height="1em" />;
     case 'neutral':
