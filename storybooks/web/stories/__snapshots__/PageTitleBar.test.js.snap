@@ -12,8 +12,13 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
       onClick={[Function]}
     >
       <svg
-        height="1em"
         preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "height": "1em",
+            "width": undefined,
+          }
+        }
         version="1.1"
         viewBox="0 0 17 36"
       >

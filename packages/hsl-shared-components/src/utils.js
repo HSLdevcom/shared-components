@@ -53,3 +53,15 @@ export function svgTranslate(x, y) {
   return IS_NATIVE ? { translateX: `${x || 0}`, translateY: `${y || 0}` } :
   { transform: `translate(${x || 0},${y || 0})` };
 }
+ /*
+ * Convert size to web or native depending on platform.
+ * Firefox (and perhaps some other browsers) don't work
+ * when defining height/width like this: <svg height="2rem" .. />
+ * but native works that way.
+ * svgSize(12,34)
+ * Native: { height: 12, width: 34 }
+ * Web: { style: { height: 12, width: 34 } }
+ */
+export function svgSize(height, width) {
+  return IS_NATIVE ? { height, width } : { style: { height, width } };
+}

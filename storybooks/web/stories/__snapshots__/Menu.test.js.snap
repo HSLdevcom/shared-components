@@ -11,8 +11,8 @@ exports[`Storyshots Menu default 1`] = `
       preserveAspectRatio="xMidYMid meet"
       style={
         Object {
-          "height": "1.5rem",
-          "width": "1.5rem",
+          "height": undefined,
+          "width": undefined,
         }
       }
       version="1.1"
@@ -108,8 +108,8 @@ exports[`Storyshots Menu default 1`] = `
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "height": "0.75rem",
-                  "width": "0.75rem",
+                  "height": undefined,
+                  "width": undefined,
                 }
               }
               version="1.1"
@@ -156,7 +156,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
@@ -199,7 +200,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
@@ -253,7 +255,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
@@ -299,7 +302,8 @@ exports[`Storyshots Menu default 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
@@ -357,11 +361,15 @@ exports[`Storyshots Menu menu item 1`] = `
             className="sc-gqjmRU iBddiO"
           >
             <svg
-              height="2.5rem"
               preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "height": "2.5rem",
+                  "width": "2.5rem",
+                }
+              }
               version="1.1"
               viewBox="0 0 46 40"
-              width="2.5rem"
             >
               <g
                 fill={undefined}
@@ -410,7 +418,8 @@ exports[`Storyshots Menu minimal 1`] = `
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "height": "3.5rem",
+                  "height": undefined,
+                  "width": undefined,
                 }
               }
               version="1.1"
@@ -456,7 +465,8 @@ exports[`Storyshots Menu minimal 1`] = `
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "height": "3.5rem",
+                  "height": undefined,
+                  "width": undefined,
                 }
               }
               version="1.1"
@@ -495,8 +505,8 @@ exports[`Storyshots Menu minimal 1`] = `
       preserveAspectRatio="xMidYMid meet"
       style={
         Object {
-          "height": "2rem",
-          "width": "2rem",
+          "height": undefined,
+          "width": undefined,
         }
       }
       version="1.1"
@@ -538,8 +548,8 @@ exports[`Storyshots Menu minimal 1`] = `
           preserveAspectRatio="xMidYMid meet"
           style={
             Object {
-              "height": "0.75rem",
-              "width": "0.75rem",
+              "height": undefined,
+              "width": undefined,
             }
           }
           version="1.1"
@@ -626,7 +636,8 @@ exports[`Storyshots Menu mobile 1`] = `
       preserveAspectRatio="xMidYMid meet"
       style={
         Object {
-          "height": "1.5rem",
+          "height": undefined,
+          "width": undefined,
         }
       }
       version="1.1"
@@ -673,7 +684,8 @@ exports[`Storyshots Menu mobile 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
@@ -716,7 +728,8 @@ exports[`Storyshots Menu mobile 1`] = `
                 preserveAspectRatio="xMidYMid meet"
                 style={
                   Object {
-                    "height": "3.5rem",
+                    "height": undefined,
+                    "width": undefined,
                   }
                 }
                 version="1.1"
