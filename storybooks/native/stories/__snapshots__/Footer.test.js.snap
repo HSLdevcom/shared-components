@@ -81,30 +81,30 @@ exports[`Storyshots Footer default 1`] = `
             }
           >
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="2"
               ellipsizeMode="tail"
+              size={1.1}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 31.5,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
                     Array [
                       Object {
-                        "fontSize": 34.65,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "marginBottom": 35,
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ],
                 ]
@@ -126,6 +126,7 @@ exports[`Storyshots Footer default 1`] = `
               }
             >
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -172,19 +173,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -194,24 +191,16 @@ exports[`Storyshots Footer default 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -219,6 +208,7 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -265,19 +255,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -287,24 +273,16 @@ exports[`Storyshots Footer default 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -312,6 +290,7 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -358,19 +337,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -380,24 +355,16 @@ exports[`Storyshots Footer default 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -405,6 +372,7 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -451,19 +419,15 @@ exports[`Storyshots Footer default 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -473,24 +437,16 @@ exports[`Storyshots Footer default 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -543,21 +499,18 @@ exports[`Storyshots Footer default 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
                       Object {
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
+                        "color": "#ffffff",
+                        "fontSize": 26.25,
+                        "fontWeight": "500",
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "color": "#ffffff",
-                          "fontSize": 26.25,
-                          "fontWeight": "500",
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ]
                 }
@@ -586,30 +539,30 @@ exports[`Storyshots Footer default 1`] = `
             }
           >
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="2"
               ellipsizeMode="tail"
+              size={1.1}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 31.5,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
                     Array [
                       Object {
-                        "fontSize": 34.65,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "marginBottom": 35,
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ],
                 ]
@@ -1052,19 +1005,17 @@ exports[`Storyshots Footer default 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -1095,19 +1046,17 @@ exports[`Storyshots Footer default 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -1138,19 +1087,17 @@ exports[`Storyshots Footer default 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -1181,19 +1128,17 @@ exports[`Storyshots Footer default 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -1225,20 +1170,18 @@ exports[`Storyshots Footer default 1`] = `
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
+              size={1.5}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "color": "#007ac9",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                    "marginTop": 43.75,
+                  },
                   Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 21,
-                      "marginTop": 43.75,
-                    },
-                    Array [
-                      Object {},
-                      undefined,
-                    ],
+                    Object {},
+                    undefined,
                   ],
                 ]
               }
@@ -1474,23 +1417,21 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  size={1.75}
                   style={
                     Array [
-                      Object {},
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
                       Array [
                         Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 24.5,
+                          "color": "#007ac9",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
                         },
-                        Array [
-                          Object {
-                            "color": "#007ac9",
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                          },
-                          undefined,
-                        ],
+                        undefined,
                       ],
                     ]
                   }
@@ -1583,23 +1524,21 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  size={1.75}
                   style={
                     Array [
-                      Object {},
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
                       Array [
                         Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 24.5,
+                          "color": "#007ac9",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
                         },
-                        Array [
-                          Object {
-                            "color": "#007ac9",
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                          },
-                          undefined,
-                        ],
+                        undefined,
                       ],
                     ]
                   }
@@ -1690,23 +1629,21 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  size={1.75}
                   style={
                     Array [
-                      Object {},
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
                       Array [
                         Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 24.5,
+                          "color": "#007ac9",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
                         },
-                        Array [
-                          Object {
-                            "color": "#007ac9",
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                          },
-                          undefined,
-                        ],
+                        undefined,
                       ],
                     ]
                   }
@@ -1802,23 +1739,21 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  size={1.75}
                   style={
                     Array [
-                      Object {},
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
                       Array [
                         Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 24.5,
+                          "color": "#007ac9",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
                         },
-                        Array [
-                          Object {
-                            "color": "#007ac9",
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                          },
-                          undefined,
-                        ],
+                        undefined,
                       ],
                     ]
                   }
@@ -1911,23 +1846,21 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  size={1.75}
                   style={
                     Array [
-                      Object {},
+                      Object {
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                      },
                       Array [
                         Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 24.5,
+                          "color": "#007ac9",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
                         },
-                        Array [
-                          Object {
-                            "color": "#007ac9",
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                          },
-                          undefined,
-                        ],
+                        undefined,
                       ],
                     ]
                   }
@@ -1957,30 +1890,30 @@ exports[`Storyshots Footer sub site 1`] = `
             }
           >
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="2"
               ellipsizeMode="tail"
+              size={1.1}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 31.5,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
                     Array [
                       Object {
-                        "fontSize": 34.65,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "marginBottom": 35,
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ],
                 ]
@@ -2002,6 +1935,7 @@ exports[`Storyshots Footer sub site 1`] = `
               }
             >
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2048,19 +1982,15 @@ exports[`Storyshots Footer sub site 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -2070,24 +2000,16 @@ exports[`Storyshots Footer sub site 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -2095,6 +2017,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2141,19 +2064,15 @@ exports[`Storyshots Footer sub site 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -2163,24 +2082,16 @@ exports[`Storyshots Footer sub site 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -2188,6 +2099,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2234,19 +2146,15 @@ exports[`Storyshots Footer sub site 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -2256,24 +2164,16 @@ exports[`Storyshots Footer sub site 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -2281,6 +2181,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
+                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2327,19 +2228,15 @@ exports[`Storyshots Footer sub site 1`] = `
                     Array [
                       Object {
                         "alignItems": "center",
+                        "backgroundColor": "black",
+                        "borderRadius": 875,
+                        "height": 6.125,
                         "justifyContent": "center",
+                        "marginRight": 17.5,
+                        "marginVertical": 3.9375,
+                        "width": 6.125,
                       },
-                      Array [
-                        Object {
-                          "backgroundColor": "black",
-                          "borderRadius": 875,
-                          "height": 10.71875,
-                          "marginRight": 30.625,
-                          "marginVertical": 6.890625,
-                          "width": 10.71875,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 />
@@ -2349,24 +2246,16 @@ exports[`Storyshots Footer sub site 1`] = `
                   ellipsizeMode="tail"
                   style={
                     Array [
-                      Object {},
-                      Array [
-                        Object {
-                          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                          "fontSize": 14,
-                        },
-                        Array [
-                          Object {
-                            "flexBasis": 0,
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "fontSize": 24.5,
-                            "fontWeight": "300",
-                            "lineHeight": 28,
-                          },
-                          undefined,
-                        ],
-                      ],
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "lineHeight": 16,
+                      },
+                      undefined,
                     ]
                   }
                 >
@@ -2419,21 +2308,18 @@ exports[`Storyshots Footer sub site 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
                       Object {
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
+                        "color": "#ffffff",
+                        "fontSize": 26.25,
+                        "fontWeight": "500",
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "color": "#ffffff",
-                          "fontSize": 26.25,
-                          "fontWeight": "500",
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ]
                 }
@@ -2462,30 +2348,30 @@ exports[`Storyshots Footer sub site 1`] = `
             }
           >
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="2"
               ellipsizeMode="tail"
+              size={1.1}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 31.5,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
                     Array [
                       Object {
-                        "fontSize": 34.65,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
+                        "marginBottom": 35,
+                        "textAlign": "center",
                       },
-                      Array [
-                        Object {
-                          "marginBottom": 35,
-                          "textAlign": "center",
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ],
                   ],
                 ]
@@ -2933,19 +2819,17 @@ exports[`Storyshots Footer sub site 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -2976,19 +2860,17 @@ exports[`Storyshots Footer sub site 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -3019,19 +2901,17 @@ exports[`Storyshots Footer sub site 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -3062,19 +2942,17 @@ exports[`Storyshots Footer sub site 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                size={1.5}
                 style={
                   Array [
-                    Object {},
+                    Object {
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
                     Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 21,
-                      },
-                      Array [
-                        Object {},
-                        undefined,
-                      ],
+                      Object {},
+                      undefined,
                     ],
                   ]
                 }
@@ -3106,20 +2984,18 @@ exports[`Storyshots Footer sub site 1`] = `
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
+              size={1.5}
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "color": "#007ac9",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                    "marginTop": 43.75,
+                  },
                   Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 21,
-                      "marginTop": 43.75,
-                    },
-                    Array [
-                      Object {},
-                      undefined,
-                    ],
+                    Object {},
+                    undefined,
                   ],
                 ]
               }

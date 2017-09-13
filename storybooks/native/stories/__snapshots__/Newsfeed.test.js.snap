@@ -91,16 +91,13 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
-                    Array [
-                      Object {
-                        "color": "#888888",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
-                        "fontWeight": "500",
-                      },
-                      undefined,
-                    ],
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                    },
+                    undefined,
                   ]
                 }
               >
@@ -113,15 +110,12 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
-                    Array [
-                      Object {
-                        "color": "#888888",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
-                      },
-                      undefined,
-                    ],
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    undefined,
                   ]
                 }
               >
@@ -129,26 +123,25 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               </Text>
             </View>
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="3"
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "color": "#007ac9",
+                      "fontSize": 21,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
-                    Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontSize": 21,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -227,16 +220,13 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
-                    Array [
-                      Object {
-                        "color": "#888888",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
-                        "fontWeight": "500",
-                      },
-                      undefined,
-                    ],
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                    },
+                    undefined,
                   ]
                 }
               >
@@ -249,15 +239,12 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Array [
-                    Object {},
-                    Array [
-                      Object {
-                        "color": "#888888",
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                        "fontSize": 14,
-                      },
-                      undefined,
-                    ],
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontSize": 14,
+                    },
+                    undefined,
                   ]
                 }
               >
@@ -265,26 +252,25 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               </Text>
             </View>
             <Text
+              accessibilityRole="heading"
               accessible={true}
               allowFontScaling={true}
+              aria-level="3"
               ellipsizeMode="tail"
               style={
                 Array [
-                  Object {},
+                  Object {
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontSize": 14,
+                  },
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "color": "#007ac9",
+                      "fontSize": 21,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
                     },
-                    Array [
-                      Object {
-                        "color": "#007ac9",
-                        "fontSize": 21,
-                        "fontWeight": "500",
-                        "letterSpacing": -0.4,
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -367,21 +353,18 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             ellipsizeMode="tail"
             style={
               Array [
-                Object {},
+                Object {
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "color": "#007ac9",
                     "fontSize": 14,
+                    "fontWeight": "500",
+                    "textAlign": "center",
                   },
-                  Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontSize": 14,
-                      "fontWeight": "500",
-                      "textAlign": "center",
-                    },
-                    undefined,
-                  ],
+                  undefined,
                 ],
               ]
             }
@@ -457,16 +440,13 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
             ellipsizeMode="tail"
             style={
               Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                    "fontWeight": "500",
-                  },
-                  undefined,
-                ],
+                Object {
+                  "color": "#888888",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                },
+                undefined,
               ]
             }
           >
@@ -479,15 +459,12 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
             ellipsizeMode="tail"
             style={
               Array [
-                Object {},
-                Array [
-                  Object {
-                    "color": "#888888",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
-                  },
-                  undefined,
-                ],
+                Object {
+                  "color": "#888888",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontSize": 14,
+                },
+                undefined,
               ]
             }
           >
@@ -495,26 +472,25 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           </Text>
         </View>
         <Text
+          accessibilityRole="heading"
           accessible={true}
           allowFontScaling={true}
+          aria-level="3"
           ellipsizeMode="tail"
           style={
             Array [
-              Object {},
+              Object {
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                "fontSize": 14,
+              },
               Array [
                 Object {
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
+                  "color": "#007ac9",
+                  "fontSize": 21,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.4,
                 },
-                Array [
-                  Object {
-                    "color": "#007ac9",
-                    "fontSize": 21,
-                    "fontWeight": "500",
-                    "letterSpacing": -0.4,
-                  },
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
