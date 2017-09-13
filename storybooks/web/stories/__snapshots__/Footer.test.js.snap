@@ -303,7 +303,6 @@ exports[`Storyshots Footer default 1`] = `
         <div
           className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
           dir="auto"
-          size={0.9}
         >
           © Copyright HSL
         </div>
@@ -419,7 +418,6 @@ exports[`Storyshots Footer sub site 1`] = `
               <div
                 className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
-                size={1}
               >
                 Häiriöt ja poikkeukset
               </div>
@@ -472,7 +470,6 @@ exports[`Storyshots Footer sub site 1`] = `
               <div
                 className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
-                size={1}
               >
                 Lataa matkakorttia
               </div>
@@ -518,7 +515,6 @@ exports[`Storyshots Footer sub site 1`] = `
               <div
                 className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
-                size={1}
               >
                 Ota mobiililippu käyttöön
               </div>
@@ -573,7 +569,6 @@ exports[`Storyshots Footer sub site 1`] = `
               <div
                 className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
-                size={1}
               >
                 Kaupunkipyörät
               </div>
@@ -621,7 +616,6 @@ exports[`Storyshots Footer sub site 1`] = `
               <div
                 className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
-                size={1}
               >
                 Asiakaspalvelu ja palaute
               </div>
@@ -922,7 +916,6 @@ exports[`Storyshots Footer sub site 1`] = `
         <div
           className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
           dir="auto"
-          size={0.9}
         >
           © Copyright HSL
         </div>

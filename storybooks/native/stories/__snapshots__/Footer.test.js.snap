@@ -86,7 +86,6 @@ exports[`Storyshots Footer default 1`] = `
               allowFontScaling={true}
               aria-level="2"
               ellipsizeMode="tail"
-              size={1.1}
               style={
                 Array [
                   Object {
@@ -98,14 +97,10 @@ exports[`Storyshots Footer default 1`] = `
                       "fontSize": 31.5,
                       "fontWeight": "500",
                       "letterSpacing": -0.4,
+                      "marginBottom": 35,
+                      "textAlign": "center",
                     },
-                    Array [
-                      Object {
-                        "marginBottom": 35,
-                        "textAlign": "center",
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -126,7 +121,6 @@ exports[`Storyshots Footer default 1`] = `
               }
             >
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -208,7 +202,6 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -290,7 +283,6 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -372,7 +364,6 @@ exports[`Storyshots Footer default 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -456,7 +447,6 @@ exports[`Storyshots Footer default 1`] = `
             </View>
             <View
               accessibilityRole="button"
-              large={true}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
               onResponderRelease={[Function]}
@@ -546,7 +536,6 @@ exports[`Storyshots Footer default 1`] = `
               allowFontScaling={true}
               aria-level="2"
               ellipsizeMode="tail"
-              size={1.1}
               style={
                 Array [
                   Object {
@@ -558,14 +547,10 @@ exports[`Storyshots Footer default 1`] = `
                       "fontSize": 31.5,
                       "fontWeight": "500",
                       "letterSpacing": -0.4,
+                      "marginBottom": 35,
+                      "textAlign": "center",
                     },
-                    Array [
-                      Object {
-                        "marginBottom": 35,
-                        "textAlign": "center",
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -587,7 +572,6 @@ exports[`Storyshots Footer default 1`] = `
             >
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -663,7 +647,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -739,7 +722,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -815,7 +797,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -897,7 +878,6 @@ exports[`Storyshots Footer default 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -1182,7 +1162,6 @@ exports[`Storyshots Footer default 1`] = `
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
-              size={1.5}
               style={
                 Array [
                   Object {
@@ -1431,22 +1410,17 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  size={1}
                   style={
                     Array [
                       Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 14,
                       },
-                      Array [
-                        Object {
-                          "color": "#007ac9",
-                          "flexBasis": 0,
-                          "flexGrow": 1,
-                          "flexShrink": 1,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 >
@@ -1540,22 +1514,17 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  size={1}
                   style={
                     Array [
                       Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 14,
                       },
-                      Array [
-                        Object {
-                          "color": "#007ac9",
-                          "flexBasis": 0,
-                          "flexGrow": 1,
-                          "flexShrink": 1,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 >
@@ -1647,22 +1616,17 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  size={1}
                   style={
                     Array [
                       Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 14,
                       },
-                      Array [
-                        Object {
-                          "color": "#007ac9",
-                          "flexBasis": 0,
-                          "flexGrow": 1,
-                          "flexShrink": 1,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 >
@@ -1759,22 +1723,17 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  size={1}
                   style={
                     Array [
                       Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 14,
                       },
-                      Array [
-                        Object {
-                          "color": "#007ac9",
-                          "flexBasis": 0,
-                          "flexGrow": 1,
-                          "flexShrink": 1,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 >
@@ -1868,22 +1827,17 @@ exports[`Storyshots Footer sub site 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  size={1}
                   style={
                     Array [
                       Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 14,
                       },
-                      Array [
-                        Object {
-                          "color": "#007ac9",
-                          "flexBasis": 0,
-                          "flexGrow": 1,
-                          "flexShrink": 1,
-                        },
-                        undefined,
-                      ],
+                      undefined,
                     ]
                   }
                 >
@@ -1917,7 +1871,6 @@ exports[`Storyshots Footer sub site 1`] = `
               allowFontScaling={true}
               aria-level="2"
               ellipsizeMode="tail"
-              size={1.1}
               style={
                 Array [
                   Object {
@@ -1929,14 +1882,10 @@ exports[`Storyshots Footer sub site 1`] = `
                       "fontSize": 31.5,
                       "fontWeight": "500",
                       "letterSpacing": -0.4,
+                      "marginBottom": 35,
+                      "textAlign": "center",
                     },
-                    Array [
-                      Object {
-                        "marginBottom": 35,
-                        "textAlign": "center",
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -1957,7 +1906,6 @@ exports[`Storyshots Footer sub site 1`] = `
               }
             >
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2039,7 +1987,6 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2121,7 +2068,6 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2203,7 +2149,6 @@ exports[`Storyshots Footer sub site 1`] = `
                 </Text>
               </View>
               <View
-                size={1.75}
                 style={
                   Array [
                     Object {
@@ -2287,7 +2232,6 @@ exports[`Storyshots Footer sub site 1`] = `
             </View>
             <View
               accessibilityRole="button"
-              large={true}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
               onResponderRelease={[Function]}
@@ -2377,7 +2321,6 @@ exports[`Storyshots Footer sub site 1`] = `
               allowFontScaling={true}
               aria-level="2"
               ellipsizeMode="tail"
-              size={1.1}
               style={
                 Array [
                   Object {
@@ -2389,14 +2332,10 @@ exports[`Storyshots Footer sub site 1`] = `
                       "fontSize": 31.5,
                       "fontWeight": "500",
                       "letterSpacing": -0.4,
+                      "marginBottom": 35,
+                      "textAlign": "center",
                     },
-                    Array [
-                      Object {
-                        "marginBottom": 35,
-                        "textAlign": "center",
-                      },
-                      undefined,
-                    ],
+                    undefined,
                   ],
                 ]
               }
@@ -2418,7 +2357,6 @@ exports[`Storyshots Footer sub site 1`] = `
             >
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -2495,7 +2433,6 @@ exports[`Storyshots Footer sub site 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -2572,7 +2509,6 @@ exports[`Storyshots Footer sub site 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -2649,7 +2585,6 @@ exports[`Storyshots Footer sub site 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -2732,7 +2667,6 @@ exports[`Storyshots Footer sub site 1`] = `
               </View>
               <View
                 accessibilityRole="button"
-                large={true}
                 onResponderGrant={[Function]}
                 onResponderMove={[Function]}
                 onResponderRelease={[Function]}
@@ -3018,7 +2952,6 @@ exports[`Storyshots Footer sub site 1`] = `
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
-              size={1.5}
               style={
                 Array [
                   Object {

@@ -100,22 +100,17 @@ exports[`Storyshots Button button with text 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      size={1.125}
       style={
         Array [
           Object {
+            "color": "#007ac9",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
             "fontSize": 14,
           },
-          Array [
-            Object {
-              "color": "#007ac9",
-              "flexBasis": 0,
-              "flexGrow": 1,
-              "flexShrink": 1,
-            },
-            undefined,
-          ],
+          undefined,
         ]
       }
     >
