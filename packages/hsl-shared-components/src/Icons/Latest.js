@@ -7,9 +7,11 @@ import { Svg,
 } from 'react-primitives-svg';
 import PropTypes from 'prop-types';
 
-export default function Icon({ fill, ...rest }) {
+import { svgSize } from '../utils';
+
+export default function Icon({ fill, height, width, ...rest }) {
   return (
-    <Svg {...rest} viewBox="-4 -4 40 40" version="1.1" preserveAspectRatio="xMidYMid meet">
+    <Svg {...rest} {...svgSize(height, width)} viewBox="-4 -4 40 40" version="1.1" preserveAspectRatio="xMidYMid meet">
       <G fill={fill}>
         <Circle id="Oval" cx="4.32171607" cy="27.6316142" r="4.2786642" />
         <Path d="M3.16315944,11.9645766 C1.54410153,11.9645766 0.231403814,13.2768899 0.231403814,14.8959478 C0.231403814,16.5153901 1.54410153,17.8277034 3.16315944,17.8277034 C9.2815224,17.8277034 14.2586263,22.8055762 14.2586263,28.9231703 C14.2586263,30.5426126 15.5709397,31.854926 17.1907664,31.854926 C18.8098243,31.854926 20.122522,30.5426126 20.122522,28.9231703 C20.122522,19.5724574 12.5142567,11.9645766 3.16315944,11.9645766 Z" id="Shape" />
@@ -20,6 +22,8 @@ export default function Icon({ fill, ...rest }) {
 }
 
 Icon.propTypes = {
-  fill: PropTypes.string
+  fill: PropTypes.string,
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
-Icon.displayName = 'Icon.Latest';
+Icon.displayName = 'Icons.Latest';

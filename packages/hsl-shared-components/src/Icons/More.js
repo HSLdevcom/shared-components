@@ -6,9 +6,11 @@ import { Svg,
 } from 'react-primitives-svg';
 import PropTypes from 'prop-types';
 
-export default function Icon({ fill, ...rest }) {
+import { svgSize } from '../utils';
+
+export default function Icon({ fill, height, width, ...rest }) {
   return (
-    <Svg {...rest} viewBox="-5 0 48 10" version="1.1" preserveAspectRatio="xMidYMid meet">
+    <Svg {...rest} {...svgSize(height, width)} viewBox="-5 0 48 10" version="1.1" preserveAspectRatio="xMidYMid meet">
       <G fill={fill}>
         <Circle id="Oval" cx="5" cy="5" r="5" />
         <Circle id="Oval" cx="19" cy="5" r="5" />
@@ -19,6 +21,8 @@ export default function Icon({ fill, ...rest }) {
 }
 
 Icon.propTypes = {
-  fill: PropTypes.string
+  fill: PropTypes.string,
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
-Icon.displayName = 'Icon.More';
+Icon.displayName = 'Icons.More';

@@ -78,8 +78,8 @@ exports[`Storyshots LangSelect small 1`] = `
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
-            "height": "0.75rem",
-            "width": "0.75rem",
+            "height": undefined,
+            "width": undefined,
           }
         }
         version="1.1"

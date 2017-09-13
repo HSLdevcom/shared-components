@@ -2,8 +2,13 @@
 
 exports[`Storyshots Icons AddCard 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 60 44"
 >
   <g
@@ -44,7 +49,12 @@ exports[`Storyshots Icons AddCard 1`] = `
 
 exports[`Storyshots Icons Alert 1`] = `
 <svg
-  height="10em"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 35 32"
 >
@@ -58,8 +68,13 @@ exports[`Storyshots Icons Alert 1`] = `
 
 exports[`Storyshots Icons ArrowDown 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 42.5 27.47"
 >
@@ -73,8 +88,13 @@ exports[`Storyshots Icons ArrowDown 1`] = `
 
 exports[`Storyshots Icons ArrowLeft 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 17 36"
 >
@@ -88,8 +108,13 @@ exports[`Storyshots Icons ArrowLeft 1`] = `
 
 exports[`Storyshots Icons Bike 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 35 24"
 >
   <g
@@ -105,8 +130,13 @@ exports[`Storyshots Icons Bike 1`] = `
 
 exports[`Storyshots Icons CardOrder 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 60 44"
 >
   <g
@@ -141,8 +171,13 @@ exports[`Storyshots Icons CardOrder 1`] = `
 
 exports[`Storyshots Icons CardWithCheckmark 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 60 44"
 >
   <g
@@ -182,8 +217,13 @@ exports[`Storyshots Icons CardWithCheckmark 1`] = `
 
 exports[`Storyshots Icons Checkmark 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 376 376"
 >
@@ -204,8 +244,13 @@ exports[`Storyshots Icons Checkmark 1`] = `
 
 exports[`Storyshots Icons Cog 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 70 70"
 >
@@ -219,8 +264,13 @@ exports[`Storyshots Icons Cog 1`] = `
 
 exports[`Storyshots Icons Cross 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 35 35"
 >
   <path
@@ -233,8 +283,13 @@ exports[`Storyshots Icons Cross 1`] = `
 
 exports[`Storyshots Icons CustomerService 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 43 35"
 >
@@ -248,8 +303,13 @@ exports[`Storyshots Icons CustomerService 1`] = `
 
 exports[`Storyshots Icons Edit 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 284 284"
 >
@@ -269,8 +329,13 @@ exports[`Storyshots Icons Edit 1`] = `
 
 exports[`Storyshots Icons Facebook 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 17 33"
 >
   <path
@@ -282,8 +347,13 @@ exports[`Storyshots Icons Facebook 1`] = `
 
 exports[`Storyshots Icons HSLLogo 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 160 60"
 >
@@ -297,8 +367,13 @@ exports[`Storyshots Icons HSLLogo 1`] = `
 
 exports[`Storyshots Icons Info 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 35 35"
 >
   <path
@@ -311,8 +386,13 @@ exports[`Storyshots Icons Info 1`] = `
 
 exports[`Storyshots Icons Instagram 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 30 30"
 >
   <path
@@ -324,8 +404,13 @@ exports[`Storyshots Icons Instagram 1`] = `
 
 exports[`Storyshots Icons JourneyPlanner 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 46 40"
 >
@@ -342,8 +427,13 @@ exports[`Storyshots Icons JourneyPlanner 1`] = `
 
 exports[`Storyshots Icons Latest 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="-4 -4 40 40"
 >
@@ -370,8 +460,13 @@ exports[`Storyshots Icons Latest 1`] = `
 
 exports[`Storyshots Icons Linkedin 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 34 34"
 >
   <g
@@ -389,8 +484,13 @@ exports[`Storyshots Icons Linkedin 1`] = `
 
 exports[`Storyshots Icons Logo 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 841.9 595.3"
 >
   <g
@@ -413,8 +513,13 @@ exports[`Storyshots Icons Logo 1`] = `
 
 exports[`Storyshots Icons Menu 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 40 24"
 >
   <g
@@ -442,8 +547,13 @@ exports[`Storyshots Icons Menu 1`] = `
 
 exports[`Storyshots Icons MobileTicket 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 28 30"
 >
   <path
@@ -455,8 +565,13 @@ exports[`Storyshots Icons MobileTicket 1`] = `
 
 exports[`Storyshots Icons More 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="-5 0 48 10"
 >
@@ -487,7 +602,7 @@ exports[`Storyshots Icons More 1`] = `
 
 exports[`Storyshots Icons PositionAlert 1`] = `
 <svg
-  height="10em"
+  height="10rem"
   version="1.1"
   viewBox="0 0 34 37"
   width={undefined}
@@ -618,8 +733,13 @@ exports[`Storyshots Icons PositionAlert 1`] = `
 
 exports[`Storyshots Icons Search 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 25 25"
 >
@@ -640,8 +760,13 @@ exports[`Storyshots Icons Search 1`] = `
 
 exports[`Storyshots Icons SignIn 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 27 31"
 >
@@ -662,8 +787,13 @@ exports[`Storyshots Icons SignIn 1`] = `
 
 exports[`Storyshots Icons Tickets 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 43 41"
 >
@@ -677,8 +807,13 @@ exports[`Storyshots Icons Tickets 1`] = `
 
 exports[`Storyshots Icons TravelCard 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   version="1.1"
   viewBox="0 0 39 32"
 >
@@ -692,8 +827,13 @@ exports[`Storyshots Icons TravelCard 1`] = `
 
 exports[`Storyshots Icons Twitter 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 37 30"
 >
   <path
@@ -705,8 +845,13 @@ exports[`Storyshots Icons Twitter 1`] = `
 
 exports[`Storyshots Icons Youtube 1`] = `
 <svg
-  height="10em"
   preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "height": "10rem",
+      "width": undefined,
+    }
+  }
   viewBox="0 0 30 36"
 >
   <g
