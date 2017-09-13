@@ -10,46 +10,36 @@ import { size as utilsSize } from '../utils';
 const sizeMap = {
   fontSize: {
     primary: {
-      large: utilsSize(30),
       default: utilsSize(18),
       small: utilsSize(16)
     },
     default: {
-      large: utilsSize(24),
       default: utilsSize(16),
       small: utilsSize(14)
     }
   },
   height: {
     primary: {
-      large: utilsSize(80),
       default: utilsSize(50),
       small: utilsSize(45)
     },
     default: {
-      large: utilsSize(50),
       default: utilsSize(45),
       small: utilsSize(36)
     }
   }
 };
 
-function size(kind, primary, large, small) {
+function size(kind, primary, small) {
   const map = primary ? sizeMap[kind].primary : sizeMap[kind].default;
-  if (large) {
-    return map.large;
-  }
-  if (small) {
-    return map.small;
-  }
-  return map.default;
+  return small ? map.small : map.default;
 }
 
 
-const TouchableText = styled(({ primary, secondary, disabled, small, large, ...rest }) => (
+const TouchableText = styled(({ primary, secondary, disabled, small, ...rest }) => (
   <Text {...rest} />
 ))`
-  font-size: ${props => size('fontSize', props.primary, props.large, props.small)};
+  font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
   color: ${props => props.theme.primary};
@@ -65,10 +55,10 @@ const TouchableText = styled(({ primary, secondary, disabled, small, large, ...r
   `}
 `;
 
-const TouchableView = styled(({ primary, secondary, disabled, rounded, small, large, ...rest }) => (
+const TouchableView = styled(({ primary, secondary, disabled, rounded, small, ...rest }) => (
   <View {...rest} />
 ))`
-  height: ${props => size('height', props.primary, props.large, props.small)};
+  height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
   border-style: solid;
   border-width: 1px;
@@ -98,7 +88,6 @@ const Button = styled(({
   disabled,
   rounded,
   small,
-  large,
   onPress,
   onLongPress,
   innerRef,
@@ -111,9 +100,9 @@ const Button = styled(({
         disabled={disabled}
         rounded={rounded}
         small={small}
-        large={large}
         {...rest}
         innerRef={innerRef}
+        accessibilityRole="button"
       >
         {
           React.isValidElement(children) ?
@@ -123,7 +112,6 @@ const Button = styled(({
               secondary={secondary}
               disabled={disabled}
               small={small}
-              large={large}
             >
               {children}
             </TouchableText>)
@@ -138,7 +126,6 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   rounded: PropTypes.bool,
   small: PropTypes.bool,
-  large: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,

@@ -8,48 +8,38 @@ import { size as utilsSize, IS_NATIVE } from '../utils';
 
 const sizeMap = {
   button: {
-    large: utilsSize(86),
     default: utilsSize(54),
     small: utilsSize(48)
   },
   icon: {
-    large: utilsSize(67),
     default: utilsSize(42),
     small: utilsSize(32)
   },
   text: {
-    large: 1.75,
     default: 1.125,
     small: 1
   },
   margin: {
-    large: utilsSize(33),
     default: utilsSize(20),
     small: utilsSize(15)
   }
 };
 
-function size(kind, large, small) {
+function size(kind, small) {
   const map = sizeMap[kind];
-  if (large) {
-    return map.large;
-  }
-  if (small) {
-    return map.small;
-  }
-  return map.default;
+  return small ? map.small : map.default;
 }
 
-const Icon = styled(({ large, small, ...rest }) => (
+const Icon = styled(({ small, ...rest }) => (
   <View {...rest} />
 ))`
-  height: ${props => size('icon', props.large, props.small)};
-  width: ${props => size('icon', props.large, props.small)};
+  height: ${props => size('icon', props.small)};
+  width: ${props => size('icon', props.small)};
   align-items: stretch;
 `;
 
-const StyledText = styled(({ large, small, ...rest }) => (
-  <Text {...rest} size={size('text', large, small)} />
+const StyledText = styled(({ small, ...rest }) => (
+  <Text {...rest} size={size('text', small)} />
 ))`
   color: ${props => props.theme.primary};
   flex: 1;
@@ -59,38 +49,37 @@ const StyledView = View.extend`
   flex-direction: row;
 `;
 
-const ButtonWithText = styled(({ large, small, text, icon, onPress, ...rest }) => (
+const ButtonWithText = styled(({ small, text, icon, onPress, ...rest }) => (
   <Touchable onPress={onPress}>
-    <StyledView>
+    <StyledView accessibilityRole="button">
       <View {...rest}>
-        <Icon large={large} small={small}>
+        <Icon small={small}>
           {
             React.cloneElement(
               icon,
               {
                 style: { flex: 1 },
-                width: IS_NATIVE ? parseInt(size('icon', large, small), 10) : '100%'// note: native doesnt work with dynamic props
+                width: IS_NATIVE ? parseInt(size('icon', small), 10) : '100%'// note: native doesnt work with dynamic props
               }
             )
           }
         </Icon>
       </View>
-      <StyledText large={large} small={small}>{text}</StyledText>
+      <StyledText small={small}>{text}</StyledText>
     </StyledView>
   </Touchable>
 ))`
-  height: ${props => size('button', props.large, props.small)};
-  width: ${props => size('button', props.large, props.small)};
+  height: ${props => size('button', props.small)};
+  width: ${props => size('button', props.small)};
   background-color: ${props => props.theme.primary};
   border-radius: 4px;
-  margin-right: ${props => size('margin', props.large, props.small)};
+  margin-right: ${props => size('margin', props.small)};
   flex-grow: 0;
   flex-shrink: 0;
 
 `;
 
 ButtonWithText.propTypes = {
-  large: PropTypes.bool,
   icon: PropTypes.element,
   text: PropTypes.string,
   small: PropTypes.bool
