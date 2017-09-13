@@ -72,7 +72,7 @@ const Tab = styled(({
   ...rest
 }) => (
   <Touchable onPress={onPress}>
-    <StyledView active={active} {...rest}>
+    <StyledView active={active} {...rest} accessibilityRole="button">
       <Content active={active}>
         { header.icon && React.cloneElement(header.icon, { fill: fill(active, disabled) }) }
         {

@@ -47,6 +47,7 @@ exports[`Storyshots Tabs Default 1`] = `
       }
     >
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -133,6 +134,7 @@ exports[`Storyshots Tabs Default 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -220,6 +222,7 @@ exports[`Storyshots Tabs Default 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -306,6 +309,7 @@ exports[`Storyshots Tabs Default 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -471,6 +475,7 @@ exports[`Storyshots Tabs one item 1`] = `
       }
     >
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -638,6 +643,7 @@ exports[`Storyshots Tabs rounded 1`] = `
       }
     >
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -725,6 +731,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -812,6 +819,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -898,6 +906,7 @@ exports[`Storyshots Tabs rounded 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
