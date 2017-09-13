@@ -1,20 +1,10 @@
-import React from 'react';
-import styled from 'styled-components/primitives';
-import PropTypes from 'prop-types';
-
 import Text from './Text';
-import { size as utilsSize } from '../utils';
+import { size } from '../utils';
 
-const P = styled(({ size, ...rest }) => (
-  <Text {...rest} />
-))`
+const P = Text.extend`
   font-weight: 300;
-  font-size: ${props => utilsSize(14 * (props.size || 1))};
-  line-height: ${props => Math.round(18 * (props.size || 1))};
+  font-size: ${size(14)};
+  line-height: ${18};
 `;
-
-P.propTypes = {
-  size: PropTypes.number
-};
 
 export default P;

@@ -1,19 +1,14 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
-import PropTypes from 'prop-types';
 
 import Text from './Text';
-import { size as utilsSize } from '../utils';
+import { size } from '../utils';
 
-const H4 = styled(({ size, ...rest }) => (
-  <Text {...rest} />
+const H4 = styled(({ ...props }) => (
+  <Text accessibilityRole="heading" aria-level="4" {...props} />
 ))`
   font-weight: 500;
-  font-size: ${props => utilsSize(21 * (props.size || 1))};
+  font-size: ${size(21)};
 `;
-
-H4.propTypes = {
-  size: PropTypes.number
-};
 
 export default H4;
