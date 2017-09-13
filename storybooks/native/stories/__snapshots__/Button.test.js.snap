@@ -12,6 +12,7 @@ exports[`Storyshots Button button with text 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -136,6 +137,7 @@ exports[`Storyshots Button default 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -208,6 +210,7 @@ exports[`Storyshots Button primary 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -280,6 +283,7 @@ exports[`Storyshots Button round button 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -363,6 +367,7 @@ exports[`Storyshots Button secondary 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

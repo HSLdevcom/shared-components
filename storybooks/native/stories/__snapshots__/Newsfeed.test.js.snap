@@ -315,6 +315,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
         }
       >
         <View
+          accessibilityRole="button"
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
