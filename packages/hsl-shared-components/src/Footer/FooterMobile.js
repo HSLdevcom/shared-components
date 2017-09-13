@@ -12,7 +12,7 @@ import MobileContainer from './MobileContainer';
 const LARGE_MOBILE = 640;
 
 const StyledButton = WindowSize(styled(({ width, ...rest }) => (
-  <Button {...rest} large={width >= LARGE_MOBILE} />
+  <Button {...rest} />
 ))`
   margin-top: ${utilsSize(50)};
   padding-horizontal: ${utilsSize(66)};
@@ -20,7 +20,7 @@ const StyledButton = WindowSize(styled(({ width, ...rest }) => (
 
 
 const StyledRoundButton = WindowSize(styled(({ width, frontpage, ...rest }) => (
-  <RoundButton {...rest} large={width >= LARGE_MOBILE} />
+  <RoundButton {...rest} />
 ))`
   margin-horizontal: ${props => (props.width >= LARGE_MOBILE ? utilsSize(10) : utilsSize(3))};
   ${props => !props.frontpage && `
@@ -86,7 +86,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
         <FlexStart>
           { account.benefits.map(txt => (
             <Scale key={txt}>
-              <ListText size={1.75}>{txt}</ListText>
+              <ListText>{txt}</ListText>
             </Scale>
           ))}
         </FlexStart>
@@ -124,7 +124,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
         }
       </View>
       <Scale>
-        <CopyrightText size={1.5}>{info.copyright}</CopyrightText>
+        <CopyrightText>{info.copyright}</CopyrightText>
       </Scale>
     </MobileContainer>
   </View>

@@ -15,10 +15,6 @@ const sizeMap = {
     default: utilsSize(42),
     small: utilsSize(32)
   },
-  text: {
-    default: 1.125,
-    small: 1
-  },
   margin: {
     default: utilsSize(20),
     small: utilsSize(15)
@@ -38,9 +34,7 @@ const Icon = styled(({ small, ...rest }) => (
   align-items: stretch;
 `;
 
-const StyledText = styled(({ small, ...rest }) => (
-  <Text {...rest} size={size('text', small)} />
-))`
+const StyledText = Text.extend`
   color: ${props => props.theme.primary};
   flex: 1;
 `;
@@ -65,7 +59,7 @@ const ButtonWithText = styled(({ small, text, icon, onPress, ...rest }) => (
           }
         </Icon>
       </View>
-      <StyledText small={small}>{text}</StyledText>
+      <StyledText>{text}</StyledText>
     </StyledView>
   </Touchable>
 ))`
