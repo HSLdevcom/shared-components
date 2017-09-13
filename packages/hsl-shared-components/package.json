@@ -1,6 +1,6 @@
 {
   "name": "hsl-shared-components",
-  "version": "0.13.1-0",
+  "version": "0.13.1-1",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "babel-cli": "^6.24.1",
