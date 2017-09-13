@@ -21,7 +21,7 @@ export const Main = ({ children, name, separator }) =>
   );
 
 Main.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element,
   name: PropTypes.string.isRequired,
   separator: PropTypes.bool,
 };
@@ -42,7 +42,7 @@ export const Section = ({ children, name }) =>
   );
 
 Section.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element,
   name: PropTypes.string.isRequired,
 };
 
@@ -60,8 +60,8 @@ export const Row = ({ children, name, style }) =>
   );
 
 Row.propTypes = {
-  children: PropTypes.element.isRequired,
-  name: PropTypes.string.isRequired,
+  children: PropTypes.element,
+  name: PropTypes.string,
   style: PropTypes.Object,
 };
 
@@ -79,8 +79,8 @@ export const Column = ({ children, name, style }) =>
   );
 
 Column.propTypes = {
-  children: PropTypes.element.isRequired,
-  name: PropTypes.string.isRequired,
+  children: PropTypes.element,
+  name: PropTypes.string,
   style: PropTypes.Object,
 };
 
@@ -98,7 +98,7 @@ export const Title = ({ children }) =>
   );
 
 Title.propTypes = {
-  children: PropTypes.element.isRequired
+  children: PropTypes.string
 };
 
 export const Subtitle = ({ children }) =>
@@ -109,7 +109,7 @@ export const Subtitle = ({ children }) =>
   );
 
 Subtitle.propTypes = {
-  children: PropTypes.element.isRequired
+  children: PropTypes.string
 };
 
 export const WithDescription = ({ text, style, children }) =>
@@ -136,7 +136,7 @@ export const WithDescription = ({ text, style, children }) =>
   );
 
 WithDescription.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element,
   style: PropTypes.Object,
   text: PropTypes.string.isRequired,
 };

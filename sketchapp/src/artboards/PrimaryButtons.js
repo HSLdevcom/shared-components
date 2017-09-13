@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'hsl-shared-components';
 import { Section, Row, Column, Subtitle } from '../presentation';
 
-const buttonLayoutStyles = {
+const buttonPresentationStyles = {
   marginTop: 20,
   marginBottom: 20,
 };
@@ -21,7 +21,7 @@ const PrimaryButtons = () =>
             large
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button default
           </Button>
@@ -34,7 +34,7 @@ const PrimaryButtons = () =>
             large
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button disabled
           </Button>
@@ -47,7 +47,7 @@ const PrimaryButtons = () =>
             primary
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button default
           </Button>
@@ -59,7 +59,7 @@ const PrimaryButtons = () =>
             primary
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button disabled
           </Button>
@@ -73,7 +73,7 @@ const PrimaryButtons = () =>
             small
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button default
           </Button>
@@ -86,7 +86,7 @@ const PrimaryButtons = () =>
             small
             onPress={() => false}
             onLongPress={() => false}
-            style={buttonLayoutStyles}
+            style={buttonPresentationStyles}
           >
             Button disabled
           </Button>
