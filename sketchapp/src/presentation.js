@@ -3,9 +3,10 @@ import { View } from 'react-sketchapp';
 import { H3, Text } from 'hsl-shared-components';
 import PropTypes from 'prop-types';
 
-export const Section = ({ separator, children }) =>
+export const Main = ({ children, name, separator }) =>
   (
     <View
+      name={name}
       style={{
         width: 1440,
         padding: 80,
@@ -19,9 +20,68 @@ export const Section = ({ separator, children }) =>
     </View>
   );
 
+Main.propTypes = {
+  children: PropTypes.element.isRequired,
+  name: PropTypes.string.isRequired,
+  separator: PropTypes.bool,
+};
+
+
+export const Section = ({ children, name }) =>
+  (
+    <View
+      name={name}
+      style={{
+        paddingTop: 20,
+        paddingBottom: 20,
+        flexDirection: 'column',
+      }}
+    >
+      {children}
+    </View>
+  );
+
 Section.propTypes = {
   children: PropTypes.element.isRequired,
-  separator: PropTypes.bool,
+  name: PropTypes.string.isRequired,
+};
+
+export const Row = ({ children, name, style }) =>
+  (
+    <View
+      name={name}
+      style={{
+        flexDirection: 'row',
+        ...style,
+      }}
+    >
+      {children}
+    </View>
+  );
+
+Row.propTypes = {
+  children: PropTypes.element.isRequired,
+  name: PropTypes.string.isRequired,
+  style: PropTypes.Object,
+};
+
+export const Column = ({ children, name, style }) =>
+  (
+    <View
+      name={name}
+      style={{
+        paddingRight: 50,
+        ...style,
+      }}
+    >
+      {children}
+    </View>
+  );
+
+Column.propTypes = {
+  children: PropTypes.element.isRequired,
+  name: PropTypes.string.isRequired,
+  style: PropTypes.Object,
 };
 
 export const Title = ({ children }) =>
@@ -41,14 +101,14 @@ Title.propTypes = {
   children: PropTypes.element.isRequired
 };
 
-export const SubTitle = ({ children }) =>
+export const Subtitle = ({ children }) =>
   (
     <Text>
       {children}
     </Text>
   );
 
-SubTitle.propTypes = {
+Subtitle.propTypes = {
   children: PropTypes.element.isRequired
 };
 

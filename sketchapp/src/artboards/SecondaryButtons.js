@@ -9,15 +9,14 @@ const buttonLayoutStyles = {
 
 const PrimaryButtons = () =>
   (
-    <Section name="Primary Buttons">
+    <Section name="Secondary Buttons">
       <Subtitle>
-        Primary buttons
+        Secondary buttons
       </Subtitle>
       <Row name="Large">
         <Column>
           <Button
-            name="Primary Button"
-            primary
+            name="Secondary Button"
             large
             onPress={() => false}
             onLongPress={() => false}
@@ -28,9 +27,8 @@ const PrimaryButtons = () =>
         </Column>
         <Column>
           <Button
-            name="Primary Button Disabled"
+            name="Secondary Button Disabled"
             disabled
-            primary
             large
             onPress={() => false}
             onLongPress={() => false}
@@ -43,8 +41,7 @@ const PrimaryButtons = () =>
       <Row name="Default">
         <Column>
           <Button
-            name="Primary Button"
-            primary
+            name="Secondary Button"
             onPress={() => false}
             onLongPress={() => false}
             style={buttonLayoutStyles}
@@ -54,9 +51,8 @@ const PrimaryButtons = () =>
         </Column>
         <Column>
           <Button
-            name="Primary Button Disabled"
+            name="Secondary Button Disabled"
             disabled
-            primary
             onPress={() => false}
             onLongPress={() => false}
             style={buttonLayoutStyles}
@@ -68,8 +64,7 @@ const PrimaryButtons = () =>
       <Row name="Small">
         <Column>
           <Button
-            name="Primary Button"
-            primary
+            name="Secondary Button"
             small
             onPress={() => false}
             onLongPress={() => false}
@@ -80,9 +75,8 @@ const PrimaryButtons = () =>
         </Column>
         <Column>
           <Button
-            name="Primary Button Disabled"
+            name="Secondary Button Disabled"
             disabled
-            primary
             small
             onPress={() => false}
             onLongPress={() => false}

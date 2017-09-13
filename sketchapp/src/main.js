@@ -1,9 +1,10 @@
 import React from 'react';
 import { render, Artboard } from 'react-sketchapp';
 import { ThemeProvider } from 'styled-components';
-import { Section, Title, SubTitle } from './presentation';
+import { Main, Title } from './presentation';
 import Typography from './artboards/Typography';
 import PrimaryButtons from './artboards/PrimaryButtons';
+import SecondaryButtons from './artboards/SecondaryButtons';
 import Theme from '../themes/themes.hsl';
 
 const Document = () =>
@@ -14,154 +15,152 @@ const Document = () =>
           flexDirection: 'column',
         }}
       >
-        <Section separator>
+        <Main separator>
           <Title>
             Colors
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Typography
           </Title>
           <Typography />
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Buttons
           </Title>
-          <SubTitle>
-            Primary buttons - example CTA
-          </SubTitle>
           <PrimaryButtons />
-        </Section>
-        <Section separator>
+          <SecondaryButtons />
+        </Main>
+        <Main separator>
           <Title>
             Links
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Inputs
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Checkboxes, Radiobuttons, Toggle buttons
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Sliders
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Dropdown
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Tabs
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Progress Bars
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Notifications
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Header
           </Title>
           <Title>
             Mobile Header / menu
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Icons
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Cards
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Modal
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Images
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Tables
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Enter origin / locale, Destination search
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Nearby
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Accordion
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Q&A Accordion
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Divider
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Spinner
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Favourite links
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Breadcrumbs
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Tags
           </Title>
-        </Section>
-        <Section separator>
+        </Main>
+        <Main separator>
           <Title>
             Leaflet popup
           </Title>
-        </Section>
-        <Section>
+        </Main>
+        <Main>
           <Title>
             Footer
           </Title>
-        </Section>
+        </Main>
       </Artboard>
     </ThemeProvider>
   );
