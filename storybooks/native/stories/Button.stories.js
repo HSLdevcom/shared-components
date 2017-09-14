@@ -29,9 +29,11 @@ storiesOf('Button', module)
     </Button>);
   })
   .add('primary', () => {
+    const success = boolean('Success', false);
     const disabled = boolean('Disabled', false);
     const small = boolean('Small', false);
     return (<Button
+      success={success}
       disabled={disabled}
       small={small}
       primary

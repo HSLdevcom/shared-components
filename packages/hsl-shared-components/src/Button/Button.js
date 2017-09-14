@@ -38,22 +38,18 @@ function size(kind, primary, small) {
 const TouchableText = styled(props => (
   <Text {...props} />
 ))`
+  color: ${props => props.theme.colors.primary.hslBlue};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
-  color: ${props => props.theme.colors.primary.hslBlue};
+  margin: 0 ${utilsSize(25, true)}px;
 
   ${props => props.primary && `
     color: ${props.theme.colors.background.hslWhite};
   `}
-  ${props => props.secondary && `
-    color: ${props.theme.colors.primary.hslBlue};
-  `}
-
-  ${props => props.secondary && props.rounded && `
+  ${props => !props.primary && props.rounded && `
     color: ${props.theme.colors.primary.hslGrey};
   `}
-
   ${props => props.disabled && `
     color: ${props.theme.colors.misc.greyLight};
   `}
@@ -67,7 +63,7 @@ const TouchableView = styled(props => (
   border-style: solid;
   border-width: 1px;
   border-color: ${props => props.theme.colors.misc.greyLight};
-  background-color: #fff;
+  background-color: ${props => props.theme.colors.background.hslWhite};
   ${props => props.primary && `
     border-radius: ${utilsSize(40)};
     border-color: ${props.theme.colors.primary.hslBlue};
@@ -77,20 +73,15 @@ const TouchableView = styled(props => (
     border-color: ${props.theme.colors.primary.hslGreen};
     background-color: ${props.theme.colors.primary.hslGreen};
   `}
-  ${props => props.secondary && `
-    border-color: ${props.theme.colors.misc.greyLight};
-  `}
   ${props => props.disabled && `
     border-color: ${props.theme.colors.misc.greyXLight};
-  `}
-
-  ${props => props.disabled && props.primary && `
-    background-color: ${props.theme.colors.misc.greyXLight};
+    background-color: ${props.primary ? props.theme.colors.misc.greyXLight : props.theme.colors.background.hslWhite};
   `}
 `;
 
 const Button = styled(({
   primary,
+  success,
   secondary,
   disabled,
   rounded,
@@ -103,6 +94,7 @@ const Button = styled(({
     <Touchable onPress={onPress} onLongPress={onLongPress}>
       <TouchableView
         primary={primary}
+        success={success}
         secondary={secondary}
         disabled={disabled}
         rounded={rounded}
