@@ -19,48 +19,58 @@ exports[`Storyshots Typography ErrorText 1`] = `
 `;
 
 exports[`Storyshots Typography H1 1`] = `
-<div
+<h1
+  aria-level="1"
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-155rn32 rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
+  role="heading"
 >
   HSL Liikuttaa
-</div>
+</h1>
 `;
 
 exports[`Storyshots Typography H2 1`] = `
-<div
+<h2
+  aria-level="2"
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-1ytsbp8 rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
+  role="heading"
 >
   HSL Liikuttaa
-</div>
+</h2>
 `;
 
 exports[`Storyshots Typography H3 1`] = `
-<div
+<h3
+  aria-level="3"
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
+  role="heading"
 >
   HSL Liikuttaa
-</div>
+</h3>
 `;
 
 exports[`Storyshots Typography H4 1`] = `
-<div
+<h4
+  aria-level="4"
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-1a2aj48 rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
+  role="heading"
 >
   HSL Liikuttaa
-</div>
+</h4>
 `;
 
 exports[`Storyshots Typography H5 1`] = `
-<div
+<h5
+  aria-level="5"
   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
   dir="auto"
+  role="heading"
 >
   HSL LIIKUTTAA
-</div>
+</h5>
 `;
 
 exports[`Storyshots Typography InfoText 1`] = `

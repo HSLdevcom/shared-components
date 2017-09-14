@@ -17,20 +17,12 @@ exports[`Storyshots Typography Caption 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
-        Array [
-          Object {
-            "fontSize": 14,
-          },
-          Array [
-            Object {
-              "fontSize": 11.375,
-              "fontWeight": "300",
-              "lineHeight": 14,
-            },
-            undefined,
-          ],
-        ],
+        Object {
+          "fontSize": 11.375,
+          "fontWeight": "300",
+          "lineHeight": 14,
+        },
+        undefined,
       ]
     }
   >
@@ -56,21 +48,13 @@ exports[`Storyshots Typography ErrorText 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
-        Array [
-          Object {
-            "fontSize": 14,
-          },
-          Array [
-            Object {
-              "color": "#dc0451",
-              "fontSize": 14,
-              "fontWeight": "300",
-              "lineHeight": 16,
-            },
-            undefined,
-          ],
-        ],
+        Object {
+          "color": "#dc0451",
+          "fontSize": 14,
+          "fontWeight": "300",
+          "lineHeight": 16,
+        },
+        undefined,
       ]
     }
   >
@@ -91,24 +75,23 @@ exports[`Storyshots Typography H1 1`] = `
   }
 >
   <Text
+    accessibilityRole="heading"
     accessible={true}
     allowFontScaling={true}
+    aria-level="1"
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
-            "fontSize": 14,
+            "fontSize": 42,
+            "fontWeight": "500",
+            "letterSpacing": -0.4,
           },
-          Array [
-            Object {
-              "fontSize": 42,
-              "fontWeight": "500",
-              "letterSpacing": -0.4,
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -130,24 +113,23 @@ exports[`Storyshots Typography H2 1`] = `
   }
 >
   <Text
+    accessibilityRole="heading"
     accessible={true}
     allowFontScaling={true}
+    aria-level="2"
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
-            "fontSize": 14,
+            "fontSize": 31.5,
+            "fontWeight": "500",
+            "letterSpacing": -0.4,
           },
-          Array [
-            Object {
-              "fontSize": 31.5,
-              "fontWeight": "500",
-              "letterSpacing": -0.4,
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -169,24 +151,23 @@ exports[`Storyshots Typography H3 1`] = `
   }
 >
   <Text
+    accessibilityRole="heading"
     accessible={true}
     allowFontScaling={true}
+    aria-level="3"
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
-            "fontSize": 14,
+            "fontSize": 21,
+            "fontWeight": "500",
+            "letterSpacing": -0.4,
           },
-          Array [
-            Object {
-              "fontSize": 21,
-              "fontWeight": "500",
-              "letterSpacing": -0.4,
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -208,23 +189,22 @@ exports[`Storyshots Typography H4 1`] = `
   }
 >
   <Text
+    accessibilityRole="heading"
     accessible={true}
     allowFontScaling={true}
+    aria-level="4"
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
-            "fontSize": 14,
+            "fontSize": 18.375,
+            "fontWeight": "500",
           },
-          Array [
-            Object {
-              "fontSize": 18.375,
-              "fontWeight": "500",
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -246,23 +226,22 @@ exports[`Storyshots Typography H5 1`] = `
   }
 >
   <Text
+    accessibilityRole="heading"
     accessible={true}
     allowFontScaling={true}
+    aria-level="5"
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
             "fontSize": 14,
+            "fontWeight": "500",
           },
-          Array [
-            Object {
-              "fontSize": 14,
-              "fontWeight": "500",
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -289,20 +268,17 @@ exports[`Storyshots Typography InfoText 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
+            "color": "#8c4799",
             "fontSize": 14,
+            "fontWeight": "300",
+            "lineHeight": 16,
           },
-          Array [
-            Object {
-              "color": "#8c4799",
-              "fontSize": 14,
-              "fontWeight": "300",
-              "lineHeight": 16,
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -329,19 +305,16 @@ exports[`Storyshots Typography Ingress 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
+        Object {
+          "fontSize": 14,
+        },
         Array [
           Object {
-            "fontSize": 14,
+            "fontSize": 17.5,
+            "fontWeight": "300",
+            "lineHeight": 25,
           },
-          Array [
-            Object {
-              "fontSize": 17.5,
-              "fontWeight": "300",
-              "lineHeight": 25,
-            },
-            undefined,
-          ],
+          undefined,
         ],
       ]
     }
@@ -386,19 +359,15 @@ exports[`Storyshots Typography ListText 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "black",
+            "borderRadius": 875,
+            "height": 6.125,
             "justifyContent": "center",
+            "marginRight": 17.5,
+            "marginVertical": 3.9375,
+            "width": 6.125,
           },
-          Array [
-            Object {
-              "backgroundColor": "black",
-              "borderRadius": 875,
-              "height": 6.125,
-              "marginRight": 17.5,
-              "marginVertical": 3.9375,
-              "width": 6.125,
-            },
-            undefined,
-          ],
+          undefined,
         ]
       }
     />
@@ -408,23 +377,15 @@ exports[`Storyshots Typography ListText 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
-          Array [
-            Object {
-              "fontSize": 14,
-            },
-            Array [
-              Object {
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "fontSize": 14,
-                "fontWeight": "300",
-                "lineHeight": 16,
-              },
-              undefined,
-            ],
-          ],
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontSize": 14,
+            "fontWeight": "300",
+            "lineHeight": 16,
+          },
+          undefined,
         ]
       }
     >
@@ -451,20 +412,12 @@ exports[`Storyshots Typography Paragraph 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
-        Array [
-          Object {
-            "fontSize": 14,
-          },
-          Array [
-            Object {
-              "fontSize": 12.25,
-              "fontWeight": "300",
-              "lineHeight": 18,
-            },
-            undefined,
-          ],
-        ],
+        Object {
+          "fontSize": 12.25,
+          "fontWeight": "300",
+          "lineHeight": 18,
+        },
+        undefined,
       ]
     }
   >
@@ -502,25 +455,17 @@ exports[`Storyshots Typography Quote 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
-          Array [
-            Object {
-              "fontSize": 14,
-            },
-            Array [
-              Object {
-                "fontSize": 17.5,
-                "fontStyle": "italic",
-                "fontWeight": "300",
-                "lineHeight": 25,
-                "paddingBottom": 3,
-                "paddingLeft": 20,
-                "paddingRight": 0,
-                "paddingTop": 3,
-              },
-              undefined,
-            ],
-          ],
+          Object {
+            "fontSize": 17.5,
+            "fontStyle": "italic",
+            "fontWeight": "300",
+            "lineHeight": 25,
+            "paddingBottom": 3,
+            "paddingLeft": 20,
+            "paddingRight": 0,
+            "paddingTop": 3,
+          },
+          undefined,
         ]
       }
     >
@@ -547,13 +492,10 @@ exports[`Storyshots Typography default 1`] = `
     ellipsizeMode="tail"
     style={
       Array [
-        Object {},
-        Array [
-          Object {
-            "fontSize": 14,
-          },
-          undefined,
-        ],
+        Object {
+          "fontSize": 14,
+        },
+        undefined,
       ]
     }
   >

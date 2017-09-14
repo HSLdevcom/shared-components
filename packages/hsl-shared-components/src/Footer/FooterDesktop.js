@@ -188,7 +188,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
       }
     </AccountSMWrapper>
     <Info>
-      <CopyrightText size={0.9}>{info.copyright}</CopyrightText>
+      <CopyrightText>{info.copyright}</CopyrightText>
       <InfoLinks>
         {
           info.links.map((link, index) => (

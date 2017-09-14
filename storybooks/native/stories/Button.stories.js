@@ -18,12 +18,10 @@ storiesOf('Button', module)
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
     const small = boolean('Small', false);
-    const large = boolean('Large', false);
     return (<Button
       disabled={disabled}
       rounded={rounded}
       small={small}
-      large={large}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -33,11 +31,9 @@ storiesOf('Button', module)
   .add('primary', () => {
     const disabled = boolean('Disabled', false);
     const small = boolean('Small', false);
-    const large = boolean('Large', false);
     return (<Button
       disabled={disabled}
       small={small}
-      large={large}
       primary
       onPress={action('press')}
       onLongPress={action('long press')}
@@ -49,12 +45,10 @@ storiesOf('Button', module)
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
     const small = boolean('Small', false);
-    const large = boolean('Large', false);
     return (<Button
       disabled={disabled}
       rounded={rounded}
       small={small}
-      large={large}
       secondary
       onPress={action('press')}
       onLongPress={action('long press')}
@@ -64,11 +58,9 @@ storiesOf('Button', module)
   })
   .add('round button', () => {
     const small = boolean('Small', false);
-    const large = boolean('Large', false);
     return (
       <RoundButton
         small={small}
-        large={large}
       >
         <Icons.Facebook height="36" width="18" fill="#007ac9" />
       </RoundButton>
@@ -76,12 +68,10 @@ storiesOf('Button', module)
   })
   .add('button with text', () => {
     const small = boolean('Small', false);
-    const large = boolean('Large', false);
     const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
     return (
       <ButtonWithText
         small={small}
-        large={large}
         text="Kaupunkipyörät"
         icon={icon}
         onPress={action('press')}

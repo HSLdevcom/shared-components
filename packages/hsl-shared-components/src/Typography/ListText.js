@@ -4,37 +4,33 @@ import PropTypes from 'prop-types';
 
 import Text from './Text';
 import View from '../View';
-import { size as utilsSize } from '../utils';
+import { size } from '../utils';
 
 // Center Dot in middle of the of the first line
 // (ListText line height - dot height) / 2
 const VERTICAL_MARGIN = (16 - 7) / 2;
 
-const Dot = styled(({ size, ...rest }) => (
-  <View {...rest} />
-))`
+const Dot = View.extend`
   background-color: black;
-  margin-vertical: ${props => utilsSize(VERTICAL_MARGIN * (props.size || 1))}
-  width: ${props => utilsSize(7 * (props.size || 1))};
-  height: ${props => utilsSize(7 * (props.size || 1))};
-  border-radius: ${utilsSize(1000)};
-  margin-right: ${props => utilsSize(20 * (props.size || 1))};
+  margin-vertical: ${size(VERTICAL_MARGIN)}
+  width: ${size(7)};
+  height: ${size(7)};
+  border-radius: ${size(1000)};
+  margin-right: ${size(20)};
 `;
 
-const StyledText = styled(({ size, ...rest }) => (
-  <Text {...rest} />
-))`
+const StyledText = Text.extend`
   font-weight: 300;
-  font-size: ${props => utilsSize(16 * (props.size || 1))};
-  line-height: ${props => Math.round(16 * (props.size || 1))};
+  font-size: ${size(16)};
+  line-height: ${16};
   flex: 1;
 `;
 
 
-const ListText = styled(({ size, children, ...rest }) => (
+const ListText = styled(({ children, ...rest }) => (
   <View {...rest}>
-    <Dot size={size} />
-    <StyledText size={size}>{children}</StyledText>
+    <Dot />
+    <StyledText>{children}</StyledText>
   </View>
 ))`
   flex-direction: row;
@@ -44,7 +40,6 @@ const ListText = styled(({ size, children, ...rest }) => (
 `;
 
 ListText.propTypes = {
-  size: PropTypes.number,
   children: PropTypes.string
 };
 

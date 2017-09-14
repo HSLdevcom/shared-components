@@ -4,17 +4,13 @@ import styled from 'styled-components/primitives';
 import { lighten } from 'polished';
 
 import View from '../View';
-import { size, WindowSize } from '../utils';
+import { size } from '../utils';
 import { H2 } from '../Typography';
 
-const LARGE_MOBILE = 640;
-
-const StyledH2 = WindowSize(styled(({ width, ...rest }) => (
-  <H2 {...rest} size={width >= LARGE_MOBILE ? 1.1 : 0.9} />
-))`
+const StyledH2 = H2.extend`
   margin-bottom: ${size(40)};
   text-align: center;
-`);
+`;
 
 const MobileContainer = styled(({ border, title, children, ...rest }) => (
   <View {...rest}>

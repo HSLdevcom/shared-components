@@ -6,6 +6,9 @@ import Touchable from '../Touchable';
 import View from '../View';
 import Icons from '../Icons';
 import Footer from '../Footer';
+import Article from '../Article';
+import Main from '../Main';
+import Section from '../Section';
 
 export {
   Text,
@@ -31,5 +34,8 @@ export {
   Tab,
   View,
   Icons,
-  Footer
+  Footer,
+  Article,
+  Main,
+  Section
 };

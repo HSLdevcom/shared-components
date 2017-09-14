@@ -12,6 +12,7 @@ exports[`Storyshots Button button with text 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -101,22 +102,15 @@ exports[`Storyshots Button button with text 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
-          Array [
-            Object {
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-              "fontSize": 15.75,
-            },
-            Array [
-              Object {
-                "color": "#007ac9",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-              },
-              undefined,
-            ],
-          ],
+          Object {
+            "color": "#007ac9",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 14,
+          },
+          undefined,
         ]
       }
     >
@@ -138,6 +132,7 @@ exports[`Storyshots Button default 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -176,21 +171,18 @@ exports[`Storyshots Button default 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
+          Object {
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 14,
+          },
           Array [
             Object {
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "color": "#007ac9",
               "fontSize": 14,
+              "fontWeight": "500",
+              "textAlign": "center",
             },
-            Array [
-              Object {
-                "color": "#007ac9",
-                "fontSize": 14,
-                "fontWeight": "500",
-                "textAlign": "center",
-              },
-              undefined,
-            ],
+            undefined,
           ],
         ]
       }
@@ -213,6 +205,7 @@ exports[`Storyshots Button primary 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -251,21 +244,18 @@ exports[`Storyshots Button primary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
+          Object {
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 14,
+          },
           Array [
             Object {
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-              "fontSize": 14,
+              "color": "#ffffff",
+              "fontSize": 15.75,
+              "fontWeight": "500",
+              "textAlign": "center",
             },
-            Array [
-              Object {
-                "color": "#ffffff",
-                "fontSize": 15.75,
-                "fontWeight": "500",
-                "textAlign": "center",
-              },
-              undefined,
-            ],
+            undefined,
           ],
         ]
       }
@@ -288,6 +278,7 @@ exports[`Storyshots Button round button 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -371,6 +362,7 @@ exports[`Storyshots Button secondary 1`] = `
   }
 >
   <View
+    accessibilityRole="button"
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -409,21 +401,18 @@ exports[`Storyshots Button secondary 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {},
+          Object {
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 14,
+          },
           Array [
             Object {
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "color": "#848484",
               "fontSize": 14,
+              "fontWeight": "500",
+              "textAlign": "center",
             },
-            Array [
-              Object {
-                "color": "#848484",
-                "fontSize": 14,
-                "fontWeight": "500",
-                "textAlign": "center",
-              },
-              undefined,
-            ],
+            undefined,
           ],
         ]
       }

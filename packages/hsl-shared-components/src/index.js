@@ -27,6 +27,9 @@ import Touchable from './Touchable';
 import Notification from './Notification';
 import View from './View';
 import Footer from './Footer';
+import Article from './Article';
+import Main from './Main';
+import Section from './Section';
 
 export {
   AppHeader,
@@ -82,5 +85,8 @@ export {
   Touchable,
   Notification,
   View,
-  Footer
+  Footer,
+  Article,
+  Main,
+  Section
 };
