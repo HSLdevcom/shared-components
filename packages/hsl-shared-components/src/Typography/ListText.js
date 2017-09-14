@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import Text from './Text';
 import View from '../View';
-import { size } from '../utils';
+import { IS_NATIVE, size, relativeLineHeight } from '../utils';
 
 // Center Dot in middle of the of the first line
 // (ListText line height - dot height) / 2
@@ -20,17 +20,23 @@ const Dot = View.extend`
 `;
 
 const StyledText = Text.extend`
+  ${props => !props.small && `
+    font-size: ${size(16)}
+    line-height: ${relativeLineHeight(16, 1.00)};
+  `}
+  ${props => (props.small || IS_NATIVE) && `
+    font-size: ${size(14)}
+    line-height: ${relativeLineHeight(14, 1.14)};
+  `}
   font-weight: 300;
-  font-size: ${size(16)};
-  line-height: ${16};
   flex: 1;
 `;
 
 
-const ListText = styled(({ children, ...rest }) => (
+const ListText = styled(({ children, small, ...rest }) => (
   <View {...rest}>
     <Dot />
-    <StyledText>{children}</StyledText>
+    <StyledText small={small}>{children}</StyledText>
   </View>
 ))`
   flex-direction: row;
@@ -40,7 +46,8 @@ const ListText = styled(({ children, ...rest }) => (
 `;
 
 ListText.propTypes = {
-  children: PropTypes.string
+  children: PropTypes.string,
+  small: PropTypes.bool,
 };
 
 export default ListText;
