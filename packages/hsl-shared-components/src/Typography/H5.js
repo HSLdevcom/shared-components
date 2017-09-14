@@ -8,6 +8,7 @@ import { size } from '../utils';
 const H5 = styled(({ children, ...rest }) => (
   <Text accessibilityRole="heading" aria-level="5" {...rest}>{children.toUpperCase()}</Text>
 ))`
+  color: ${props => props.theme.colors.primary.hslGreyDark};
   font-weight: 500;
   font-size: ${size(16)};
 `;
