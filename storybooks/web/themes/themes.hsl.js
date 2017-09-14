@@ -1,4 +1,4 @@
-import Media, { sizes } from './media-templates';
+import Media, { sizes, colors } from './media-templates';
 
 const primaryBlue = '#007ac9';
 const primaryWhite = '#ffffff';
@@ -6,6 +6,7 @@ const primaryWhite = '#ffffff';
 const hslTheme = {
   Media, // used in components
   sizes, // used by utils
+  colors,
   primary: primaryBlue,
   primaryText: primaryWhite,
   listItemMarker: '#62bae7',
@@ -21,6 +22,9 @@ const hslTheme = {
   fontFamilyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B"',
   fontSize: '16px',
   fontWeight: '500',
+  headingTextColor: colors.primary.hslGreyDark,
+  bodyTextColor: colors.primary.hslGreyDark,
+  quoteTextColor: colors.primary.hslGreyDark,
   letterSpacing: '-0.5px',
   activatablePointerHeight: '0.6rem',
   activatableLineHeight: '4px'
