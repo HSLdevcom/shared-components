@@ -7,7 +7,6 @@ import { size } from '../utils';
 const H4 = styled(({ ...props }) => (
   <Text accessibilityRole="heading" aria-level="4" {...props} />
 ))`
-  color: ${props => props.theme.colors.primary.hslGreyDark};
   font-weight: 500;
   font-size: ${size(21)};
 `;

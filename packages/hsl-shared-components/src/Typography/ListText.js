@@ -11,7 +11,7 @@ import { size } from '../utils';
 const VERTICAL_MARGIN = (16 - 7) / 2;
 
 const Dot = View.extend`
-  background-color: black;
+  background-color: ${props => props.theme.colors.primary.hslGreyDark};
   margin-vertical: ${size(VERTICAL_MARGIN)}
   width: ${size(7)};
   height: ${size(7)};

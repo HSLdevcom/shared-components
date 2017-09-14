@@ -20,10 +20,10 @@ stories.addWithJSX('Ingress', () => <Ingress>Omia joukkoliikennelinjoja koskevat
 stories.addWithJSX('Caption', () => <Caption>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</Caption>);
 
 stories.addWithJSX('InfoText', () => {
-  const large = boolean('Large', false);
+  const strong = boolean('Strong', false);
   return (
     <InfoText
-      large={large}
+      strong={strong}
     >
       Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
     </InfoText>

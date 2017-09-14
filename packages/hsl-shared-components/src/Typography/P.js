@@ -1,10 +1,9 @@
 import Text from './Text';
-import { size } from '../utils';
+import { relativeLineHeight } from '../utils';
 
 const P = Text.extend`
   font-weight: 300;
-  font-size: ${size(14)};
-  line-height: ${18};
+  line-height: ${relativeLineHeight(16, 1.25)};
 `;
 
 export default P;

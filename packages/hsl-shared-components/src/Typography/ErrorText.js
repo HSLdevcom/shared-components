@@ -3,7 +3,7 @@ import { size } from '../utils';
 
 const ErrorText = Text.extend`
   font-weight: 300;
-  color: #dc0451;
+  color: ${props => props.theme.colors.secondary.hslMagenta};
   font-size: ${size(16)};
   line-height: ${16};
 `;

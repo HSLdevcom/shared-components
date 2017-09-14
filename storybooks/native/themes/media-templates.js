@@ -20,6 +20,10 @@ export const colors = {
     hslWhite: '#ffffff',
     hslBlueLight: '#eff9ff',
     hslGreyLight: '#eef1f3',
+  },
+  // These colors are not defined in UI-kit, but still needed
+  misc: {
+    greyLight: '#b7b7b7',
   }
 };
 

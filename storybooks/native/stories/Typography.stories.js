@@ -26,10 +26,10 @@ storiesOf('Typography', module)
   .add('Caption', () => <Caption>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</Caption>)
 
   .add('InfoText', () => {
-    const large = boolean('Large', false);
+    const strong = boolean('Strong', false);
     return (
       <InfoText
-        large={large}
+        strong={strong}
       >
         Aenean lacinia bibendum nulla sed consectetur.
         Etiam porta sem malesuada magna mollis euismod.
