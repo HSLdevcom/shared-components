@@ -2,5 +2,5 @@ import initStoryshots from '@storybook/addon-storyshots';
 
 initStoryshots({
   configPath: 'storybook',
-  storyKindRegex: /^Input$/
+  storyKindRegex: /^Input\/.*$/
 });
