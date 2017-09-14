@@ -24,6 +24,7 @@ export const colors = {
   // These colors are not defined in UI-kit, but still needed
   misc: {
     greyLight: '#b7b7b7',
+    greyXLight: '#e4e4e4',
   }
 };
 
