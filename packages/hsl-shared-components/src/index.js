@@ -1,6 +1,6 @@
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
-import TextInput from './Input/TextInput';
+import TextInput from './TextInput';
 import Separator, {
   MenuSeparator,
   HorizontalSeparator,
