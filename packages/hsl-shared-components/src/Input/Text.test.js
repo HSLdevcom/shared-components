@@ -5,13 +5,13 @@ import {
   scryRenderedDOMComponentsWithTag
 } from 'react-dom/test-utils';
 import { expect } from 'chai';
-import Input from '../../src/Input/Input';
+import Text from './Text';
 
 
-describe('Input', () => {
+describe('Text', () => {
   it('renders input element', () => {
     const component = renderIntoDocument(
-      <Input />
+      <Text />
     );
     const inputElem = scryRenderedDOMComponentsWithTag(component, 'input')[0];
     // eslint-disable-next-line no-unused-expressions

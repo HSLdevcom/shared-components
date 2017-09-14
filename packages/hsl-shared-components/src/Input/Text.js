@@ -21,10 +21,17 @@ const Input = styled.input `
     border-color: ${props.theme.primary};
   `}
   ${props => props.error && `
-    color: #000000;
+    color: ${props.theme.error};
     border-color: ${props.theme.error};
     background-color: ${props.theme.errorBackground};
   `}
+  &:focus {
+    ${props => props.error && `
+      color: ${props.theme.error};
+      border-color: ${props.theme.error};
+      background-color: ${props.theme.errorBackground};
+    `}
+  }
 `;
 
 export default Input;

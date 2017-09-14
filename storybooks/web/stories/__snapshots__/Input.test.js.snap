@@ -2,21 +2,21 @@
 
 exports[`Storyshots Input/TextInput default 1`] = `
 <input
-  className="sc-htpNat fvlLJF"
+  className="sc-htpNat bNGNed"
   placeholder="placeholder"
 />
 `;
 
 exports[`Storyshots Input/TextInput error 1`] = `
 <input
-  className="sc-htpNat fcRyPL"
+  className="sc-htpNat kkLakV"
   placeholder="placeholder"
 />
 `;
 
 exports[`Storyshots Input/TextInput focus 1`] = `
 <input
-  className="sc-htpNat fPlTot"
+  className="sc-htpNat ghptMY"
   placeholder="placeholder"
 />
 `;
