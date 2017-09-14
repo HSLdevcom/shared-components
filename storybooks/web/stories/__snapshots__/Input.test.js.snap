@@ -6,3 +6,17 @@ exports[`Storyshots Input/TextInput default 1`] = `
   placeholder="placeholder"
 />
 `;
+
+exports[`Storyshots Input/TextInput error 1`] = `
+<input
+  className="sc-htpNat fcRyPL"
+  placeholder="placeholder"
+/>
+`;
+
+exports[`Storyshots Input/TextInput focus 1`] = `
+<input
+  className="sc-htpNat fPlTot"
+  placeholder="placeholder"
+/>
+`;

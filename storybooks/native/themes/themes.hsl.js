@@ -14,7 +14,6 @@ const hslTheme = {
   secondary: '#888888',
   default: '#b7b7b7',
   background: primaryBlue,
-  md: '900px',
   scrollNavHeight: '3.75rem',
   logoHeight: '4rem',
   logoFill: primaryWhite,
@@ -28,7 +27,9 @@ const hslTheme = {
   quoteTextColor: colors.primary.hslGreyDark,
   letterSpacing: '-0.5px',
   activatablePointerHeight: '0.6rem',
-  activatableLineHeight: '4px'
+  activatableLineHeight: '4px',
+  error: '#dc0451',
+  errorBackground: '#fff6f6'
 };
 
 export default hslTheme;

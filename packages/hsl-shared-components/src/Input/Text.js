@@ -22,8 +22,8 @@ const Input = styled.input `
   `}
   ${props => props.error && `
     color: #000000;
-    border-color: #dc0451;
-    background-color: #fff6f6;
+    border-color: ${props.theme.error};
+    background-color: ${props.theme.errorBackground};
   `}
 `;
 
