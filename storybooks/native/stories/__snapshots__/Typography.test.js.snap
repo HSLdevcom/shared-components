@@ -18,9 +18,11 @@ exports[`Storyshots Typography Caption 1`] = `
     style={
       Array [
         Object {
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
           "fontSize": 11.375,
           "fontWeight": "300",
-          "lineHeight": 14,
+          "lineHeight": 19,
         },
         undefined,
       ]
@@ -50,9 +52,10 @@ exports[`Storyshots Typography ErrorText 1`] = `
       Array [
         Object {
           "color": "#dc0451",
-          "fontSize": 14,
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
           "fontWeight": "300",
-          "lineHeight": 16,
+          "lineHeight": 20,
         },
         undefined,
       ]
@@ -83,7 +86,9 @@ exports[`Storyshots Typography H1 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
@@ -121,7 +126,9 @@ exports[`Storyshots Typography H2 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
@@ -159,7 +166,9 @@ exports[`Storyshots Typography H3 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
@@ -197,7 +206,9 @@ exports[`Storyshots Typography H4 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
@@ -234,7 +245,9 @@ exports[`Storyshots Typography H5 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
@@ -266,17 +279,20 @@ exports[`Storyshots Typography InfoText 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    strong={false}
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
             "color": "#8c4799",
-            "fontSize": 14,
+            "fontSize": 12.25,
             "fontWeight": "300",
-            "lineHeight": 16,
+            "lineHeight": 18,
           },
           undefined,
         ],
@@ -306,13 +322,16 @@ exports[`Storyshots Typography Ingress 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         Array [
           Object {
-            "fontSize": 17.5,
+            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B",
+            "fontSize": 15.75,
             "fontWeight": "300",
-            "lineHeight": 25,
+            "lineHeight": 22,
           },
           undefined,
         ],
@@ -359,7 +378,7 @@ exports[`Storyshots Typography ListText 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "black",
+            "backgroundColor": "#333333",
             "borderRadius": 875,
             "height": 6.125,
             "justifyContent": "center",
@@ -375,15 +394,18 @@ exports[`Storyshots Typography ListText 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      small={undefined}
       style={
         Array [
           Object {
+            "color": "#333333",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
-            "fontSize": 14,
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 12.25,
             "fontWeight": "300",
-            "lineHeight": 16,
+            "lineHeight": 20,
           },
           undefined,
         ]
@@ -413,9 +435,11 @@ exports[`Storyshots Typography Paragraph 1`] = `
     style={
       Array [
         Object {
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
           "fontSize": 12.25,
           "fontWeight": "300",
-          "lineHeight": 18,
+          "lineHeight": 20,
         },
         undefined,
       ]
@@ -456,10 +480,12 @@ exports[`Storyshots Typography Quote 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17.5,
+            "color": "#333333",
+            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B",
+            "fontSize": 15.75,
             "fontStyle": "italic",
             "fontWeight": "300",
-            "lineHeight": 25,
+            "lineHeight": 22,
             "paddingBottom": 3,
             "paddingLeft": 20,
             "paddingRight": 0,
@@ -493,7 +519,9 @@ exports[`Storyshots Typography default 1`] = `
     style={
       Array [
         Object {
-          "fontSize": 14,
+          "color": "#333333",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontSize": 12.25,
         },
         undefined,
       ]

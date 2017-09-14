@@ -94,7 +94,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                     Object {
                       "color": "#888888",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 12.25,
                       "fontWeight": "500",
                     },
                     undefined,
@@ -113,7 +113,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                     Object {
                       "color": "#888888",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 12.25,
                     },
                     undefined,
                   ]
@@ -131,8 +131,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
+                    "fontSize": 12.25,
                   },
                   Array [
                     Object {
@@ -223,7 +224,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                     Object {
                       "color": "#888888",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 12.25,
                       "fontWeight": "500",
                     },
                     undefined,
@@ -242,7 +243,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                     Object {
                       "color": "#888888",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                      "fontSize": 14,
+                      "fontSize": 12.25,
                     },
                     undefined,
                   ]
@@ -260,8 +261,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                    "fontSize": 14,
+                    "fontSize": 12.25,
                   },
                   Array [
                     Object {
@@ -355,8 +357,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             style={
               Array [
                 Object {
+                  "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
+                  "fontSize": 12.25,
                 },
                 Array [
                   Object {
@@ -444,7 +447,7 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
                 Object {
                   "color": "#888888",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
+                  "fontSize": 12.25,
                   "fontWeight": "500",
                 },
                 undefined,
@@ -463,7 +466,7 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
                 Object {
                   "color": "#888888",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                  "fontSize": 14,
+                  "fontSize": 12.25,
                 },
                 undefined,
               ]
@@ -481,8 +484,9 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           style={
             Array [
               Object {
+                "color": "#333333",
                 "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
-                "fontSize": 14,
+                "fontSize": 12.25,
               },
               Array [
                 Object {
