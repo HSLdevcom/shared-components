@@ -1,4 +1,5 @@
-import Media, { sizes, colors } from './media-templates';
+import Media, { sizes } from './media-templates';
+import colors from './colors';
 
 const primaryBlue = '#007ac9';
 const primaryWhite = '#ffffff';
