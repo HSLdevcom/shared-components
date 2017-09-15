@@ -89,7 +89,7 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -189,7 +189,7 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -270,7 +270,7 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -351,7 +351,7 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -432,7 +432,7 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -492,7 +492,7 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -539,7 +539,7 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -1002,7 +1002,7 @@ exports[`Storyshots Footer default 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -1043,7 +1043,7 @@ exports[`Storyshots Footer default 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -1084,7 +1084,7 @@ exports[`Storyshots Footer default 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -1125,7 +1125,7 @@ exports[`Storyshots Footer default 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -1166,7 +1166,7 @@ exports[`Storyshots Footer default 1`] = `
                 Array [
                   Object {
                     "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                     "marginTop": 43.75,
                   },
@@ -1417,7 +1417,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                       },
                       undefined,
@@ -1521,7 +1521,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                       },
                       undefined,
@@ -1623,7 +1623,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                       },
                       undefined,
@@ -1730,7 +1730,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                       },
                       undefined,
@@ -1834,7 +1834,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                       },
                       undefined,
@@ -1874,7 +1874,7 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -1974,7 +1974,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -2055,7 +2055,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -2136,7 +2136,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -2217,7 +2217,7 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
-                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                         "fontSize": 14,
                         "fontWeight": "300",
                         "lineHeight": 16,
@@ -2277,7 +2277,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -2324,7 +2324,7 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -2792,7 +2792,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -2833,7 +2833,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -2874,7 +2874,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -2915,7 +2915,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   Array [
                     Object {
                       "color": "#007ac9",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     Array [
@@ -2956,7 +2956,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 Array [
                   Object {
                     "color": "#007ac9",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                     "marginTop": 43.75,
                   },

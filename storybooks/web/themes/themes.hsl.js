@@ -18,8 +18,8 @@ const hslTheme = {
   logoHeight: '4rem',
   logoFill: primaryWhite,
   radioBtnActive: '#0062a1',
-  fontFamily: '"Gotham Rounded SSm A, Gotham Rounded SSm B"',
-  fontFamilyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B"',
+  fontFamily: '"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif"',
+  fontFamilyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif"',
   fontSize: '16px',
   fontWeight: '500',
   headingTextColor: colors.primary.hslGreyDark,
@@ -28,8 +28,6 @@ const hslTheme = {
   letterSpacing: '-0.5px',
   activatablePointerHeight: '0.6rem',
   activatableLineHeight: '4px',
-  error: '#dc0451',
-  errorBackground: '#fff6f6'
 };
 
 export default hslTheme;
