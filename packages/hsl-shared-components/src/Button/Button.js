@@ -34,7 +34,6 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
-
 const TouchableText = styled(props => (
   <Text {...props} />
 ))`
@@ -43,7 +42,6 @@ const TouchableText = styled(props => (
   font-weight: 500;
   text-align: center;
   margin: 0 ${utilsSize(25, true)}px;
-
   ${props => props.primary && `
     color: ${props.theme.colors.background.hslWhite};
   `}
@@ -72,6 +70,12 @@ const TouchableView = styled(props => (
   ${props => props.primary && props.success && `
     border-color: ${props.theme.colors.primary.hslGreen};
     background-color: ${props.theme.colors.primary.hslGreen};
+  `}
+  ${props => (props.hover || props.active || props.focus) && !props.primary && `
+      border-color:  ${props.theme.colors.primary.hslBlue};
+  `}
+  ${props => (props.hover || props.active || props.focus) && props.primary && `
+      background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
   `}
   ${props => props.disabled && `
     border-color: ${props.theme.colors.misc.greyXLight};

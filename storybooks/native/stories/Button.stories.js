@@ -15,10 +15,16 @@ storiesOf('Button', module)
       <CenterView>{getStory()}</CenterView>
     </ThemeProvider>))
   .add('default', () => {
+    const hover = boolean('Hover', false);
+    const active = boolean('Active', false);
+    const focus = boolean('Focus', false);
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
     const small = boolean('Small', false);
     return (<Button
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       rounded={rounded}
       small={small}
@@ -29,14 +35,20 @@ storiesOf('Button', module)
     </Button>);
   })
   .add('primary', () => {
+    const hover = boolean('Hover', false);
+    const active = boolean('Active', false);
+    const focus = boolean('Focus', false);
     const success = boolean('Success', false);
     const disabled = boolean('Disabled', false);
     const small = boolean('Small', false);
     return (<Button
-      success={success}
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       small={small}
       primary
+      success={success}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -44,10 +56,16 @@ storiesOf('Button', module)
     </Button>);
   })
   .add('secondary', () => {
+    const hover = boolean('Hover', false);
+    const active = boolean('Active', false);
+    const focus = boolean('Focus', false);
     const disabled = boolean('Disabled', false);
     const rounded = boolean('Rounded', false);
     const small = boolean('Small', false);
     return (<Button
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       rounded={rounded}
       small={small}

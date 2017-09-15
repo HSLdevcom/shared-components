@@ -3,6 +3,7 @@ const colors = {
     hslBlue: '#007ac9',
     hslBlueDark: '#0062a1',
     hslGreen: '#4ea700',
+    hslGreenDark: '#3b7f00',
     hslGrey: '#888888',
     hslGreyDark: '#333333',
   },
