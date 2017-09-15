@@ -40,12 +40,8 @@ IOS
 Android
 - launch emulator/device
 - `yarn storybook`
-- ```
-  adb reverse tcp:8081 tcp:8081
-  adb reverse tcp:9001 tcp:9001
-  adb reverse tcp:7007 tcp:7007
-  yarn run android
-  ```
+- `yarn android-ports` – on first launch or when you need to redo port forwarding
+- `yarn android` – launch without port forwarding
 
 ### Usage in application ###
 
