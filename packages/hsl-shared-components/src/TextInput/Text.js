@@ -13,23 +13,23 @@ const Input = styled.input `
   outline: 0;
   transition: border-color 0.5s, color 0.5s;
   &:focus {
-    color: #000000;
+    color: ${props => props.theme.colors.primary.hslGreyDark};
     border-color: ${props => props.theme.primary};
   }
   ${props => props.focus && `
-    color: #000000;
+    color: ${props.theme.colors.primary.hslGreyDark};
     border-color: ${props.theme.primary};
   `}
   ${props => props.error && `
-    color: ${props.theme.error};
-    border-color: ${props.theme.error};
-    background-color: ${props.theme.errorBackground};
+    color: ${props.theme.colors.misc.error};
+    border-color: ${props.theme.colors.misc.error};
+    background-color: ${props.theme.colors.misc.errorBackground};
   `}
   &:focus {
     ${props => props.error && `
-      color: ${props.theme.error};
-      border-color: ${props.theme.error};
-      background-color: ${props.theme.errorBackground};
+      color: ${props.theme.colors.misc.error};
+      border-color: ${props.theme.colors.misc.error};
+      background-color: ${props.theme.colors.misc.errorBackground};
     `}
   }
 `;

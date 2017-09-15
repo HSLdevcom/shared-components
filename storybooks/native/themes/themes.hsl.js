@@ -28,8 +28,6 @@ const hslTheme = {
   letterSpacing: '-0.5px',
   activatablePointerHeight: '0.6rem',
   activatableLineHeight: '4px',
-  error: '#dc0451',
-  errorBackground: '#fff6f6'
 };
 
 export default hslTheme;
