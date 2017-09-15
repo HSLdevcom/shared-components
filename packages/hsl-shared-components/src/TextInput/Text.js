@@ -4,10 +4,10 @@ import { size } from '../utils';
 
 const Input = styled.input `
   font-size: ${size(18)};
-  ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily};`}
+  ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily.replace(/"/g, '')};`}
   color: ${props => props.theme.secondary};
 
-  padding: ${size(14)} ${size(18)};
+  padding: ${size(12)} ${size(16)};
   border-radius: ${size(4)};
   border: solid 1px ${props => lighten(0.185, props.theme.secondary)};
   outline: 0;

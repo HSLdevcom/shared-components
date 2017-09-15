@@ -93,7 +93,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                       "fontWeight": "500",
                     },
@@ -112,7 +112,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     undefined,
@@ -131,7 +131,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -222,7 +222,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                       "fontWeight": "500",
                     },
@@ -241,7 +241,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                       "fontSize": 14,
                     },
                     undefined,
@@ -260,7 +260,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               style={
                 Array [
                   Object {
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 14,
                   },
                   Array [
@@ -355,7 +355,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             style={
               Array [
                 Object {
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 14,
                 },
                 Array [
@@ -443,7 +443,7 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
               Array [
                 Object {
                   "color": "#888888",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 14,
                   "fontWeight": "500",
                 },
@@ -462,7 +462,7 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
               Array [
                 Object {
                   "color": "#888888",
-                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 14,
                 },
                 undefined,
@@ -481,7 +481,7 @@ exports[`Storyshots NewsFeed News feed item 1`] = `
           style={
             Array [
               Object {
-                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                 "fontSize": 14,
               },
               Array [
