@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Input/TextInput Default 1`] = `
+<RCTScrollView
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      error={false}
+      focus={false}
+      placeholder="placeholder"
+      style={
+        Array [
+          Object {
+            "borderColor": "#b7b7b7",
+            "borderRadius": 3.5,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "color": "#888888",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontSize": 15.75,
+            "paddingBottom": 12.25,
+            "paddingLeft": 15.75,
+            "paddingRight": 15.75,
+            "paddingTop": 12.25,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
