@@ -107,7 +107,7 @@ exports[`Storyshots Button button with text 1`] = `
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 14,
           },
           undefined,
@@ -172,7 +172,7 @@ exports[`Storyshots Button default 1`] = `
       style={
         Array [
           Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 14,
           },
           Array [
@@ -245,7 +245,7 @@ exports[`Storyshots Button primary 1`] = `
       style={
         Array [
           Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 14,
           },
           Array [
@@ -402,7 +402,7 @@ exports[`Storyshots Button secondary 1`] = `
       style={
         Array [
           Object {
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 14,
           },
           Array [

@@ -32,7 +32,7 @@ exports[`Storyshots Article Default 1`] = `
         style={
           Array [
             Object {
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 14,
             },
             undefined,

@@ -1,6 +1,6 @@
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
-import Input from './Input/Input';
+import TextInput from './TextInput';
 import Separator, {
   MenuSeparator,
   HorizontalSeparator,
@@ -36,7 +36,7 @@ export {
   Button,
   RoundButton,
   ButtonWithText,
-  Input,
+  TextInput,
   Separator,
   MenuSeparator,
   HorizontalSeparator,
