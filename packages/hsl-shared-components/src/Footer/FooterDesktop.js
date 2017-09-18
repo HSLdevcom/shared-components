@@ -94,6 +94,7 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   ${props => (props.width > props.theme.sizes.large) && `
     padding-top: 0;
     align-items: flex-start;
+    align-self: flex-start;
     border-left-width: 1px;
     border-top-width: 0px;
   `};
