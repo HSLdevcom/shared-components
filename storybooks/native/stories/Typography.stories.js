@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs, boolean, select } from '@storybook/addon-knobs';
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
 import { ThemeProvider } from 'styled-components';
 
@@ -37,4 +37,14 @@ storiesOf('Typography', module)
     );
   })
   .add('ErrorText', () => <ErrorText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ErrorText>)
-  .add('ListText', () => <ListText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ListText>);
+  .add('ListText', () => {
+    const type = select('Type', { dot: 'dot', circle: 'circle' }, 'dot');
+    return (
+      <ListText
+        type={type}
+      >
+        Aenean lacinia bibendum nulla sed consectetur.
+        Etiam porta sem malesuada magna mollis euismod.
+      </ListText>
+    );
+  });

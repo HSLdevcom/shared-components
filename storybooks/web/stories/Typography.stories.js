@@ -1,7 +1,7 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs, boolean, select } from '@storybook/addon-knobs';
 
 import { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
 
@@ -55,11 +55,13 @@ stories.addWithJSX('ErrorText', () => {
 });
 stories.addWithJSX('ListText', () => {
   const small = boolean('Small', false);
+  const type = select('Type', { dot: 'dot', circle: 'circle' }, 'dot');
   return (
     <ListText
       small={small}
+      type={type}
     >
       Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
     </ListText>
-  )
+  );
 });

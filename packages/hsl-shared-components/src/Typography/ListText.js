@@ -17,6 +17,12 @@ const Dot = View.extend`
   height: ${size(7)};
   border-radius: ${size(1000)};
   margin-right: ${size(20)};
+  ${props => props.type === 'circle' && `
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: ${props.theme.colors.primary.hslBlue};
+  `}
 `;
 
 const StyledText = Text.extend`
@@ -33,9 +39,9 @@ const StyledText = Text.extend`
 `;
 
 
-const ListText = styled(({ children, small, ...rest }) => (
+const ListText = styled(({ children, small, type, ...rest }) => (
   <View {...rest}>
-    <Dot />
+    <Dot type={type} />
     <StyledText small={small}>{children}</StyledText>
   </View>
 ))`
@@ -48,6 +54,7 @@ const ListText = styled(({ children, small, ...rest }) => (
 ListText.propTypes = {
   children: PropTypes.string,
   small: PropTypes.bool,
+  type: PropTypes.string,
 };
 
 export default ListText;
