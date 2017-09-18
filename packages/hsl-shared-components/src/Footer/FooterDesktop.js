@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
@@ -17,8 +16,7 @@ const HorizontalView = View.extend`
 
 const Links = HorizontalView.extend`
   padding-horizontal: ${size(LEFT_PADDING)};
-  padding-vertical: ${size(16)};
-  justify-content: flex-start;
+  padding-vertical: ${size(30)};
   flex-wrap: wrap;
 `;
 
@@ -27,6 +25,7 @@ const LinkWrapper = styled(({ last, ...rest }) => (
 ))`
   width: ${size(200)};
   overflow: hidden;
+  align-items: flex-start;
   ${props => !props.last && `margin-right: ${size(32)};`}
   margin-vertical: ${size(16)};
 `;
@@ -35,12 +34,16 @@ const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   <HorizontalView {...rest} />
 ))`
   align-items: stretch;
+  padding-vertical: ${size(45)};
+  ${props => !props.frontpage && `
+    border-style: solid;
+    border-color: ${props.theme.colors.misc.greyLight};
+    border-top-width: 2px;
+
+  `}
   ${props => (props.theme.sizes.large >= props.width) && `
     flex-direction: column;
   `};
-  border-style: solid;
-  border-color: ${props => lighten(0.15, props.theme.default)};
-  border-top-width: 2px;
 `);
 
 const Account = WindowSize(styled(({ width, ...rest }) => (
@@ -48,12 +51,11 @@ const Account = WindowSize(styled(({ width, ...rest }) => (
 ))`
   flex: 2;
   padding-left: ${size(LEFT_PADDING)};
+  padding-bottom: ${size(45)};
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  margin-top: ${size(36)};
   ${props => (props.theme.sizes.large >= props.width) && `
-    margin-top: ${size(26)};
     flex: 1;
     flex-basis: 0%;
   `};
@@ -82,15 +84,13 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   flex: 1;
   flex-basis: 0%;
   align-items: center;
+  padding-top: ${size(45)};
   padding-left: ${size(20)};
   border-style: solid;
-  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-color: ${props => props.theme.colors.misc.greyLight};
   border-top-width: 2px;
-  padding-top: ${size(26)};
-  margin-top: ${size(40)};
   ${props => (props.width > props.theme.sizes.large) && `
     padding-top: 0;
-    margin-top: ${size(36)};
     align-items: flex-start;
     border-left-width: 1px;
     border-top-width: 0px;
@@ -103,36 +103,34 @@ const StyledRoundButton = styled(({ frontpage, ...rest }) => (
   margin-horizontal: ${size(10)};
   margin-bottom: ${size(20)};
   margin-top: ${size(15)};
-  ${props => !props.frontpage && `
-    background-color: ${lighten(0.225, props.theme.default)}
-  `}
 `;
 
 const Info = View.extend`
   flex-direction: row;
-  padding-top: ${size(20)};
+  padding-top: ${size(25)};
   padding-bottom: ${size(64)}
-  margin-top: ${size(35)};
   border-style: solid;
-  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-color: ${props => props.theme.colors.misc.greyLight};
   border-top-width: 2px;
   align-items: flex-start;
 `;
 
 const InfoLinks = HorizontalView.extend`
-  justify-content: space-between;
+  justify-content: space-between
+  align-items: flex-start;
   padding-right: ${size(200)};
-  flex-wrap: wrap;
   flex: 2;
+  flex-wrap: wrap;
 `;
 
 const CopyrightText = Text.extend`
   padding-left: ${size(LEFT_PADDING)};
-  color: ${props => props.theme.primary};
+  color: ${props => props.theme.colors.primary.hslBlue};
   flex: 1;
 `;
 const InfoLinkWrapper = View.extend`
   padding-horizontal: ${size(15)};
+  margin-bottom: ${size(15)};
 `;
 
 const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
@@ -163,7 +161,12 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
             </StyledButton>
           </AccountBtnTitle>
           <Benefits>
-            { account.benefits.map(txt => (<ListText key={txt}>{txt}</ListText>))}
+            { account.benefits.map((txt) => {
+              const type = frontpage ? 'disc' : 'circle';
+              return (
+                <ListText key={txt} type={type}>{txt}</ListText>
+              );
+            })}
           </Benefits>
         </Account>
       }
@@ -193,7 +196,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
         {
           info.links.map((link, index) => (
             <InfoLinkWrapper key={index}>
-              { React.cloneElement(link, { size: 0.9, key: index }) }
+              { React.cloneElement(link) }
             </InfoLinkWrapper>
           ))
         }
@@ -203,11 +206,13 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
 ))`
   width: 100%;
   align-items: stretch;
-  border-style: solid;
-  border-top-width: 4px;
-  border-color: ${props => props.theme.primary};
+  ${props => props.frontpage && `
+    border-style: solid;
+    border-top-width: 4px;
+    border-color: ${props.theme.colors.primary.hslBlue};
+  `}
   ${props => !props.frontpage && `
-    background-color: ${lighten(0.225, props.theme.default)}
+    background-color: ${props.theme.colors.background.hslGreyLight}
   `}
 `;
 
@@ -240,4 +245,3 @@ Footer.propTypes = {
 Footer.displayName = 'Footer';
 
 export default Footer;
-
