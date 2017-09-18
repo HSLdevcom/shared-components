@@ -2,9 +2,12 @@
 import { css } from 'styled-components';
 
 export const sizes = {
-  large: 1299,
-  medium: 999,
-  small: 869,
+  xxlarge: 1440,
+  xlarge: 1200,
+  large: 1024,
+  medium: 640,
+  small: 320,
+  xsmal: 0
 };
 
 // iterate through the sizes and create a media template
