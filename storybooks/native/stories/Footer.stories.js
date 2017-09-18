@@ -126,6 +126,7 @@ storiesOf('Footer', module)
       copyright: '© Copyright HSL',
       links: [
         <LinkText >Yhteystiedot</LinkText>,
+        <LinkText>Avoimet työpaikat</LinkText>,
         <LinkText >Tietosuojalauseke</LinkText>,
         <LinkText >Rekisteriseloste</LinkText>,
         <LinkText >Tietoa sivustosta</LinkText>
