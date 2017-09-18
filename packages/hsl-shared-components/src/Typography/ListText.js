@@ -6,33 +6,29 @@ import Text from './Text';
 import View from '../View';
 import { IS_NATIVE, size, relativeLineHeight } from '../utils';
 
-// Center Dot in middle of the of the first line
-// (ListText line height - dot height) / 2
-const VERTICAL_MARGIN = (16 - 7) / 2;
-
-const Dot = View.extend`
-  background-color: ${props => props.theme.colors.primary.hslGreyDark};
-  margin-vertical: ${size(VERTICAL_MARGIN)}
-  width: ${size(7)};
-  height: ${size(7)};
-  border-radius: ${size(1000)};
-  margin-right: ${size(20)};
+const Dot = Text.extend`
+  font-size: ${size(20)};
   ${props => props.type === 'circle' && `
-    background-color: transparent;
-    border-width: 1px;
-    border-style: solid;
-    border-color: ${props.theme.colors.primary.hslBlue};
+    color: ${props.theme.colors.primary.hslBlue};
+  `}
+  ${props => !props.small && `
+    margin-right: ${size(13)};
+    line-height: ${relativeLineHeight(16, 1.00)};
+  `}
+  ${props => (props.small || IS_NATIVE) && `
+    margin-right: ${size(10)};
+    line-height: ${relativeLineHeight(14, 1.14)};
   `}
 `;
 
 const StyledText = Text.extend`
   ${props => !props.small && `
-    font-size: ${size(16)}
+    font-size: ${size(16)};
     line-height: ${relativeLineHeight(16, 1.00)};
   `}
   ${props => (props.small || IS_NATIVE) && `
-    font-size: ${size(14)}
-    line-height: ${relativeLineHeight(14, 1.14)};
+    font-size: ${size(14)};
+    line-height: ${relativeLineHeight(14, 1.00)};
   `}
   font-weight: 300;
   flex: 1;
@@ -41,7 +37,7 @@ const StyledText = Text.extend`
 
 const ListText = styled(({ children, small, type, ...rest }) => (
   <View {...rest}>
-    <Dot type={type} />
+    <Dot type={type} small={small}>{type === 'circle' ? '○' : '●'}</Dot>
     <StyledText small={small}>{children}</StyledText>
   </View>
 ))`
