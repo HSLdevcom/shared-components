@@ -318,12 +318,17 @@ exports[`Storyshots NewsFeed News feed 1`] = `
       >
         <View
           accessibilityRole="button"
+          disabled={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          primary={undefined}
+          rounded={true}
+          secondary={undefined}
+          small={undefined}
           style={
             Array [
               Object {
@@ -332,7 +337,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               },
               Array [
                 Object {
-                  "backgroundColor": "#fff",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#b7b7b7",
                   "borderRadius": 35,
                   "borderStyle": "solid",
@@ -349,11 +354,17 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ],
             ]
           }
+          success={undefined}
         >
           <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={undefined}
             ellipsizeMode="tail"
+            primary={undefined}
+            rounded={true}
+            secondary={undefined}
+            small={undefined}
             style={
               Array [
                 Object {
@@ -363,9 +374,13 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#007ac9",
+                    "color": "#888888",
                     "fontSize": 14,
                     "fontWeight": "500",
+                    "marginBottom": 0,
+                    "marginLeft": 21.875,
+                    "marginRight": 21.875,
+                    "marginTop": 0,
                     "textAlign": "center",
                   },
                   undefined,

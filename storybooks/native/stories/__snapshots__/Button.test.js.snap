@@ -133,12 +133,20 @@ exports[`Storyshots Button default 1`] = `
 >
   <View
     accessibilityRole="button"
+    active={false}
+    disabled={false}
+    focus={false}
+    hover={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    primary={undefined}
+    rounded={false}
+    secondary={undefined}
+    small={false}
     style={
       Array [
         Object {
@@ -147,7 +155,7 @@ exports[`Storyshots Button default 1`] = `
         },
         Array [
           Object {
-            "backgroundColor": "#fff",
+            "backgroundColor": "#ffffff",
             "borderColor": "#b7b7b7",
             "borderRadius": 3.5,
             "borderStyle": "solid",
@@ -164,11 +172,17 @@ exports[`Storyshots Button default 1`] = `
         ],
       ]
     }
+    success={undefined}
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
+      primary={undefined}
+      rounded={false}
+      secondary={undefined}
+      small={false}
       style={
         Array [
           Object {
@@ -181,6 +195,10 @@ exports[`Storyshots Button default 1`] = `
               "color": "#007ac9",
               "fontSize": 14,
               "fontWeight": "500",
+              "marginBottom": 0,
+              "marginLeft": 21.875,
+              "marginRight": 21.875,
+              "marginTop": 0,
               "textAlign": "center",
             },
             undefined,
@@ -207,12 +225,20 @@ exports[`Storyshots Button primary 1`] = `
 >
   <View
     accessibilityRole="button"
+    active={false}
+    disabled={false}
+    focus={false}
+    hover={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    primary={true}
+    rounded={undefined}
+    secondary={undefined}
+    small={false}
     style={
       Array [
         Object {
@@ -238,11 +264,17 @@ exports[`Storyshots Button primary 1`] = `
         ],
       ]
     }
+    success={false}
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
+      primary={true}
+      rounded={undefined}
+      secondary={undefined}
+      small={false}
       style={
         Array [
           Object {
@@ -255,6 +287,10 @@ exports[`Storyshots Button primary 1`] = `
               "color": "#ffffff",
               "fontSize": 15.75,
               "fontWeight": "500",
+              "marginBottom": 0,
+              "marginLeft": 21.875,
+              "marginRight": 21.875,
+              "marginTop": 0,
               "textAlign": "center",
             },
             undefined,
@@ -281,12 +317,17 @@ exports[`Storyshots Button round button 1`] = `
 >
   <View
     accessibilityRole="button"
+    disabled={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    primary={undefined}
+    rounded={true}
+    secondary={undefined}
+    small={undefined}
     style={
       Array [
         Object {
@@ -295,7 +336,7 @@ exports[`Storyshots Button round button 1`] = `
         },
         Array [
           Object {
-            "backgroundColor": "#fff",
+            "backgroundColor": "#ffffff",
             "borderColor": "#b7b7b7",
             "borderRadius": 35,
             "borderStyle": "solid",
@@ -318,6 +359,7 @@ exports[`Storyshots Button round button 1`] = `
         ],
       ]
     }
+    success={undefined}
   >
     <View
       style={
@@ -365,12 +407,20 @@ exports[`Storyshots Button secondary 1`] = `
 >
   <View
     accessibilityRole="button"
+    active={false}
+    disabled={false}
+    focus={false}
+    hover={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    primary={undefined}
+    rounded={false}
+    secondary={true}
+    small={false}
     style={
       Array [
         Object {
@@ -379,8 +429,8 @@ exports[`Storyshots Button secondary 1`] = `
         },
         Array [
           Object {
-            "backgroundColor": "#fff",
-            "borderColor": "#848484",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#b7b7b7",
             "borderRadius": 3.5,
             "borderStyle": "solid",
             "borderWidth": 1,
@@ -396,11 +446,17 @@ exports[`Storyshots Button secondary 1`] = `
         ],
       ]
     }
+    success={undefined}
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
+      primary={undefined}
+      rounded={false}
+      secondary={true}
+      small={false}
       style={
         Array [
           Object {
@@ -410,9 +466,13 @@ exports[`Storyshots Button secondary 1`] = `
           },
           Array [
             Object {
-              "color": "#848484",
+              "color": "#007ac9",
               "fontSize": 14,
               "fontWeight": "500",
+              "marginBottom": 0,
+              "marginLeft": 21.875,
+              "marginRight": 21.875,
+              "marginTop": 0,
               "textAlign": "center",
             },
             undefined,

@@ -21,7 +21,8 @@ exports[`Storyshots Tabs Default 1`] = `
         Array [
           Object {
             "alignItems": "stretch",
-            "borderColor": "#CFCFCF",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
             "borderWidth": 1,
             "width": "100%",
@@ -63,8 +64,9 @@ exports[`Storyshots Tabs Default 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -113,6 +115,7 @@ exports[`Storyshots Tabs Default 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -122,7 +125,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#017AC9",
+                    "color": "#007ac9",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -151,9 +154,10 @@ exports[`Storyshots Tabs Default 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#FFFFFF",
+                "backgroundColor": "#ffffff",
                 "borderBottomColor": "transparent",
-                "borderColor": "#CFCFCF",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -181,7 +185,7 @@ exports[`Storyshots Tabs Default 1`] = `
               },
               Array [
                 Object {
-                  "borderColor": "#017AC9",
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
                   "borderTopWidth": 4,
                   "flexBasis": 0,
@@ -202,6 +206,7 @@ exports[`Storyshots Tabs Default 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -211,7 +216,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#000000",
+                    "color": "#333333",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -240,8 +245,9 @@ exports[`Storyshots Tabs Default 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -290,6 +296,7 @@ exports[`Storyshots Tabs Default 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -299,7 +306,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#017AC9",
+                    "color": "#007ac9",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -328,8 +335,9 @@ exports[`Storyshots Tabs Default 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 0,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -378,6 +386,7 @@ exports[`Storyshots Tabs Default 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -387,7 +396,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#B7B7B7",
+                    "color": "#b7b7b7",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -454,7 +463,8 @@ exports[`Storyshots Tabs one item 1`] = `
         Array [
           Object {
             "alignItems": "stretch",
-            "borderColor": "#CFCFCF",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
             "borderWidth": 1,
             "width": "100%",
@@ -496,9 +506,10 @@ exports[`Storyshots Tabs one item 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#FFFFFF",
+                "backgroundColor": "#ffffff",
                 "borderBottomColor": "transparent",
-                "borderColor": "#CFCFCF",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 0,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -526,7 +537,7 @@ exports[`Storyshots Tabs one item 1`] = `
               },
               Array [
                 Object {
-                  "borderColor": "#017AC9",
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
                   "borderTopWidth": 4,
                   "flexBasis": 0,
@@ -547,6 +558,7 @@ exports[`Storyshots Tabs one item 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -556,7 +568,7 @@ exports[`Storyshots Tabs one item 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#000000",
+                    "color": "#333333",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -623,7 +635,8 @@ exports[`Storyshots Tabs rounded 1`] = `
         Array [
           Object {
             "alignItems": "stretch",
-            "borderColor": "#CFCFCF",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#b7b7b7",
             "borderRadius": 5.25,
             "borderStyle": "solid",
             "borderWidth": 1,
@@ -666,8 +679,9 @@ exports[`Storyshots Tabs rounded 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "borderTopLeftRadius": 6,
@@ -717,6 +731,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -726,7 +741,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#017AC9",
+                    "color": "#007ac9",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -755,9 +770,10 @@ exports[`Storyshots Tabs rounded 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#FFFFFF",
+                "backgroundColor": "#ffffff",
                 "borderBottomColor": "transparent",
-                "borderColor": "#CFCFCF",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -785,7 +801,7 @@ exports[`Storyshots Tabs rounded 1`] = `
               },
               Array [
                 Object {
-                  "borderColor": "#017AC9",
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
                   "borderTopWidth": 4,
                   "flexBasis": 0,
@@ -806,6 +822,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -815,7 +832,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#000000",
+                    "color": "#333333",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -844,8 +861,9 @@ exports[`Storyshots Tabs rounded 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 1,
                 "borderStyle": "solid",
                 "flexBasis": 0,
@@ -894,6 +912,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -903,7 +922,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#017AC9",
+                    "color": "#007ac9",
                     "fontSize": 15.75,
                   },
                   undefined,
@@ -932,8 +951,9 @@ exports[`Storyshots Tabs rounded 1`] = `
             Array [
               Object {
                 "alignItems": "stretch",
-                "backgroundColor": "#EEF1F3",
-                "borderColor": "#CFCFCF",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
                 "borderRightWidth": 0,
                 "borderStyle": "solid",
                 "borderTopRightRadius": 6,
@@ -983,6 +1003,7 @@ exports[`Storyshots Tabs rounded 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
@@ -992,7 +1013,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 },
                 Array [
                   Object {
-                    "color": "#B7B7B7",
+                    "color": "#b7b7b7",
                     "fontSize": 15.75,
                   },
                   undefined,

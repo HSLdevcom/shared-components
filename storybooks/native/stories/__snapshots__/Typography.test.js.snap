@@ -389,6 +389,7 @@ exports[`Storyshots Typography ListText 1`] = `
           undefined,
         ]
       }
+      type="dot"
     />
     <Text
       accessible={true}
