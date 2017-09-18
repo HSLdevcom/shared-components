@@ -14,6 +14,9 @@ const HorizontalView = View.extend`
   justify-content: flex-start;
 `;
 
+const Title = H3.extend`
+  margin-bottom: ${size(24)};
+`;
 const Links = HorizontalView.extend`
   padding-horizontal: ${size(LEFT_PADDING)};
   padding-vertical: ${size(30)};
@@ -67,7 +70,6 @@ const AccountBtnTitle = View.extend`
 `;
 
 const StyledButton = Button.extend`
-  margin-top: ${size(21)};
   width: 50%;
 `;
 
@@ -101,8 +103,6 @@ const StyledRoundButton = styled(({ frontpage, ...rest }) => (
   <RoundButton {...rest} />
 ))`
   margin-horizontal: ${size(10)};
-  margin-bottom: ${size(20)};
-  margin-top: ${size(15)};
 `;
 
 const Info = View.extend`
@@ -151,7 +151,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
       { account &&
         <Account>
           <AccountBtnTitle>
-            <H3>{account.title}</H3>
+            <Title>{account.title}</Title>
             <StyledButton
               primary
               small
@@ -172,7 +172,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
       }
       { socialMedia &&
         <SocialMedia>
-          <H3>{socialMedia.title}</H3>
+          <Title>{socialMedia.title}</Title>
           <HorizontalView>
             { socialMedia.icons.map((SM, index) => (
               <StyledRoundButton
@@ -180,6 +180,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
                 onPress={SM.onPress}
                 onLongPress={SM.onLongPress}
                 small
+                transparent
                 frontpage={frontpage}
               >
                 {React.cloneElement(SM.icon)}

@@ -136,35 +136,38 @@ storiesOf('Footer', module)
     const links = [
       <ButtonWithText
         key="1"
-        icon={<Icons.Alert fill="#ffffff" height="30" width="30" />}
+        icon={<Icons.Alert fill="#ffffff" height="30px" width="30px" />}
         onPress={() => {}}
         text="Häiriöt ja poikkeukset"
+        style={{ backgroundColor: '#dc0451' }}
         small
       />,
       <ButtonWithText
         key="2"
-        icon={<Icons.TravelCard fill="#ffffff" height="30" width="30" />}
+        icon={<Icons.TravelCard fill="#ffffff" height="30px" width="30px" />}
         onPress={() => {}}
         text="Lataa matkakorttia"
+        style={{ backgroundColor: '#4ea700' }}
         small
       />,
       <ButtonWithText
         key="3"
-        icon={<Icons.MobileTicket fill="#ffffff" height="30" width="30" />}
+        icon={<Icons.MobileTicket fill="#ffffff" height="30px" width="30px" />}
         onPress={() => {}}
         text="Ota mobiililippu käyttöön"
         small
       />,
       <ButtonWithText
         key="4"
-        icon={<Icons.Bike fill="#ffffff" height="30" width="30" />}
+        icon={<Icons.Bike fill="#ffffff" height="30px" width="30px" />}
         onPress={() => {}}
         text="Kaupunkipyörät"
+        style={{ backgroundColor: '#fcbc19' }}
         small
       />,
       <ButtonWithText
         key="5"
-        icon={<Icons.CustomerService fill="#ffffff" height="30" width="30" />}
+        icon={<Icons.CustomerService fill="#ffffff" height="30px" width="30px" />}
         onPress={() => {}}
         text="Asiakaspalvelu ja palaute"
         small

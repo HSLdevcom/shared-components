@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { lighten } from 'polished';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';
@@ -91,6 +90,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
               key={index}
               onPress={SM.onPress}
               onLongPress={SM.onLongPress}
+              transparent
               frontpage={frontpage}
             >
               {React.cloneElement(SM.icon)}
