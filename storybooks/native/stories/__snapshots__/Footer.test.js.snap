@@ -411,6 +411,7 @@ exports[`Storyshots Footer default 1`] = `
                 ]
               }
               success={undefined}
+              transparent={undefined}
             >
               <Text
                 accessible={true}
@@ -519,7 +520,7 @@ exports[`Storyshots Footer default 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -529,7 +530,7 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -558,6 +559,7 @@ exports[`Storyshots Footer default 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -600,7 +602,7 @@ exports[`Storyshots Footer default 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -610,7 +612,7 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -639,6 +641,7 @@ exports[`Storyshots Footer default 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -681,7 +684,7 @@ exports[`Storyshots Footer default 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -691,7 +694,7 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -720,6 +723,7 @@ exports[`Storyshots Footer default 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -762,7 +766,7 @@ exports[`Storyshots Footer default 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -772,7 +776,7 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -801,6 +805,7 @@ exports[`Storyshots Footer default 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -849,7 +854,7 @@ exports[`Storyshots Footer default 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -859,7 +864,7 @@ exports[`Storyshots Footer default 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -888,6 +893,7 @@ exports[`Storyshots Footer default 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -1254,7 +1260,9 @@ exports[`Storyshots Footer sub site 1`] = `
                             "marginRight": 13.125,
                             "width": 42,
                           },
-                          undefined,
+                          Object {
+                            "backgroundColor": "#dc0451",
+                          },
                         ],
                       ]
                     }
@@ -1278,7 +1286,7 @@ exports[`Storyshots Footer sub site 1`] = `
                       }
                     >
                       <Svg
-                        height="30"
+                        height="30px"
                         style={
                           Object {
                             "flex": 1,
@@ -1369,7 +1377,9 @@ exports[`Storyshots Footer sub site 1`] = `
                             "marginRight": 13.125,
                             "width": 42,
                           },
-                          undefined,
+                          Object {
+                            "backgroundColor": "#4ea700",
+                          },
                         ],
                       ]
                     }
@@ -1393,7 +1403,7 @@ exports[`Storyshots Footer sub site 1`] = `
                       }
                     >
                       <Svg
-                        height="30"
+                        height="30px"
                         preserveAspectRatio="xMidYMid meet"
                         style={
                           Object {
@@ -1509,7 +1519,7 @@ exports[`Storyshots Footer sub site 1`] = `
                       }
                     >
                       <Svg
-                        height="30"
+                        height="30px"
                         preserveAspectRatio="xMidYMid meet"
                         style={
                           Object {
@@ -1599,7 +1609,9 @@ exports[`Storyshots Footer sub site 1`] = `
                             "marginRight": 13.125,
                             "width": 42,
                           },
-                          undefined,
+                          Object {
+                            "backgroundColor": "#fcbc19",
+                          },
                         ],
                       ]
                     }
@@ -1623,7 +1635,7 @@ exports[`Storyshots Footer sub site 1`] = `
                       }
                     >
                       <Svg
-                        height="30"
+                        height="30px"
                         preserveAspectRatio="xMidYMid meet"
                         style={
                           Object {
@@ -1742,7 +1754,7 @@ exports[`Storyshots Footer sub site 1`] = `
                       }
                     >
                       <Svg
-                        height="30"
+                        height="30px"
                         preserveAspectRatio="xMidYMid meet"
                         style={
                           Object {
@@ -2147,6 +2159,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 ]
               }
               success={undefined}
+              transparent={undefined}
             >
               <Text
                 accessible={true}
@@ -2255,7 +2268,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -2265,7 +2278,7 @@ exports[`Storyshots Footer sub site 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -2294,6 +2307,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -2336,7 +2350,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -2346,7 +2360,7 @@ exports[`Storyshots Footer sub site 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -2375,6 +2389,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -2417,7 +2432,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -2427,7 +2442,7 @@ exports[`Storyshots Footer sub site 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -2456,6 +2471,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -2498,7 +2514,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -2508,7 +2524,7 @@ exports[`Storyshots Footer sub site 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -2537,6 +2553,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={
@@ -2585,7 +2602,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 onStartShouldSetResponder={[Function]}
                 primary={undefined}
                 rounded={true}
-                secondary={undefined}
+                secondary={true}
                 small={undefined}
                 style={
                   Array [
@@ -2595,7 +2612,7 @@ exports[`Storyshots Footer sub site 1`] = `
                     },
                     Array [
                       Object {
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "transparent",
                         "borderColor": "#b7b7b7",
                         "borderRadius": 35,
                         "borderStyle": "solid",
@@ -2624,6 +2641,7 @@ exports[`Storyshots Footer sub site 1`] = `
                   ]
                 }
                 success={undefined}
+                transparent={true}
               >
                 <View
                   style={

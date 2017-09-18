@@ -355,6 +355,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
             ]
           }
           success={undefined}
+          transparent={undefined}
         >
           <Text
             accessible={true}

@@ -173,6 +173,7 @@ exports[`Storyshots Button default 1`] = `
       ]
     }
     success={undefined}
+    transparent={undefined}
   >
     <Text
       accessible={true}
@@ -265,6 +266,7 @@ exports[`Storyshots Button primary 1`] = `
       ]
     }
     success={false}
+    transparent={undefined}
   >
     <Text
       accessible={true}
@@ -326,7 +328,7 @@ exports[`Storyshots Button round button 1`] = `
     onStartShouldSetResponder={[Function]}
     primary={undefined}
     rounded={true}
-    secondary={undefined}
+    secondary={true}
     small={undefined}
     style={
       Array [
@@ -360,6 +362,7 @@ exports[`Storyshots Button round button 1`] = `
       ]
     }
     success={undefined}
+    transparent={undefined}
   >
     <View
       style={
@@ -447,6 +450,7 @@ exports[`Storyshots Button secondary 1`] = `
       ]
     }
     success={undefined}
+    transparent={undefined}
   >
     <Text
       accessible={true}
