@@ -24,6 +24,7 @@ stories.addWithJSX('default', () => {
   const focus = boolean('Focus', false);
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
+  const transparent = boolean('Transparent', false);
   const small = boolean('Small', false);
   return (
     <Button
@@ -32,6 +33,7 @@ stories.addWithJSX('default', () => {
       focus={focus}
       disabled={disabled}
       rounded={rounded}
+      transparent={transparent}
       small={small}
       onPress={action('press')}
       onLongPress={action('long press')}

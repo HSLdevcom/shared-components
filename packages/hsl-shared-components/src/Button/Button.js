@@ -81,6 +81,9 @@ const TouchableView = styled(props => (
     border-color: ${props.theme.colors.misc.greyXLight};
     background-color: ${props.primary ? props.theme.colors.misc.greyXLight : props.theme.colors.background.hslWhite};
   `}
+  ${props => props.transparent && `
+    background-color: transparent;
+  `}
 `;
 
 const Button = styled(({
@@ -88,6 +91,7 @@ const Button = styled(({
   success,
   secondary,
   disabled,
+  transparent,
   rounded,
   small,
   onPress,
@@ -101,6 +105,7 @@ const Button = styled(({
         success={success}
         secondary={secondary}
         disabled={disabled}
+        transparent={transparent}
         rounded={rounded}
         small={small}
         {...rest}
@@ -128,6 +133,7 @@ Button.propTypes = {
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
   success: PropTypes.bool,
+  transparent: PropTypes.bool,
   disabled: PropTypes.bool,
   rounded: PropTypes.bool,
   small: PropTypes.bool,
