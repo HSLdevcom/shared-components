@@ -13,6 +13,9 @@ exports[`Storyshots Input/TextInput Default 1`] = `
     <TextInput
       error={false}
       focus={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
       placeholder="placeholder"
       style={
         Array [
@@ -29,10 +32,14 @@ exports[`Storyshots Input/TextInput Default 1`] = `
             "paddingRight": 15.75,
             "paddingTop": 12.25,
           },
-          undefined,
+          Array [
+            Object {},
+            undefined,
+          ],
         ]
       }
       underlineColorAndroid="transparent"
+      value=""
     />
   </View>
 </RCTScrollView>
