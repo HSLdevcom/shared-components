@@ -9,6 +9,7 @@ import Footer from '../Footer';
 import Article from '../Article';
 import Main from '../Main';
 import Section from '../Section';
+import Checkbox from '../Checkbox';
 
 export {
   Text,
@@ -37,5 +38,6 @@ export {
   Footer,
   Article,
   Main,
-  Section
+  Section,
+  Checkbox
 };

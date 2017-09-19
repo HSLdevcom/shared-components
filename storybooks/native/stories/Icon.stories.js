@@ -53,12 +53,17 @@ storiesOf('Icons', module)
   }, { displayName: 'CardWithCheckmark' })
 
   .add('Checkmark', () => {
+    const fill = color('Fill', '#00c920');
+    return (<Icons.Checkmark fill={fill} height="200" width="200" />);
+  }, { displayName: 'Checkmark' })
+
+  .add('CircleCheckmark', () => {
     const fill = {
       inner: color('FillInner', '#fff'),
       outer: color('FillOuter', '#00c920')
     };
-    return (<Icons.Checkmark fill={fill} height="200" width="200" />);
-  }, { displayName: 'Checkmark' })
+    return (<Icons.CircleCheckmark fill={fill} height="200" width="200" />);
+  }, { displayName: 'Icons.CircleCheckmark' })
 
   .add('Cog', () => {
     const fill = color('fill', '#d1d1d1');

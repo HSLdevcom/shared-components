@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Checkbox Default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    disabled={false}
+    error={false}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#007ac9",
+          "borderRadius": 3.5,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "height": 17.5,
+          "justifyContent": "center",
+          "width": 17.5,
+        },
+        Array [
+          Object {},
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
+      ]
+    }
+  />
+</View>
+`;
