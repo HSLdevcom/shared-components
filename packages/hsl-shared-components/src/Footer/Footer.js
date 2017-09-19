@@ -1,38 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
 
-import View from '../View';
-import { Mobile, Desktop } from '../utils';
+import { Responsive } from '../utils';
 
 import FooterMobile from './FooterMobile';
 import FooterDesktop from './FooterDesktop';
 
-const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }) => (
-  <View {...rest}>
-    <Mobile>
-      <FooterMobile
-        account={account}
-        socialMedia={socialMedia}
-        info={info}
-        frontpage={frontpage}
-        links={links}
-      />
-    </Mobile>
-    <Desktop>
-      <FooterDesktop
-        account={account}
-        socialMedia={socialMedia}
-        info={info}
-        frontpage={frontpage}
-        links={links}
-      />
-    </Desktop>
-  </View>
-))`
-  align-self: stretch;
-  align-items: stretch;
-`;
+const Footer = ({ account, socialMedia, info, frontpage, links }) => {
+  const props = { account, socialMedia, info, frontpage, links };
+  return (<Responsive
+    medium={<FooterMobile {...props} />}
+    large={<FooterDesktop {...props} />}
+  />);
+};
 
 Footer.propTypes = {
   frontpage: PropTypes.bool,
@@ -63,3 +43,4 @@ Footer.propTypes = {
 Footer.displayName = 'Footer';
 
 export default Footer;
+

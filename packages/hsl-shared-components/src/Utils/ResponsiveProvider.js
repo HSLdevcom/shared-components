@@ -1,33 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dimensions } from 'react-primitives';
-import { withTheme } from 'styled-components';
-import orderBy from 'lodash/fp/orderBy';
-import find from 'lodash/fp/find';
-import findKey from 'lodash/fp/findKey';
-import flow from 'lodash/fp/flow';
 import debounce from 'lodash/debounce';
-
-function getScreenSize(width, sizes) {
-  // order sizes from largest to smallest
-  // find first size that's smaller (or equal) than given width
-  const minWidth = flow(
-    orderBy(x => (x), 'desc'),
-    find(x => (width >= x))
-  )(sizes);
-  // find key matching found minWidth
-  return findKey(value => (value === minWidth))(sizes);
-}
 
 class ResponsiveProvider extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { screenSize: getScreenSize(Dimensions.get('window').width, this.props.theme.sizes) };
+    this.state = { width: Dimensions.get('window').width };
     this.onResize = debounce(this.onResize.bind(this), 200);
   }
 
   getChildContext() {
-    return { screenSize: this.state.screenSize };
+    return { width: this.state.width };
   }
 
   componentDidMount() {
@@ -44,7 +28,7 @@ class ResponsiveProvider extends React.Component {
 
   onResize({ window }) {
     this.setState({
-      screenSize: getScreenSize(window.width, this.props.theme.sizes)
+      width: window.width
     });
   }
 
@@ -55,21 +39,11 @@ class ResponsiveProvider extends React.Component {
 }
 
 ResponsiveProvider.childContextTypes = {
-  screenSize: PropTypes.string
+  width: PropTypes.number
 };
 
 ResponsiveProvider.propTypes = {
-  theme: PropTypes.shape({
-    sizes: PropTypes.shape({
-      xxlarge: PropTypes.number,
-      xlarge: PropTypes.number,
-      large: PropTypes.number,
-      medium: PropTypes.number,
-      small: PropTypes.number,
-      xsmall: PropTypes.number,
-    })
-  }),
   children: PropTypes.element.isRequired
 };
 
-export default withTheme(ResponsiveProvider);
+export default ResponsiveProvider;

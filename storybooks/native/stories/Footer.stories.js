@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
+import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -11,7 +11,9 @@ import ScrollView from './ScrollView';
 storiesOf('Footer', module)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <ScrollView>{getStory()}</ScrollView>
+      <ResponsiveProvider>
+        <ScrollView>{getStory()}</ScrollView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('default', () => {
     const account = {

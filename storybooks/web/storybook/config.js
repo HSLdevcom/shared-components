@@ -2,6 +2,7 @@
 import { configure, addDecorator } from '@storybook/react';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import { ResponsiveProvider } from 'hsl-shared-components';
 import Theme from './../themes/themes.hsl';
 
 const req = require.context('../stories', true, /\.stories\.js$/);
@@ -12,7 +13,9 @@ function loadStories() {
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    {story()}
+    <ResponsiveProvider>
+      {story()}
+    </ResponsiveProvider>
   </ThemeProvider>
 ));
 

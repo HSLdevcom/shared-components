@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, color } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { Icons } from 'hsl-shared-components';
+import { Icons, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
@@ -11,7 +11,9 @@ storiesOf('Icons', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <CenterView>{getStory()}</CenterView>
+      <ResponsiveProvider>
+        <CenterView>{getStory()}</CenterView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('AddCard', () => {
     const fill = {

@@ -3,14 +3,16 @@ import { setAddon, storiesOf, addDecorator } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
+import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    {story()}
+    <ResponsiveProvider>
+      {story()}
+    </ResponsiveProvider>
   </ThemeProvider>
 ));
 
