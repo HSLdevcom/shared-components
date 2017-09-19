@@ -1,4 +1,6 @@
-/* DEPRACATED */
+/**
+ * @deprecated
+ */
 
 import { darken } from 'polished';
 

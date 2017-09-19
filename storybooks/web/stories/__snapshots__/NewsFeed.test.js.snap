@@ -8,34 +8,34 @@ exports[`Storyshots NewsFeed default 1`] = `
     className="sc-dNLxif KzmkZ"
   >
     <li
-      className="sc-fYxtnH hSLfWw sc-jnlKLf mCLvG"
+      className="sc-fYxtnH hSLfWw sc-jnlKLf flLakZ"
     >
       <div
         className="text-container sc-gGBfsJ eaQlFN"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top sc-bxivhb bUZGRr"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category sc-bxivhb bUZGRr"
           >
-            example
+            Talviaikataulut
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom sc-bxivhb bUZGRr"
         >
-          example example example example
+          HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>
       </div>
       <img
@@ -45,34 +45,34 @@ exports[`Storyshots NewsFeed default 1`] = `
       />
     </li>
     <li
-      className="sc-fYxtnH hSLfWw sc-jnlKLf mCLvG"
+      className="sc-fYxtnH hSLfWw sc-jnlKLf flLakZ"
     >
       <div
         className="text-container sc-gGBfsJ eaQlFN"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top sc-bxivhb bUZGRr"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category sc-bxivhb bUZGRr"
           >
-            example
+            Uusi linja
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom sc-bxivhb bUZGRr"
         >
-          example example example example
+          Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
         </span>
       </div>
       <img
@@ -82,34 +82,34 @@ exports[`Storyshots NewsFeed default 1`] = `
       />
     </li>
     <li
-      className="sc-fYxtnH hSLfWw sc-jnlKLf mCLvG"
+      className="sc-fYxtnH hSLfWw sc-jnlKLf flLakZ"
     >
       <div
         className="text-container sc-gGBfsJ eaQlFN"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top sc-bxivhb bUZGRr"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category sc-bxivhb bUZGRr"
           >
-            example
+            Talviaikataulut
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom sc-bxivhb bUZGRr"
         >
-          example example example example
+          HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>
       </div>
       <img
@@ -119,34 +119,34 @@ exports[`Storyshots NewsFeed default 1`] = `
       />
     </li>
     <li
-      className="sc-fYxtnH hSLfWw sc-jnlKLf mCLvG"
+      className="sc-fYxtnH hSLfWw sc-jnlKLf flLakZ"
     >
       <div
         className="text-container sc-gGBfsJ eaQlFN"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top sc-bxivhb bUZGRr"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category sc-bxivhb bUZGRr"
           >
-            example
+            Uusi linja
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom sc-bxivhb bUZGRr"
         >
-          example example example example
+          Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
         </span>
       </div>
       <img
@@ -156,34 +156,34 @@ exports[`Storyshots NewsFeed default 1`] = `
       />
     </li>
     <li
-      className="sc-fYxtnH hSLfWw sc-jnlKLf mCLvG"
+      className="sc-fYxtnH hSLfWw sc-jnlKLf flLakZ"
     >
       <div
         className="text-container sc-gGBfsJ eaQlFN"
       >
         <span
-          className="top sc-gzVnrw ibZhkv"
+          className="top sc-bxivhb bUZGRr"
         >
           <span
-            className="category sc-gzVnrw ibZhkv"
+            className="category sc-bxivhb bUZGRr"
           >
-            example
+            Talviaikataulut
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
              — 
           </span>
           <span
-            className="sc-gzVnrw ibZhkv"
+            className="sc-bxivhb bUZGRr"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-gzVnrw ibZhkv"
+          className="bottom sc-bxivhb bUZGRr"
         >
-          example example example example
+          HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>
       </div>
     </li>
@@ -211,11 +211,7 @@ exports[`Storyshots NewsFeed default 1`] = `
         transparent={undefined}
       >
         <div
-<<<<<<< HEAD
-          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-tofzls rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-rxqqfj rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-=======
-          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
->>>>>>> master
+          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-tofzls rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
           dir="auto"
           disabled={undefined}
           primary={undefined}

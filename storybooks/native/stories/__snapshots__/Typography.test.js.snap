@@ -19,7 +19,7 @@ exports[`Storyshots Typography Caption 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 11.375,
           "fontWeight": "300",
           "lineHeight": 19,
@@ -52,7 +52,7 @@ exports[`Storyshots Typography ErrorText 1`] = `
       Array [
         Object {
           "color": "#dc0451",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
           "fontWeight": "300",
           "lineHeight": 20,
@@ -87,7 +87,7 @@ exports[`Storyshots Typography H1 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -127,7 +127,7 @@ exports[`Storyshots Typography H2 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -167,7 +167,7 @@ exports[`Storyshots Typography H3 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -207,7 +207,7 @@ exports[`Storyshots Typography H4 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -246,7 +246,7 @@ exports[`Storyshots Typography H5 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -284,7 +284,7 @@ exports[`Storyshots Typography InfoText 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
@@ -323,12 +323,12 @@ exports[`Storyshots Typography Ingress 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         Array [
           Object {
-            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B",
+            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif",
             "fontSize": 15.75,
             "fontWeight": "300",
             "lineHeight": 22,
@@ -373,24 +373,27 @@ exports[`Storyshots Typography ListText 1`] = `
       ]
     }
   >
-    <View
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      small={undefined}
       style={
         Array [
           Object {
-            "alignItems": "center",
-            "backgroundColor": "#333333",
-            "borderRadius": 875,
-            "height": 6.125,
-            "justifyContent": "center",
-            "marginRight": 17.5,
-            "marginVertical": 3.9375,
-            "width": 6.125,
+            "color": "#333333",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 17.5,
+            "lineHeight": 20,
+            "marginRight": 8.75,
           },
           undefined,
         ]
       }
       type="dot"
-    />
+    >
+      ●
+    </Text>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -403,10 +406,10 @@ exports[`Storyshots Typography ListText 1`] = `
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 12.25,
             "fontWeight": "300",
-            "lineHeight": 20,
+            "lineHeight": 18,
           },
           undefined,
         ]
@@ -437,7 +440,7 @@ exports[`Storyshots Typography Paragraph 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
           "fontWeight": "300",
           "lineHeight": 20,
@@ -482,7 +485,7 @@ exports[`Storyshots Typography Quote 1`] = `
         Array [
           Object {
             "color": "#333333",
-            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B",
+            "fontFamily": "Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif",
             "fontSize": 15.75,
             "fontStyle": "italic",
             "fontWeight": "300",
@@ -521,7 +524,7 @@ exports[`Storyshots Typography default 1`] = `
       Array [
         Object {
           "color": "#333333",
-          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
+          "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
           "fontSize": 12.25,
         },
         undefined,
