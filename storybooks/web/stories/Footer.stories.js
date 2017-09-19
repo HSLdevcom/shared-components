@@ -64,12 +64,13 @@ stories.addWithJSX('default', () => {
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.colors.primary.hslBlue};
   `;
   const info = {
     copyright: '© Copyright HSL',
     links: [
       <LinkText>Yhteystiedot</LinkText>,
+      <LinkText>Avoimet työpaikat</LinkText>,
       <LinkText>Tietosuojalauseke</LinkText>,
       <LinkText>Rekisteriseloste</LinkText>,
       <LinkText>Tietoa sivustosta</LinkText>
@@ -132,6 +133,7 @@ stories.addWithJSX('sub site', () => {
     copyright: '© Copyright HSL',
     links: [
       <LinkText>Yhteystiedot</LinkText>,
+      <LinkText>Avoimet työpaikat</LinkText>,
       <LinkText>Tietosuojalauseke</LinkText>,
       <LinkText>Rekisteriseloste</LinkText>,
       <LinkText>Tietoa sivustosta</LinkText>

@@ -11,17 +11,17 @@ exports[`Storyshots Footer default 1`] = `
       className="rn-alignItems-1oszu61 rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
     >
       <div
-        className="rn-alignItems-1oszu61 rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        className="rn-alignItems-1oszu61 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1fpfbyt rn-paddingRight-9aemit rn-paddingBottom-19tb7yc rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1h0z5md rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-oshowu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-position-bnwqim"
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-19tb7yc rn-paddingLeft-imp8ys rn-position-bnwqim"
         >
           <div
             className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           >
             <h3
               aria-level="3"
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1myw8oa rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
               role="heading"
             >
@@ -33,14 +33,26 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-8rf56t rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
+                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={true}
                 role="button"
+                rounded={undefined}
+                secondary={undefined}
+                small={true}
+                success={undefined}
                 tabIndex="0"
+                transparent={undefined}
               >
                 <div
-                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                   dir="auto"
+                  disabled={undefined}
+                  primary={true}
+                  rounded={undefined}
+                  secondary={undefined}
+                  small={true}
                 >
                   Luo tunnus
                 </div>
@@ -54,11 +66,17 @@ exports[`Storyshots Footer default 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="disc"
+              >
+                ●
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Lataa matkakorttia verkossa
               </div>
@@ -67,11 +85,17 @@ exports[`Storyshots Footer default 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="disc"
+              >
+                ●
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Hyödynnä asiakasetuja
               </div>
@@ -80,11 +104,17 @@ exports[`Storyshots Footer default 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="disc"
+              >
+                ●
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Tallenna suosikki linjat, reitit ja paikat
               </div>
@@ -93,11 +123,17 @@ exports[`Storyshots Footer default 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="disc"
+              >
+                ●
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Ota kaupunkipyörät käyttöön
               </div>
@@ -105,11 +141,11 @@ exports[`Storyshots Footer default 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-38mhz3 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-11wc96i rn-paddingTop-1nihnk3 rn-position-bnwqim"
+          className="rn-alignItems-1awozwy rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-11wc96i rn-paddingTop-1fpfbyt rn-position-bnwqim"
         >
           <h3
             aria-level="3"
-            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1myw8oa rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
             dir="auto"
             role="heading"
           >
@@ -124,10 +160,17 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -156,10 +199,17 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -188,10 +238,17 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -220,10 +277,17 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -258,10 +322,17 @@ exports[`Storyshots Footer default 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -298,57 +369,63 @@ exports[`Storyshots Footer default 1`] = `
         </div>
       </div>
       <div
-        className="rn-alignItems-1habvwh rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-1e8xkmu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingLeft-gy4na3 rn-paddingBottom-1qip1gs rn-paddingTop-1gb76qt rn-position-bnwqim"
+        className="rn-alignItems-1habvwh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingLeft-gy4na3 rn-paddingBottom-1qip1gs rn-paddingTop-r8o9c1 rn-position-bnwqim"
       >
         <div
-          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
           dir="auto"
         >
           © Copyright HSL
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16xksha rn-flexShrink-1wbh5a2 rn-flexWrap-1w6e6rj rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingRight-b1wtg rn-position-bnwqim"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16xksha rn-flexShrink-1wbh5a2 rn-flexWrap-1w6e6rj rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingRight-b1wtg rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Yhteystiedot
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
+            >
+              Avoimet työpaikat
+            </div>
+          </div>
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+          >
+            <div
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              dir="auto"
             >
               Tietosuojalauseke
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Rekisteriseloste
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Tietoa sivustosta
             </div>
@@ -368,13 +445,13 @@ exports[`Storyshots Footer sub site 1`] = `
     className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
   >
     <div
-      className="rn-alignItems-1oszu61 rn-backgroundColor-1qx6atf rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
+      className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-flexWrap-1w6e6rj rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1k3wbuw rn-paddingRight-1gi9sib rn-paddingBottom-l4ido4 rn-paddingLeft-imp8ys rn-position-bnwqim"
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-flexWrap-1w6e6rj rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1uwusjm rn-paddingRight-1gi9sib rn-paddingBottom-1kdqur6 rn-paddingLeft-imp8ys rn-position-bnwqim"
       >
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -416,7 +493,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </div>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Häiriöt ja poikkeukset
@@ -425,7 +502,7 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -468,7 +545,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </div>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Lataa matkakorttia
@@ -477,7 +554,7 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -513,7 +590,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </div>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Ota mobiililippu käyttöön
@@ -522,7 +599,7 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-marginRight-rq35cl rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -567,7 +644,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </div>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Kaupunkipyörät
@@ -576,7 +653,7 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginRight-61z16t rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1tfa2h4 rn-marginRight-61z16t rn-marginBottom-t5to09 rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-17ekji4"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -614,7 +691,7 @@ exports[`Storyshots Footer sub site 1`] = `
                 </div>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Asiakaspalvelu ja palaute
@@ -624,17 +701,17 @@ exports[`Storyshots Footer sub site 1`] = `
         </div>
       </div>
       <div
-        className="rn-alignItems-1oszu61 rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        className="rn-alignItems-1oszu61 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1fpfbyt rn-paddingRight-9aemit rn-paddingBottom-19tb7yc rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1h0z5md rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-oshowu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-position-bnwqim"
+          className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-19tb7yc rn-paddingLeft-imp8ys rn-position-bnwqim"
         >
           <div
             className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           >
             <h3
               aria-level="3"
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1myw8oa rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
               role="heading"
             >
@@ -646,14 +723,26 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-8rf56t rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
+                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={true}
                 role="button"
+                rounded={undefined}
+                secondary={undefined}
+                small={true}
+                success={undefined}
                 tabIndex="0"
+                transparent={undefined}
               >
                 <div
-                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                   dir="auto"
+                  disabled={undefined}
+                  primary={true}
+                  rounded={undefined}
+                  secondary={undefined}
+                  small={true}
                 >
                   Luo tunnus
                 </div>
@@ -667,11 +756,17 @@ exports[`Storyshots Footer sub site 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="circle"
+              >
+                ○
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Lataa matkakorttia verkossa
               </div>
@@ -680,11 +775,17 @@ exports[`Storyshots Footer sub site 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="circle"
+              >
+                ○
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Hyödynnä asiakasetuja
               </div>
@@ -693,11 +794,17 @@ exports[`Storyshots Footer sub site 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="circle"
+              >
+                ○
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Tallenna suosikki linjat, reitit ja paikat
               </div>
@@ -706,11 +813,17 @@ exports[`Storyshots Footer sub site 1`] = `
               className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-zxivkt rn-borderTopRightRadius-1dd3wt5 rn-borderBottomRightRadius-4wi3ij rn-borderBottomLeftRadius-vijktx rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1o8i2ot rn-justifyContent-1777fci rn-marginTop-1phzxss rn-marginBottom-duu24r rn-marginLeft-11wrixw rn-marginRight-dpl5gu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1b10960"
-              />
-              <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-1cwl3u0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-gucffm rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
+                small={undefined}
+                type="circle"
+              >
+                ○
+              </div>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+                small={undefined}
               >
                 Ota kaupunkipyörät käyttöön
               </div>
@@ -718,11 +831,11 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-38mhz3 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-11wc96i rn-paddingTop-1nihnk3 rn-position-bnwqim"
+          className="rn-alignItems-1awozwy rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-11wc96i rn-paddingTop-1fpfbyt rn-position-bnwqim"
         >
           <h3
             aria-level="3"
-            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-homxoj rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1m9l54r rn-fontWeight-majxgm rn-letterSpacing-foe95m rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1myw8oa rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
             dir="auto"
             role="heading"
           >
@@ -737,10 +850,17 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1qx6atf rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -769,10 +889,17 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1qx6atf rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -801,10 +928,17 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1qx6atf rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -833,10 +967,17 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1qx6atf rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -871,10 +1012,17 @@ exports[`Storyshots Footer sub site 1`] = `
               onPress={[Function]}
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-1qx6atf rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginRight-d6i92a rn-marginLeft-1692lug rn-marginBottom-7xf18m rn-marginTop-1n40oqp rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
+                disabled={undefined}
                 onKeyPress={[Function]}
+                primary={undefined}
                 role="button"
+                rounded={true}
+                secondary={true}
+                small={undefined}
+                success={undefined}
                 tabIndex="0"
+                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -911,57 +1059,63 @@ exports[`Storyshots Footer sub site 1`] = `
         </div>
       </div>
       <div
-        className="rn-alignItems-1habvwh rn-borderTopColor-res22y rn-borderRightColor-1m141fp rn-borderBottomColor-133gac rn-borderLeftColor-an2eso rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-1e8xkmu rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingLeft-gy4na3 rn-paddingBottom-1qip1gs rn-paddingTop-1gb76qt rn-position-bnwqim"
+        className="rn-alignItems-1habvwh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-1jxfwug rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingLeft-gy4na3 rn-paddingBottom-1qip1gs rn-paddingTop-r8o9c1 rn-position-bnwqim"
       >
         <div
-          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+          className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-imp8ys rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
           dir="auto"
         >
           © Copyright HSL
         </div>
         <div
-          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16xksha rn-flexShrink-1wbh5a2 rn-flexWrap-1w6e6rj rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingRight-b1wtg rn-position-bnwqim"
+          className="rn-alignItems-1habvwh rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16xksha rn-flexShrink-1wbh5a2 rn-flexWrap-1w6e6rj rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingRight-b1wtg rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Yhteystiedot
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
+            >
+              Avoimet työpaikat
+            </div>
+          </div>
+          <div
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+          >
+            <div
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              dir="auto"
             >
               Tietosuojalauseke
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Rekisteriseloste
             </div>
           </div>
           <div
-            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-marginBottom-1t932n2 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-1bnkb8h rn-paddingBottom-1mdbw0j rn-paddingLeft-yw3q85 rn-position-bnwqim"
           >
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
-              size={0.9}
             >
               Tietoa sivustosta
             </div>

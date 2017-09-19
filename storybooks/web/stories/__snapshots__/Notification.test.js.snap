@@ -24,14 +24,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Error title, close
       </div>
@@ -44,14 +56,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Error title + text, close
       </div>
@@ -64,14 +88,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Success title + text, timeout
       </div>
@@ -84,14 +120,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Success text, custom fast timeout
       </div>
@@ -104,14 +152,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Error titleLink, close
       </div>
@@ -124,14 +184,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Error titleLink and textLink, close
       </div>
@@ -144,14 +216,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Success everything notification, close
       </div>
@@ -164,14 +248,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Neutral, close
       </div>
@@ -184,14 +280,26 @@ exports[`Storyshots Notification Error 1`] = `
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1clcaoc rn-borderTopRightRadius-x22zwo rn-borderBottomRightRadius-c41hya rn-borderBottomLeftRadius-8maeil rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
+      primary={undefined}
       role="button"
+      rounded={undefined}
+      secondary={undefined}
+      small={undefined}
+      success={undefined}
       tabIndex="0"
+      transparent={undefined}
     >
       <div
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
+        disabled={undefined}
+        primary={undefined}
+        rounded={undefined}
+        secondary={undefined}
+        small={undefined}
       >
         Netural everything notification, close
       </div>

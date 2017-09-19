@@ -3,25 +3,34 @@ import styled from 'styled-components/primitives';
 import PropTypes from 'prop-types';
 
 import Text from './Text';
-import { size } from '../utils';
+import { IS_NATIVE, size, relativeLineHeight } from '../utils';
 
-const InfoText = styled(({ large, ...rest }) => (
+const InfoText = styled(({ ...rest }) => (
   <Text {...rest} />
 ))`
-  font-weight: 300;
-  font-size: ${size(16)};
-  line-height: ${16};
-  color: #8c4799;
-  ${props => props.large && `
+  ${props => !props.strong && `
+    color: ${props.theme.colors.secondary.hslPurple};
+    font-weight: 300;
+    font-size: ${props.small || IS_NATIVE ? size(14) : size(16)}
+    line-height: ${
+      props.small ? relativeLineHeight(16, 1.14)
+      : relativeLineHeight(16, 1.0)};
+    `}
+  }
+  ${props => props.strong && `
+    color: ${props.theme.colors.secondary.hslOrange};
     font-weight: 500;
-    font-size: ${size(18)};
-    color: #ff5200;
-  `}
+    font-size: ${props.small || IS_NATIVE ? size(14) : size(16)}
+    line-height: ${
+      props.small || IS_NATIVE ? relativeLineHeight(16, 1.00)
+      : relativeLineHeight(16, 0.89)};
+    `}
+  }
 `;
 
 InfoText.propTypes = {
-  size: PropTypes.number,
-  large: PropTypes.bool
+  small: PropTypes.bool,
+  strong: PropTypes.bool
 };
 
 export default InfoText;

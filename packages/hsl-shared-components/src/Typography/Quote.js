@@ -2,19 +2,19 @@ import styled from 'styled-components/primitives';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { size } from '../utils';
+import { size, relativeLineHeight } from '../utils';
 import Text from './Text';
 
 const View = styled.View`
   border-style: solid;
   border-left-width: 3px;
-  border-left-color: #b7b7b7;
+  border-left-color: ${props => props.theme.colors.misc.greyLight};
 `;
 
 const Quote = Text.extend`
   font-weight: 300;
-  font-size: ${size(20)};
-  line-height: ${25};
+  font-size: ${size(18)};
+  line-height: ${relativeLineHeight(18, 1.25)};
   font-style: italic;
   padding: 3px 0px 3px 20px;
   ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
