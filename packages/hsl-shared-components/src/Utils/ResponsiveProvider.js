@@ -6,17 +6,17 @@ import orderBy from 'lodash/fp/orderBy';
 import find from 'lodash/fp/find';
 import findKey from 'lodash/fp/findKey';
 import flow from 'lodash/fp/flow';
-import debounce from 'lodash/fp/debounce';
+import debounce from 'lodash/debounce';
 
 function getScreenSize(width, sizes) {
   // order sizes from largest to smallest
   // find first size that's smaller (or equal) than given width
   const minWidth = flow(
-    orderBy('asc'),
+    orderBy(x => (x), 'desc'),
     find(x => (width >= x))
   )(sizes);
   // find key matching found minWidth
-  return findKey(sizes, value => (value === minWidth));
+  return findKey(value => (value === minWidth))(sizes);
 }
 
 class ResponsiveProvider extends React.Component {
@@ -50,7 +50,7 @@ class ResponsiveProvider extends React.Component {
 
   render() {
     // `Children.only` enables us not to add a <div /> for nothing
-    return React.children.only(this.props.children);
+    return React.Children.only(this.props.children);
   }
 }
 
