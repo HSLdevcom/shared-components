@@ -9,8 +9,8 @@ import flow from 'lodash/fp/flow';
 import debounce from 'lodash/fp/debounce';
 
 function getScreenSize(width, sizes) {
-  // order sizes 1440, 1200, ....
-  // find first number that smaller than given width
+  // order sizes from largest to smallest
+  // find first size that's smaller (or equal) than given width
   const minWidth = flow(
     orderBy('asc'),
     find(x => (width >= x))
