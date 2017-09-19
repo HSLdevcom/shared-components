@@ -10,6 +10,7 @@ import Article from '../Article';
 import Main from '../Main';
 import Section from '../Section';
 import { ResponsiveProvider } from '../utils';
+import TextInput from '../TextInput';
 
 export {
   Text,
@@ -39,5 +40,6 @@ export {
   Article,
   Main,
   Section,
-  ResponsiveProvider
+  ResponsiveProvider,
+  TextInput
 };
