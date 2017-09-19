@@ -1,9 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Input default 1`] = `
+exports[`Storyshots Input/TextInput default 1`] = `
 <input
-  className="sc-htpNat gpfqsI"
+  className="sc-htpNat ifcowR"
   placeholder="placeholder"
-  type="text"
+/>
+`;
+
+exports[`Storyshots Input/TextInput error 1`] = `
+<input
+  className="sc-htpNat dUdimR"
+  placeholder="placeholder"
+/>
+`;
+
+exports[`Storyshots Input/TextInput focus 1`] = `
+<input
+  className="sc-htpNat fzysqv"
+  placeholder="placeholder"
 />
 `;

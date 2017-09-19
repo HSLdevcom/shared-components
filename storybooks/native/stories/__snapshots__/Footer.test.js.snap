@@ -89,9 +89,14 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
+<<<<<<< HEAD
                     "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                   },
                   Array [
                     Object {
@@ -170,8 +175,13 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -231,8 +241,13 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -292,8 +307,13 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -353,8 +373,13 @@ exports[`Storyshots Footer default 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -425,9 +450,14 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "color": "#333333",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                       "fontSize": 12.25,
+=======
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     Array [
                       Object {
@@ -477,9 +507,14 @@ exports[`Storyshots Footer default 1`] = `
               style={
                 Array [
                   Object {
+<<<<<<< HEAD
                     "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                   },
                   Array [
                     Object {
@@ -971,9 +1006,15 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -1002,9 +1043,15 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -1033,9 +1080,15 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -1064,9 +1117,15 @@ exports[`Storyshots Footer default 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -1100,8 +1159,13 @@ exports[`Storyshots Footer default 1`] = `
                 Array [
                   Object {
                     "color": "#007ac9",
+<<<<<<< HEAD
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                     "marginTop": 43.75,
                   },
                   undefined,
@@ -1325,6 +1389,29 @@ exports[`Storyshots Footer sub site 1`] = `
                     Häiriöt ja poikkeukset
                   </Text>
                 </View>
+<<<<<<< HEAD
+=======
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Häiriöt ja poikkeukset
+                </Text>
+>>>>>>> master
               </View>
               <View
                 style={
@@ -1443,6 +1530,29 @@ exports[`Storyshots Footer sub site 1`] = `
                     Lataa matkakorttia
                   </Text>
                 </View>
+<<<<<<< HEAD
+=======
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Lataa matkakorttia
+                </Text>
+>>>>>>> master
               </View>
               <View
                 style={
@@ -1557,6 +1667,29 @@ exports[`Storyshots Footer sub site 1`] = `
                     Ota mobiililippu käyttöön
                   </Text>
                 </View>
+<<<<<<< HEAD
+=======
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Ota mobiililippu käyttöön
+                </Text>
+>>>>>>> master
               </View>
               <View
                 style={
@@ -1678,6 +1811,29 @@ exports[`Storyshots Footer sub site 1`] = `
                     Kaupunkipyörät
                   </Text>
                 </View>
+<<<<<<< HEAD
+=======
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Kaupunkipyörät
+                </Text>
+>>>>>>> master
               </View>
               <View
                 style={
@@ -1794,6 +1950,29 @@ exports[`Storyshots Footer sub site 1`] = `
                     Asiakaspalvelu ja palaute
                   </Text>
                 </View>
+<<<<<<< HEAD
+=======
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007ac9",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Asiakaspalvelu ja palaute
+                </Text>
+>>>>>>> master
               </View>
             </View>
           </View>
@@ -1825,9 +2004,14 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
+<<<<<<< HEAD
                     "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                   },
                   Array [
                     Object {
@@ -1909,8 +2093,13 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -1973,8 +2162,13 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -2037,8 +2231,13 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -2101,8 +2300,13 @@ exports[`Storyshots Footer sub site 1`] = `
                         "flexBasis": 0,
                         "flexGrow": 1,
                         "flexShrink": 1,
+<<<<<<< HEAD
                         "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                         "fontSize": 12.25,
+=======
+                        "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                        "fontSize": 14,
+>>>>>>> master
                         "fontWeight": "300",
                         "lineHeight": 20,
                       },
@@ -2173,9 +2377,14 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "color": "#333333",
                       "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                       "fontSize": 12.25,
+=======
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     Array [
                       Object {
@@ -2225,9 +2434,14 @@ exports[`Storyshots Footer sub site 1`] = `
               style={
                 Array [
                   Object {
+<<<<<<< HEAD
                     "color": "#333333",
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                   },
                   Array [
                     Object {
@@ -2719,9 +2933,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -2750,9 +2970,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -2781,9 +3007,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -2812,9 +3044,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 style={
                   Array [
                     Object {
+<<<<<<< HEAD
                       "alignItems": "center",
                       "justifyContent": "center",
                       "marginBottom": 13.125,
+=======
+                      "color": "#007ac9",
+                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontSize": 14,
+>>>>>>> master
                     },
                     undefined,
                   ]
@@ -2879,8 +3117,13 @@ exports[`Storyshots Footer sub site 1`] = `
                 Array [
                   Object {
                     "color": "#007ac9",
+<<<<<<< HEAD
                     "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
                     "fontSize": 12.25,
+=======
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontSize": 14,
+>>>>>>> master
                     "marginTop": 43.75,
                   },
                   undefined,

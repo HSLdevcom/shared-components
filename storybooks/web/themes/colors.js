@@ -23,6 +23,8 @@ const colors = {
   misc: {
     greyLight: '#b7b7b7',
     greyXLight: '#e4e4e4',
+    error: '#dc0451',
+    errorBackground: '#fff6f6',
   },
 };
 

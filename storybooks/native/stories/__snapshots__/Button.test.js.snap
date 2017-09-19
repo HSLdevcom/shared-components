@@ -107,8 +107,13 @@ exports[`Storyshots Button button with text 1`] = `
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
+<<<<<<< HEAD
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
             "fontSize": 12.25,
+=======
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 14,
+>>>>>>> master
           },
           undefined,
         ]
@@ -187,9 +192,14 @@ exports[`Storyshots Button default 1`] = `
       style={
         Array [
           Object {
+<<<<<<< HEAD
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
             "fontSize": 12.25,
+=======
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 14,
+>>>>>>> master
           },
           Array [
             Object {
@@ -280,9 +290,14 @@ exports[`Storyshots Button primary 1`] = `
       style={
         Array [
           Object {
+<<<<<<< HEAD
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
             "fontSize": 12.25,
+=======
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 14,
+>>>>>>> master
           },
           Array [
             Object {
@@ -464,9 +479,14 @@ exports[`Storyshots Button secondary 1`] = `
       style={
         Array [
           Object {
+<<<<<<< HEAD
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B",
             "fontSize": 12.25,
+=======
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 14,
+>>>>>>> master
           },
           Array [
             Object {

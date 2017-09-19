@@ -1,6 +1,6 @@
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
-import Input from './Input/Input';
+import TextInput from './TextInput';
 import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
@@ -31,7 +31,7 @@ export {
   Button,
   RoundButton,
   ButtonWithText,
-  Input,
+  TextInput,
   Nav,
   NavItem,
   NavMobile,
