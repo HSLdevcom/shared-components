@@ -1,3 +1,5 @@
+/* DEPRACATED */
+
 import { darken } from 'polished';
 
 import Div from '../Div';
