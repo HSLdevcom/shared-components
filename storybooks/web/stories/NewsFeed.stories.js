@@ -27,32 +27,32 @@ const YESTERDAY_2PM = new Date(TODAY_2PM - ONE_DAY);
 stories.addWithJSX('default', () => (
   <NewsFeed header="Header" more={{ text: 'Näytä lisää', action: action('button clicked') }}>
     <NewsFeedItem
-      category="example"
-      title="example example example example"
+      category="Talviaikataulut"
+      title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
       timestamp={TODAY_2PM}
       image="https://placehold.it/125x521"
     />
     <NewsFeedItem
-      category="example"
-      title="example example example example"
+      category="Uusi linja"
+      title="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
       timestamp={TODAY_2PM}
       image="https://placehold.it/521x125"
     />
     <NewsFeedItem
-      category="example"
-      title="example example example example"
+      category="Talviaikataulut"
+      title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
       timestamp={TODAY_2PM}
       image="https://placehold.it/500x500"
     />
     <NewsFeedItem
-      category="example"
-      title="example example example example"
+      category="Uusi linja"
+      title="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
       timestamp={YESTERDAY_2PM}
       image="https://placehold.it/50x50"
     />
     <NewsFeedItem
-      category="example"
-      title="example example example example"
+      category="Talviaikataulut"
+      title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
       timestamp={YESTERDAY_2PM}
     />
   </NewsFeed>)
