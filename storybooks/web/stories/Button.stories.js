@@ -19,13 +19,21 @@ stories.addDecorator(getStory => (
   </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
+  const hover = boolean('Hover', false);
+  const active = boolean('Active', false);
+  const focus = boolean('Focus', false);
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
+  const transparent = boolean('Transparent', false);
   const small = boolean('Small', false);
   return (
     <Button
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       rounded={rounded}
+      transparent={transparent}
       small={small}
       onPress={action('press')}
       onLongPress={action('long press')}
@@ -36,13 +44,21 @@ stories.addWithJSX('default', () => {
 , { displayName: 'Button' });
 
 stories.addWithJSX('primary', () => {
+  const hover = boolean('Hover', false);
+  const active = boolean('Active', false);
+  const focus = boolean('Focus', false);
+  const success = boolean('Success', false);
   const disabled = boolean('Disabled', false);
   const small = boolean('Small', false);
   return (
     <Button
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       small={small}
       primary
+      success={success}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -52,11 +68,17 @@ stories.addWithJSX('primary', () => {
 , { displayName: 'Button' });
 
 stories.addWithJSX('secondary', () => {
+  const hover = boolean('Hover', false);
+  const active = boolean('Active', false);
+  const focus = boolean('Focus', false);
   const disabled = boolean('Disabled', false);
   const rounded = boolean('Rounded', false);
   const small = boolean('Small', false);
   return (
     <Button
+      hover={hover}
+      active={active}
+      focus={focus}
       disabled={disabled}
       rounded={rounded}
       small={small}
@@ -74,6 +96,8 @@ stories.addWithJSX('round button', () => {
   return (
     <RoundButton
       small={small}
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
     </RoundButton>
@@ -89,6 +113,7 @@ stories.addWithJSX('button with text', () => {
       text="Kaupunkipyörät"
       icon={icon}
       onPress={action('press')}
+      onLongPress={action('long press')}
     />
   );
 });

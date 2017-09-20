@@ -30,6 +30,7 @@ const StyledView = styled(({ small, ...rest }) => (
 
 const RoundButton = styled(({ children, small, ...rest }) => (
   <Button
+    secondary
     rounded
     {...rest}
   >

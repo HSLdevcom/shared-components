@@ -8,7 +8,7 @@ import A from '../Anchor';
 import MenuItem from './MenuItem';
 import LangSelect, { LangButton } from '../LangSelect';
 import Icons from '../Icons';
-import { MenuSeparator } from '../Separator/Separator';
+import { MenuSeparator } from './Separator';
 import { Flex } from '../Wrapper';
 import Div from '../Div';
 

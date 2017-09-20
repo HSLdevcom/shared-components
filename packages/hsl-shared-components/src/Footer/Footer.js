@@ -35,7 +35,7 @@ const Footer = styled(({ account, socialMedia, info, frontpage, links, ...rest }
 `;
 
 Footer.propTypes = {
-  fontpage: PropTypes.bool,
+  frontpage: PropTypes.bool,
   account: PropTypes.shape({
     title: PropTypes.string,
     button: PropTypes.shape({
@@ -63,4 +63,3 @@ Footer.propTypes = {
 Footer.displayName = 'Footer';
 
 export default Footer;
-

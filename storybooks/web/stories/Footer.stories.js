@@ -1,6 +1,7 @@
 import React from 'react';
 import { setAddon, storiesOf, addDecorator } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
+import { action } from '@storybook/addon-actions';
 
 import { ThemeProvider } from 'styled-components';
 import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
@@ -38,38 +39,39 @@ stories.addWithJSX('default', () => {
     icons: [
       {
         icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Linkedin height="30px" width="36px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Youtube height="34px" width="34px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       }
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.colors.primary.hslBlue};
   `;
   const info = {
     copyright: '© Copyright HSL',
     links: [
       <LinkText>Yhteystiedot</LinkText>,
+      <LinkText>Avoimet työpaikat</LinkText>,
       <LinkText>Tietosuojalauseke</LinkText>,
       <LinkText>Rekisteriseloste</LinkText>,
       <LinkText>Tietoa sivustosta</LinkText>
@@ -100,28 +102,28 @@ stories.addWithJSX('sub site', () => {
     icons: [
       {
         icon: <Icons.Facebook height="36px" width="18px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Twitter height="27px" width="36px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Instagram height="30px" width="30px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Linkedin height="30px" width="36px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       },
       {
         icon: <Icons.Youtube height="34px" width="34px" fill="#007ac9" />,
-        onPress: () => {},
-        onLongPress: () => {}
+        onPress: () => action('press'),
+        onLongPress: () => action('longPress')
       }
     ]
   };
@@ -132,6 +134,7 @@ stories.addWithJSX('sub site', () => {
     copyright: '© Copyright HSL',
     links: [
       <LinkText>Yhteystiedot</LinkText>,
+      <LinkText>Avoimet työpaikat</LinkText>,
       <LinkText>Tietosuojalauseke</LinkText>,
       <LinkText>Rekisteriseloste</LinkText>,
       <LinkText>Tietoa sivustosta</LinkText>
@@ -142,40 +145,40 @@ stories.addWithJSX('sub site', () => {
     <ButtonWithText
       key="1"
       icon={<Icons.Alert fill="#ffffff" height="30px" width="30px" />}
-      onPress={() => {}}
+      onPress={action('press')}
+      onLongPress={action('long press')}
       text="Häiriöt ja poikkeukset"
-      style={{ backgroundColor: '#dc0451' }}
-      small
+      bgColor="#dc0451"
     />,
     <ButtonWithText
       key="2"
       icon={<Icons.TravelCard fill="#ffffff" height="30px" width="30px" />}
-      onPress={() => {}}
+      onPress={action('press')}
+      onLongPress={action('long press')}
       text="Lataa matkakorttia"
-      style={{ backgroundColor: '#4ea700' }}
-      small
+      bgColor="#4ea700"
     />,
     <ButtonWithText
       key="3"
       icon={<Icons.MobileTicket fill="#ffffff" height="30px" width="30px" />}
-      onPress={() => {}}
+      onPress={action('press')}
+      onLongPress={action('long press')}
       text="Ota mobiililippu käyttöön"
-      small
     />,
     <ButtonWithText
       key="4"
       icon={<Icons.Bike fill="#ffffff" height="30px" width="30px" />}
-      onPress={() => {}}
+      onPress={action('press')}
+      onLongPress={action('long press')}
       text="Kaupunkipyörät"
-      style={{ backgroundColor: '#fcbc19' }}
-      small
+      bgColor="#fcbc19"
     />,
     <ButtonWithText
       key="5"
       icon={<Icons.CustomerService fill="#ffffff" height="30px" width="30px" />}
-      onPress={() => {}}
+      onPress={action('press')}
+      onLongPress={action('long press')}
       text="Asiakaspalvelu ja palaute"
-      small
     />
   ];
 

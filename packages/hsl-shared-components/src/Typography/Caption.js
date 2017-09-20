@@ -1,10 +1,10 @@
 import Text from './Text';
-import { size } from '../utils';
+import { size, relativeLineHeight } from '../utils';
 
 const Caption = Text.extend`
   font-weight: 300;
   font-size: ${size(13)};
-  line-height: ${14};
+  line-height: ${relativeLineHeight(13, 1.08)};
 `;
 
 export default Caption;

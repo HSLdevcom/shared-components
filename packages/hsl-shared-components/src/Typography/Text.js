@@ -4,7 +4,12 @@ import PropTypes from 'prop-types';
 import { size } from '../utils';
 
 const Text = styled.Text`
-  font-size: ${size(16)};
+  /*
+    props.theme.colors is undefined in test environment, hence following conditional
+    TODO: Fix the test and remove condition
+  */
+  ${props => props.theme.colors && `color: ${props.theme.colors.primary.hslGreyDark}`};
+  font-size: ${size(14)};
   ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily};`}
 `;
 

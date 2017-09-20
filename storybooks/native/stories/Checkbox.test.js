@@ -1,6 +1,6 @@
 import initStoryshots from '@storybook/addon-storyshots';
 
 initStoryshots({
-  configPath: 'storybook',
-  storyKindRegex: /^Separator$/
+  framework: 'react-native',
+  storyKindRegex: /^Checkbox$/
 });
