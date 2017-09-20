@@ -26,7 +26,7 @@ export const Box = View.extend`
 `;
 
 const StyledLabelText = LabelText.extend`
-  margin-left: ${size(30)};
+  margin-left: ${size(20)};
 `;
 
 const Checkmark = withTheme(({ theme }) => (
