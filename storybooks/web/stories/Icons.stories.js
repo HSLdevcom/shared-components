@@ -98,6 +98,19 @@ stories.addWithJSX('CardWithCheckmark', () => {
 });
 
 stories.addWithJSX('Checkmark', () => {
+  const fill = color('FillOuter', '#00c920');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Checkmark fill={fill} height={`${height}em`} />);
+});
+
+stories.addWithJSX('CircleCheckmark', () => {
   const fill = {
     inner: color('FillInner', '#fff'),
     outer: color('FillOuter', '#00c920')
@@ -110,7 +123,7 @@ stories.addWithJSX('Checkmark', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Checkmark fill={fill} height={`${height}rem`} />);
+  return (<Icons.CircleCheckmark fill={fill} height={`${height}em`} />);
 });
 
 stories.addWithJSX('Cog', () => {

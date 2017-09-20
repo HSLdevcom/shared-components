@@ -35,28 +35,28 @@ storiesOf('Footer', module)
       icons: [
         {
           icon: <Icons.Facebook height="36" width="18" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Twitter height="27" width="36" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Instagram height="30" width="30" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Linkedin height="30" width="36" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Youtube height="34" width="34" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         }
       ]
     };
@@ -96,28 +96,28 @@ storiesOf('Footer', module)
       icons: [
         {
           icon: <Icons.Facebook height="36" width="18" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Twitter height="27" width="36" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Instagram height="30" width="30" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Linkedin height="30" width="36" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         },
         {
           icon: <Icons.Youtube height="34" width="34" fill="#007ac9" />,
-          onPress: () => {},
-          onLongPress: () => {}
+          onPress: () => action('press'),
+          onLongPress: () => action('longPress')
         }
       ]
     };
@@ -139,40 +139,40 @@ storiesOf('Footer', module)
       <ButtonWithText
         key="1"
         icon={<Icons.Alert fill="#ffffff" height="30px" width="30px" />}
-        onPress={() => {}}
+        onPress={action('press')}
+        onLongPress={action('long press')}
         text="Häiriöt ja poikkeukset"
-        style={{ backgroundColor: '#dc0451' }}
-        small
+        bgColor="#dc0451"
       />,
       <ButtonWithText
         key="2"
         icon={<Icons.TravelCard fill="#ffffff" height="30px" width="30px" />}
-        onPress={() => {}}
+        onPress={action('press')}
+        onLongPress={action('long press')}
         text="Lataa matkakorttia"
-        style={{ backgroundColor: '#4ea700' }}
-        small
+        bgColor="#4ea700"
       />,
       <ButtonWithText
         key="3"
         icon={<Icons.MobileTicket fill="#ffffff" height="30px" width="30px" />}
-        onPress={() => {}}
+        onPress={action('press')}
+        onLongPress={action('long press')}
         text="Ota mobiililippu käyttöön"
-        small
       />,
       <ButtonWithText
         key="4"
         icon={<Icons.Bike fill="#ffffff" height="30px" width="30px" />}
-        onPress={() => {}}
+        onPress={action('press')}
+        onLongPress={action('long press')}
         text="Kaupunkipyörät"
-        style={{ backgroundColor: '#fcbc19' }}
-        small
+        bgColor="#fcbc19"
       />,
       <ButtonWithText
         key="5"
         icon={<Icons.CustomerService fill="#ffffff" height="30px" width="30px" />}
-        onPress={() => {}}
+        onPress={action('press')}
+        onLongPress={action('long press')}
         text="Asiakaspalvelu ja palaute"
-        small
       />
     ];
 

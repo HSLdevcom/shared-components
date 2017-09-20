@@ -8,6 +8,7 @@ function loadStories() {
   
   require('../stories/Article.stories.js');
   require('../stories/Button.stories.js');
+  require('../stories/Checkbox.stories.js');
   require('../stories/Footer.stories.js');
   require('../stories/Icon.stories.js');
   require('../stories/Input.stories.js');

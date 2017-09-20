@@ -98,6 +98,8 @@ stories.addWithJSX('round button', () => {
   return (
     <RoundButton
       small={small}
+      onPress={action('press')}
+      onLongPress={action('long press')}
     >
       <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
     </RoundButton>
@@ -113,6 +115,7 @@ stories.addWithJSX('button with text', () => {
       text="Kaupunkipyörät"
       icon={icon}
       onPress={action('press')}
+      onLongPress={action('long press')}
     />
   );
 });

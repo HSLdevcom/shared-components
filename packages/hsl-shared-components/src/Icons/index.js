@@ -5,6 +5,7 @@ import ArrowLeft from './ArrowLeft';
 import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
+import CircleCheckmark from './CircleCheckmark';
 import Cross from './Cross';
 import Cog from './Cog';
 import Edit from './Edit';
@@ -38,6 +39,7 @@ export default {
   CardOrder,
   CardWithCheckmark,
   Checkmark,
+  CircleCheckmark,
   Cross,
   Cog,
   Edit,

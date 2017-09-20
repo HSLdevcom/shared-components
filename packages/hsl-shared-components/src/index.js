@@ -26,6 +26,7 @@ import Article from './Article';
 import Main from './Main';
 import Section from './Section';
 import { ResponsiveProvider } from './utils';
+import Checkbox from './Checkbox';
 
 export {
   AppHeader,
@@ -81,5 +82,6 @@ export {
   Article,
   Main,
   Section,
-  ResponsiveProvider
+  ResponsiveProvider,
+  Checkbox
 };
