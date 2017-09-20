@@ -1,6 +1,6 @@
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
-import Input from './Input/Input';
+import TextInput from './TextInput';
 import Separator, {
   MenuSeparator,
   HorizontalSeparator,
@@ -28,13 +28,16 @@ import Notification from './Notification';
 import View from './View';
 import Footer from './Footer';
 import Checkbox from './Checkbox';
+import Article from './Article';
+import Main from './Main';
+import Section from './Section';
 
 export {
   AppHeader,
   Button,
   RoundButton,
   ButtonWithText,
-  Input,
+  TextInput,
   Separator,
   MenuSeparator,
   HorizontalSeparator,
@@ -84,5 +87,8 @@ export {
   Notification,
   View,
   Footer,
-  Checkbox
+  Checkbox,
+  Article,
+  Main,
+  Section
 };

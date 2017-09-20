@@ -7,6 +7,10 @@ import View from '../View';
 import Icons from '../Icons';
 import Footer from '../Footer';
 import Checkbox from '../Checkbox';
+import Article from '../Article';
+import Main from '../Main';
+import Section from '../Section';
+import TextInput from '../TextInput';
 
 export {
   Text,
@@ -33,5 +37,9 @@ export {
   View,
   Icons,
   Footer,
-  Checkbox
+  Checkbox,
+  Article,
+  Main,
+  Section,
+  TextInput
 };

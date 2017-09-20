@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Article Default 1`] = `
+<RCTScrollView
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <View>
+    <View
+      accessibilityRole="article"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {},
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }
+      >
+        Some content
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

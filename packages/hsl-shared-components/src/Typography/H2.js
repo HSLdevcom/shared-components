@@ -1,20 +1,15 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
-import PropTypes from 'prop-types';
 
 import Text from './Text';
-import { size as utilsSize } from '../utils';
+import { size } from '../utils';
 
-const H2 = styled(({ size, ...rest }) => (
-  <Text {...rest} />
+const H2 = styled(({ ...props }) => (
+  <Text accessibilityRole="heading" aria-level="2" {...props} />
 ))`
   font-weight: 500;
   letter-spacing: -0.4px;
-  font-size: ${props => utilsSize(36 * (props.size || 1))};
+  font-size: ${size(36)};
 `;
-
-H2.propTypes = {
-  size: PropTypes.number
-};
 
 export default H2;

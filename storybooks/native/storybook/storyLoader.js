@@ -6,11 +6,15 @@
 
 function loadStories() {
   
+  require('../stories/Article.stories.js');
   require('../stories/Button.stories.js');
   require('../stories/Checkbox.stories.js');
   require('../stories/Footer.stories.js');
   require('../stories/Icon.stories.js');
+  require('../stories/Input.stories.js');
+  require('../stories/Main.stories.js');
   require('../stories/Newsfeed.stories.js');
+  require('../stories/Section.stories.js');
   require('../stories/Tabs.stories.js');
   require('../stories/Typography.stories.js');
   

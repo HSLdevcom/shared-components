@@ -7,54 +7,45 @@ import { size as utilsSize } from '../utils';
 
 const sizeMap = {
   button: {
-    large: utilsSize(80),
     default: utilsSize(60),
     small: utilsSize(50)
   },
   icon: {
-    large: utilsSize(36),
     default: utilsSize(25),
     small: utilsSize(20)
   }
 };
 
-function size(kind, large, small) {
+function size(kind, small) {
   const map = sizeMap[kind];
-  if (large) {
-    return map.large;
-  }
-  if (small) {
-    return map.small;
-  }
-  return map.default;
+  return small ? map.small : map.default;
 }
 
-const StyledView = styled(({ large, small, ...rest }) => (
+const StyledView = styled(({ small, ...rest }) => (
   <View {...rest} />
 ))`
-  height: ${props => size('icon', props.large, props.small)};
-  width: ${props => size('icon', props.large, props.small)};
+  height: ${props => size('icon', props.small)};
+  width: ${props => size('icon', props.small)};
 `;
 
-const RoundButton = styled(({ children, large, small, ...rest }) => (
+const RoundButton = styled(({ children, small, ...rest }) => (
   <Button
     rounded
     {...rest}
   >
-    <StyledView large={large} small={small}>
+    <StyledView small={small}>
       {
         children
       }
     </StyledView>
   </Button>
 ))`
-  height: ${props => size('button', props.large, props.small)};
-  width: ${props => size('button', props.large, props.small)};
+  height: ${props => size('button', props.small)};
+  width: ${props => size('button', props.small)};
 `;
 
 RoundButton.propTypes = {
   children: PropTypes.element,
-  large: PropTypes.bool,
   small: PropTypes.bool
 };
 
