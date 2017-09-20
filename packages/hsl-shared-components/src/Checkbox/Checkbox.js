@@ -3,6 +3,7 @@ import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import View from '../View';
+import { LabelText } from '../Typography';
 import Touchable from '../Touchable';
 import Icons from '../Icons';
 import { size } from '../utils';
@@ -14,7 +15,18 @@ export const Box = View.extend`
   border-radius: ${size(4)};
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.theme.primary};
+  border-color: ${props => props.theme.colors.misc.greyLight};
+  ${props => props.checked && `
+    border-color: ${props.theme.colors.primary.hslBlue};
+  `}
+  ${props => props.error && `
+    border-color: ${props.theme.colors.misc.error};
+    background-color: ${props.theme.colors.misc.errorBackground};
+  `}
+`;
+
+const StyledLabelText = LabelText.extend`
+  margin-left: ${size(20)};
 `;
 
 const Checkmark = withTheme(({ theme }) => (
@@ -23,21 +35,34 @@ const Checkmark = withTheme(({ theme }) => (
 
 const Checkbox = styled(({
   checked,
+  error,
   onPress,
+  title,
   ...rest }) => (
     <Touchable onPress={onPress}>
-      <Box {...rest}>
-        { checked && <Checkmark />}
-      </Box>
+      <View
+        {...rest}
+        role="checkbox"
+        aria-checked={checked ? 'true' : 'false'}
+        tabIndex="0"
+      >
+        <Box checked={checked} error={error}>
+          { checked && <Checkmark />}
+        </Box>
+        { title && <StyledLabelText>{title}</StyledLabelText> }
+      </View>
     </Touchable>
-))``;
+))`
+  flex-direction: row;
+`;
 
 
 Checkbox.propTypes = {
   disabled: PropTypes.bool,
   error: PropTypes.bool,
   onPress: PropTypes.func,
-  innerRef: PropTypes.func
+  innerRef: PropTypes.func,
+  title: PropTypes.string
 };
 
 export default Checkbox;

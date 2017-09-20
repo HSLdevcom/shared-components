@@ -1,7 +1,7 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { Checkbox } from 'hsl-shared-components';
 
@@ -20,6 +20,7 @@ stories.addWithJSX('default', () => {
   const checked = boolean('Checked', false);
   const error = boolean('Error', false);
   const disabled = boolean('Disabled', false);
+  const title = text('Title', 'Checkbox title');
   return (
-    <Checkbox checked={checked} error={error} disabled={disabled} />);
+    <Checkbox checked={checked} error={error} disabled={disabled} title={title} />);
 }, { displayName: 'Checkbox' });

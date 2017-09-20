@@ -11,8 +11,9 @@ import InfoText from './InfoText';
 import ErrorText from './ErrorText';
 import ListText from './ListText';
 import Text from './Text';
+import LabelText from './LabelText';
 
 export default Text;
 
 export { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText,
-         ErrorText, ListText };
+         ErrorText, ListText, LabelText };
