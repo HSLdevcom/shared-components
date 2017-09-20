@@ -81,6 +81,8 @@ storiesOf('Button', module)
     return (
       <RoundButton
         small={small}
+        onPress={action('press')}
+        onLongPress={action('long press')}
       >
         <Icons.Facebook height="36" width="18" fill="#007ac9" />
       </RoundButton>
@@ -95,6 +97,7 @@ storiesOf('Button', module)
         text="Kaupunkipyörät"
         icon={icon}
         onPress={action('press')}
+        onLongPress={action('long press')}
       />
     );
   });
