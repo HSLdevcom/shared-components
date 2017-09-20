@@ -34,8 +34,20 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
-const TouchableText = styled(props => (
-  <Text {...props} />
+const TouchableText = styled(({
+  hover,
+  active,
+  focus,
+  primary,
+  success,
+  secondary,
+  transparent,
+  small,
+  disabled,
+  rounded,
+  ...rest
+}) => (
+  <Text {...rest} />
 ))`
   color: ${props => props.theme.colors.primary.hslBlue};
   font-size: ${props => size('fontSize', props.primary, props.small)};
@@ -53,8 +65,19 @@ const TouchableText = styled(props => (
   `}
 `;
 
-const TouchableView = styled(props => (
-  <View {...props} />
+const TouchableView = styled(({
+  hover,
+  active,
+  focus,
+  primary,
+  success,
+  secondary,
+  transparent,
+  small,
+  rounded,
+  ...rest
+}) => (
+  <View {...rest} />
 ))`
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
@@ -99,7 +122,10 @@ const Button = styled(({
   innerRef,
   children,
   ...rest }) => (
-    <Touchable onPress={onPress} onLongPress={onLongPress}>
+    <Touchable
+      onPress={onPress}
+      onLongPress={onLongPress}
+    >
       <TouchableView
         primary={primary}
         success={success}
@@ -117,9 +143,11 @@ const Button = styled(({
             children :
             (<TouchableText
               primary={primary}
+              success={success}
               secondary={secondary}
-              rounded={rounded}
               disabled={disabled}
+              transparent={transparent}
+              rounded={rounded}
               small={small}
             >
               {children}
