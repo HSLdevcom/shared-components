@@ -15,17 +15,29 @@ export const NATIVE_RATIO = 14 / 16;
 
 
 const pxString = 'px';
-/*
+/**
 * Converts input to (size * NATIVE_RATIO) pixels in native and
 * rem(size) in web. (16px = 1rem)
 * @param {integer} fontSize - Size in pixels
-* @return {string} px in native and rem in web
+* @param {boolean} asNumeric (optional) – Return pixel value without units if not set.
+* @return {string} px in native, rem in web or pixel value without unit if asNumeric-flag is set
 */
-export function size(fontSize) {
+export function size(fontSize, asNumeric = false) {
   if (IS_NATIVE) {
-    return (fontSize * NATIVE_RATIO) + pxString;
+    const calculatedSize = (fontSize * NATIVE_RATIO);
+    return asNumeric ? calculatedSize : calculatedSize + pxString;
   }
-  return rem(fontSize + pxString);
+  return asNumeric ? fontSize : rem(fontSize + pxString);
+}
+
+/**
+* Get styled componenets compatible lineheight-value relative to font size
+* @param {integer} fontSize - Size in pixels
+* @param {integer} relativeLineHeight - Relative line height in CSS-style units e.g 1.25 === 125%
+* @return {integer} relative line height in pixels
+*/
+export function relativeLineHeight(fontSize, relativeValue = 1.00) {
+  return Math.round(size((20 * relativeValue), true));
 }
 
 function addClassElement(element, newClass) {

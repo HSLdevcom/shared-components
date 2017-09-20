@@ -1,11 +1,6 @@
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
 import TextInput from './TextInput';
-import Separator, {
-  MenuSeparator,
-  HorizontalSeparator,
-  HorizontalMenuSeparator
-} from './Separator/Separator';
 import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
 import Container from './Container/Container';
@@ -27,10 +22,11 @@ import Touchable from './Touchable';
 import Notification from './Notification';
 import View from './View';
 import Footer from './Footer';
-import Checkbox from './Checkbox';
 import Article from './Article';
 import Main from './Main';
 import Section from './Section';
+import Checkbox from './Checkbox';
+
 
 export {
   AppHeader,
@@ -38,10 +34,6 @@ export {
   RoundButton,
   ButtonWithText,
   TextInput,
-  Separator,
-  MenuSeparator,
-  HorizontalSeparator,
-  HorizontalMenuSeparator,
   Nav,
   NavItem,
   NavMobile,
@@ -87,8 +79,8 @@ export {
   Notification,
   View,
   Footer,
-  Checkbox,
   Article,
   Main,
-  Section
+  Section,
+  Checkbox
 };

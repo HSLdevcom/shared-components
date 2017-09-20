@@ -6,10 +6,10 @@ import Touchable from '../Touchable';
 import View from '../View';
 import Icons from '../Icons';
 import Footer from '../Footer';
-import Checkbox from '../Checkbox';
 import Article from '../Article';
 import Main from '../Main';
 import Section from '../Section';
+import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
 
 export {
@@ -37,9 +37,9 @@ export {
   View,
   Icons,
   Footer,
-  Checkbox,
   Article,
   Main,
   Section,
+  Checkbox,
   TextInput
 };

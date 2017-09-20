@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import moment from 'moment';
+import { size } from '../utils';
 
 import Div from '../Div';
 import Span from '../Span';
@@ -16,14 +17,18 @@ const StyledLi = styled.li`
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 1.25rem 1.25rem 1.75rem;
-  border-bottom: 1px solid #dddddd;
+  border: 1px solid ${props => props.theme.colors.misc.greyLight};
+  border-bottom-width: 0;
+  &:last-child {
+    border-bottom-width: 1px;
+  }
   ${TextContainer} {
     display: flex;
     align-self: stretch;
     flex-direction: column;
     .top {
-      font-size: 13px;
-      color: ${props => props.theme.secondary};
+      font-size: ${size(11)};
+      color: ${props => props.theme.colors.primary.hslGrey};
       .category {
         text-transform: uppercase;
       }
@@ -31,8 +36,8 @@ const StyledLi = styled.li`
     .bottom {
       margin-top: 1rem;
       padding-bottom: 0.75rem;
-      font-size: 28px;
-      color: ${props => props.theme.primary}
+      font-size: ${size(24)};
+      color: ${props => props.theme.colors.primary.hslBlue}
     }
   }
   ${Image} {

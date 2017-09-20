@@ -1,13 +1,19 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs, boolean, select } from '@storybook/addon-knobs';
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
+import { ThemeProvider } from 'styled-components';
 
+import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
 
 storiesOf('Typography', module)
   .addDecorator(withKnobs)
-  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .addDecorator(getStory => (
+    <ThemeProvider theme={Theme}>
+      <CenterView>{getStory()}</CenterView>
+    </ThemeProvider>)
+  )
   .add('default', () => <Text>HSL Liikuttaa</Text>)
   .add('H1', () => <H1>HSL Liikuttaa</H1>)
   .add('H2', () => <H2>HSL Liikuttaa</H2>)
@@ -20,10 +26,10 @@ storiesOf('Typography', module)
   .add('Caption', () => <Caption>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</Caption>)
 
   .add('InfoText', () => {
-    const large = boolean('Large', false);
+    const strong = boolean('Strong', false);
     return (
       <InfoText
-        large={large}
+        strong={strong}
       >
         Aenean lacinia bibendum nulla sed consectetur.
         Etiam porta sem malesuada magna mollis euismod.
@@ -31,4 +37,14 @@ storiesOf('Typography', module)
     );
   })
   .add('ErrorText', () => <ErrorText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ErrorText>)
-  .add('ListText', () => <ListText>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</ListText>);
+  .add('ListText', () => {
+    const type = select('Type', { dot: 'dot', circle: 'circle' }, 'dot');
+    return (
+      <ListText
+        type={type}
+      >
+        Aenean lacinia bibendum nulla sed consectetur.
+        Etiam porta sem malesuada magna mollis euismod.
+      </ListText>
+    );
+  });

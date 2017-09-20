@@ -66,10 +66,11 @@ exports[`Storyshots Checkbox Default 1`] = `
       style={
         Array [
           Object {
+            "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 15.75,
             "lineHeight": 18,
-            "marginLeft": 26.25,
+            "marginLeft": 17.5,
           },
           undefined,
         ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 
 import Touchable from '../Touchable';
 import View from '../View';
@@ -20,18 +21,18 @@ const Content = styled(({ active, ...rest }) => (
   border-color: transparent;
   border-top-width: 4px;
   ${props => props.active && `
-    border-color: #017AC9;
+    border-color: ${props.theme.colors.primary.hslBlue};
   `}
 `;
 
-function fill(active, disabled) {
+function fill(active, disabled, colors) {
   if (disabled) {
-    return '#B7B7B7';
+    return colors.misc.greyLight;
   }
   if (active) {
-    return '#000000';
+    return colors.primary.hslGreyDark;
   }
-  return '#017AC9';
+  return colors.primary.hslBlue;
 }
 
 const StyledText = styled(({ disabled, active, children, ...rest }) => (
@@ -40,16 +41,22 @@ const StyledText = styled(({ disabled, active, children, ...rest }) => (
   </Text>
 ))`
   font-size: ${size(18)};
-  ${props => `color: ${fill(props.active, props.disabled)};`}
+  color: ${props =>
+    fill(props.active, props.disabled, props.theme.colors)
+  }
+  ${props => props.icon && `
+    margin-left: ${size(10)};
+  `}
 `;
 
 const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
   <View {...rest} />
 ))`
-  background: #EEF1F3;
-  border-color: #CFCFCF;
+  background: ${props => props.theme.colors.background.hslGreyLight};
+  border-color: ${props => props.theme.colors.misc.greyLight};
   border-style: solid;
   border-right-width: 1;
+  border-bottom-width: 1;
   ${props => props.last && 'border-right-width: 0;'}
   flex: 1;
   flex-direction: row;
@@ -58,7 +65,7 @@ const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
   ${props => props.rounded && props.last && 'border-top-right-radius: 6;'}
   ${props => props.active && `
     border-bottom-color: transparent;
-    background-color: #FFFFFF;
+    background-color: ${props.theme.colors.background.hslWhite};;
     `
   }
 `;
@@ -69,14 +76,23 @@ const Tab = styled(({
   header,
   active,
   disabled,
+  theme,
   ...rest
 }) => (
   <Touchable onPress={onPress}>
     <StyledView active={active} {...rest} accessibilityRole="button">
       <Content active={active}>
-        { header.icon && React.cloneElement(header.icon, { fill: fill(active, disabled) }) }
+        {header.icon &&
+          React.cloneElement(header.icon, { fill: fill(active, disabled, theme.colors) })
+        }
         {
-          <StyledText active={active} disabled={disabled}>{ header.text || header }</StyledText>
+          <StyledText
+            icon={!!header.icon}
+            active={active}
+            disabled={disabled}
+          >
+            { header.text || header }
+          </StyledText>
         }
       </Content>
     </StyledView>
@@ -104,4 +120,4 @@ Tab.propTypes = {
   last: PropTypes.bool
 };
 
-export default Tab;
+export default withTheme(Tab);

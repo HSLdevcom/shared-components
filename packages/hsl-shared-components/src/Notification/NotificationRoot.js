@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import styled, { css } from 'styled-components';
 import _ from 'lodash';
+import Text, { H3 } from '../Typography';
 import Icons from '../Icons';
 import Div from '../Div';
 import Span from '../Span';
@@ -12,16 +13,36 @@ const TitleLink = styled.a`
   text-decoration: none;
 `;
 
+const Title = H3.extend`
+  font-size: 21px;
+  font-weight: normal;
+  padding-bottom: 5px;
+  ${props => props.type !== 'neutral' && `
+    color: ${props.theme.colors.background.hslWhite};
+  `}
+`;
+
+const Msg = Text.extend`
+  font-size: 14px;
+  line-height: 18px;
+  ${props => props.type !== 'neutral' && `
+    color: ${props.theme.colors.background.hslWhite};
+  `}
+`;
+
 const ArrowRight = styled(Icons.ArrowLeft)`
   transform: rotate(180deg);
   padding-right: 0.5em;
+  height: 16px;
+  position: relative;
+  bottom: -2px;
 `;
 
-const renderNotificationMessage = (contentItem, idx) => {
+const renderNotificationMessage = (contentItem, idx, type) => {
   switch (contentItem.type) {
     case 'text':
       return (
-        <Span key={idx}>{contentItem.msg}</Span>
+        <Msg type={type} key={idx}>{contentItem.msg}</Msg>
       );
     case 'textLink':
       return (
@@ -31,17 +52,17 @@ const renderNotificationMessage = (contentItem, idx) => {
       );
     case 'title':
       return (
-        <h3 key={idx}>
+        <Title type={type} key={idx}>
           <Span>{contentItem.msg}</Span>
-        </h3>
+        </Title>
       );
     case 'titleLink':
       return (
         <TitleLink href={contentItem.href} key={idx}>
-          <h3>
+          <Title type={type} >
             {contentItem.msg}
-            <ArrowRight fill="#fff" height="0.8em" />
-          </h3>
+            <ArrowRight fill="#fff" />
+          </Title>
         </TitleLink>
       );
     default:
@@ -52,11 +73,11 @@ const renderNotificationMessage = (contentItem, idx) => {
 const renderTypeIcon = (type) => {
   switch (type) {
     case 'success':
-      return <Icons.CircleCheckmark fill={{ inner: '#4ea700', outer: '#fff' }} height="1em" />;
+      return <Icons.Checkmark fill="#fff" height="50px" />;
     case 'error':
-      return <Icons.Alert fill="#fff" height="1em" />;
+      return <Icons.Alert fill="#fff" height="35px" />;
     case 'neutral':
-      return <Icons.PositionAlert height="1em" />;
+      return <Icons.PositionAlert height="50px" />;
     default:
       return null;
   }
@@ -68,27 +89,25 @@ const Content = Div.extend`
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 25px;
 `;
 
 const CloseButton = Div.extend`
   margin-left: auto;
   button {
+    cursor: pointer;
     background-color: transparent;
     border: none;
-    padding: 0 1em 0 0.5em;
+    padding: 0.5em;
     font-size: 1em;
   }
 `;
 
 const Icon = Div.extend`
-  svg {
-    height: 2em;
-    padding: 0 1em;
-  }
+  margin-right: 20px;
 `;
 
 const Message = Div.extend`
-  padding: 1.5em 0;
   display: flex;
   flex-direction: column;
   ${Span} {
@@ -196,7 +215,7 @@ export default class NotificationRoot extends Component {
     return (
       <CloseButton>
         <button onClick={this.cleanWithAnimation}>
-          <Icons.Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="1.5em" />
+          <Icons.Cross fill={notification.type === 'neutral' ? '#333' : '#fff'} height="20px" />
         </button>
       </CloseButton>
     );
@@ -215,7 +234,7 @@ export default class NotificationRoot extends Component {
           </Icon>
           <Message>
             {notification.content && notification.content.map((contentItem, idx) =>
-              renderNotificationMessage(contentItem, idx)
+              renderNotificationMessage(contentItem, idx, notification.type)
             )}
           </Message>
           {notification.closeButton && this.renderCloseButton(notification)}

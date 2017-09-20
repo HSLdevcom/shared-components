@@ -8,7 +8,7 @@ import MenuItem from './MenuItem';
 import { addClass } from '../utils';
 import LangSelect, { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
-import { MenuSeparator } from '../Separator/Separator';
+import { MenuSeparator } from './Separator';
 import Span from '../Span';
 import Div from '../Div';
 import { Flex } from '../Wrapper';
