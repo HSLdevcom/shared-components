@@ -711,10 +711,6 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          primary={undefined}
-          rounded={true}
-          secondary={undefined}
-          small={undefined}
           style={
             Array [
               Object {
@@ -740,18 +736,11 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               ],
             ]
           }
-          success={undefined}
-          transparent={undefined}
         >
           <Text
             accessible={true}
             allowFontScaling={true}
-            disabled={undefined}
             ellipsizeMode="tail"
-            primary={undefined}
-            rounded={true}
-            secondary={undefined}
-            small={undefined}
             style={
               Array [
                 Object {

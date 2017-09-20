@@ -36,23 +36,12 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={true}
                 role="button"
-                rounded={undefined}
-                secondary={undefined}
-                small={true}
-                success={undefined}
                 tabIndex="0"
-                transparent={undefined}
               >
                 <div
                   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                   dir="auto"
-                  disabled={undefined}
-                  primary={true}
-                  rounded={undefined}
-                  secondary={undefined}
-                  small={true}
                 >
                   Luo tunnus
                 </div>
@@ -163,14 +152,8 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -202,14 +185,8 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -241,14 +218,8 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -280,14 +251,8 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -325,14 +290,8 @@ exports[`Storyshots Footer default 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -455,45 +414,37 @@ exports[`Storyshots Footer sub site 1`] = `
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            onLongPress={[Function]}
             onPress={[Function]}
           >
             <div
-              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-z2s38w rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             >
               <div
-                className="rn-alignItems-1awozwy rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-flexGrow-1jkw2lh rn-flexShrink-1qe8dj5 rn-height-5sfk15 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1wtbcs0"
-                style={
-                  Object {
-                    "backgroundColor": "rgba(220,4,81,1)",
-                  }
-                }
+                className="rn-alignItems-1awozwy rn-backgroundColor-1xr7g65 rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-z2s38w rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-lu10gs rn-paddingRight-z0elir rn-paddingBottom-1axwygq rn-paddingLeft-3w8suv rn-position-bnwqim rn-width-114zxdx"
               >
-                <div
-                  className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-8kz0gk rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
-                >
-                  <svg
-                    style={
-                      Object {
-                        "height": "30px",
-                        "width": "100%",
-                      }
+                <svg
+                  style={
+                    Object {
+                      "height": "100%",
+                      "width": "100%",
                     }
-                    version="1.1"
-                    viewBox="0 0 35 32"
-                  >
-                    <path
-                      d="M20.655,1.86 L34.155,25.32 C34.575,25.92 34.755,26.64 34.755,27.36 C34.755,29.4 33.075,31.14 30.975,31.14 L3.735,31.14 C2.415,31.14 1.155,30.42 0.495,29.22 C-0.165,28.08 -0.165,26.64 0.495,25.5 L14.115,1.86 C14.775,0.72 16.035,0 17.355,0 C18.735,0 19.935,0.72 20.655,1.86 Z M18.435,20.04 L19.455,8.28 C19.515,7.56 19.035,7.02 18.375,7.02 L16.335,7.02 C15.675,7.02 15.255,7.56 15.315,8.28 L16.335,20.04 C16.395,20.64 16.815,21.06 17.355,21.06 C17.955,21.06 18.375,20.64 18.435,20.04 Z M19.395,25.44 L19.395,25.14 C19.395,24 18.555,23.16 17.355,23.16 C16.215,23.16 15.315,24 15.315,25.14 L15.315,25.44 C15.315,26.58 16.215,27.42 17.355,27.42 C18.555,27.42 19.395,26.58 19.395,25.44 Z"
-                      fill="#ffffff"
-                      id="S"
-                    />
-                  </svg>
-                </div>
+                  }
+                  version="1.1"
+                  viewBox="0 0 35 32"
+                >
+                  <path
+                    d="M20.655,1.86 L34.155,25.32 C34.575,25.92 34.755,26.64 34.755,27.36 C34.755,29.4 33.075,31.14 30.975,31.14 L3.735,31.14 C2.415,31.14 1.155,30.42 0.495,29.22 C-0.165,28.08 -0.165,26.64 0.495,25.5 L14.115,1.86 C14.775,0.72 16.035,0 17.355,0 C18.735,0 19.935,0.72 20.655,1.86 Z M18.435,20.04 L19.455,8.28 C19.515,7.56 19.035,7.02 18.375,7.02 L16.335,7.02 C15.675,7.02 15.255,7.56 15.315,8.28 L16.335,20.04 C16.395,20.64 16.815,21.06 17.355,21.06 C17.955,21.06 18.375,20.64 18.435,20.04 Z M19.395,25.44 L19.395,25.14 C19.395,24 18.555,23.16 17.355,23.16 C16.215,23.16 15.315,24 15.315,25.14 L15.315,25.44 C15.315,26.58 16.215,27.42 17.355,27.42 C18.555,27.42 19.395,26.58 19.395,25.44 Z"
+                    fill="#ffffff"
+                    id="S"
+                  />
+                </svg>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Häiriöt ja poikkeukset
@@ -506,46 +457,38 @@ exports[`Storyshots Footer sub site 1`] = `
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            onLongPress={[Function]}
             onPress={[Function]}
           >
             <div
-              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-z2s38w rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             >
               <div
-                className="rn-alignItems-1awozwy rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-flexGrow-1jkw2lh rn-flexShrink-1qe8dj5 rn-height-5sfk15 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1wtbcs0"
-                style={
-                  Object {
-                    "backgroundColor": "rgba(78,167,0,1)",
-                  }
-                }
+                className="rn-alignItems-1awozwy rn-backgroundColor-47cxrm rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-z2s38w rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-lu10gs rn-paddingRight-z0elir rn-paddingBottom-1axwygq rn-paddingLeft-3w8suv rn-position-bnwqim rn-width-114zxdx"
               >
-                <div
-                  className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-8kz0gk rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
-                >
-                  <svg
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "height": "30px",
-                        "width": "100%",
-                      }
+                <svg
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "width": "100%",
                     }
-                    version="1.1"
-                    viewBox="0 0 39 32"
-                  >
-                    <path
-                      d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
-                      fill="#ffffff"
-                      id="icon---matkakortti"
-                    />
-                  </svg>
-                </div>
+                  }
+                  version="1.1"
+                  viewBox="0 0 39 32"
+                >
+                  <path
+                    d="M21.8658764,22.0461372 C25.3086715,20.6575087 26.9393139,16.7314236 25.5499476,13.2886285 C24.1605812,9.84583333 20.2344962,8.21445313 16.791701,9.60381944 C13.3489059,10.9931858 11.6577601,14.9192708 13.1076298,18.362066 C14.4969962,21.8048611 18.4230812,23.4355035 21.8658764,22.0461372 Z M17.3959979,11.1141927 C19.9932201,10.0266059 23.0132288,11.2949653 24.0403121,13.8921875 C25.1271611,16.5499132 23.8588017,19.5094184 21.2615795,20.5365017 C18.6038538,21.6233507 15.6443486,20.3549913 14.5567618,17.7577691 C13.5304163,15.1000434 14.7987757,12.1405382 17.3959979,11.1141927 Z M18.1205639,17.878776 C18.2415708,18.1805556 18.5433503,18.3015625 18.8458677,18.1805556 L21.4430899,17.0937066 C21.7448694,17.0332031 21.8658764,16.6709201 21.7448694,16.3684028 L20.7177861,13.7711806 C20.5967792,13.469401 20.2344962,13.3483941 19.9932201,13.469401 L17.3354944,14.4964844 C17.0942184,14.6174913 16.912708,14.9797743 17.0337149,15.2815538 L18.1205639,17.878776 Z M18.7248608,17.878776 C18.6038538,17.878776 18.4828469,17.8182726 18.4230812,17.7577691 C18.4230812,17.6375 18.4828469,17.4559896 18.5433503,17.4559896 C18.6643573,17.3954861 18.8458677,17.4559896 18.8458677,17.5769965 C18.9056333,17.6972656 18.8458677,17.8182726 18.7248608,17.878776 Z M21.1405726,16.4289062 C21.2615795,16.3684028 21.3825864,16.4289062 21.4430899,16.5499132 C21.4430899,16.6104167 21.4430899,16.7911892 21.322083,16.7911892 C21.201076,16.8516927 21.0800691,16.7911892 21.0203035,16.6709201 C20.9598,16.5499132 21.0203035,16.4289062 21.1405726,16.4289062 Z M20.0537236,13.7711806 C20.1739927,13.7711806 20.2949996,13.7711806 20.3555031,13.8921875 C20.4160066,14.0131944 20.3555031,14.1342014 20.2344962,14.193967 C20.1142271,14.2544705 19.9932201,14.193967 19.9327167,14.0736979 C19.9327167,13.952691 19.9327167,13.831684 20.0537236,13.7711806 Z M20.2949996,14.6174913 C20.4160066,14.5569878 20.5370135,14.6174913 20.5967792,14.7377604 L21.0203035,15.7648438 C21.0800691,15.8858507 21.0203035,16.0666233 20.8992965,16.1271267 L18.5433503,17.0332031 C18.4230812,17.0937066 18.2415708,17.0332031 18.2415708,16.9121962 L17.8187844,15.8858507 C17.7582809,15.7648438 17.8187844,15.5833333 17.9397913,15.5228299 L20.2949996,14.6174913 Z M17.5767705,14.7982639 C17.6977774,14.7982639 17.8187844,14.8587674 17.8187844,14.9797743 C17.8187844,15.1000434 17.7582809,15.2210503 17.6372739,15.2815538 C17.5170048,15.2815538 17.3959979,15.1605469 17.3959979,15.0402778 C17.3354944,14.9192708 17.4565014,14.7982639 17.5767705,14.7982639 Z M32.0127514,1.69114583 C31.5899649,0.664800347 30.6233851,0 29.5365361,0 C29.2347566,0 28.8717358,0.0605034722 28.5699562,0.181510417 L1.69165763,10.7511719 C0.36279478,11.2949653 -0.361771192,12.865842 0.182022211,14.2544705 L6.40281214,29.9588108 C6.8255986,31.0463976 7.79217846,31.6499566 8.87976527,31.6499566 C9.18154478,31.6499566 9.54382777,31.5894531 9.84560728,31.469184 L36.7239059,20.8987847 C38.0527687,20.4154948 38.7773347,18.8453559 38.2342792,17.4559896 L32.0127514,1.69114583 Z M31.2276819,21.5030816 C32.7978208,18.3015625 33.0398347,14.4359809 31.5899649,10.8721788 C30.1400951,7.36888021 27.4226038,4.77165799 24.1605812,3.50329861 L26.2147479,2.65772569 C29.2347566,4.28836806 31.7109719,6.88559028 33.1003382,10.2686198 C34.4889667,13.7114149 34.4889667,17.3954861 33.3416142,20.7172743 L31.2276819,21.5030816 Z M25.1271611,23.9187934 C28.8119701,21.3215712 30.3216055,16.4289062 28.5699562,12.0800347 C26.8183069,7.73116319 22.4089319,5.31545139 17.9995569,5.91974826 L21.684366,4.46987847 C25.3684371,5.25494792 28.5699562,7.73116319 30.0803295,11.4764757 C31.5899649,15.2815538 30.985668,19.3884115 28.8119701,22.4689236 L25.1271611,23.9187934 Z M16.912708,27.1800781 C13.2884024,26.3950087 10.0876212,23.8582899 8.57724791,20.1742187 C7.00710902,16.3684028 7.67117152,12.2615451 9.84560728,9.12052951 L13.5909198,7.67139757 C9.84560728,10.2686198 8.27546839,15.1605469 10.0876212,19.5699219 C11.778767,23.8582899 16.188142,26.2747396 20.5967792,25.7309462 L16.912708,27.1800781 Z M8.87976527,30.2605903 C8.39647534,30.2605903 7.91318541,29.8983073 7.73167499,29.4755208 L6.40281214,26.0327257 C7.55090242,27.4825955 8.93953089,28.7509549 10.4499042,29.7175347 L9.30255172,30.1403212 C9.18154478,30.2008247 9.06053784,30.2605903 8.87976527,30.2605903 Z M5.55723922,21.3820747 C4.16787291,17.878776 4.16787291,14.193967 5.31596318,10.9326823 L7.42989547,10.0871094 C5.85975659,13.3483941 5.6177427,17.2147135 7.06761249,20.7777778 C8.45697881,24.2810764 11.2349736,26.8177951 14.4969962,28.146658 L12.382326,28.9317274 C9.42282082,27.3615885 6.94660554,24.7643663 5.55723922,21.3820747 Z M16.188142,8.09418403 C20.4765101,6.34253472 25.3086715,8.39596354 27.0603208,12.6843316 C28.8119701,16.9726997 26.7578035,21.8653646 22.4694354,23.5565104 C18.1810673,25.3081597 13.2884024,23.2547309 11.5972566,18.965625 C9.84560728,14.6772569 11.8997739,9.78532986 16.188142,8.09418403 Z M29.1137496,1.57087674 C29.2347566,1.51037326 29.3550257,1.44986979 29.5365361,1.44986979 C30.019826,1.44986979 30.503116,1.81215278 30.6838885,2.23493924 L31.7714753,5.07417535 C30.744392,3.80507812 29.4760326,2.77873264 28.1471698,1.93315972 L29.1137496,1.57087674 Z M3.38280346,11.6572483 C2.89951353,13.469401 2.71874096,15.2815538 2.89951353,17.1542101 L1.57065068,13.7114149 C1.26887117,13.1071181 1.63115416,12.3825521 2.23545103,12.1405382 L3.38280346,11.6572483 Z M35.2747739,19.9322049 C35.6370569,18.4225694 35.8178295,16.7911892 35.757326,15.2210503 L36.8449128,17.999783 C36.9659198,18.3015625 36.9659198,18.603342 36.8449128,18.9058594 C36.7239059,19.2076389 36.4826298,19.4489149 36.1801125,19.5699219 L35.2747739,19.9322049 Z"
+                    fill="#ffffff"
+                    id="icon---matkakortti"
+                  />
+                </svg>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Lataa matkakorttia
@@ -558,39 +501,36 @@ exports[`Storyshots Footer sub site 1`] = `
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            onLongPress={[Function]}
             onPress={[Function]}
           >
             <div
-              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-z2s38w rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-flexGrow-1jkw2lh rn-flexShrink-1qe8dj5 rn-height-5sfk15 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1wtbcs0"
+                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-z2s38w rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-lu10gs rn-paddingRight-z0elir rn-paddingBottom-1axwygq rn-paddingLeft-3w8suv rn-position-bnwqim rn-width-114zxdx"
               >
-                <div
-                  className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-8kz0gk rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
-                >
-                  <svg
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "height": "30px",
-                        "width": "100%",
-                      }
+                <svg
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "width": "100%",
                     }
-                    viewBox="0 0 28 30"
-                  >
-                    <path
-                      d="M3.688,0.448 L13.48,0.448 C15.208,0.448 16.552,1.84 16.552,3.52 L16.552,26.128 C16.552,27.808 15.208,29.2 13.48,29.2 L3.688,29.2 C2.008,29.2 0.616,27.808 0.616,26.128 L0.616,3.52 C0.616,1.84 2.008,0.448 3.688,0.448 Z M7.192,27.184 L9.976,27.184 C10.264,27.184 10.456,26.944 10.456,26.656 C10.456,26.416 10.264,26.176 9.976,26.176 L7.192,26.176 C6.952,26.176 6.712,26.416 6.712,26.656 C6.712,26.944 6.952,27.184 7.192,27.184 Z M2.44,24.016 L14.776,24.016 L14.776,2.8 L2.44,2.8 L2.44,24.016 Z M19.288,12.64 C19.096,12.64 18.856,12.592 18.712,12.4 C18.424,12.112 18.424,11.584 18.712,11.296 C20.056,9.952 20.056,7.744 18.712,6.352 C18.424,6.064 18.424,5.536 18.712,5.248 C19.048,4.96 19.528,4.96 19.816,5.248 C21.832,7.216 21.832,10.432 19.816,12.4 C19.672,12.592 19.48,12.64 19.288,12.64 Z M21.4,14.752 C21.208,14.752 21.016,14.704 20.824,14.56 C20.536,14.224 20.536,13.744 20.824,13.408 C22.072,12.208 22.744,10.576 22.744,8.848 C22.744,7.12 22.072,5.488 20.824,4.24 C20.536,3.952 20.536,3.424 20.824,3.136 C21.16,2.8 21.64,2.8 21.976,3.136 C23.464,4.624 24.328,6.688 24.328,8.848 C24.328,11.008 23.464,13.024 21.976,14.56 C21.784,14.704 21.592,14.752 21.4,14.752 Z M23.512,16.912 C23.32,16.912 23.128,16.816 22.984,16.672 C22.648,16.336 22.648,15.856 22.984,15.568 C24.76,13.744 25.768,11.392 25.768,8.848 C25.768,6.304 24.76,3.904 22.984,2.128 C22.648,1.792 22.648,1.312 22.984,0.976 C23.272,0.688 23.8,0.688 24.088,0.976 C26.2,3.088 27.352,5.872 27.352,8.848 C27.352,11.776 26.2,14.56 24.088,16.672 C23.944,16.816 23.752,16.912 23.512,16.912 Z"
-                      fill="#ffffff"
-                    />
-                  </svg>
-                </div>
+                  }
+                  viewBox="0 0 28 30"
+                >
+                  <path
+                    d="M3.688,0.448 L13.48,0.448 C15.208,0.448 16.552,1.84 16.552,3.52 L16.552,26.128 C16.552,27.808 15.208,29.2 13.48,29.2 L3.688,29.2 C2.008,29.2 0.616,27.808 0.616,26.128 L0.616,3.52 C0.616,1.84 2.008,0.448 3.688,0.448 Z M7.192,27.184 L9.976,27.184 C10.264,27.184 10.456,26.944 10.456,26.656 C10.456,26.416 10.264,26.176 9.976,26.176 L7.192,26.176 C6.952,26.176 6.712,26.416 6.712,26.656 C6.712,26.944 6.952,27.184 7.192,27.184 Z M2.44,24.016 L14.776,24.016 L14.776,2.8 L2.44,2.8 L2.44,24.016 Z M19.288,12.64 C19.096,12.64 18.856,12.592 18.712,12.4 C18.424,12.112 18.424,11.584 18.712,11.296 C20.056,9.952 20.056,7.744 18.712,6.352 C18.424,6.064 18.424,5.536 18.712,5.248 C19.048,4.96 19.528,4.96 19.816,5.248 C21.832,7.216 21.832,10.432 19.816,12.4 C19.672,12.592 19.48,12.64 19.288,12.64 Z M21.4,14.752 C21.208,14.752 21.016,14.704 20.824,14.56 C20.536,14.224 20.536,13.744 20.824,13.408 C22.072,12.208 22.744,10.576 22.744,8.848 C22.744,7.12 22.072,5.488 20.824,4.24 C20.536,3.952 20.536,3.424 20.824,3.136 C21.16,2.8 21.64,2.8 21.976,3.136 C23.464,4.624 24.328,6.688 24.328,8.848 C24.328,11.008 23.464,13.024 21.976,14.56 C21.784,14.704 21.592,14.752 21.4,14.752 Z M23.512,16.912 C23.32,16.912 23.128,16.816 22.984,16.672 C22.648,16.336 22.648,15.856 22.984,15.568 C24.76,13.744 25.768,11.392 25.768,8.848 C25.768,6.304 24.76,3.904 22.984,2.128 C22.648,1.792 22.648,1.312 22.984,0.976 C23.272,0.688 23.8,0.688 24.088,0.976 C26.2,3.088 27.352,5.872 27.352,8.848 C27.352,11.776 26.2,14.56 24.088,16.672 C23.944,16.816 23.752,16.912 23.512,16.912 Z"
+                    fill="#ffffff"
+                  />
+                </svg>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Ota mobiililippu käyttöön
@@ -603,48 +543,40 @@ exports[`Storyshots Footer sub site 1`] = `
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            onLongPress={[Function]}
             onPress={[Function]}
           >
             <div
-              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-z2s38w rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             >
               <div
-                className="rn-alignItems-1awozwy rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-flexGrow-1jkw2lh rn-flexShrink-1qe8dj5 rn-height-5sfk15 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1wtbcs0"
-                style={
-                  Object {
-                    "backgroundColor": "rgba(252,188,25,1)",
-                  }
-                }
+                className="rn-alignItems-1awozwy rn-backgroundColor-17yfbte rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-z2s38w rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-lu10gs rn-paddingRight-z0elir rn-paddingBottom-1axwygq rn-paddingLeft-3w8suv rn-position-bnwqim rn-width-114zxdx"
               >
-                <div
-                  className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-8kz0gk rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
-                >
-                  <svg
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "height": "30px",
-                        "width": "100%",
-                      }
+                <svg
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "width": "100%",
                     }
-                    viewBox="0 0 35 24"
+                  }
+                  viewBox="0 0 35 24"
+                >
+                  <g
+                    fill="#ffffff"
+                    transform="translate(-1,-1)"
                   >
-                    <g
-                      fill="#ffffff"
-                      transform="translate(-1,-1)"
-                    >
-                      <path
-                        d="M24.692,10.67 L26.166,14.39 C26.7148341,15.7546143 27.4866868,17.0185062 28.45,18.13 C29.212,19 30.285,18.09 29.627,17.29 C28.7642681,16.2187957 28.0647001,15.0258907 27.551,13.75 L24.877,6.93 L27.028,6.93 L28.204,9.81 C28.3088959,10.1606213 28.6383462,10.3953547 29.004,10.38 L31.877,10.38 C32.2384112,10.4141657 32.5735259,10.1879632 32.677,9.84 L34.131,5.76 C34.2457891,5.54033897 34.2284754,5.27499504 34.0861154,5.07211298 C33.9437554,4.86923093 33.7001232,4.7626921 33.4545147,4.79591795 C33.2089061,4.8291438 33.002338,4.99658559 32.919,5.23 C31.777,7.67 29.419,7.33 28.558,6.37 C28.3378113,6.00381945 27.9470482,5.77418026 27.52,5.76 L24.426,5.76 L24.417,5.74 L24.44,5.71 C24.9193129,5.1294863 25.2553619,4.44437116 25.421,3.71 C25.5856869,3.05787522 25.428043,2.36632397 24.997,1.85 C24.5081336,1.27481939 23.7811647,0.95746238 23.027,0.99 C22.2140695,1.0576614 21.4528208,1.41627201 20.883,2 C20.7482687,2.14027477 20.6764976,2.32938382 20.6842337,2.52372808 C20.6919697,2.71807233 20.7785451,2.90087827 20.924,3.03 C21.2342604,3.29351841 21.6944819,3.27615156 21.984,2.99 C22.2670186,2.6866886 22.6406632,2.48320141 23.049,2.41 C23.3301746,2.38465124 23.6056777,2.50006361 23.7848314,2.71825084 C23.9639851,2.93643806 24.0235795,3.22913319 23.944,3.5 C23.8069127,3.9405541 23.5933179,4.3535266 23.313,4.72 L23.313,4.72 C22.9169252,5.05518449 22.7491693,5.58842261 22.882,6.09 L24.125,9.22 C21.7428092,10.6906504 20.041352,13.0462928 19.394,15.77 C18.8974772,15.5291463 18.3403293,15.4420919 17.794,15.52 L17.419,15.56 L13.351,5.32 C13.7955306,5.19526253 14.2527988,5.12145549 14.714,5.1 L15.164,5.06 C15.4472717,5.08877067 15.7211061,4.94883616 15.8637495,4.70241482 C16.006393,4.45599348 15.9913577,4.1488439 15.8253287,3.9175324 C15.6592998,3.68622089 15.3731075,3.57370028 15.094,3.63 L12.879,3.63 C11.252,3.63 10.979,3.6 10.041,3.6 C9.487,3.6 9.141,3.79 9.141,4.19 C9.141,5.03 10.283,5.8 11.356,5.8 C11.5353724,5.80037239 11.7141996,5.78024175 11.889,5.74 L13.32,9.34 L11.875,11.41 C8.77596149,9.19427788 4.58689111,9.28795665 1.59,11.64 C1.545,11.67 1.255,11.94 1.213,11.98 C1.01674044,12.1442599 0.931010389,12.4058569 0.991981723,12.654416 C1.05295306,12.9029751 1.2500066,13.0952056 1.5,13.15 C1.553,13.16 1.837,13.24 1.889,13.25 C4.09304954,13.8165424 6.08830472,15.0034919 7.638,16.67 C7.20967995,16.9302857 6.94155544,17.3890682 6.925,17.89 C6.92276029,18.3110812 7.09062674,18.7152303 7.39053756,19.0108109 C7.69044839,19.3063916 8.09699586,19.468363 8.518,19.46 L17.552,20.4 C19.252,20.57 20.632,19.87 20.771,17.86 L20.805,17.39 C21.0233808,14.6791966 22.4510855,12.2109242 24.692,10.67 Z M13.972,10.98 L15.849,15.7 L10.331,16.21 L13.972,10.98 Z M8.306,22.64 C7.00233994,22.6689462 5.7407095,22.1781273 4.79935186,21.2757897 C3.85799421,20.373452 3.31423635,19.1337174 3.288,17.83 C3.29454214,16.946833 3.5590515,16.0848314 4.049,15.35 C3.61110814,15.0832344 3.14701391,14.8620776 2.664,14.69 C2.07938471,15.6332929 1.76783868,16.7202424 1.764,17.83 C1.84216799,21.368144 4.76761618,24.1764312 8.306,24.11 C10.5403499,24.1299175 12.6296604,23.0056587 13.844,21.13 L12.009,20.93 C11.1060415,22.0426403 9.73852817,22.6741412 8.306,22.64 L8.306,22.64 Z M29.143,11.55 C28.7599601,11.5454082 28.3774124,11.5789062 28.001,11.65 L28.554,13.05 C28.7492035,13.0241374 28.946179,13.0141047 29.143,13.02 C31.77724,13.1136504 33.8460836,15.3087972 33.7836497,17.9439618 C33.7212158,20.5791264 31.5507345,22.6738325 28.9150151,22.642624 C26.2792957,22.6114154 24.1590212,20.4659041 24.159,17.83 C24.1571489,16.7754011 24.5092826,15.7506922 25.159,14.92 L24.537,13.35 C23.3121019,14.5201453 22.6127095,16.1360699 22.598,17.83 C22.4965096,20.4895858 24.0195492,22.9445572 26.4474708,24.0349212 C28.8753924,25.1252851 31.722136,24.6327551 33.6425929,22.7900554 C35.5630498,20.9473557 36.1727524,18.1233874 35.1836115,15.6524974 C34.1944706,13.1816075 31.8045081,11.5584581 29.143,11.55 L29.143,11.55 Z"
-                      />
-                    </g>
-                  </svg>
-                </div>
+                    <path
+                      d="M24.692,10.67 L26.166,14.39 C26.7148341,15.7546143 27.4866868,17.0185062 28.45,18.13 C29.212,19 30.285,18.09 29.627,17.29 C28.7642681,16.2187957 28.0647001,15.0258907 27.551,13.75 L24.877,6.93 L27.028,6.93 L28.204,9.81 C28.3088959,10.1606213 28.6383462,10.3953547 29.004,10.38 L31.877,10.38 C32.2384112,10.4141657 32.5735259,10.1879632 32.677,9.84 L34.131,5.76 C34.2457891,5.54033897 34.2284754,5.27499504 34.0861154,5.07211298 C33.9437554,4.86923093 33.7001232,4.7626921 33.4545147,4.79591795 C33.2089061,4.8291438 33.002338,4.99658559 32.919,5.23 C31.777,7.67 29.419,7.33 28.558,6.37 C28.3378113,6.00381945 27.9470482,5.77418026 27.52,5.76 L24.426,5.76 L24.417,5.74 L24.44,5.71 C24.9193129,5.1294863 25.2553619,4.44437116 25.421,3.71 C25.5856869,3.05787522 25.428043,2.36632397 24.997,1.85 C24.5081336,1.27481939 23.7811647,0.95746238 23.027,0.99 C22.2140695,1.0576614 21.4528208,1.41627201 20.883,2 C20.7482687,2.14027477 20.6764976,2.32938382 20.6842337,2.52372808 C20.6919697,2.71807233 20.7785451,2.90087827 20.924,3.03 C21.2342604,3.29351841 21.6944819,3.27615156 21.984,2.99 C22.2670186,2.6866886 22.6406632,2.48320141 23.049,2.41 C23.3301746,2.38465124 23.6056777,2.50006361 23.7848314,2.71825084 C23.9639851,2.93643806 24.0235795,3.22913319 23.944,3.5 C23.8069127,3.9405541 23.5933179,4.3535266 23.313,4.72 L23.313,4.72 C22.9169252,5.05518449 22.7491693,5.58842261 22.882,6.09 L24.125,9.22 C21.7428092,10.6906504 20.041352,13.0462928 19.394,15.77 C18.8974772,15.5291463 18.3403293,15.4420919 17.794,15.52 L17.419,15.56 L13.351,5.32 C13.7955306,5.19526253 14.2527988,5.12145549 14.714,5.1 L15.164,5.06 C15.4472717,5.08877067 15.7211061,4.94883616 15.8637495,4.70241482 C16.006393,4.45599348 15.9913577,4.1488439 15.8253287,3.9175324 C15.6592998,3.68622089 15.3731075,3.57370028 15.094,3.63 L12.879,3.63 C11.252,3.63 10.979,3.6 10.041,3.6 C9.487,3.6 9.141,3.79 9.141,4.19 C9.141,5.03 10.283,5.8 11.356,5.8 C11.5353724,5.80037239 11.7141996,5.78024175 11.889,5.74 L13.32,9.34 L11.875,11.41 C8.77596149,9.19427788 4.58689111,9.28795665 1.59,11.64 C1.545,11.67 1.255,11.94 1.213,11.98 C1.01674044,12.1442599 0.931010389,12.4058569 0.991981723,12.654416 C1.05295306,12.9029751 1.2500066,13.0952056 1.5,13.15 C1.553,13.16 1.837,13.24 1.889,13.25 C4.09304954,13.8165424 6.08830472,15.0034919 7.638,16.67 C7.20967995,16.9302857 6.94155544,17.3890682 6.925,17.89 C6.92276029,18.3110812 7.09062674,18.7152303 7.39053756,19.0108109 C7.69044839,19.3063916 8.09699586,19.468363 8.518,19.46 L17.552,20.4 C19.252,20.57 20.632,19.87 20.771,17.86 L20.805,17.39 C21.0233808,14.6791966 22.4510855,12.2109242 24.692,10.67 Z M13.972,10.98 L15.849,15.7 L10.331,16.21 L13.972,10.98 Z M8.306,22.64 C7.00233994,22.6689462 5.7407095,22.1781273 4.79935186,21.2757897 C3.85799421,20.373452 3.31423635,19.1337174 3.288,17.83 C3.29454214,16.946833 3.5590515,16.0848314 4.049,15.35 C3.61110814,15.0832344 3.14701391,14.8620776 2.664,14.69 C2.07938471,15.6332929 1.76783868,16.7202424 1.764,17.83 C1.84216799,21.368144 4.76761618,24.1764312 8.306,24.11 C10.5403499,24.1299175 12.6296604,23.0056587 13.844,21.13 L12.009,20.93 C11.1060415,22.0426403 9.73852817,22.6741412 8.306,22.64 L8.306,22.64 Z M29.143,11.55 C28.7599601,11.5454082 28.3774124,11.5789062 28.001,11.65 L28.554,13.05 C28.7492035,13.0241374 28.946179,13.0141047 29.143,13.02 C31.77724,13.1136504 33.8460836,15.3087972 33.7836497,17.9439618 C33.7212158,20.5791264 31.5507345,22.6738325 28.9150151,22.642624 C26.2792957,22.6114154 24.1590212,20.4659041 24.159,17.83 C24.1571489,16.7754011 24.5092826,15.7506922 25.159,14.92 L24.537,13.35 C23.3121019,14.5201453 22.6127095,16.1360699 22.598,17.83 C22.4965096,20.4895858 24.0195492,22.9445572 26.4474708,24.0349212 C28.8753924,25.1252851 31.722136,24.6327551 33.6425929,22.7900554 C35.5630498,20.9473557 36.1727524,18.1233874 35.1836115,15.6524974 C34.1944706,13.1816075 31.8045081,11.5584581 29.143,11.55 L29.143,11.55 Z"
+                    />
+                  </g>
+                </svg>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Kaupunkipyörät
@@ -657,41 +589,38 @@ exports[`Storyshots Footer sub site 1`] = `
         >
           <div
             className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            onLongPress={[Function]}
             onPress={[Function]}
           >
             <div
-              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-z2s38w rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             >
               <div
-                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-flexGrow-1jkw2lh rn-flexShrink-1qe8dj5 rn-height-5sfk15 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1wtbcs0"
+                className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopLeftRadius-kicko2 rn-borderTopRightRadius-notknq rn-borderBottomRightRadius-1dpl46z rn-borderBottomLeftRadius-6t5ypu rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-z2s38w rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-1t9tdqd rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-lu10gs rn-paddingRight-z0elir rn-paddingBottom-1axwygq rn-paddingLeft-3w8suv rn-position-bnwqim rn-width-114zxdx"
               >
-                <div
-                  className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-8kz0gk rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-cn28q9"
-                >
-                  <svg
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "height": "30px",
-                        "width": "100%",
-                      }
+                <svg
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "width": "100%",
                     }
-                    version="1.1"
-                    viewBox="0 0 43 35"
-                  >
-                    <path
-                      d="M5.87778125,18.338 C5.46978125,16.91 5.26578125,15.414 5.26578125,13.85 C5.26578125,11.402 5.80978125,9.09 6.76178125,6.982 L3.42978125,6.982 C1.93378125,6.982 0.70978125,8.206 0.70978125,9.702 L0.70978125,15.618 C0.70978125,17.114 1.93378125,18.338 3.42978125,18.338 L5.87778125,18.338 Z M21.9937812,28.538 C20.3617813,28.538 19.0017813,29.898 19.0017813,31.53 C19.0017813,33.162 20.3617813,34.454 21.9937812,34.454 C23.6257813,34.454 24.9177812,33.162 24.9177812,31.53 C24.9177812,29.898 23.6257813,28.538 21.9937812,28.538 Z M36.6137812,6.982 L39.9457812,6.982 C41.4417812,6.982 42.6657812,8.206 42.6657812,9.702 L42.6657812,15.618 C42.6657812,16.842 41.8497812,17.862 40.7617812,18.202 C39.0617812,25.138 33.7577812,30.646 26.9577813,32.55 C27.0257813,32.21 27.0257813,31.87 27.0257813,31.598 C27.0257813,31.122 26.9577813,30.714 26.8897813,30.306 C32.4657812,28.538 36.8857813,24.05 38.4497812,18.338 L37.4297813,18.338 C37.8377813,16.91 38.1097812,15.414 38.1097812,13.85 C38.1097812,11.402 37.5657812,9.09 36.6137812,6.982 Z M35.9337813,13.85 C35.9337813,20.514 31.3777812,26.09 25.1897813,27.654 C24.3057812,26.906 23.1497813,26.43 21.9257812,26.43 C20.6337812,26.43 19.4777813,26.974 18.5937813,27.722 C12.2017812,26.294 7.44178125,20.65 7.44178125,13.85 C7.44178125,10.926 8.32578125,8.206 9.82178125,5.962 C12.8817813,5.554 15.3297812,3.038 16.2137813,0.726 C18.4577813,3.378 24.5777813,6.302 32.3297812,6.03 C32.8057812,6.03 33.2137813,5.962 33.4857812,5.826 C35.0497813,8.138 35.9337813,10.858 35.9337813,13.85 Z M17.6417813,10.858 C17.6417813,9.294 16.8937812,8.41 16.0097813,8.41 C15.0577812,8.41 14.3097813,9.294 14.3097813,10.858 C14.3097813,12.49 15.0577812,13.374 16.0097813,13.374 C16.8937812,13.374 17.6417813,12.49 17.6417813,10.858 Z M25.7337812,20.446 C25.4617813,20.174 25.0537813,20.174 24.7817812,20.446 C23.9657812,21.262 22.8777813,21.738 21.6537812,21.738 C20.4977813,21.738 19.3417813,21.262 18.5257813,20.446 C18.2537812,20.174 17.8457812,20.174 17.5737813,20.446 C17.3017812,20.718 17.3017812,21.126 17.5737813,21.398 C18.6617812,22.486 20.0897812,23.098 21.6537812,23.098 C23.2177813,23.098 24.6457813,22.486 25.7337812,21.398 C26.0057813,21.126 26.0057813,20.718 25.7337812,20.446 Z M28.9977813,10.858 C28.9977813,9.294 28.2497812,8.41 27.3657813,8.41 C26.4817813,8.41 25.7337812,9.294 25.7337812,10.858 C25.7337812,12.49 26.4817813,13.374 27.3657813,13.374 C28.2497812,13.374 28.9977813,12.49 28.9977813,10.858 Z"
-                      fill="#ffffff"
-                      id="icon---asiakaspalvelu"
-                    />
-                  </svg>
-                </div>
+                  }
+                  version="1.1"
+                  viewBox="0 0 43 35"
+                >
+                  <path
+                    d="M5.87778125,18.338 C5.46978125,16.91 5.26578125,15.414 5.26578125,13.85 C5.26578125,11.402 5.80978125,9.09 6.76178125,6.982 L3.42978125,6.982 C1.93378125,6.982 0.70978125,8.206 0.70978125,9.702 L0.70978125,15.618 C0.70978125,17.114 1.93378125,18.338 3.42978125,18.338 L5.87778125,18.338 Z M21.9937812,28.538 C20.3617813,28.538 19.0017813,29.898 19.0017813,31.53 C19.0017813,33.162 20.3617813,34.454 21.9937812,34.454 C23.6257813,34.454 24.9177812,33.162 24.9177812,31.53 C24.9177812,29.898 23.6257813,28.538 21.9937812,28.538 Z M36.6137812,6.982 L39.9457812,6.982 C41.4417812,6.982 42.6657812,8.206 42.6657812,9.702 L42.6657812,15.618 C42.6657812,16.842 41.8497812,17.862 40.7617812,18.202 C39.0617812,25.138 33.7577812,30.646 26.9577813,32.55 C27.0257813,32.21 27.0257813,31.87 27.0257813,31.598 C27.0257813,31.122 26.9577813,30.714 26.8897813,30.306 C32.4657812,28.538 36.8857813,24.05 38.4497812,18.338 L37.4297813,18.338 C37.8377813,16.91 38.1097812,15.414 38.1097812,13.85 C38.1097812,11.402 37.5657812,9.09 36.6137812,6.982 Z M35.9337813,13.85 C35.9337813,20.514 31.3777812,26.09 25.1897813,27.654 C24.3057812,26.906 23.1497813,26.43 21.9257812,26.43 C20.6337812,26.43 19.4777813,26.974 18.5937813,27.722 C12.2017812,26.294 7.44178125,20.65 7.44178125,13.85 C7.44178125,10.926 8.32578125,8.206 9.82178125,5.962 C12.8817813,5.554 15.3297812,3.038 16.2137813,0.726 C18.4577813,3.378 24.5777813,6.302 32.3297812,6.03 C32.8057812,6.03 33.2137813,5.962 33.4857812,5.826 C35.0497813,8.138 35.9337813,10.858 35.9337813,13.85 Z M17.6417813,10.858 C17.6417813,9.294 16.8937812,8.41 16.0097813,8.41 C15.0577812,8.41 14.3097813,9.294 14.3097813,10.858 C14.3097813,12.49 15.0577812,13.374 16.0097813,13.374 C16.8937812,13.374 17.6417813,12.49 17.6417813,10.858 Z M25.7337812,20.446 C25.4617813,20.174 25.0537813,20.174 24.7817812,20.446 C23.9657812,21.262 22.8777813,21.738 21.6537812,21.738 C20.4977813,21.738 19.3417813,21.262 18.5257813,20.446 C18.2537812,20.174 17.8457812,20.174 17.5737813,20.446 C17.3017812,20.718 17.3017812,21.126 17.5737813,21.398 C18.6617812,22.486 20.0897812,23.098 21.6537812,23.098 C23.2177813,23.098 24.6457813,22.486 25.7337812,21.398 C26.0057813,21.126 26.0057813,20.718 25.7337812,20.446 Z M28.9977813,10.858 C28.9977813,9.294 28.2497812,8.41 27.3657813,8.41 C26.4817813,8.41 25.7337812,9.294 25.7337812,10.858 C25.7337812,12.49 26.4817813,13.374 27.3657813,13.374 C28.2497812,13.374 28.9977813,12.49 28.9977813,10.858 Z"
+                    fill="#ffffff"
+                    id="icon---asiakaspalvelu"
+                  />
+                </svg>
               </div>
               <div
-                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexBasis-1iusvr4 rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                 dir="auto"
               >
                 Asiakaspalvelu ja palaute
@@ -726,23 +655,12 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1f720gc"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={true}
                 role="button"
-                rounded={undefined}
-                secondary={undefined}
-                small={true}
-                success={undefined}
                 tabIndex="0"
-                transparent={undefined}
               >
                 <div
                   className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
                   dir="auto"
-                  disabled={undefined}
-                  primary={true}
-                  rounded={undefined}
-                  secondary={undefined}
-                  small={true}
                 >
                   Luo tunnus
                 </div>
@@ -853,14 +771,8 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -892,14 +804,8 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -931,14 +837,8 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -970,14 +870,8 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"
@@ -1015,14 +909,8 @@ exports[`Storyshots Footer sub site 1`] = `
                 className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-2qmkud rn-borderTopRightRadius-uier44 rn-borderBottomRightRadius-rlac8f rn-borderBottomLeftRadius-lcv42w rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ujyd8x rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-5plkoq"
                 disabled={undefined}
                 onKeyPress={[Function]}
-                primary={undefined}
                 role="button"
-                rounded={true}
-                secondary={true}
-                small={undefined}
-                success={undefined}
                 tabIndex="0"
-                transparent={true}
               >
                 <div
                   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1ogwa68 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-oek6f6"

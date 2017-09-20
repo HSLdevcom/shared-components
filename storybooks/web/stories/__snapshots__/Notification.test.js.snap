@@ -7,13 +7,13 @@ exports[`Storyshots Notification Error 1`] = `
     type={undefined}
   >
     <div
-      className="sc-kafWEX kzYlCN"
+      className="sc-kafWEX dlSaDm"
     >
       <div
-        className="sc-iELTvK iDZJjA"
+        className="sc-iELTvK jzQuoH"
       />
       <div
-        className="sc-cmTdod hfqkYX"
+        className="sc-cmTdod kyxVDM"
       />
     </div>
   </div>
@@ -27,23 +27,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Error title, close
       </div>
@@ -59,23 +48,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Error title + text, close
       </div>
@@ -91,23 +69,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Success title + text, timeout
       </div>
@@ -123,23 +90,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Success text, custom fast timeout
       </div>
@@ -155,23 +111,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Error titleLink, close
       </div>
@@ -187,23 +132,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Error titleLink and textLink, close
       </div>
@@ -219,23 +153,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Success everything notification, close
       </div>
@@ -251,23 +174,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Neutral, close
       </div>
@@ -283,23 +195,12 @@ exports[`Storyshots Notification Error 1`] = `
       disabled={undefined}
       onClick={[Function]}
       onKeyPress={[Function]}
-      primary={undefined}
       role="button"
-      rounded={undefined}
-      secondary={undefined}
-      small={undefined}
-      success={undefined}
       tabIndex="0"
-      transparent={undefined}
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-marginBottom-p1pxzi rn-marginLeft-1cjg8pu rn-marginRight-acz6fz rn-marginTop-1mnahxq rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
-        disabled={undefined}
-        primary={undefined}
-        rounded={undefined}
-        secondary={undefined}
-        small={undefined}
       >
         Netural everything notification, close
       </div>
