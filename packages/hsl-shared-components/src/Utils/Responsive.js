@@ -10,14 +10,17 @@ import head from 'lodash/fp/head';
 import isUndefined from 'lodash/isUndefined';
 
 function getScreenSize(width, props) {
-  // Get sizes that have are defined in props
+  // Get sizes that are defined in props
   const sizes = omitBy((val, key) => (isUndefined(props[key])))(props.theme.sizes);
+  // Try finding minWidth
   let minWidth = flow(
     orderBy(x => (x), 'desc'),
     find(x => (width >= x))
   )(sizes);
-
   if (!minWidth) {
+    // no min width found
+    // (example only large and medium props defined and screen width is 500xp)
+    // Find the smallest defined size (in the example its medium)
     minWidth = flow(
     orderBy(x => (x), 'asc'),
     head()
