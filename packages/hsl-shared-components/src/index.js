@@ -26,6 +26,7 @@ import Article from './Article';
 import Main from './Main';
 import Section from './Section';
 import Checkbox from './Checkbox';
+import Theme from './Theme';
 
 
 export {
@@ -82,5 +83,6 @@ export {
   Article,
   Main,
   Section,
-  Checkbox
+  Checkbox,
+  Theme,
 };
