@@ -10,6 +10,7 @@ import Article from '../Article';
 import Main from '../Main';
 import Section from '../Section';
 import Checkbox from '../Checkbox';
+import TextInput from '../TextInput';
 
 export {
   Text,
@@ -39,5 +40,6 @@ export {
   Article,
   Main,
   Section,
-  Checkbox
+  Checkbox,
+  TextInput
 };
