@@ -94,10 +94,10 @@ const TouchableView = styled(({
     border-color: ${props.theme.colors.primary.hslGreen};
     background-color: ${props.theme.colors.primary.hslGreen};
   `}
-  ${props => (props.hover || props.active || props.focus) && !props.primary && `
+  ${props => (props.hover || props.active) && !props.primary && `
       border-color:  ${props.theme.colors.primary.hslBlue};
   `}
-  ${props => (props.hover || props.active || props.focus) && props.primary && `
+  ${props => (props.hover || props.active) && props.primary && `
       background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
   `}
   ${props => props.disabled && `

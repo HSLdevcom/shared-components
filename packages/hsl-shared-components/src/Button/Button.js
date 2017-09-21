@@ -1,7 +1,6 @@
 import React from 'react';
-import styled from 'styled-components/primitives';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Text from '../Typography';
 import View from '../View';
 import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
@@ -34,37 +33,6 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
-const TouchableText = styled(({
-  hover,
-  active,
-  focus,
-  primary,
-  success,
-  secondary,
-  transparent,
-  small,
-  disabled,
-  rounded,
-  ...rest
-}) => (
-  <Text {...rest} />
-))`
-  color: ${props => props.theme.colors.primary.hslBlue};
-  font-size: ${props => size('fontSize', props.primary, props.small)};
-  font-weight: 500;
-  text-align: center;
-  margin: 0 ${utilsSize(25, true)}px;
-  ${props => props.primary && `
-    color: ${props.theme.colors.background.hslWhite};
-  `}
-  ${props => !props.primary && props.rounded && `
-    color: ${props.theme.colors.primary.hslGrey};
-  `}
-  ${props => props.disabled && `
-    color: ${props.theme.colors.misc.greyLight};
-  `}
-`;
-
 const TouchableView = styled(({
   hover,
   active,
@@ -79,6 +47,13 @@ const TouchableView = styled(({
 }) => (
   <View {...rest} />
 ))`
+
+  color: ${props => props.theme.colors.primary.hslBlue};
+  font-size: ${props => size('fontSize', props.primary, props.small)};
+  font-weight: 500;
+  text-align: center;
+
+  cursor: pointer;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
   border-style: solid;
@@ -86,6 +61,7 @@ const TouchableView = styled(({
   border-color: ${props => props.theme.colors.misc.greyLight};
   background-color: ${props => props.theme.colors.background.hslWhite};
   ${props => props.primary && `
+    color: ${props.theme.colors.background.hslWhite};
     border-radius: ${utilsSize(40)};
     border-color: ${props.theme.colors.primary.hslBlue};
     background-color: ${props.theme.colors.primary.hslBlue};
@@ -94,13 +70,28 @@ const TouchableView = styled(({
     border-color: ${props.theme.colors.primary.hslGreen};
     background-color: ${props.theme.colors.primary.hslGreen};
   `}
-  ${props => (props.hover || props.active || props.focus) && !props.primary && `
+  ${props => !props.primary && props.rounded && `
+    color: ${props.theme.colors.primary.hslGrey};
+  `}
+
+  &:hover {
+    ${props => !props.primary && !props.disabled && `
+        border-color:  ${props.theme.colors.primary.hslBlue};
+    `}
+    ${props => props.primary && !props.disabled && `
+        background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
+    `}
+  }
+
+  ${props => (props.hover) && !props.primary && `
       border-color:  ${props.theme.colors.primary.hslBlue};
   `}
-  ${props => (props.hover || props.active || props.focus) && props.primary && `
+  ${props => (props.hover) && props.primary && `
       background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
   `}
+
   ${props => props.disabled && `
+    color: ${props.theme.colors.misc.greyLight};
     border-color: ${props.theme.colors.misc.greyXLight};
     background-color: ${props.primary ? props.theme.colors.misc.greyXLight : props.theme.colors.background.hslWhite};
   `}
@@ -138,21 +129,7 @@ const Button = styled(({
         innerRef={innerRef}
         accessibilityRole="button"
       >
-        {
-          React.isValidElement(children) ?
-            children :
-            (<TouchableText
-              primary={primary}
-              success={success}
-              secondary={secondary}
-              disabled={disabled}
-              transparent={transparent}
-              rounded={rounded}
-              small={small}
-            >
-              {children}
-            </TouchableText>)
-        }
+        {children}
       </TouchableView>
     </Touchable>
 ))``;
