@@ -58,6 +58,17 @@ In the desired react class use named imports to get the components needed:
 ```
   react-native link react-native-svg
 ```
+Add ResponsiveProvider to project root
+```
+import { ResponsiveProvider } from 'hsl-shared-components';
+
+...
+
+<ResponsiveProvider>
+  <App ... />
+</ResponsiveProvider>
+
+```
 
 ### Writing components ###
 

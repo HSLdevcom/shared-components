@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { Section, Text } from 'hsl-shared-components';
+import { Section, Text, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -12,7 +12,9 @@ storiesOf('Section', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <ScrollView>{getStory()}</ScrollView>
+      <ResponsiveProvider>
+        <ScrollView>{getStory()}</ScrollView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('Default', () => {
     const content = text('Content', 'Some content');

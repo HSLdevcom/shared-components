@@ -4,7 +4,7 @@ import { createStore, combineReducers } from 'redux';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button, Notification } from 'hsl-shared-components';
+import { Button, Notification, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -24,7 +24,9 @@ stories.addDecorator(story =>
 );
 stories.addDecorator(getStory => (
   <ThemeProvider theme={Theme}>
-    {getStory()}
+    <ResponsiveProvider>
+      {getStory()}
+    </ResponsiveProvider>
   </ThemeProvider>));
 
 stories.addWithJSX('Error', () =>
