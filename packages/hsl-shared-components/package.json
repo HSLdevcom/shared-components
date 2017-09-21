@@ -40,6 +40,7 @@
   "scripts": {
     "prepublish": "babel src/ --out-dir lib/ --ignore .test.js",
     "build:watch": "babel src/ --out-dir lib/ --watch --ignore .test.js",
+    "build": "babel src/ --out-dir lib/",
     "test": "jest",
     "es-lint": "eslint ."
   },
