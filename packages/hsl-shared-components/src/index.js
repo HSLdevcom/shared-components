@@ -25,6 +25,7 @@ import Footer from './Footer';
 import Article from './Article';
 import Main from './Main';
 import Section from './Section';
+import { ResponsiveProvider } from './utils';
 import Checkbox from './Checkbox';
 
 
@@ -82,5 +83,6 @@ export {
   Article,
   Main,
   Section,
+  ResponsiveProvider,
   Checkbox
 };

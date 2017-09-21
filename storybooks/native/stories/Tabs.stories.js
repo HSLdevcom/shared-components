@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, number } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { Tabs, Tab, Text } from 'hsl-shared-components';
+import { Tabs, Tab, Text, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -14,7 +14,9 @@ storiesOf('Tabs', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <CenterView>{getStory()}</CenterView>
+      <ResponsiveProvider>
+        <CenterView>{getStory()}</CenterView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('Default', () => {
     const options = {

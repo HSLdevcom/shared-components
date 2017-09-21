@@ -4,7 +4,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeed, NewsFeedItem } from 'hsl-shared-components';
+import { NewsFeed, NewsFeedItem, ResponsiveProvider } from 'hsl-shared-components';
 
 import Theme from './../themes/themes.hsl';
 
@@ -14,7 +14,9 @@ const stories = storiesOf('NewsFeed', module);
 stories.addDecorator(withKnobs);
 stories.addDecorator(getStory => (
   <ThemeProvider theme={Theme}>
-    {getStory()}
+    <ResponsiveProvider>
+      {getStory()}
+    </ResponsiveProvider>
   </ThemeProvider>));
 
 const TODAY_2PM = new Date();
