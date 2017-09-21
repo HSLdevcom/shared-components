@@ -3,9 +3,8 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons, ButtonWithText } from 'hsl-shared-components';
+import { Button, RoundButton, Icons, ButtonWithText, Theme } from 'hsl-shared-components';
 
-import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
 
 storiesOf('Button', module)

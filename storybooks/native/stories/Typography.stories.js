@@ -2,9 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean, select } from '@storybook/addon-knobs';
 import { Text, H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from 'hsl-shared-components';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider, Theme } from 'styled-components';
 
-import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
 
 storiesOf('Typography', module)

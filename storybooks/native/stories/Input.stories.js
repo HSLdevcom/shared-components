@@ -2,9 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { TextInput } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { TextInput, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 
@@ -20,4 +18,3 @@ storiesOf('Input/TextInput', module)
     const error = boolean('Error', false);
     return (<TextInput placeholder={placeholder} focus={focus} error={error} />);
   }, { displayName: 'TextInput' });
-

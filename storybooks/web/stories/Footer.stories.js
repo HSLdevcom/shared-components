@@ -4,10 +4,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { action } from '@storybook/addon-actions';
 
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
-
+import { Footer, Text, Icons, ButtonWithText, Theme } from 'hsl-shared-components';
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>

@@ -4,9 +4,7 @@ import { createStore, combineReducers } from 'redux';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button, Notification } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Button, Notification, Theme } from 'hsl-shared-components';
 
 const store = createStore(
   combineReducers({

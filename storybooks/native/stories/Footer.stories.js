@@ -2,9 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Footer, Text, Icons, ButtonWithText, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 

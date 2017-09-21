@@ -3,12 +3,9 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Checkbox } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Checkbox, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
-
 
 storiesOf('Checkbox', module)
   .addDecorator(withKnobs)
