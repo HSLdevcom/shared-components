@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
 import PropTypes from 'prop-types';
-import Button from '../Button';
+import Button from './Button';
 import View from '../View';
 import { size as utilsSize } from '../utils';
 
 const sizeMap = {
   button: {
-    default: utilsSize(60),
-    small: utilsSize(50)
+    default: utilsSize(45),
+    small: utilsSize(36)
   },
   icon: {
     default: utilsSize(25),
@@ -31,7 +31,8 @@ const StyledView = styled(({ small, ...rest }) => (
 const RoundButton = styled(({ children, small, ...rest }) => (
   <Button
     secondary
-    rounded
+    small={small}
+    noPadding
     {...rest}
   >
     <StyledView small={small}>

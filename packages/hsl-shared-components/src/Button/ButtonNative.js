@@ -44,12 +44,12 @@ const TouchableText = styled(({
   transparent,
   small,
   disabled,
-  rounded,
+  square,
   ...rest
 }) => (
   <Text {...rest} />
 ))`
-  color: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.colors.primary.hslGrey};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
@@ -57,8 +57,8 @@ const TouchableText = styled(({
   ${props => props.primary && `
     color: ${props.theme.colors.background.hslWhite};
   `}
-  ${props => !props.primary && props.rounded && `
-    color: ${props.theme.colors.primary.hslGrey};
+  ${props => !props.primary && props.square && `
+    color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.disabled && `
     color: ${props.theme.colors.misc.greyLight};
@@ -74,13 +74,13 @@ const TouchableView = styled(({
   secondary,
   transparent,
   small,
-  rounded,
+  square,
   ...rest
 }) => (
   <View {...rest} />
 ))`
   height: ${props => size('height', props.primary, props.small)};
-  border-radius: ${props => (props.rounded ? utilsSize(40) : utilsSize(4))};
+  border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
   border-width: 1px;
   border-color: ${props => props.theme.colors.misc.greyLight};
@@ -115,7 +115,7 @@ const Button = styled(({
   secondary,
   disabled,
   transparent,
-  rounded,
+  square,
   small,
   onPress,
   onLongPress,
@@ -132,7 +132,7 @@ const Button = styled(({
         secondary={secondary}
         disabled={disabled}
         transparent={transparent}
-        rounded={rounded}
+        square={square}
         small={small}
         {...rest}
         innerRef={innerRef}
@@ -147,7 +147,7 @@ const Button = styled(({
               secondary={secondary}
               disabled={disabled}
               transparent={transparent}
-              rounded={rounded}
+              square={square}
               small={small}
             >
               {children}
@@ -163,7 +163,7 @@ Button.propTypes = {
   success: PropTypes.bool,
   transparent: PropTypes.bool,
   disabled: PropTypes.bool,
-  rounded: PropTypes.bool,
+  square: PropTypes.bool,
   small: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
