@@ -22,11 +22,10 @@ function getScreenSize(width, props) {
     // (example only large and medium props defined and screen width is 500xp)
     // Find the smallest defined size (in the example its medium)
     minWidth = flow(
-    orderBy(x => (x), 'asc'),
-    head()
-  )(sizes);
+      orderBy(x => (x), 'asc'),
+      head
+    )(sizes);
   }
-
   return findKey(value => (value === minWidth))(sizes);
 }
 
