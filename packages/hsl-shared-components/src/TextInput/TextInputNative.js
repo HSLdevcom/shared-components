@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
 import { lighten } from 'polished';
-import _ from 'lodash';
+import omit from 'lodash/fp/omit';
 import { size } from '../utils';
 
 const Input = styled.TextInput`
@@ -70,7 +70,7 @@ class TextInput extends React.Component {
 
   render() {
     return (<Input
-      {..._.omit(this.props, ['onChange', 'onBlur', 'onFocus'])}
+      {...omit(this.props, ['onChange', 'onBlur', 'onFocus'])}
       value={this.state.value}
       focus={this.state.focus}
       onBlur={this.onBlur}
