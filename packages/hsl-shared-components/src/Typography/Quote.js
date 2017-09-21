@@ -8,7 +8,7 @@ import Text from './Text';
 const View = styled.View`
   border-style: solid;
   border-left-width: 3px;
-  border-left-color: ${props => props.theme.colors.misc.greyLight};
+  border-left-color: ${props => props.theme.colors.primary.hslGreyLight};
 `;
 
 const Quote = Text.extend`

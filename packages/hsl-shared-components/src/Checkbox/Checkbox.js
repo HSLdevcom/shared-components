@@ -15,13 +15,13 @@ export const Box = View.extend`
   border-radius: ${size(4)};
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   ${props => props.checked && `
     border-color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.error && `
-    border-color: ${props.theme.colors.misc.error};
-    background-color: ${props.theme.colors.misc.errorBackground};
+    border-color: ${props.theme.error.color.primary};
+    background-color: ${props.theme.error.color.secondary};
   `}
 `;
 

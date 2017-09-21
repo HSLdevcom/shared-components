@@ -23,7 +23,7 @@ const ButtonWrapper = View.extend`
 const List = View.extend`
   flex-direction: column;
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-width: 1px;
   border-bottom-width: 0;
 `;

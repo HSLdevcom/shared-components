@@ -21,15 +21,15 @@ const Input = styled.input `
     border-color: ${props.theme.primary};
   `}
   ${props => props.error && `
-    color: ${props.theme.colors.misc.error};
-    border-color: ${props.theme.colors.misc.error};
-    background-color: ${props.theme.colors.misc.errorBackground};
+    color: ${props.theme.error.color.primary};
+    border-color: ${props.theme.error.color.primary};
+    background-color: ${props.theme.error.color.secondary};
   `}
   &:focus {
     ${props => props.error && `
-      color: ${props.theme.colors.misc.error};
-      border-color: ${props.theme.colors.misc.error};
-      background-color: ${props.theme.colors.misc.errorBackground};
+      color: ${props.theme.error.color.primary};
+      border-color: ${props.theme.error.color.primary};
+      background-color: ${props.theme.error.color.secondary};
     `}
   }
 `;

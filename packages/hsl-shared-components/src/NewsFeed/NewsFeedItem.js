@@ -17,7 +17,7 @@ const StyledLi = styled.li`
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 1.25rem 1.25rem 1.75rem;
-  border: 1px solid ${props => props.theme.colors.misc.greyLight};
+  border: 1px solid ${props => props.theme.colors.primary.hslGreyLight};
   border-bottom-width: 0;
   &:last-child {
     border-bottom-width: 1px;

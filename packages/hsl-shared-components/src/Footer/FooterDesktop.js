@@ -40,7 +40,7 @@ const AccountSMWrapper = WindowSize(styled(({ width, ...rest }) => (
   padding-vertical: ${size(45)};
   ${props => !props.frontpage && `
     border-style: solid;
-    border-color: ${props.theme.colors.misc.greyLight};
+    border-color: ${props.theme.colors.primary.hslGreyLight};
     border-top-width: 2px;
 
   `}
@@ -89,7 +89,7 @@ const SocialMedia = WindowSize(styled(({ width, ...rest }) => (
   padding-top: ${size(45)};
   padding-left: ${size(20)};
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-top-width: 2px;
   ${props => (props.width > props.theme.sizes.large) && `
     padding-top: 0;
@@ -111,7 +111,7 @@ const Info = View.extend`
   padding-top: ${size(25)};
   padding-bottom: ${size(64)}
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-top-width: 2px;
   align-items: flex-start;
 `;

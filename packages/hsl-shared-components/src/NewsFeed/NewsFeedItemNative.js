@@ -39,7 +39,7 @@ const StyledLi = View.extend`
   align-items: center;
   padding: 15px 15px 15px 15px;
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-bottom-width: 1px;
 `;
 
