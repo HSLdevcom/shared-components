@@ -11,6 +11,7 @@ import Main from '../Main';
 import Section from '../Section';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
+import Theme from '../Theme';
 
 export {
   Text,
@@ -41,5 +42,6 @@ export {
   Main,
   Section,
   Checkbox,
-  TextInput
+  TextInput,
+  Theme,
 };
