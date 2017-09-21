@@ -4,7 +4,8 @@
   ],
   "plugins": [
     "react",
-    "import"
+    "import",
+    "lodash"
   ],
   "parserOptions": {
     "ecmaVersion": 2017,
@@ -34,7 +35,8 @@
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "space-before-function-paren": ["error", "never"],
     "import/no-extraneous-dependencies": 0,
-    "import/named": "error"
+    "import/named": "error",
+    "lodash/import-scope": "error"
   },
   "globals": {
   },

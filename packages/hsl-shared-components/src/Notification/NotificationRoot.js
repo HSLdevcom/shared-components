@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import styled, { css } from 'styled-components';
-import _ from 'lodash';
+import delay from 'lodash/delay';
+import isEqual from 'lodash/fp/isEqual';
+import has from 'lodash/fp/has';
+import isEmpty from 'lodash/isEmpty';
 import Text, { H3 } from '../Typography';
 import Icons from '../Icons';
 import Div from '../Div';
@@ -159,8 +162,8 @@ export default class NotificationRoot extends Component {
   }
   componentDidUpdate(prevProps) {
     if (
-      !_.isEmpty(this.props.notification) &&
-      !_.isEqual(this.props.notification, prevProps.notification)
+      !isEmpty(this.props.notification) &&
+      !isEqual(this.props.notification, prevProps.notification)
     ) {
       window.scrollTo(0, 0);
       this.notificationBar.animate(
@@ -174,8 +177,8 @@ export default class NotificationRoot extends Component {
         }
       );
       if (this.props.notification.timeout === true) {
-        this.timerId = _.delay(this.cleanWithAnimation,
-          _.has(this.props.notification, 'timeoutDelay') ? this.props.notification.timeoutDelay : this.props.timeoutDelay);
+        this.timerId = delay(this.cleanWithAnimation,
+          has(this.props.notification, 'timeoutDelay') ? this.props.notification.timeoutDelay : this.props.timeoutDelay);
       }
     }
   }
@@ -191,13 +194,13 @@ export default class NotificationRoot extends Component {
     }
   }
   cleanWithoutAnimation() {
-    if (!_.isEmpty(this.props.notification)) {
+    if (!isEmpty(this.props.notification)) {
       this.clearPreviousNotification();
       this.props.clean();
     }
   }
   cleanWithAnimation() {
-    if (!_.isEmpty(this.props.notification)) {
+    if (!isEmpty(this.props.notification)) {
       this.notificationBar.animate(
         [
           { maxHeight: `${this.notificationBar.clientHeight}px` },
@@ -207,7 +210,7 @@ export default class NotificationRoot extends Component {
           duration: 100
         }
       );
-      _.delay(() => this.props.clean(), 100);
+      delay(() => this.props.clean(), 100);
     }
   }
 
