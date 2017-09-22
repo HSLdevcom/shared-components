@@ -721,6 +721,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          rounded={true}
           style={
             Array [
               Object {
@@ -734,7 +735,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "borderRadius": 35,
                   "borderStyle": "solid",
                   "borderWidth": 1,
-                  "height": 39.375,
+                  "height": 43.75,
                 },
                 Array [
                   Object {},
@@ -762,7 +763,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#888888",
-                    "fontSize": 14,
+                    "fontSize": 15.75,
                     "fontWeight": "500",
                     "marginBottom": 0,
                     "marginLeft": 21.875,
