@@ -137,10 +137,10 @@ exports[`Storyshots Button default 1`] = `
           Object {
             "backgroundColor": "#ffffff",
             "borderColor": "#b7b7b7",
-            "borderRadius": 3.5,
+            "borderRadius": 35,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "height": 39.375,
+            "height": 43.75,
           },
           Array [
             Object {},
@@ -166,8 +166,8 @@ exports[`Storyshots Button default 1`] = `
           },
           Array [
             Object {
-              "color": "#007ac9",
-              "fontSize": 14,
+              "color": "#888888",
+              "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,
               "marginLeft": 21.875,
@@ -298,7 +298,7 @@ exports[`Storyshots Button round button 1`] = `
             "borderRadius": 35,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "height": 39.375,
+            "height": 43.75,
           },
           Array [
             Object {},
@@ -380,10 +380,10 @@ exports[`Storyshots Button secondary 1`] = `
           Object {
             "backgroundColor": "#ffffff",
             "borderColor": "#b7b7b7",
-            "borderRadius": 3.5,
+            "borderRadius": 35,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "height": 39.375,
+            "height": 43.75,
           },
           Array [
             Object {},
@@ -409,8 +409,8 @@ exports[`Storyshots Button secondary 1`] = `
           },
           Array [
             Object {
-              "color": "#007ac9",
-              "fontSize": 14,
+              "color": "#888888",
+              "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,
               "marginLeft": 21.875,
