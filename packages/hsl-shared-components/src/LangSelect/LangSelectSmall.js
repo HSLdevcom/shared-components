@@ -6,7 +6,7 @@ import { darken } from 'polished';
 
 import Icons from '../Icons';
 import LangButton from './LangButton';
-import Div from '../Div';
+import View from '../View';
 import { P } from '../Typography';
 import { size } from '../utils';
 
@@ -20,32 +20,17 @@ const StyledP = P.extend`
   color: ${props => props.theme.colors.background.hslWhite}
 `;
 
-const StyledDiv = Div.extend`
+const StyledDiv = View.extend`
   overflow: hidden;
   padding: 0;
   align-items: center;
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
-  .selected-language {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    svg {
-      margin-left: 0.375rem;
-      fill: currentColor;
-    }
-  }
+  ${props => `background: ${props.theme.background};`}
 `;
 
-const SelectWrapper = Div.extend`
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+const SelectWrapper = View.extend`
+  ${props => `background: ${props.theme.background};`}
   border-radius: 3px;
-  border: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
-  ${LangButton} {
-    &:hover {
-
-    }
-  }
+  border: 1px solid ${props => darken(0.1, props.theme.primary)};
 `;
 
 
@@ -73,14 +58,13 @@ class LangSelectSmall extends React.Component {
       <StyledDiv>
         <LanguageButton
           onPress={this.toggleLangSelect}
-          onClick={this.toggleLangSelect} /* remove */
         >
           <StyledP>
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
           </StyledP>
           <Icons.ArrowDown
-            height="0.75rem"
-            width="0.75rem"
+            height="0.75"
+            width="0.75"
             fill={this.props.theme.colors.background.hslWhite}
           />
         </LanguageButton>
@@ -101,7 +85,7 @@ class LangSelectSmall extends React.Component {
                       this.toggleLangSelect();
                     }}
                   >
-                    {lang.name}
+                    <StyledP>{lang.name}</StyledP>
                   </LanguageButton>
                 )
               )

@@ -12,6 +12,7 @@ import Section from '../Section';
 import { ResponsiveProvider } from '../utils';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
+import LangSelect, { LangSelectSmall, LangButton } from '../LangSelect';
 
 export {
   Text,
@@ -43,5 +44,8 @@ export {
   Section,
   ResponsiveProvider,
   Checkbox,
-  TextInput
+  TextInput,
+  LangSelect,
+  LangSelectSmall,
+  LangButton
 };

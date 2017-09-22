@@ -12,6 +12,7 @@ function loadStories() {
   require('../stories/Footer.stories.js');
   require('../stories/Icon.stories.js');
   require('../stories/Input.stories.js');
+  require('../stories/LangSelect.stories.js');
   require('../stories/Main.stories.js');
   require('../stories/Newsfeed.stories.js');
   require('../stories/Section.stories.js');
