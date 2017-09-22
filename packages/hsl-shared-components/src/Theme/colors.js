@@ -20,6 +20,7 @@ const colors = {
   background: {
     hslWhite: '#ffffff',
     hslBlueLight: '#eff9ff',
+    hslGreyDark: '#333333',
     hslGreyLight: '#eef1f3',
     hslGreyXLight: '#e4e4e4',
   },
