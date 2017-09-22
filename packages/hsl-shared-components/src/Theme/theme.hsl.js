@@ -2,8 +2,8 @@ import Media, { sizes } from './media-templates';
 import colors from './colors';
 
 const hslTheme = {
-  Media, // used in components
-  sizes, // used by utils
+  Media, // Function to create CSS Media Queries – Deprecated
+  sizes, // 'Media query' screen sizes used by Responsive container
   colors, // HSL brand colors – use these instead of your own where possible
   font: {
     family: '"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif"',
