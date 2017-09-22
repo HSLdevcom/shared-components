@@ -43,6 +43,7 @@ const TouchableView = styled(({
   transparent,
   small,
   square,
+  noPadding,
   ...rest
 }) => (
   <View {...rest} />
