@@ -55,13 +55,13 @@ const TouchableText = styled(({
   text-align: center;
   margin: 0 ${utilsSize(25, true)}px;
   ${props => props.primary && `
-    color: ${props.theme.colors.background.hslWhite};
+    color: ${props.theme.colors.primary.hslWhite};
   `}
   ${props => !props.primary && props.square && `
     color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.disabled && `
-    color: ${props.theme.colors.misc.greyLight};
+    color: ${props.theme.colors.primary.hslGreyLight};
   `}
 `;
 
@@ -83,7 +83,7 @@ const TouchableView = styled(({
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   background-color: ${props => props.theme.colors.background.hslWhite};
   ${props => props.primary && `
     border-radius: ${utilsSize(40)};
@@ -102,7 +102,7 @@ const TouchableView = styled(({
   `}
   ${props => props.disabled && `
     border-color: ${props.theme.colors.misc.greyXLight};
-    background-color: ${props.primary ? props.theme.colors.misc.greyXLight : props.theme.colors.background.hslWhite};
+    background-color: ${props.primary ? props.theme.colors.background.greyXLight : props.theme.colors.background.hslWhite};
   `}
   ${props => props.transparent && `
     background-color: transparent;
