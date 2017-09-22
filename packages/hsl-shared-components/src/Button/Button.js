@@ -12,8 +12,8 @@ const sizeMap = {
       small: utilsSize(16)
     },
     default: {
-      default: utilsSize(16),
-      small: utilsSize(14)
+      default: utilsSize(18),
+      small: utilsSize(16)
     }
   },
   height: {
@@ -22,8 +22,8 @@ const sizeMap = {
       small: utilsSize(45)
     },
     default: {
-      default: utilsSize(45),
-      small: utilsSize(36)
+      default: utilsSize(50),
+      small: utilsSize(45)
     }
   }
 };

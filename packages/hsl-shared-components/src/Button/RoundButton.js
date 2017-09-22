@@ -7,8 +7,8 @@ import { size as utilsSize } from '../utils';
 
 const sizeMap = {
   button: {
-    default: utilsSize(45),
-    small: utilsSize(36)
+    default: utilsSize(50),
+    small: utilsSize(45)
   },
   icon: {
     default: utilsSize(25),
