@@ -32,6 +32,7 @@ const hslTheme = {
   },
   // Layer system for your app
   // Use with z-index or comparable setting
+  // If you need to make some of your own, use following method: myLayer = theme.layers.top + 1
   // Very important in order to keep developer sanity
   layers: {
     modal: 900,
