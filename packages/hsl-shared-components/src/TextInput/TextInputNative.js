@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
-import { lighten } from 'polished';
 import omit from 'lodash/fp/omit';
 import { size } from '../utils';
 
@@ -13,9 +12,9 @@ const Input = styled.TextInput`
   border-radius: ${size(4)};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => lighten(0.185, props.theme.colors.primary.hslGrey)};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   ${props => props.focus && `
-    color: ${props.theme.colors.primary.hslGreyDark};
+    color: ${props.theme.font.colors.default};
     border-color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.error && `

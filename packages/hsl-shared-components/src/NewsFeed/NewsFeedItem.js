@@ -28,7 +28,7 @@ const StyledLi = styled.li`
     flex-direction: column;
     .top {
       font-size: ${size(11)};
-      color: ${props => props.theme.colors.primary.hslGrey};
+      color: ${props => props.theme.font.colors.secondary};
       .category {
         text-transform: uppercase;
       }
@@ -37,7 +37,7 @@ const StyledLi = styled.li`
       margin-top: 1rem;
       padding-bottom: 0.75rem;
       font-size: ${size(24)};
-      color: ${props => props.theme.colors.primary.hslBlue}
+      color: ${props => props.theme.font.colors.highlight}
     }
   }
   ${Image} {

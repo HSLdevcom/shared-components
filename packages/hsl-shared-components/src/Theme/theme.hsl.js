@@ -8,7 +8,7 @@ const hslTheme = {
   font: {
     family: '"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif"',
     familyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif"',
-    colors: {
+    colors: { // Colors that should be used inside body text
       default: colors.primary.hslGreyDark, // Used by default text
       highlight: colors.primary.hslBlue, // Used to highlight text from other e.g used for links
       secondary: colors.primary.hslGrey, // Text with low visual impact e.g. disabled

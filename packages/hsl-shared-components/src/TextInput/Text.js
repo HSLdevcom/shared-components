@@ -13,11 +13,11 @@ const Input = styled.input `
   outline: 0;
   transition: border-color 0.5s, color 0.5s;
   &:focus {
-    color: ${props => props.theme.colors.primary.hslGreyDark};
+    color: ${props => props.theme.font.colors.default};
     border-color: ${props => props.theme.colors.primary.hslBlue};
   }
   ${props => props.focus && `
-    color: ${props.theme.colors.primary.hslGreyDark};
+    color: ${props.theme.font.colors.default};
     border-color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.error && `

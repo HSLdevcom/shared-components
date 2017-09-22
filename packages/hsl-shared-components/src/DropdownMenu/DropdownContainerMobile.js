@@ -11,7 +11,7 @@ const StyledDiv = Div.extend`
   font-size: 1rem;
   padding: 1.5rem 0;
   ${List} {
-    color: #000000;
+    color: ${props => props.theme.colors.primary.hslGreyDark};
   }
   ${ListItem} {
     color: ${props => props.theme.colors.primary.hslBlue};

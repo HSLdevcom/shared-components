@@ -15,7 +15,7 @@ const StyledView = View.extend`
 
 const ButtonWrapper = View.extend`
   padding: 25px 50px 25px 50px;
-  background-color: #eef1f3;
+  background-color: ${props => props.theme.colors.background.hslGreyLight};
   justify-content: center;
   align-items: center;
 `;

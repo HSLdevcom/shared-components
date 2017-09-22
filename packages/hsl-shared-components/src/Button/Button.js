@@ -55,7 +55,7 @@ const TouchableText = styled(({
   text-align: center;
   margin: 0 ${utilsSize(25, true)}px;
   ${props => props.primary && `
-    color: ${props.theme.colors.background.hslWhite};
+    color: ${props.theme.colors.primary.hslWhite};
   `}
   ${props => !props.primary && props.rounded && `
     color: ${props.theme.colors.primary.hslGrey};
