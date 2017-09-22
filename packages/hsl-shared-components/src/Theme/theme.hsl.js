@@ -7,29 +7,32 @@ const primaryWhite = '#ffffff';
 const hslTheme = {
   Media, // used in components
   sizes, // used by utils
-  colors,
+  colors, // HSL brand colors
   font: {
     family: '"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif"',
     familyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif"',
     color: {
-      default: colors.primary.hslGreyDark,
-      primary: colors.primary.hslBlue,
-      secondary: colors.primary.hslGreyLight,
+      default: colors.primary.hslGreyDark, // Used by default text
+      primary: colors.primary.hslBlue, // Used to highlight text from other e.g used for links
+      secondary: colors.primary.hslGreyLight, // Text with low visual impact e.g. disabled
     },
-    size: '16px',
-    weight: '500',
-    letterSpacing: '-0.5px',
+    size: '16px', // Default font size,
+    weight: '500', // Default font weight
+    letterSpacing: '-0.5px', // Default letter spacing
   },
   error: {
     color: {
-      primary: colors.secondary.hslMagenta,
-      secondary: colors.secondary.hslMagentaDark,
+      primary: colors.secondary.hslMagenta, // E.g for error notification text color
+      secondary: colors.secondary.hslMagentaDark, // E.g for error notification background color
     },
   },
   logo: {
     height: '4rem',
     fill: colors.background.hslWhite,
   },
+  // Layer system for your app
+  // Use with z-index or comparable setting
+  // Very important in order to keep developer sanity
   layers: {
     modal: 900,
     overlay: 800,
@@ -38,6 +41,10 @@ const hslTheme = {
     top: 100,
     middle: 50,
     bottom: 0,
+  },
+  custom: {
+    // Set your project-specific theme variables via this key
+    // These will never be overwritten by package updates etc.
   },
   primary: primaryBlue,
   primaryText: primaryWhite,
