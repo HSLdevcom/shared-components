@@ -4,11 +4,13 @@ import JSXAddon from 'storybook-addon-jsx';
 import { action } from '@storybook/addon-actions';
 
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText, Theme } from 'hsl-shared-components';
+import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    {story()}
+    <ResponsiveProvider>
+      {story()}
+    </ResponsiveProvider>
   </ThemeProvider>
 ));
 

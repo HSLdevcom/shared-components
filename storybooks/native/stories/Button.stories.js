@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons, ButtonWithText, Theme } from 'hsl-shared-components';
+import { Button, RoundButton, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
 
@@ -11,7 +11,9 @@ storiesOf('Button', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <CenterView>{getStory()}</CenterView>
+      <ResponsiveProvider>
+        <CenterView>{getStory()}</CenterView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('default', () => {
     const hover = boolean('Hover', false);

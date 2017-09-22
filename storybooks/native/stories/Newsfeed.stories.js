@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeedItem, NewsFeed, Theme } from 'hsl-shared-components';
+import { NewsFeedItem, NewsFeed, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 
@@ -17,7 +17,9 @@ storiesOf('NewsFeed', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
-      <ScrollView>{getStory()}</ScrollView>
+      <ResponsiveProvider>
+        <ScrollView>{getStory()}</ScrollView>
+      </ResponsiveProvider>
     </ThemeProvider>))
   .add('News feed', () => (
     <NewsFeed more={{ text: 'Näytä lisää', action: action('Button pressed') }}>

@@ -3,9 +3,9 @@ import cx from 'classnames';
 import { Platform } from 'react-primitives';
 import { rem } from 'polished';
 
-import { Desktop, Mobile, WindowSize } from './Utils/';
+import { Desktop, Mobile, WindowSize, Responsive, ResponsiveProvider } from './Utils/';
 
-export { Desktop, Mobile, WindowSize };
+export { Desktop, Mobile, WindowSize, Responsive, ResponsiveProvider };
 
 export const IS_NATIVE = Platform.OS !== 'web';
 

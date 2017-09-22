@@ -5,11 +5,11 @@ exports[`Storyshots Nav default 1`] = `
   className="sc-lhVmIH bznMjy"
 >
   <header
-    className="sc-hmzhuo eRtqMp sc-ksYbfQ klbnwQ"
+    className="sc-hmzhuo eRtqMp sc-ksYbfQ jAGPhX"
   >
     <span />
     <nav
-      className="sc-hzDkRC kpsoyz sc-bRBYWo pzkSn"
+      className="sc-hzDkRC kpsoyz sc-bRBYWo icUMJw"
     >
       <span
         className="logo sc-bxivhb bUZGRr"
@@ -225,7 +225,7 @@ exports[`Storyshots Nav default 1`] = `
         </a>
       </div>
       <div
-        className="child sc-Rmtcm gwGgYM sc-csuQGl gyMyYh"
+        className="child sc-Rmtcm gwGgYM sc-csuQGl dpBqou"
         open={false}
       >
         <button
@@ -322,10 +322,10 @@ exports[`Storyshots Nav default 1`] = `
         </button>
       </div>
       <div
-        className="menu sc-iAyFgw gPlgsX sc-kkGfuU kmFagG"
+        className="menu sc-iAyFgw gPlgsX sc-kkGfuU jJdXhw"
       >
         <div
-          className="sc-hMqMXs brQeSK"
+          className="sc-hMqMXs ecnTHu"
         >
           <svg
             preserveAspectRatio="xMidYMid meet"
@@ -352,7 +352,7 @@ exports[`Storyshots Nav default 1`] = `
             </g>
           </svg>
           <span
-            className="sc-kEYyzF bdjTTB"
+            className="sc-kEYyzF jicKc"
           >
             <div
               className="large rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
@@ -1234,7 +1234,7 @@ exports[`Storyshots Nav nav item 1`] = `
 
 exports[`Storyshots Nav only title 1`] = `
 <nav
-  className="sc-hzDkRC kpsoyz scroll sc-bRBYWo doxzRL"
+  className="sc-hzDkRC kpsoyz scroll sc-bRBYWo eQNwEs"
 >
   <span
     className="logo sc-bxivhb bUZGRr"
@@ -1267,7 +1267,7 @@ exports[`Storyshots Nav only title 1`] = `
 
 exports[`Storyshots Nav scroll 1`] = `
 <nav
-  className="sc-hzDkRC kpsoyz scroll sc-bRBYWo doxzRL"
+  className="sc-hzDkRC kpsoyz scroll sc-bRBYWo eQNwEs"
 >
   <span
     className="logo sc-bxivhb bUZGRr"
@@ -1436,7 +1436,7 @@ exports[`Storyshots Nav scroll 1`] = `
     </a>
   </div>
   <div
-    className="menu sc-fMiknA bxZCMx sc-fBuWsC hbAuli"
+    className="menu sc-fMiknA bxZCMx sc-fBuWsC goSElB"
   >
     <div
       className="sc-kAzzGY jHprQs sc-cSHVUG grdgch"

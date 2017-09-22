@@ -3,7 +3,7 @@ import React from 'react';
 import { AppRegistry } from 'react-native';
 import { getStorybookUI, configure, addDecorator } from '@storybook/react-native';
 import { ThemeProvider } from 'styled-components';
-import { Theme } from 'hsl-shared-components';
+import { ResponsiveProvider, Theme } from 'hsl-shared-components';
 // eslint-disable-next-line import/extensions, import/no-unresolved
 import { loadStories } from './storyLoader';
 
@@ -14,7 +14,9 @@ configure(() => {
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
-    {story()}
+    <ResponsiveProvider>
+      {story()}
+    </ResponsiveProvider>
   </ThemeProvider>
 ));
 

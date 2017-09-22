@@ -4,7 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, ButtonWithText, Icons, Theme } from 'hsl-shared-components';
+import { Button, RoundButton, ButtonWithText, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -12,7 +12,9 @@ const stories = storiesOf('Button', module);
 stories.addDecorator(withKnobs);
 stories.addDecorator(getStory => (
   <ThemeProvider theme={Theme}>
-    {getStory()}
+    <ResponsiveProvider>
+      {getStory()}
+    </ResponsiveProvider>
   </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
