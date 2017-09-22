@@ -126,7 +126,7 @@ const InfoLinks = HorizontalView.extend`
 
 const CopyrightText = Text.extend`
   padding-left: ${size(LEFT_PADDING)};
-  color: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.font.colors.highlight};
   flex: 1;
 `;
 const InfoLinkWrapper = View.extend`

@@ -43,4 +43,3 @@ Footer.propTypes = {
 Footer.displayName = 'Footer';
 
 export default Footer;
-

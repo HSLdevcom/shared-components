@@ -122,6 +122,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -213,6 +214,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -303,6 +305,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -393,6 +396,7 @@ exports[`Storyshots Tabs Default 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -430,6 +434,7 @@ exports[`Storyshots Tabs Default 1`] = `
               "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
+              "fontWeight": "500",
             },
             undefined,
           ]
@@ -565,6 +570,7 @@ exports[`Storyshots Tabs one item 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -602,6 +608,7 @@ exports[`Storyshots Tabs one item 1`] = `
               "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
+              "fontWeight": "500",
             },
             undefined,
           ]
@@ -738,6 +745,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -829,6 +837,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -919,6 +928,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -1010,6 +1020,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                   "color": "#333333",
                   "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                   "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
@@ -1047,6 +1058,7 @@ exports[`Storyshots Tabs rounded 1`] = `
               "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
+              "fontWeight": "500",
             },
             undefined,
           ]

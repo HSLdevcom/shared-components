@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import { size } from '../utils';
 
 const Text = styled.Text`
-  color: ${props => props.theme.font.colors.default}
+  color: ${props => props.theme.font.colors.default};
   font-size: ${props => size(props.theme.font.size)};
-  font-weight: ${props => size(props.theme.font.weight)};
+  font-weight: ${props => props.theme.font.weight};
   font-family: ${props => props.theme.font.family};
 `;
 

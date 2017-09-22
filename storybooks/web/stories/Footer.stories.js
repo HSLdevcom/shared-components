@@ -64,7 +64,7 @@ stories.addWithJSX('default', () => {
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.colors.primary.hslBlue};
+    color: ${props => props.theme.font.colors.highlight};
   `;
   const info = {
     copyright: '© Copyright HSL',
@@ -127,7 +127,7 @@ stories.addWithJSX('sub site', () => {
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.font.colors.highlight};
   `;
   const info = {
     copyright: '© Copyright HSL',

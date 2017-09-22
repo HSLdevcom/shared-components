@@ -59,7 +59,7 @@ storiesOf('Footer', module)
       ]
     };
     const LinkText = Text.extend`
-      color: ${props => props.theme.primary};
+      color: ${props => props.theme.font.colors.highlight};
     `;
     const info = {
       copyright: '© Copyright HSL',
@@ -120,7 +120,7 @@ storiesOf('Footer', module)
       ]
     };
     const LinkText = Text.extend`
-      color: ${props => props.theme.primary};
+      color: ${props => props.theme.font.colors.highlight};
     `;
     const info = {
       copyright: '© Copyright HSL',

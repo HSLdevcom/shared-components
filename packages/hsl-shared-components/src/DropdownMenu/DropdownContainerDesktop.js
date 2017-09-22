@@ -12,7 +12,7 @@ import { Width } from '../Menu/Menu';
 const StyledFlex = Flex.extend``;
 
 const StyledDiv = Div.extend`
-  border-top: 1px solid ${props => props.theme.menuBorder};
+  border-top: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
   position: absolute;
   left: 0;
   right: 0;

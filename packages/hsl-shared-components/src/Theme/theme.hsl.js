@@ -14,7 +14,7 @@ const hslTheme = {
       secondary: colors.primary.hslGrey, // Text with low visual impact e.g. disabled
     },
     size: 14, // Default font size in px,
-    weight: '500', // Default font weight
+    weight: 500, // Default font weight
   },
   error: {
     color: {
