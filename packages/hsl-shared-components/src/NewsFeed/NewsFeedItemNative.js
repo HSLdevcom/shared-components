@@ -44,7 +44,7 @@ const StyledLi = View.extend`
 `;
 
 const Timestamp = Text.extend`
-  color: ${props => props.theme.secondary}
+  color: ${props => props.theme.font.colors.secondary}
 `;
 
 const Category = Timestamp.extend`

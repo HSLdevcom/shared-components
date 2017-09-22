@@ -53,7 +53,7 @@ const StyledNav = styled.nav`
   }
   padding: 0 1.25rem;
 
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   color: ${props => props.theme.colors.primary.hslWhite};
 
   .menu-enter {
@@ -137,7 +137,7 @@ const MenuWrapper = Flex.extend`
   right: 0;
   flex-direction: column;
   align-items: stretch;
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   .menu:not(.menu-leave):not(.menu-enter) {
     ${props => (props.height && `min-height: ${props.height || 0}px;`)}
   }

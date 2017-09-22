@@ -40,7 +40,7 @@ const StyledFlex = Flex.extend`
     width: ${props => props.theme.scrollNavHeight || '3.75rem'};
     justify-content: center;
   }
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   color: ${props => props.theme.colors.primary.hslWhite};
 
   ${MenuItem} {

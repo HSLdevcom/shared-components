@@ -6,7 +6,7 @@ import Div from '../Div';
 
 const Separator = Div.extend`
   height: 1px;
-  background: ${props => props.theme.background};
+  background: ${props => props.theme.colors.primary.hslBlue};
   margin-top: 10px;
 `;
 

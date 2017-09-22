@@ -21,7 +21,7 @@ const StyledDiv = Div.extend`
 
   ${StyledFlex} {
     font-size: 1.1rem;
-    background: ${props => props.theme.background};
+    background: ${props => props.theme.colors.primary.hslBlue};
     justify-content: space-between;
     padding: 2.5rem 1rem 2.5rem 10rem;
     ${props => (

@@ -23,7 +23,7 @@ const LangButton = styled(({ children, onPress, onLongPress, ...rest }) => (
   &:hover {
     cursor: pointer;
   }
-  ${props => (props.active && props.theme.radioBtnActive && `background-color: ${props.theme.radioBtnActive};`)}
+  ${props => (props.active && `background-color: ${props.theme.colors.primary.hslBlueDark};`)}
 `;
 
 

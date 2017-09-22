@@ -12,7 +12,7 @@ const LangText = Text.extend`
 `;
 
 const StyledView = View.extend`
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   justify-content: space-between;
   flex-direction: row;
   width: ${size(112)}

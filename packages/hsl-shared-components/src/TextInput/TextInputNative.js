@@ -7,13 +7,13 @@ import { size } from '../utils';
 
 const Input = styled.TextInput`
   font-size: ${size(18)};
-  ${props => props.theme.fontFamily && `font-family: ${props.theme.fontFamily};`}
-  color: ${props => props.theme.secondary};
+  font-family: ${props => props.theme.font.family};
+  color: ${props => props.theme.font.colors.secondary};
   padding: ${size(14)} ${size(18)};
   border-radius: ${size(4)};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => lighten(0.185, props.theme.secondary)};
+  border-color: ${props => lighten(0.185, props.theme.colors.primary.hslGrey)};
   ${props => props.focus && `
     color: ${props.theme.colors.primary.hslGreyDark};
     border-color: ${props.theme.colors.primary.hslBlue};

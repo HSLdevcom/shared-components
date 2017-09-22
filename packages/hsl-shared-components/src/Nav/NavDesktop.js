@@ -19,7 +19,7 @@ const StyledNav = styled.nav`
   align-items: stretch;
   white-space: nowrap;
   justify-content: flex-start;
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   color: ${props => props.theme.colors.primary.hslWhite};
   padding: 0 1rem 0 2.5rem;
   height: 9rem;
