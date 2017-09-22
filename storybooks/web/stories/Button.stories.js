@@ -48,36 +48,19 @@ stories.addWithJSX('primary', () => {
   const disabled = boolean('Disabled', false);
   const small = boolean('Small', false);
   return (
-    <div>
-      <Button
-        hover={hover}
-        active={active}
-        focus={focus}
-        disabled={disabled}
-        small={small}
-        primary
-        success={success}
-        onPress={action('press')}
-        onLongPress={action('long press')}
-      >
-        Primary Button
-      </Button>
-      <br />
-      <Button
-        hover={hover}
-        active={active}
-        focus={focus}
-        disabled={disabled}
-        small={small}
-        primary
-        success={success}
-        onPress={action('press')}
-        onLongPress={action('long press')}
-      >
-        <span>Primary Button w/ span</span>
-      </Button>
-    </div>
-  );
+    <Button
+      hover={hover}
+      active={active}
+      focus={focus}
+      disabled={disabled}
+      small={small}
+      primary
+      success={success}
+      onPress={action('press')}
+      onLongPress={action('long press')}
+    >
+    Primary Button
+  </Button>);
 }
 , { displayName: 'Button' });
 
