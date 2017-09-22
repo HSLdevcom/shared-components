@@ -2,8 +2,6 @@
  * @deprecated
  */
 
-import { darken } from 'polished';
-
 import Div from '../Div';
 
 const Separator = Div.extend`
@@ -19,12 +17,12 @@ const HorizontalSeparator = Separator.extend`
 `;
 
 const MenuSeparator = Separator.extend`
-  background: ${props => darken(0.1, props.theme.primary || '#007ac9')};
+  background: ${props => props.theme.colors.primary.hslBlueDark};
   margin: 1rem 0;
 `;
 
 const HorizontalMenuSeparator = HorizontalSeparator.extend`
-  background: ${props => darken(0.1, props.theme.primary || '#007ac9')};
+  background: ${props => props.theme.colors.primary.hslBlueDark};
 `;
 
 export { MenuSeparator, HorizontalSeparator, HorizontalMenuSeparator };

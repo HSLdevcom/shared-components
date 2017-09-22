@@ -21,7 +21,7 @@ const ContentContainer = styled.div`
   h1 {
     font-size: 1.2em;
     letter-spacing: -0.8px;
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.colors.primary.hslBlue};
     text-align: center;
     margin: 1em auto;
     font-weight: normal;

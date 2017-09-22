@@ -71,8 +71,8 @@ const StyledDiv = Div.extend`
       display: block;
     }
     flex-direction: column;
-    ${props.open && `background-color: ${props.theme.primaryText};`}
-    ${props.open && `color: ${props.theme.primary};`}
+    ${props.open && `background-color: ${props.theme.colors.primary.hslBlue};`}
+    ${props.open && `color: ${props.theme.colors.primary.hslWhite};`}
     ${ButtonNoStyle} {
       ${props.open && 'border-bottom: 1px solid #cccccc;'}
     }

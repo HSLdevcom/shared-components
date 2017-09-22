@@ -25,7 +25,7 @@ const StyledDiv = Div.extend`
   padding: 0;
   align-items: center;
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
   .selected-language {
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ const StyledDiv = Div.extend`
 const SelectWrapper = Div.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
   border-radius: 3px;
-  border: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+  border: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
   ${LangButton} {
     &:hover {
 

@@ -19,7 +19,7 @@ const Separator = MenuSeparator.extend`
 
 const StyledDiv = Div.extend`
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
   svg {
     fill: currentColor;
   }
@@ -36,7 +36,7 @@ const StyledDiv = Div.extend`
       width: 50%;
       justify-content: center;
       &:not(:last-child) {
-        border-right: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+        border-right: 2px solid ${props => props.theme.colors.primary.hslBlueDark};
       }
     }
   }

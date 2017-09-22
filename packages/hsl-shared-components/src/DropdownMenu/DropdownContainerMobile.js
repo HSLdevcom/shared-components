@@ -14,7 +14,7 @@ const StyledDiv = Div.extend`
     color: #000000;
   }
   ${ListItem} {
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.colors.primary.hslBlue};
   }
 
   ${IconWithText} {

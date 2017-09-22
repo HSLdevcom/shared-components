@@ -7,7 +7,7 @@ const primaryWhite = '#ffffff';
 const hslTheme = {
   Media, // used in components
   sizes, // used by utils
-  colors, // HSL brand colors
+  colors, // HSL brand colors – use these instead of your own where possible
   font: {
     family: '"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif"',
     familyNarrow: '"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif"',
@@ -47,8 +47,8 @@ const hslTheme = {
     // Set your project-specific theme variables via this key
     // These will never be overwritten by package updates etc.
   },
-  primary: primaryBlue,
-  primaryText: primaryWhite,
+  // primary: primaryBlue,
+  // primaryText: primaryWhite,
   listItemMarker: '#62bae7',
   secondary: '#888888',
   default: '#b7b7b7',

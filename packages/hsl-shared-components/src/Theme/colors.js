@@ -7,6 +7,7 @@ const colors = {
     hslGrey: '#888888',
     hslGreyLight: '#b7b7b7',
     hslGreyDark: '#333333',
+    hslWhite: '#ffffff',
   },
   secondary: {
     hslOrange: '#ff6319',

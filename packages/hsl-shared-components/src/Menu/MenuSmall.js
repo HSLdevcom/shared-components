@@ -34,14 +34,14 @@ const StyledFlex = Flex.extend`
   align-items: stretch;
 
   > * {
-    border-left: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+    border-left: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
     display: flex;
 
     width: ${props => props.theme.scrollNavHeight || '3.75rem'};
     justify-content: center;
   }
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
 
   ${MenuItem} {
     align-items: stretch;

@@ -8,7 +8,7 @@ import Text from '../Typography';
 import { size } from '../utils';
 
 const LangText = Text.extend`
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
 const StyledView = View.extend`
@@ -64,4 +64,3 @@ LangSelect.propTypes = {
 };
 
 export default styled(LangSelect)``;
-

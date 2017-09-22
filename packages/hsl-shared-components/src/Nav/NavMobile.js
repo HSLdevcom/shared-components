@@ -34,7 +34,7 @@ const StyledNav = styled.nav`
   }
 
   .nav-item {
-    border-bottom: 2px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+    border-bottom: 2px solid ${props => props.theme.colors.primary.hslBlueDark};
     display: flex;
     ${IconWithText} {
       padding: 1rem;
@@ -54,7 +54,7 @@ const StyledNav = styled.nav`
   padding: 0 1.25rem;
 
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
 
   .menu-enter {
     overflow: hidden;

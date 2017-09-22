@@ -80,7 +80,7 @@ const StyledDiv = Div.extend`
   }
 
   ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
   .child:not(:last-child) {
     margin-right: 2rem;
   }

@@ -16,7 +16,7 @@ const Input = styled.TextInput`
   border-color: ${props => lighten(0.185, props.theme.secondary)};
   ${props => props.focus && `
     color: ${props.theme.colors.primary.hslGreyDark};
-    border-color: ${props.theme.primary};
+    border-color: ${props.theme.colors.primary.hslBlue};
   `}
   ${props => props.error && `
     color: ${props.theme.error.color.primary};

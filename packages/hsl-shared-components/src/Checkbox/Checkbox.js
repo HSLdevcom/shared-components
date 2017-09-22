@@ -30,7 +30,7 @@ const StyledLabelText = LabelText.extend`
 `;
 
 const Checkmark = withTheme(({ theme }) => (
-  <Icons.Checkmark fill={theme.primary} height={20} width={20} />
+  <Icons.Checkmark fill={theme.colors.primary.hslBlue} height={20} width={20} />
 ));
 
 const Checkbox = styled(({
