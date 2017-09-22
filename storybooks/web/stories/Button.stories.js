@@ -25,7 +25,7 @@ stories.addWithJSX('default', () => {
   const active = boolean('Active', false);
   const focus = boolean('Focus', false);
   const disabled = boolean('Disabled', false);
-  const rounded = boolean('Rounded', false);
+  const square = boolean('Square', false);
   const transparent = boolean('Transparent', false);
   const small = boolean('Small', false);
   return (
@@ -34,7 +34,7 @@ stories.addWithJSX('default', () => {
       active={active}
       focus={focus}
       disabled={disabled}
-      rounded={rounded}
+      square={square}
       transparent={transparent}
       small={small}
       onPress={action('press')}
@@ -74,16 +74,18 @@ stories.addWithJSX('secondary', () => {
   const active = boolean('Active', false);
   const focus = boolean('Focus', false);
   const disabled = boolean('Disabled', false);
-  const rounded = boolean('Rounded', false);
+  const square = boolean('Square', false);
   const small = boolean('Small', false);
+  const transparent = boolean('Transparent', false);
   return (
     <Button
       hover={hover}
       active={active}
       focus={focus}
       disabled={disabled}
-      rounded={rounded}
+      square={square}
       small={small}
+      transparent={transparent}
       secondary
       onPress={action('press')}
       onLongPress={action('long press')}
