@@ -4,25 +4,17 @@ import View from '../View';
 import Touchable from '../Touchable';
 import { size } from '../utils';
 
-const TouchableView = styled(({ active, children, ...rest }) => (
-  <View {...rest}>
-    {children}
-  </View>
-))``;
-
-const LangButton = styled(({ children, onPress, onLongPress, ...rest }) => (
+const LangButton = styled(({ active, children, onPress, onLongPress, ...rest }) => (
   <Touchable onPress={onPress} onLongPress={onLongPress}>
-    <TouchableView {...rest}>
+    <View {...rest}>
       { children }
-    </TouchableView>
+    </View>
   </Touchable>
 ))`
   border-radius: 3px;
   width: ${size(32)};
   height: ${size(24)};
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
   ${props => (props.active && props.theme.radioBtnActive && `background-color: ${props.theme.radioBtnActive};`)}
 `;
 
