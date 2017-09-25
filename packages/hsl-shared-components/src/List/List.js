@@ -30,7 +30,7 @@ const StyledDiv = Div.extend`
     li::before {
       padding-right: 0.75rem;
       content: "○";
-      color: ${props => props.theme.listItemMarker};
+      color: ${props => props.theme.colors.primary.hslBlue};
     }
     ${props => (
       props.theme.Media &&
@@ -63,5 +63,7 @@ List.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string
 };
+
+List.displayName = 'List';
 
 export default styled(List)``;

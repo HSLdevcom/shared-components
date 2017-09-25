@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { darken } from 'polished';
 
 import A from '../Anchor';
 import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
@@ -34,14 +33,14 @@ const StyledFlex = Flex.extend`
   align-items: stretch;
 
   > * {
-    border-left: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+    border-left: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
     display: flex;
 
     width: ${props => props.theme.scrollNavHeight || '3.75rem'};
     justify-content: center;
   }
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.colors.primary.hslWhite};
 
   ${MenuItem} {
     align-items: stretch;

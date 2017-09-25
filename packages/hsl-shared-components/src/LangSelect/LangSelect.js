@@ -8,11 +8,11 @@ import Text from '../Typography';
 import { size } from '../utils';
 
 const LangText = Text.extend`
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
 const StyledView = View.extend`
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   justify-content: space-between;
   flex-direction: row;
   width: ${size(112)}
@@ -64,4 +64,3 @@ LangSelect.propTypes = {
 };
 
 export default styled(LangSelect)``;
-

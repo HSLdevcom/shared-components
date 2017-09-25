@@ -6,7 +6,7 @@ import { expect } from 'chai';
 import { ThemeProvider } from 'styled-components';
 import Responsive from './Responsive';
 import ResponsiveProvider from './ResponsiveProvider';
-import theme from './theme/themes.hsl'; // use exported theme in future
+import theme from '../Theme';
 
 const ProviderWrap = ({ children }) => (
   <div>

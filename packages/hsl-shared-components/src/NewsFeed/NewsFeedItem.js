@@ -17,7 +17,7 @@ const StyledLi = styled.li`
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 1.25rem 1.25rem 1.75rem;
-  border: 1px solid ${props => props.theme.colors.misc.greyLight};
+  border: 1px solid ${props => props.theme.colors.primary.hslGreyLight};
   border-bottom-width: 0;
   &:last-child {
     border-bottom-width: 1px;
@@ -28,7 +28,7 @@ const StyledLi = styled.li`
     flex-direction: column;
     .top {
       font-size: ${size(11)};
-      color: ${props => props.theme.colors.primary.hslGrey};
+      color: ${props => props.theme.font.colors.secondary};
       .category {
         text-transform: uppercase;
       }
@@ -37,7 +37,7 @@ const StyledLi = styled.li`
       margin-top: 1rem;
       padding-bottom: 0.75rem;
       font-size: ${size(24)};
-      color: ${props => props.theme.colors.primary.hslBlue}
+      color: ${props => props.theme.font.colors.highlight}
     }
   }
   ${Image} {

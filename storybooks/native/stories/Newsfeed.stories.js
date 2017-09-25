@@ -3,9 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeedItem, NewsFeed, ResponsiveProvider } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { NewsFeedItem, NewsFeed, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 

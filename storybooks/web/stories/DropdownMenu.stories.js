@@ -1,10 +1,18 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
+import { setAddon, storiesOf, addDecorator } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
-import { DropdownMenu, IconWithText, Icons } from 'hsl-shared-components';
+import { DropdownMenu, IconWithText, Icons, Theme } from 'hsl-shared-components';
+import { ThemeProvider } from 'styled-components';
 
 const icon = <Icons.Cog height="2.5rem" width="2.5rem" />;
+
+addDecorator(story => (
+  <ThemeProvider theme={Theme}>
+    {story()}
+  </ThemeProvider>
+));
+
 setAddon(JSXAddon);
 
 const stories = storiesOf('DropdownMenu', module);

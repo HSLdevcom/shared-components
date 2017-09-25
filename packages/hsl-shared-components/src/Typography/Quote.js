@@ -8,7 +8,7 @@ import Text from './Text';
 const View = styled.View`
   border-style: solid;
   border-left-width: 3px;
-  border-left-color: ${props => props.theme.colors.misc.greyLight};
+  border-left-color: ${props => props.theme.colors.primary.hslGreyLight};
 `;
 
 const Quote = Text.extend`
@@ -17,7 +17,7 @@ const Quote = Text.extend`
   line-height: ${relativeLineHeight(18, 1.25)};
   font-style: italic;
   padding: 3px 0px 3px 20px;
-  ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
+  font-family: ${props => props.theme.font.familyNarrow};
 `;
 
 const QuoteBlock = ({ children, ...rest }) => (

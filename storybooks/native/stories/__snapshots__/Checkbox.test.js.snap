@@ -69,6 +69,7 @@ exports[`Storyshots Checkbox Default 1`] = `
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 15.75,
+            "fontWeight": "500",
             "lineHeight": 18,
             "marginLeft": 17.5,
           },

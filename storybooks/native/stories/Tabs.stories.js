@@ -3,9 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, number } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { Tabs, Tab, Text, ResponsiveProvider } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Tabs, Tab, Text, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
 

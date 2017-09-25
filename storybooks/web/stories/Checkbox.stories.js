@@ -3,9 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
-import { Checkbox } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Checkbox, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 

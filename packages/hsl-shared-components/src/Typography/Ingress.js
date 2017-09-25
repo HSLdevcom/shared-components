@@ -10,7 +10,7 @@ const Ingress = styled(({ ...props }) => (
   font-weight: 300;
   font-size: ${size(18)};
   line-height: ${relativeLineHeight(18, 1.25)};
-  ${props => props.theme.fontFamilyNarrow && `font-family: ${props.theme.fontFamilyNarrow};`}
+  font-family: ${props => props.theme.font.familyNarrow};
 `;
 
 export default Ingress;

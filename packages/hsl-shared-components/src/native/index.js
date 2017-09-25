@@ -12,6 +12,7 @@ import Section from '../Section';
 import { ResponsiveProvider } from '../utils';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
+import Theme from '../Theme';
 
 export {
   Text,
@@ -43,5 +44,6 @@ export {
   Section,
   ResponsiveProvider,
   Checkbox,
-  TextInput
+  TextInput,
+  Theme,
 };

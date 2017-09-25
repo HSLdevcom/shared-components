@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { lighten } from 'polished';
 
 import View from '../View';
 import { size } from '../utils';
@@ -20,7 +19,7 @@ const MobileContainer = styled(({ border, title, children, ...rest }) => (
 ))`
   padding-vertical: ${size(50)};
   border-style: solid;
-  border-color: ${props => lighten(0.15, props.theme.default)};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-top-width: ${props => (props.border ? '2px' : '0px')};
 `;
 
@@ -32,4 +31,3 @@ MobileContainer.propTypes = {
 };
 
 export default MobileContainer;
-

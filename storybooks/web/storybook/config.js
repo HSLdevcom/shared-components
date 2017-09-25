@@ -2,8 +2,7 @@
 import { configure, addDecorator } from '@storybook/react';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { ResponsiveProvider } from 'hsl-shared-components';
-import Theme from './../themes/themes.hsl';
+import { ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 const req = require.context('../stories', true, /\.stories\.js$/);
 

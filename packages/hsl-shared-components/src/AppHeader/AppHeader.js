@@ -1,10 +1,10 @@
 import Div from '../Div';
 
 const AppHeader = Div.extend `
-  background-color: #222;
+  background-color: ${props => props.theme.colors.background.hslGreyDark};
   height: 150px;
   padding: 20px;
-  color: white;
+  color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
 export default AppHeader;

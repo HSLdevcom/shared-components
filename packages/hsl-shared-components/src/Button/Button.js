@@ -53,6 +53,7 @@ const TouchableView = styled(({
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
+
   ${props => !props.noPadding && `
     padding: 0 ${utilsSize(25, true)}px;
   `}
@@ -62,7 +63,7 @@ const TouchableView = styled(({
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   background-color: ${props => props.theme.colors.background.hslWhite};
 
   ${props => props.primary && `
@@ -96,9 +97,9 @@ const TouchableView = styled(({
   `}
 
   ${props => props.disabled && `
-    color: ${props.theme.colors.misc.greyLight};
-    border-color: ${props.theme.colors.misc.greyXLight};
-    background-color: ${props.primary ? props.theme.colors.misc.greyXLight : props.theme.colors.background.hslWhite};
+    color: ${props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.theme.colors.background.hslGreyXLight};
+    background-color: ${props.primary ? props.theme.colors.background.hslGreyXLight : props.theme.colors.background.hslWhite};
   `}
 
   ${props => props.transparent && `

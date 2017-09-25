@@ -1,10 +1,15 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
+import { setAddon, storiesOf, addDecorator } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs, text } from '@storybook/addon-knobs';
+import { ThemeProvider } from 'styled-components';
+import { AppHeader, Theme } from 'hsl-shared-components';
 
-import { AppHeader } from 'hsl-shared-components';
-
+addDecorator(story => (
+  <ThemeProvider theme={Theme}>
+    {story()}
+  </ThemeProvider>
+));
 
 setAddon(JSXAddon);
 

@@ -91,6 +91,7 @@ exports[`Storyshots Button button with text 1`] = `
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 12.25,
+            "fontWeight": "500",
           },
           Array [
             Object {
@@ -163,6 +164,7 @@ exports[`Storyshots Button default 1`] = `
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 12.25,
+            "fontWeight": "500",
           },
           Array [
             Object {
@@ -242,6 +244,7 @@ exports[`Storyshots Button primary 1`] = `
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 12.25,
+            "fontWeight": "500",
           },
           Array [
             Object {
@@ -406,6 +409,7 @@ exports[`Storyshots Button secondary 1`] = `
             "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
             "fontSize": 12.25,
+            "fontWeight": "500",
           },
           Array [
             Object {

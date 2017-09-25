@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
-import { darken } from 'polished';
 
 import Icons from '../Icons';
 import LangButton from './LangButton';
@@ -24,8 +23,8 @@ const StyledDiv = Div.extend`
   overflow: hidden;
   padding: 0;
   align-items: center;
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.colors.primary.hslWhite};
   .selected-language {
     display: flex;
     justify-content: center;
@@ -65,9 +64,9 @@ const StyledDiv = Div.extend`
 `;
 
 const SelectWrapper = Div.extend`
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.props.theme.colors.primary.hslBlue};
   border-radius: 3px;
-  border: 1px solid ${props => darken(0.1, props.theme.primary || '#007ac9')};
+  border: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
   ${LangButton} {
     &:hover {
 

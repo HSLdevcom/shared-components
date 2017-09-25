@@ -9,7 +9,7 @@ import Text, { H3 } from '../Typography';
 
 const StyledH3 = H3.extend`
   font-size: ${size(24)}
-  color: ${props => props.theme.colors.primary.hslBlue}
+  color: ${props => props.theme.font.colors.highlight}
 `;
 
 const Image = styled.Image`
@@ -39,12 +39,12 @@ const StyledLi = View.extend`
   align-items: center;
   padding: 15px 15px 15px 15px;
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-bottom-width: 1px;
 `;
 
 const Timestamp = Text.extend`
-  color: ${props => props.theme.secondary}
+  color: ${props => props.theme.font.colors.secondary}
 `;
 
 const Category = Timestamp.extend`

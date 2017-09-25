@@ -27,7 +27,7 @@ const Content = styled(({ active, ...rest }) => (
 
 function fill(active, disabled, colors) {
   if (disabled) {
-    return colors.misc.greyLight;
+    return colors.primary.hslGreyLight;
   }
   if (active) {
     return colors.primary.hslGreyDark;
@@ -53,7 +53,7 @@ const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
   <View {...rest} />
 ))`
   background: ${props => props.theme.colors.background.hslGreyLight};
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-style: solid;
   border-right-width: 1;
   border-bottom-width: 1;
