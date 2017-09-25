@@ -5,7 +5,7 @@ import Div from '../Div';
 
 const StyledDiv = Div.extend`
   position: relative;
-  background-color: #fff;
+  background-color: ${props => props.theme.colors.background.hslWhite};
   width: 100vw;
   left: calc(-50vw + 50%);
   margin-bottom: 1em;
@@ -21,7 +21,7 @@ const ContentContainer = styled.div`
   h1 {
     font-size: 1.2em;
     letter-spacing: -0.8px;
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.font.colors.highlight};
     text-align: center;
     margin: 1em auto;
     font-weight: normal;
@@ -41,7 +41,7 @@ const BackButton = styled.button`
   text-align: center;
   border-width: 0;
   border: none;
-  background-color: #fff;
+  background-color: ${props => props.theme.colors.background.hslWhite};
   border-right: 1px solid #ddd;
   padding: 0;
   &:hover {

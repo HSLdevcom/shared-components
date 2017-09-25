@@ -13,6 +13,7 @@ import { ResponsiveProvider } from '../utils';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
 import LangSelect, { LangSelectSmall, LangButton } from '../LangSelect';
+import Theme from '../Theme';
 
 export {
   Text,
@@ -47,5 +48,6 @@ export {
   TextInput,
   LangSelect,
   LangSelectSmall,
-  LangButton
+  LangButton,
+  Theme,
 };

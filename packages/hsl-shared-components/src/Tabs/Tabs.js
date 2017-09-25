@@ -27,7 +27,7 @@ const Tabs = styled(({ rounded, children, index, ...rest }) => {
 })`
   background-color: ${props => props.theme.colors.background.hslWhite};
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-width: 1px;
   ${props => props.rounded && `border-radius: ${size(6)};`}
   align-items: stretch;

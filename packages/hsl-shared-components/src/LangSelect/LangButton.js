@@ -15,7 +15,7 @@ const LangButton = styled(({ active, children, onPress, onLongPress, ...rest }) 
   width: ${size(32)};
   height: ${size(24)};
   ${!IS_NATIVE && 'cursor: pointer;'}
-  ${props => (props.active && props.theme.radioBtnActive && `background-color: ${props.theme.radioBtnActive};`)}
+  ${props => (props.active && `background-color: ${props.theme.colors.primary.hslBlueDark};`)}
 `;
 
 

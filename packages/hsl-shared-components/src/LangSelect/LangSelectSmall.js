@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withTheme } from 'styled-components/primitives';
 import { Animated } from 'react-primitives';
-import { darken } from 'polished';
 
 import Icons from '../Icons';
 import LangButton from './LangButton';
@@ -24,13 +23,13 @@ const StyledDiv = View.extend`
   overflow: hidden;
   padding: 0;
   align-items: center;
-  ${props => `background: ${props.theme.background};`}
+  background: ${props => props.theme.colors.primary.hslBlue};
 `;
 
 const SelectWrapper = View.extend`
-  ${props => `background: ${props.theme.background};`}
+  background: ${props => props.theme.props.theme.colors.primary.hslBlue};
   border-radius: 3px;
-  border: 1px solid ${props => darken(0.1, props.theme.primary)};
+  border: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
 `;
 
 

@@ -7,11 +7,11 @@ import LangButton from './LangButton';
 import Text from '../Typography';
 
 const LangText = Text.extend`
-  ${props => (props.theme.primaryText && `color: ${props.theme.primaryText};`)}
+  color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
 const StyledView = View.extend`
-  ${props => (props.theme.background && `background: ${props.theme.background};`)}
+  background: ${props => props.theme.colors.primary.hslBlue};
   justify-content: space-between;
   flex-direction: row;
 `;
@@ -62,4 +62,3 @@ LangSelect.propTypes = {
 };
 
 export default styled(LangSelect)``;
-

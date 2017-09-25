@@ -3,9 +3,8 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { LangSelect, LangSelectSmall, ResponsiveProvider } from 'hsl-shared-components';
+import { LangSelect, LangSelectSmall, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
-import Theme from './../themes/themes.hsl';
 import CenterView from './CenterView';
 
 storiesOf('LangSelect', module)

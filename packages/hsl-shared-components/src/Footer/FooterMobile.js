@@ -38,7 +38,7 @@ const FlexStart = View.extend`
 `;
 
 const CopyrightText = Text.extend`
-  color: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.font.colors.highlight};
   margin-top: ${utilsSize(50)};
 `;
 const InfoLinkWrapper = View.extend`

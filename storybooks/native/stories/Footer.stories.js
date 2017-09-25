@@ -2,9 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
+import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 
@@ -61,7 +59,7 @@ storiesOf('Footer', module)
       ]
     };
     const LinkText = Text.extend`
-      color: ${props => props.theme.primary};
+      color: ${props => props.theme.font.colors.highlight};
     `;
     const info = {
       copyright: '© Copyright HSL',
@@ -122,7 +120,7 @@ storiesOf('Footer', module)
       ]
     };
     const LinkText = Text.extend`
-      color: ${props => props.theme.primary};
+      color: ${props => props.theme.font.colors.highlight};
     `;
     const info = {
       copyright: '© Copyright HSL',

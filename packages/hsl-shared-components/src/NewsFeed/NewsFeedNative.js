@@ -15,7 +15,7 @@ const StyledView = View.extend`
 
 const ButtonWrapper = View.extend`
   padding: 25px 50px 25px 50px;
-  background-color: #eef1f3;
+  background-color: ${props => props.theme.colors.background.hslGreyLight};
   justify-content: center;
   align-items: center;
 `;
@@ -23,7 +23,7 @@ const ButtonWrapper = View.extend`
 const List = View.extend`
   flex-direction: column;
   border-style: solid;
-  border-color: ${props => props.theme.colors.misc.greyLight};
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-width: 1px;
   border-bottom-width: 0;
 `;

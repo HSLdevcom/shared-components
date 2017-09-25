@@ -4,10 +4,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { action } from '@storybook/addon-actions';
 
 import { ThemeProvider } from 'styled-components';
-import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider } from 'hsl-shared-components';
-
-import Theme from './../themes/themes.hsl';
-
+import { Footer, Text, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 addDecorator(story => (
   <ThemeProvider theme={Theme}>
@@ -67,7 +64,7 @@ stories.addWithJSX('default', () => {
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.colors.primary.hslBlue};
+    color: ${props => props.theme.font.colors.highlight};
   `;
   const info = {
     copyright: '© Copyright HSL',
@@ -130,7 +127,7 @@ stories.addWithJSX('sub site', () => {
     ]
   };
   const LinkText = Text.extend`
-    color: ${props => props.theme.primary};
+    color: ${props => props.theme.font.colors.highlight};
   `;
   const info = {
     copyright: '© Copyright HSL',

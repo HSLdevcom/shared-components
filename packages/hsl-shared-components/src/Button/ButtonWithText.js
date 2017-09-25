@@ -48,7 +48,7 @@ const IconContainer = styled(({ small, bgColor, ...rest }) => (
 const Caption = styled(({ small, ...rest }) => (
   <Text {...rest} />
 ))`
-  color: ${props => props.theme.colors.primary.hslBlue};
+  color: ${props => props.theme.font.colors.highlight};
 `;
 
 const TouchableView = styled(({
