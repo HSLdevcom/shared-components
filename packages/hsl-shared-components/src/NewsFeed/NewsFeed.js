@@ -20,7 +20,6 @@ const StyledDiv = Div.extend`
 `;
 
 const NewsFeed = ({
-  more,
   children,
   className
 }) => (
@@ -28,18 +27,11 @@ const NewsFeed = ({
     <Ul>
       { children }
     </Ul>
-    <Div>
-      <Button rounded className="show-more" onClick={more.action}>{more.text}</Button>
-    </Div>
   </StyledDiv>
 )
 ;
 
 NewsFeed.propTypes = {
-  more: PropTypes.shape({
-    text: PropTypes.string.isRequired,
-    action: PropTypes.func.isRequired
-  }),
   children: PropTypes.node,
   className: PropTypes.string
 };

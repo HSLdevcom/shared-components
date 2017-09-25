@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import View from '../View';
-import Button from '../Button';
 
 const StyledView = View.extend`
   flex: 1;
@@ -11,13 +10,6 @@ const StyledView = View.extend`
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-`;
-
-const ButtonWrapper = View.extend`
-  padding: 25px 50px 25px 50px;
-  background-color: ${props => props.theme.colors.background.hslGreyLight};
-  justify-content: center;
-  align-items: center;
 `;
 
 const List = View.extend`
@@ -30,7 +22,6 @@ const List = View.extend`
 
 
 const NewsFeed = ({
-  more,
   children,
   className
 }) => (
@@ -38,18 +29,11 @@ const NewsFeed = ({
     <List>
       { children }
     </List>
-    <ButtonWrapper>
-      <Button rounded onPress={more.action}>{more.text}</Button>
-    </ButtonWrapper>
   </StyledView>
 )
 ;
 
 NewsFeed.propTypes = {
-  more: PropTypes.shape({
-    text: PropTypes.string.isRequired,
-    action: PropTypes.func.isRequired
-  }),
   children: PropTypes.node,
   className: PropTypes.string
 };
