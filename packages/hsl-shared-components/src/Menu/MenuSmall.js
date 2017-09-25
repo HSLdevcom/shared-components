@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import { withTheme } from 'styled-components/primitives';
 
 import A from '../Anchor';
 import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
@@ -20,14 +20,6 @@ const StyledFlex = Flex.extend`
     margin: 0;
     display: flex;
     align-items: center;
-  }
-
-  ${IconWrapper} svg, ${SearchIcon} svg {
-    height: 1.5rem;
-  }
-
-  svg {
-    fill: currentColor;
   }
 
   align-items: stretch;
@@ -68,13 +60,16 @@ const MenuSmall = ({
   changeLanguage,
   selectedLanguage,
   className,
-  children
+  children,
+  theme
 }) => (
   <StyledFlex className={className}>
     {children}
     <SearchIcon>
       <Icons.Search
-        style={{ height: '2rem', width: '2rem' }}
+        height="1.5rem"
+        width="1.5rem"
+        fill={theme.colors.background.hslWhite}
       />
     </SearchIcon>
     <LangSelectSmall
@@ -88,7 +83,7 @@ const MenuSmall = ({
 const defaultChildren = [
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
+    icon={<Icons.TravelCard height="1.5rem" width="1.5rem" />}
     text="Matkakortti"
     textPosition="Right"
     key="travelcard"
@@ -97,7 +92,7 @@ const defaultChildren = [
   />,
   <MenuItem
     link={<A href="/test" />}
-    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
+    icon={<Icons.SignIn height="1.5rem" width="1.5rem" />}
     text="Kirjaudu"
     textPosition="Right"
     key="signin"
@@ -128,4 +123,4 @@ MenuSmall.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(MenuSmall)``;
+export default withTheme(MenuSmall);

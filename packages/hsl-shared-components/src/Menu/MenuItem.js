@@ -1,43 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
+import View from '../View';
+import { LabelText } from '../Typography';
 
-import Div from '../Div';
 import { Activatable } from '../Wrapper';
-import IconWithText, { TextWrapper } from '../IconWithText/IconWithText';
 
-const StyledDiv = Div.extend`
-  display: flex;
-  >.link {
-    display: flex;
-  }
-  ${IconWithText} {
-    ${TextWrapper} {
-      ${props => (
-        props.small && 'display: none;'
-      )}
-    }
-  }
+const StyledLabelText = LabelText.extend`
+  color: ${props => props.theme.colors.background.hslWhite}
 `;
 
 const MenuItem = ({
   link,
   icon,
   text,
-  textPosition,
   active,
   small,
-  className
+  ...rest
 }) => (
-  <StyledDiv className={className} small={small}>
+  <View {...rest}>
     {React.cloneElement(
       link,
-      { className: 'link' },
+      {},
       (<Activatable active={active} small={small} >
-        <IconWithText icon={icon} text={text} textPosition={textPosition} />
+        <View>
+          {icon}
+          { !small && <StyledLabelText>{text}</StyledLabelText> }
+        </View>
       </Activatable>)
     )}
-  </StyledDiv>
+  </View>
 )
 ;
 
@@ -45,7 +37,6 @@ MenuItem.propTypes = {
   link: PropTypes.node.isRequired,
   icon: PropTypes.node.isRequired,
   text: PropTypes.string.isRequired,
-  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   active: PropTypes.bool,
   small: PropTypes.bool,
   className: PropTypes.string

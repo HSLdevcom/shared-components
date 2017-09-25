@@ -69,11 +69,10 @@ stories.addWithJSX('mobile', () => {
 });
 
 stories.addWithJSX('menu item', () => {
-  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
+  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" fill="#ffffff" />;
   const link = <A href="/test" />;
   const StyledMenuItem = MenuItem.extend`
     background-color: #007ac9;
-    color: #ffffff;
   `;
 
   const StyledDiv = Div.extend`
@@ -83,10 +82,6 @@ stories.addWithJSX('menu item', () => {
   `;
   const small = boolean('Small', false);
   const active = boolean('active', false);
-  const textPosition = select('Text position', {
-    Right: 'Right',
-    Bottom: 'Bottom',
-  }, 'Bottom');
 
   return (
     <StyledDiv>
@@ -95,7 +90,6 @@ stories.addWithJSX('menu item', () => {
         icon={icon}
         small={small}
         active={active}
-        textPosition={textPosition}
         text="Reittiopas"
       />
     </StyledDiv>
