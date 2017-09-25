@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
-import { darken } from 'polished';
 
 import A from '../Anchor';
 import MenuItem from './MenuItem';

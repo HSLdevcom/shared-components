@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransitionGroup } from 'react-transition-group';
-import { darken } from 'polished';
 
 import Icons from '../Icons';
 import LangButton from './LangButton';

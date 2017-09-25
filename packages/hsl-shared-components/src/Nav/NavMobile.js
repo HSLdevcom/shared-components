@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import cx from 'classnames';
 import { CSSTransitionGroup } from 'react-transition-group';
-import { darken } from 'polished';
 
 import { addClass } from '../utils';
 import Span from '../Span';
