@@ -45,11 +45,11 @@
     "build": "yarn run build:babel && ./scripts/publish.sh",
     "lint:tight": "esw src/ --color --max-warnings 0",
     "lint:watch": "esw src/ -w --color",
-    "test": "jest --testPathPattern=stories",
+    "test": "jest --testPathPattern=stories --config=jest.config.json",
     "storybook": "start-storybook -c storybook -p 6006",
     "build-storybook": "build-storybook -c storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "test-update": "jest --testPathPattern=stories -u",
+    "test-update": "jest --testPathPattern=stories --config=jest.config.json -u",
     "es-lint": "eslint ."
   }
 }
