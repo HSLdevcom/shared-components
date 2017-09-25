@@ -1,7 +1,7 @@
 {
   "name": "native-storybook",
   "private": true,
-  "version": "0.14.0",
+  "version": "0.15.0-0",
   "description": "Shared components to be used in HSL projects. React and styled components.",
   "devDependencies": {
     "@storybook/addon-actions": "3.1.6",
@@ -28,7 +28,7 @@
     "eslint-watch": "^2.1.14",
     "eventemitter3": "^2.0.3",
     "haul": "^1.0.0-beta.2",
-    "hsl-shared-components": "^0.14.0",
+    "hsl-shared-components": "^0.15.0-0",
     "jest": "^20.0.4",
     "prop-types": "^15.5.10",
     "react": "15.5.x",
