@@ -6,11 +6,11 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-hzDkRC kpsoyz sc-bRBYWo eLJodj"
+    className="sc-gipzik iyhjGb sc-jlyJG jXhSRc"
     open={false}
   >
     <button
-      className="sc-Rmtcm eWvhqS"
+      className="sc-iRbamj ewtnuE"
       onClick={[Function]}
     >
       <div
@@ -77,7 +77,7 @@ exports[`Storyshots DropdownMenu default 1`] = `
                     Lisää
                   </div>
                   <svg
-                    className="sc-csuQGl ejUlFS"
+                    className="sc-gPEVay iOtZqe"
                     preserveAspectRatio="xMidYMid meet"
                     style={
                       Object {
