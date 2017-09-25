@@ -53,12 +53,4 @@ storiesOf('NewsFeed', module)
         timestamp={YESTERDAY_2PM}
       />
     </NewsFeed>
-  ))
-  .add('News feed item', () => (
-    <NewsFeedItem
-      category="Talviaikataulut"
-      title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
-      timestamp={TODAY_2PM}
-      image="https://placehold.it/500x500"
-    />
   ));
