@@ -14,6 +14,9 @@ const StyledLangSelectSmall = LangSelectSmall.extend`
   height: ${scrollNavHeight};
   align-items: center;
   justify-content: center;
+  border-type: solid;
+  border-left-width: ${size(1)};
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
 `;
 
 const Wrapper = View.extend`
@@ -22,6 +25,13 @@ const Wrapper = View.extend`
   width: ${scrollNavHeight};
   height: ${scrollNavHeight};
   flex-direction: row;
+  border-type: solid;
+  border-left-width: ${size(1)};
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+`;
+
+const SearchIcon = Wrapper.extend`
+  align-items: center;
 `;
 
 const StyledView = View.extend`
@@ -42,13 +52,13 @@ const MenuSmall = ({
 }) => (
   <StyledView className={className}>
     {React.Children.map(children, child => (<Wrapper>{child}</Wrapper>))}
-    <Wrapper>
+    <SearchIcon>
       <Icons.Search
         height="1.5rem"
         width="1.5rem"
         fill={theme.colors.background.hslWhite}
       />
-    </Wrapper>
+    </SearchIcon>
     <StyledLangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}

@@ -8,6 +8,9 @@ export const activatableLineHeight = size(4);
 
 export const activatablePointerHeight = size(9.6);
 
+const Spacer = View.extend`
+  height: ${activatablePointerHeight};
+`;
 
 const StyledView = styled(({ active, small, ...rest }) => (<View {...rest} />))`
   flex-direction: column;
@@ -42,6 +45,7 @@ const Activatable = ({
   ...rest
   }) => (
     <StyledView {...rest} active={active} small={small}>
+      {small && <Spacer />}
       {children}
       {small && <Pointer active={active} />}
     </StyledView>
