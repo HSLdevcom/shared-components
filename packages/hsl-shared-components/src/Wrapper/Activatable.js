@@ -1,51 +1,57 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import Div from '../Div';
+import styled from 'styled-components/primitives';
+import View from '../View';
+import { size } from '../utils';
 
-const StyledDiv = Div.extend`
+export const activatableLineHeight = size(4);
+
+export const activatablePointerHeight = size(9.6);
+
+
+const StyledView = styled(({ active, small, ...rest }) => (<View {...rest} />))`
   flex-direction: column;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+  border-style: solid;
   ${props => (
     !props.small &&
     `
-      border-bottom: ${props.theme.activatableLineHeight || '4px'} solid ${props.active ? '' : 'transparent'};
-      border-top: ${props.theme.activatableLineHeight || '4px'} solid transparent;
+      border-top-width: ${activatableLineHeight};
+      border-bottom-width: ${activatableLineHeight};
+      border-top-color: transparent;
+      border-bottom-color: ${props.active ? props.theme.colors.primary.hslWhite : 'transparent'};
     `
   )}
 `;
 
-const Pointer = Div.extend`
+const Pointer = styled(({ active, ...rest }) => (<View {...rest} />))`
   width: 0;
   height: 0;
-  border-left: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
-  border-right: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid transparent;
-  border-bottom: ${props => props.theme.activatablePointerHeight || '0.6rem'} solid ${props => !props.active && 'transparent'};
+  border-style: solid;
+  border-color: transparent;
+  border-left-width: ${activatablePointerHeight};
+  border-right-width: ${activatablePointerHeight};
+  border-bottom-width: ${activatablePointerHeight};
+  border-bottom-color: ${props => (props.active ? props.theme.colors.primary.hslWhite : 'transparent')};
 `;
 
-const Activatable = ({ active,
+const Activatable = ({
+  active,
   small,
-  className,
-  children }) => (
-    <StyledDiv className={className} active={active} small={small}>
+  children,
+  ...rest
+  }) => (
+    <StyledView {...rest} active={active} small={small}>
       {children}
       {small && <Pointer active={active} />}
-    </StyledDiv>
+    </StyledView>
 );
-
-Activatable.defaultProps = {
-  size: 'Large'
-};
 
 Activatable.propTypes = {
   active: PropTypes.bool,
   small: PropTypes.bool,
-  className: PropTypes.string,
   children: PropTypes.node
 };
 
 
-export default styled(Activatable)`
-`;
+export default styled(Activatable)``;

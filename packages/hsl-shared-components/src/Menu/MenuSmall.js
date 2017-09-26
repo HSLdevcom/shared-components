@@ -120,7 +120,14 @@ MenuSmall.propTypes = {
     PropTypes.number,
   ]),
   className: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      background: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
 export default withTheme(MenuSmall);
