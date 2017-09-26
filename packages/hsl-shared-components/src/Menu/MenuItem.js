@@ -10,6 +10,12 @@ const StyledLabelText = LabelText.extend`
   color: ${props => props.theme.colors.background.hslWhite}
 `;
 
+const StyledView = View.extend`
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+`;
+
 const MenuItem = ({
   link,
   icon,
@@ -18,7 +24,7 @@ const MenuItem = ({
   small,
   ...rest
 }) => (
-  <View {...rest}>
+  <StyledView {...rest}>
     {React.cloneElement(
       link,
       {},
@@ -29,7 +35,7 @@ const MenuItem = ({
         </View>
       </Activatable>)
     )}
-  </View>
+  </StyledView>
 )
 ;
 

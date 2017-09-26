@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withTheme } from 'styled-components/primitives';
+import styled, { withTheme } from 'styled-components/primitives';
 import { Animated } from 'react-primitives';
+import omit from 'lodash/omit';
 
 import Icons from '../Icons';
 import LangButton from './LangButton';
@@ -11,7 +12,7 @@ import { size } from '../utils';
 
 const LanguageButton = LangButton.extend`
   width: ${size(52)};
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 `;
 
@@ -19,7 +20,7 @@ const StyledP = P.extend`
   color: ${props => props.theme.colors.background.hslWhite}
 `;
 
-const StyledDiv = View.extend`
+const StyledView = View.extend`
   overflow: hidden;
   padding: 0;
   align-items: center;
@@ -54,7 +55,7 @@ class LangSelectSmall extends React.Component {
 
   render() {
     return (
-      <StyledDiv>
+      <StyledView {...omit(this.props, ['languages', 'selectedLanguage', 'changeLanguage'])}>
         <LanguageButton
           onPress={this.toggleLangSelect}
         >
@@ -62,8 +63,8 @@ class LangSelectSmall extends React.Component {
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
           </StyledP>
           <Icons.ArrowDown
-            height="0.75"
-            width="0.75"
+            height="0.75rem"
+            width="0.75rem"
             fill={this.props.theme.colors.background.hslWhite}
           />
         </LanguageButton>
@@ -92,7 +93,7 @@ class LangSelectSmall extends React.Component {
             </SelectWrapper>
           }
         </Animated.View>
-      </StyledDiv>);
+      </StyledView>);
   }
 }
 
@@ -122,4 +123,4 @@ LangSelectSmall.propTypes = {
     })
   })
 };
-export default withTheme(LangSelectSmall);
+export default styled(withTheme(LangSelectSmall))``;

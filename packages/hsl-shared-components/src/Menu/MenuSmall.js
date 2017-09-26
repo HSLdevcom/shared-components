@@ -1,57 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withTheme } from 'styled-components/primitives';
+import styled, { withTheme } from 'styled-components/primitives';
 
-import A from '../Anchor';
-import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
-import { Flex } from '../Wrapper';
-import MenuItem from './MenuItem';
+import View from '../View';
+import { size } from '../utils';
 
-const SearchIcon = Flex.extend`
+export const scrollNavHeight = size(60);
+
+const StyledLangSelectSmall = LangSelectSmall.extend`
+  width: ${scrollNavHeight};
+  height: ${scrollNavHeight};
   align-items: center;
+  justify-content: center;
 `;
 
-const StyledFlex = Flex.extend`
-  align-self: stretch;
-  ${IconWrapper} {
-    line-height: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }
-
+const Wrapper = View.extend`
   align-items: stretch;
+  justify-content: center;
+  width: ${scrollNavHeight};
+  height: ${scrollNavHeight};
+  flex-direction: row;
+`;
 
-  > * {
-    border-left: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
-    display: flex;
-
-    width: ${props => props.theme.scrollNavHeight || '3.75rem'};
-    justify-content: center;
-  }
+const StyledView = View.extend`
+  flex-direction: row;
+  align-self: stretch;
+  align-items: stretch;
   background: ${props => props.theme.colors.primary.hslBlue};
-  color: ${props => props.theme.colors.primary.hslWhite};
-
-  ${MenuItem} {
-    align-items: stretch;
-    ${IconWithText} {
-      flex: 1;
-      margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
-      justify-content: center;
-    }
-  }
-
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.medium`
-      ${SearchIcon}, ${LangSelectSmall} {
-        display: none;
-      }
-    `
-  )}
-
 `;
 
 
@@ -63,47 +40,22 @@ const MenuSmall = ({
   children,
   theme
 }) => (
-  <StyledFlex className={className}>
-    {children}
-    <SearchIcon>
+  <StyledView className={className}>
+    {React.Children.map(children, child => (<Wrapper>{child}</Wrapper>))}
+    <Wrapper>
       <Icons.Search
         height="1.5rem"
         width="1.5rem"
         fill={theme.colors.background.hslWhite}
       />
-    </SearchIcon>
-    <LangSelectSmall
+    </Wrapper>
+    <StyledLangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
     />
-  </StyledFlex>
+  </StyledView>
 );
-
-const defaultChildren = [
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.TravelCard height="1.5rem" width="1.5rem" />}
-    text="Matkakortti"
-    textPosition="Right"
-    key="travelcard"
-    active
-    small
-  />,
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.SignIn height="1.5rem" width="1.5rem" />}
-    text="Kirjaudu"
-    textPosition="Right"
-    key="signin"
-    small
-  />
-];
-
-
-MenuSmall.defaultProps = {
-  children: defaultChildren
-};
 
 
 MenuSmall.propTypes = {
@@ -130,4 +82,4 @@ MenuSmall.propTypes = {
   })
 };
 
-export default withTheme(MenuSmall);
+export default styled(withTheme(MenuSmall))``;

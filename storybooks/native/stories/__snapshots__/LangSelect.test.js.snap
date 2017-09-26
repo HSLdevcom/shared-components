@@ -194,8 +194,85 @@ exports[`Storyshots LangSelect Small 1`] = `
           "paddingRight": 0,
           "paddingTop": 0,
         },
-        undefined,
+        Array [
+          Object {},
+          undefined,
+        ],
       ]
+    }
+    theme={
+      Object {
+        "Media": Object {
+          "large": [Function],
+          "medium": [Function],
+          "small": [Function],
+          "xlarge": [Function],
+          "xsmal": [Function],
+          "xxlarge": [Function],
+        },
+        "colors": Object {
+          "background": Object {
+            "hslBlueLight": "#eff9ff",
+            "hslGreyDark": "#333333",
+            "hslGreyLight": "#eef1f3",
+            "hslGreyXLight": "#e4e4e4",
+            "hslWhite": "#ffffff",
+          },
+          "primary": Object {
+            "hslBlue": "#007ac9",
+            "hslBlueDark": "#0062a1",
+            "hslGreen": "#4ea700",
+            "hslGreenDark": "#3b7f00",
+            "hslGrey": "#888888",
+            "hslGreyDark": "#333333",
+            "hslGreyLight": "#b7b7b7",
+            "hslWhite": "#ffffff",
+          },
+          "secondary": Object {
+            "hslMagenta": "#dc0451",
+            "hslMagentaDark": "#fff6f6",
+            "hslOrange": "#ff6319",
+            "hslPink": "#f092cd",
+            "hslPurple": "#8c4799",
+            "hslYellow": "#fed100",
+          },
+        },
+        "custom": Object {},
+        "error": Object {
+          "color": Object {
+            "primary": "#dc0451",
+            "secondary": "#fff6f6",
+          },
+        },
+        "font": Object {
+          "colors": Object {
+            "default": "#333333",
+            "highlight": "#007ac9",
+            "secondary": "#888888",
+          },
+          "family": "\\"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif\\"",
+          "familyNarrow": "\\"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif\\"",
+          "size": 14,
+          "weight": 500,
+        },
+        "layers": Object {
+          "bottom": 0,
+          "contextMenu": 600,
+          "menu": 700,
+          "middle": 50,
+          "modal": 900,
+          "overlay": 800,
+          "top": 100,
+        },
+        "sizes": Object {
+          "large": 1024,
+          "medium": 640,
+          "small": 320,
+          "xlarge": 1200,
+          "xsmal": 0,
+          "xxlarge": 1440,
+        },
+      }
     }
   >
     <View
@@ -218,7 +295,7 @@ exports[`Storyshots LangSelect Small 1`] = `
                 "borderRadius": 3,
                 "flexDirection": "row",
                 "height": 21,
-                "justifyContent": "space-between",
+                "justifyContent": "space-around",
                 "width": 45.5,
               },
               undefined,
@@ -247,11 +324,11 @@ exports[`Storyshots LangSelect Small 1`] = `
         FI
       </Text>
       <Svg
-        height="0.75"
+        height="0.75rem"
         preserveAspectRatio="xMidYMid meet"
         version="1.1"
         viewBox="0 0 42.5 27.47"
-        width="0.75"
+        width="0.75rem"
       >
         <Path
           d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"

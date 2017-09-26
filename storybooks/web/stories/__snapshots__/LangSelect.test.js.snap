@@ -58,6 +58,80 @@ exports[`Storyshots LangSelect default 1`] = `
 exports[`Storyshots LangSelect small 1`] = `
 <div
   className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingRight-9aemit rn-paddingTop-wk8lta rn-position-bnwqim"
+  theme={
+    Object {
+      "Media": Object {
+        "large": [Function],
+        "medium": [Function],
+        "small": [Function],
+        "xlarge": [Function],
+        "xsmal": [Function],
+        "xxlarge": [Function],
+      },
+      "colors": Object {
+        "background": Object {
+          "hslBlueLight": "#eff9ff",
+          "hslGreyDark": "#333333",
+          "hslGreyLight": "#eef1f3",
+          "hslGreyXLight": "#e4e4e4",
+          "hslWhite": "#ffffff",
+        },
+        "primary": Object {
+          "hslBlue": "#007ac9",
+          "hslBlueDark": "#0062a1",
+          "hslGreen": "#4ea700",
+          "hslGreenDark": "#3b7f00",
+          "hslGrey": "#888888",
+          "hslGreyDark": "#333333",
+          "hslGreyLight": "#b7b7b7",
+          "hslWhite": "#ffffff",
+        },
+        "secondary": Object {
+          "hslMagenta": "#dc0451",
+          "hslMagentaDark": "#fff6f6",
+          "hslOrange": "#ff6319",
+          "hslPink": "#f092cd",
+          "hslPurple": "#8c4799",
+          "hslYellow": "#fed100",
+        },
+      },
+      "custom": Object {},
+      "error": Object {
+        "color": Object {
+          "primary": "#dc0451",
+          "secondary": "#fff6f6",
+        },
+      },
+      "font": Object {
+        "colors": Object {
+          "default": "#333333",
+          "highlight": "#007ac9",
+          "secondary": "#888888",
+        },
+        "family": "\\"Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif\\"",
+        "familyNarrow": "\\"Gotham XNarrow SSm A, Gotham XNarrow SSm B, Arial, Georgia, serif\\"",
+        "size": 14,
+        "weight": 500,
+      },
+      "layers": Object {
+        "bottom": 0,
+        "contextMenu": 600,
+        "menu": 700,
+        "middle": 50,
+        "modal": 900,
+        "overlay": 800,
+        "top": 100,
+      },
+      "sizes": Object {
+        "large": 1024,
+        "medium": 640,
+        "small": 320,
+        "xlarge": 1200,
+        "xsmal": 0,
+        "xxlarge": 1440,
+      },
+    }
+  }
 >
   <div
     className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -65,7 +139,7 @@ exports[`Storyshots LangSelect small 1`] = `
     onPress={[Function]}
   >
     <div
-      className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-1tbo1j0 rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-a3k72m"
+      className="rn-alignItems-1awozwy rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-height-1tbo1j0 rn-justifyContent-a2tzq0 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-a3k72m"
     >
       <div
         className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
@@ -77,8 +151,8 @@ exports[`Storyshots LangSelect small 1`] = `
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
-            "height": "0.75",
-            "width": "0.75",
+            "height": "0.75rem",
+            "width": "0.75rem",
           }
         }
         version="1.1"
