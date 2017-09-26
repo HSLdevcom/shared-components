@@ -1,7 +1,9 @@
 import AddCard from './AddCard';
 import Alert from './Alert';
+import ArrowUp from './ArrowUp';
 import ArrowDown from './ArrowDown';
 import ArrowLeft from './ArrowLeft';
+import ArrowRight from './ArrowRight';
 import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
@@ -34,8 +36,10 @@ import MobileTicket from './MobileTicket';
 export default {
   AddCard,
   Alert,
+  ArrowUp,
   ArrowDown,
   ArrowLeft,
+  ArrowRight,
   CardOrder,
   CardWithCheckmark,
   Checkmark,
