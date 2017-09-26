@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { Button, RoundButton, Icons, ButtonWithText, FaqButton, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
 
@@ -104,5 +104,11 @@ storiesOf('Button', module)
         onPress={action('press')}
         onLongPress={action('long press')}
       />
+    );
+  })
+  .add('FaqButton', () => {
+    const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
+    return (
+      <FaqButton icon={icon} />
     );
   });

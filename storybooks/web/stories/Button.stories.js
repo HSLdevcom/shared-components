@@ -4,7 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, ButtonWithText, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { Button, RoundButton, ButtonWithText, Icons, FaqButton, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -116,5 +116,11 @@ stories.addWithJSX('button with text', () => {
       onPress={action('press')}
       onLongPress={action('long press')}
     />
+  );
+});
+
+stories.addWithJSX('FaqButton', () => {
+  return (
+    <FaqButton />
   );
 });

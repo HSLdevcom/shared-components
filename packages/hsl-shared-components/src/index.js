@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button, { RoundButton, ButtonWithText } from './Button';
+import Button, { RoundButton, ButtonWithText, FaqButton } from './Button';
 import TextInput from './TextInput';
 import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
@@ -35,6 +35,7 @@ export {
   Button,
   RoundButton,
   ButtonWithText,
+  FaqButton,
   TextInput,
   Nav,
   NavItem,
