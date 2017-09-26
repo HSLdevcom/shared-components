@@ -5,7 +5,7 @@ import styled, { withTheme } from 'styled-components/primitives';
 import { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
 import View from '../View';
-import { size } from '../utils';
+import { size, Responsive } from '../utils';
 
 export const scrollNavHeight = size(60);
 
@@ -42,16 +42,17 @@ const StyledView = View.extend`
 `;
 
 
-const MenuSmall = ({
+const Menu = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  className,
   children,
-  theme
+  theme,
+  small,
+  ...rest
 }) => (
-  <StyledView className={className}>
-    {React.Children.map(children, child => (<Wrapper>{child}</Wrapper>))}
+  <StyledView {...rest}>
+    {!small && React.Children.map(children, child => (<Wrapper>{child}</Wrapper>))}
     <SearchIcon>
       <Icons.Search
         height="1.5rem"
@@ -68,7 +69,8 @@ const MenuSmall = ({
 );
 
 
-MenuSmall.propTypes = {
+Menu.propTypes = {
+  small: PropTypes.boolean,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.oneOfType([
       PropTypes.string,
@@ -91,5 +93,12 @@ MenuSmall.propTypes = {
     })
   })
 };
+
+const MenuSmall = ({ ...props }) => (
+  <Responsive
+    medium={<Menu small {...props} />}
+    large={<Menu {...props} />}
+  />
+);
 
 export default styled(withTheme(MenuSmall))``;
