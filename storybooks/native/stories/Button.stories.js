@@ -107,8 +107,12 @@ storiesOf('Button', module)
     );
   })
   .add('FaqButton', () => {
+    const active = boolean('Active', false);
     const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
     return (
-      <FaqButton icon={icon} />
+      <FaqButton
+        active={active}
+        icon={icon}
+      />
     );
   });

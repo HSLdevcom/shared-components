@@ -120,7 +120,14 @@ stories.addWithJSX('button with text', () => {
 });
 
 stories.addWithJSX('FaqButton', () => {
+  const active = boolean('Active', false);
+  const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
   return (
-    <FaqButton />
+    <FaqButton
+      active={active}
+      icon={icon}
+      onPress={action('press')}
+      onLongPress={action('long press')}
+    />
   );
 });
