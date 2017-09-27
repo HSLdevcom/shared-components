@@ -16,6 +16,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
         Array [
           Object {
             "alignItems": "stretch",
+            "borderStyle": "solid",
             "flexBasis": 0,
             "flexDirection": "column",
             "flexGrow": 1,
@@ -70,6 +71,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Object {
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
+                  "borderStyle": "solid",
                   "flexDirection": "column",
                   "justifyContent": "center",
                   "width": "55%",
@@ -83,6 +85,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "alignItems": "flex-start",
+                    "borderStyle": "solid",
                     "flexDirection": "row",
                     "justifyContent": "space-between",
                     "marginBottom": 8.75,
@@ -204,6 +207,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Object {
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
+                  "borderStyle": "solid",
                   "flexDirection": "column",
                   "justifyContent": "center",
                   "width": "55%",
@@ -217,6 +221,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "alignItems": "flex-start",
+                    "borderStyle": "solid",
                     "flexDirection": "row",
                     "justifyContent": "space-between",
                     "marginBottom": 8.75,
@@ -338,6 +343,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Object {
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
+                  "borderStyle": "solid",
                   "flexDirection": "column",
                   "justifyContent": "center",
                   "width": "55%",
@@ -351,6 +357,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "alignItems": "flex-start",
+                    "borderStyle": "solid",
                     "flexDirection": "row",
                     "justifyContent": "space-between",
                     "marginBottom": 8.75,
@@ -472,6 +479,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Object {
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
+                  "borderStyle": "solid",
                   "flexDirection": "column",
                   "justifyContent": "center",
                   "width": "55%",
@@ -485,6 +493,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "alignItems": "flex-start",
+                    "borderStyle": "solid",
                     "flexDirection": "row",
                     "justifyContent": "space-between",
                     "marginBottom": 8.75,
@@ -606,6 +615,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Object {
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
+                  "borderStyle": "solid",
                   "flexDirection": "column",
                   "justifyContent": "center",
                   "width": "55%",
@@ -619,6 +629,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "alignItems": "flex-start",
+                    "borderStyle": "solid",
                     "flexDirection": "row",
                     "justifyContent": "space-between",
                     "marginBottom": 8.75,

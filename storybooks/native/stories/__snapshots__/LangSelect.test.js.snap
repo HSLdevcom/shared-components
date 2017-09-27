@@ -17,6 +17,7 @@ exports[`Storyshots LangSelect Default 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#007ac9",
+          "borderStyle": "solid",
           "flexDirection": "row",
           "justifyContent": "space-between",
         },
@@ -38,6 +39,7 @@ exports[`Storyshots LangSelect Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [
@@ -85,6 +87,7 @@ exports[`Storyshots LangSelect Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [
@@ -131,6 +134,7 @@ exports[`Storyshots LangSelect Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [
@@ -187,6 +191,7 @@ exports[`Storyshots LangSelect Small 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#007ac9",
+          "borderStyle": "solid",
           "justifyContent": "center",
           "overflow": "hidden",
           "paddingBottom": 0,
@@ -286,6 +291,7 @@ exports[`Storyshots LangSelect Small 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [

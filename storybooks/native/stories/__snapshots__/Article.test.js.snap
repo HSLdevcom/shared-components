@@ -16,6 +16,7 @@ exports[`Storyshots Article Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [

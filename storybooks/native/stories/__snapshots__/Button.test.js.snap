@@ -23,6 +23,7 @@ exports[`Storyshots Button button with text 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [
@@ -47,6 +48,7 @@ exports[`Storyshots Button button with text 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [
@@ -132,6 +134,7 @@ exports[`Storyshots Button default 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [
@@ -212,6 +215,7 @@ exports[`Storyshots Button primary 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [
@@ -292,6 +296,7 @@ exports[`Storyshots Button round button 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [
@@ -325,6 +330,7 @@ exports[`Storyshots Button round button 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "borderStyle": "solid",
             "justifyContent": "center",
           },
           Array [
@@ -377,6 +383,7 @@ exports[`Storyshots Button secondary 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [
