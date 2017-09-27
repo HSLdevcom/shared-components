@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import View from '../View';
-import { H4 } from '../Typography';
+import { H4, P } from '../Typography';
 import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
-import { size } from '../utils';
+import { IS_NATIVE, size } from '../utils';
 
 const Container = View.extend`
   flex-direction: row;
@@ -36,26 +36,40 @@ const Icon = withTheme(({ icon, theme, negative }) =>
   })
 );
 
-const Title = H4.extend`
+const TitleContainer = View.extend`
+  flex-direction: column;
+  align-items: flex-start;
   ${props => !props.centered && `
     flex-grow: 2;
   `}
-  flex-wrap: wrap;
   margin-vertical: ${size(18)};
   ${props => props.icon && `
-    margin-left: ${size(15)};
+    margin-left: ${size(18)};
   `}
   ${props => props.arrow && `
-    margin-right: ${size(15)};
+    margin-right: ${size(18)};
   `}
+`;
+
+const Title = H4.extend`
+  flex-wrap: wrap;
   color: ${props => props.theme.font.colors.highlight};
   ${props => props.negative && `
     color: ${props.theme.colors.primary.hslWhite};
   `}
 `;
 
-const ArrowIcon = withTheme(({ theme, active, negative }) => {
+const Subtitle = P.extend`
+  ${!IS_NATIVE && `
+    margin-top: ${size(5)};
+  `}
+  color: ${props => props.theme.font.colors.secondary};
+  ${props => props.negative && `
+    color: ${props.theme.colors.primary.hslWhite};
+  `}
+`;
 
+const ArrowIcon = withTheme(({ theme, active, negative }) => {
   const fill = (() => {
     if (negative) {
       return theme.colors.primary.hslWhite;
@@ -104,20 +118,30 @@ const ActionListItem = styled(({
         negative={negative}
         {...rest}
       >
-        {icon &&
+        {!!icon &&
           <Icon
             icon={icon}
             negative={negative}
           />
         }
-        <Title
+        <TitleContainer
           icon={!!icon}
           arrow={arrow}
           centered={centered}
-          negative={negative}
         >
-          {title}
-        </Title>
+          <Title
+            negative={negative}
+          >
+            {title}
+          </Title>
+          {!!subtitle &&
+            <Subtitle
+              negative={negative}
+            >
+              {subtitle}
+            </Subtitle>
+          }
+        </TitleContainer>
         {arrow &&
           <ArrowIcon
             active={active}

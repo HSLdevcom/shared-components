@@ -30,7 +30,12 @@ stories.addWithJSX('default', () => {
     },
     {
       title: 'Mobiililippu',
-      icon: null,
+      icon: <Icons.JourneyPlanner />,
+    },
+    {
+      title: 'Ruskeasuon varikko',
+      subtitle: 'Pysäkki 1935, Vihdintie',
+      icon: <Icons.Tickets />,
     },
     {
       title: 'Tekstiviestilippu',
@@ -51,26 +56,28 @@ stories.addWithJSX('default', () => {
 
 stories.addWithJSX('ActionListItem', () => {
   const type = select('Type', ['button', 'link'], 'button');
-  const title = text('Title', 'Arvoliput matkakortilla');
+  const title = text('Title', 'Ruskeasuon varikko');
+  const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
   const href = text('Href', 'http://www.hsl.fi');
   const active = boolean('Active', false);
   const centered = boolean('Centered', false);
   const arrow = boolean('Arrow', true);
+  const negative = boolean('Negative', false);
   const withBorder = boolean('withBorder', true);
-  const negative = boolean('Negative', true);
-  const iconKnob = boolean('Icon', false);
-  const icon = iconKnob ? <Icons.Facebook /> : null;
+  const iconKnob = boolean('Icon', true);
+  const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
   return (
     <ActionListItem
       type={type}
       href={href}
       title={title}
+      subtitle={subtitle}
       active={active}
       centered={centered}
       icon={icon}
       arrow={arrow}
-      withBorder={withBorder}
       negative={negative}
+      withBorder={withBorder}
       onPress={action('press')}
       onLongPress={action('long press')}
     />
