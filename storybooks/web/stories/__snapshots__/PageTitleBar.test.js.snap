@@ -2,13 +2,13 @@
 
 exports[`Storyshots PageTitleBar with back button 1`] = `
 <div
-  className="sc-hzDkRC eOrkkY"
+  className="sc-kEYyzF bvtuJL"
 >
   <div
-    className="sc-jhAzac hUOjOR"
+    className="sc-kkGfuU guYrzb"
   >
     <button
-      className="sc-fBuWsC ftqNLd"
+      className="sc-iAyFgw frdahF"
       onClick={[Function]}
     >
       <svg
@@ -38,10 +38,10 @@ exports[`Storyshots PageTitleBar with back button 1`] = `
 
 exports[`Storyshots PageTitleBar without back button 1`] = `
 <div
-  className="sc-hzDkRC eOrkkY"
+  className="sc-kEYyzF bvtuJL"
 >
   <div
-    className="sc-jhAzac hUOjOR"
+    className="sc-kkGfuU guYrzb"
   >
     <h1>
       Title
