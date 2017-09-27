@@ -14,9 +14,9 @@ import { Menu, MenuSmall, MenuMobile, MenuItem,
 setAddon(JSXAddon);
 
 const StyledA = A.extend`
-  display: flex;
   align-items: stretch;
-  justify-content: center;
+  flex-direction: row;
+  display: flex;
 `;
 
 const cog = <Icons.Cog height="2.5rem" width="2.5rem" />;
@@ -117,7 +117,7 @@ stories.addWithJSX('default', () => {
     <Nav logo={logo} menu={menu}>
       <NavItem
         key="Reittiopas"
-        link={<A href="/test" />}
+        link={<StyledA href="/test" />}
         icon={<Icons.JourneyPlanner height="2.5rem" width="2.5rem" />}
         text="Reittiopas"
         active
@@ -125,7 +125,7 @@ stories.addWithJSX('default', () => {
       {icons.map(icon =>
         (<NavItem
           key={icon[1]}
-          link={<A href="/test" />}
+          link={<StyledA href="/test" />}
           icon={icon[0]}
           text={icon[1]}
         />)

@@ -12,16 +12,17 @@ const StyledView = styled(({ scroll, ...rest }) => (
   justify-content: space-between;
   background: ${props => props.theme.colors.primary.hslBlue};
   ${props => props.scroll && `padding-left: ${size(16)};`}
+  align-items: stretch;
 `;
 
-const Logo = styled(({ children, scroll }) => {
+const Logo = styled(({ children, scroll, ...rest }) => {
   if (scroll) {
-    return React.cloneElement(children, { height: '2rem' });
+    return <View {...rest}>{React.cloneElement(children, { height: '2rem' })}</View>;
   }
   return (<Responsive
-    small={React.cloneElement(children, { height: '2.75rem' })}
-    large={React.cloneElement(children, { height: '3.25rem' })}
-    xlarge={React.cloneElement(children, { height: '3.75rem' })}
+    small={<View {...rest}>{React.cloneElement(children, { height: '2.75rem' })}</View>}
+    large={<View {...rest}>{React.cloneElement(children, { height: '3.25rem' })}</View>}
+    xlarge={<View {...rest}>{React.cloneElement(children, { height: '3.75rem' })}</View>}
   />);
 })``;
 

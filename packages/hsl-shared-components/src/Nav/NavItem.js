@@ -14,6 +14,11 @@ const StyledLabelText = styled(({ small, ...rest }) => (
   color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
+const StyledView = View.extend`
+  flex-direction: row;
+  align-items: stretch;
+`;
+
 const NavItem = ({
   link,
   icon,
@@ -22,7 +27,7 @@ const NavItem = ({
   small,
   ...rest
 }) => (
-  <View {...rest}>
+  <StyledView {...rest}>
     {React.cloneElement(
       link,
       { },
@@ -31,7 +36,7 @@ const NavItem = ({
         <StyledLabelText small={small}>{text}</StyledLabelText>
       </Activatable>)
     )}
-  </View>
+  </StyledView>
 )
 ;
 
