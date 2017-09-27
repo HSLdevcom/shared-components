@@ -1,43 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
 
-import Div from '../Div';
+import View from '../View';
+import { LabelText } from '../Typography';
 import { Activatable } from '../Wrapper';
-import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
+import { size } from '../utils';
 
-const StyledDiv = Div.extend`
-  > .link {
-    display: flex;
-    flex: 1;
-  }
-  ${IconWithText} {
-    ${IconWrapper} {
-      ${props => (
-        props.small && 'display: none;'
-      )}
-    }
-  }
+const StyledLabelText = styled(({ small, ...rest }) => (
+  <LabelText {...rest} />
+))`
+  ${props => !props.small && `margin-top: ${size(16)};`}
+  color: ${props => props.theme.colors.primary.hslWhite};
 `;
 
 const NavItem = ({
   link,
   icon,
   text,
-  textPosition,
   active,
   small,
-  className
+  ...rest
 }) => (
-  <StyledDiv className={className} small={small}>
+  <View {...rest}>
     {React.cloneElement(
       link,
-      { className: 'link' },
+      { },
       (<Activatable active={active}>
-        <IconWithText icon={icon} text={text} textPosition={textPosition} />
+        {!small && icon}
+        <StyledLabelText small={small}>{text}</StyledLabelText>
       </Activatable>)
     )}
-  </StyledDiv>
+  </View>
 )
 ;
 
@@ -48,7 +42,6 @@ NavItem.propTypes = {
     PropTypes.string,
     PropTypes.node
   ]).isRequired,
-  textPosition: PropTypes.oneOf(['Right', 'Bottom']),
   active: PropTypes.bool,
   small: PropTypes.bool,
   className: PropTypes.string

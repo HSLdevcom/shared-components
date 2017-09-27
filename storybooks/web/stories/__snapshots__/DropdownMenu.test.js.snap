@@ -6,30 +6,72 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-kkGfuU gqJIVH sc-kEYyzF ghpdiI"
+    className="sc-hMqMXs cPxEnv sc-eNQAEJ jVGkxK"
     open={false}
   >
     <button
-      className="sc-hMqMXs bmHXHs"
+      className="sc-jKJlTe iSwUgZ"
       onClick={[Function]}
     >
       <div
-        className="sc-gqjmRU hnZXkc sc-gZMcBi fUeTNJ"
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        textPosition="Bottom"
       >
         <a
-          className="link sc-VigVT kgxfau"
+          className="sc-gzVnrw inpPPz"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderBottomColor-85ahfa rn-borderBottomWidth-1tgv9k5 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopColor-yhjsbo rn-borderTopWidth-2q8rws rn-borderRightWidth-fnigne rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           >
-            <div
-              className="sc-iwsKbI iuVdIU sc-dnqmqq QxXqD"
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                }
+              }
+              version="1.1"
+              viewBox="-5 0 48 10"
             >
-              <span
-                aria-hidden="true"
-                className="sc-gzVnrw gXbXmR"
+              <g
+                fill={undefined}
               >
+                <circle
+                  cx="5"
+                  cy="5"
+                  id="Oval"
+                  r="5"
+                />
+                <circle
+                  cx="19"
+                  cy="5"
+                  id="Oval"
+                  r="5"
+                />
+                <circle
+                  cx="33"
+                  cy="5"
+                  id="Oval"
+                  r="5"
+                />
+              </g>
+            </svg>
+            <div
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-1tfa2h4 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              dir="auto"
+            >
+              <div
+                className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-xoduu5 rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+              >
+                <span
+                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-wordWrap-qvutc0"
+                  dir="auto"
+                >
+                  Lisää
+                </span>
                 <svg
+                  className="sc-ckVGcZ fZYaxp"
                   preserveAspectRatio="xMidYMid meet"
                   style={
                     Object {
@@ -38,64 +80,15 @@ exports[`Storyshots DropdownMenu default 1`] = `
                     }
                   }
                   version="1.1"
-                  viewBox="-5 0 48 10"
+                  viewBox="0 0 42.5 27.47"
                 >
-                  <g
+                  <path
+                    d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
                     fill={undefined}
-                  >
-                    <circle
-                      cx="5"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                    <circle
-                      cx="19"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                    <circle
-                      cx="33"
-                      cy="5"
-                      id="Oval"
-                      r="5"
-                    />
-                  </g>
+                    id="arrow"
+                  />
                 </svg>
-              </span>
-              <span
-                className="sc-htoDjs bZzhDu"
-              >
-                <div
-                  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-                >
-                  <div
-                    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-                    dir="auto"
-                  >
-                    Lisää
-                  </div>
-                  <svg
-                    className="sc-eNQAEJ eLVpxe"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "height": undefined,
-                        "width": undefined,
-                      }
-                    }
-                    version="1.1"
-                    viewBox="0 0 42.5 27.47"
-                  >
-                    <path
-                      d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-                      fill={undefined}
-                      id="arrow"
-                    />
-                  </svg>
-                </div>
-              </span>
+              </div>
             </div>
           </div>
         </a>

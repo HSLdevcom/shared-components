@@ -12,6 +12,13 @@ import { Menu, MenuSmall, MenuMobile, MenuItem,
          A } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
+
+const StyledA = A.extend`
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+`;
+
 const cog = <Icons.Cog height="2.5rem" width="2.5rem" />;
 const DropdownContent = [
   <List header="Liikkumisen palveluita" key="1">
@@ -230,33 +237,28 @@ stories.addWithJSX('mobile', () => {
 });
 
 stories.addWithJSX('nav item', () => {
-  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" />;
-  const link = <A href="/test" />;
-  const StyledMenuItem = NavItem.extend`
+  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" fill="#ffffff" />;
+  const link = <StyledA href="/test" />;
+  const StyledNavItem = NavItem.extend`
     background-color: #007ac9;
     color: #ffffff;
   `;
 
   const StyledDiv = Div.extend`
-    width: 10em;
-    padding: 2em;
+    width: 15em;
+    height: 15em;
     background: lightgrey;
   `;
   const small = boolean('Small', false);
   const active = boolean('active', false);
-  const textPosition = select('Text position', {
-    Right: 'Right',
-    Bottom: 'Bottom',
-  }, 'Bottom');
 
   return (
     <StyledDiv>
-      <StyledMenuItem
+      <StyledNavItem
         link={link}
         icon={icon}
         small={small}
         active={active}
-        textPosition={textPosition}
         text="Reittiopas"
       />
     </StyledDiv>
