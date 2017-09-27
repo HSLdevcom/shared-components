@@ -18,8 +18,33 @@ stories.addDecorator(getStory => (
   </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
+  const negative = boolean('Negative', false);
+  const centered = boolean('Centered', false);
+  const arrows = boolean('Arrows', true);
+  const withBorder = boolean('withBorder', true);
+  const items = [
+    {
+      title: 'Yleistä kertalipusta',
+      icon: null,
+      active: true,
+    },
+    {
+      title: 'Mobiililippu',
+      icon: null,
+    },
+    {
+      title: 'Tekstiviestilippu',
+      icon: null,
+    },
+  ];
   return (
-    <ActionList />
+    <ActionList
+      items={items}
+      negative={negative}
+      centered={centered}
+      arrows={arrows}
+      withBorder={withBorder}
+    />
   );
 }
 , { displayName: 'ActionList' });
@@ -32,6 +57,7 @@ stories.addWithJSX('ActionListItem', () => {
   const centered = boolean('Centered', false);
   const arrow = boolean('Arrow', true);
   const withBorder = boolean('withBorder', true);
+  const negative = boolean('Negative', true);
   const iconKnob = boolean('Icon', false);
   const icon = iconKnob ? <Icons.Facebook /> : null;
   return (
@@ -44,6 +70,7 @@ stories.addWithJSX('ActionListItem', () => {
       icon={icon}
       arrow={arrow}
       withBorder={withBorder}
+      negative={negative}
       onPress={action('press')}
       onLongPress={action('long press')}
     />

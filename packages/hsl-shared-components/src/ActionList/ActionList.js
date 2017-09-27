@@ -3,26 +3,32 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import ActionListItem from './ActionListItem';
 
-const ActionList = styled(({ items, ...rest }) => {
-  return (
+const ActionList = styled(({ items, negative, centered, arrows, ...rest }) =>
+  (
     <ul {...rest}>
       {items.map((item, index) =>
         (
           <li key={index}>
-            <ActionListItem {...item} withBorder={index !== (items.length - 1)} />
+            <ActionListItem
+              negative={negative}
+              centered={centered}
+              arrow={arrows}
+              withBorder={index !== (items.length - 1)}
+              {...item}
+            />
           </li>
         )
       )}
     </ul>
-  );
-})`
+  )
+)`
   margin: 0;
   padding: 0;
   list-style-type: none;
   ${props => props.withBorder && `
     border-width: 1px;
     border-style: solid;
-    border-color: ${props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
     border-radius: 6px;
   `}
 `;
@@ -30,11 +36,19 @@ const ActionList = styled(({ items, ...rest }) => {
 ActionList.displayName = 'ActionList';
 
 ActionList.propTypes = {
+  items: PropTypes.arrayOf({
+    title: PropTypes.string.isRequired,
+    active: PropTypes.bool,
+  }),
+  negative: PropTypes.bool,
+  centered: PropTypes.bool,
+  arrows: PropTypes.bool,
   withBorder: PropTypes.bool,
 };
 
 ActionList.defaultProps = {
   items: [{ title: 'foo' }, { title: 'bar' }],
+  arrows: true,
   withBorder: true,
 };
 

@@ -20,19 +20,19 @@ const Container = View.extend`
   border-color: transparent;
   ${props => props.withBorder && `
     border-bottom-width: 1px;
-    border-color: ${props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
   `}
   ${props => props.active && `
     border-bottom-width: 3px;
-    border-color: ${props.theme.font.colors.highlight};
+    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
   `}
 `;
 
-const Icon = withTheme(({ icon, theme }) =>
+const Icon = withTheme(({ icon, theme, negative }) =>
   React.cloneElement(icon, {
     width: size(35),
     height: size(35),
-    fill: theme.font.colors.highlight,
+    fill: negative ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
   })
 );
 
@@ -49,21 +49,43 @@ const Title = H4.extend`
     margin-right: ${size(15)};
   `}
   color: ${props => props.theme.font.colors.highlight};
+  ${props => props.negative && `
+    color: ${props.theme.colors.primary.hslWhite};
+  `}
 `;
 
-const ArrowIcon = withTheme(({ theme }) =>
-  <ArrowRight height={size(15)} width={size(10)} fill={theme.font.colors.highlight} />
-);
+const ArrowIcon = withTheme(({ theme, active, negative }) => {
+
+  const fill = (() => {
+    if (negative) {
+      return theme.colors.primary.hslWhite;
+    }
+    if (active) {
+      return theme.font.colors.highlight;
+    }
+    return theme.font.colors.default;
+  })();
+
+  return (
+    <ArrowRight
+      height={size(15)}
+      width={size(10)}
+      fill={fill}
+    />
+  );
+});
 
 const ActionListItem = styled(({
   type,
   href,
+  active,
   title,
   subtitle,
   icon,
   arrow,
   centered,
   withBorder,
+  negative,
   onPress,
   onLongPress,
   ...rest,
@@ -75,23 +97,32 @@ const ActionListItem = styled(({
     >
       <Container
         accessibilityRole={type}
+        active={active}
         href={href}
         centered={centered}
         withBorder={withBorder}
+        negative={negative}
         {...rest}
       >
         {icon &&
-          <Icon icon={icon} />
+          <Icon
+            icon={icon}
+            negative={negative}
+          />
         }
         <Title
           icon={!!icon}
           arrow={arrow}
           centered={centered}
+          negative={negative}
         >
           {title}
         </Title>
         {arrow &&
-          <ArrowIcon />
+          <ArrowIcon
+            active={active}
+            negative={negative}
+          />
         }
       </Container>
     </Touchable>
@@ -107,6 +138,7 @@ ActionListItem.propTypes = {
   centered: PropTypes.bool,
   arrow: PropTypes.bool,
   withBorder: PropTypes.bool,
+  negative: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   theme: PropTypes.shape({
