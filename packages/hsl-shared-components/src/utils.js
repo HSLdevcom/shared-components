@@ -75,5 +75,13 @@ export function svgTranslate(x, y) {
  * Web: { style: { height: 12, width: 34 } }
  */
 export function svgSize(height, width) {
-  return IS_NATIVE ? { height, width } : { style: { height, width } };
+  if (IS_NATIVE) {
+    return {
+      height: parseInt(height, 10),
+      width: parseInt(width, 10),
+    };
+  }
+  return {
+    style: { height, width },
+  };
 }
