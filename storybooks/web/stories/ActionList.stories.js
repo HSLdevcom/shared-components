@@ -18,7 +18,12 @@ stories.addDecorator(getStory => (
   </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
-  return null;
+  const title = text('Title', 'Arvoliput matkakortilla');
+  return (
+    <ActionListItem
+      title={title}
+    />
+  );
 }
 , { displayName: 'ActionList' });
 

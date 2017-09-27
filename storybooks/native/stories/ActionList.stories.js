@@ -16,7 +16,12 @@ storiesOf('ActionList', module)
       </ResponsiveProvider>
     </ThemeProvider>))
   .add('default', () => {
-    return null;
+    const title = text('Title', 'Arvoliput matkakortilla');
+    return (
+      <ActionListItem
+        title={title}
+      />
+    );
   })
   .add('ActionListItem', () => {
     const title = text('Title', 'Arvoliput matkakortilla');
