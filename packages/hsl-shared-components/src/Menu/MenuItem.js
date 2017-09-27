@@ -4,9 +4,12 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import { LabelText } from '../Typography';
 
+import { size } from '../utils';
+
 import { Activatable } from '../Wrapper';
 
 const StyledLabelText = LabelText.extend`
+  margin-left: ${size(8)};
   color: ${props => props.theme.colors.background.hslWhite}
 `;
 
@@ -14,6 +17,10 @@ const StyledView = View.extend`
   align-items: stretch;
   flex-direction: row;
   justify-content: center;
+`;
+
+const Wrap = View.extend`
+  flex-direction: row;
 `;
 
 const MenuItem = ({
@@ -24,15 +31,15 @@ const MenuItem = ({
   small,
   ...rest
 }) => (
-  <StyledView {...rest}>
+  <StyledView small={small} {...rest}>
     {React.cloneElement(
       link,
       {},
       (<Activatable active={active} small={small} >
-        <View>
+        <Wrap>
           {icon}
           { !small && <StyledLabelText>{text}</StyledLabelText> }
-        </View>
+        </Wrap>
       </Activatable>)
     )}
   </StyledView>

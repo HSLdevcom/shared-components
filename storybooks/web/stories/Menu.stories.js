@@ -19,13 +19,33 @@ stories.addWithJSX('default', () => {
     en: 'EN',
   };
 
+  const StyledA = A.extend`
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  `;
+
   const selectedLanguage = select('Selected language', options, 'fi');
 
   return (
     <Menu
       selectedLanguage={selectedLanguage}
       changeLanguage={action('language changed')}
-    />);
+    >
+      <MenuItem
+        link={<StyledA href="/test" />}
+        icon={<Icons.TravelCard height="2rem" width="2rem" fill="#ffffff" />}
+        text="Matkakortti"
+        key="travelcard"
+        active
+      />
+      <MenuItem
+        link={<StyledA href="/test" />}
+        icon={<Icons.SignIn height="2rem" width="2rem" fill="#ffffff" />}
+        text="Kirjaudu"
+        key="signin"
+      />
+    </Menu>);
 });
 
 
@@ -49,18 +69,16 @@ stories.addWithJSX('minimal', () => {
     >
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.TravelCard height="1.5rem" width="1.5rem" fill="#ffffff" />}
+        icon={<Icons.TravelCard height="2rem" width="2rem" fill="#ffffff" />}
         text="Matkakortti"
-        textPosition="Right"
         key="travelcard"
         active
         small
       />
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.SignIn height="1.5rem" width="1.5rem" fill="#ffffff" />}
+        icon={<Icons.SignIn height="2rem" width="2rem" fill="#ffffff" />}
         text="Kirjaudu"
-        textPosition="Right"
         key="signin"
         small
       />
