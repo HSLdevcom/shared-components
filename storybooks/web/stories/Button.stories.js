@@ -1,6 +1,6 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
@@ -120,12 +120,23 @@ stories.addWithJSX('button with text', () => {
 });
 
 stories.addWithJSX('FaqButton', () => {
+  const type = select('type', ['button', 'link'], 'button');
+  const title = text('Title', 'Arvoliput matkakortilla');
+  const href = text('Href', 'http://www.hsl.fi');
   const active = boolean('Active', false);
-  const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
+  const centered = boolean('Centered', false);
+  const arrow = boolean('Arrow', true);
+  const iconKnob = boolean('Icon', false);
+  const icon = iconKnob ? <Icons.Facebook /> : null;
   return (
     <FaqButton
+      type={type}
+      href={href}
+      title={title}
       active={active}
+      centered={centered}
       icon={icon}
+      arrow={arrow}
       onPress={action('press')}
       onLongPress={action('long press')}
     />
