@@ -23,6 +23,7 @@ const Container = View.extend`
     border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
   `}
   ${props => props.active && `
+    margin-bottom: -2px;
     border-bottom-width: 3px;
     border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
   `}
