@@ -41,29 +41,24 @@ const DropdownContent = [
     <IconWithText
       icon={cog}
       text="Yrityksille"
-      textPosition="Right"
     />
     <IconWithText
       icon={cog}
       text="Oppilaitoksille"
-      textPosition="Right"
     />
     <IconWithText
       icon={cog}
       text="Asiakasedut"
-      textPosition="Right"
     />
     <IconWithText
       icon={cog}
       text="Osta HSL-fanituotteita"
-      textPosition="Right"
     />
   </div>
 ];
 const Dropdown = (
   <DropdownMenu
     text="Lisää"
-    textPosition="Bottom"
   >
     { DropdownContent }
   </DropdownMenu>
@@ -86,7 +81,7 @@ const stories = storiesOf('Nav', module);
 
 stories.addDecorator(withKnobs);
 stories.addWithJSX('default', () => {
-  const logo = <Icons.HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo fill="#ffffff" height="3.75rem" />;
   const options = {
     fi: 'FI',
     sv: 'SV',
@@ -107,7 +102,6 @@ stories.addWithJSX('default', () => {
       link={<A href="/test" key="test1" />}
       icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
-      textPosition="Right"
       key="travelcard"
       active
     />
@@ -115,7 +109,6 @@ stories.addWithJSX('default', () => {
       link={<A href="/test" key="test2" />}
       icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
-      textPosition="Right"
       key="signin"
     />
   </Menu>);
@@ -127,7 +120,6 @@ stories.addWithJSX('default', () => {
         link={<A href="/test" />}
         icon={<Icons.JourneyPlanner height="2.5rem" width="2.5rem" />}
         text="Reittiopas"
-        textPosition={'Bottom'}
         active
       />
       {icons.map(icon =>
@@ -136,7 +128,6 @@ stories.addWithJSX('default', () => {
           link={<A href="/test" />}
           icon={icon[0]}
           text={icon[1]}
-          textPosition={'Bottom'}
         />)
      )}
       { Dropdown }
@@ -149,7 +140,7 @@ stories.addWithJSX('default', () => {
 
 
 stories.addWithJSX('scroll', () => {
-  const logo = <Icons.HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo fill="#ffffff" height="3.75rem" />;
 
   const options = {
     fi: 'FI',
@@ -162,7 +153,23 @@ stories.addWithJSX('scroll', () => {
   const menu = (<MenuSmall
     selectedLanguage={selectedLanguage}
     changeLanguage={action('language changed')}
-  />);
+  >
+    <MenuItem
+      link={<StyledA href="/test" />}
+      icon={<Icons.TravelCard height="1.75rem" width="1.75rem" fill="#ffffff" />}
+      text="Matkakortti"
+      key="travelcard"
+      active
+      small
+    />
+    <MenuItem
+      link={<StyledA href="/test" />}
+      icon={<Icons.SignIn height="1.75rem" width="1.75rem" fill="#ffffff" />}
+      text="Kirjaudu"
+      key="signin"
+      small
+    />
+  </MenuSmall>);
 
   return (<NavDesktop logo={logo} menu={menu} scroll>
     {icons.map(icon =>
@@ -172,7 +179,6 @@ stories.addWithJSX('scroll', () => {
         link={<A href="/test" />}
         icon={icon[0]}
         text={icon[1]}
-        textPosition={'Bottom'}
       />)
      )}
   </NavDesktop>);
@@ -180,7 +186,7 @@ stories.addWithJSX('scroll', () => {
 
 
 stories.addWithJSX('only title', () => {
-  const logo = <Icons.HSLLogo height="3.75rem" />;
+  const logo = <Icons.HSLLogo fill="#ffffff" height="3.75rem" />;
   const StyledSpan = Span.extend`
     &.child {
       margin: auto;
@@ -193,7 +199,7 @@ stories.addWithJSX('only title', () => {
 });
 
 stories.addWithJSX('mobile', () => {
-  const logo = <Icons.HSLLogo height="2rem" />;
+  const logo = <Icons.HSLLogo fill="#ffffff" height="2rem" />;
 
   const options = {
     fi: 'FI',
@@ -211,14 +217,12 @@ stories.addWithJSX('mobile', () => {
       link={<A href="/test" key="test1" />}
       icon={<Icons.TravelCard height="3.5rem" />}
       text="Matkakortti"
-      textPosition="Bottom"
       key="travelcard"
     />
     <MenuItem
       link={<A href="/test" key="test1" />}
       icon={<Icons.SignIn height="3.5rem" />}
       text="Kirjaudu"
-      textPosition="Bottom"
       key="signin"
     />
   </MenuMobile>);
@@ -230,7 +234,6 @@ stories.addWithJSX('mobile', () => {
       link={<A href="/test" />}
       icon={icon[0]}
       text={icon[1]}
-      textPosition={'Right'}
     />)
      )}
   </NavMobile>);

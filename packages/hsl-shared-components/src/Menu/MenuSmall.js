@@ -14,7 +14,6 @@ const StyledLangSelectSmall = LangSelectSmall.extend`
   height: ${scrollNavHeight};
   align-items: center;
   justify-content: center;
-  border-type: solid;
   border-left-width: ${size(1)};
   border-color: ${props => props.theme.colors.primary.hslBlueDark};
 `;
@@ -25,7 +24,6 @@ const Wrapper = View.extend`
   width: ${scrollNavHeight};
   height: ${scrollNavHeight};
   flex-direction: row;
-  border-type: solid;
   border-left-width: ${size(1)};
   border-color: ${props => props.theme.colors.primary.hslBlueDark};
 `;
