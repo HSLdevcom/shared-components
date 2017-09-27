@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
-import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
+import { withKnobs, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Button, RoundButton, Icons, ButtonWithText, FaqButton, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { Button, RoundButton, Icons, ButtonWithText, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
 
@@ -101,29 +101,6 @@ storiesOf('Button', module)
         small={small}
         text="Kaupunkipyörät"
         icon={icon}
-        onPress={action('press')}
-        onLongPress={action('long press')}
-      />
-    );
-  })
-  .add('FaqButton', () => {
-    const type = select('type', ['button', 'link'], 'button');
-    const title = text('Title', 'Arvoliput matkakortilla');
-    const href = text('Href', 'http://www.hsl.fi');
-    const active = boolean('Active', false);
-    const centered = boolean('Centered', false);
-    const arrow = boolean('Arrow', true);
-    const iconKnob = boolean('Icon', false);
-    const icon = iconKnob ? <Icons.Facebook /> : null;
-    return (
-      <FaqButton
-        type={type}
-        href={href}
-        title={title}
-        active={active}
-        centered={centered}
-        icon={icon}
-        arrow={arrow}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Button, { RoundButton, ButtonWithText, FaqButton } from './Button';
+import Button, { RoundButton, ButtonWithText } from './Button';
 import TextInput from './TextInput';
 import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
 import PageTitleBar from './PageTitleBar/PageTitleBar';
@@ -13,6 +13,7 @@ import List, { ListItem } from './List';
 import NewsFeed, { NewsFeedItem } from './NewsFeed';
 import LangSelect, { LangSelectSmall, LangButton } from './LangSelect';
 import Menu, { MenuSmall, MenuMobile, MenuItem } from './Menu';
+import { ActionListItem } from './ActionList';
 import { Flex, Activatable } from './Wrapper';
 import DropdownMenu from './DropdownMenu';
 import UltraWideContainer from './UltraWideContainer/UltraWideContainer';
@@ -32,10 +33,10 @@ import Theme from './Theme';
 
 export {
   AppHeader,
+  ActionListItem,
   Button,
   RoundButton,
   ButtonWithText,
-  FaqButton,
   TextInput,
   Nav,
   NavItem,

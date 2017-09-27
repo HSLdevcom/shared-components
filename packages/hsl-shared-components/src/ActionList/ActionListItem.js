@@ -50,7 +50,7 @@ const ArrowIcon = withTheme(({ theme }) =>
   <ArrowRight height={size(15)} width={size(10)} fill={theme.font.colors.highlight} />
 );
 
-const FaqButton = styled(({
+const ActionListItem = styled(({
   type,
   href,
   title,
@@ -61,8 +61,8 @@ const FaqButton = styled(({
   onPress,
   onLongPress,
   ...rest,
-}) => {
-  return (
+}) =>
+  (
     <Touchable
       onPress={onPress}
       onLongPress={onLongPress}
@@ -88,10 +88,10 @@ const FaqButton = styled(({
         }
       </Container>
     </Touchable>
-  );
-})``;
+  )
+)``;
 
-FaqButton.propTypes = {
+ActionListItem.propTypes = {
   type: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
   title: PropTypes.string.isRequired,
@@ -108,12 +108,12 @@ FaqButton.propTypes = {
   }),
 };
 
-FaqButton.defaultProps = {
+ActionListItem.defaultProps = {
   type: 'button',
   arrow: true,
   centered: false,
 };
 
-FaqButton.displayName = 'FaqButton';
+ActionListItem.displayName = 'ActionListItem';
 
-export default FaqButton;
+export default ActionListItem;
