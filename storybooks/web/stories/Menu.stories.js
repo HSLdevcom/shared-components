@@ -34,14 +34,14 @@ stories.addWithJSX('default', () => {
     >
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.TravelCard height="2rem" width="2rem" fill="#ffffff" />}
+        icon={<Icons.TravelCard height="1.75rem" width="1.75rem" fill="#ffffff" />}
         text="Matkakortti"
         key="travelcard"
         active
       />
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.SignIn height="2rem" width="2rem" fill="#ffffff" />}
+        icon={<Icons.SignIn height="1.75rem" width="1.75rem" fill="#ffffff" />}
         text="Kirjaudu"
         key="signin"
       />
@@ -69,7 +69,7 @@ stories.addWithJSX('minimal', () => {
     >
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.TravelCard height="2rem" width="2rem" fill="#ffffff" />}
+        icon={<Icons.TravelCard height="1.75rem" width="1.75rem" fill="#ffffff" />}
         text="Matkakortti"
         key="travelcard"
         active
@@ -77,7 +77,7 @@ stories.addWithJSX('minimal', () => {
       />
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.SignIn height="2rem" width="2rem" fill="#ffffff" />}
+        icon={<Icons.SignIn height="1.75rem" width="1.75rem" fill="#ffffff" />}
         text="Kirjaudu"
         key="signin"
         small

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components/primitives';
 
 import LangSelect, { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
@@ -97,11 +97,12 @@ const Menu = ({
   changeLanguage,
   selectedLanguage,
   children,
+  theme,
   ...rest
 }) => (
   <Container {...rest}>
     <Top>
-      <Icons.Search height="1.5rem" width="1.5rem" fill="#ffffff" />
+      <Icons.Search height="1.5rem" width="1.5rem" fill={theme.colors.primary.hslWhite} />
       <ResponsiveLangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
@@ -128,7 +129,14 @@ Menu.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  children: PropTypes.node
+  children: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      primary: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
-export default styled(Menu)``;
+export default withTheme(styled(Menu)``);
