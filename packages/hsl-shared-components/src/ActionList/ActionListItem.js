@@ -15,10 +15,15 @@ const Container = View.extend`
   ${props => props.centered && `
     justify-content: center;
   `}
-  border-bottom-width: 3px;
+  padding-horizontal: ${size(18)};
   border-style: solid;
   border-color: transparent;
+  ${props => props.withBorder && `
+    border-bottom-width: 1px;
+    border-color: ${props.theme.colors.primary.hslGreyLight};
+  `}
   ${props => props.active && `
+    border-bottom-width: 3px;
     border-color: ${props.theme.font.colors.highlight};
   `}
 `;
@@ -58,6 +63,7 @@ const ActionListItem = styled(({
   icon,
   arrow,
   centered,
+  withBorder,
   onPress,
   onLongPress,
   ...rest,
@@ -71,6 +77,7 @@ const ActionListItem = styled(({
         accessibilityRole={type}
         href={href}
         centered={centered}
+        withBorder={withBorder}
         {...rest}
       >
         {icon &&
@@ -99,6 +106,7 @@ ActionListItem.propTypes = {
   subtitle: PropTypes.string,
   centered: PropTypes.bool,
   arrow: PropTypes.bool,
+  withBorder: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   theme: PropTypes.shape({
@@ -112,6 +120,7 @@ ActionListItem.defaultProps = {
   type: 'button',
   arrow: true,
   centered: false,
+  withBorder: true,
 };
 
 ActionListItem.displayName = 'ActionListItem';

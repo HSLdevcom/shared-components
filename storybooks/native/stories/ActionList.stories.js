@@ -28,6 +28,7 @@ storiesOf('ActionList', module)
     const active = boolean('Active', false);
     const centered = boolean('Centered', false);
     const arrow = boolean('Arrow', true);
+    const withBorder = boolean('withBorder', true);
     const iconKnob = boolean('Icon', false);
     const icon = iconKnob ? <Icons.Facebook /> : null;
     return (
@@ -37,6 +38,7 @@ storiesOf('ActionList', module)
         centered={centered}
         icon={icon}
         arrow={arrow}
+        withBorder={withBorder}
         onPress={action('press')}
         onLongPress={action('long press')}
       />
