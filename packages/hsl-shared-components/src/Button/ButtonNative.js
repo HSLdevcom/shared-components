@@ -101,8 +101,8 @@ const TouchableView = styled(({
       background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
   `}
   ${props => props.disabled && `
-    border-color: ${props.theme.colors.misc.greyXLight};
-    background-color: ${props.primary ? props.theme.colors.background.greyXLight : props.theme.colors.background.hslWhite};
+    border-color: ${props.theme.colors.background.hslGreyXLight};
+    background-color: ${props.primary ? props.theme.colors.background.hslGreyXLight : props.theme.colors.background.hslWhite};
   `}
   ${props => props.transparent && `
     background-color: transparent;
