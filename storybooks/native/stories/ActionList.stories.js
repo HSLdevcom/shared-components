@@ -17,7 +17,7 @@ storiesOf('ActionList', module)
       </ResponsiveProvider>
     </ThemeProvider>))
   .add('default', () => {
-    const negative = boolean('Negative', false);
+    const inverted = boolean('Inverted', false);
     const centered = boolean('Centered', false);
     const arrows = boolean('Arrows', true);
     const withBorder = boolean('withBorder', true);
@@ -46,7 +46,7 @@ storiesOf('ActionList', module)
     return (
       <ActionList
         items={data}
-        negative={negative}
+        inverted={inverted}
         centered={centered}
         arrows={arrows}
         withBorder={withBorder}
@@ -59,7 +59,7 @@ storiesOf('ActionList', module)
     const active = boolean('Active', false);
     const centered = boolean('Centered', false);
     const arrow = boolean('Arrow', true);
-    const negative = boolean('Negative', false);
+    const inverted = boolean('Inverted', false);
     const withBorder = boolean('withBorder', true);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
@@ -71,7 +71,7 @@ storiesOf('ActionList', module)
         centered={centered}
         icon={icon}
         arrow={arrow}
-        negative={negative}
+        inverted={inverted}
         withBorder={withBorder}
         onPress={action('press')}
         onLongPress={action('long press')}

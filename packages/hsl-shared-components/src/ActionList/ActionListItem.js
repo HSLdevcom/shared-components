@@ -11,7 +11,7 @@ import { IS_NATIVE, size } from '../utils';
 const Container = styled(({
   active,
   centered,
-  negative,
+  inverted,
   withBorder,
   ...rest,
 }) =>
@@ -28,21 +28,21 @@ const Container = styled(({
   border-color: transparent;
   ${props => props.withBorder && `
     border-bottom-width: 1px;
-    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
   `}
   ${props => props.active && `
     margin-bottom: -2px;
     border-bottom-width: 3px;
-    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
+    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
   `}
   ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
-const Icon = withTheme(({ icon, theme, negative }) =>
+const Icon = withTheme(({ icon, theme, inverted }) =>
   React.cloneElement(icon, {
     width: size(35),
     height: size(35),
-    fill: negative ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
+    fill: inverted ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
   })
 );
 
@@ -69,20 +69,20 @@ const TitleContainer = styled(({
 `;
 
 const Title = styled(({
-  negative,
+  inverted,
   ...rest,
 }) =>
   <H4 {...rest} />
 )`
   flex-wrap: wrap;
   color: ${props => props.theme.font.colors.highlight};
-  ${props => props.negative && `
+  ${props => props.inverted && `
     color: ${props.theme.colors.primary.hslWhite};
   `}
 `;
 
 const Subtitle = styled(({
-  negative,
+  inverted,
   ...rest,
 }) =>
   <P {...rest} />
@@ -91,7 +91,7 @@ const Subtitle = styled(({
     margin-top: ${size(5)};
   `}
   color: ${props => props.theme.font.colors.secondary};
-  ${props => props.negative && `
+  ${props => props.inverted && `
     color: ${props.theme.colors.primary.hslWhite};
   `}
 `;
@@ -99,10 +99,10 @@ const Subtitle = styled(({
 const ArrowIcon = withTheme(({
   theme,
   active,
-  negative,
+  inverted,
 }) => {
   const fill = (() => {
-    if (negative) {
+    if (inverted) {
       return theme.colors.primary.hslWhite;
     }
     if (active) {
@@ -130,7 +130,7 @@ const ActionListItemCore = ({
   arrow,
   centered,
   withBorder,
-  negative,
+  inverted,
   ...rest,
 }) =>
   (
@@ -139,14 +139,14 @@ const ActionListItemCore = ({
       href={href}
       active={active}
       centered={centered}
-      negative={negative}
+      inverted={inverted}
       withBorder={withBorder}
       {...rest}
     >
       {!!icon &&
         <Icon
           icon={icon}
-          negative={negative}
+          inverted={inverted}
         />
       }
       <TitleContainer
@@ -155,13 +155,13 @@ const ActionListItemCore = ({
         centered={centered}
       >
         <Title
-          negative={negative}
+          inverted={inverted}
         >
           {title}
         </Title>
         {!!subtitle &&
           <Subtitle
-            negative={negative}
+            inverted={inverted}
           >
             {subtitle}
           </Subtitle>
@@ -170,7 +170,7 @@ const ActionListItemCore = ({
       {arrow &&
         <ArrowIcon
           active={active}
-          negative={negative}
+          inverted={inverted}
         />
       }
     </Container>
@@ -206,7 +206,7 @@ ActionListItemCore.propTypes = {
   centered: PropTypes.bool,
   arrow: PropTypes.bool,
   withBorder: PropTypes.bool,
-  negative: PropTypes.bool,
+  inverted: PropTypes.bool,
 };
 
 ActionListItem.propTypes = {

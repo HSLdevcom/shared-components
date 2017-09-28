@@ -11,14 +11,14 @@ const Container = View.extend`
   ${props => props.withBorder && `
     border-width: 1px;
     border-style: solid;
-    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
     border-radius: 6px;
   `}
 `;
 
 const ActionListNative = styled(({
   items,
-  negative,
+  inverted,
   centered,
   arrows,
   withBorder,
@@ -26,14 +26,14 @@ const ActionListNative = styled(({
 }) =>
   (
     <Container
-      negative={negative}
+      inverted={inverted}
       withBorder={withBorder}
     >
       <ListView
         dataSource={items}
         renderRow={(rowData, sectionId, rowId) => (
           <ActionListItem
-            negative={negative}
+            inverted={inverted}
             centered={centered}
             arrow={arrows}
             withBorder={parseInt(rowId, 10) !== (items.getRowCount() - 1)}
@@ -51,7 +51,7 @@ ActionListNative.displayName = 'ActionList';
 ActionListNative.propTypes = {
   // Contained data is expected to follow the shape of ActionListItem.propTypes
   items: PropTypes.instanceOf(ListView.DataSource),
-  negative: PropTypes.bool,
+  inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrows: PropTypes.bool,
   withBorder: PropTypes.bool,

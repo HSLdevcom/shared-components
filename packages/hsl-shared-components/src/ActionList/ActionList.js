@@ -5,7 +5,7 @@ import ActionListItem from './ActionListItem';
 
 const ActionList = styled(({
   items,
-  negative,
+  inverted,
   centered,
   arrows,
   withBorder,
@@ -17,7 +17,7 @@ const ActionList = styled(({
         (
           <li key={index}>
             <ActionListItem
-              negative={negative}
+              inverted={inverted}
               centered={centered}
               arrow={arrows}
               withBorder={index !== (items.length - 1)}
@@ -35,7 +35,7 @@ const ActionList = styled(({
   ${props => props.withBorder && `
     border-width: 1px;
     border-style: solid;
-    border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
+    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
     border-radius: 6px;
   `}
 `;
@@ -44,7 +44,7 @@ ActionList.displayName = 'ActionList';
 
 ActionList.propTypes = {
   items: PropTypes.arrayOf(PropTypes.shape(ActionListItem.propTypes)),
-  negative: PropTypes.bool,
+  inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrows: PropTypes.bool,
   withBorder: PropTypes.bool,

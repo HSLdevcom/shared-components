@@ -18,7 +18,7 @@ stories.addDecorator(getStory => (
   </ThemeProvider>));
 
 stories.addWithJSX('default', () => {
-  const negative = boolean('Negative', false);
+  const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrows = boolean('Arrows', true);
   const withBorder = boolean('withBorder', true);
@@ -45,7 +45,7 @@ stories.addWithJSX('default', () => {
   return (
     <ActionList
       items={items}
-      negative={negative}
+      inverted={inverted}
       centered={centered}
       arrows={arrows}
       withBorder={withBorder}
@@ -62,7 +62,7 @@ stories.addWithJSX('ActionListItem', () => {
   const active = boolean('Active', false);
   const centered = boolean('Centered', false);
   const arrow = boolean('Arrow', true);
-  const negative = boolean('Negative', false);
+  const inverted = boolean('Inverted', false);
   const withBorder = boolean('withBorder', true);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
@@ -76,7 +76,7 @@ stories.addWithJSX('ActionListItem', () => {
       centered={centered}
       icon={icon}
       arrow={arrow}
-      negative={negative}
+      inverted={inverted}
       withBorder={withBorder}
       onClick={action('click')}
       onPress={action('press')}
