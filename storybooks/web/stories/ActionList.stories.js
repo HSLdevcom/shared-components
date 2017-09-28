@@ -17,31 +17,32 @@ stories.addDecorator(getStory => (
     </ResponsiveProvider>
   </ThemeProvider>));
 
+const items = [
+  {
+    title: 'Yleistä kertalipusta (active)',
+    icon: null,
+    active: true,
+  },
+  {
+    title: 'Mobiililippu',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Tekstiviestilippu',
+    icon: null,
+  },
+];
+
 stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrows = boolean('Arrows', true);
   const withBorder = boolean('withBorder', true);
-  const items = [
-    {
-      title: 'Yleistä kertalipusta',
-      icon: null,
-      active: true,
-    },
-    {
-      title: 'Mobiililippu',
-      icon: <Icons.JourneyPlanner />,
-    },
-    {
-      title: 'Ruskeasuon varikko',
-      subtitle: 'Pysäkki 1935, Vihdintie',
-      icon: <Icons.Tickets />,
-    },
-    {
-      title: 'Tekstiviestilippu',
-      icon: null,
-    },
-  ];
   return (
     <ActionList
       items={items}
@@ -51,8 +52,31 @@ stories.addWithJSX('default', () => {
       withBorder={withBorder}
     />
   );
-}
-, { displayName: 'ActionList' });
+});
+
+stories.addWithJSX('inverted and centered', () => {
+  const inverted = boolean('Inverted', true);
+  const centered = boolean('Centered', true);
+  const arrows = boolean('Arrows', false);
+  const withBorder = boolean('withBorder', true);
+  return (
+    <div
+      style={{
+        height: '100vh',
+        width: '100vw',
+        backgroundColor: 'blueViolet',
+      }}
+    >
+      <ActionList
+        items={items}
+        inverted={inverted}
+        centered={centered}
+        arrows={arrows}
+        withBorder={withBorder}
+      />
+    </div>
+  );
+});
 
 stories.addWithJSX('ActionListItem', () => {
   const type = select('Type', ['button', 'link'], 'button');

@@ -3,10 +3,33 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { View, Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
 import { ListView } from 'react-native';
 
 import CenterView from './CenterView';
+
+const items = [
+  {
+    title: 'Yleistä kertalipusta',
+    icon: null,
+    active: true,
+  },
+  {
+    title: 'Mobiililippu',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Tekstiviestilippu',
+    icon: null,
+  },
+];
+const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
+const data = ds.cloneWithRows(items);
 
 storiesOf('ActionList', module)
   .addDecorator(withKnobs)
@@ -21,28 +44,6 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrows = boolean('Arrows', true);
     const withBorder = boolean('withBorder', true);
-    const items = [
-      {
-        title: 'Yleistä kertalipusta',
-        icon: null,
-        active: true,
-      },
-      {
-        title: 'Mobiililippu',
-        icon: <Icons.JourneyPlanner />,
-      },
-      {
-        title: 'Ruskeasuon varikko',
-        subtitle: 'Pysäkki 1935, Vihdintie',
-        icon: <Icons.Tickets />,
-      },
-      {
-        title: 'Tekstiviestilippu',
-        icon: null,
-      },
-    ];
-    const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
-    const data = ds.cloneWithRows(items);
     return (
       <ActionList
         items={data}
@@ -51,6 +52,30 @@ storiesOf('ActionList', module)
         arrows={arrows}
         withBorder={withBorder}
       />
+    );
+  })
+  .add('inverted and centered', () => {
+    const inverted = boolean('Inverted', true);
+    const centered = boolean('Centered', true);
+    const arrows = boolean('Arrows', false);
+    const withBorder = boolean('withBorder', true);
+
+    const StyledView = View.extend`
+      height: 100%;
+      width: 100%;
+      background-color: #8a2be2;
+    `;
+
+    return (
+      <StyledView>
+        <ActionList
+          items={data}
+          inverted={inverted}
+          centered={centered}
+          arrows={arrows}
+          withBorder={withBorder}
+        />
+      </StyledView>
     );
   })
   .add('ActionListItem', () => {
