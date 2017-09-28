@@ -15,7 +15,7 @@ const ActionList = styled(({
     <ul {...rest}>
       {items.map((item, index) =>
         (
-          <li key={index}>
+          <li key={/* eslint-disable react/no-array-index-key */ index}>
             <ActionListItem
               inverted={inverted}
               centered={centered}
