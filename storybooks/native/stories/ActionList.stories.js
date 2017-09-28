@@ -41,15 +41,10 @@ storiesOf('ActionList', module)
         icon: null,
       },
     ];
-
     const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
-
     const data = ds.cloneWithRows(items);
-
-    const StyledActionList = ActionList.extend`width: 100%`;
-
     return (
-      <StyledActionList
+      <ActionList
         items={data}
         negative={negative}
         centered={centered}
