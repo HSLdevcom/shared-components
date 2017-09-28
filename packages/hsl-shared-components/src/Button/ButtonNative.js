@@ -124,7 +124,7 @@ const Button = styled(({
   ...rest }) => (
     <Touchable
       onPress={onPress}
-      onLongPress={onLongPress}
+      onLongPress={onLongPress || onPress}
     >
       <TouchableView
         primary={primary}

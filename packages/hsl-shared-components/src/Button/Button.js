@@ -116,14 +116,15 @@ const Button = styled(({
   square,
   small,
   noPadding,
+  onClick,
   onPress,
   onLongPress,
   innerRef,
   children,
   ...rest }) => (
     <Touchable
-      onPress={onPress}
-      onLongPress={onLongPress}
+      onPress={onPress || onClick}
+      onLongPress={onLongPress || onPress || onClick}
     >
       <TouchableView
         primary={primary}
@@ -152,6 +153,7 @@ Button.propTypes = {
   square: PropTypes.bool,
   small: PropTypes.bool,
   noPadding: PropTypes.bool,
+  onClick: PropTypes.func,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
