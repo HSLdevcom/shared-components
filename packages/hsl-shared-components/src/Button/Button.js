@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import View from '../View';
-import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
 
 const sizeMap = {
@@ -118,30 +117,25 @@ const Button = styled(({
   noPadding,
   onClick,
   onPress,
-  onLongPress,
   innerRef,
   children,
   ...rest }) => (
-    <Touchable
-      onPress={onPress || onClick}
-      onLongPress={onLongPress || onPress || onClick}
+    <TouchableView
+      primary={primary}
+      success={success}
+      secondary={secondary}
+      disabled={disabled}
+      transparent={transparent}
+      square={square}
+      small={small}
+      noPadding={noPadding}
+      onClick={onPress || onClick}
+      {...rest}
+      innerRef={innerRef}
+      accessibilityRole="button"
     >
-      <TouchableView
-        primary={primary}
-        success={success}
-        secondary={secondary}
-        disabled={disabled}
-        transparent={transparent}
-        square={square}
-        small={small}
-        noPadding={noPadding}
-        {...rest}
-        innerRef={innerRef}
-        accessibilityRole="button"
-      >
-        {children}
-      </TouchableView>
-    </Touchable>
+      {children}
+    </TouchableView>
 ))``;
 
 Button.propTypes = {
