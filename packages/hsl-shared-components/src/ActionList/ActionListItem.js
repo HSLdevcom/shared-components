@@ -157,6 +157,7 @@ const ActionListItem = styled(({
 ActionListItem.propTypes = {
   type: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
+  active: PropTypes.bool,
   title: PropTypes.string.isRequired,
   icon: PropTypes.element,
   subtitle: PropTypes.string,

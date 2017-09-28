@@ -36,10 +36,7 @@ const ActionList = styled(({ items, negative, centered, arrows, ...rest }) =>
 ActionList.displayName = 'ActionList';
 
 ActionList.propTypes = {
-  items: PropTypes.arrayOf({
-    title: PropTypes.string.isRequired,
-    active: PropTypes.bool,
-  }),
+  items: PropTypes.arrayOf(ActionListItem.propTypes),
   negative: PropTypes.bool,
   centered: PropTypes.bool,
   arrows: PropTypes.bool,
@@ -47,7 +44,7 @@ ActionList.propTypes = {
 };
 
 ActionList.defaultProps = {
-  items: [{ title: 'foo' }, { title: 'bar' }],
+  items: [],
   arrows: true,
   withBorder: true,
 };

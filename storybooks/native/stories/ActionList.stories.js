@@ -4,6 +4,7 @@ import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
 import { Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { ListView } from 'react-native';
 
 import CenterView from './CenterView';
 
@@ -16,8 +17,45 @@ storiesOf('ActionList', module)
       </ResponsiveProvider>
     </ThemeProvider>))
   .add('default', () => {
+    const negative = boolean('Negative', false);
+    const centered = boolean('Centered', false);
+    const arrows = boolean('Arrows', true);
+    const withBorder = boolean('withBorder', true);
+    const items = [
+      {
+        title: 'Yleistä kertalipusta',
+        icon: null,
+        active: true,
+      },
+      {
+        title: 'Mobiililippu',
+        icon: <Icons.JourneyPlanner />,
+      },
+      {
+        title: 'Ruskeasuon varikko',
+        subtitle: 'Pysäkki 1935, Vihdintie',
+        icon: <Icons.Tickets />,
+      },
+      {
+        title: 'Tekstiviestilippu',
+        icon: null,
+      },
+    ];
+
+    const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
+
+    const data = ds.cloneWithRows(items);
+
+    const StyledActionList = ActionList.extend`width: 100%`;
+
     return (
-      <ActionList />
+      <StyledActionList
+        items={data}
+        negative={negative}
+        centered={centered}
+        arrows={arrows}
+        withBorder={withBorder}
+      />
     );
   })
   .add('ActionListItem', () => {
