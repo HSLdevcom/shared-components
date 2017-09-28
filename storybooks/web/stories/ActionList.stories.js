@@ -28,6 +28,11 @@ const items = [
     icon: <Icons.JourneyPlanner />,
   },
   {
+    prefix: '37',
+    title: 'Kamppi - Honkasuo',
+    icon: <Icons.Info />,
+  },
+  {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     icon: <Icons.Tickets />,
@@ -82,6 +87,7 @@ stories.addWithJSX('ActionListItem', () => {
   const type = select('Type', ['button', 'link'], 'button');
   const title = text('Title', 'Ruskeasuon varikko');
   const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
+  const prefix = text('Prefix', '36');
   const href = text('Href', 'http://www.hsl.fi');
   const active = boolean('Active', false);
   const centered = boolean('Centered', false);
@@ -96,6 +102,7 @@ stories.addWithJSX('ActionListItem', () => {
       href={href}
       title={title}
       subtitle={subtitle}
+      prefix={prefix}
       active={active}
       centered={centered}
       icon={icon}

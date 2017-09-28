@@ -10,13 +10,18 @@ import CenterView from './CenterView';
 
 const items = [
   {
-    title: 'Yleistä kertalipusta',
+    title: 'Yleistä kertalipusta (active)',
     icon: null,
     active: true,
   },
   {
     title: 'Mobiililippu',
     icon: <Icons.JourneyPlanner />,
+  },
+  {
+    prefix: '37',
+    title: 'Kamppi - Honkasuo',
+    icon: <Icons.Info />,
   },
   {
     title: 'Ruskeasuon varikko',
@@ -81,6 +86,7 @@ storiesOf('ActionList', module)
   .add('ActionListItem', () => {
     const title = text('Title', 'Ruskeasuon varikko');
     const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
+    const prefix = text('Prefix', '36');
     const active = boolean('Active', false);
     const centered = boolean('Centered', false);
     const arrow = boolean('Arrow', true);
@@ -92,6 +98,7 @@ storiesOf('ActionList', module)
       <ActionListItem
         title={title}
         subtitle={subtitle}
+        prefix={prefix}
         active={active}
         centered={centered}
         icon={icon}
