@@ -8,7 +8,15 @@ import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 
-const Container = View.extend`
+const Container = styled(({
+  active,
+  centered,
+  negative,
+  withBorder,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -27,6 +35,7 @@ const Container = View.extend`
     border-bottom-width: 3px;
     border-color: ${props.negative ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
   `}
+  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const Icon = withTheme(({ icon, theme, negative }) =>
@@ -37,7 +46,14 @@ const Icon = withTheme(({ icon, theme, negative }) =>
   })
 );
 
-const TitleContainer = View.extend`
+const TitleContainer = styled(({
+  icon,
+  arrow,
+  centered,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   flex-direction: column;
   align-items: flex-start;
   ${props => !props.centered && `
@@ -52,7 +68,12 @@ const TitleContainer = View.extend`
   `}
 `;
 
-const Title = H4.extend`
+const Title = styled(({
+  negative,
+  ...rest,
+}) =>
+  <H4 {...rest} />
+)`
   flex-wrap: wrap;
   color: ${props => props.theme.font.colors.highlight};
   ${props => props.negative && `
@@ -60,7 +81,12 @@ const Title = H4.extend`
   `}
 `;
 
-const Subtitle = P.extend`
+const Subtitle = styled(({
+  negative,
+  ...rest,
+}) =>
+  <P {...rest} />
+)`
   ${!IS_NATIVE && `
     margin-top: ${size(5)};
   `}
@@ -70,7 +96,11 @@ const Subtitle = P.extend`
   `}
 `;
 
-const ArrowIcon = withTheme(({ theme, active, negative }) => {
+const ArrowIcon = withTheme(({
+  theme,
+  active,
+  negative,
+}) => {
   const fill = (() => {
     if (negative) {
       return theme.colors.primary.hslWhite;
@@ -90,7 +120,7 @@ const ArrowIcon = withTheme(({ theme, active, negative }) => {
   );
 });
 
-const ActionListItem = styled(({
+const ActionListItemCore = ({
   type,
   href,
   active,
@@ -101,60 +131,72 @@ const ActionListItem = styled(({
   centered,
   withBorder,
   negative,
-  onPress,
-  onLongPress,
   ...rest,
 }) =>
   (
-    <Touchable
-      onPress={onPress}
-      onLongPress={onLongPress}
+    <Container
+      accessibilityRole={type}
+      href={href}
+      active={active}
+      centered={centered}
+      negative={negative}
+      withBorder={withBorder}
+      {...rest}
     >
-      <Container
-        accessibilityRole={type}
-        active={active}
-        href={href}
+      {!!icon &&
+        <Icon
+          icon={icon}
+          negative={negative}
+        />
+      }
+      <TitleContainer
+        icon={!!icon}
+        arrow={arrow}
         centered={centered}
-        withBorder={withBorder}
-        negative={negative}
-        {...rest}
       >
-        {!!icon &&
-          <Icon
-            icon={icon}
-            negative={negative}
-          />
-        }
-        <TitleContainer
-          icon={!!icon}
-          arrow={arrow}
-          centered={centered}
+        <Title
+          negative={negative}
         >
-          <Title
+          {title}
+        </Title>
+        {!!subtitle &&
+          <Subtitle
             negative={negative}
           >
-            {title}
-          </Title>
-          {!!subtitle &&
-            <Subtitle
-              negative={negative}
-            >
-              {subtitle}
-            </Subtitle>
-          }
-        </TitleContainer>
-        {arrow &&
-          <ArrowIcon
-            active={active}
-            negative={negative}
-          />
+            {subtitle}
+          </Subtitle>
         }
-      </Container>
-    </Touchable>
-  )
-)``;
+      </TitleContainer>
+      {arrow &&
+        <ArrowIcon
+          active={active}
+          negative={negative}
+        />
+      }
+    </Container>
+);
 
-ActionListItem.propTypes = {
+const ActionListItem = styled(({
+  onPress,
+  onLongPress,
+  ...rest,
+}) => {
+  // We want to have default browser interactions unless we are on native platform
+  if (IS_NATIVE) {
+    return (
+      <Touchable
+        onPress={onPress}
+        onLongPress={onLongPress}
+      >
+        <ActionListItemCore {...rest} />
+      </Touchable>
+    );
+  }
+
+  return <ActionListItemCore {...rest} />;
+})``;
+
+ActionListItemCore.propTypes = {
   type: PropTypes.oneOf(['button', 'link']), // Not available in native
   href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
@@ -165,13 +207,12 @@ ActionListItem.propTypes = {
   arrow: PropTypes.bool,
   withBorder: PropTypes.bool,
   negative: PropTypes.bool,
+};
+
+ActionListItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  theme: PropTypes.shape({
-    font: {
-      highlight: PropTypes.string,
-    }
-  }),
+  ...ActionListItemCore.propTypes,
 };
 
 ActionListItem.defaultProps = {

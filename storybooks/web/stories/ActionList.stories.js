@@ -78,6 +78,7 @@ stories.addWithJSX('ActionListItem', () => {
       arrow={arrow}
       negative={negative}
       withBorder={withBorder}
+      onClick={action('click')}
       onPress={action('press')}
       onLongPress={action('long press')}
     />
