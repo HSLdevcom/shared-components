@@ -155,8 +155,8 @@ const ActionListItem = styled(({
 )``;
 
 ActionListItem.propTypes = {
-  type: PropTypes.oneOf(['button', 'link']),
-  href: PropTypes.string,
+  type: PropTypes.oneOf(['button', 'link']), // Not available in native
+  href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
   title: PropTypes.string.isRequired,
   icon: PropTypes.element,

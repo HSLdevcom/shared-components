@@ -3,7 +3,14 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import ActionListItem from './ActionListItem';
 
-const ActionList = styled(({ items, negative, centered, arrows, ...rest }) =>
+const ActionList = styled(({
+  items,
+  negative,
+  centered,
+  arrows,
+  withBorder,
+  ...rest
+}) =>
   (
     <ul {...rest}>
       {items.map((item, index) =>
@@ -36,7 +43,7 @@ const ActionList = styled(({ items, negative, centered, arrows, ...rest }) =>
 ActionList.displayName = 'ActionList';
 
 ActionList.propTypes = {
-  items: PropTypes.arrayOf(ActionListItem.propTypes),
+  items: PropTypes.arrayOf(PropTypes.shape(ActionListItem.propTypes)),
   negative: PropTypes.bool,
   centered: PropTypes.bool,
   arrows: PropTypes.bool,
