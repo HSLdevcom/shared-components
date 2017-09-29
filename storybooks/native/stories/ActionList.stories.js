@@ -73,7 +73,7 @@ storiesOf('ActionList', module)
     const StyledView = View.extend`
       height: 100%;
       width: 100%;
-      background-color: #8a2be2;
+      background-color: #007ac9;
     `;
 
     return (
@@ -96,7 +96,6 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrowless = boolean('Arrowless', false);
     const inverted = boolean('Inverted', false);
-    const borderless = boolean('Borderless', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
@@ -109,7 +108,6 @@ storiesOf('ActionList', module)
         icon={icon}
         arrowless={arrowless}
         inverted={inverted}
-        borderless={borderless}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

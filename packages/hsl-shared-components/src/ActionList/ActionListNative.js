@@ -8,6 +8,10 @@ import ActionListItem from './ActionListItem';
 // Container is needed for the border styles to work
 // – ListView doesn't seem to have support
 const Container = View.extend`
+  background-color: ${props => props.theme.colors.background.hslWhite};
+  ${props => props.inverted && `
+    background-color: ${props.theme.font.colors.highlight};
+  `}
   ${props => !props.borderless && `
     border-width: 1px;
     border-style: solid;
@@ -22,7 +26,7 @@ const ActionListNative = styled(({
   centered,
   arrowless,
   borderless,
-  ...rest
+  ...rest,
 }) =>
   (
     <Container
@@ -36,7 +40,9 @@ const ActionListNative = styled(({
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            borderless={parseInt(rowId, 10) === (items.getRowCount() - 1)}
+            borderless={borderless}
+            first={parseInt(rowId, 10) === 0}
+            last={parseInt(rowId, 10) === (items.getRowCount() - 1)}
             {...rowData}
           />
         )}

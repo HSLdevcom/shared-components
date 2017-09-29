@@ -8,11 +8,26 @@ import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 
+const getTextColor = (props) => {
+  if (props.active && props.inverted) {
+    return props.theme.font.colors.highlight;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  if (props.active && !props.borderless) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  return props.theme.font.colors.highlight;
+};
+
 const Container = styled(({
   active,
   centered,
   inverted,
   borderless,
+  first,
+  last,
   ...rest,
 }) =>
   <View {...rest} />
@@ -23,26 +38,45 @@ const Container = styled(({
   ${props => props.centered && `
     justify-content: center;
   `}
+
   padding-horizontal: ${size(18)};
   border-style: solid;
   border-color: transparent;
-  ${props => !props.borderless && `
-    border-bottom-width: 1px;
+  border-bottom-width: 1px;
+
+  ${props => props.first && !props.borderless && `
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  `}
+
+  ${props => props.last && !props.borderless && `
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  `}
+  ${props => !props.last && `
     border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
   `}
-  ${props => props.active && `
-    margin-bottom: -2px;
-    border-bottom-width: 3px;
-    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.font.colors.highlight};
+
+  ${props => props.active && !props.inverted && `
+      margin-bottom: -2px;
+      border-bottom-width: 3px;
+      border-color: ${props.theme.font.colors.highlight};
   `}
+
   ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
-const Icon = withTheme(({ icon, theme, inverted }) =>
+const Icon = withTheme(({
+  icon,
+  theme,
+  active,
+  inverted,
+  borderless,
+}) =>
   React.cloneElement(icon, {
     width: size(35),
     height: size(35),
-    fill: inverted ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
+    fill: getTextColor({ active, inverted, borderless, theme }),
   })
 );
 
@@ -69,33 +103,33 @@ const TitleContainer = styled(({
 `;
 
 const Prefix = styled(({
+  active,
   inverted,
+  borderless,
   ...rest,
 }) =>
   <H3 {...rest} />
 )`
   margin-left: ${size(18)};
-  color: ${props => props.theme.font.colors.highlight};
-  ${props => props.inverted && `
-    color: ${props.theme.colors.primary.hslWhite};
-  `}
+  color: ${props => getTextColor(props)}
 `;
 
 const Title = styled(({
+  active,
   inverted,
+  borderless,
   ...rest,
 }) =>
   <H4 {...rest} />
 )`
   flex-wrap: wrap;
-  color: ${props => props.theme.font.colors.highlight};
-  ${props => props.inverted && `
-    color: ${props.theme.colors.primary.hslWhite};
-  `}
+  color: ${props => getTextColor(props)}
 `;
 
 const Subtitle = styled(({
+  active,
   inverted,
+  borderless,
   ...rest,
 }) =>
   <P {...rest} />
@@ -103,35 +137,22 @@ const Subtitle = styled(({
   ${!IS_NATIVE && `
     margin-top: ${size(5)};
   `}
-  color: ${props => props.theme.font.colors.secondary};
-  ${props => props.inverted && `
-    color: ${props.theme.colors.primary.hslWhite};
-  `}
+  color: ${props => getTextColor(props)}
 `;
 
 const ArrowIcon = withTheme(({
   theme,
   active,
   inverted,
-}) => {
-  const fill = (() => {
-    if (inverted) {
-      return theme.colors.primary.hslWhite;
-    }
-    if (active) {
-      return theme.font.colors.highlight;
-    }
-    return theme.font.colors.default;
-  })();
-
-  return (
+  borderless,
+}) =>
+  (
     <ArrowRight
       height={size(15)}
       width={size(10)}
-      fill={fill}
+      fill={getTextColor({ active, inverted, borderless, theme })}
     />
-  );
-});
+  ));
 
 const ActionListItemCore = ({
   type,
@@ -142,8 +163,10 @@ const ActionListItemCore = ({
   subtitle,
   icon,
   arrowless,
-  centered,
   borderless,
+  centered,
+  first,
+  last,
   inverted,
   ...rest,
 }) =>
@@ -155,17 +178,23 @@ const ActionListItemCore = ({
       centered={centered}
       inverted={inverted}
       borderless={borderless}
+      first={first}
+      last={last}
       {...rest}
     >
       {!!icon &&
         <Icon
           icon={icon}
+          active={active}
           inverted={inverted}
+          borderless={borderless}
         />
       }
       {!!prefix &&
         <Prefix
+          active={active}
           inverted={inverted}
+          borderless={borderless}
         >
           {prefix}
         </Prefix>
@@ -177,13 +206,17 @@ const ActionListItemCore = ({
         centered={centered}
       >
         <Title
+          active={active}
           inverted={inverted}
+          borderless={borderless}
         >
           {title}
         </Title>
         {!!subtitle &&
           <Subtitle
+            active={active}
             inverted={inverted}
+            borderless={borderless}
           >
             {subtitle}
           </Subtitle>
@@ -193,6 +226,7 @@ const ActionListItemCore = ({
         <ArrowIcon
           active={active}
           inverted={inverted}
+          borderless={borderless}
         />
       }
     </Container>
@@ -216,7 +250,14 @@ const ActionListItem = styled(({
   }
 
   return <ActionListItemCore {...rest} />;
-})``;
+})`
+  ${props => props.active && !props.borderless && !props.inverted && `
+    background-color: ${props.theme.font.colors.highlight};
+  `}
+  ${props => props.inverted && props.active && `
+    background-color: ${props.theme.colors.background.hslWhite};
+  `}
+`;
 
 ActionListItemCore.propTypes = {
   type: PropTypes.oneOf(['button', 'link']), // Not available in native
@@ -228,6 +269,8 @@ ActionListItemCore.propTypes = {
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
   borderless: PropTypes.bool,
+  first: PropTypes.bool,
+  last: PropTypes.bool,
   inverted: PropTypes.bool,
 };
 

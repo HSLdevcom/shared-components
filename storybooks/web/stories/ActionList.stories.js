@@ -47,7 +47,7 @@ stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
-  const borderless = boolean('Borderless', false);
+  const borderless = boolean('Borderless', true);
   return (
     <ActionList
       items={items}
@@ -56,6 +56,30 @@ stories.addWithJSX('default', () => {
       arrowless={arrowless}
       borderless={borderless}
     />
+  );
+});
+
+stories.addWithJSX('with borders', () => {
+  const inverted = boolean('Inverted', false);
+  const centered = boolean('Centered', false);
+  const arrowless = boolean('Arrowless', false);
+  const borderless = boolean('Borderless', false);
+  return (
+    <div
+      style={{
+        height: '100vh',
+        width: '100vw',
+        padding: '10px',
+      }}
+    >
+      <ActionList
+        items={items}
+        inverted={inverted}
+        centered={centered}
+        arrowless={arrowless}
+        borderless={borderless}
+      />
+    </div>
   );
 });
 
@@ -69,7 +93,8 @@ stories.addWithJSX('inverted and centered', () => {
       style={{
         height: '100vh',
         width: '100vw',
-        backgroundColor: 'blueViolet',
+        padding: '10px',
+        backgroundColor: '#007ac9',
       }}
     >
       <ActionList

@@ -20,7 +20,9 @@ const ActionList = styled(({
               inverted={inverted}
               centered={centered}
               arrowless={arrowless}
-              borderless={index === (items.length - 1)}
+              borderless={borderless}
+              first={index === 0}
+              last={index === (items.length - 1)}
               {...item}
             />
           </li>
@@ -32,6 +34,10 @@ const ActionList = styled(({
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: ${props => props.theme.colors.background.hslWhite};
+  ${props => props.inverted && `
+    background-color: ${props.theme.font.colors.highlight};
+  `}
   ${props => !props.borderless && `
     border-width: 1px;
     border-style: solid;
