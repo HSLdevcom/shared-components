@@ -12,7 +12,7 @@ const Container = View.extend`
   ${props => props.inverted && `
     background-color: ${props.theme.font.colors.highlight};
   `}
-  ${props => !props.borderless && `
+  ${props => props.withBorder && `
     border-width: 1px;
     border-style: solid;
     border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
@@ -25,13 +25,13 @@ const ActionListNative = styled(({
   inverted,
   centered,
   arrowless,
-  borderless,
+  withBorder,
   ...rest,
 }) =>
   (
     <Container
       inverted={inverted}
-      borderless={borderless}
+      withBorder={withBorder}
     >
       <ListView
         dataSource={items}
@@ -40,7 +40,7 @@ const ActionListNative = styled(({
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            borderless={borderless}
+            withBorder={withBorder}
             first={parseInt(rowId, 10) === 0}
             last={parseInt(rowId, 10) === (items.getRowCount() - 1)}
             {...rowData}
@@ -60,7 +60,7 @@ ActionListNative.propTypes = {
   inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
-  borderless: PropTypes.bool,
+  withBorder: PropTypes.bool,
 };
 
 export default ActionListNative;

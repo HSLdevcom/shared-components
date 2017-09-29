@@ -48,7 +48,7 @@ storiesOf('ActionList', module)
       const inverted = boolean('Inverted', false);
       const centered = boolean('Centered', false);
       const arrowless = boolean('Arrowless', false);
-      const borderless = boolean('Borderless', false);
+      const withBorder = boolean('withBorder', false);
 
       const StyledView = View.extend``;
 
@@ -59,7 +59,7 @@ storiesOf('ActionList', module)
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            borderless={borderless}
+            withBorder={withBorder}
           />
         </StyledView>
       );
@@ -68,7 +68,7 @@ storiesOf('ActionList', module)
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
     const arrowless = boolean('Arrowless', true);
-    const borderless = boolean('Borderless', false);
+    const withBorder = boolean('withBorder', false);
 
     const StyledView = View.extend`
       height: 100%;
@@ -83,7 +83,7 @@ storiesOf('ActionList', module)
           inverted={inverted}
           centered={centered}
           arrowless={arrowless}
-          borderless={borderless}
+          withBorder={withBorder}
         />
       </StyledView>
     );
@@ -96,6 +96,7 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrowless = boolean('Arrowless', false);
     const inverted = boolean('Inverted', false);
+    const parentHasBorder = boolean('parentHasBorder', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
@@ -108,6 +109,7 @@ storiesOf('ActionList', module)
         icon={icon}
         arrowless={arrowless}
         inverted={inverted}
+        parentHasBorder={parentHasBorder}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

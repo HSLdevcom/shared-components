@@ -47,14 +47,14 @@ stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
-  const borderless = boolean('Borderless', true);
+  const withBorder = boolean('withBorder', false);
   return (
     <ActionList
       items={items}
       inverted={inverted}
       centered={centered}
       arrowless={arrowless}
-      borderless={borderless}
+      withBorder={withBorder}
     />
   );
 });
@@ -63,7 +63,7 @@ stories.addWithJSX('with borders', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
-  const borderless = boolean('Borderless', false);
+  const withBorder = boolean('withBorder', true);
   return (
     <div
       style={{
@@ -77,7 +77,7 @@ stories.addWithJSX('with borders', () => {
         inverted={inverted}
         centered={centered}
         arrowless={arrowless}
-        borderless={borderless}
+        withBorder={withBorder}
       />
     </div>
   );
@@ -87,7 +87,7 @@ stories.addWithJSX('inverted and centered', () => {
   const inverted = boolean('Inverted', true);
   const centered = boolean('Centered', true);
   const arrowless = boolean('Arrowless', true);
-  const borderless = boolean('Borderless', false);
+  const withBorder = boolean('withBorder', true);
   return (
     <div
       style={{
@@ -102,7 +102,7 @@ stories.addWithJSX('inverted and centered', () => {
         inverted={inverted}
         centered={centered}
         arrowless={arrowless}
-        borderless={borderless}
+        withBorder={withBorder}
       />
     </div>
   );
@@ -118,7 +118,7 @@ stories.addWithJSX('ActionListItem', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const inverted = boolean('Inverted', false);
-  const borderless = boolean('Borderless', false);
+  const parentHasBorder = boolean('parentHasBorder', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
   return (
@@ -133,7 +133,7 @@ stories.addWithJSX('ActionListItem', () => {
       icon={icon}
       arrowless={arrowless}
       inverted={inverted}
-      borderless={borderless}
+      parentHasBorder={parentHasBorder}
       onClick={action('click')}
       onPress={action('press')}
       onLongPress={action('long press')}

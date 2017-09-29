@@ -8,7 +8,7 @@ const ActionList = styled(({
   inverted,
   centered,
   arrowless,
-  borderless,
+  withBorder,
   ...rest
 }) =>
   (
@@ -20,7 +20,7 @@ const ActionList = styled(({
               inverted={inverted}
               centered={centered}
               arrowless={arrowless}
-              borderless={borderless}
+              parentHasBorder={withBorder}
               first={index === 0}
               last={index === (items.length - 1)}
               {...item}
@@ -38,7 +38,7 @@ const ActionList = styled(({
   ${props => props.inverted && `
     background-color: ${props.theme.font.colors.highlight};
   `}
-  ${props => !props.borderless && `
+  ${props => props.withBorder && `
     border-width: 1px;
     border-style: solid;
     border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
@@ -53,7 +53,7 @@ ActionList.propTypes = {
   inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
-  borderless: PropTypes.bool,
+  withBorder: PropTypes.bool,
 };
 
 export default ActionList;
