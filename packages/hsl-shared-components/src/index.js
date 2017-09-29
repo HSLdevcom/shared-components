@@ -1,3 +1,4 @@
+import ActionBar, { ActionBarItem } from './ActionBar';
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
 import TextInput from './TextInput';
@@ -29,8 +30,9 @@ import { ResponsiveProvider } from './utils';
 import Checkbox from './Checkbox';
 import Theme from './Theme';
 
-
 export {
+  ActionBar,
+  ActionBarItem,
   AppHeader,
   Button,
   RoundButton,

@@ -1,8 +1,8 @@
-import ActionList from './ActionList';
-import ActionListItem from './ActionListItem';
+import ActionBar from './ActionBar';
+import ActionBarItem from './ActionBarItem';
 
 export {
-  ActionListItem,
+  ActionBarItem,
 };
 
-export default ActionList;
+export default ActionBar;
