@@ -40,7 +40,7 @@ const ActionListNative = styled(({
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            withBorder={withBorder}
+            parentHasBorder={withBorder}
             first={parseInt(rowId, 10) === 0}
             last={parseInt(rowId, 10) === (items.getRowCount() - 1)}
             {...rowData}

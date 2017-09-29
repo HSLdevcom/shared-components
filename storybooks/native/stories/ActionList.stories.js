@@ -64,11 +64,31 @@ storiesOf('ActionList', module)
         </StyledView>
       );
     })
+    .add('with borders', () => {
+      const inverted = boolean('Inverted', false);
+      const centered = boolean('Centered', false);
+      const arrowless = boolean('Arrowless', false);
+      const withBorder = boolean('withBorder', true);
+
+      const StyledView = View.extend``;
+
+      return (
+        <StyledView>
+          <ActionList
+            items={data}
+            inverted={inverted}
+            centered={centered}
+            arrowless={arrowless}
+            withBorder={withBorder}
+          />
+        </StyledView>
+      );
+    })
   .add('inverted and centered', () => {
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
     const arrowless = boolean('Arrowless', true);
-    const withBorder = boolean('withBorder', false);
+    const withBorder = boolean('withBorder', true);
 
     const StyledView = View.extend`
       height: 100%;
