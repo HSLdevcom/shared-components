@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import View from '../View';
-import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
 
 const sizeMap = {
@@ -85,6 +84,7 @@ const TouchableView = styled(({
         border-color:  ${props.theme.colors.primary.hslBlue};
     `}
     ${props => props.primary && !props.disabled && `
+        border-color:  ${props.theme.colors.primary.hslBlueDark};
         background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
     `}
   }
@@ -116,31 +116,27 @@ const Button = styled(({
   square,
   small,
   noPadding,
+  onClick,
   onPress,
-  onLongPress,
   innerRef,
   children,
   ...rest }) => (
-    <Touchable
-      onPress={onPress}
-      onLongPress={onLongPress}
+    <TouchableView
+      primary={primary}
+      success={success}
+      secondary={secondary}
+      disabled={disabled}
+      transparent={transparent}
+      square={square}
+      small={small}
+      noPadding={noPadding}
+      onClick={onPress || onClick}
+      {...rest}
+      innerRef={innerRef}
+      accessibilityRole="button"
     >
-      <TouchableView
-        primary={primary}
-        success={success}
-        secondary={secondary}
-        disabled={disabled}
-        transparent={transparent}
-        square={square}
-        small={small}
-        noPadding={noPadding}
-        {...rest}
-        innerRef={innerRef}
-        accessibilityRole="button"
-      >
-        {children}
-      </TouchableView>
-    </Touchable>
+      {children}
+    </TouchableView>
 ))``;
 
 Button.propTypes = {
@@ -152,6 +148,7 @@ Button.propTypes = {
   square: PropTypes.bool,
   small: PropTypes.bool,
   noPadding: PropTypes.bool,
+  onClick: PropTypes.func,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
