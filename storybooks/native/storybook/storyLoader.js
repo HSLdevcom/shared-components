@@ -6,6 +6,7 @@
 
 function loadStories() {
   
+  require('../stories/ActionBar.stories.js');
   require('../stories/Article.stories.js');
   require('../stories/Button.stories.js');
   require('../stories/Checkbox.stories.js');
