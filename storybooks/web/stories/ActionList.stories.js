@@ -46,15 +46,15 @@ const items = [
 stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
-  const arrows = boolean('Arrows', true);
-  const withBorder = boolean('withBorder', true);
+  const arrowless = boolean('Arrowless', false);
+  const borderless = boolean('Borderless', false);
   return (
     <ActionList
       items={items}
       inverted={inverted}
       centered={centered}
-      arrows={arrows}
-      withBorder={withBorder}
+      arrowless={arrowless}
+      borderless={borderless}
     />
   );
 });
@@ -62,8 +62,8 @@ stories.addWithJSX('default', () => {
 stories.addWithJSX('inverted and centered', () => {
   const inverted = boolean('Inverted', true);
   const centered = boolean('Centered', true);
-  const arrows = boolean('Arrows', false);
-  const withBorder = boolean('withBorder', true);
+  const arrowless = boolean('Arrowless', true);
+  const borderless = boolean('Borderless', false);
   return (
     <div
       style={{
@@ -76,8 +76,8 @@ stories.addWithJSX('inverted and centered', () => {
         items={items}
         inverted={inverted}
         centered={centered}
-        arrows={arrows}
-        withBorder={withBorder}
+        arrowless={arrowless}
+        borderless={borderless}
       />
     </div>
   );
@@ -91,9 +91,9 @@ stories.addWithJSX('ActionListItem', () => {
   const href = text('Href', 'http://www.hsl.fi');
   const active = boolean('Active', false);
   const centered = boolean('Centered', false);
-  const arrow = boolean('Arrow', true);
+  const arrowless = boolean('Arrowless', false);
   const inverted = boolean('Inverted', false);
-  const withBorder = boolean('withBorder', true);
+  const borderless = boolean('Borderless', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
   return (
@@ -106,9 +106,9 @@ stories.addWithJSX('ActionListItem', () => {
       active={active}
       centered={centered}
       icon={icon}
-      arrow={arrow}
+      arrowless={arrowless}
       inverted={inverted}
-      withBorder={withBorder}
+      borderless={borderless}
       onClick={action('click')}
       onPress={action('press')}
       onLongPress={action('long press')}

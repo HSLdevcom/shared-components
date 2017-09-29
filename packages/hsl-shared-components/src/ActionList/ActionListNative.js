@@ -8,7 +8,7 @@ import ActionListItem from './ActionListItem';
 // Container is needed for the border styles to work
 // – ListView doesn't seem to have support
 const Container = View.extend`
-  ${props => props.withBorder && `
+  ${props => !props.borderless && `
     border-width: 1px;
     border-style: solid;
     border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
@@ -20,14 +20,14 @@ const ActionListNative = styled(({
   items,
   inverted,
   centered,
-  arrows,
-  withBorder,
+  arrowless,
+  borderless,
   ...rest
 }) =>
   (
     <Container
       inverted={inverted}
-      withBorder={withBorder}
+      borderless={borderless}
     >
       <ListView
         dataSource={items}
@@ -35,8 +35,8 @@ const ActionListNative = styled(({
           <ActionListItem
             inverted={inverted}
             centered={centered}
-            arrow={arrows}
-            withBorder={parseInt(rowId, 10) !== (items.getRowCount() - 1)}
+            arrowless={arrowless}
+            borderless={parseInt(rowId, 10) === (items.getRowCount() - 1)}
             {...rowData}
           />
         )}
@@ -53,13 +53,8 @@ ActionListNative.propTypes = {
   items: PropTypes.instanceOf(ListView.DataSource),
   inverted: PropTypes.bool,
   centered: PropTypes.bool,
-  arrows: PropTypes.bool,
-  withBorder: PropTypes.bool,
-};
-
-ActionListNative.defaultProps = {
-  arrows: true,
-  withBorder: true,
+  arrowless: PropTypes.bool,
+  borderless: PropTypes.bool,
 };
 
 export default ActionListNative;

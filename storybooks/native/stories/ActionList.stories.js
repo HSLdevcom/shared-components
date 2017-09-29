@@ -44,26 +44,31 @@ storiesOf('ActionList', module)
         <CenterView>{getStory()}</CenterView>
       </ResponsiveProvider>
     </ThemeProvider>))
-  .add('default', () => {
-    const inverted = boolean('Inverted', false);
-    const centered = boolean('Centered', false);
-    const arrows = boolean('Arrows', true);
-    const withBorder = boolean('withBorder', true);
-    return (
-      <ActionList
-        items={data}
-        inverted={inverted}
-        centered={centered}
-        arrows={arrows}
-        withBorder={withBorder}
-      />
-    );
-  })
+    .add('default', () => {
+      const inverted = boolean('Inverted', false);
+      const centered = boolean('Centered', false);
+      const arrowless = boolean('Arrowless', false);
+      const borderless = boolean('Borderless', false);
+
+      const StyledView = View.extend``;
+
+      return (
+        <StyledView>
+          <ActionList
+            items={data}
+            inverted={inverted}
+            centered={centered}
+            arrowless={arrowless}
+            borderless={borderless}
+          />
+        </StyledView>
+      );
+    })
   .add('inverted and centered', () => {
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
-    const arrows = boolean('Arrows', false);
-    const withBorder = boolean('withBorder', true);
+    const arrowless = boolean('Arrowless', true);
+    const borderless = boolean('Borderless', false);
 
     const StyledView = View.extend`
       height: 100%;
@@ -77,8 +82,8 @@ storiesOf('ActionList', module)
           items={data}
           inverted={inverted}
           centered={centered}
-          arrows={arrows}
-          withBorder={withBorder}
+          arrowless={arrowless}
+          borderless={borderless}
         />
       </StyledView>
     );
@@ -89,9 +94,9 @@ storiesOf('ActionList', module)
     const prefix = text('Prefix', '36');
     const active = boolean('Active', false);
     const centered = boolean('Centered', false);
-    const arrow = boolean('Arrow', true);
+    const arrowless = boolean('Arrowless', false);
     const inverted = boolean('Inverted', false);
-    const withBorder = boolean('withBorder', true);
+    const borderless = boolean('Borderless', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
@@ -102,9 +107,9 @@ storiesOf('ActionList', module)
         active={active}
         centered={centered}
         icon={icon}
-        arrow={arrow}
+        arrowless={arrowless}
         inverted={inverted}
-        withBorder={withBorder}
+        borderless={borderless}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

@@ -12,7 +12,7 @@ const Container = styled(({
   active,
   centered,
   inverted,
-  withBorder,
+  borderless,
   ...rest,
 }) =>
   <View {...rest} />
@@ -26,7 +26,7 @@ const Container = styled(({
   padding-horizontal: ${size(18)};
   border-style: solid;
   border-color: transparent;
-  ${props => props.withBorder && `
+  ${props => !props.borderless && `
     border-bottom-width: 1px;
     border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
   `}
@@ -48,7 +48,7 @@ const Icon = withTheme(({ icon, theme, inverted }) =>
 
 const TitleContainer = styled(({
   icon,
-  arrow,
+  arrowless,
   centered,
   ...rest,
 }) =>
@@ -63,7 +63,7 @@ const TitleContainer = styled(({
   ${props => (props.icon || props.prefix) && `
     margin-left: ${size(18)};
   `}
-  ${props => props.arrow && `
+  ${props => !props.arrowless && `
     margin-right: ${size(18)};
   `}
 `;
@@ -141,20 +141,20 @@ const ActionListItemCore = ({
   title,
   subtitle,
   icon,
-  arrow,
+  arrowless,
   centered,
-  withBorder,
+  borderless,
   inverted,
   ...rest,
 }) =>
   (
     <Container
-      accessibilityRole={type}
+      accessibilityRole={type || 'button'}
       href={href}
       active={active}
       centered={centered}
       inverted={inverted}
-      withBorder={withBorder}
+      borderless={borderless}
       {...rest}
     >
       {!!icon &&
@@ -173,7 +173,7 @@ const ActionListItemCore = ({
       <TitleContainer
         icon={!!icon}
         prefix={prefix}
-        arrow={arrow}
+        arrowless={arrowless}
         centered={centered}
       >
         <Title
@@ -189,7 +189,7 @@ const ActionListItemCore = ({
           </Subtitle>
         }
       </TitleContainer>
-      {arrow &&
+      {!arrowless &&
         <ArrowIcon
           active={active}
           inverted={inverted}
@@ -226,8 +226,8 @@ ActionListItemCore.propTypes = {
   icon: PropTypes.element,
   subtitle: PropTypes.string,
   centered: PropTypes.bool,
-  arrow: PropTypes.bool,
-  withBorder: PropTypes.bool,
+  arrowless: PropTypes.bool,
+  borderless: PropTypes.bool,
   inverted: PropTypes.bool,
 };
 
@@ -235,13 +235,6 @@ ActionListItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   ...ActionListItemCore.propTypes,
-};
-
-ActionListItem.defaultProps = {
-  type: 'button',
-  arrow: true,
-  centered: false,
-  withBorder: true,
 };
 
 ActionListItem.displayName = 'ActionListItem';
