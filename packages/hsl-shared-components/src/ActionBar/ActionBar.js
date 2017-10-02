@@ -9,13 +9,15 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
     <ul {...rest}>
       {items.map((item, index) =>
         (
-          <ActionBarItem
-            key={/* eslint-disable react/no-array-index-key */index}
-            {...item}
-            inverted={inverted}
-            first={index === 0}
-            last={index === (items.length - 1)}
-          />
+          <li style={{ display: 'flex', flex: '1' }}>
+            <ActionBarItem
+              key={/* eslint-disable react/no-array-index-key */index}
+              {...item}
+              inverted={inverted}
+              first={index === 0}
+              last={index === (items.length - 1)}
+            />
+          </li>
         )
       )}
     </ul>
@@ -31,6 +33,7 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
   display: flex;
   flex-direction: row;
   justify-content: center;
+  list-style-type: none;
 `;
 
 ActionBar.propTypes = {

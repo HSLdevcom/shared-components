@@ -42,11 +42,11 @@ const items = [
 ];
 
 stories.addWithJSX('default', () => {
-  const vertical = boolean('Vertical', false);
+  const inverted = boolean('Inverted', false);
   return (
     <ActionBar
       items={items}
-      vertical={vertical}
+      inverted={inverted}
     />
   );
 });
