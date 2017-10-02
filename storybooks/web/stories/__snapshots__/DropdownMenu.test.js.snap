@@ -6,29 +6,29 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-kjoXOD hpTAeq sc-gisBJw hpjkXh"
+    className="sc-fBuWsC eeihxG sc-jhAzac bqORsU"
     open={false}
   >
     <button
-      className="sc-caSCKo eiDtAO"
+      className="sc-hzDkRC jdcBdJ"
       onClick={[Function]}
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         textPosition="Bottom"
       >
         <a
-          className="sc-bZQynM fcYaEQ"
+          className="sc-ckVGcZ idDYVS"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderBottomColor-85ahfa rn-borderBottomWidth-1tgv9k5 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopColor-yhjsbo rn-borderTopWidth-2q8rws rn-borderRightWidth-fnigne rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+            className="rn-alignItems-1awozwy rn-borderBottomColor-85ahfa rn-borderBottomWidth-1tgv9k5 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopColor-yhjsbo rn-borderTopWidth-2q8rws rn-borderRightWidth-fnigne rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           >
             <svg
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "height": undefined,
-                  "width": undefined,
+                  "height": "2rem",
+                  "width": "2.5rem",
                 }
               }
               version="1.1"
@@ -71,12 +71,12 @@ exports[`Storyshots DropdownMenu default 1`] = `
                   Lisää
                 </span>
                 <svg
-                  className="sc-fAjcbJ bUxyRB"
+                  className="sc-bRBYWo eqAxYK"
                   preserveAspectRatio="xMidYMid meet"
                   style={
                     Object {
-                      "height": undefined,
-                      "width": undefined,
+                      "height": "0.5rem",
+                      "width": "0.75rem",
                     }
                   }
                   version="1.1"
