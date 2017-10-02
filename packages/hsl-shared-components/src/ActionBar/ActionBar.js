@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 import ActionBarItem from './ActionBarItem';
 
-const ActionBar = styled(({ items, inverted, ...rest }) => {
-  return (
+const ActionBar = styled(({ items, inverted, ...rest }) =>
+  (
     <ul {...rest}>
       {items.map((item, index) =>
         (
@@ -19,19 +19,18 @@ const ActionBar = styled(({ items, inverted, ...rest }) => {
         )
       )}
     </ul>
-  );
-})`
+  )
+)`
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.theme.colors.primary.hslGreyLight};
+  border-color: transparent;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   margin: 0;
   padding: 0;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  width: auto;
 `;
 
 ActionBar.propTypes = {
@@ -40,7 +39,5 @@ ActionBar.propTypes = {
 };
 
 ActionBar.displayName = 'ActionBar';
-
-console.log(typeof ActionBar);
 
 export default ActionBar;

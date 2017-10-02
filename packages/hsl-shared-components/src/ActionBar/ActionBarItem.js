@@ -11,16 +11,21 @@ const Container = View.extend`
   ${!IS_NATIVE && `
     cursor: pointer;
   `}
+  flex: 1;
   justify-content: center;
+  margin-top: -1px;
+  margin-right: -1px;
   padding-horizontal: ${size(20)};
   padding-vertical: ${size(20)};
   border-style: solid;
-  border-color: transparent;
-  border-right-width: 1px;
-  ${props => !props.last && `
-    border-color: ${props.theme.colors.primary.hslGreyLight}
+  border-width: 1px;
+  border-color: ${props => props.theme.colors.primary.hslGreyLight}
+  ${props => props.first && `
+    border-top-left-radius: 8px;
   `}
-  width: ${size(220)};
+  ${props => props.last && `
+    border-top-right-radius: 8px;
+  `}
 `;
 
 const Icon = withTheme(({
@@ -39,6 +44,7 @@ const Title = P.extend`
   ${props => !!props.icon && `
     margin-top: ${size(20)}
   `}
+  font-size: ${size(15)};
   color: ${props => props.theme.font.colors.highlight};
   text-align: center;
 `;

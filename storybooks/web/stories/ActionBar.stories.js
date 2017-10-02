@@ -29,7 +29,7 @@ const items = [
   },
   {
     title: 'Löytötavaroita',
-    icon: <Icons.JourneyPlanner />,
+    icon: <Icons.Info />,
   },
   {
     title: 'HSL:n sähköisiä palveluita',
@@ -37,21 +37,16 @@ const items = [
   },
   {
     title: 'Palveluita yrityksille ja oppilaitoksille',
-    icon: <Icons.JourneyPlanner />,
+    icon: <Icons.CustomerService />,
   }
 ];
 
-console.log('ActionBar', ActionBar, 'ActionBarItem', ActionBarItem);
-
 stories.addWithJSX('default', () => {
-  const type = select('Type', ['button', 'link'], 'button');
-  const title = text('Title', 'Ruskeasuon varikko');
-  const href = text('Href', 'http://www.hsl.fi');
-  const iconKnob = boolean('Icon', true);
-  const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
+  const vertical = boolean('Vertical', false);
   return (
     <ActionBar
       items={items}
+      vertical={vertical}
     />
   );
 });
