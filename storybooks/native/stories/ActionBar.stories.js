@@ -20,14 +20,6 @@ const items = [
     title: 'Löytötavaroita',
     icon: <Icons.Info />,
   },
-  {
-    title: 'HSL:n sähköisiä palveluita',
-    icon: <Icons.MobileTicket />,
-  },
-  {
-    title: 'Palveluita yrityksille ja oppilaitoksille',
-    icon: <Icons.CustomerService />,
-  }
 ];
 
 storiesOf('ActionBar', module)

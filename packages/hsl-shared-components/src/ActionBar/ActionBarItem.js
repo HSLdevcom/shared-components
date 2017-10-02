@@ -15,7 +15,7 @@ const Container = View.extend`
   justify-content: center;
   margin-top: -1px;
   margin-right: -1px;
-  padding-horizontal: ${size(20)};
+  padding-horizontal: ${size(10)};
   padding-vertical: ${size(20)};
   border-style: solid;
   border-width: 1px;
