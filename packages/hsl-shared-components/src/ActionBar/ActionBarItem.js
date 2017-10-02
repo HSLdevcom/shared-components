@@ -7,8 +7,21 @@ import View from '../View';
 import { P } from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
-const getTextColor = (active, inverted, theme, override) => {
-  if (override) {
+const getTextColor = (active, inverted, theme) => {
+  if (inverted && !active) {
+    return theme.colors.primary.hslWhite;
+  }
+  if (inverted && active) {
+    return theme.font.colors.highlight;
+  }
+  if (active) {
+    return theme.colors.primary.hslWhite;
+  }
+  return theme.font.colors.highlight;
+};
+
+const getIconColor = (active, inverted, theme, override) => {
+  if (override && !active) {
     return override;
   }
   if (inverted && !active) {
@@ -76,12 +89,12 @@ const Icon = withTheme(({
    active,
    theme,
  }) =>
-   React.cloneElement(icon, {
-     width: size(40),
-     height: size(40),
-     fill: getTextColor(inverted, active, theme),
-   })
- );
+  React.cloneElement(icon, {
+    width: size(40),
+    height: size(40),
+    fill: getIconColor(active, inverted, theme, icon.props.fill),
+  })
+);
 
 const Title = P.extend`
   flex-grow: 2;

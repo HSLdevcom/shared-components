@@ -43,17 +43,17 @@ storiesOf('ActionBar', module)
     const inverted = boolean('Inverted', false);
     const items = [
       {
-        icon: <Icons.Tickets />,
+        icon: <Icons.Tickets fill="#7d7d7d" />,
       },
       {
-        icon: <Icons.JourneyPlanner />,
+        icon: <Icons.JourneyPlanner fill="#ff5818" />,
       },
       {
-        icon: <Icons.Info />,
+        icon: <Icons.Info fill="#ff5818" />,
         active: true,
       },
       {
-        icon: <Icons.MobileTicket />,
+        icon: <Icons.MobileTicket fill="#82408f" />,
       },
       {
         icon: <Icons.CustomerService />,
