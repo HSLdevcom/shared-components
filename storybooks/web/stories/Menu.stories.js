@@ -34,14 +34,14 @@ stories.addWithJSX('default', () => {
     >
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.TravelCard height="1.75rem" width="1.75rem" fill="#ffffff" />}
+        icon={<Icons.TravelCard height="3.5rem" width="3.5rem" fill="#ffffff" />}
         text="Matkakortti"
         key="travelcard"
         active
       />
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.SignIn height="1.75rem" width="1.75rem" fill="#ffffff" />}
+        icon={<Icons.SignIn height="3.5rem" width="3.5rem" fill="#ffffff" />}
         text="Kirjaudu"
         key="signin"
       />
@@ -69,7 +69,7 @@ stories.addWithJSX('minimal', () => {
     >
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.TravelCard height="1.75rem" width="1.75rem" fill="#ffffff" />}
+        icon={<Icons.TravelCard height="3.5rem" width="3.5rem" fill="#ffffff" />}
         text="Matkakortti"
         key="travelcard"
         active
@@ -77,7 +77,7 @@ stories.addWithJSX('minimal', () => {
       />
       <MenuItem
         link={<StyledA href="/test" />}
-        icon={<Icons.SignIn height="1.75rem" width="1.75rem" fill="#ffffff" />}
+        icon={<Icons.SignIn height="3.5rem" width="3.5rem" fill="#ffffff" />}
         text="Kirjaudu"
         key="signin"
         small
@@ -87,10 +87,6 @@ stories.addWithJSX('minimal', () => {
 
 
 stories.addWithJSX('mobile', () => {
-  const StyledMenu = MenuMobile.extend`
-    background-color: #007ac9;
-    color: #ffffff;
-  `;
   const options = {
     fi: 'FI',
     sv: 'SV',
@@ -99,17 +95,37 @@ stories.addWithJSX('mobile', () => {
 
   const selectedLanguage = select('Selected language', options, 'fi');
 
+  const StyledA = A.extend`
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  `;
+
   return (
-    <StyledMenu
+    <MenuMobile
       selectedLanguage={selectedLanguage}
       changeLanguage={action('language changed')}
       iconFill={'#FFFFFF'}
-    />
+    >
+      <MenuItem
+        link={<StyledA href="/test" />}
+        icon={<Icons.TravelCard height="3.5rem" width="3.5rem" fill="#ffffff" />}
+        text="Matkakortti"
+        key="travelcard"
+        active
+      />
+      <MenuItem
+        link={<StyledA href="/test" />}
+        icon={<Icons.SignIn height="3.5rem" width="3.5rem" fill="#ffffff" />}
+        text="Kirjaudu"
+        key="signin"
+      />
+    </MenuMobile>
   );
 });
 
 stories.addWithJSX('menu item', () => {
-  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" fill="#ffffff" />;
+  const icon = <Icons.JourneyPlanner height="3.5rem" width="3.5rem" fill="#ffffff" />;
   const link = <A href="/test" />;
   const StyledMenuItem = MenuItem.extend`
     background-color: #007ac9;

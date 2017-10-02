@@ -1,47 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import cx from 'classnames';
 
-import A from '../Anchor';
-import MenuItem from './MenuItem';
-import LangSelect, { LangButton } from '../LangSelect';
+import LangSelect from '../LangSelect';
 import Icons from '../Icons';
-import { MenuSeparator } from './Separator';
-import { Flex } from '../Wrapper';
-import Div from '../Div';
+import View from '../View';
+import { size } from '../utils';
 
-const Separator = MenuSeparator.extend`
-  height: 2px;
-  margin: 0;
-`;
 
-const StyledDiv = Div.extend`
+const StyledView = View.extend`
   background: ${props => props.theme.colors.primary.hslBlue};
-  color: ${props => props.theme.colors.primary.hslWhite};
-  svg {
-    fill: currentColor;
-  }
-  ${LangSelect} {
-    ${LangButton} {
-      width: 2rem;
-      height: 1.5rem;
-    }
-  }
-  .children {
-    font-size: 1.25rem;
-    padding: 2rem 0;
-    .child {
-      width: 50%;
-      justify-content: center;
-      &:not(:last-child) {
-        border-right: 2px solid ${props => props.theme.colors.primary.hslBlueDark};
-      }
-    }
-  }
+  align-items: stretch;
 `;
-const StyledFlex = Flex.extend`
-  padding: 1rem 0;
+
+const Horizontal = View.extend`
+  flex-direction: row;
+  justify-content: space-between;
+  padding-vertical: ${size(12)};
+  margin-horizontal: ${size(12)};
+`;
+
+const MenuItems = View.extend`
+  width: 100%;
+  align-items: flex-start;
+  margin-horizontal: ${size(12)};
 `;
 
 const MenuMobile = ({
@@ -52,56 +34,21 @@ const MenuMobile = ({
   children,
   items
 }) => (
-  <StyledDiv className={className}>
-    <Separator />
-    <StyledFlex>
+  <StyledView className={className}>
+    <Horizontal>
       <LangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Icons.Search style={{ height: '1.5rem' }} />
-    </StyledFlex>
-    <Separator />
+      <Icons.Search height="1.25rem" width="1.25rem" fill="#ffffff" />
+    </Horizontal>
     { items }
-    <Flex className="children">
-      {React.Children.map(children, child => (
-        React.cloneElement(
-          child,
-          {
-            className: cx(child.props.className, 'child'),
-            small: false,
-            textPosition: 'Bottom',
-            active: false
-          })
-        ))}
-    </Flex>
-  </StyledDiv>
+    <MenuItems>
+      {children}
+    </MenuItems>
+  </StyledView>
 );
-
-const defaultChildren = [
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
-    text="Matkakortti"
-    textPosition="Right"
-    key="travelcard"
-    active
-  />,
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
-    text="Kirjaudu"
-    textPosition="Right"
-    key="signin"
-  />
-];
-
-
-MenuMobile.defaultProps = {
-  children: defaultChildren
-};
-
 
 MenuMobile.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
