@@ -67,11 +67,13 @@ const ActionBarItemCore = ({
           icon={icon}
         />
       }
-      <Title
-        icon={icon}
-      >
-        {title}
-      </Title>
+      {!!title &&
+        <Title
+          icon={icon}
+        >
+          {title}
+        </Title>
+      }
     </Container>
   );
 
