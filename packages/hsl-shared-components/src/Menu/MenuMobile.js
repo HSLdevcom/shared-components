@@ -18,6 +18,8 @@ const Horizontal = View.extend`
   justify-content: space-between;
   padding-vertical: ${size(12)};
   margin-horizontal: ${size(12)};
+  border-bottom-width: 2px;
+  border-bottom-color: ${props => props.theme.colors.primary.hslBlueDark}
 `;
 
 const MenuItems = View.extend`
