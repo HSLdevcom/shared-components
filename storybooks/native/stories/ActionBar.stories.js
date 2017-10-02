@@ -7,21 +7,6 @@ import { ActionBar, ActionBarItem, Icons, ResponsiveProvider, Theme } from 'hsl-
 
 import CenterView from './CenterView';
 
-const items = [
-  {
-    title: 'Lippuja ja hintoja',
-    icon: <Icons.Tickets />,
-  },
-  {
-    title: 'Reittejä, aikatauluja tai matkustamista',
-    icon: <Icons.JourneyPlanner />,
-  },
-  {
-    title: 'Löytötavaroita',
-    icon: <Icons.Info />,
-  },
-];
-
 storiesOf('ActionBar', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
@@ -32,6 +17,40 @@ storiesOf('ActionBar', module)
     </ThemeProvider>))
   .add('Default', () => {
     const inverted = boolean('Inverted', false);
+    const items = [
+      {
+        title: 'Lippuja ja hintoja',
+        icon: <Icons.Tickets />,
+      },
+      {
+        title: 'Reittejä, aikatauluja tai matkustamista',
+        icon: <Icons.JourneyPlanner />,
+      },
+      {
+        title: 'Löytötavaroita',
+        icon: <Icons.Info />,
+      },
+    ];
+    return (
+      <ActionBar
+        items={items}
+        inverted={inverted}
+      />
+    );
+  })
+  .add('Inverted theme and no icons', () => {
+    const inverted = boolean('Inverted', true);
+    const items = [
+      {
+        title: 'Lievä',
+      },
+      {
+        title: 'Haittaava',
+      },
+      {
+        title: 'Vaarallinen',
+      },
+    ];
     return (
       <ActionBar
         items={items}

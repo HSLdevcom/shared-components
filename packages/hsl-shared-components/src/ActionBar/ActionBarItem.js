@@ -20,22 +20,29 @@ const Container = View.extend`
   border-style: solid;
   border-width: 1px;
   border-color: ${props => props.theme.colors.primary.hslGreyLight}
+  ${props => props.inverted && `
+    background-color: ${props.theme.colors.primary.hslBlue};
+    border-color: ${props.theme.colors.primary.hslWhite};
+  `}
   ${props => props.first && `
     border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   `}
   ${props => props.last && `
     border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   `}
 `;
 
 const Icon = withTheme(({
    icon,
+   inverted,
    theme,
  }) =>
    React.cloneElement(icon, {
      width: size(40),
      height: size(40),
-     fill: theme.font.colors.highlight,
+     fill: inverted ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
    })
  );
 
@@ -46,6 +53,9 @@ const Title = P.extend`
   `}
   font-size: ${size(15)};
   color: ${props => props.theme.font.colors.highlight};
+  ${props => props.inverted && `
+    color: ${props.theme.colors.primary.hslWhite};
+  `}
   text-align: center;
 `;
 
@@ -54,22 +64,26 @@ const ActionBarItemCore = ({
   title,
   type,
   href,
+  inverted,
   ...rest,
 }) =>
   (
     <Container
       href={href}
+      inverted={inverted}
       {...rest}
       accessibilityRole={type || 'button'}
     >
       {!!icon &&
         <Icon
           icon={icon}
+          inverted={inverted}
         />
       }
       {!!title &&
         <Title
           icon={icon}
+          inverted={inverted}
         >
           {title}
         </Title>
@@ -102,6 +116,7 @@ ActionBarItemCore.propTypes = {
   title: PropTypes.string,
   type: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
+  inverted: PropTypes.bool,
   first: PropTypes.bool,
   last: PropTypes.bool,
 };

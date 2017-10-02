@@ -26,8 +26,7 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
   margin: 0;
   padding: 0;
   display: flex;

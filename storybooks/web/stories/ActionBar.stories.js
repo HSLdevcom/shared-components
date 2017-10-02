@@ -18,31 +18,51 @@ stories.addDecorator(getStory => (
     </ResponsiveProvider>
   </ThemeProvider>));
 
-const items = [
-  {
-    title: 'Lippuja ja hintoja',
-    icon: <Icons.Tickets />,
-  },
-  {
-    title: 'Reittejä, aikatauluja tai matkustamista',
-    icon: <Icons.JourneyPlanner />,
-  },
-  {
-    title: 'Löytötavaroita',
-    icon: <Icons.Info />,
-  },
-  {
-    title: 'HSL:n sähköisiä palveluita',
-    icon: <Icons.MobileTicket />,
-  },
-  {
-    title: 'Palveluita yrityksille ja oppilaitoksille',
-    icon: <Icons.CustomerService />,
-  }
-];
-
 stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
+  const items = [
+    {
+      title: 'Lippuja ja hintoja',
+      icon: <Icons.Tickets />,
+    },
+    {
+      title: 'Reittejä, aikatauluja tai matkustamista',
+      icon: <Icons.JourneyPlanner />,
+    },
+    {
+      title: 'Löytötavaroita',
+      icon: <Icons.Info />,
+    },
+    {
+      title: 'HSL:n sähköisiä palveluita',
+      icon: <Icons.MobileTicket />,
+    },
+    {
+      title: 'Palveluita yrityksille ja oppilaitoksille',
+      icon: <Icons.CustomerService />,
+    }
+  ];
+  return (
+    <ActionBar
+      items={items}
+      inverted={inverted}
+    />
+  );
+});
+
+stories.addWithJSX('Inverted theme and no icons', () => {
+  const inverted = boolean('Inverted', true);
+  const items = [
+    {
+      title: 'Lievä',
+    },
+    {
+      title: 'Haittaava',
+    },
+    {
+      title: 'Vaarallinen',
+    },
+  ];
   return (
     <ActionBar
       items={items}
@@ -55,6 +75,7 @@ stories.addWithJSX('ActionBarItem', () => {
   const type = select('Type', ['button', 'link'], 'button');
   const title = text('Title', 'Lippuja ja hintoja');
   const href = text('Href', 'http://www.hsl.fi');
+  const inverted = boolean('Inverted', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.Tickets /> : null;
   return (
@@ -63,6 +84,7 @@ stories.addWithJSX('ActionBarItem', () => {
       href={href}
       title={title}
       icon={icon}
+      inverted={inverted}
       onClick={action('click')}
     />
   );
