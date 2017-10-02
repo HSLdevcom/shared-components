@@ -11,6 +11,7 @@ const Container = View.extend`
   ${!IS_NATIVE && `
     cursor: pointer;
   `}
+  justify-content: center;
   padding-horizontal: ${size(20)};
   padding-vertical: ${size(20)};
   border-style: solid;
@@ -19,6 +20,7 @@ const Container = View.extend`
   ${props => !props.last && `
     border-color: ${props.theme.colors.primary.hslGreyLight}
   `}
+  width: ${size(220)};
 `;
 
 const Icon = withTheme(({
@@ -33,6 +35,7 @@ const Icon = withTheme(({
  );
 
 const Title = P.extend`
+  flex-grow: 2;
   ${props => !!props.icon && `
     margin-top: ${size(20)}
   `}
@@ -95,7 +98,7 @@ ActionBarItemCore.propTypes = {
   last: PropTypes.bool,
 };
 
-ActionBarItemCore.propTypes = {
+ActionBarItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   ...ActionBarItemCore.propTypes,

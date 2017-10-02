@@ -5,7 +5,7 @@ import { withKnobs, boolean, select, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
 
-import { ActionBarItem, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { ActionBar, ActionBarItem, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -18,12 +18,50 @@ stories.addDecorator(getStory => (
     </ResponsiveProvider>
   </ThemeProvider>));
 
+const items = [
+  {
+    title: 'Lippuja ja hintoja',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Reittejä, aikatauluja tai matkustamista',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    title: 'Löytötavaroita',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    title: 'HSL:n sähköisiä palveluita',
+    icon: <Icons.MobileTicket />,
+  },
+  {
+    title: 'Palveluita yrityksille ja oppilaitoksille',
+    icon: <Icons.JourneyPlanner />,
+  }
+];
+
+console.log('ActionBar', ActionBar, 'ActionBarItem', ActionBarItem);
+
 stories.addWithJSX('default', () => {
   const type = select('Type', ['button', 'link'], 'button');
   const title = text('Title', 'Ruskeasuon varikko');
   const href = text('Href', 'http://www.hsl.fi');
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
+  return (
+    <ActionBar
+      items={items}
+    />
+  );
+});
+
+stories.addWithJSX('ActionBarItem', () => {
+  const type = select('Type', ['button', 'link'], 'button');
+  const title = text('Title', 'Lippuja ja hintoja');
+  const href = text('Href', 'http://www.hsl.fi');
+  const iconKnob = boolean('Icon', true);
+  const icon = iconKnob ? <Icons.Tickets /> : null;
   return (
     <ActionBarItem
       type={type}
