@@ -199,7 +199,7 @@ stories.addWithJSX('only title', () => {
 });
 
 stories.addWithJSX('mobile', () => {
-  const logo = <Icons.HSLLogo fill="#ffffff" height="2rem" />;
+  const logo = <Icons.HSLLogo height="3.5rem" width="3.5rem" fill="#ffffff" />;
 
   const options = {
     fi: 'FI',
@@ -214,14 +214,14 @@ stories.addWithJSX('mobile', () => {
     changeLanguage={action('language changed')}
   >
     <MenuItem
-      link={<A href="/test" key="test1" />}
-      icon={<Icons.TravelCard height="3.5rem" />}
+      link={<StyledA href="/test" key="test1" />}
+      icon={<Icons.TravelCard height="3.5rem" width="3.5rem" fill="#ffffff" />}
       text="Matkakortti"
       key="travelcard"
     />
     <MenuItem
-      link={<A href="/test" key="test1" />}
-      icon={<Icons.SignIn height="3.5rem" />}
+      link={<StyledA href="/test" key="test1" />}
+      icon={<Icons.SignIn height="3.5rem" width="3.5rem" fill="#ffffff" />}
       text="Kirjaudu"
       key="signin"
     />
@@ -231,7 +231,7 @@ stories.addWithJSX('mobile', () => {
     {icons.map(icon =>
     (<NavItem
       key={icon[1]}
-      link={<A href="/test" />}
+      link={<StyledA href="/test" />}
       icon={icon[0]}
       text={icon[1]}
     />)

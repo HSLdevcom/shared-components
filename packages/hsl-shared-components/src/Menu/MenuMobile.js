@@ -22,8 +22,8 @@ const Horizontal = View.extend`
 
 const MenuItems = View.extend`
   width: 100%;
+  flex-direction: row;
   align-items: flex-start;
-  margin-horizontal: ${size(12)};
 `;
 
 const MenuMobile = ({
