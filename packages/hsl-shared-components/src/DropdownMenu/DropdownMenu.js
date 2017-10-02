@@ -13,9 +13,9 @@ import Text from '../Typography';
 import View from '../View';
 import { size } from '../utils';
 
-const Icon = <Icons.More style={{ height: '2.5rem', width: '2.5rem' }} />;
+const Icon = <Icons.More height="2.5rem" width="2.5rem" />;
 
-const Arrow = styled(({ open, ...rest }) => (<Icons.ArrowDown style={{ height: '0.5rem', width: '0.75rem' }} {...rest} />))`
+const Arrow = styled(({ open, ...rest }) => (<Icons.ArrowDown height="0.5rem" width="0.75rem" {...rest} />))`
   padding-left: ${size(8)};
   height: ${size(8)} !important;
   width: ${size(12)} !important;

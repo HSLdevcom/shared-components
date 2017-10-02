@@ -19,7 +19,7 @@ const StyledA = A.extend`
   display: flex;
 `;
 
-const cog = <Icons.Cog height="2.5rem" width="2.5rem" />;
+const cog = <Icons.Cog height="3.5rem" width="3.5rem" fill="#ffffff" />;
 const DropdownContent = [
   <List header="Liikkumisen palveluita" key="1">
     <ListItem><A href="/test">Kaupunkipyörät</A></ListItem>
@@ -72,9 +72,9 @@ while (i < 50) {
 }
 
 const icons = [
-  [<Icons.Tickets height="2.5rem" width="2.5rem" />, 'Liput ja hinnat'],
-  [<Icons.CustomerService height="2.5rem" width="2.5rem" />, 'Asiakaspalvelu'],
-  [<Icons.Latest height="2.5rem" width="2.5rem" />, 'Uutta'],
+  [<Icons.Tickets height="3.5rem" width="3.5rem" fill="#ffffff" />, 'Liput ja hinnat'],
+  [<Icons.CustomerService height="3.5rem" width="3.5rem" fill="#ffffff" />, 'Asiakaspalvelu'],
+  [<Icons.Latest height="3.5rem" width="3.5rem" fill="#ffffff" />, 'Uutta'],
 ];
 
 const stories = storiesOf('Nav', module);
@@ -100,14 +100,14 @@ stories.addWithJSX('default', () => {
   >
     <MenuItem
       link={<A href="/test" key="test1" />}
-      icon={<Icons.TravelCard height="3.5rem" />}
+      icon={<Icons.TravelCard height="3.5rem" fill="#ffffff" />}
       text="Matkakortti"
       key="travelcard"
       active
     />
     <MenuItem
       link={<A href="/test" key="test2" />}
-      icon={<Icons.SignIn height="3.5rem" />}
+      icon={<Icons.SignIn height="3.5rem" fill="#ffffff" />}
       text="Kirjaudu"
       key="signin"
     />
@@ -118,7 +118,7 @@ stories.addWithJSX('default', () => {
       <NavItem
         key="Reittiopas"
         link={<StyledA href="/test" />}
-        icon={<Icons.JourneyPlanner height="2.5rem" width="2.5rem" />}
+        icon={<Icons.JourneyPlanner height="3.5rem" width="3.5rem" fill="#ffffff" />}
         text="Reittiopas"
         active
       />
@@ -240,7 +240,7 @@ stories.addWithJSX('mobile', () => {
 });
 
 stories.addWithJSX('nav item', () => {
-  const icon = <Icons.JourneyPlanner height="2.5rem" width="2.5rem" fill="#ffffff" />;
+  const icon = <Icons.JourneyPlanner height="3.5rem" width="3.5rem" fill="#ffffff" />;
   const link = <StyledA href="/test" />;
   const StyledNavItem = NavItem.extend`
     background-color: #007ac9;

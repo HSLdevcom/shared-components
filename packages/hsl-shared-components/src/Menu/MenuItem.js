@@ -4,7 +4,7 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import { LabelText } from '../Typography';
 
-import { size } from '../utils';
+import { size, Responsive } from '../utils';
 
 import { Activatable } from '../Wrapper';
 
@@ -23,6 +23,18 @@ const Wrap = View.extend`
   flex-direction: row;
 `;
 
+const Icon = ({ children }) => (
+  <Responsive
+    small={React.cloneElement(children, { height: '1.5rem' })}
+    large={React.cloneElement(children, { height: '1.75rem' })}
+    xlarge={React.cloneElement(children, { height: '2rem' })}
+  />
+);
+
+Icon.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
 const MenuItem = ({
   link,
   icon,
@@ -37,7 +49,7 @@ const MenuItem = ({
       {},
       (<Activatable active={active} small={small} >
         <Wrap>
-          {icon}
+          <Icon>{icon}</Icon>
           { !small && <StyledLabelText>{text}</StyledLabelText> }
         </Wrap>
       </Activatable>)
