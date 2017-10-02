@@ -32,6 +32,7 @@ stories.addWithJSX('default', () => {
     {
       title: 'Löytötavaroita',
       icon: <Icons.Info />,
+      active: true,
     },
     {
       title: 'HSL:n sähköisiä palveluita',
@@ -39,6 +40,34 @@ stories.addWithJSX('default', () => {
     },
     {
       title: 'Palveluita yrityksille ja oppilaitoksille',
+      icon: <Icons.CustomerService />,
+    }
+  ];
+  return (
+    <ActionBar
+      items={items}
+      inverted={inverted}
+    />
+  );
+});
+
+stories.addWithJSX('Icons only', () => {
+  const inverted = boolean('Inverted', false);
+  const items = [
+    {
+      icon: <Icons.Tickets />,
+    },
+    {
+      icon: <Icons.JourneyPlanner />,
+    },
+    {
+      icon: <Icons.Info />,
+      active: true,
+    },
+    {
+      icon: <Icons.MobileTicket />,
+    },
+    {
       icon: <Icons.CustomerService />,
     }
   ];
@@ -58,6 +87,7 @@ stories.addWithJSX('Inverted theme and no icons', () => {
     },
     {
       title: 'Haittaava',
+      active: true,
     },
     {
       title: 'Vaarallinen',
@@ -76,6 +106,7 @@ stories.addWithJSX('ActionBarItem', () => {
   const title = text('Title', 'Lippuja ja hintoja');
   const href = text('Href', 'http://www.hsl.fi');
   const inverted = boolean('Inverted', false);
+  const active = boolean('Active', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.Tickets /> : null;
   return (
@@ -85,6 +116,7 @@ stories.addWithJSX('ActionBarItem', () => {
       title={title}
       icon={icon}
       inverted={inverted}
+      active={active}
       onClick={action('click')}
     />
   );

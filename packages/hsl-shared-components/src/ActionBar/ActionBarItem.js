@@ -7,6 +7,45 @@ import View from '../View';
 import { P } from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
+const getTextColor = (active, inverted, theme, override) => {
+  if (override) {
+    return override;
+  }
+  if (inverted && !active) {
+    return theme.colors.primary.hslWhite;
+  }
+  if (inverted && active) {
+    return theme.font.colors.highlight;
+  }
+  if (active) {
+    return theme.colors.primary.hslWhite;
+  }
+  return theme.font.colors.highlight;
+};
+
+const getBorderColor = (active, inverted, theme) => {
+  if (inverted) {
+    return theme.colors.primary.hslWhite;
+  }
+  if (active) {
+    return theme.colors.primary.hslBlue;
+  }
+  return theme.colors.primary.hslGreyLight;
+};
+
+const getBackgroundColor = (active, inverted, theme) => {
+  if (inverted && !active) {
+    return theme.colors.primary.hslBlue;
+  }
+  if (inverted && active) {
+    return theme.colors.background.hslWhite;
+  }
+  if (active) {
+    return theme.colors.primary.hslBlue;
+  }
+  return theme.colors.background.hslWhite;
+};
+
 const Container = View.extend`
   ${!IS_NATIVE && `
     cursor: pointer;
@@ -19,11 +58,8 @@ const Container = View.extend`
   padding-vertical: ${size(20)};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => props.theme.colors.primary.hslGreyLight}
-  ${props => props.inverted && `
-    background-color: ${props.theme.colors.primary.hslBlue};
-    border-color: ${props.theme.colors.primary.hslWhite};
-  `}
+  border-color: ${props => getBorderColor(props.active, props.inverted, props.theme)};
+  background-color: ${props => getBackgroundColor(props.active, props.inverted, props.theme)};
   ${props => props.first && `
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -37,12 +73,13 @@ const Container = View.extend`
 const Icon = withTheme(({
    icon,
    inverted,
+   active,
    theme,
  }) =>
    React.cloneElement(icon, {
      width: size(40),
      height: size(40),
-     fill: inverted ? theme.colors.primary.hslWhite : theme.font.colors.highlight,
+     fill: getTextColor(inverted, active, theme),
    })
  );
 
@@ -52,10 +89,7 @@ const Title = P.extend`
     margin-top: ${size(20)}
   `}
   font-size: ${size(15)};
-  color: ${props => props.theme.font.colors.highlight};
-  ${props => props.inverted && `
-    color: ${props.theme.colors.primary.hslWhite};
-  `}
+  color: ${props => getTextColor(props.inverted, props.active, props.theme)};
   text-align: center;
 `;
 
@@ -65,12 +99,14 @@ const ActionBarItemCore = ({
   type,
   href,
   inverted,
+  active,
   ...rest,
 }) =>
   (
     <Container
       href={href}
       inverted={inverted}
+      active={active}
       {...rest}
       accessibilityRole={type || 'button'}
     >
@@ -78,12 +114,14 @@ const ActionBarItemCore = ({
         <Icon
           icon={icon}
           inverted={inverted}
+          active={active}
         />
       }
       {!!title &&
         <Title
           icon={icon}
           inverted={inverted}
+          active={active}
         >
           {title}
         </Title>
@@ -116,6 +154,7 @@ ActionBarItemCore.propTypes = {
   title: PropTypes.string,
   type: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
+  active: PropTypes.bool,
   inverted: PropTypes.bool,
   first: PropTypes.bool,
   last: PropTypes.bool,

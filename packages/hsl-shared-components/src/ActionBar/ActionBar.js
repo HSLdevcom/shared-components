@@ -12,10 +12,10 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
           <li style={{ display: 'flex', flex: '1' }}>
             <ActionBarItem
               key={/* eslint-disable react/no-array-index-key */index}
-              {...item}
               inverted={inverted}
               first={index === 0}
               last={index === (items.length - 1)}
+              {...item}
             />
           </li>
         )

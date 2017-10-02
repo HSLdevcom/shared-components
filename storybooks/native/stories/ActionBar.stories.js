@@ -25,11 +25,39 @@ storiesOf('ActionBar', module)
       {
         title: 'Reittejä, aikatauluja tai matkustamista',
         icon: <Icons.JourneyPlanner />,
+        active: true,
       },
       {
         title: 'Löytötavaroita',
         icon: <Icons.Info />,
       },
+    ];
+    return (
+      <ActionBar
+        items={items}
+        inverted={inverted}
+      />
+    );
+  })
+  .add('Icons only', () => {
+    const inverted = boolean('Inverted', false);
+    const items = [
+      {
+        icon: <Icons.Tickets />,
+      },
+      {
+        icon: <Icons.JourneyPlanner />,
+      },
+      {
+        icon: <Icons.Info />,
+        active: true,
+      },
+      {
+        icon: <Icons.MobileTicket />,
+      },
+      {
+        icon: <Icons.CustomerService />,
+      }
     ];
     return (
       <ActionBar
@@ -46,6 +74,7 @@ storiesOf('ActionBar', module)
       },
       {
         title: 'Haittaava',
+        active: true,
       },
       {
         title: 'Vaarallinen',
@@ -60,12 +89,16 @@ storiesOf('ActionBar', module)
   })
   .add('ActionBarItem', () => {
     const title = text('Title', 'Ruskeasuon varikko');
+    const inverted = boolean('Inverted', false);
+    const active = boolean('Active', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
       <ActionBarItem
         title={title}
         icon={icon}
+        inverted={inverted}
+        active={active}
         onPress={action('press')}
         onLongPress={action('longPress')}
       />
