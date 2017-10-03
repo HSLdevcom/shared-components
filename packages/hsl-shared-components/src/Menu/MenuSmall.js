@@ -50,7 +50,12 @@ const Menu = ({
   ...rest
 }) => (
   <StyledView {...rest}>
-    {!small && React.Children.map(children, child => (<Wrapper>{child}</Wrapper>))}
+    {
+      !small &&
+      React.Children.map(
+        children, child => (<Wrapper>{React.cloneElement(child, { small: true })}</Wrapper>)
+      )
+    }
     <SearchIcon>
       <Icons.Search
         height="1.5rem"

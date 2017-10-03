@@ -244,7 +244,6 @@ stories.addWithJSX('nav item', () => {
   const link = <StyledA href="/test" />;
   const StyledNavItem = NavItem.extend`
     background-color: #007ac9;
-    color: #ffffff;
   `;
 
   const StyledDiv = Div.extend`

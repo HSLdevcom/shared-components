@@ -5,7 +5,7 @@ import omit from 'lodash/fp/omit';
 
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
-import { MenuMobile } from '../Menu';
+import { MenuMobile, MenuSmall } from '../Menu';
 import View from '../View';
 import { Responsive, IS_NATIVE } from '../utils';
 
@@ -13,6 +13,16 @@ const Header = View.extend`
   width: 100%;
   align-items: stretch;
 `;
+
+const ScrollWrap = styled.div`
+  position: fixed;
+  width: 100%;
+  top: 0;
+`;
+
+const ScrollNav = props => (
+  <ScrollWrap><NavDesktop {...props} scroll /></ScrollWrap>
+);
 
 class Nav extends React.Component {
   constructor(props) {
@@ -119,6 +129,18 @@ class Nav extends React.Component {
               {this.props.children}
             </NavDesktop>}
         />
+        {
+          this.state.desktopScrollNav && <Responsive
+            small={null}
+            medium={
+              <ScrollNav
+                logo={this.props.logo}
+                menu={<MenuSmall {...this.props.menu.props} />}
+              >
+                {this.props.children}
+              </ScrollNav>}
+          />
+        }
       </Header>
     );
   }
@@ -130,4 +152,4 @@ Nav.propTypes = {
   children: PropTypes.node
 };
 
-export default styled(Nav)``;
+export default Nav;
