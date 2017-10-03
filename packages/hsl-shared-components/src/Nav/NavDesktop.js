@@ -31,10 +31,12 @@ const Nav = ({
   logo,
   menu,
   scroll,
-  children }) =>
+  children,
+  ...rest }) =>
     (<StyledView
       accessibilityRole="navigation"
       scroll={scroll}
+      {...rest}
     >
       <Logo scroll={scroll}>{logo}</Logo>
       {React.Children.map(

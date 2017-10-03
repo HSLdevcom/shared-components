@@ -7,7 +7,7 @@ import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
 import { MenuMobile } from '../Menu';
 import View from '../View';
-import { Responsive } from '../utils';
+import { Responsive, IS_NATIVE } from '../utils';
 
 const Header = View.extend`
   width: 100%;
@@ -17,17 +17,26 @@ const Header = View.extend`
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { desktopScrollNav: false, mobileNavVisible: true };
+    this.state = {
+      desktopScrollNav: false,
+      mobileNavVisible: true,
+      navHeight: 0
+    };
     this.lastScrollValue = 0;
     this.ticking = false;
     this.onScroll = this.onScroll.bind(this);
+    this.onLayout = this.onLayout.bind(this);
   }
   componentDidMount() {
-    document.addEventListener('scroll', this.onScroll, true);
+    if (!IS_NATIVE) {
+      document.addEventListener('scroll', this.onScroll, true);
+    }
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', this.onScroll, true);
+    if (!IS_NATIVE) {
+      document.removeEventListener('scroll', this.onScroll, true);
+    }
   }
 
   onScroll() {
@@ -35,7 +44,7 @@ class Nav extends React.Component {
       const scrollY = window.scrollY;
       window.requestAnimationFrame(() => {
         this.onScrollDesktop(scrollY);
-        this.onScrollMobile(scrollY);
+        // this.onScrollMobile(scrollY);
         // Save current scroll value
         this.lastScrollValue = scrollY;
         this.ticking = false;
@@ -44,14 +53,19 @@ class Nav extends React.Component {
     }
   }
 
+  onLayout(e) {
+    this.setState({
+      navHeight: e.nativeEvent.layout.height
+    });
+  }
+
   onScrollDesktop(scrollY) {
     // Visible when scrolling up and we have scrolled past
     // 3 * nav height
-    const navHeight = (this.desktopNav &&
-                      this.desktopNav.offsetHeight) || 0;
+
     // When nav is not visible, dont show nav unless we have scrolled 3 x past nav height
     // When nav is visible, hide nav when we reach the bottom of nav
-    const boundary = this.state.desktopScrollNav ? navHeight : 3 * navHeight;
+    const boundary = this.state.desktopScrollNav ? this.state.navHeight : 3 * this.state.navHeight;
 
     const scrolledPastBoundary = boundary < scrollY;
 
@@ -68,19 +82,19 @@ class Nav extends React.Component {
     }
   }
 
-  onScrollMobile(scrollY) {
-    const scrollingUp = scrollY < this.lastScrollValue;
+  // onScrollMobile(scrollY) {
+  //   const scrollingUp = scrollY < this.lastScrollValue;
 
-    // Call setState only if state will change
-    // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
-    if (scrollingUp !== this.state.mobileNavVisible) {
-      this.setState(prevState => (
-        scrollingUp !== prevState.mobileNavVisible
-        ? { mobileNavVisible: scrollingUp }
-        : undefined
-      ));
-    }
-  }
+  //   // Call setState only if state will change
+  //   // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
+  //   if (scrollingUp !== this.state.mobileNavVisible) {
+  //     this.setState(prevState => (
+  //       scrollingUp !== prevState.mobileNavVisible
+  //       ? { mobileNavVisible: scrollingUp }
+  //       : undefined
+  //     ));
+  //   }
+  // }
 
   render() {
     return (
@@ -100,6 +114,7 @@ class Nav extends React.Component {
             <NavDesktop
               logo={this.props.logo}
               menu={this.props.menu}
+              onLayout={this.onLayout}
             >
               {this.props.children}
             </NavDesktop>}

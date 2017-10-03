@@ -49,7 +49,6 @@ class Nav extends React.Component {
   render() {
     return (<StyledNav
       accessibilityRole="navigation"
-      innerRef={this.props.navRef}
       visible={this.props.visible}
       menuOpen={this.state.menuOpen}
       {...omit(this.props, ['navRef', 'logo', 'children'])}
@@ -82,7 +81,6 @@ class Nav extends React.Component {
 Nav.propTypes = {
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
-  navRef: PropTypes.func,
   children: PropTypes.node,
   visible: PropTypes.bool.isRequired
 };
