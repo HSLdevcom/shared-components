@@ -20,8 +20,10 @@ const ActionList = styled(({
               inverted={inverted}
               centered={centered}
               arrowless={arrowless}
-              parentHasBorder={withBorder}
+              withBorder={withBorder}
               first={index === 0}
+              second={index === 1}
+              secondToLast={index === (items.length - 2)}
               last={index === (items.length - 1)}
               {...item}
             />
@@ -34,16 +36,6 @@ const ActionList = styled(({
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: ${props => props.theme.colors.background.hslWhite};
-  ${props => props.inverted && `
-    background-color: ${props.theme.font.colors.highlight};
-  `}
-  ${props => props.withBorder && `
-    border-width: 1px;
-    border-style: solid;
-    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
-    border-radius: 6px;
-  `}
 `;
 
 ActionList.displayName = 'ActionList';

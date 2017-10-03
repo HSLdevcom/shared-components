@@ -116,7 +116,7 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrowless = boolean('Arrowless', false);
     const inverted = boolean('Inverted', false);
-    const parentHasBorder = boolean('parentHasBorder', false);
+    const withBorder = boolean('withBorder', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
@@ -129,7 +129,7 @@ storiesOf('ActionList', module)
         icon={icon}
         arrowless={arrowless}
         inverted={inverted}
-        parentHasBorder={parentHasBorder}
+        withBorder={withBorder}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

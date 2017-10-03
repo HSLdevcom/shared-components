@@ -9,24 +9,55 @@ import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 
 const getTextColor = (props) => {
-  if (props.active && props.inverted) {
+  if (props.inverted && props.active) {
     return props.theme.font.colors.highlight;
   }
   if (props.inverted) {
     return props.theme.colors.primary.hslWhite;
   }
-  if (props.active && props.parentHasBorder) {
+  if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslWhite;
   }
   return props.theme.font.colors.highlight;
+};
+
+const getBorderColor = (props) => {
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  if (props.withBorder && props.active) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  if (props.withBorder) {
+    return props.theme.colors.primary.hslGreyLight;
+  }
+  if (props.active) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return 'transparent';
+};
+
+const getBackgroundColor = (props) => {
+  if (props.inverted && props.active) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  if (props.withBorder && props.active) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return props.theme.colors.primary.hslWhite;
 };
 
 const Container = styled(({
   active,
   centered,
   inverted,
-  parentHasBorder,
+  withBorder,
   first,
+  second,
+  secondToLast,
   last,
   ...rest,
 }) =>
@@ -38,29 +69,33 @@ const Container = styled(({
   ${props => props.centered && `
     justify-content: center;
   `}
-
+  position: relative;
   padding-horizontal: ${size(18)};
   border-style: solid;
-  border-color: transparent;
-  border-bottom-width: 1px;
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
 
-  ${props => props.first && props.parentHasBorder && `
+  ${props => props.withBorder && `
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  `}
+
+  ${props => props.withBorder && props.first && `
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    border-width: 1px;
   `}
 
-  ${props => props.last && props.parentHasBorder && `
+  ${props => props.withBorder && props.secondToLast && `
+    border-bottom-width: 0px;
+  `}
+
+  ${props => props.withBorder && props.last && `
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-  `}
-  ${props => !props.last && `
-    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
-  `}
-
-  ${props => props.active && !props.inverted && `
-      margin-bottom: -2px;
-      border-bottom-width: 3px;
-      border-color: ${props.theme.font.colors.highlight};
+    border-width: 1px;
   `}
 
   ${!IS_NATIVE && 'cursor: pointer;'}
@@ -71,12 +106,12 @@ const Icon = withTheme(({
   theme,
   active,
   inverted,
-  parentHasBorder,
+  withBorder,
 }) =>
   React.cloneElement(icon, {
     width: size(35),
     height: size(35),
-    fill: getTextColor({ active, inverted, parentHasBorder, theme }),
+    fill: getTextColor({ active, inverted, withBorder, theme }),
   })
 );
 
@@ -105,7 +140,7 @@ const TitleContainer = styled(({
 const Prefix = styled(({
   active,
   inverted,
-  parentHasBorder,
+  withBorder,
   ...rest,
 }) =>
   <H3 {...rest} />
@@ -117,7 +152,7 @@ const Prefix = styled(({
 const Title = styled(({
   active,
   inverted,
-  parentHasBorder,
+  withBorder,
   ...rest,
 }) =>
   <H4 {...rest} />
@@ -129,7 +164,7 @@ const Title = styled(({
 const Subtitle = styled(({
   active,
   inverted,
-  parentHasBorder,
+  withBorder,
   ...rest,
 }) =>
   <P {...rest} />
@@ -144,15 +179,32 @@ const ArrowIcon = withTheme(({
   theme,
   active,
   inverted,
-  parentHasBorder,
+  withBorder,
 }) =>
   (
     <ArrowRight
       height={size(15)}
       width={size(10)}
-      fill={getTextColor({ active, inverted, parentHasBorder, theme })}
+      fill={getTextColor({ active, inverted, withBorder, theme })}
     />
   ));
+
+const ActiveItemUnderline = styled(({
+  active,
+  inverted,
+  withBorder,
+  ...rest
+}) => (
+  <View {...rest} />
+))`
+  position: absolute;
+  height: 3px;
+  bottom: 0;
+  width: 200%;
+  ${props => props.active && !props.inverted && !props.withBorder && `
+    background-color: ${props.theme.colors.primary.hslBlue};
+  `}
+`;
 
 const ActionListItemCore = ({
   type,
@@ -163,9 +215,11 @@ const ActionListItemCore = ({
   subtitle,
   icon,
   arrowless,
-  parentHasBorder,
+  withBorder,
   centered,
   first,
+  second,
+  secondToLast,
   last,
   inverted,
   ...rest,
@@ -177,8 +231,10 @@ const ActionListItemCore = ({
       active={active}
       centered={centered}
       inverted={inverted}
-      parentHasBorder={parentHasBorder}
+      withBorder={withBorder}
       first={first}
+      second={second}
+      secondToLast={secondToLast}
       last={last}
       {...rest}
     >
@@ -187,14 +243,14 @@ const ActionListItemCore = ({
           icon={icon}
           active={active}
           inverted={inverted}
-          parentHasBorder={parentHasBorder}
+          withBorder={withBorder}
         />
       }
       {!!prefix &&
         <Prefix
           active={active}
           inverted={inverted}
-          parentHasBorder={parentHasBorder}
+          withBorder={withBorder}
         >
           {prefix}
         </Prefix>
@@ -208,7 +264,7 @@ const ActionListItemCore = ({
         <Title
           active={active}
           inverted={inverted}
-          parentHasBorder={parentHasBorder}
+          withBorder={withBorder}
         >
           {title}
         </Title>
@@ -216,7 +272,7 @@ const ActionListItemCore = ({
           <Subtitle
             active={active}
             inverted={inverted}
-            parentHasBorder={parentHasBorder}
+            withBorder={withBorder}
           >
             {subtitle}
           </Subtitle>
@@ -226,9 +282,14 @@ const ActionListItemCore = ({
         <ArrowIcon
           active={active}
           inverted={inverted}
-          parentHasBorder={parentHasBorder}
+          withBorder={withBorder}
         />
       }
+      <ActiveItemUnderline
+        active={active}
+        inverted={inverted}
+        withBorder={withBorder}
+      />
     </Container>
 );
 
@@ -250,14 +311,7 @@ const ActionListItem = styled(({
   }
 
   return <ActionListItemCore {...rest} />;
-})`
-  ${props => props.active && props.parentHasBorder && !props.inverted && `
-    background-color: ${props.theme.font.colors.highlight};
-  `}
-  ${props => props.inverted && props.active && `
-    background-color: ${props.theme.colors.background.hslWhite};
-  `}
-`;
+})``;
 
 ActionListItemCore.propTypes = {
   type: PropTypes.oneOf(['button', 'link']), // Not available in native
@@ -268,8 +322,10 @@ ActionListItemCore.propTypes = {
   subtitle: PropTypes.string,
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
-  parentHasBorder: PropTypes.bool,
+  withBorder: PropTypes.bool,
   first: PropTypes.bool,
+  second: PropTypes.bool, // Native w/ rounded borders requires every border to have width
+  secondToLast: PropTypes.bool, // Hence we need to know second & secondToLast
   last: PropTypes.bool,
   inverted: PropTypes.bool,
 };

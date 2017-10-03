@@ -2,23 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
 import { ListView } from 'react-native';
-import View from '../View';
 import ActionListItem from './ActionListItem';
 
-// Container is needed for the border styles to work
-// – ListView doesn't seem to have support
-const Container = View.extend`
-  background-color: ${props => props.theme.colors.background.hslWhite};
-  ${props => props.inverted && `
-    background-color: ${props.theme.font.colors.highlight};
-  `}
-  ${props => props.withBorder && `
-    border-width: 1px;
-    border-style: solid;
-    border-color: ${props.inverted ? props.theme.colors.primary.hslWhite : props.theme.colors.primary.hslGreyLight};
-    border-radius: 6px;
-  `}
-`;
+const StyledListView = styled.ListView``;
 
 const ActionListNative = styled(({
   items,
@@ -27,30 +13,34 @@ const ActionListNative = styled(({
   arrowless,
   withBorder,
   ...rest,
-}) =>
-  (
-    <Container
+}) => {
+  const rowCount = items.getRowCount();
+  return (
+    <StyledListView
       inverted={inverted}
       withBorder={withBorder}
-    >
-      <ListView
-        dataSource={items}
-        renderRow={(rowData, sectionId, rowId) => (
+      dataSource={items}
+      renderRow={(rowData, sectionId, rowId) => {
+        const intRowId = parseInt(rowId, 10);
+        return (
           <ActionListItem
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            parentHasBorder={withBorder}
-            first={parseInt(rowId, 10) === 0}
-            last={parseInt(rowId, 10) === (items.getRowCount() - 1)}
+            withBorder={withBorder}
+            first={intRowId === 0}
+            second={intRowId === 1}
+            secondToLast={intRowId === (rowCount - 2)}
+            last={intRowId === (rowCount - 1)}
             {...rowData}
           />
-        )}
-        {...rest}
-      />
-    </Container>
-  )
-)``;
+        );
+      }
+    }
+      {...rest}
+    />
+  );
+})``;
 
 ActionListNative.displayName = 'ActionList';
 
