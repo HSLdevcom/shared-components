@@ -7,12 +7,21 @@ import { LabelText } from '../Typography';
 import { Activatable } from '../Wrapper';
 import { size, Responsive } from '../utils';
 
-const StyledLabelText = styled(({ small, ...rest }) => (
+const StyledLabelText = styled(({ fontSize, small, ...rest }) => (
   <LabelText {...rest} />
 ))`
   ${props => !props.small && `margin-top: ${size(16)};`}
   color: ${props => props.theme.colors.primary.hslWhite};
+  font-size: ${props => props.fontSize};
 `;
+
+const ResponsiveLabelText = ({ ...props }) => (
+  <Responsive
+    small={<StyledLabelText {...props} fontSize={size(20)} />}
+    medium={<StyledLabelText {...props} fontSize={size(16)} />}
+    xlarge={<StyledLabelText {...props} fontSize={size(18)} />}
+  />
+);
 
 const StyledView = View.extend`
   flex-direction: row;
@@ -45,7 +54,7 @@ const NavItem = ({
       { },
       (<Activatable active={active}>
         {!small && <Icon>{icon}</Icon>}
-        <StyledLabelText small={small}>{text}</StyledLabelText>
+        <ResponsiveLabelText small={small}>{text}</ResponsiveLabelText>
       </Activatable>)
     )}
   </StyledView>
