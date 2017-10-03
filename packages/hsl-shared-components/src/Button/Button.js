@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import View from '../View';
+import Text from '../Typography';
 import { size as utilsSize } from '../utils';
 
 const sizeMap = {
@@ -32,7 +33,70 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
-const TouchableView = styled(({
+const getTextColor = (props) => {
+  if (props.disabled) {
+    return props.theme.colors.primary.hslGreyLight;
+  }
+  if (props.primary) {
+    return props.theme.colors.background.hslWhite;
+  }
+  return props.theme.colors.primary.hslBlue;
+};
+
+const getBorderColor = (props, force = {}) => {
+  const disabled = props.disabled || force.disabled;
+  const hover = props.hover || force.hover;
+
+  if (disabled) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  if (props.primary && props.success && hover) {
+    return props.theme.colors.background.hslGreenDark;
+  }
+  if (props.primary && props.success) {
+    return props.theme.colors.background.hslGreen;
+  }
+  if (props.primary && hover) {
+    return props.theme.colors.primary.hslBlueDark;
+  }
+  if (props.primary) {
+    return props.theme.colors.background.hslBlue;
+  }
+  if (hover) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return props.theme.colors.primary.hslGreyLight;
+};
+
+const getBackgroundColor = (props, force = {}) => {
+  const disabled = props.disabled || force.disabled;
+  const hover = props.hover || force.hover;
+
+  if (props.transparent) {
+    return 'transparent';
+  }
+  if (disabled && props.primary) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  if (disabled) {
+    return props.theme.colors.background.hslWhite;
+  }
+  if (props.primary && props.success && hover) {
+    return props.theme.colors.primary.hslGreenDark;
+  }
+  if (props.primary && props.success) {
+    return props.theme.colors.primary.hslGreen;
+  }
+  if (props.primary && hover) {
+    return props.theme.colors.primary.hslBlueDark;
+  }
+  if (props.primary) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return props.theme.colors.background.hslWhite;
+};
+
+const Container = styled(({
   hover,
   active,
   focus,
@@ -48,7 +112,7 @@ const TouchableView = styled(({
   <View {...rest} />
 ))`
 
-  color: ${props => props.theme.colors.primary.hslGrey};
+  color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
@@ -62,52 +126,32 @@ const TouchableView = styled(({
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => props.theme.colors.primary.hslGreyLight};
-  background-color: ${props => props.theme.colors.background.hslWhite};
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
 
   ${props => props.primary && `
-    color: ${props.theme.colors.background.hslWhite};
     border-radius: ${utilsSize(40)};
-    border-color: ${props.theme.colors.primary.hslBlue};
-    background-color: ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => props.primary && props.success && `
-    border-color: ${props.theme.colors.primary.hslGreen};
-    background-color: ${props.theme.colors.primary.hslGreen};
-  `}
-  ${props => !props.primary && props.square && `
-    color: ${props.theme.colors.primary.hslBlue};
   `}
 
   &:hover {
-    ${props => !props.primary && !props.disabled && `
-        border-color:  ${props.theme.colors.primary.hslBlue};
-    `}
-    ${props => props.primary && !props.disabled && `
-        border-color:  ${props.theme.colors.primary.hslBlueDark};
-        background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
-    `}
+    border-color:  ${props => getBorderColor(props, { hover: true })};
+    background-color: ${props => getBackgroundColor(props, { hover: true })};
   }
+`;
 
-  ${props => (props.hover) && !props.primary && `
-      border-color:  ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => (props.hover) && props.primary && `
-      background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
-  `}
-
-  ${props => props.disabled && `
-    color: ${props.theme.colors.primary.hslGreyLight};
-    border-color: ${props.theme.colors.background.hslGreyXLight};
-    background-color: ${props.primary ? props.theme.colors.background.hslGreyXLight : props.theme.colors.background.hslWhite};
-  `}
-
-  ${props => props.transparent && `
-    background-color: transparent;
-  `}
+const StyledText = styled(({ ...rest }) =>
+  (<Text {...rest} />)
+)`
+  color: ${props => getTextColor(props)};
+  font-size: ${props => size('fontSize', props.primary, props.small)};
+  font-weight: 500;
+  text-align: center;
 `;
 
 const Button = styled(({
+  hover,
+  active,
+  focus,
   primary,
   success,
   secondary,
@@ -121,7 +165,10 @@ const Button = styled(({
   innerRef,
   children,
   ...rest }) => (
-    <TouchableView
+    <Container
+      hover={hover}
+      active={active}
+      focus={focus}
       primary={primary}
       success={success}
       secondary={secondary}
@@ -135,8 +182,21 @@ const Button = styled(({
       innerRef={innerRef}
       accessibilityRole="button"
     >
-      {children}
-    </TouchableView>
+      {React.isValidElement(children) && children}
+      {!React.isValidElement(children) &&
+        <StyledText
+          hover={hover}
+          active={active}
+          focus={focus}
+          primary={primary}
+          success={success}
+          secondary={secondary}
+          disabled={disabled}
+          small={small}
+        >
+          {children}
+        </StyledText>}
+    </Container>
 ))``;
 
 Button.propTypes = {
