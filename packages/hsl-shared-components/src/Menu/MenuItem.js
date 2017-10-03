@@ -11,8 +11,15 @@ import { Activatable } from '../Wrapper';
 const StyledLabelText = LabelText.extend`
   margin-left: ${size(8)};
   color: ${props => props.theme.colors.background.hslWhite}
-  font-size: ${size(16)};
+  font-size: ${props => props.fontSize};
 `;
+
+const ResponsiveLabelText = ({ ...props }) => (
+  <Responsive
+    small={<StyledLabelText {...props} fontSize={size(18)} />}
+    medium={<StyledLabelText {...props} fontSize={size(16)} />}
+  />
+);
 
 const StyledView = View.extend`
   align-items: stretch;
@@ -51,7 +58,7 @@ const MenuItem = ({
       (<Activatable active={active} small={small} >
         <Wrap>
           <Icon>{icon}</Icon>
-          { !small && <StyledLabelText>{text}</StyledLabelText> }
+          { !small && <ResponsiveLabelText>{text}</ResponsiveLabelText> }
         </Wrap>
       </Activatable>)
     )}
