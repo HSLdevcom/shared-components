@@ -1,32 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { CSSTransitionGroup } from 'react-transition-group';
+import omit from 'lodash/fp/omit';
 
 import NavDesktop from './NavDesktop';
-import NavMobile, { Height } from './NavMobile';
-import { MenuMobile, MenuSmall } from '../Menu';
-import Div from '../Div';
+import NavMobile from './NavMobile';
+import { MenuMobile } from '../Menu';
+import View from '../View';
+import { Responsive } from '../utils';
 
-const NavMobileSpace = Div.extend`
-  height: ${Height};
-`;
-
-const Header = styled.header`
-  ${NavMobile}, ${NavMobileSpace} {
-    display: none;
-  }
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.small`
-    ${NavMobile}, ${NavMobileSpace} {
-      display: block;
-    }
-    ${NavDesktop} {
-      display: none;
-    }
-    `
-  )}
+const Header = View.extend`
+  width: 100%;
+  align-items: stretch;
 `;
 
 class Nav extends React.Component {
@@ -99,69 +84,32 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <Header className={this.props.className}>
-        <CSSTransitionGroup
-          transitionName="scroll"
-          transitionEnterTimeout={350}
-          transitionLeaveTimeout={350}
-        >
-          { this.props.menu && this.state.desktopScrollNav && <NavDesktop
-            scroll
-            logo={this.props.logo}
-            menu={
-              this.props.menu &&
-              <MenuSmall {...this.props.menu.props}>
-                {React.Children.map(
-                  this.props.menu.props.children,
-                  child => React.cloneElement(child, { small: true })
-                  )
-                }
-              </MenuSmall>
-            }
-          >
-            {React.Children.map(
-              this.props.children,
-              child => React.cloneElement(child, { textPosition: 'Bottom', small: true })
-              )
-            }
-          </NavDesktop>
-        }
-        </CSSTransitionGroup>
-        <NavDesktop
-          navRef={(x) => { this.desktopNav = x; }}
-          logo={this.props.logo}
-          menu={this.props.menu}
-        >
-          {this.props.children}
-        </NavDesktop>
-        <NavMobileSpace />
-        <NavMobile
-          visible={this.state.mobileNavVisible}
-          logo={this.props.logo}
-          navRef={(x) => { this.mobileNav = x; }}
-          menu={this.props.menu &&
-            <MenuMobile {...this.props.menu.props}>
-              {React.Children.map(
-                this.props.menu.props.children,
-                child => React.cloneElement(child, { textPosition: 'Bottom' })
-                )
-              }
-            </MenuMobile>
-          }
-        >
-          {React.Children.map(
-            this.props.children,
-            child => React.cloneElement(child, { textPosition: 'Right' })
-            )
-          }
-        </NavMobile>
+      <Header
+        {...omit(this.props, ['logo', 'menu', 'children'])}
+        accessibilityRole="banner"
+      >
+        <Responsive
+          small={
+            <NavMobile
+              logo={this.props.logo}
+              menu={<MenuMobile {...this.props.menu.props} />}
+            >
+              {this.props.children}
+            </NavMobile>}
+          medium={
+            <NavDesktop
+              logo={this.props.logo}
+              menu={this.props.menu}
+            >
+              {this.props.children}
+            </NavDesktop>}
+        />
       </Header>
     );
   }
 }
 
 Nav.propTypes = {
-  className: PropTypes.string,
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
   children: PropTypes.node

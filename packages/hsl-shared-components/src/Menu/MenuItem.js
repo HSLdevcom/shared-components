@@ -11,6 +11,7 @@ import { Activatable } from '../Wrapper';
 const StyledLabelText = LabelText.extend`
   margin-left: ${size(8)};
   color: ${props => props.theme.colors.background.hslWhite}
+  font-size: ${size(16)};
 `;
 
 const StyledView = View.extend`

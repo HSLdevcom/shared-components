@@ -13,6 +13,7 @@ const StyledView = styled(({ scroll, ...rest }) => (
   background: ${props => props.theme.colors.primary.hslBlue};
   ${props => props.scroll && `padding-left: ${size(16)};`}
   align-items: stretch;
+  padding-horizontal: 2.5vw;
 `;
 
 const Logo = styled(({ children, scroll, ...rest }) => {
