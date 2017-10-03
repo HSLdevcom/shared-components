@@ -168,7 +168,7 @@ exports[`Storyshots Button default 1`] = `
           },
           Array [
             Object {
-              "color": "#888888",
+              "color": "#007ac9",
               "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,
@@ -413,7 +413,7 @@ exports[`Storyshots Button secondary 1`] = `
           },
           Array [
             Object {
-              "color": "#888888",
+              "color": "#007ac9",
               "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,

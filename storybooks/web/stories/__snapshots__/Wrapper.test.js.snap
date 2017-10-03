@@ -3,10 +3,10 @@
 exports[`Storyshots Wrapper Activatable 1`] = `
 <span>
   <div
-    className="sc-kTUwUJ grXLzB"
+    className="sc-dqBHgY iwFCrK"
   >
     <div
-      className="sc-dnqmqq hJxOZJ sc-gzVnrw dQxajS"
+      className="sc-iwsKbI iuVdIU sc-htoDjs jLeRxA"
     >
       <span>
         Active
@@ -14,10 +14,10 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kTUwUJ grXLzB"
+    className="sc-dqBHgY iwFCrK"
   >
     <div
-      className="sc-dnqmqq hJxOZJ sc-gzVnrw ipJtIw"
+      className="sc-iwsKbI iuVdIU sc-htoDjs dVGNcL"
     >
       <span>
         Inactive
@@ -25,30 +25,30 @@ exports[`Storyshots Wrapper Activatable 1`] = `
     </div>
   </div>
   <div
-    className="sc-kTUwUJ grXLzB"
+    className="sc-dqBHgY iwFCrK"
   >
     <div
-      className="sc-dnqmqq hJxOZJ sc-gzVnrw jwWkrT"
+      className="sc-iwsKbI iuVdIU sc-htoDjs cqkxjr"
     >
       <span>
         Active
       </span>
       <div
-        className="sc-htoDjs cKwQWF"
+        className="sc-dnqmqq imtKsh"
       />
     </div>
   </div>
   <div
-    className="sc-kTUwUJ grXLzB"
+    className="sc-dqBHgY iwFCrK"
   >
     <div
-      className="sc-dnqmqq hJxOZJ sc-gzVnrw jwWkrT"
+      className="sc-iwsKbI iuVdIU sc-htoDjs cqkxjr"
     >
       <span>
         Inactive
       </span>
       <div
-        className="sc-htoDjs kkWBJy"
+        className="sc-dnqmqq iWZKQX"
       />
     </div>
   </div>
@@ -57,10 +57,10 @@ exports[`Storyshots Wrapper Activatable 1`] = `
 
 exports[`Storyshots Wrapper Flex 1`] = `
 <div
-  className="sc-jtRfpW kJajQz"
+  className="sc-kTUwUJ erbLXI"
 >
   <div
-    className="sc-bZQynM hapFjT"
+    className="sc-gzVnrw cOJCMb"
   >
     <span>
       Span
