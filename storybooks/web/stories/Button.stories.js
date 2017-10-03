@@ -85,7 +85,6 @@ stories.addWithJSX('secondary', () => {
       transparent={transparent}
       secondary
       onPress={action('press')}
-      onLongPress={action('long press')}
     >
     Secondary Button
   </Button>);

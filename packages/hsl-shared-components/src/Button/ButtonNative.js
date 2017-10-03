@@ -5,6 +5,7 @@ import Text from '../Typography';
 import View from '../View';
 import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
+import { getTextColor, getBorderColor, getBackgroundColor } from './utils';
 
 const sizeMap = {
   fontSize: {
@@ -49,20 +50,11 @@ const TouchableText = styled(({
 }) => (
   <Text {...rest} />
 ))`
-  color: ${props => props.theme.colors.primary.hslGrey};
+  color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
   margin: 0 ${utilsSize(25, true)}px;
-  ${props => props.primary && `
-    color: ${props.theme.colors.primary.hslWhite};
-  `}
-  ${props => !props.primary && props.square && `
-    color: ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => props.disabled && `
-    color: ${props.theme.colors.primary.hslGreyLight};
-  `}
 `;
 
 const TouchableView = styled(({
@@ -83,30 +75,10 @@ const TouchableView = styled(({
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => props.theme.colors.primary.hslGreyLight};
-  background-color: ${props => props.theme.colors.background.hslWhite};
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
   ${props => props.primary && `
     border-radius: ${utilsSize(40)};
-    border-color: ${props.theme.colors.primary.hslBlue};
-    background-color: ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => props.primary && props.success && `
-    border-color: ${props.theme.colors.primary.hslGreen};
-    background-color: ${props.theme.colors.primary.hslGreen};
-  `}
-  ${props => (props.hover || props.active) && !props.primary && `
-      border-color:  ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => (props.hover || props.active) && props.primary && `
-      border-color:  ${props.theme.colors.primary.hslBlueDark};
-      background-color:  ${props.success ? props.theme.colors.primary.hslGreenDark : props.theme.colors.primary.hslBlueDark};
-  `}
-  ${props => props.disabled && `
-    border-color: ${props.theme.colors.background.hslGreyXLight};
-    background-color: ${props.primary ? props.theme.colors.background.hslGreyXLight : props.theme.colors.background.hslWhite};
-  `}
-  ${props => props.transparent && `
-    background-color: transparent;
   `}
 `;
 

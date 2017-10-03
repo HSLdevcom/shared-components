@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import View from '../View';
 import Text from '../Typography';
 import { size as utilsSize } from '../utils';
+import { getTextColor, getBorderColor, getBackgroundColor } from './utils';
 
 const sizeMap = {
   fontSize: {
@@ -32,69 +33,6 @@ function size(kind, primary, small) {
   const map = primary ? sizeMap[kind].primary : sizeMap[kind].default;
   return small ? map.small : map.default;
 }
-
-const getTextColor = (props) => {
-  if (props.disabled) {
-    return props.theme.colors.primary.hslGreyLight;
-  }
-  if (props.primary) {
-    return props.theme.colors.background.hslWhite;
-  }
-  return props.theme.colors.primary.hslBlue;
-};
-
-const getBorderColor = (props, force = {}) => {
-  const disabled = props.disabled || force.disabled;
-  const hover = props.hover || force.hover;
-
-  if (disabled) {
-    return props.theme.colors.background.hslGreyXLight;
-  }
-  if (props.primary && props.success && hover) {
-    return props.theme.colors.background.hslGreenDark;
-  }
-  if (props.primary && props.success) {
-    return props.theme.colors.background.hslGreen;
-  }
-  if (props.primary && hover) {
-    return props.theme.colors.primary.hslBlueDark;
-  }
-  if (props.primary) {
-    return props.theme.colors.background.hslBlue;
-  }
-  if (hover) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  return props.theme.colors.primary.hslGreyLight;
-};
-
-const getBackgroundColor = (props, force = {}) => {
-  const disabled = props.disabled || force.disabled;
-  const hover = props.hover || force.hover;
-
-  if (props.transparent) {
-    return 'transparent';
-  }
-  if (disabled && props.primary) {
-    return props.theme.colors.background.hslGreyXLight;
-  }
-  if (disabled) {
-    return props.theme.colors.background.hslWhite;
-  }
-  if (props.primary && props.success && hover) {
-    return props.theme.colors.primary.hslGreenDark;
-  }
-  if (props.primary && props.success) {
-    return props.theme.colors.primary.hslGreen;
-  }
-  if (props.primary && hover) {
-    return props.theme.colors.primary.hslBlueDark;
-  }
-  if (props.primary) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  return props.theme.colors.background.hslWhite;
-};
 
 const Container = styled(({
   hover,
