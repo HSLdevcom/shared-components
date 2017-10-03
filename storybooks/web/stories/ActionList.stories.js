@@ -67,8 +67,6 @@ stories.addWithJSX('with borders', () => {
   return (
     <div
       style={{
-        height: '100vh',
-        width: '100vw',
         padding: '10px',
       }}
     >
@@ -91,9 +89,8 @@ stories.addWithJSX('inverted and centered', () => {
   return (
     <div
       style={{
-        height: '100vh',
-        width: '100vw',
         padding: '10px',
+        height: '100vh',
         backgroundColor: '#007ac9',
       }}
     >
