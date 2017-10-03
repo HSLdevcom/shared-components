@@ -65,6 +65,19 @@ stories.addWithJSX('ArrowLeft', () => {
   return (<Icons.ArrowLeft fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('ArrowRight', () => {
+  const fill = color('Fill', '#007ac9');
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.ArrowRight fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('CardOrder', () => {
   const fill = {
     inner: color('FillInner', '#888'),

@@ -37,6 +37,11 @@ storiesOf('Icons', module)
     return (<Icons.ArrowLeft fill={fill} height="200" width="200" />);
   }, { displayName: 'ArrowLeft' })
 
+  .add('ArrowRight', () => {
+    const fill = color('Fill', '#007ac9');
+    return (<Icons.ArrowRight fill={fill} height="200" width="200" />);
+  }, { displayName: 'ArrowRight' })
+
   .add('CardOrder', () => {
     const fill = {
       inner: color('FillInner', '#888'),
