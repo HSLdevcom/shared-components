@@ -1,17 +1,27 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 
 import { Breadcrumbs } from 'hsl-shared-components';
 
-
 setAddon(JSXAddon);
+
+const items = [
+  {
+    title: 'Asiakaspalvelu',
+  },
+  {
+    title: 'Liput ja hinnat',
+  },
+  {
+    title: 'Kertalippu',
+  },
+];
 
 const stories = storiesOf('Breadcrumbs', module);
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX('default', () => {
-  const content = text('Content', 'Some content');
-  return (<Breadcrumbs />);
+  return (<Breadcrumbs items={items} />);
 });
