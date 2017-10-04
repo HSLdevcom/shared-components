@@ -2,58 +2,58 @@
 
 exports[`Storyshots List default 1`] = `
 <div
-  className="sc-iRbamj blSEcj sc-gPEVay bDfTgG"
+  className="sc-jlyJG bbyJzT sc-iRbamj hgdlPH"
 >
   <div
-    className="sc-jDwBTQ dWtMUn"
+    className="sc-gPEVay eQYmiW"
   >
     Header
   </div>
   <ul
-    className="sc-jAaTju fNCBho"
+    className="sc-jDwBTQ dWtMUn"
   >
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       short text
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       short text
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
     <li
-      className="sc-jlyJG bPKPxA"
+      className="sc-gipzik fdpXvu"
     >
       looong teexttt ttttttttttttttttt
     </li>
