@@ -1,3 +1,4 @@
+import ActionBarNative, { ActionBarItem } from '../ActionBar';
 import ActionListNative, { ActionListItem } from '../ActionList';
 import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from '../Typography';
 import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
@@ -16,6 +17,8 @@ import TextInput from '../TextInput';
 import Theme from '../Theme';
 
 export {
+  ActionBarNative as ActionBar,
+  ActionBarItem,
   ActionListNative as ActionList,
   ActionListItem,
   Text,

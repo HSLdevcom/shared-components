@@ -1,3 +1,4 @@
+import ActionBar, { ActionBarItem } from './ActionBar';
 import ActionList, { ActionListItem } from './ActionList';
 import AppHeader from './AppHeader/AppHeader';
 import Button, { RoundButton, ButtonWithText } from './Button';
@@ -30,8 +31,9 @@ import { ResponsiveProvider } from './utils';
 import Checkbox from './Checkbox';
 import Theme from './Theme';
 
-
 export {
+  ActionBar,
+  ActionBarItem,
   AppHeader,
   ActionList,
   ActionListItem,
