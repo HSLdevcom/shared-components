@@ -1,6 +1,7 @@
 import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from '../Typography';
 import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
 import { Tabs, Tab } from '../Tabs';
+import BreadcrumbsNative, { BreadcrumbItem } from '../Breadcrumbs';
 import Button, { RoundButton, ButtonWithText } from '../Button';
 import Touchable from '../Touchable';
 import View from '../View';
@@ -15,6 +16,8 @@ import TextInput from '../TextInput';
 import Theme from '../Theme';
 
 export {
+  BreadcrumbsNative as Breadcrumbs,
+  BreadcrumbItem,
   Text,
   H1,
   H2,

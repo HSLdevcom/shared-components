@@ -1,58 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
-import { withTheme } from 'styled-components';
-import View from '../View';
-import { P } from '../Typography';
-import ArrowLeft from '../Icons/ArrowLeft';
-import { size } from '../utils';
+import styled from 'styled-components';
+import BreadcrumbItem from './BreadcrumbItem';
 
-const Container = View.extend`
+const List = styled.ul`
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 `;
 
-const ItemContainer = View.extend`
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-right: ${size(10)};
+const ListItem = styled.li`
+  cursor: pointer;
 `;
 
-const Title = P.extend`
-  margin-right: ${size(10)};
-  font-size: ${size(14)};
-  color: ${props => props.theme.font.colors.highlight};
-`;
-
-const ArrowIcon = withTheme(styled(({ theme }) =>
-  <ArrowLeft height="10px" width="10px" fill={theme.colors.primary.hslBlue} />
-)``);
-
-const Item = styled(({ title, ...rest }) => {
-  return (
-    <ItemContainer>
-      <Title {...rest}>
-        {title}
-      </Title>
-      <ArrowIcon />
-    </ItemContainer>
-  );
-})``;
-
-const Breadcrumbs = styled(({ items, ...rest}) => {
-  return (
-    <Container {...rest}>
+const Breadcrumbs = styled(({ items, ...rest }) =>
+  (
+    <List {...rest}>
       {items.map((item, index) =>
-        <Item key={index} {...item} />
+        <ListItem key={/* eslint-disable react/no-array-index-key */ index}>
+          <BreadcrumbItem {...item} />
+        </ListItem>
       )}
-    </Container>
-  );
-})``;
+    </List>
+  )
+)``;
 
 Breadcrumbs.PropTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string,
-  }))
+  items: PropTypes.arrayOf(PropTypes.shape(BreadcrumbItem.propTypes))
 };
 
 Breadcrumbs.displayName = 'Breadcrumbs';

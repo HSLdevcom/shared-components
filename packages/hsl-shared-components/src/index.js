@@ -1,5 +1,5 @@
 import AppHeader from './AppHeader/AppHeader';
-import Breadcrumbs from './Breadcrumbs';
+import Breadcrumbs, { BreadcrumbItem } from './Breadcrumbs';
 import Button, { RoundButton, ButtonWithText } from './Button';
 import TextInput from './TextInput';
 import Nav, { NavItem, NavMobile, NavDesktop } from './Nav';
@@ -34,6 +34,7 @@ import Theme from './Theme';
 export {
   AppHeader,
   Breadcrumbs,
+  BreadcrumbItem,
   Button,
   RoundButton,
   ButtonWithText,

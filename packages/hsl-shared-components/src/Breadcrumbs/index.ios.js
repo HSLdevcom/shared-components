@@ -1,4 +1,4 @@
-import Breadcrumbs from './Breadcrumbs';
+import Breadcrumbs from './BreadcrumbsNative';
 import BreadcrumbItem from './BreadcrumbItem';
 
 export {
