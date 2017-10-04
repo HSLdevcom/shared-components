@@ -1,3 +1,4 @@
+import ActionListNative, { ActionListItem } from '../ActionList';
 import Text, { H1, H2, H3, H4, H5, P, Quote, Ingress, Caption, InfoText, ErrorText, ListText } from '../Typography';
 import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
 import { Tabs, Tab } from '../Tabs';
@@ -16,6 +17,8 @@ import LangSelect, { LangSelectSmall, LangButton } from '../LangSelect';
 import Theme from '../Theme';
 
 export {
+  ActionListNative as ActionList,
+  ActionListItem,
   Text,
   H1,
   H2,
