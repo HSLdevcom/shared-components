@@ -117,6 +117,7 @@ storiesOf('ActionList', module)
   .add('ActionListItem', () => {
     const title = text('Title', 'Ruskeasuon varikko');
     const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
+    const description = text('Description', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.');
     const prefix = text('Prefix', '36');
     const active = boolean('Active', false);
     const centered = boolean('Centered', false);
@@ -129,6 +130,7 @@ storiesOf('ActionList', module)
       <ActionListItem
         title={title}
         subtitle={subtitle}
+        description={description}
         prefix={prefix}
         active={active}
         centered={centered}
