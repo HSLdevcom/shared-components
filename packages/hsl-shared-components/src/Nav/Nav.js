@@ -38,8 +38,10 @@ class Nav extends React.Component {
     this.lastScrollValue = 0;
     this.ticking = false;
     this.navHeight = 0;
+    this.scrollHeight = 0;
     this.onScroll = this.onScroll.bind(this);
-    this.onLayout = this.onLayout.bind(this);
+    this.onLayoutDesktop = this.onLayoutDesktop.bind(this);
+    this.onLayoutScroll = this.onLayoutScroll.bind(this);
   }
   componentDidMount() {
     if (!IS_NATIVE) {
@@ -67,8 +69,12 @@ class Nav extends React.Component {
     }
   }
 
-  onLayout(e) {
+  onLayoutDesktop(e) {
     this.navHeight = e.nativeEvent.layout.height;
+  }
+
+  onLayoutScroll(e) {
+    this.scrollHeight = e.nativeEvent.layout.height;
   }
 
   onScrollDesktop(scrollY) {
@@ -87,7 +93,7 @@ class Nav extends React.Component {
     // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
     if ((scrolledPastBoundary && scrollingUp) && !this.state.desktopScrollNav) {
       this.setState({ desktopScrollNav: true }, () => {
-        Animated.timing(this.state.anim, { toValue: 64, duration: 150 }).start();
+        Animated.timing(this.state.anim, { toValue: this.scrollHeight, duration: 150 }).start();
       });
       return;
     }
@@ -132,7 +138,7 @@ class Nav extends React.Component {
             <NavDesktop
               logo={this.props.logo}
               menu={this.props.menu}
-              onLayout={this.onLayout}
+              onLayout={this.onLayoutDesktop}
             >
               {this.props.children}
             </NavDesktop>}
@@ -145,6 +151,7 @@ class Nav extends React.Component {
                 <NavDesktop
                   logo={this.props.logo}
                   menu={<MenuSmall {...this.props.menu.props} />}
+                  onLayout={this.onLayoutScroll}
                   scroll
                 >
                   {this.props.children}
