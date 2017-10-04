@@ -14,6 +14,7 @@ import { ResponsiveProvider } from '../utils';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
 import Theme from '../Theme';
+import Teaser from '../Teaser';
 
 export {
   ActionListNative as ActionList,
@@ -39,6 +40,7 @@ export {
   Touchable,
   Tabs,
   Tab,
+  Teaser,
   View,
   Icons,
   Footer,
