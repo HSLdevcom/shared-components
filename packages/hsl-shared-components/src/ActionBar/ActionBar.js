@@ -4,12 +4,17 @@ import styled from 'styled-components';
 
 import ActionBarItem from './ActionBarItem';
 
+const ListItem = styled.li`
+  display: flex;
+  flex: 1;
+`;
+
 const ActionBar = styled(({ items, inverted, ...rest }) =>
   (
     <ul {...rest}>
       {items.map((item, index) =>
         (
-          <li style={{ display: 'flex', flex: '1' }}>
+          <ListItem>
             <ActionBarItem
               key={/* eslint-disable react/no-array-index-key */index}
               inverted={inverted}
@@ -17,7 +22,7 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
               last={index === (items.length - 1)}
               {...item}
             />
-          </li>
+          </ListItem>
         )
       )}
     </ul>
