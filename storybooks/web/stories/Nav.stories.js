@@ -6,8 +6,8 @@ import JSXAddon from 'storybook-addon-jsx';
 
 import { Menu, MenuSmall, MenuMobile, MenuItem,
          Nav, NavMobile, NavDesktop, NavItem,
-         DropdownMenu, IconWithText,
-         Div, Span, List, ListItem,
+         // DropdownMenu, IconWithText, List, ListItem,
+         Div, Span,
          Icons,
          A } from 'hsl-shared-components';
 
@@ -19,50 +19,50 @@ const StyledA = A.extend`
   display: flex;
 `;
 
-const cog = <Icons.Cog height="3.5rem" width="3.5rem" fill="#ffffff" />;
-const DropdownContent = [
-  <List header="Liikkumisen palveluita" key="1">
-    <ListItem><A href="/test">Kaupunkipyörät</A></ListItem>
-    <ListItem><A href="/test">Pyöräparkki</A></ListItem>
-    <ListItem><A href="/test">Liityntäpysäköinti</A></ListItem>
-    <ListItem><A href="/test">Lähibussit</A></ListItem>
-    <ListItem><A href="/test">Pikaratikka</A></ListItem>
-  </List>,
-  <List header="Tietoa HSL:stä" key="2">
-    <ListItem><A href="/test">Päätöksenteko</A></ListItem>
-    <ListItem><A href="/test">Strategia</A></ListItem>
-    <ListItem><A href="/test">Talous</A></ListItem>
-    <ListItem><A href="/test">Hankinnat</A></ListItem>
-    <ListItem><A href="/test">Julkaisut</A></ListItem>
-    <ListItem><A href="/test">HSL työpaikkana ja avoimet työpaikat</A></ListItem>
-    <ListItem><A href="/test">Viestintä</A></ListItem>
-  </List>,
-  <div key="3">
-    <IconWithText
-      icon={cog}
-      text="Yrityksille"
-    />
-    <IconWithText
-      icon={cog}
-      text="Oppilaitoksille"
-    />
-    <IconWithText
-      icon={cog}
-      text="Asiakasedut"
-    />
-    <IconWithText
-      icon={cog}
-      text="Osta HSL-fanituotteita"
-    />
-  </div>
-];
-const Dropdown = (
-  <DropdownMenu
-    text="Lisää"
-  >
-    { DropdownContent }
-  </DropdownMenu>
-);
+// const cog = <Icons.Cog height="3.5rem" width="3.5rem" fill="#ffffff" />;
+// const DropdownContent = [
+//   <List header="Liikkumisen palveluita" key="1">
+//     <ListItem><A href="/test">Kaupunkipyörät</A></ListItem>
+//     <ListItem><A href="/test">Pyöräparkki</A></ListItem>
+//     <ListItem><A href="/test">Liityntäpysäköinti</A></ListItem>
+//     <ListItem><A href="/test">Lähibussit</A></ListItem>
+//     <ListItem><A href="/test">Pikaratikka</A></ListItem>
+//   </List>,
+//   <List header="Tietoa HSL:stä" key="2">
+//     <ListItem><A href="/test">Päätöksenteko</A></ListItem>
+//     <ListItem><A href="/test">Strategia</A></ListItem>
+//     <ListItem><A href="/test">Talous</A></ListItem>
+//     <ListItem><A href="/test">Hankinnat</A></ListItem>
+//     <ListItem><A href="/test">Julkaisut</A></ListItem>
+//     <ListItem><A href="/test">HSL työpaikkana ja avoimet työpaikat</A></ListItem>
+//     <ListItem><A href="/test">Viestintä</A></ListItem>
+//   </List>,
+//   <div key="3">
+//     <IconWithText
+//       icon={cog}
+//       text="Yrityksille"
+//     />
+//     <IconWithText
+//       icon={cog}
+//       text="Oppilaitoksille"
+//     />
+//     <IconWithText
+//       icon={cog}
+//       text="Asiakasedut"
+//     />
+//     <IconWithText
+//       icon={cog}
+//       text="Osta HSL-fanituotteita"
+//     />
+//   </div>
+// ];
+// const Dropdown = (
+//   <DropdownMenu
+//     text="Lisää"
+//   >
+//     { DropdownContent }
+//   </DropdownMenu>
+// );
 
 const longArr = [];
 let i = 0;
@@ -130,7 +130,7 @@ stories.addWithJSX('default', () => {
           text={icon[1]}
         />)
      )}
-      { Dropdown }
+      { /* Dropdown */ }
     </Nav>
     {
       longArr.map(ix => <p key={`k ${ix}`}>{ix}</p>)

@@ -73,7 +73,7 @@ const Menu = ({
 
 
 Menu.propTypes = {
-  small: PropTypes.boolean,
+  small: PropTypes.bool,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.oneOfType([
       PropTypes.string,

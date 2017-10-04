@@ -51,7 +51,7 @@ const MenuItem = ({
   small,
   ...rest
 }) => (
-  <StyledView small={small} {...rest}>
+  <StyledView {...rest}>
     {React.cloneElement(
       link,
       {},
