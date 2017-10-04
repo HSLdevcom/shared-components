@@ -92,7 +92,7 @@ exports[`Storyshots Menu default 1`] = `
       small={true}
     >
       <a
-        className="sc-cHGsZl lcdgWP"
+        className="sc-gisBJw cgMHTW"
         href="/test"
       >
         <div
@@ -133,7 +133,7 @@ exports[`Storyshots Menu default 1`] = `
       small={true}
     >
       <a
-        className="sc-cHGsZl lcdgWP"
+        className="sc-gisBJw cgMHTW"
         href="/test"
       >
         <div
@@ -182,14 +182,14 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-cJSrbW jgNgZi"
+  className="sc-TOsTZ hwPfFF"
 >
   <div
     className="rn-alignItems-1oszu61 rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     small={false}
   >
     <a
-      className="sc-kgoBCf iiRAas"
+      className="sc-kAzzGY fvbuby"
       href="/test"
     >
       <div
@@ -219,8 +219,9 @@ exports[`Storyshots Menu menu item 1`] = `
             </g>
           </svg>
           <div
-            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
             dir="auto"
+            fontSize="1rem"
           >
             Reittiopas
           </div>
@@ -243,7 +244,7 @@ exports[`Storyshots Menu minimal 1`] = `
       small={true}
     >
       <a
-        className="sc-TOsTZ hBdfue"
+        className="sc-kjoXOD feGlpN"
         href="/test"
       >
         <div
@@ -288,7 +289,7 @@ exports[`Storyshots Menu minimal 1`] = `
       small={true}
     >
       <a
-        className="sc-TOsTZ hBdfue"
+        className="sc-kjoXOD feGlpN"
         href="/test"
       >
         <div
@@ -574,7 +575,7 @@ exports[`Storyshots Menu mobile 1`] = `
       small={undefined}
     >
       <a
-        className="sc-kgAjT cCOIMI"
+        className="sc-cHGsZl lcdgWP"
         href="/test"
       >
         <div
@@ -601,8 +602,9 @@ exports[`Storyshots Menu mobile 1`] = `
               />
             </svg>
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
+              fontSize="1rem"
             >
               Matkakortti
             </div>
@@ -615,7 +617,7 @@ exports[`Storyshots Menu mobile 1`] = `
       small={undefined}
     >
       <a
-        className="sc-kgAjT cCOIMI"
+        className="sc-cHGsZl lcdgWP"
         href="/test"
       >
         <div
@@ -649,8 +651,9 @@ exports[`Storyshots Menu mobile 1`] = `
               </g>
             </svg>
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-cygvgh rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
               dir="auto"
+              fontSize="1rem"
             >
               Kirjaudu
             </div>
