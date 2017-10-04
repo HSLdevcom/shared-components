@@ -2,6 +2,7 @@ import AddCard from './AddCard';
 import Alert from './Alert';
 import ArrowDown from './ArrowDown';
 import ArrowLeft from './ArrowLeft';
+import ArrowRight from './ArrowRight';
 import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
@@ -36,6 +37,7 @@ export default {
   Alert,
   ArrowDown,
   ArrowLeft,
+  ArrowRight,
   CardOrder,
   CardWithCheckmark,
   Checkmark,

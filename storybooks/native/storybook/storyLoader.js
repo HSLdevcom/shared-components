@@ -6,6 +6,7 @@
 
 function loadStories() {
   
+  require('../stories/ActionList.stories.js');
   require('../stories/Article.stories.js');
   require('../stories/Breadcrumbs.stories.js');
   require('../stories/Button.stories.js');

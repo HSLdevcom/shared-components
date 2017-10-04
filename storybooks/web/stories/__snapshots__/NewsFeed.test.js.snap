@@ -2,186 +2,186 @@
 
 exports[`Storyshots NewsFeed default 1`] = `
 <div
-  className="sc-gGBfsJ eaQlFN sc-bbmXgH glFbMi"
+  className="sc-fYxtnH hSLfWw sc-jnlKLf gSdJhs"
 >
   <ul
-    className="sc-uJMKN jsQhVl"
+    className="sc-gGBfsJ eaQlFN"
   >
     <li
-      className="sc-hEsumM epeevU sc-tilXH hpjpFV"
+      className="sc-cIShpX krSiat sc-ktHwxA icWuDU"
     >
       <div
-        className="text-container sc-fYxtnH hSLfWw"
+        className="text-container sc-hEsumM epeevU"
       >
         <span
-          className="top sc-EHOje jvzENE"
+          className="top sc-gzVnrw ibZhkv"
         >
           <span
-            className="category sc-EHOje jvzENE"
+            className="category sc-gzVnrw ibZhkv"
           >
             Talviaikataulut
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
              — 
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-EHOje jvzENE"
+          className="bottom sc-gzVnrw ibZhkv"
         >
           HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jnlKLf jKMWma"
+        className="sc-tilXH jMVAVb"
         src="https://placehold.it/125x521"
       />
     </li>
     <li
-      className="sc-hEsumM epeevU sc-tilXH hpjpFV"
+      className="sc-cIShpX krSiat sc-ktHwxA icWuDU"
     >
       <div
-        className="text-container sc-fYxtnH hSLfWw"
+        className="text-container sc-hEsumM epeevU"
       >
         <span
-          className="top sc-EHOje jvzENE"
+          className="top sc-gzVnrw ibZhkv"
         >
           <span
-            className="category sc-EHOje jvzENE"
+            className="category sc-gzVnrw ibZhkv"
           >
             Uusi linja
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
              — 
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-EHOje jvzENE"
+          className="bottom sc-gzVnrw ibZhkv"
         >
           Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jnlKLf jKMWma"
+        className="sc-tilXH jMVAVb"
         src="https://placehold.it/521x125"
       />
     </li>
     <li
-      className="sc-hEsumM epeevU sc-tilXH hpjpFV"
+      className="sc-cIShpX krSiat sc-ktHwxA icWuDU"
     >
       <div
-        className="text-container sc-fYxtnH hSLfWw"
+        className="text-container sc-hEsumM epeevU"
       >
         <span
-          className="top sc-EHOje jvzENE"
+          className="top sc-gzVnrw ibZhkv"
         >
           <span
-            className="category sc-EHOje jvzENE"
+            className="category sc-gzVnrw ibZhkv"
           >
             Talviaikataulut
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
              — 
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
             Today at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-EHOje jvzENE"
+          className="bottom sc-gzVnrw ibZhkv"
         >
           HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jnlKLf jKMWma"
+        className="sc-tilXH jMVAVb"
         src="https://placehold.it/500x500"
       />
     </li>
     <li
-      className="sc-hEsumM epeevU sc-tilXH hpjpFV"
+      className="sc-cIShpX krSiat sc-ktHwxA icWuDU"
     >
       <div
-        className="text-container sc-fYxtnH hSLfWw"
+        className="text-container sc-hEsumM epeevU"
       >
         <span
-          className="top sc-EHOje jvzENE"
+          className="top sc-gzVnrw ibZhkv"
         >
           <span
-            className="category sc-EHOje jvzENE"
+            className="category sc-gzVnrw ibZhkv"
           >
             Uusi linja
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
              — 
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-EHOje jvzENE"
+          className="bottom sc-gzVnrw ibZhkv"
         >
           Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
         </span>
       </div>
       <img
         alt="news image"
-        className="sc-jnlKLf jKMWma"
+        className="sc-tilXH jMVAVb"
         src="https://placehold.it/50x50"
       />
     </li>
     <li
-      className="sc-hEsumM epeevU sc-tilXH hpjpFV"
+      className="sc-cIShpX krSiat sc-ktHwxA icWuDU"
     >
       <div
-        className="text-container sc-fYxtnH hSLfWw"
+        className="text-container sc-hEsumM epeevU"
       >
         <span
-          className="top sc-EHOje jvzENE"
+          className="top sc-gzVnrw ibZhkv"
         >
           <span
-            className="category sc-EHOje jvzENE"
+            className="category sc-gzVnrw ibZhkv"
           >
             Talviaikataulut
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
              — 
           </span>
           <span
-            className="sc-EHOje jvzENE"
+            className="sc-gzVnrw ibZhkv"
           >
             Yesterday at 2:00 PM
           </span>
         </span>
         <span
-          className="bottom sc-EHOje jvzENE"
+          className="bottom sc-gzVnrw ibZhkv"
         >
           HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
         </span>

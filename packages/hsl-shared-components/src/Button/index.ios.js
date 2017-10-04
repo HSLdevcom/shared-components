@@ -4,7 +4,7 @@ import ButtonWithText from './ButtonWithText';
 
 export {
   RoundButton,
-  ButtonWithText
+  ButtonWithText,
 };
 
 export default Button;

@@ -37,7 +37,7 @@ stories.addWithJSX('default', () => {
       onPress={action('press')}
       onLongPress={action('long press')}
     >
-      Default Button
+      <span>Default Button</span>
     </Button>);
 }
 , { displayName: 'Button' });
@@ -85,7 +85,6 @@ stories.addWithJSX('secondary', () => {
       transparent={transparent}
       secondary
       onPress={action('press')}
-      onLongPress={action('long press')}
     >
     Secondary Button
   </Button>);
