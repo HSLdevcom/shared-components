@@ -21,7 +21,7 @@ const getTextColor = (active, inverted, theme) => {
 };
 
 const getIconColor = (active, inverted, theme, override) => {
-  if (override && !active) {
+  if (override) {
     return override;
   }
   if (inverted && !active) {
