@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { Platform } from 'react-primitives';
 import { withTheme } from 'styled-components';
 import View from '../View';
 import { P } from '../Typography';
-import ArrowLeft from '../Icons/ArrowLeft';
+import ArrowRight from '../Icons/ArrowRight';
 import { size } from '../utils';
 
 const ItemContainer = View.extend`
@@ -19,9 +20,13 @@ const Title = P.extend`
   color: ${props => props.theme.font.colors.highlight};
 `;
 
-const ArrowIcon = withTheme(styled(({ theme }) =>
-  <ArrowLeft height={size(15)} width={size(10)} fill={theme.colors.primary.hslBlue} />
-)``);
+const IconContainer = View.extend`
+  ${Platform.OS === 'android' && `margin-top: ${size(7)};`}
+`;
+
+const ArrowIcon = withTheme(({ theme }) =>
+  <ArrowRight height={size(10)} width={size(10)} fill={theme.colors.primary.hslBlue} />
+);
 
 const BreadcrumbItem = styled(({ title, type, href, onClick, ...rest }) =>
   (
@@ -34,7 +39,9 @@ const BreadcrumbItem = styled(({ title, type, href, onClick, ...rest }) =>
       <Title>
         {title}
       </Title>
-      <ArrowIcon />
+      <IconContainer>
+        <ArrowIcon />
+      </IconContainer>
     </ItemContainer>
   )
 )``;
