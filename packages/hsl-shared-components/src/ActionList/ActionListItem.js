@@ -216,6 +216,7 @@ const Description = styled(({
   ${props => props.centered && `
     align-self: center;
     text-align: center;
+    padding-right: 0px;
   `}
 
 `;
