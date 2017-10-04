@@ -29,6 +29,7 @@ import Section from './Section';
 import { ResponsiveProvider } from './utils';
 import Checkbox from './Checkbox';
 import Theme from './Theme';
+import Teaser from './Teaser';
 
 
 export {
@@ -67,6 +68,7 @@ export {
   UltraWideContainer,
   Tab,
   Tabs,
+  Teaser,
   Text,
   H1,
   H2,
