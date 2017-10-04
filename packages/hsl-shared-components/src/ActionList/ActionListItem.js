@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { Platform } from 'react-primitives';
 import { withTheme } from 'styled-components';
 import View from '../View';
 import { H3, H4, P } from '../Typography';
@@ -34,7 +35,7 @@ const getBorderColor = (props) => {
   if (props.active) {
     return props.theme.colors.primary.hslBlue;
   }
-  return 'transparent';
+  return props.theme.colors.primary.hslGreyLight;
 };
 
 const getBackgroundColor = (props) => {
@@ -75,20 +76,24 @@ const Container = styled(({
   border-color: ${props => getBorderColor(props)};
   background-color: ${props => getBackgroundColor(props)};
 
+  ${props => !props.active && `
+    border-bottom-width: 1px;
+  `}
+
   ${props => props.withBorder && `
     border-top-width: 0px;
     border-right-width: 1px;
-    border-bottom-width: 1px;
     border-left-width: 1px;
   `}
 
   ${props => props.withBorder && props.first && `
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    border-top-width: 1px;
     border-width: 1px;
   `}
 
-  ${props => props.withBorder && props.secondToLast && `
+  ${props => Platform.OS === 'android' && props.withBorder && props.secondToLast && `
     border-bottom-width: 0px;
   `}
 
@@ -200,6 +205,7 @@ const ActiveItemUnderline = styled(({
   position: absolute;
   height: 3px;
   bottom: 0;
+  left: 0;
   width: 200%;
   ${props => props.active && !props.inverted && !props.withBorder && `
     background-color: ${props.theme.colors.primary.hslBlue};

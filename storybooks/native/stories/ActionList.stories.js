@@ -12,11 +12,11 @@ const items = [
   {
     title: 'Yleistä kertalipusta (active)',
     icon: null,
-    active: true,
   },
   {
     title: 'Mobiililippu',
     icon: <Icons.JourneyPlanner />,
+    active: true,
   },
   {
     prefix: '37',
