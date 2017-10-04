@@ -121,6 +121,9 @@ const TitleAndIconContainer = styled(({
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  ${props => props.centered && `
+    justify-content: center;
+  `}
   width: 100%;
 `;
 
@@ -200,14 +203,21 @@ const Subtitle = styled(({
 const Description = styled(({
   active,
   inverted,
+  centered,
   withBorder,
   ...rest,
 }) =>
   <P {...rest} />
 )`
   margin-top: ${size(15)};
-  margin-right: ${size(20)};
+  padding-right: ${size(20)};
+  width: 100%;
   color: ${props => getTextColor(props, true)};
+  ${props => props.centered && `
+    align-self: center;
+    text-align: center;
+  `}
+
 `;
 
 const ArrowIcon = withTheme(({
@@ -278,6 +288,7 @@ const ActionListItemCore = ({
       <TitleAndIconContainer
         active={active}
         inverted={inverted}
+        centered={centered}
         withBorder={withBorder}
       >
         {!!icon &&
@@ -332,6 +343,7 @@ const ActionListItemCore = ({
         <Description
           active={active}
           inverted={inverted}
+          centered={centered}
           withBorder={withBorder}
         >
           {description}
