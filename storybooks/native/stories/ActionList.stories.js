@@ -29,6 +29,12 @@ const items = [
     icon: <Icons.Tickets />,
   },
   {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+  {
     title: 'Tekstiviestilippu',
     icon: null,
   },

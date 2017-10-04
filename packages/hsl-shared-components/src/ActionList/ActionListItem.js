@@ -9,7 +9,7 @@ import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 
-const getTextColor = (props) => {
+const getTextColor = (props, secondary = false) => {
   if (props.inverted && props.active) {
     return props.theme.font.colors.highlight;
   }
@@ -18,6 +18,9 @@ const getTextColor = (props) => {
   }
   if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslWhite;
+  }
+  if (secondary) {
+    return props.theme.font.colors.default;
   }
   return props.theme.font.colors.highlight;
 };
@@ -64,14 +67,16 @@ const Container = styled(({
 }) =>
   <View {...rest} />
 )`
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
+
   ${props => props.centered && `
     justify-content: center;
   `}
   position: relative;
   padding-horizontal: ${size(18)};
+  padding-vertical: ${size(18)};
   border-style: solid;
   border-color: ${props => getBorderColor(props)};
   background-color: ${props => getBackgroundColor(props)};
@@ -106,6 +111,20 @@ const Container = styled(({
   ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
+const TitleAndIconContainer = styled(({
+  icon,
+  arrowless,
+  centered,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+`;
+
 const Icon = withTheme(({
   icon,
   theme,
@@ -133,7 +152,6 @@ const TitleContainer = styled(({
   ${props => !props.centered && `
     flex-grow: 2;
   `}
-  margin-vertical: ${size(18)};
   ${props => (props.icon || props.prefix) && `
     margin-left: ${size(18)};
   `}
@@ -151,7 +169,7 @@ const Prefix = styled(({
   <H3 {...rest} />
 )`
   margin-left: ${size(18)};
-  color: ${props => getTextColor(props)}
+  color: ${props => getTextColor(props)};
 `;
 
 const Title = styled(({
@@ -163,7 +181,7 @@ const Title = styled(({
   <H4 {...rest} />
 )`
   flex-wrap: wrap;
-  color: ${props => getTextColor(props)}
+  color: ${props => getTextColor(props)};
 `;
 
 const Subtitle = styled(({
@@ -177,7 +195,20 @@ const Subtitle = styled(({
   ${!IS_NATIVE && `
     margin-top: ${size(5)};
   `}
-  color: ${props => getTextColor(props)}
+  color: ${props => getTextColor(props, true)};
+`;
+
+const Description = styled(({
+  active,
+  inverted,
+  withBorder,
+  ...rest,
+}) =>
+  <P {...rest} />
+)`
+  margin-top: ${size(15)};
+  margin-right: ${size(20)};
+  color: ${props => getTextColor(props, true)};
 `;
 
 const ArrowIcon = withTheme(({
@@ -219,6 +250,7 @@ const ActionListItemCore = ({
   prefix,
   title,
   subtitle,
+  description,
   icon,
   arrowless,
   withBorder,
@@ -244,52 +276,67 @@ const ActionListItemCore = ({
       last={last}
       {...rest}
     >
-      {!!icon &&
-        <Icon
-          icon={icon}
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
-        />
-      }
-      {!!prefix &&
-        <Prefix
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
-        >
-          {prefix}
-        </Prefix>
-      }
-      <TitleContainer
-        icon={!!icon}
-        prefix={prefix}
-        arrowless={arrowless}
-        centered={centered}
+      <TitleAndIconContainer
+        active={active}
+        inverted={inverted}
+        withBorder={withBorder}
       >
-        <Title
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
-        >
-          {title}
-        </Title>
-        {!!subtitle &&
-          <Subtitle
+        {!!icon &&
+          <Icon
+            icon={icon}
+            active={active}
+            inverted={inverted}
+            withBorder={withBorder}
+          />
+        }
+        {!!prefix &&
+          <Prefix
             active={active}
             inverted={inverted}
             withBorder={withBorder}
           >
-            {subtitle}
-          </Subtitle>
+            {prefix}
+          </Prefix>
         }
-      </TitleContainer>
-      {!arrowless &&
-        <ArrowIcon
+        <TitleContainer
+          icon={!!icon}
+          prefix={prefix}
+          arrowless={arrowless}
+          centered={centered}
+        >
+          <Title
+            active={active}
+            inverted={inverted}
+            withBorder={withBorder}
+          >
+            {title}
+          </Title>
+          {!!subtitle &&
+            <Subtitle
+              active={active}
+              inverted={inverted}
+              withBorder={withBorder}
+            >
+              {subtitle}
+            </Subtitle>
+          }
+        </TitleContainer>
+        {!arrowless &&
+          <ArrowIcon
+            active={active}
+            inverted={inverted}
+            withBorder={withBorder}
+          />
+        }
+      </TitleAndIconContainer>
+      {!!description &&
+        <Description
           active={active}
           inverted={inverted}
           withBorder={withBorder}
-        />
+        >
+          {description}
+        </Description>
       }
       <ActiveItemUnderline
         active={active}
@@ -324,6 +371,7 @@ ActionListItemCore.propTypes = {
   href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
   title: PropTypes.string.isRequired,
+  description: PropTypes.string,
   icon: PropTypes.element,
   subtitle: PropTypes.string,
   centered: PropTypes.bool,
