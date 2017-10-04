@@ -80,10 +80,9 @@ const Container = styled(({
   border-style: solid;
   border-color: ${props => getBorderColor(props)};
   background-color: ${props => getBackgroundColor(props)};
+  overflow: hidden;
 
-  ${props => !props.active && `
-    border-bottom-width: 1px;
-  `}
+  border-bottom-width: 1px;
 
   ${props => props.withBorder && `
     border-top-width: 0px;
