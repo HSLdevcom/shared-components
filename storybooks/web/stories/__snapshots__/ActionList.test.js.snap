@@ -12,17 +12,17 @@ exports[`Storyshots ActionList ActionListItem 1`] = `
   onClick={[Function]}
   onLongPress={[Function]}
   onPress={[Function]}
-  parentHasBorder={false}
   prefix="36"
   subtitle="Pysäkki 1935, Vihdintie"
   title="Ruskeasuon varikko"
   type="button"
+  withBorder={false}
 />
 `;
 
 exports[`Storyshots ActionList default 1`] = `
 <ul
-  className="sc-bdVaJa CJopc"
+  className="sc-bdVaJa kEqrnR"
 >
   <li>
     <div
@@ -34,8 +34,10 @@ exports[`Storyshots ActionList default 1`] = `
       icon={null}
       inverted={false}
       last={false}
-      parentHasBorder={false}
+      second={false}
+      secondToLast={false}
       title="Yleistä kertalipusta (active)"
+      withBorder={false}
     />
   </li>
   <li>
@@ -47,8 +49,10 @@ exports[`Storyshots ActionList default 1`] = `
       icon={<Icons.JourneyPlanner />}
       inverted={false}
       last={false}
-      parentHasBorder={false}
+      second={true}
+      secondToLast={false}
       title="Mobiililippu"
+      withBorder={false}
     />
   </li>
   <li>
@@ -60,9 +64,11 @@ exports[`Storyshots ActionList default 1`] = `
       icon={<Icons.Info />}
       inverted={false}
       last={false}
-      parentHasBorder={false}
       prefix="37"
+      second={false}
+      secondToLast={false}
       title="Kamppi - Honkasuo"
+      withBorder={false}
     />
   </li>
   <li>
@@ -74,9 +80,11 @@ exports[`Storyshots ActionList default 1`] = `
       icon={<Icons.Tickets />}
       inverted={false}
       last={false}
-      parentHasBorder={false}
+      second={false}
+      secondToLast={true}
       subtitle="Pysäkki 1935, Vihdintie"
       title="Ruskeasuon varikko"
+      withBorder={false}
     />
   </li>
   <li>
@@ -88,8 +96,10 @@ exports[`Storyshots ActionList default 1`] = `
       icon={null}
       inverted={false}
       last={true}
-      parentHasBorder={false}
+      second={false}
+      secondToLast={false}
       title="Tekstiviestilippu"
+      withBorder={false}
     />
   </li>
 </ul>
@@ -102,12 +112,11 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
       "backgroundColor": "#007ac9",
       "height": "100vh",
       "padding": "10px",
-      "width": "100vw",
     }
   }
 >
   <ul
-    className="sc-bdVaJa kmQEyz"
+    className="sc-bdVaJa kEqrnR"
   >
     <li>
       <div
@@ -119,8 +128,10 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         icon={null}
         inverted={true}
         last={false}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={false}
         title="Yleistä kertalipusta (active)"
+        withBorder={true}
       />
     </li>
     <li>
@@ -132,8 +143,10 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         icon={<Icons.JourneyPlanner />}
         inverted={true}
         last={false}
-        parentHasBorder={true}
+        second={true}
+        secondToLast={false}
         title="Mobiililippu"
+        withBorder={true}
       />
     </li>
     <li>
@@ -145,9 +158,11 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         icon={<Icons.Info />}
         inverted={true}
         last={false}
-        parentHasBorder={true}
         prefix="37"
+        second={false}
+        secondToLast={false}
         title="Kamppi - Honkasuo"
+        withBorder={true}
       />
     </li>
     <li>
@@ -159,9 +174,11 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         icon={<Icons.Tickets />}
         inverted={true}
         last={false}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={true}
         subtitle="Pysäkki 1935, Vihdintie"
         title="Ruskeasuon varikko"
+        withBorder={true}
       />
     </li>
     <li>
@@ -173,8 +190,10 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         icon={null}
         inverted={true}
         last={true}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={false}
         title="Tekstiviestilippu"
+        withBorder={true}
       />
     </li>
   </ul>
@@ -185,14 +204,12 @@ exports[`Storyshots ActionList with borders 1`] = `
 <div
   style={
     Object {
-      "height": "100vh",
       "padding": "10px",
-      "width": "100vw",
     }
   }
 >
   <ul
-    className="sc-bdVaJa foCoJN"
+    className="sc-bdVaJa kEqrnR"
   >
     <li>
       <div
@@ -204,8 +221,10 @@ exports[`Storyshots ActionList with borders 1`] = `
         icon={null}
         inverted={false}
         last={false}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={false}
         title="Yleistä kertalipusta (active)"
+        withBorder={true}
       />
     </li>
     <li>
@@ -217,8 +236,10 @@ exports[`Storyshots ActionList with borders 1`] = `
         icon={<Icons.JourneyPlanner />}
         inverted={false}
         last={false}
-        parentHasBorder={true}
+        second={true}
+        secondToLast={false}
         title="Mobiililippu"
+        withBorder={true}
       />
     </li>
     <li>
@@ -230,9 +251,11 @@ exports[`Storyshots ActionList with borders 1`] = `
         icon={<Icons.Info />}
         inverted={false}
         last={false}
-        parentHasBorder={true}
         prefix="37"
+        second={false}
+        secondToLast={false}
         title="Kamppi - Honkasuo"
+        withBorder={true}
       />
     </li>
     <li>
@@ -244,9 +267,11 @@ exports[`Storyshots ActionList with borders 1`] = `
         icon={<Icons.Tickets />}
         inverted={false}
         last={false}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={true}
         subtitle="Pysäkki 1935, Vihdintie"
         title="Ruskeasuon varikko"
+        withBorder={true}
       />
     </li>
     <li>
@@ -258,8 +283,10 @@ exports[`Storyshots ActionList with borders 1`] = `
         icon={null}
         inverted={false}
         last={true}
-        parentHasBorder={true}
+        second={false}
+        secondToLast={false}
         title="Tekstiviestilippu"
+        withBorder={true}
       />
     </li>
   </ul>

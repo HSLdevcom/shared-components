@@ -1,6 +1,5 @@
 import AddCard from './AddCard';
 import Alert from './Alert';
-import ArrowUp from './ArrowUp';
 import ArrowDown from './ArrowDown';
 import ArrowLeft from './ArrowLeft';
 import ArrowRight from './ArrowRight';
@@ -36,7 +35,6 @@ import MobileTicket from './MobileTicket';
 export default {
   AddCard,
   Alert,
-  ArrowUp,
   ArrowDown,
   ArrowLeft,
   ArrowRight,
