@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 import View from '../View';
-import Touchable from '../Touchable';
 import BreadcrumbItem from './BreadcrumbItem';
 
 const Container = View.extend`
@@ -14,24 +13,17 @@ const Breadcrumbs = styled(({ items, ...rest }) =>
   (
     <Container {...rest}>
       {items.map((item, index) =>
-        <Touchable
+        <BreadcrumbItem
           key={/* eslint-disable react/no-array-index-key */ index}
-          onPress={item.onPress}
-          onLongPress={item.onLongPress}
-        >
-          <BreadcrumbItem {...item} />
-        </Touchable>
+          {...item}
+        />
       )}
     </Container>
   )
 )``;
 
 Breadcrumbs.PropTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({
-    onPress: PropTypes.func,
-    onLongPress: PropTypes.func,
-    ...BreadcrumbItem.propTypes,
-  }))
+  items: PropTypes.arrayOf(PropTypes.shape(BreadcrumbItem.propTypes)),
 };
 
 Breadcrumbs.displayName = 'Breadcrumbs';

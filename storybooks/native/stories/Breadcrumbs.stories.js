@@ -20,8 +20,8 @@ const items = [
   },
   {
     title: 'Kertalippu',
-    onPress: action('onPress, link 2'),
-    onLongPress: action('onLongPress, link 2'),
+    onPress: action('onPress, link 3'),
+    onLongPress: action('onLongPress, link 3'),
   },
 ];
 
