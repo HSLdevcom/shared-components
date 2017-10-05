@@ -6,88 +6,92 @@ exports[`Storyshots DropdownMenu default 1`] = `
     This is always visible
   </p>
   <div
-    className="sc-gipzik iyhjGb sc-jlyJG fHLsMg"
+    className="sc-Rmtcm gwGgYM sc-csuQGl iBTOGk"
     open={false}
   >
     <button
-      className="sc-iRbamj ewtnuE"
+      className="sc-gipzik etWpht"
       onClick={[Function]}
     >
       <div
-        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        className="rn-alignItems-1oszu61 rn-borderBottomWidth-wgabs5 rn-borderTopColor-vccbn5 rn-borderRightColor-1vgx5zb rn-borderBottomColor-1gzsygd rn-borderLeftColor-o5px8n rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-1y5xdop rn-marginBottom-p1pxzi rn-marginLeft-1eshfrj rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1fu06hq rn-paddingRight-r55w5y rn-paddingBottom-s1xe3k rn-paddingLeft-18skzpm rn-position-bnwqim"
         textPosition="Bottom"
       >
         <a
-          className="sc-kAzzGY fvbuby"
+          className="sc-kgoBCf iiRAas"
         >
           <div
             className="rn-alignItems-1awozwy rn-borderBottomColor-85ahfa rn-borderBottomWidth-1tgv9k5 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopColor-yhjsbo rn-borderTopWidth-2q8rws rn-borderRightWidth-fnigne rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           >
-            <svg
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "height": "2rem",
-                  "width": "2.5rem",
-                }
-              }
-              version="1.1"
-              viewBox="-5 0 48 10"
-            >
-              <g
-                fill={undefined}
-              >
-                <circle
-                  cx="5"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-                <circle
-                  cx="19"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-                <circle
-                  cx="33"
-                  cy="5"
-                  id="Oval"
-                  r="5"
-                />
-              </g>
-            </svg>
             <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-1tfa2h4 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
+              className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
             >
-              <div
-                className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-xoduu5 rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-              >
-                <span
-                  className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-wordWrap-qvutc0"
-                  dir="auto"
-                >
-                  Lisää
-                </span>
-                <svg
-                  className="sc-gPEVay iOtZqe"
-                  preserveAspectRatio="xMidYMid meet"
-                  style={
-                    Object {
-                      "height": "0.5rem",
-                      "width": "0.75rem",
-                    }
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "height": "2rem",
+                    "width": "2.5rem",
                   }
-                  version="1.1"
-                  viewBox="0 0 42.5 27.47"
+                }
+                version="1.1"
+                viewBox="-5 0 48 10"
+              >
+                <g
+                  fill={undefined}
                 >
-                  <path
-                    d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
-                    fill={undefined}
-                    id="arrow"
+                  <circle
+                    cx="5"
+                    cy="5"
+                    id="Oval"
+                    r="5"
                   />
-                </svg>
+                  <circle
+                    cx="19"
+                    cy="5"
+                    id="Oval"
+                    r="5"
+                  />
+                  <circle
+                    cx="33"
+                    cy="5"
+                    id="Oval"
+                    r="5"
+                  />
+                </g>
+              </svg>
+              <div
+                className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1uirtdp rn-fontWeight-majxgm rn-lineHeight-14yzgew rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-18ry08z rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+              >
+                <div
+                  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-xoduu5 rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+                >
+                  <span
+                    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-wordWrap-qvutc0"
+                    dir="auto"
+                  >
+                    Lisää
+                  </span>
+                  <svg
+                    className="sc-jlyJG ycuDD"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "height": "0.5rem",
+                        "width": "0.75rem",
+                      }
+                    }
+                    version="1.1"
+                    viewBox="0 0 42.5 27.47"
+                  >
+                    <path
+                      d="M35.043,1.271 L21.214,15.140 L7.384,1.271 C5.687,-0.431 2.934,-0.431 1.234,1.271 L1.234,1.271 C-0.463,2.973 -0.463,5.733 1.234,7.436 L21.214,27.468 L41.191,7.436 C42.887,5.733 42.887,2.973 41.191,1.271 L41.191,1.271 C39.493,-0.431 36.743,-0.431 35.043,1.271 Z"
+                      fill={undefined}
+                      id="arrow"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>

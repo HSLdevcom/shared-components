@@ -22,7 +22,7 @@ exports[`Storyshots ActionList ActionListItem 1`] = `
 
 exports[`Storyshots ActionList default 1`] = `
 <ul
-  className="sc-bdVaJa kEqrnR"
+  className="sc-htpNat erYLKc"
 >
   <li>
     <div
@@ -116,7 +116,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
   }
 >
   <ul
-    className="sc-bdVaJa kEqrnR"
+    className="sc-htpNat erYLKc"
   >
     <li>
       <div
@@ -209,7 +209,7 @@ exports[`Storyshots ActionList with borders 1`] = `
   }
 >
   <ul
-    className="sc-bdVaJa kEqrnR"
+    className="sc-htpNat erYLKc"
   >
     <li>
       <div
