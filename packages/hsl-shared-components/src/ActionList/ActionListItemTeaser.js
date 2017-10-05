@@ -12,20 +12,31 @@ const Container = View.extend`
   align-items: flex-start;
 `;
 
-const Content = View.extend`
+const Content = styled(({
+  hasImage,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
   ${props => props.hasImage && `margin-left: ${size(25)};`}
 `;
 
-const CtaContainer = View.extend`
+const CtaContainer = styled(({
+  hasContent,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   ${props => props.hasContent && `margin-top: ${size(25)};`}
 `;
 
 const ActionListItemTeaser = styled(({
   cta,
   content,
+  centered,
   image,
   onClick,
   onPress,
@@ -63,8 +74,8 @@ const ActionListItemTeaser = styled(({
 ActionListItemTeaser.displayName = 'ActionListItemTeaser';
 
 ActionListItemTeaser.propTypes = {
-  cta: PropTypes.element,
-  content: PropTypes.element,
+  cta: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
+  content: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
   image: PropTypes.element,
   onClick: PropTypes.func,
   onPress: PropTypes.func,

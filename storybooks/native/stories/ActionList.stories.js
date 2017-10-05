@@ -48,6 +48,42 @@ const items = [
 const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
 const data = ds.cloneWithRows(items);
 
+const itemsNoTeaser = [
+  {
+    title: 'Yleistä kertalipusta (active)',
+    icon: null,
+    active: true,
+  },
+  {
+    title: 'Mobiililippu',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    prefix: '37',
+    title: 'Kamppi - Honkasuo',
+    icon: <Icons.Info />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Tekstiviestilippu',
+    icon: null,
+  },
+];
+
+const dsNoTeaser = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
+const dataNoTeaser = dsNoTeaser.cloneWithRows(itemsNoTeaser);
+
+
 storiesOf('ActionList', module)
   .addDecorator(withKnobs)
   .addDecorator(getStory => (
@@ -60,7 +96,6 @@ storiesOf('ActionList', module)
       const inverted = boolean('Inverted', false);
       const centered = boolean('Centered', false);
       const arrowless = boolean('Arrowless', false);
-      const horizontal = boolean('Horizontal', false);
       const withBorder = boolean('withBorder', false);
 
       const StyledView = View.extend``;
@@ -72,7 +107,6 @@ storiesOf('ActionList', module)
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            horizontal={horizontal}
             withBorder={withBorder}
           />
         </StyledView>
@@ -82,7 +116,6 @@ storiesOf('ActionList', module)
       const inverted = boolean('Inverted', false);
       const centered = boolean('Centered', false);
       const arrowless = boolean('Arrowless', false);
-      const horizontal = boolean('Horizontal', false);
       const withBorder = boolean('withBorder', true);
 
       const StyledView = View.extend``;
@@ -94,7 +127,6 @@ storiesOf('ActionList', module)
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
-            horizontal={horizontal}
             withBorder={withBorder}
           />
         </StyledView>
@@ -104,7 +136,6 @@ storiesOf('ActionList', module)
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
     const arrowless = boolean('Arrowless', true);
-    const horizontal = boolean('Horizontal', false);
     const withBorder = boolean('withBorder', true);
 
     const StyledView = View.extend`
@@ -116,17 +147,16 @@ storiesOf('ActionList', module)
     return (
       <StyledView>
         <ActionList
-          items={data}
+          items={dataNoTeaser}
           inverted={inverted}
           centered={centered}
           arrowless={arrowless}
-          horizontal={horizontal}
           withBorder={withBorder}
         />
       </StyledView>
     );
   })
-  .add('ActionListItem', () => {
+  .add('ActionListItemText', () => {
     const title = text('Title', 'Ruskeasuon varikko');
     const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
     const description = text('Description', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.');
@@ -140,6 +170,7 @@ storiesOf('ActionList', module)
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
     return (
       <ActionListItem
+        type="text"
         title={title}
         subtitle={subtitle}
         description={description}
@@ -150,6 +181,25 @@ storiesOf('ActionList', module)
         arrowless={arrowless}
         inverted={inverted}
         withBorder={withBorder}
+        onPress={action('press')}
+        onLongPress={action('long press')}
+      />
+    );
+  })
+  .add('ActionListItemTeaser', () => {
+    const cta = text('cta', 'Matkakortille');
+    const imageKnob = boolean('Image', true);
+    const image = imageKnob ?
+      <Icons.MobileTicket width="30" height="50" fill={Theme.colors.primary.hslBlue} />
+      : null;
+    const content = 'Voit ostaa lippuja, arvoa tai kautta lataamaalla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+    return (
+      <ActionListItem
+        type="teaser"
+        image={image}
+        cta={cta}
+        content={content}
+        onClick={action('click')}
         onPress={action('press')}
         onLongPress={action('long press')}
       />

@@ -11,6 +11,8 @@ const Container = styled(({
   active,
   centered,
   inverted,
+  horizontal,
+  arrowless,
   withBorder,
   first,
   second,
@@ -51,6 +53,7 @@ const ActionListItem = ({
   centered,
   inverted,
   horizontal,
+  arrowless,
   withBorder,
   first,
   second,
@@ -66,6 +69,7 @@ const ActionListItem = ({
       centered={centered}
       inverted={inverted}
       horizontal={horizontal}
+      arrowless={arrowless}
       withBorder={withBorder}
       first={first}
       second={second}
@@ -83,8 +87,6 @@ const ActionListItem = ({
       }
       {isTeaserItem &&
         <ActionListItemTeaser
-          active={active}
-          centered={centered}
           {...rest}
         />
       }
@@ -93,6 +95,17 @@ const ActionListItem = ({
 };
 
 ActionListItem.propTypes = {
+  type: PropTypes.oneOf(['text', 'teaser']),
+  active: PropTypes.bool,
+  centered: PropTypes.bool,
+  inverted: PropTypes.bool,
+  horizontal: PropTypes.bool,
+  arrowless: PropTypes.bool,
+  withBorder: PropTypes.bool,
+  first: PropTypes.bool,
+  second: PropTypes.bool, // Native w/ rounded borders requires every border to have width
+  secondToLast: PropTypes.bool, // Hence we need to know second & secondToLast
+  last: PropTypes.bool,
 };
 
 ActionListItem.displayName = 'ActionListItem';

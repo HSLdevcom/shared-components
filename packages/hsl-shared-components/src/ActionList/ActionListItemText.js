@@ -14,8 +14,6 @@ const Container = View.extend`
 `;
 
 const TitleAndIconContainer = styled(({
-  icon,
-  arrowless,
   centered,
   ...rest,
 }) =>
@@ -157,7 +155,7 @@ const ActiveItemUnderline = styled(({
 `;
 
 const ActionListItemCore = ({
-  type,
+  accessibilityRole,
   href,
   active,
   prefix,
@@ -168,32 +166,17 @@ const ActionListItemCore = ({
   arrowless,
   withBorder,
   centered,
-  first,
-  second,
-  secondToLast,
-  last,
   inverted,
   ...rest,
 }) =>
   (
     <Container
-      accessibilityRole={type || 'button'}
+      accessibilityRole={accessibilityRole || 'button'}
       href={href}
-      active={active}
-      centered={centered}
-      inverted={inverted}
-      withBorder={withBorder}
-      first={first}
-      second={second}
-      secondToLast={secondToLast}
-      last={last}
       {...rest}
     >
       <TitleAndIconContainer
-        active={active}
-        inverted={inverted}
         centered={centered}
-        withBorder={withBorder}
       >
         {!!icon &&
           <Icon
@@ -282,7 +265,7 @@ const ActionListItemText = styled(({
 })``;
 
 ActionListItemCore.propTypes = {
-  type: PropTypes.oneOf(['button', 'link']), // Not available in native
+  accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
   href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
   title: PropTypes.string.isRequired,
@@ -292,10 +275,6 @@ ActionListItemCore.propTypes = {
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
   withBorder: PropTypes.bool,
-  first: PropTypes.bool,
-  second: PropTypes.bool, // Native w/ rounded borders requires every border to have width
-  secondToLast: PropTypes.bool, // Hence we need to know second & secondToLast
-  last: PropTypes.bool,
   inverted: PropTypes.bool,
 };
 

@@ -40,12 +40,45 @@ const items = [
   {
     type: 'teaser',
     cta: 'Matkakortille',
-    content:
+    content: (
       <P>
         Voit ostaa lippuja, arvoa tai kautta lataamaalla.<br />
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </P>,
+      </P>
+    ),
     image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Tekstiviestilippu',
+    icon: null,
+  },
+];
+
+const itemsNoTeaser = [
+  {
+    title: 'Yleistä kertalipusta (active)',
+    icon: null,
+    active: true,
+  },
+  {
+    title: 'Mobiililippu',
+    icon: <Icons.JourneyPlanner />,
+  },
+  {
+    prefix: '37',
+    title: 'Kamppi - Honkasuo',
+    icon: <Icons.Info />,
+  },
+  {
+    title: 'Ruskeasuon varikko',
+    subtitle: 'Pysäkki 1935, Vihdintie',
+    icon: <Icons.Tickets />,
   },
   {
     title: 'Ruskeasuon varikko',
@@ -161,7 +194,7 @@ stories.addWithJSX('inverted and centered', () => {
       }}
     >
       <ActionList
-        items={items}
+        items={itemsNoTeaser}
         inverted={inverted}
         centered={centered}
         arrowless={arrowless}
@@ -172,8 +205,8 @@ stories.addWithJSX('inverted and centered', () => {
   );
 });
 
-stories.addWithJSX('ActionListItem', () => {
-  const type = select('Type', ['button', 'link'], 'button');
+stories.addWithJSX('ActionListItemText', () => {
+  const accessibilityRole = select('accessibilityRole', ['button', 'link'], 'button');
   const title = text('Title', 'Ruskeasuon varikko');
   const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
   const description = text('Description', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.');
@@ -188,7 +221,8 @@ stories.addWithJSX('ActionListItem', () => {
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
   return (
     <ActionListItem
-      type={type}
+      type="text"
+      accessibilityRole={accessibilityRole}
       href={href}
       title={title}
       subtitle={subtitle}
@@ -200,6 +234,32 @@ stories.addWithJSX('ActionListItem', () => {
       arrowless={arrowless}
       inverted={inverted}
       withBorder={withBorder}
+      onClick={action('click')}
+      onPress={action('press')}
+      onLongPress={action('long press')}
+    />
+  );
+});
+
+stories.addWithJSX('ActionListItemTeaser', () => {
+  const cta = text('cta', 'Matkakortille');
+  const imageKnob = boolean('Image', true);
+  const image = imageKnob ?
+    <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />
+    : null;
+  const content = (
+    <P>
+      Voit ostaa lippuja, arvoa tai kautta lataamaalla.<br />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </P>
+  );
+
+  return (
+    <ActionListItem
+      type="teaser"
+      image={image}
+      cta={cta}
+      content={content}
       onClick={action('click')}
       onPress={action('press')}
       onLongPress={action('long press')}
