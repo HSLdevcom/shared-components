@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 import View from '../View';
 import Button from '../Button';
 import { P } from '../Typography';
@@ -21,7 +22,7 @@ const Content = styled(({
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
-  ${props => props.hasImage && `margin-left: ${size(25)};`}
+  ${props => props.hasIcon && `margin-left: ${size(25)};`}
 `;
 
 const CtaContainer = styled(({
@@ -33,24 +34,35 @@ const CtaContainer = styled(({
   ${props => props.hasContent && `margin-top: ${size(25)};`}
 `;
 
+const Icon = withTheme(({
+  icon,
+  theme,
+}) =>
+  React.cloneElement(icon, {
+    width: size(60),
+    height: size(60),
+    fill: theme.colors.primary.hslBlue,
+  })
+);
+
 const ActionListItemTeaser = styled(({
   cta,
   content,
   centered,
-  image,
+  icon,
   onClick,
   onPress,
   onLongPress,
   ...rest,
 }) => {
-  const imageIsElement = React.isValidElement(image);
+  const iconIsElement = React.isValidElement(icon);
   const contentIsElement = React.isValidElement(content);
   const ctaIsElement = React.isValidElement(cta);
 
   return (
     <Container {...rest}>
-      {imageIsElement && image}
-      <Content hasImage={!!image}>
+      {iconIsElement && <Icon icon={icon} />}
+      <Content hasIcon={!!icon}>
         {contentIsElement && content}
         {!contentIsElement && <P>{content}</P>}
         {cta &&

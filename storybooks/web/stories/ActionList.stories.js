@@ -50,7 +50,7 @@ const items = [
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </P>
     ),
-    image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
+    icon: <Icons.MobileTicket />,
     onClick: action('click'),
   },
   {
@@ -115,7 +115,7 @@ const itemsTeaser = [
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </P>
     ),
-    image: <Icons.JourneyPlanner width="70px" fill={Theme.colors.primary.hslBlue} />,
+    icon: <Icons.JourneyPlanner />,
     onClick: action('click'),
   },
   {
@@ -127,7 +127,7 @@ const itemsTeaser = [
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </P>
     ),
-    image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
+    icon: <Icons.MobileTicket />,
     onClick: action('click'),
   },
   {
@@ -140,7 +140,7 @@ const itemsTeaser = [
         </P>
       </View>
     ),
-    image: <Icons.CustomerService width="70px" fill={Theme.colors.primary.hslBlue} />,
+    icon: <Icons.CustomerService />,
   },
   {
     title: 'Tekstiviestilippu',
@@ -182,24 +182,6 @@ stories.addWithJSX('default', () => {
   return (
     <ActionList
       items={items}
-      inverted={inverted}
-      centered={centered}
-      arrowless={arrowless}
-      horizontal={horizontal}
-      withBorder={withBorder}
-    />
-  );
-});
-
-stories.addWithJSX('Teasers', () => {
-  const inverted = boolean('Inverted', false);
-  const centered = boolean('Centered', false);
-  const arrowless = boolean('Arrowless', false);
-  const horizontal = boolean('Horizontal', false);
-  const withBorder = boolean('withBorder', false);
-  return (
-    <ActionList
-      items={itemsTeaser}
       inverted={inverted}
       centered={centered}
       arrowless={arrowless}
@@ -254,6 +236,22 @@ stories.addWithJSX('horizontal', () => {
         withBorder={withBorder}
       />
     </div>
+  );
+});
+
+stories.addWithJSX('teasers', () => {
+  const centered = boolean('Centered', false);
+  const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', false);
+  const withBorder = boolean('withBorder', false);
+  return (
+    <ActionList
+      items={itemsTeaser}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      withBorder={withBorder}
+    />
   );
 });
 
@@ -321,9 +319,9 @@ stories.addWithJSX('ActionListItemText', () => {
 
 stories.addWithJSX('ActionListItemTeaser', () => {
   const cta = text('cta', 'Matkakortille');
-  const imageKnob = boolean('Image', true);
-  const image = imageKnob ?
-    <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />
+  const iconKnob = boolean('Icon', true);
+  const icon = iconKnob ?
+    <Icons.MobileTicket />
     : null;
   const content = (
     <P>
@@ -335,7 +333,7 @@ stories.addWithJSX('ActionListItemTeaser', () => {
   return (
     <ActionListItem
       type="teaser"
-      image={image}
+      icon={icon}
       cta={cta}
       content={content}
       onClick={action('click')}

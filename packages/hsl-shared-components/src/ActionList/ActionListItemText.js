@@ -111,7 +111,6 @@ const Description = styled(({
   <P {...rest} />
 )`
   margin-top: ${size(15)};
-  padding-right: ${size(20)};
   width: 100%;
   color: ${props => getTextColor(props, true)};
   ${props => props.centered && `
