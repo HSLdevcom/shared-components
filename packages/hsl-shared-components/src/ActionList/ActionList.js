@@ -8,6 +8,7 @@ const ActionList = styled(({
   inverted,
   centered,
   arrowless,
+  horizontal,
   withBorder,
   ...rest
 }) =>
@@ -20,6 +21,7 @@ const ActionList = styled(({
               inverted={inverted}
               centered={centered}
               arrowless={arrowless}
+              horizontal={horizontal}
               withBorder={withBorder}
               first={index === 0}
               second={index === 1}
@@ -36,6 +38,10 @@ const ActionList = styled(({
   margin: 0;
   padding: 0;
   list-style-type: none;
+  ${props => props.horizontal && `
+    display: flex;
+    flex-direction: row;
+  `}
 `;
 
 ActionList.displayName = 'ActionList';
@@ -45,6 +51,7 @@ ActionList.propTypes = {
   inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
+  horizontal: PropTypes.bool,
   withBorder: PropTypes.bool,
 };
 

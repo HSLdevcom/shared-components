@@ -54,6 +54,7 @@ storiesOf('ActionList', module)
       const inverted = boolean('Inverted', false);
       const centered = boolean('Centered', false);
       const arrowless = boolean('Arrowless', false);
+      const horizontal = boolean('Horizontal', false);
       const withBorder = boolean('withBorder', false);
 
       const StyledView = View.extend``;
@@ -65,6 +66,7 @@ storiesOf('ActionList', module)
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
+            horizontal={horizontal}
             withBorder={withBorder}
           />
         </StyledView>
@@ -74,6 +76,7 @@ storiesOf('ActionList', module)
       const inverted = boolean('Inverted', false);
       const centered = boolean('Centered', false);
       const arrowless = boolean('Arrowless', false);
+      const horizontal = boolean('Horizontal', false);
       const withBorder = boolean('withBorder', true);
 
       const StyledView = View.extend``;
@@ -85,6 +88,7 @@ storiesOf('ActionList', module)
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
+            horizontal={horizontal}
             withBorder={withBorder}
           />
         </StyledView>
@@ -94,6 +98,7 @@ storiesOf('ActionList', module)
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
     const arrowless = boolean('Arrowless', true);
+    const horizontal = boolean('Horizontal', false);
     const withBorder = boolean('withBorder', true);
 
     const StyledView = View.extend`
@@ -109,6 +114,7 @@ storiesOf('ActionList', module)
           inverted={inverted}
           centered={centered}
           arrowless={arrowless}
+          horizontal={horizontal}
           withBorder={withBorder}
         />
       </StyledView>

@@ -49,10 +49,32 @@ const items = [
   },
 ];
 
+const horizItems = [
+  {
+    title: 'Kertaliput',
+    subtitle: '80–100 min',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Vuorokausiliput',
+    subtitle: '1–7 vrk',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+  {
+    title: 'Kausiliput',
+    subtitle: 'Alk. 14 vrk',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
+    icon: <Icons.Tickets />,
+  },
+];
+
 stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', false);
   const withBorder = boolean('withBorder', false);
   return (
     <ActionList
@@ -60,6 +82,7 @@ stories.addWithJSX('default', () => {
       inverted={inverted}
       centered={centered}
       arrowless={arrowless}
+      horizontal={horizontal}
       withBorder={withBorder}
     />
   );
@@ -69,6 +92,7 @@ stories.addWithJSX('with borders', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', false);
   const withBorder = boolean('withBorder', true);
   return (
     <div
@@ -81,6 +105,31 @@ stories.addWithJSX('with borders', () => {
         inverted={inverted}
         centered={centered}
         arrowless={arrowless}
+        horizontal={horizontal}
+        withBorder={withBorder}
+      />
+    </div>
+  );
+});
+
+stories.addWithJSX('horizontal', () => {
+  const inverted = boolean('Inverted', false);
+  const centered = boolean('Centered', false);
+  const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', true);
+  const withBorder = boolean('withBorder', true);
+  return (
+    <div
+      style={{
+        padding: '10px',
+      }}
+    >
+      <ActionList
+        items={horizItems}
+        inverted={inverted}
+        centered={centered}
+        arrowless={arrowless}
+        horizontal={horizontal}
         withBorder={withBorder}
       />
     </div>
@@ -91,6 +140,7 @@ stories.addWithJSX('inverted and centered', () => {
   const inverted = boolean('Inverted', true);
   const centered = boolean('Centered', true);
   const arrowless = boolean('Arrowless', true);
+  const horizontal = boolean('Horizontal', false);
   const withBorder = boolean('withBorder', true);
   return (
     <div
@@ -105,6 +155,7 @@ stories.addWithJSX('inverted and centered', () => {
         inverted={inverted}
         centered={centered}
         arrowless={arrowless}
+        horizontal={horizontal}
         withBorder={withBorder}
       />
     </div>
