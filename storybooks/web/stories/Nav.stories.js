@@ -22,20 +22,20 @@ const StyledA = A.extend`
 // const cog = <Icons.Cog height="3.5rem" width="3.5rem" fill="#ffffff" />;
 // const DropdownContent = [
 //   <List header="Liikkumisen palveluita" key="1">
-//     <ListItem><A href="/test">Kaupunkipyörät</A></ListItem>
-//     <ListItem><A href="/test">Pyöräparkki</A></ListItem>
-//     <ListItem><A href="/test">Liityntäpysäköinti</A></ListItem>
-//     <ListItem><A href="/test">Lähibussit</A></ListItem>
-//     <ListItem><A href="/test">Pikaratikka</A></ListItem>
+//     <ListItem><StyledA href="/test">Kaupunkipyörät</A></ListItem>
+//     <ListItem><StyledA href="/test">Pyöräparkki</A></ListItem>
+//     <ListItem><StyledA href="/test">Liityntäpysäköinti</A></ListItem>
+//     <ListItem><StyledA href="/test">Lähibussit</A></ListItem>
+//     <ListItem><StyledA href="/test">Pikaratikka</A></ListItem>
 //   </List>,
 //   <List header="Tietoa HSL:stä" key="2">
-//     <ListItem><A href="/test">Päätöksenteko</A></ListItem>
-//     <ListItem><A href="/test">Strategia</A></ListItem>
-//     <ListItem><A href="/test">Talous</A></ListItem>
-//     <ListItem><A href="/test">Hankinnat</A></ListItem>
-//     <ListItem><A href="/test">Julkaisut</A></ListItem>
-//     <ListItem><A href="/test">HSL työpaikkana ja avoimet työpaikat</A></ListItem>
-//     <ListItem><A href="/test">Viestintä</A></ListItem>
+//     <ListItem><StyledA href="/test">Päätöksenteko</A></ListItem>
+//     <ListItem><StyledA href="/test">Strategia</A></ListItem>
+//     <ListItem><StyledA href="/test">Talous</A></ListItem>
+//     <ListItem><StyledA href="/test">Hankinnat</A></ListItem>
+//     <ListItem><StyledA href="/test">Julkaisut</A></ListItem>
+//     <ListItem><StyledA href="/test">HSL työpaikkana ja avoimet työpaikat</A></ListItem>
+//     <ListItem><StyledA href="/test">Viestintä</A></ListItem>
 //   </List>,
 //   <div key="3">
 //     <IconWithText
@@ -99,14 +99,14 @@ stories.addWithJSX('default', () => {
     changeLanguage={action('language changed')}
   >
     <MenuItem
-      link={<A href="/test" key="test1" />}
+      link={<StyledA href="/test" key="test1" />}
       icon={<Icons.TravelCard height="3.5rem" fill="#ffffff" />}
       text="Matkakortti"
       key="travelcard"
       active
     />
     <MenuItem
-      link={<A href="/test" key="test2" />}
+      link={<StyledA href="/test" key="test2" />}
       icon={<Icons.SignIn height="3.5rem" fill="#ffffff" />}
       text="Kirjaudu"
       key="signin"
@@ -176,7 +176,7 @@ stories.addWithJSX('scroll', () => {
     (
       <NavItem
         key={icon[1]}
-        link={<A href="/test" />}
+        link={<StyledA href="/test" />}
         icon={icon[0]}
         text={icon[1]}
       />)

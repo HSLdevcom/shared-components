@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
 import omit from 'lodash/fp/omit';
+import { Animated } from 'react-primitives';
 
 import Icons from '../Icons';
 import Touchable from '../Touchable';
@@ -10,8 +11,21 @@ import { size } from '../utils';
 
 export const Height = size(64);
 
-const StyledNav = View.extend`
+const StyledNav = styled(({ menuOpen, ...rest }) => (
+  <View {...rest} />
+))`
   background: ${props => props.theme.colors.primary.hslBlue};
+  align-items: stretch;
+`;
+
+const AnimatedView = styled(props => (
+  <Animated.View {...props} />
+))`
+  align-items: stretch;
+  overflow: hidden;
+`;
+
+const Menu = View.extend`
   align-items: stretch;
 `;
 
@@ -28,28 +42,37 @@ const TopBar = View.extend`
 const TopIcons = View.extend`
   flex-direction: row;
 `;
-const MenuWrapper = View.extend`
-  align-items: stretch;
-  background: ${props => props.theme.colors.primary.hslBlue};
-`;
 
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { menuOpen: false, menuHeight: 0 };
+    this.state = {
+      anim: new Animated.Value(0)
+    };
+    this.navHeight = 0;
     this.toggleMenu = this.toggleMenu.bind(this);
+    this.onLayout = this.onLayout.bind(this);
+  }
+
+  onLayout(e) {
+    this.navHeight = e.nativeEvent.layout.height;
   }
 
   toggleMenu() {
-    this.setState(prevState => ({
-      menuOpen: !prevState.menuOpen
-    }));
+    if (!this.open) {
+      Animated.timing(this.state.anim, { toValue: this.navHeight, duration: 250 }).start(() => {
+        this.open = true;
+      });
+    } else {
+      Animated.timing(this.state.anim, { toValue: 0, duration: 250 }).start(() => {
+        this.open = false;
+      });
+    }
   }
 
   render() {
     return (<StyledNav
       accessibilityRole="navigation"
-      visible={this.props.visible}
       menuOpen={this.state.menuOpen}
       {...omit(this.props, ['navRef', 'logo', 'children'])}
     >
@@ -68,12 +91,11 @@ class Nav extends React.Component {
           </Touchable>
         </TopIcons>
       </TopBar>
-      <MenuWrapper>
-        {
-          this.state.menuOpen &&
-          React.cloneElement(this.props.menu, { items: this.props.children })
-        }
-      </MenuWrapper>
+      <AnimatedView style={{ maxHeight: this.state.anim }}>
+        <Menu onLayout={this.onLayout}>
+          {React.cloneElement(this.props.menu, { items: this.props.children })}
+        </Menu>
+      </AnimatedView>
     </StyledNav>);
   }
 }
@@ -81,8 +103,7 @@ class Nav extends React.Component {
 Nav.propTypes = {
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
-  children: PropTypes.node,
-  visible: PropTypes.bool.isRequired
+  children: PropTypes.node
 };
 
 export default styled(Nav)``;

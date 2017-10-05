@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/primitives';
 
 import LangSelect from '../LangSelect';
 import Icons from '../Icons';
@@ -32,11 +32,11 @@ const MenuMobile = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  className,
   children,
-  items
+  items,
+  ...rest
 }) => (
-  <StyledView className={className}>
+  <StyledView {...rest}>
     <Horizontal>
       <LangSelect
         languages={languages}
@@ -65,7 +65,6 @@ MenuMobile.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  className: PropTypes.string,
   children: PropTypes.node,
   items: PropTypes.node
 };

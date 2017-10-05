@@ -60,7 +60,6 @@ class Nav extends React.Component {
       const scrollY = window.scrollY;
       window.requestAnimationFrame(() => {
         this.onScrollDesktop(scrollY);
-        // this.onScrollMobile(scrollY);
         // Save current scroll value
         this.lastScrollValue = scrollY;
         this.ticking = false;
@@ -105,20 +104,6 @@ class Nav extends React.Component {
       });
     }
   }
-
-  // onScrollMobile(scrollY) {
-  //   const scrollingUp = scrollY < this.lastScrollValue;
-
-  //   // Call setState only if state will change
-  //   // TODO: Remove the if after upgrading to react 16 where canceling setState is possible
-  //   if (scrollingUp !== this.state.mobileNavVisible) {
-  //     this.setState(prevState => (
-  //       scrollingUp !== prevState.mobileNavVisible
-  //       ? { mobileNavVisible: scrollingUp }
-  //       : undefined
-  //     ));
-  //   }
-  // }
 
   render() {
     return (
