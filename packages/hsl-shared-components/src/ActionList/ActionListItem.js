@@ -84,6 +84,10 @@ const Container = styled(({
 
   border-bottom-width: 1px;
 
+  ${props => props.last && !props.withBorder && `
+    border-bottom-width: 0px;
+  `}
+
   ${props => props.withBorder && `
     border-top-width: 0px;
     border-right-width: 1px;
