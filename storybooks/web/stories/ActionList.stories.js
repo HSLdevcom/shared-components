@@ -4,7 +4,7 @@ import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { P, Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { View, H1, P, Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -22,20 +22,24 @@ const items = [
     title: 'Yleistä kertalipusta (active)',
     icon: null,
     active: true,
+    onClick: action('click'),
   },
   {
     title: 'Mobiililippu',
     icon: <Icons.JourneyPlanner />,
+    onClick: action('click'),
   },
   {
     prefix: '37',
     title: 'Kamppi - Honkasuo',
     icon: <Icons.Info />,
+    onClick: action('click'),
   },
   {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     type: 'teaser',
@@ -47,16 +51,19 @@ const items = [
       </P>
     ),
     image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
+    onClick: action('click'),
   },
   {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     title: 'Tekstiviestilippu',
     icon: null,
+    onClick: action('click'),
   },
 ];
 
@@ -65,30 +72,80 @@ const itemsNoTeaser = [
     title: 'Yleistä kertalipusta (active)',
     icon: null,
     active: true,
+    onClick: action('click'),
   },
   {
     title: 'Mobiililippu',
     icon: <Icons.JourneyPlanner />,
+    onClick: action('click'),
   },
   {
     prefix: '37',
     title: 'Kamppi - Honkasuo',
     icon: <Icons.Info />,
+    onClick: action('click'),
   },
   {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     title: 'Tekstiviestilippu',
     icon: null,
+    onClick: action('click'),
+  },
+];
+
+const itemsTeaser = [
+  {
+    type: 'teaser',
+    cta: 'Mobiilisovellukseen',
+    content: (
+      <P>
+        Voit ostaa lippuja, arvoa tai kautta lataamaalla.<br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </P>
+    ),
+    image: <Icons.JourneyPlanner width="70px" fill={Theme.colors.primary.hslBlue} />,
+    onClick: action('click'),
+  },
+  {
+    type: 'teaser',
+    cta: 'Matkakortille',
+    content: (
+      <P>
+        Voit ostaa lippuja, arvoa tai kautta lataamaalla.<br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </P>
+    ),
+    image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
+    onClick: action('click'),
+  },
+  {
+    type: 'teaser',
+    content: (
+      <View style={{ alignItems: 'flex-start' }}>
+        <H1>09 4766 4000</H1>
+        <P>
+          ma-pe 7–19, la-su 9–17
+        </P>
+      </View>
+    ),
+    image: <Icons.CustomerService width="70px" fill={Theme.colors.primary.hslBlue} />,
+  },
+  {
+    title: 'Tekstiviestilippu',
+    icon: null,
+    onClick: action('click'),
   },
 ];
 
@@ -98,18 +155,21 @@ const horizItems = [
     subtitle: '80–100 min',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     title: 'Vuorokausiliput',
     subtitle: '1–7 vrk',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
   {
     title: 'Kausiliput',
     subtitle: 'Alk. 14 vrk',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',
     icon: <Icons.Tickets />,
+    onClick: action('click'),
   },
 ];
 
@@ -122,6 +182,24 @@ stories.addWithJSX('default', () => {
   return (
     <ActionList
       items={items}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      withBorder={withBorder}
+    />
+  );
+});
+
+stories.addWithJSX('Teasers', () => {
+  const inverted = boolean('Inverted', false);
+  const centered = boolean('Centered', false);
+  const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', false);
+  const withBorder = boolean('withBorder', false);
+  return (
+    <ActionList
+      items={itemsTeaser}
       inverted={inverted}
       centered={centered}
       arrowless={arrowless}

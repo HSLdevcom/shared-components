@@ -53,19 +53,21 @@ const ActionListItemTeaser = styled(({
       <Content hasImage={!!image}>
         {contentIsElement && content}
         {!contentIsElement && <P>{content}</P>}
-        <CtaContainer hasContent={!!content}>
-          {ctaIsElement && cta}
-          {!ctaIsElement &&
-            <Button
-              primary
-              onClick={onClick}
-              onPress={onPress}
-              onLongPress={onLongPress}
-            >
-              {cta}
-            </Button>
-          }
-        </CtaContainer>
+        {cta &&
+          <CtaContainer hasContent={!!content}>
+            {ctaIsElement && cta}
+            {!ctaIsElement &&
+              <Button
+                primary
+                onClick={onClick}
+                onPress={onPress}
+                onLongPress={onLongPress}
+              >
+                {cta}
+              </Button>
+            }
+          </CtaContainer>
+        }
       </Content>
     </Container>
   );
