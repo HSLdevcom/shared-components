@@ -77,7 +77,17 @@ const Container = styled(({
   }
 `;
 
-const StyledText = styled(({ ...rest }) =>
+const StyledText = styled(({
+  hover,
+  active,
+  focus,
+  primary,
+  success,
+  secondary,
+  disabled,
+  small,
+  ...rest,
+}) =>
   (<Text {...rest} />)
 )`
   color: ${props => getTextColor(props)};
@@ -100,6 +110,7 @@ const Button = styled(({
   noPadding,
   onClick,
   onPress,
+  onLongPress,
   innerRef,
   children,
   ...rest }) => (

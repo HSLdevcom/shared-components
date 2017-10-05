@@ -5,7 +5,8 @@
 // https://github.com/elderfo/react-native-storybook-loader.git
 
 function loadStories() {
-  
+
+  require('../stories/ActionBar.stories.js');
   require('../stories/ActionList.stories.js');
   require('../stories/Article.stories.js');
   require('../stories/Button.stories.js');
@@ -19,7 +20,7 @@ function loadStories() {
   require('../stories/Section.stories.js');
   require('../stories/Tabs.stories.js');
   require('../stories/Typography.stories.js');
-  
+
 }
 
 module.exports = {
