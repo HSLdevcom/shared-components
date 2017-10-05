@@ -16,7 +16,12 @@ const StyledLabelText = LabelText.extend`
 const StyledView = View.extend`
   align-items: stretch;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+  border-bottom-width: 2px;
+  padding-vertical: ${size(24)};
+  margin-horizontal : ${size(12)};
+  padding-horizontal : ${size(24)};
 `;
 
 const Wrap = View.extend`
