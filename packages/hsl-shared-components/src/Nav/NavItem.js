@@ -26,6 +26,7 @@ const ResponsiveLabelText = ({ ...props }) => (
 const StyledView = View.extend`
   flex-direction: row;
   align-items: stretch;
+  justify-content: flex-start;
 `;
 
 const Icon = ({ children }) => (
