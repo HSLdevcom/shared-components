@@ -14,7 +14,7 @@ const Spacer = View.extend`
 
 const StyledView = styled(({ active, small, ...rest }) => (<View {...rest} />))`
   flex-direction: column;
-  justify-content: center;
+  justify-content: ${props => (!props.small ? 'center' : 'space-between')};
   border-style: solid;
   ${props => (
     !props.small &&

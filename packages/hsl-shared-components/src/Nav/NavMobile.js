@@ -33,14 +33,19 @@ const TopBar = View.extend`
   height: ${Height};
   flex-direction: row;
   justify-content: space-between;
-  padding-vertical: ${size(12)};
+  align-items: stretch;
   margin-horizontal : ${size(12)};
   border-bottom-width: 2px;
   border-bottom-color: ${props => props.theme.colors.primary.hslBlueDark}
 `;
 
+const Logo = View.extend`
+  padding-vertical: ${size(12)};
+`;
+
 const TopIcons = View.extend`
   flex-direction: row;
+  align-items: stretch;
 `;
 
 class Nav extends React.Component {
@@ -77,12 +82,12 @@ class Nav extends React.Component {
       {...omit(this.props, ['navRef', 'logo', 'children'])}
     >
       <TopBar>
-        <View>
+        <Logo>
           { this.props.logo }
-        </View>
+        </Logo>
         <TopIcons>
           {React.Children.map(this.props.menu.props.children, child => (
-            React.cloneElement(child, { small: true })
+            React.cloneElement(child, { small: true, style: { marginRight: size(16) } })
             ))}
           <Touchable onPress={this.toggleMenu}>
             <View onClick={this.toggleMenu}>
