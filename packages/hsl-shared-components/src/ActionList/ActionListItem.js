@@ -81,6 +81,7 @@ const ActionListItem = ({
           active={active}
           centered={centered}
           inverted={inverted}
+          arrowless={arrowless}
           withBorder={withBorder}
           {...rest}
         />
