@@ -109,7 +109,7 @@ const Title = P.extend`
 const ActionBarItemCore = ({
   icon,
   title,
-  type,
+  accessibilityRole,
   href,
   inverted,
   active,
@@ -121,7 +121,7 @@ const ActionBarItemCore = ({
       inverted={inverted}
       active={active}
       {...rest}
-      accessibilityRole={type || 'button'}
+      accessibilityRole={accessibilityRole || 'button'}
     >
       {!!icon &&
         <Icon
@@ -165,7 +165,7 @@ const ActionBarItem = styled(({
 ActionBarItemCore.propTypes = {
   icon: PropTypes.element,
   title: PropTypes.string,
-  type: PropTypes.oneOf(['button', 'link']),
+  accessibilityRole: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
   active: PropTypes.bool,
   inverted: PropTypes.bool,
