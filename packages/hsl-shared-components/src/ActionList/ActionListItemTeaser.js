@@ -11,6 +11,8 @@ const Container = View.extend`
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  padding-horizontal: ${size(18)};
+  padding-vertical: ${size(18)};
 `;
 
 const Content = styled(({

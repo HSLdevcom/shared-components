@@ -34,8 +34,6 @@ const Container = styled(({
   `}
 
   position: relative;
-  padding-horizontal: ${size(18)};
-  padding-vertical: ${size(18)};
   border-style: solid;
   border-color: ${props => getBorderColor(props)};
   background-color: ${props => getBackgroundColor(props)};

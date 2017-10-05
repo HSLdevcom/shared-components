@@ -9,8 +9,14 @@ import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 import { getTextColor } from './utils';
 
+// Transparent borders below are for fixing touchable in android
 const Container = View.extend`
   width: 100%;
+  padding-horizontal: ${size(18)};
+  padding-vertical: ${size(18)};
+  border-color: transparent;
+  border-width: 1px;
+  border-style: solid;
 `;
 
 const TitleAndIconContainer = styled(({
