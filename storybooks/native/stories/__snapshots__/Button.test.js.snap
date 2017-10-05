@@ -171,7 +171,7 @@ exports[`Storyshots Button default 1`] = `
           },
           Array [
             Object {
-              "color": "#888888",
+              "color": "#007ac9",
               "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,
@@ -344,10 +344,10 @@ exports[`Storyshots Button round button 1`] = `
       }
     >
       <Svg
-        height="36"
+        height={36}
         preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 17 33"
-        width="18"
+        width={18}
       >
         <Path
           d="M16.7982286,11.9856261 L11.034563,11.9856261 L11.034563,8.26958518 C11.034563,6.58443921 11.5045179,5.43616736 13.920705,5.43616736 L17,5.43464647 L17,0.229147407 C16.4681955,0.158172546 14.6405928,0 12.5103331,0 C8.06629291,0 5.02603406,2.71276056 5.02603406,7.69367489 L5.02603406,11.9856261 L0,11.9856261 L0,17.8050577 L5.02603406,17.8050577 L5.02603406,32.7381684 L11.034563,32.7381684 L11.034563,17.8050577 L16.047416,17.8050577 L16.7982286,11.9856261 Z"
@@ -420,7 +420,7 @@ exports[`Storyshots Button secondary 1`] = `
           },
           Array [
             Object {
-              "color": "#888888",
+              "color": "#007ac9",
               "fontSize": 15.75,
               "fontWeight": "500",
               "marginBottom": 0,
