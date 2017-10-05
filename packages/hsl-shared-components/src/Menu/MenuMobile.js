@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 
+import MenuItemMobile from './MenuItemMobile';
 import LangSelect from '../LangSelect';
 import Icons from '../Icons';
 import View from '../View';
@@ -47,7 +48,10 @@ const MenuMobile = ({
     </Horizontal>
     { items }
     <MenuItems>
-      {children}
+      { React.Children.map(children, child => (
+        <MenuItemMobile {...child.props} />
+      ))
+      }
     </MenuItems>
   </StyledView>
 );

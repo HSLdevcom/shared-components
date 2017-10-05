@@ -7,34 +7,33 @@ import { LabelText } from '../Typography';
 import { Activatable } from '../Wrapper';
 import { size, Responsive } from '../utils';
 
-const StyledLabelText = LabelText.extend`
-  margin-left: ${size(8)};
-  color: ${props => props.theme.colors.background.hslWhite}
+const StyledLabelText = styled(({ fontSize, small, ...rest }) => (
+  <LabelText {...rest} />
+))`
+  ${props => !props.small && `margin-top: ${size(16)};`}
+  color: ${props => props.theme.colors.primary.hslWhite};
   font-size: ${props => props.fontSize};
 `;
 
 const ResponsiveLabelText = ({ ...props }) => (
   <Responsive
-    small={<StyledLabelText {...props} fontSize={size(18)} />}
+    small={<StyledLabelText {...props} fontSize={size(20)} />}
     medium={<StyledLabelText {...props} fontSize={size(16)} />}
+    xlarge={<StyledLabelText {...props} fontSize={size(18)} />}
   />
 );
 
 const StyledView = View.extend`
+  flex-direction: row;
   align-items: stretch;
-  flex-direction: row;
-  justify-content: center;
-`;
-
-const Wrap = View.extend`
-  flex-direction: row;
+  justify-content: flex-start;
 `;
 
 const Icon = ({ children }) => (
   <Responsive
-    small={React.cloneElement(children, { height: '1.5rem' })}
-    large={React.cloneElement(children, { height: '1.75rem' })}
-    xlarge={React.cloneElement(children, { height: '2rem' })}
+    small={React.cloneElement(children, { height: '2rem' })}
+    large={React.cloneElement(children, { height: '2.25rem' })}
+    xlarge={React.cloneElement(children, { height: '2.5rem' })}
   />
 );
 
@@ -42,7 +41,7 @@ Icon.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-const MenuItem = ({
+const NavItem = ({
   link,
   icon,
   text,
@@ -53,23 +52,25 @@ const MenuItem = ({
   <StyledView {...rest}>
     {React.cloneElement(
       link,
-      {},
-      (<Activatable active={active} small={small} >
-        <Wrap>
-          <Icon>{icon}</Icon>
-          { !small && <ResponsiveLabelText>{text}</ResponsiveLabelText> }
-        </Wrap>
+      { },
+      (<Activatable active={active}>
+        {!small && <Icon>{icon}</Icon>}
+        <ResponsiveLabelText small={small}>{text}</ResponsiveLabelText>
       </Activatable>)
     )}
   </StyledView>
-);
+)
+;
 
-MenuItem.propTypes = {
+NavItem.propTypes = {
   link: PropTypes.node.isRequired,
   icon: PropTypes.node.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node
+  ]).isRequired,
   active: PropTypes.bool,
   small: PropTypes.bool
 };
 
-export default styled(MenuItem)``;
+export default styled(NavItem)``;
