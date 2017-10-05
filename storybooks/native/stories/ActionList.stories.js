@@ -29,6 +29,12 @@ const items = [
     icon: <Icons.Tickets />,
   },
   {
+    type: 'teaser',
+    cta: 'Matkakortille',
+    content: 'Voit ostaa lippuja, arvoa tai kautta lataamaalla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: <Icons.MobileTicket width="30" height="50" fill={Theme.colors.primary.hslBlue} />,
+  },
+  {
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.',

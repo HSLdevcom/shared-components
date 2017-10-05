@@ -4,7 +4,7 @@ import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
-import { Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { P, Icons, ActionList, ActionListItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -36,6 +36,16 @@ const items = [
     title: 'Ruskeasuon varikko',
     subtitle: 'Pysäkki 1935, Vihdintie',
     icon: <Icons.Tickets />,
+  },
+  {
+    type: 'teaser',
+    cta: 'Matkakortille',
+    content:
+      <P>
+        Voit ostaa lippuja, arvoa tai kautta lataamaalla.<br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </P>,
+    image: <Icons.MobileTicket width="70px" fill={Theme.colors.primary.hslBlue} />,
   },
   {
     title: 'Ruskeasuon varikko',
