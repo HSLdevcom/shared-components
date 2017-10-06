@@ -10,12 +10,17 @@ setAddon(JSXAddon);
 
 const stories = storiesOf('ActionList', module);
 stories.addDecorator(withKnobs);
-stories.addDecorator(getStory => (
-  <ThemeProvider theme={Theme}>
-    <ResponsiveProvider>
-      {getStory()}
-    </ResponsiveProvider>
-  </ThemeProvider>));
+stories.addDecorator((getStory) => {
+  const StyledView = View.extend`
+  `;
+  return (
+    <ThemeProvider theme={Theme}>
+      <ResponsiveProvider>
+        <StyledView>{getStory()}</StyledView>
+      </ResponsiveProvider>
+    </ThemeProvider>
+  );
+});
 
 const items = [
   {
@@ -198,20 +203,14 @@ stories.addWithJSX('with borders', () => {
   const horizontal = boolean('Horizontal', false);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-      }}
-    >
-      <ActionList
-        items={items}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={items}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      withBorder={withBorder}
+    />
   );
 });
 
@@ -222,20 +221,14 @@ stories.addWithJSX('horizontal', () => {
   const horizontal = boolean('Horizontal', true);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-      }}
-    >
-      <ActionList
-        items={horizItems}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={horizItems}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      withBorder={withBorder}
+    />
   );
 });
 
@@ -262,22 +255,14 @@ stories.addWithJSX('inverted and centered', () => {
   const horizontal = boolean('Horizontal', false);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-        height: '100vh',
-        backgroundColor: '#007ac9',
-      }}
-    >
-      <ActionList
-        items={itemsNoTeaser}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={itemsNoTeaser}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      withBorder={withBorder}
+    />
   );
 });
 
