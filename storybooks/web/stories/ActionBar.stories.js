@@ -38,10 +38,11 @@ stories.addWithJSX('default', () => {
       title: 'HSL:n sähköisiä palveluita',
       icon: <Icons.MobileTicket />,
     },
-    {
-      title: 'Palveluita yrityksille ja oppilaitoksille',
-      icon: <Icons.CustomerService />,
-    }
+    (<ActionBarItem
+      key="foo"
+      title="Palveluita yrityksille ja oppilaitoksille"
+      icon={<Icons.CustomerService />}
+    />)
   ];
   return (
     <ActionBar
