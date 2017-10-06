@@ -40,11 +40,12 @@ const Icon = withTheme(({
   icon,
   primary,
   disabled,
+  small,
   theme,
 }) =>
   React.cloneElement(icon, {
-    width: utilsSize(20),
-    height: utilsSize(20),
+    width: size('fontSize', primary, small),
+    height: size('fontSize', primary, small),
     fill: getTextColor({ primary, disabled, theme }),
   })
 );
@@ -67,9 +68,11 @@ const TouchableText = styled(({
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  text-align: center;
-  ${props => props.icon && `
+  ${props => props.icon && !props.iconAfterText && `
     margin-left: ${utilsSize(10)};
+  `}
+  ${props => props.icon && props.iconAfterText && `
+    margin-right: ${utilsSize(10)};
   `}
 `;
 
@@ -83,11 +86,16 @@ const TouchableView = styled(({
   transparent,
   small,
   square,
+  iconAfterText,
   ...rest
 }) => (
   <View {...rest} />
 ))`
   flex-direction: row;
+  ${props => props.iconAfterText && `
+    flex-direction: row-reverse;
+  `}
+  align-items: center;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
@@ -109,6 +117,7 @@ const Button = styled(({
   square,
   small,
   icon,
+  iconAfterText,
   onPress,
   onLongPress,
   innerRef,
@@ -126,6 +135,7 @@ const Button = styled(({
         transparent={transparent}
         square={square}
         small={small}
+        iconAfterText={iconAfterText}
         {...rest}
         innerRef={innerRef}
         accessibilityRole="button"
@@ -135,7 +145,7 @@ const Button = styled(({
             icon={icon}
             primary={primary}
             disabled={disabled}
-            square={square}
+            small={small}
           />
         }
         {
@@ -149,6 +159,7 @@ const Button = styled(({
               transparent={transparent}
               square={square}
               icon={!!icon}
+              iconAfterText={iconAfterText}
               small={small}
             >
               {children}
@@ -167,6 +178,7 @@ Button.propTypes = {
   square: PropTypes.bool,
   small: PropTypes.bool,
   icon: PropTypes.element,
+  iconAfterText: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,

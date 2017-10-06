@@ -44,6 +44,7 @@ const Container = styled(({
   transparent,
   small,
   square,
+  iconAfterText,
   noPadding,
   ...rest
 }) => (
@@ -52,13 +53,16 @@ const Container = styled(({
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  text-align: center;
   ${props => !props.noPadding && `
     padding: 0 ${utilsSize(25, true)}px;
   `}
   cursor: pointer;
 
   flex-direction: row;
+  ${props => props.iconAfterText && `
+    flex-direction: row-reverse;
+  `}
+  align-items: center;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
@@ -80,11 +84,12 @@ const Icon = withTheme(({
   icon,
   primary,
   disabled,
+  small,
   theme,
 }) =>
   React.cloneElement(icon, {
-    width: utilsSize(20),
-    height: utilsSize(20),
+    width: size('fontSize', primary, small),
+    height: size('fontSize', primary, small),
     fill: getTextColor({ primary, disabled, theme }),
   })
 );
@@ -96,6 +101,7 @@ const StyledText = styled(({
   primary,
   success,
   secondary,
+  iconAfterText,
   disabled,
   small,
   ...rest,
@@ -105,8 +111,11 @@ const StyledText = styled(({
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  ${props => props.icon && `
+  ${props => props.icon && !props.iconAfterText && `
     margin-left: ${utilsSize(10)};
+  `}
+  ${props => props.icon && props.iconAfterText && `
+    margin-right: ${utilsSize(10)};
   `}
 `;
 
@@ -120,6 +129,7 @@ const Button = styled(({
   disabled,
   transparent,
   icon,
+  iconAfterText,
   square,
   small,
   noPadding,
@@ -141,6 +151,7 @@ const Button = styled(({
       square={square}
       small={small}
       noPadding={noPadding}
+      iconAfterText={iconAfterText}
       onClick={onPress || onClick}
       accessibilityRole="button"
       {...rest}
@@ -151,7 +162,7 @@ const Button = styled(({
           icon={icon}
           primary={primary}
           disabled={disabled}
-          square={square}
+          small={small}
         />
       }
       {React.isValidElement(children) && children}
@@ -165,6 +176,7 @@ const Button = styled(({
           secondary={secondary}
           icon={!!icon}
           disabled={disabled}
+          iconAfterText={iconAfterText}
           small={small}
         >
           {children}
@@ -181,6 +193,7 @@ Button.propTypes = {
   square: PropTypes.bool,
   small: PropTypes.bool,
   icon: PropTypes.element,
+  iconAfterText: PropTypes.bool,
   noPadding: PropTypes.bool,
   onClick: PropTypes.func,
   onPress: PropTypes.func,

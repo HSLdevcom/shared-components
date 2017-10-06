@@ -25,6 +25,7 @@ storiesOf('Button', module)
     const transparent = boolean('Transparent', false);
     const iconKnob = boolean('Icon', false);
     const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -34,6 +35,7 @@ storiesOf('Button', module)
       small={small}
       transparent={transparent}
       icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -48,7 +50,8 @@ storiesOf('Button', module)
     const disabled = boolean('Disabled', false);
     const small = boolean('Small', false);
     const iconKnob = boolean('Icon', false);
-    const icon = iconKnob ? <Icons.Facebook /> : null;
+    const icon = iconKnob ? <Icons.Edit /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -58,6 +61,7 @@ storiesOf('Button', module)
       primary
       success={success}
       icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -74,6 +78,7 @@ storiesOf('Button', module)
     const transparent = boolean('Transparent', false);
     const iconKnob = boolean('Icon', false);
     const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -84,6 +89,7 @@ storiesOf('Button', module)
       transparent={transparent}
       secondary
       icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >

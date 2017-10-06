@@ -27,16 +27,18 @@ stories.addWithJSX('default', () => {
   const small = boolean('Small', false);
   const iconKnob = boolean('Icon', false);
   const icon = iconKnob ? <Icons.Facebook /> : null;
+  const iconAfterText = boolean('iconAfterText', false);
   return (
     <Button
       hover={hover}
       active={active}
       focus={focus}
       disabled={disabled}
-      icon={icon}
       square={square}
       transparent={transparent}
       small={small}
+      icon={icon}
+      iconAfterText={iconAfterText}
       onClick={action('click')}
     >
       Default Button
@@ -53,7 +55,7 @@ stories.addWithJSX('primary', () => {
   const small = boolean('Small', false);
   const iconKnob = boolean('Icon', false);
   const icon = iconKnob ? <Icons.Facebook /> : null;
-
+  const iconAfterText = boolean('iconAfterText', false);
   return (
     <Button
       hover={hover}
@@ -64,6 +66,7 @@ stories.addWithJSX('primary', () => {
       primary
       success={success}
       icon={icon}
+      iconAfterText={iconAfterText}
       onClick={action('click')}
     >
     Primary Button
@@ -81,6 +84,7 @@ stories.addWithJSX('secondary', () => {
   const transparent = boolean('Transparent', false);
   const iconKnob = boolean('Icon', false);
   const icon = iconKnob ? <Icons.Facebook /> : null;
+  const iconAfterText = boolean('iconAfterText', false);
   return (
     <Button
       hover={hover}
@@ -92,6 +96,7 @@ stories.addWithJSX('secondary', () => {
       transparent={transparent}
       secondary
       icon={icon}
+      iconAfterText={iconAfterText}
       onClick={action('click')}
     >
     Secondary Button
