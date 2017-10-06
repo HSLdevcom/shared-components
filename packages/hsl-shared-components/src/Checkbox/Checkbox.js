@@ -9,7 +9,12 @@ import Icons from '../Icons';
 import { size } from '../utils';
 
 
-export const Box = View.extend`
+export const Box = styled(({
+  error,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   height: ${size(20)};
   width: ${size(20)};
   border-radius: ${size(4)};
