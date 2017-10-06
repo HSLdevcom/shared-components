@@ -102,17 +102,11 @@ export const getVerticalListBorderStyles = props =>
   ${evaluate(Platform.OS === 'android' && props.secondary && props.second, `
     border-top-width: 1px;
   `)}
-
-
-
 `;
 
 export const getHorizontalListBorderStyles = props =>
 `
   border-right-width: 1px;
-  ${evaluate(props.secondary && !props.last, `
-    border-right-color: ${props.theme.colors.primary.hslGreyLight};
-  `)}
 
   ${evaluate(props.withBorder, `
     border-top-width: 1px;
@@ -120,16 +114,32 @@ export const getHorizontalListBorderStyles = props =>
     border-bottom-width: 1px;
   `)}
 
-  ${evaluate(props.withBorder && props.first, `
+  ${evaluate((props.withBorder || props.secondary) && props.first, `
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border-width: 1px;
   `)}
 
-  ${evaluate(props.withBorder && props.last, `
+  ${evaluate((props.withBorder || props.secondary) && props.last, `
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     border-width: 1px;
     border-left-width: 0px;
+  `)}
+
+  ${evaluate(props.secondary, `
+    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+  `)}
+
+  ${evaluate((!props.withBorder || props.secondary) && props.last, `
+    border-right-width: 0px;
+  `)}
+
+  ${evaluate(Platform.OS === 'android' && props.secondary && props.second, `
+    border-left-width: 1px;
   `)}
 `;
