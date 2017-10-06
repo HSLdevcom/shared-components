@@ -22,7 +22,7 @@ exports[`Storyshots Footer default 1`] = `
           Ota HSL -tunnus käyttöön
         </h3>
         <div
-          className="sc-jtRfpW ZRGHb sc-bxivhb gTqmVz rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+          className="sc-gzOgki ikSJlH sc-htoDjs fpctmE rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -30,16 +30,8 @@ exports[`Storyshots Footer default 1`] = `
           tabIndex="0"
         >
           <div
-            active={undefined}
-            className="sc-ifAKCX cQschA rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            className="sc-dnqmqq eLmPsT rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
             dir="auto"
-            disabled={undefined}
-            focus={undefined}
-            hover={undefined}
-            primary={true}
-            secondary={undefined}
-            small={true}
-            success={undefined}
           >
             Luo tunnus
           </div>
@@ -141,11 +133,10 @@ exports[`Storyshots Footer default 1`] = `
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -170,11 +161,10 @@ exports[`Storyshots Footer default 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -199,11 +189,10 @@ exports[`Storyshots Footer default 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -228,11 +217,10 @@ exports[`Storyshots Footer default 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -263,11 +251,10 @@ exports[`Storyshots Footer default 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -616,7 +603,7 @@ exports[`Storyshots Footer sub site 1`] = `
           Ota HSL -tunnus käyttöön
         </h3>
         <div
-          className="sc-jtRfpW ZRGHb sc-bxivhb gTqmVz rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+          className="sc-gzOgki ikSJlH sc-htoDjs fpctmE rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -624,16 +611,8 @@ exports[`Storyshots Footer sub site 1`] = `
           tabIndex="0"
         >
           <div
-            active={undefined}
-            className="sc-ifAKCX cQschA rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            className="sc-dnqmqq eLmPsT rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
             dir="auto"
-            disabled={undefined}
-            focus={undefined}
-            hover={undefined}
-            primary={true}
-            secondary={undefined}
-            small={true}
-            success={undefined}
           >
             Luo tunnus
           </div>
@@ -735,11 +714,10 @@ exports[`Storyshots Footer sub site 1`] = `
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
       >
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -764,11 +742,10 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -793,11 +770,10 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -822,11 +798,10 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
@@ -857,11 +832,10 @@ exports[`Storyshots Footer sub site 1`] = `
           </div>
         </div>
         <div
-          className="sc-EHOje jvzENE sc-bxivhb hrWUuc rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
+          className="sc-iwsKbI jQhHGA sc-htoDjs gEyPms rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-4mrk8 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-d6i92a rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1l0bdvs"
           disabled={undefined}
           onClick={[Function]}
           onKeyPress={[Function]}
-          onLongPress={[Function]}
           role="button"
           tabIndex="0"
         >
