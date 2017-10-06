@@ -16,7 +16,7 @@ const Container = View.extend`
 `;
 
 const Content = styled(({
-  hasImage,
+  hasIcon,
   ...rest,
 }) =>
   <View {...rest} />
