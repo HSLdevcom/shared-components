@@ -17,6 +17,7 @@ const StyledView = View.extend`
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  margin-horizontal: auto;
 `;
 
 const MenuItem = ({

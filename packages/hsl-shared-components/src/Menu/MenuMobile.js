@@ -20,13 +20,20 @@ const Horizontal = View.extend`
   padding-vertical: ${size(12)};
   margin-horizontal: ${size(12)};
   border-bottom-width: 2px;
-  border-bottom-color: ${props => props.theme.colors.primary.hslBlueDark}
+  border-bottom-color: ${props => props.theme.colors.primary.hslBlueDark};
 `;
 
 const MenuItems = View.extend`
   width: 100%;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-vertical: ${size(30)};
+`;
+
+const Divider = View.extend`
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+  border-width: 1px;
 `;
 
 const MenuMobile = ({
@@ -36,8 +43,15 @@ const MenuMobile = ({
   children,
   items,
   ...rest
-}) => (
-  <StyledView {...rest}>
+}) => {
+  const arr = [];
+  React.Children.toArray(children).forEach((child, index, array) => {
+    arr.push(<MenuItemMobile {...child.props} />);
+    if (index < (array.length - 1)) {
+      arr.push(<Divider />);
+    }
+  });
+  return (<StyledView {...rest}>
     <Horizontal>
       <LangSelect
         languages={languages}
@@ -48,13 +62,10 @@ const MenuMobile = ({
     </Horizontal>
     { items }
     <MenuItems>
-      { React.Children.map(children, child => (
-        <MenuItemMobile {...child.props} />
-      ))
-      }
+      { arr }
     </MenuItems>
-  </StyledView>
-);
+  </StyledView>);
+};
 
 MenuMobile.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
