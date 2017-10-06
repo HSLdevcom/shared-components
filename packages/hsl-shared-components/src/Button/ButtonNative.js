@@ -83,6 +83,7 @@ const TouchableView = styled(({
   primary,
   success,
   secondary,
+  inverted,
   transparent,
   small,
   square,
@@ -112,6 +113,7 @@ const Button = styled(({
   primary,
   success,
   secondary,
+  inverted,
   disabled,
   transparent,
   square,
@@ -131,6 +133,7 @@ const Button = styled(({
         primary={primary}
         success={success}
         secondary={secondary}
+        inverted={inverted}
         disabled={disabled}
         transparent={transparent}
         square={square}
@@ -173,6 +176,7 @@ Button.propTypes = {
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
   success: PropTypes.bool,
+  inverted: PropTypes.bool,
   transparent: PropTypes.bool,
   disabled: PropTypes.bool,
   square: PropTypes.bool,

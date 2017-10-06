@@ -96,6 +96,30 @@ storiesOf('Button', module)
       Secondary Button
     </Button>);
   })
+  .add('inverted', () => {
+    const hover = boolean('Hover', false);
+    const active = boolean('Active', false);
+    const focus = boolean('Focus', false);
+    const disabled = boolean('Disabled', false);
+    const small = boolean('Small', false);
+    const iconKnob = boolean('Icon', false);
+    const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
+    return (
+      <Button
+        hover={hover}
+        active={active}
+        focus={focus}
+        disabled={disabled}
+        small={small}
+        inverted
+        icon={icon}
+        iconAfterText={iconAfterText}
+        onClick={action('click')}
+      >
+      Primary Button
+    </Button>);
+  })
   .add('round button', () => {
     const small = boolean('Small', false);
     return (
