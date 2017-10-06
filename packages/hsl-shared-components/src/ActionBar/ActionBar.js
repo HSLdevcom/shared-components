@@ -12,19 +12,42 @@ const ListItem = styled.li`
 const ActionBar = styled(({ items, inverted, ...rest }) =>
   (
     <ul {...rest}>
-      {items.map((item, index) =>
-        (
-          <ListItem>
-            <ActionBarItem
+      {items.map((item, index) => {
+        const isFirst = index === 0;
+        const isLast = index === (items.length - 1);
+
+        if (React.isValidElement(item)) {
+          return (
+            <ListItem
               key={/* eslint-disable react/no-array-index-key */index}
+            >
+              {React.cloneElement(
+                item,
+                {
+                  inverted,
+                  first: isFirst,
+                  last: isLast,
+                  ...item.props
+                },
+              )}
+            </ListItem>
+          );
+        }
+
+        return (
+          <ListItem
+            key={/* eslint-disable react/no-array-index-key */index}
+          >
+            <ActionBarItem
               inverted={inverted}
-              first={index === 0}
-              last={index === (items.length - 1)}
+              first={isFirst}
+              last={isLast}
               {...item}
             />
           </ListItem>
-        )
-      )}
+        );
+      })
+    }
     </ul>
   )
 )`
@@ -41,7 +64,12 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
 `;
 
 ActionBar.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape(ActionBarItem.propTypes)),
+  items: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.shape(ActionBarItem.propTypes),
+      PropTypes.element,
+    ])
+  ),
   inverted: PropTypes.bool,
 };
 
