@@ -12,6 +12,7 @@ const Container = styled(({
   inverted,
   horizontal,
   arrowless,
+  secondary,
   withBorder,
   first,
   second,
@@ -49,6 +50,7 @@ const ActionListItem = ({
   inverted,
   horizontal,
   arrowless,
+  secondary,
   withBorder,
   first,
   second,
@@ -65,6 +67,7 @@ const ActionListItem = ({
       inverted={inverted}
       horizontal={horizontal}
       arrowless={arrowless}
+      secondary={secondary}
       withBorder={withBorder}
       first={first}
       second={second}
@@ -97,6 +100,7 @@ ActionListItem.propTypes = {
   inverted: PropTypes.bool,
   horizontal: PropTypes.bool,
   arrowless: PropTypes.bool,
+  secondary: PropTypes.bool,
   withBorder: PropTypes.bool,
   first: PropTypes.bool,
   second: PropTypes.bool, // Native w/ rounded borders requires every border to have width

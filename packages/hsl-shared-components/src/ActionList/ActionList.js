@@ -9,6 +9,7 @@ const ActionList = styled(({
   centered,
   arrowless,
   horizontal,
+  secondary,
   withBorder,
   ...rest
 }) =>
@@ -22,6 +23,7 @@ const ActionList = styled(({
               centered={centered}
               arrowless={arrowless}
               horizontal={horizontal}
+              secondary={secondary}
               withBorder={withBorder}
               first={index === 0}
               second={index === 1}
@@ -52,6 +54,7 @@ ActionList.propTypes = {
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
   horizontal: PropTypes.bool,
+  secondary: PropTypes.bool,
   withBorder: PropTypes.bool,
 };
 
