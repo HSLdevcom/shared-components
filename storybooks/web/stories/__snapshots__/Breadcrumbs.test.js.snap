@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Breadcrumbs Single item 1`] = `
+<a
+  className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
+  href="http://hsl.fi"
+  onClick={[Function]}
+  role="link"
+>
+  <div
+    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    dir="auto"
+  >
+    Asiakaspalvelu
+  </div>
+  <div
+    className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+  >
+    <svg
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "height": "0.625rem",
+          "width": "0.625rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 20 36"
+    >
+      <path
+        d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+        fill="#007ac9"
+        id="Shape"
+      />
+    </svg>
+  </div>
+</a>
+`;
+
+exports[`Storyshots Breadcrumbs default 1`] = `
+<ul
+  className="sc-gzVnrw ibZhkv sc-EHOje dtIYod"
+>
+  <li
+    className="sc-bZQynM IAXmQ"
+  >
+    <a
+      className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
+      href={undefined}
+      onClick={[Function]}
+      role="link"
+    >
+      <div
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        dir="auto"
+      >
+        Asiakaspalvelu
+      </div>
+      <div
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      >
+        <svg
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "height": "0.625rem",
+              "width": "0.625rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 20 36"
+        >
+          <path
+            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+            fill="#007ac9"
+            id="Shape"
+          />
+        </svg>
+      </div>
+    </a>
+  </li>
+  <li
+    className="sc-bZQynM IAXmQ"
+  >
+    <a
+      className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
+      href={undefined}
+      onClick={[Function]}
+      role="link"
+    >
+      <div
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        dir="auto"
+      >
+        Liput ja hinnat
+      </div>
+      <div
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      >
+        <svg
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "height": "0.625rem",
+              "width": "0.625rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 20 36"
+        >
+          <path
+            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+            fill="#007ac9"
+            id="Shape"
+          />
+        </svg>
+      </div>
+    </a>
+  </li>
+  <li
+    className="sc-bZQynM IAXmQ"
+  >
+    <a
+      className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
+      href={undefined}
+      onClick={[Function]}
+      role="link"
+    >
+      <div
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-1o4mh9l rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        dir="auto"
+      >
+        Kertalippu
+      </div>
+      <div
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+      >
+        <svg
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "height": "0.625rem",
+              "width": "0.625rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 20 36"
+        >
+          <path
+            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+            fill="#007ac9"
+            id="Shape"
+          />
+        </svg>
+      </div>
+    </a>
+  </li>
+</ul>
+`;
