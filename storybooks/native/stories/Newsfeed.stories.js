@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeedItem, NewsFeed, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { NewsFeedItem, NewsFeed, ResponsiveProvider, Icons, Theme } from 'hsl-shared-components';
 
 import ScrollView from './ScrollView';
 
@@ -46,6 +46,12 @@ storiesOf('NewsFeed', module)
         title="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
         timestamp={YESTERDAY_2PM}
         image="https://placehold.it/50x50"
+      />
+      <NewsFeedItem
+        category="Talviaikataulut"
+        title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
+        timestamp={YESTERDAY_2PM}
+        image={<Icons.Info height={70} width={70} fill="#007ac9" />}
       />
       <NewsFeedItem
         category="Talviaikataulut"
