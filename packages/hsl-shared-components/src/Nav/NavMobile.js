@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import omit from 'lodash/fp/omit';
+import omit from 'lodash/omit';
 import { Animated } from 'react-primitives';
 
 import Icons from '../Icons';
