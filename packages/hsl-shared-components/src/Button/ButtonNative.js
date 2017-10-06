@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
 import View from '../View';
@@ -35,6 +36,19 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
+const Icon = withTheme(({
+  icon,
+  primary,
+  disabled,
+  theme,
+}) =>
+  React.cloneElement(icon, {
+    width: utilsSize(20),
+    height: utilsSize(20),
+    fill: getTextColor({ primary, disabled, theme }),
+  })
+);
+
 const TouchableText = styled(({
   hover,
   active,
@@ -54,7 +68,9 @@ const TouchableText = styled(({
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
   text-align: center;
-  margin: 0 ${utilsSize(25, true)}px;
+  ${props => props.icon && `
+    margin-left: ${utilsSize(10)};
+  `}
 `;
 
 const TouchableView = styled(({
@@ -71,6 +87,7 @@ const TouchableView = styled(({
 }) => (
   <View {...rest} />
 ))`
+  flex-direction: row;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
@@ -80,6 +97,7 @@ const TouchableView = styled(({
   ${props => props.primary && `
     border-radius: ${utilsSize(40)};
   `}
+  padding-horizontal: ${utilsSize(25, true)};
 `;
 
 const Button = styled(({
@@ -90,6 +108,7 @@ const Button = styled(({
   transparent,
   square,
   small,
+  icon,
   onPress,
   onLongPress,
   innerRef,
@@ -111,6 +130,14 @@ const Button = styled(({
         innerRef={innerRef}
         accessibilityRole="button"
       >
+        {icon &&
+          <Icon
+            icon={icon}
+            primary={primary}
+            disabled={disabled}
+            square={square}
+          />
+        }
         {
           React.isValidElement(children) ?
             children :
@@ -121,6 +148,7 @@ const Button = styled(({
               disabled={disabled}
               transparent={transparent}
               square={square}
+              icon={!!icon}
               small={small}
             >
               {children}
@@ -138,6 +166,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   square: PropTypes.bool,
   small: PropTypes.bool,
+  icon: PropTypes.element,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,

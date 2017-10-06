@@ -25,19 +25,21 @@ stories.addWithJSX('default', () => {
   const square = boolean('Square', false);
   const transparent = boolean('Transparent', false);
   const small = boolean('Small', false);
+  const iconKnob = boolean('Icon', false);
+  const icon = iconKnob ? <Icons.Facebook /> : null;
   return (
     <Button
       hover={hover}
       active={active}
       focus={focus}
       disabled={disabled}
+      icon={icon}
       square={square}
       transparent={transparent}
       small={small}
-      onPress={action('press')}
-      onLongPress={action('long press')}
+      onClick={action('click')}
     >
-      <span>Default Button</span>
+      Default Button
     </Button>);
 }
 , { displayName: 'Button' });
@@ -49,6 +51,9 @@ stories.addWithJSX('primary', () => {
   const success = boolean('Success', false);
   const disabled = boolean('Disabled', false);
   const small = boolean('Small', false);
+  const iconKnob = boolean('Icon', false);
+  const icon = iconKnob ? <Icons.Facebook /> : null;
+
   return (
     <Button
       hover={hover}
@@ -58,8 +63,8 @@ stories.addWithJSX('primary', () => {
       small={small}
       primary
       success={success}
-      onPress={action('press')}
-      onLongPress={action('long press')}
+      icon={icon}
+      onClick={action('click')}
     >
     Primary Button
   </Button>);
@@ -74,6 +79,8 @@ stories.addWithJSX('secondary', () => {
   const square = boolean('Square', false);
   const small = boolean('Small', false);
   const transparent = boolean('Transparent', false);
+  const iconKnob = boolean('Icon', false);
+  const icon = iconKnob ? <Icons.Facebook /> : null;
   return (
     <Button
       hover={hover}
@@ -84,7 +91,8 @@ stories.addWithJSX('secondary', () => {
       small={small}
       transparent={transparent}
       secondary
-      onPress={action('press')}
+      icon={icon}
+      onClick={action('click')}
     >
     Secondary Button
   </Button>);
@@ -96,8 +104,7 @@ stories.addWithJSX('round button', () => {
   return (
     <RoundButton
       small={small}
-      onPress={action('press')}
-      onLongPress={action('long press')}
+      onClick={action('click')}
     >
       <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
     </RoundButton>
@@ -112,8 +119,7 @@ stories.addWithJSX('button with text', () => {
       small={small}
       text="Kaupunkipyörät"
       icon={icon}
-      onPress={action('press')}
-      onLongPress={action('long press')}
+      onClick={action('click')}
     />
   );
 });
