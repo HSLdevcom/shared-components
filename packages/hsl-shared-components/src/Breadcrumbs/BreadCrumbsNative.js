@@ -6,6 +6,7 @@ import BreadcrumbItem from './BreadcrumbItem';
 
 const Container = View.extend`
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
 `;
 

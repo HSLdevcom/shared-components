@@ -9,11 +9,12 @@ import { P } from '../Typography';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
 
+// Padding-vertical and border-style are needed for touchable to work in android
 const ItemContainer = View.extend`
   flex-direction: row;
   justify-content: flex-start;
   margin-right: ${size(10)};
-  padding-vertical: ${size(10)}; /* Android touchable target size fix */
+  padding-vertical: ${size(5)};
   border-style: solid;
 `;
 
