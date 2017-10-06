@@ -138,7 +138,9 @@ const Button = styled(({
   onLongPress,
   innerRef,
   children,
-  ...rest }) => (
+  ...rest }) => {
+  const hasValidChildren = React.isValidElement(children);
+  return (
     <Container
       hover={hover}
       active={active}
@@ -165,8 +167,8 @@ const Button = styled(({
           small={small}
         />
       }
-      {React.isValidElement(children) && children}
-      {!React.isValidElement(children) &&
+      {hasValidChildren && children}
+      {!hasValidChildren &&
         <StyledText
           hover={hover}
           active={active}
@@ -182,7 +184,8 @@ const Button = styled(({
           {children}
         </StyledText>}
     </Container>
-))``;
+    );
+})``;
 
 Button.propTypes = {
   primary: PropTypes.bool,
