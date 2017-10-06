@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
-import omit from 'lodash/fp/omit';
+import omit from 'lodash/omit';
 import { size } from '../utils';
 
 const Input = styled.TextInput`
@@ -31,7 +31,7 @@ Input.defaultProps = {
 class TextInput extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { focus: false, value: this.props.value || '' };
+    this.state = { focus: this.props.focus || false, value: this.props.value || '' };
     this.onFocus = this.onFocus.bind(this);
     this.onBlur = this.onBlur.bind(this);
     this.onChange = this.onChange.bind(this);
@@ -63,7 +63,7 @@ class TextInput extends React.Component {
     });
 
     if (this.props.onChange) {
-      this.props.onChange();
+      this.props.onChange(value);
     }
   }
 
@@ -84,6 +84,7 @@ TextInput.propTypes = {
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
   value: PropTypes.string,
+  focus: PropTypes.bool,
   error: PropTypes.bool // eslint-disable-line react/no-unused-prop-types
 };
 

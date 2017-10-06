@@ -15,6 +15,9 @@ storiesOf('Input/TextInput', module)
   .add('Default', () => {
     const placeholder = text('Placeholder', 'placeholder');
     const focus = boolean('Focus', false);
+    const autoFocus = boolean('AutoFocus', false);
     const error = boolean('Error', false);
-    return (<TextInput placeholder={placeholder} focus={focus} error={error} />);
+    return (
+      <TextInput placeholder={placeholder} autoFocus={autoFocus} focus={focus} error={error} />
+    );
   }, { displayName: 'TextInput' });
