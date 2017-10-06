@@ -4,7 +4,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { ThemeProvider } from 'styled-components';
-import { NewsFeed, NewsFeedItem, ResponsiveProvider, Theme } from 'hsl-shared-components';
+import { NewsFeed, NewsFeedItem, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 setAddon(JSXAddon);
 
@@ -47,6 +47,12 @@ stories.addWithJSX('default', () => (
       title="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
       timestamp={YESTERDAY_2PM}
       image="https://placehold.it/50x50"
+    />
+    <NewsFeedItem
+      category="Talviaikataulut"
+      title="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
+      timestamp={YESTERDAY_2PM}
+      image={<Icons.Info height={150} width={150} fill="#007ac9" />}
     />
     <NewsFeedItem
       category="Talviaikataulut"
