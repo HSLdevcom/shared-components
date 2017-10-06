@@ -8,6 +8,57 @@ import Touchable from '../Touchable';
 import Icons from '../Icons';
 import { size } from '../utils';
 
+const getCheckColor = (props) => {
+  if (props.disabled) {
+    return props.theme.colors.primary.hslGreyLight;
+  }
+  if (props.error) {
+    return props.theme.error.color.primary;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  return props.theme.colors.primary.hslBlue;
+};
+
+const getTextColor = (props) => {
+  if (props.disabled) {
+    return props.theme.colors.primary.hslGreyLight;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  return props.theme.font.colors.default;
+};
+
+const getBorderColor = (props) => {
+  if (props.disabled) {
+    return props.theme.colors.primary.hslGreyLight;
+  }
+  if (props.error) {
+    return props.theme.error.color.primary;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
+  }
+  if (props.checked) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return props.theme.colors.primary.hslGrey;
+};
+
+const getBackgroundColor = (props) => {
+  if (props.disabled) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  if (props.error) {
+    return props.theme.error.color.secondary;
+  }
+  if (props.inverted) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  return 'transparent';
+};
 
 export const Box = styled(({
   error,
@@ -20,27 +71,39 @@ export const Box = styled(({
   border-radius: ${size(4)};
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.theme.colors.primary.hslGreyLight};
-  ${props => props.checked && `
-    border-color: ${props.theme.colors.primary.hslBlue};
-  `}
-  ${props => props.error && `
-    border-color: ${props.theme.error.color.primary};
-    background-color: ${props.theme.error.color.secondary};
-  `}
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
 `;
 
 const StyledLabelText = LabelText.extend`
-  margin-left: ${size(20)};
+  color: ${props => getTextColor(props)};
+  margin-left: ${size(10)};
 `;
 
-const Checkmark = withTheme(({ theme }) => (
-  <Icons.Checkmark fill={theme.colors.primary.hslBlue} height={20} width={20} />
+const Checkmark = withTheme(({
+  error,
+  inverted,
+  disabled,
+  theme,
+}) => (
+  <Icons.Checkmark
+    fill={
+      getCheckColor({
+        error,
+        inverted,
+        disabled,
+        theme,
+      })}
+    height={20}
+    width={20}
+  />
 ));
 
 const Checkbox = styled(({
   checked,
   error,
+  inverted,
+  disabled,
   onPress,
   title,
   ...rest }) => (
@@ -51,10 +114,22 @@ const Checkbox = styled(({
         aria-checked={checked ? 'true' : 'false'}
         tabIndex="0"
       >
-        <Box checked={checked} error={error}>
-          { checked && <Checkmark />}
+        <Box
+          checked={checked}
+          disabled={disabled}
+          error={error}
+          inverted={inverted}
+        >
+          { checked && <Checkmark disabled={disabled} error={error} inverted={inverted} />}
         </Box>
-        { title && <StyledLabelText>{title}</StyledLabelText> }
+        { title &&
+          <StyledLabelText
+            disabled={disabled}
+            inverted={inverted}
+          >
+            {title}
+          </StyledLabelText>
+        }
       </View>
     </Touchable>
 ))`
@@ -65,6 +140,7 @@ const Checkbox = styled(({
 Checkbox.propTypes = {
   disabled: PropTypes.bool,
   error: PropTypes.bool,
+  inverted: PropTypes.bool,
   onPress: PropTypes.func,
   innerRef: PropTypes.func,
   title: PropTypes.string
