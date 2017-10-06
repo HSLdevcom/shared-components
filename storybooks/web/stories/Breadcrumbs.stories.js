@@ -31,12 +31,12 @@ stories.addWithJSX('default', () =>
 );
 
 stories.addWithJSX('Single item', () => {
-  const type = select('Type', ['button', 'link'], 'link');
+  const accessibilityRole = select('accessibilityRole', ['button', 'link'], 'link');
   const title = text('Title', 'Asiakaspalvelu');
   const href = text('Href', 'http://hsl.fi');
   return (
     <BreadcrumbItem
-      type={type}
+      accessibilityRole={accessibilityRole}
       title={title}
       href={href}
       onClick={action('click')}

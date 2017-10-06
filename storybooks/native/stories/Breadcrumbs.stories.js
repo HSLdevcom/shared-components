@@ -23,6 +23,11 @@ const items = [
     onPress: action('onPress, link 3'),
     onLongPress: action('onLongPress, link 3'),
   },
+  {
+    title: 'Lorem ipsum',
+    onPress: action('onPress, link 4'),
+    onLongPress: action('onLongPress, link 4'),
+  },
 ];
 
 storiesOf('Breadcrumbs', module)

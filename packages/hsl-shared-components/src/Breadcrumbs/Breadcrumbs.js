@@ -6,6 +6,7 @@ import BreadcrumbItem from './BreadcrumbItem';
 const List = styled.ul`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0;
   padding: 0;
