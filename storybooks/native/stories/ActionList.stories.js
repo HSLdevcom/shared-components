@@ -157,68 +157,89 @@ storiesOf('ActionList', module)
         <CenterView>{getStory()}</CenterView>
       </ResponsiveProvider>
     </ThemeProvider>))
-    .add('default', () => {
-      const inverted = boolean('Inverted', false);
-      const centered = boolean('Centered', false);
-      const arrowless = boolean('Arrowless', false);
-      const withBorder = boolean('withBorder', false);
+  .add('default', () => {
+    const inverted = boolean('Inverted', false);
+    const centered = boolean('Centered', false);
+    const arrowless = boolean('Arrowless', false);
+    const secondary = boolean('Secondary', false);
+    const withBorder = boolean('withBorder', false);
 
-      const StyledView = View.extend``;
+    const StyledView = View.extend`
+      padding: 10px;
+    `;
 
-      return (
-        <StyledView>
-          <ActionList
-            items={data}
-            inverted={inverted}
-            centered={centered}
-            arrowless={arrowless}
-            withBorder={withBorder}
-          />
-        </StyledView>
-      );
-    })
-    .add('with borders', () => {
-      const inverted = boolean('Inverted', false);
-      const centered = boolean('Centered', false);
-      const arrowless = boolean('Arrowless', false);
-      const withBorder = boolean('withBorder', true);
-
-      const StyledView = View.extend``;
-
-      return (
-        <StyledView>
-          <ActionList
-            items={data}
-            inverted={inverted}
-            centered={centered}
-            arrowless={arrowless}
-            withBorder={withBorder}
-          />
-        </StyledView>
-      );
-    })
-    .add('teasers', () => {
-      const centered = boolean('Centered', false);
-      const arrowless = boolean('Arrowless', false);
-      const withBorder = boolean('withBorder', false);
-      return (
+    return (
+      <StyledView>
         <ActionList
-          items={dataTeaser}
+          items={data}
+          inverted={inverted}
           centered={centered}
           arrowless={arrowless}
+          secondary={secondary}
           withBorder={withBorder}
         />
-      );
-    })
+      </StyledView>
+    );
+  })
+  .add('with borders', () => {
+    const inverted = boolean('Inverted', false);
+    const centered = boolean('Centered', false);
+    const arrowless = boolean('Arrowless', false);
+    const secondary = boolean('Secondary', false);
+    const withBorder = boolean('withBorder', true);
+
+    const StyledView = View.extend`
+      padding: 10px;
+    `;
+
+    return (
+      <StyledView>
+        <ActionList
+          items={data}
+          inverted={inverted}
+          centered={centered}
+          arrowless={arrowless}
+          secondary={secondary}
+          withBorder={withBorder}
+        />
+      </StyledView>
+    );
+  })
+  .add('teasers and secondary', () => {
+    const inverted = boolean('Inverted', false);
+    const centered = boolean('Centered', false);
+    const arrowless = boolean('Arrowless', false);
+    const secondary = boolean('Secondary', true);
+    const withBorder = boolean('withBorder', true);
+
+    const StyledView = View.extend`
+      padding: 10px;
+    `;
+
+    return (
+      <StyledView>
+        <ActionList
+          items={dataTeaser}
+          inverted={inverted}
+          centered={centered}
+          arrowless={arrowless}
+          secondary={secondary}
+          withBorder={withBorder}
+        />
+      </StyledView>
+    );
+  })
   .add('inverted and centered', () => {
     const inverted = boolean('Inverted', true);
     const centered = boolean('Centered', true);
     const arrowless = boolean('Arrowless', true);
+    const secondary = boolean('Secondary', false);
     const withBorder = boolean('withBorder', true);
 
     const StyledView = View.extend`
       height: 100%;
       width: 100%;
+      padding: 10px;
       background-color: #007ac9;
     `;
 
@@ -229,11 +250,13 @@ storiesOf('ActionList', module)
           inverted={inverted}
           centered={centered}
           arrowless={arrowless}
+          secondary={secondary}
           withBorder={withBorder}
         />
       </StyledView>
     );
   })
+
   .add('ActionListItemText', () => {
     const title = text('Title', 'Ruskeasuon varikko');
     const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
@@ -243,6 +266,7 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrowless = boolean('Arrowless', false);
     const inverted = boolean('Inverted', false);
+    const secondary = boolean('Secondary', false);
     const withBorder = boolean('withBorder', false);
     const iconKnob = boolean('Icon', true);
     const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
@@ -258,6 +282,7 @@ storiesOf('ActionList', module)
         icon={icon}
         arrowless={arrowless}
         inverted={inverted}
+        secondary={secondary}
         withBorder={withBorder}
         onPress={action('press')}
         onLongPress={action('long press')}
@@ -267,6 +292,7 @@ storiesOf('ActionList', module)
   .add('ActionListItemTeaser', () => {
     const cta = text('cta', 'Matkakortille');
     const iconKnob = boolean('Icon', true);
+    const secondary = boolean('Secondary', false);
     const icon = iconKnob ?
       <Icons.MobileTicket />
       : null;
@@ -277,6 +303,7 @@ storiesOf('ActionList', module)
         icon={icon}
         cta={cta}
         content={content}
+        secondary={secondary}
         onClick={action('click')}
         onPress={action('press')}
         onLongPress={action('long press')}

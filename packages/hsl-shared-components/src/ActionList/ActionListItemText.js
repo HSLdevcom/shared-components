@@ -17,6 +17,7 @@ const Container = View.extend`
   border-color: transparent;
   border-width: 1px;
   border-style: solid;
+  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const TitleAndIconContainer = styled(({
@@ -151,8 +152,8 @@ const ActiveItemUnderline = styled(({
 ))`
   position: absolute;
   height: 3px;
-  bottom: -${size(18)};
-  left: -${size(18)};
+  bottom: -2px;
+  left: -50%;
   width: 200%;
   ${props => props.active && !props.inverted && !props.withBorder && `
     background-color: ${props.theme.colors.primary.hslBlue};

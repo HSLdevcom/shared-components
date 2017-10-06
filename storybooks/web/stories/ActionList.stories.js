@@ -10,12 +10,17 @@ setAddon(JSXAddon);
 
 const stories = storiesOf('ActionList', module);
 stories.addDecorator(withKnobs);
-stories.addDecorator(getStory => (
-  <ThemeProvider theme={Theme}>
-    <ResponsiveProvider>
-      {getStory()}
-    </ResponsiveProvider>
-  </ThemeProvider>));
+stories.addDecorator((getStory) => {
+  const StyledView = View.extend`
+  `;
+  return (
+    <ThemeProvider theme={Theme}>
+      <ResponsiveProvider>
+        <StyledView>{getStory()}</StyledView>
+      </ResponsiveProvider>
+    </ThemeProvider>
+  );
+});
 
 const items = [
   {
@@ -178,6 +183,7 @@ stories.addWithJSX('default', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const horizontal = boolean('Horizontal', false);
+  const secondary = boolean('Secondary', false);
   const withBorder = boolean('withBorder', false);
   return (
     <ActionList
@@ -186,6 +192,7 @@ stories.addWithJSX('default', () => {
       centered={centered}
       arrowless={arrowless}
       horizontal={horizontal}
+      secondary={secondary}
       withBorder={withBorder}
     />
   );
@@ -196,22 +203,18 @@ stories.addWithJSX('with borders', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const horizontal = boolean('Horizontal', false);
+  const secondary = boolean('Secondary', false);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-      }}
-    >
-      <ActionList
-        items={items}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={items}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      secondary={secondary}
+      withBorder={withBorder}
+    />
   );
 });
 
@@ -220,29 +223,26 @@ stories.addWithJSX('horizontal', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const horizontal = boolean('Horizontal', true);
+  const secondary = boolean('Secondary', false);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-      }}
-    >
-      <ActionList
-        items={horizItems}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={horizItems}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      secondary={secondary}
+      withBorder={withBorder}
+    />
   );
 });
 
-stories.addWithJSX('teasers', () => {
+stories.addWithJSX('teasers and secondary', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const horizontal = boolean('Horizontal', false);
+  const secondary = boolean('Secondary', true);
   const withBorder = boolean('withBorder', false);
   return (
     <ActionList
@@ -250,6 +250,7 @@ stories.addWithJSX('teasers', () => {
       centered={centered}
       arrowless={arrowless}
       horizontal={horizontal}
+      secondary={secondary}
       withBorder={withBorder}
     />
   );
@@ -260,24 +261,18 @@ stories.addWithJSX('inverted and centered', () => {
   const centered = boolean('Centered', true);
   const arrowless = boolean('Arrowless', true);
   const horizontal = boolean('Horizontal', false);
+  const secondary = boolean('Secondary', false);
   const withBorder = boolean('withBorder', true);
   return (
-    <div
-      style={{
-        padding: '10px',
-        height: '100vh',
-        backgroundColor: '#007ac9',
-      }}
-    >
-      <ActionList
-        items={itemsNoTeaser}
-        inverted={inverted}
-        centered={centered}
-        arrowless={arrowless}
-        horizontal={horizontal}
-        withBorder={withBorder}
-      />
-    </div>
+    <ActionList
+      items={itemsNoTeaser}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      secondary={secondary}
+      withBorder={withBorder}
+    />
   );
 });
 
@@ -292,6 +287,7 @@ stories.addWithJSX('ActionListItemText', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
   const inverted = boolean('Inverted', false);
+  const secondary = boolean('Secondary', false);
   const withBorder = boolean('withBorder', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.JourneyPlanner /> : null;
@@ -309,6 +305,7 @@ stories.addWithJSX('ActionListItemText', () => {
       icon={icon}
       arrowless={arrowless}
       inverted={inverted}
+      secondary={secondary}
       withBorder={withBorder}
       onClick={action('click')}
       onPress={action('press')}
@@ -319,6 +316,7 @@ stories.addWithJSX('ActionListItemText', () => {
 
 stories.addWithJSX('ActionListItemTeaser', () => {
   const cta = text('cta', 'Matkakortille');
+  const secondary = boolean('Secondary', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ?
     <Icons.MobileTicket />
@@ -336,6 +334,7 @@ stories.addWithJSX('ActionListItemTeaser', () => {
       icon={icon}
       cta={cta}
       content={content}
+      secondary={secondary}
       onClick={action('click')}
       onPress={action('press')}
       onLongPress={action('long press')}

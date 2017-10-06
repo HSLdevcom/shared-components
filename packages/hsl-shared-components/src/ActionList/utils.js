@@ -8,7 +8,7 @@ const evaluate = (condition, styles) => {
   return '';
 };
 
-export const getTextColor = (props, secondary = false) => {
+export const getTextColor = (props, subtitle = false) => {
   if (props.inverted && props.active) {
     return props.theme.font.colors.highlight;
   }
@@ -18,7 +18,7 @@ export const getTextColor = (props, secondary = false) => {
   if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslWhite;
   }
-  if (secondary) {
+  if (subtitle) {
     return props.theme.font.colors.default;
   }
   return props.theme.font.colors.highlight;
@@ -34,7 +34,7 @@ export const getBorderColor = (props) => {
   if (props.withBorder) {
     return props.theme.colors.primary.hslGreyLight;
   }
-  if (props.withBorder && props.active) {
+  if (props.active) {
     return props.theme.colors.primary.hslBlue;
   }
   return props.theme.colors.primary.hslGreyLight;
@@ -47,12 +47,16 @@ export const getBackgroundColor = (props) => {
   if (props.inverted) {
     return props.theme.colors.primary.hslBlue;
   }
+  if (props.secondary) {
+    return props.theme.colors.background.hslGreyLight;
+  }
   if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslBlue;
   }
-  return props.theme.colors.primary.hslWhite;
+  return props.theme.colors.background.hslWhite;
 };
 
+// The use of border-width might seem funny, but is required by android
 export const getVerticalListBorderStyles = props =>
 `
   border-bottom-width: 1px;
@@ -64,8 +68,8 @@ export const getVerticalListBorderStyles = props =>
   `)}
 
   ${evaluate(props.withBorder && props.first, `
-    border-top-width: 1px;
     border-width: 1px;
+    border-top-width: 1px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   `)}
@@ -78,13 +82,34 @@ export const getVerticalListBorderStyles = props =>
       border-width: 1px;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
-    `)}
+  `)}
+
+  ${evaluate(props.secondary, `
+    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+  `)}
+
+  ${evaluate((!props.withBorder || props.secondary) && props.last, `
+    border-bottom-width: 0px;
+  `)}
+
+  ${evaluate(Platform.OS === 'android' && props.secondary && props.second, `
+    border-top-width: 1px;
+  `)}
+
+
 
 `;
 
 export const getHorizontalListBorderStyles = props =>
 `
   border-right-width: 1px;
+  ${evaluate(props.secondary && !props.last, `
+    border-right-color: ${props.theme.colors.primary.hslGreyLight};
+  `)}
 
   ${evaluate(props.withBorder, `
     border-top-width: 1px;
@@ -96,10 +121,6 @@ export const getHorizontalListBorderStyles = props =>
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border-width: 1px;
-  `)}
-
-  ${evaluate(Platform.OS === 'android' && props.withBorder && props.secondToLast, `
-    border-right-width: 0px;
   `)}
 
   ${evaluate(props.withBorder && props.last, `

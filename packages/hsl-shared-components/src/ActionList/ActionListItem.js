@@ -4,7 +4,6 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import ActionListItemText from './ActionListItemText';
 import ActionListItemTeaser from './ActionListItemTeaser';
-import { IS_NATIVE, size } from '../utils';
 import { getBorderColor, getBackgroundColor, getVerticalListBorderStyles, getHorizontalListBorderStyles } from './utils';
 
 const Container = styled(({
@@ -13,6 +12,7 @@ const Container = styled(({
   inverted,
   horizontal,
   arrowless,
+  secondary,
   withBorder,
   first,
   second,
@@ -41,8 +41,6 @@ const Container = styled(({
 
   ${props => !props.horizontal && getVerticalListBorderStyles(props)}
   ${props => props.horizontal && getHorizontalListBorderStyles(props)}
-
-  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const ActionListItem = ({
@@ -52,6 +50,7 @@ const ActionListItem = ({
   inverted,
   horizontal,
   arrowless,
+  secondary,
   withBorder,
   first,
   second,
@@ -68,6 +67,7 @@ const ActionListItem = ({
       inverted={inverted}
       horizontal={horizontal}
       arrowless={arrowless}
+      secondary={secondary}
       withBorder={withBorder}
       first={first}
       second={second}
@@ -100,6 +100,7 @@ ActionListItem.propTypes = {
   inverted: PropTypes.bool,
   horizontal: PropTypes.bool,
   arrowless: PropTypes.bool,
+  secondary: PropTypes.bool,
   withBorder: PropTypes.bool,
   first: PropTypes.bool,
   second: PropTypes.bool, // Native w/ rounded borders requires every border to have width
