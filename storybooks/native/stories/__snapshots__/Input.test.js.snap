@@ -11,13 +11,13 @@ exports[`Storyshots Input/TextInput Default 1`] = `
 >
   <View>
     <TextInput
-      0="onChange"
-      1="onBlur"
-      2="onFocus"
+      autoFocus={false}
+      error={false}
       focus={false}
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
+      placeholder="placeholder"
       style={
         Array [
           Object {
@@ -33,7 +33,10 @@ exports[`Storyshots Input/TextInput Default 1`] = `
             "paddingRight": 15.75,
             "paddingTop": 12.25,
           },
-          undefined,
+          Array [
+            Object {},
+            undefined,
+          ],
         ]
       }
       underlineColorAndroid="transparent"
