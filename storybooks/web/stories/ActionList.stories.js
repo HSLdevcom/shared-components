@@ -243,7 +243,6 @@ stories.addWithJSX('teasers and secondary', () => {
   const arrowless = boolean('Arrowless', false);
   const horizontal = boolean('Horizontal', false);
   const secondary = boolean('Secondary', true);
-  const withBorder = boolean('withBorder', false);
   return (
     <ActionList
       items={itemsTeaser}
@@ -251,7 +250,6 @@ stories.addWithJSX('teasers and secondary', () => {
       arrowless={arrowless}
       horizontal={horizontal}
       secondary={secondary}
-      withBorder={withBorder}
     />
   );
 });

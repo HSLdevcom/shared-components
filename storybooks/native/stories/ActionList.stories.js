@@ -210,7 +210,6 @@ storiesOf('ActionList', module)
     const centered = boolean('Centered', false);
     const arrowless = boolean('Arrowless', false);
     const secondary = boolean('Secondary', true);
-    const withBorder = boolean('withBorder', true);
 
     const StyledView = View.extend`
       padding: 10px;
@@ -224,7 +223,6 @@ storiesOf('ActionList', module)
           centered={centered}
           arrowless={arrowless}
           secondary={secondary}
-          withBorder={withBorder}
         />
       </StyledView>
     );
