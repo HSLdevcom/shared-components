@@ -35,7 +35,9 @@ latter doesn't display debug information
 #### TL;DR ####
 
 IOS
-- ?
+- [Install XCode](https://developer.apple.com/xcode/)
+- `yarn storybook`
+- `yarn android`
 
 Android
 - launch emulator/device
@@ -86,7 +88,6 @@ Native components to src/native/index.js
 `lerna publish`
 
 ## Documentation
-* [Z-Index Index](docs/ZIndex.md)
 
 ## Common problems ##
 
