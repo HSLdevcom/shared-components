@@ -37,7 +37,7 @@ latter doesn't display debug information
 IOS
 - [Install XCode](https://developer.apple.com/xcode/)
 - `yarn storybook`
-- `yarn android`
+- `yarn ios`
 
 Android
 - launch emulator/device
