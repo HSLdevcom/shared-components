@@ -53,7 +53,10 @@ export const getBackgroundColor = (props) => {
   if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslBlue;
   }
-  return props.theme.colors.background.hslWhite;
+  if (props.withBorder) {
+    return props.theme.colors.background.hslWhite;
+  }
+  return 'transparent';
 };
 
 // The use of border-width might seem funny, but is required by android
@@ -67,7 +70,7 @@ export const getVerticalListBorderStyles = props =>
     border-left-width: 1px;
   `)}
 
-  ${evaluate(props.withBorder && props.first, `
+  ${evaluate((props.withBorder || props.secondary) && props.first, `
     border-width: 1px;
     border-top-width: 1px;
     border-top-left-radius: 4px;
@@ -78,7 +81,7 @@ export const getVerticalListBorderStyles = props =>
     border-bottom-width: 0px;
   `)}
 
-  ${evaluate(props.withBorder && props.last, `
+  ${evaluate((props.withBorder || props.secondary) && props.last, `
       border-width: 1px;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
