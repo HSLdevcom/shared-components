@@ -19,6 +19,7 @@ function loadStories() {
   require('../stories/Newsfeed.stories.js');
   require('../stories/Section.stories.js');
   require('../stories/Tabs.stories.js');
+  require('../stories/Teaser.stories.js');
   require('../stories/Typography.stories.js');
 
 }
