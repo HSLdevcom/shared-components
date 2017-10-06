@@ -17,6 +17,7 @@ const Container = View.extend`
   border-color: transparent;
   border-width: 1px;
   border-style: solid;
+  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const TitleAndIconContainer = styled(({

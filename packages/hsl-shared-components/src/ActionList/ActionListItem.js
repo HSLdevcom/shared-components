@@ -4,7 +4,6 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import ActionListItemText from './ActionListItemText';
 import ActionListItemTeaser from './ActionListItemTeaser';
-import { IS_NATIVE, size } from '../utils';
 import { getBorderColor, getBackgroundColor, getVerticalListBorderStyles, getHorizontalListBorderStyles } from './utils';
 
 const Container = styled(({
@@ -41,8 +40,6 @@ const Container = styled(({
 
   ${props => !props.horizontal && getVerticalListBorderStyles(props)}
   ${props => props.horizontal && getHorizontalListBorderStyles(props)}
-
-  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const ActionListItem = ({
