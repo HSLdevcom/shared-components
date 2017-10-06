@@ -32,10 +32,10 @@ const ArrowIcon = withTheme(({ theme }) =>
   <ArrowRight height={size(10)} width={size(10)} fill={theme.colors.primary.hslBlue} />
 );
 
-const BreadcrumbItemCore = styled(({ title, type, href, onClick, ...rest }) =>
+const BreadcrumbItemCore = styled(({ title, accessibilityRole, href, onClick, ...rest }) =>
   (
     <ItemContainer
-      accessibilityRole={type || 'link'}
+      accessibilityRole={accessibilityRole || 'link'}
       href={href}
       onClick={onClick}
       {...rest}
@@ -71,7 +71,7 @@ const BreadcrumbItem = styled(({
 })``;
 
 BreadcrumbItemCore.PropTypes = {
-  type: PropTypes.oneOf(['link', 'button']),
+  accessibilityRole: PropTypes.oneOf(['link', 'button']),
   title: PropTypes.string,
   onClick: PropTypes.func,
 };
