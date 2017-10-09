@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
 import View from '../View';
@@ -35,6 +36,20 @@ function size(kind, primary, small) {
   return small ? map.small : map.default;
 }
 
+const Icon = withTheme(({
+  icon,
+  primary,
+  disabled,
+  small,
+  theme,
+}) =>
+  React.cloneElement(icon, {
+    width: size('fontSize', primary, small),
+    height: size('fontSize', primary, small),
+    fill: getTextColor({ primary, disabled, theme }),
+  })
+);
+
 const TouchableText = styled(({
   hover,
   active,
@@ -53,8 +68,12 @@ const TouchableText = styled(({
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  text-align: center;
-  margin: 0 ${utilsSize(25, true)}px;
+  ${props => props.icon && !props.iconAfterText && `
+    margin-left: ${utilsSize(10)};
+  `}
+  ${props => props.icon && props.iconAfterText && `
+    margin-right: ${utilsSize(10)};
+  `}
 `;
 
 const TouchableView = styled(({
@@ -64,13 +83,20 @@ const TouchableView = styled(({
   primary,
   success,
   secondary,
+  inverted,
   transparent,
   small,
   square,
+  iconAfterText,
   ...rest
 }) => (
   <View {...rest} />
 ))`
+  flex-direction: row;
+  ${props => props.iconAfterText && `
+    flex-direction: row-reverse;
+  `}
+  align-items: center;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
@@ -80,16 +106,20 @@ const TouchableView = styled(({
   ${props => props.primary && `
     border-radius: ${utilsSize(40)};
   `}
+  padding-horizontal: ${utilsSize(25, true)};
 `;
 
 const Button = styled(({
   primary,
   success,
   secondary,
+  inverted,
   disabled,
   transparent,
   square,
   small,
+  icon,
+  iconAfterText,
   onPress,
   onLongPress,
   innerRef,
@@ -103,14 +133,24 @@ const Button = styled(({
         primary={primary}
         success={success}
         secondary={secondary}
+        inverted={inverted}
         disabled={disabled}
         transparent={transparent}
         square={square}
         small={small}
+        iconAfterText={iconAfterText}
         {...rest}
         innerRef={innerRef}
         accessibilityRole="button"
       >
+        {icon &&
+          <Icon
+            icon={icon}
+            primary={primary}
+            disabled={disabled}
+            small={small}
+          />
+        }
         {
           React.isValidElement(children) ?
             children :
@@ -121,6 +161,8 @@ const Button = styled(({
               disabled={disabled}
               transparent={transparent}
               square={square}
+              icon={!!icon}
+              iconAfterText={iconAfterText}
               small={small}
             >
               {children}
@@ -134,10 +176,13 @@ Button.propTypes = {
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
   success: PropTypes.bool,
+  inverted: PropTypes.bool,
   transparent: PropTypes.bool,
   disabled: PropTypes.bool,
   square: PropTypes.bool,
   small: PropTypes.bool,
+  icon: PropTypes.element,
+  iconAfterText: PropTypes.bool,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
