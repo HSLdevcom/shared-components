@@ -62,7 +62,14 @@ const MenuMobile = ({
     </Horizontal>
     { items }
     <MenuItems>
-      { arr }
+      {
+        arr.map(
+          (item, index) => (
+            /* eslint-disable react/no-array-index-key */
+            React.cloneElement(item, { key: index })
+          )
+        )
+      }
     </MenuItems>
   </StyledView>);
 };
