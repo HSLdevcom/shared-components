@@ -9,16 +9,15 @@ import NavMobile from './NavMobile';
 import { MenuMobile, MenuSmall } from '../Menu';
 import View from '../View';
 import { Responsive, IS_NATIVE } from '../utils';
+import { ADiv } from '../Animated';
 
 const Header = View.extend`
   width: 100%;
   align-items: stretch;
 `;
 
-const Div = Animated.createAnimatedComponent('div');
-
 const ScrollWrap = styled(props => (
-  <Div {...props} />
+  <ADiv {...props} />
 ))`
   position: fixed;
   width: 100%;

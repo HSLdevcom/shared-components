@@ -8,6 +8,7 @@ import Icons from '../Icons';
 import Touchable from '../Touchable';
 import View from '../View';
 import { size } from '../utils';
+import { AView } from '../Animated';
 
 export const Height = size(64);
 
@@ -19,7 +20,7 @@ const StyledNav = styled(({ menuOpen, ...rest }) => (
 `;
 
 const AnimatedView = styled(props => (
-  <Animated.View {...props} />
+  <AView {...props} />
 ))`
   align-items: stretch;
   overflow: hidden;

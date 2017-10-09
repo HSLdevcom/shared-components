@@ -9,6 +9,7 @@ import LangButton from './LangButton';
 import View from '../View';
 import { P } from '../Typography';
 import { size } from '../utils';
+import { AView } from '../Animated';
 
 const LanguageButton = LangButton.extend`
   width: ${size(52)};
@@ -68,7 +69,7 @@ class LangSelectSmall extends React.Component {
             fill={this.props.theme.colors.background.hslWhite}
           />
         </LanguageButton>
-        <Animated.View
+        <AView
           style={{ maxHeight: this.state.anim }}
         >
           {
@@ -92,7 +93,7 @@ class LangSelectSmall extends React.Component {
             }
             </SelectWrapper>
           }
-        </Animated.View>
+        </AView>
       </StyledView>);
   }
 }
