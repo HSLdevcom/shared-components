@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
+import styled, { withTheme } from 'styled-components/primitives';
 import omit from 'lodash/omit';
 import { Animated } from 'react-primitives';
 
@@ -92,7 +92,11 @@ class Nav extends React.Component {
             ))}
           <Touchable onPress={this.toggleMenu}>
             <View onClick={this.toggleMenu}>
-              <Icons.Menu height="2rem" width="2rem" fill="#ffffff" />
+              <Icons.Menu
+                height={size(32)}
+                width={size(32)}
+                fill={this.props.theme.colors.primary.hslWhite}
+              />
             </View>
           </Touchable>
         </TopIcons>
@@ -109,7 +113,14 @@ class Nav extends React.Component {
 Nav.propTypes = {
   logo: PropTypes.element.isRequired,
   menu: PropTypes.element,
-  children: PropTypes.node
+  children: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      primary: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
-export default styled(Nav)``;
+export default styled(withTheme(Nav))``;

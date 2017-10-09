@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
+import styled, { withTheme } from 'styled-components/primitives';
 
 import MenuItemMobile from './MenuItemMobile';
 import LangSelect from '../LangSelect';
@@ -42,6 +42,7 @@ const MenuMobile = ({
   selectedLanguage,
   children,
   items,
+  theme,
   ...rest
 }) => {
   const arr = [];
@@ -58,7 +59,7 @@ const MenuMobile = ({
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Icons.Search height="1.25rem" width="1.25rem" fill="#ffffff" />
+      <Icons.Search height={size(20)} width={size(20)} fill={theme.colors.primary.hslWhite} />
     </Horizontal>
     { items }
     <MenuItems>
@@ -88,7 +89,14 @@ MenuMobile.propTypes = {
     PropTypes.number,
   ]),
   children: PropTypes.node,
-  items: PropTypes.node
+  items: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      primary: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
-export default styled(MenuMobile)``;
+export default styled(withTheme(MenuMobile))``;
