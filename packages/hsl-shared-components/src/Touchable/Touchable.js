@@ -19,6 +19,7 @@ const TouchableWeb = styled(({
 TouchableWeb.propTypes = {
   onClick: PropTypes.func,
   onPress: PropTypes.func,
+  activeStyle: View.propTypes.style,
   accessibilityRole: PropTypes.string,
 };
 
