@@ -75,13 +75,14 @@ const Container = styled(({
     border-radius: ${utilsSize(40)};
   `}
 
-  &:hover {
+  &:hover,
+  &:active {
     border-color:  ${props => getBorderColor(props, { hover: true })};
     background-color: ${props => getBackgroundColor(props, { hover: true })};
   }
 `;
 
-const Icon = withTheme(({
+const Icon = ({
   icon,
   primary,
   disabled,
@@ -92,8 +93,7 @@ const Icon = withTheme(({
     width: size('fontSize', primary, small),
     height: size('fontSize', primary, small),
     fill: getTextColor({ primary, disabled, theme }),
-  })
-);
+  });
 
 const StyledText = styled(({
   hover,

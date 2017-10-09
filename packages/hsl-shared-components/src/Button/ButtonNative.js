@@ -3,7 +3,6 @@ import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
-import View from '../View';
 import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
 import { getTextColor, getBorderColor, getBackgroundColor } from './utils';
@@ -90,7 +89,7 @@ const TouchableView = styled(({
   iconAfterText,
   ...rest
 }) => (
-  <View {...rest} />
+  <Touchable {...rest} />
 ))`
   flex-direction: row;
   ${props => props.iconAfterText && `
@@ -114,6 +113,9 @@ const Button = styled(({
   success,
   secondary,
   inverted,
+  hover,
+  active,
+  focus,
   disabled,
   transparent,
   square,
@@ -124,52 +126,65 @@ const Button = styled(({
   onLongPress,
   innerRef,
   children,
-  ...rest }) => (
-    <Touchable
-      onPress={onPress}
-      onLongPress={onLongPress}
-    >
-      <TouchableView
+  theme,
+  ...rest
+}) => (
+  <TouchableView
+    onPress={onPress}
+    onLongPress={onLongPress}
+    activeStyle={{
+      borderColor: getBorderColor({
+        active: true, primary, success, secondary, inverted, disabled, theme
+      }),
+      backgroundColor: getBackgroundColor({
+        active: true, primary, success, secondary, inverted, disabled, theme
+      }),
+    }}
+    active={active}
+    hover={hover}
+    focus={focus}
+    primary={primary}
+    success={success}
+    secondary={secondary}
+    inverted={inverted}
+    disabled={disabled}
+    transparent={transparent}
+    square={square}
+    small={small}
+    iconAfterText={iconAfterText}
+    {...rest}
+    innerRef={innerRef}
+    accessibilityRole="button"
+  >
+    {icon &&
+      <Icon
+        icon={icon}
         primary={primary}
-        success={success}
-        secondary={secondary}
-        inverted={inverted}
         disabled={disabled}
-        transparent={transparent}
-        square={square}
         small={small}
-        iconAfterText={iconAfterText}
-        {...rest}
-        innerRef={innerRef}
-        accessibilityRole="button"
-      >
-        {icon &&
-          <Icon
-            icon={icon}
-            primary={primary}
-            disabled={disabled}
-            small={small}
-          />
-        }
-        {
-          React.isValidElement(children) ?
-            children :
-            (<TouchableText
-              primary={primary}
-              success={success}
-              secondary={secondary}
-              disabled={disabled}
-              transparent={transparent}
-              square={square}
-              icon={!!icon}
-              iconAfterText={iconAfterText}
-              small={small}
-            >
-              {children}
-            </TouchableText>)
-        }
-      </TouchableView>
-    </Touchable>
+      />
+    }
+    {
+      React.isValidElement(children) ?
+        children :
+        (<TouchableText
+          hover={hover}
+          active={active}
+          focus={focus}
+          primary={primary}
+          success={success}
+          secondary={secondary}
+          disabled={disabled}
+          transparent={transparent}
+          square={square}
+          icon={!!icon}
+          iconAfterText={iconAfterText}
+          small={small}
+        >
+          {children}
+        </TouchableText>)
+    }
+  </TouchableView>
 ))``;
 
 Button.propTypes = {
@@ -189,4 +204,4 @@ Button.propTypes = {
   innerRef: PropTypes.func
 };
 
-export default Button;
+export default withTheme(Button);

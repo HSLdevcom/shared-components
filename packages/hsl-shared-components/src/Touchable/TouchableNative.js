@@ -30,6 +30,7 @@ class TouchableNative extends React.Component {
     const {
       onPress,
       onLongPress,
+      active,
       style,
       activeStyle,
       ...rest
@@ -46,9 +47,9 @@ class TouchableNative extends React.Component {
         onLongPress={onLongPress}
         onPressIn={this.handlePressIn}
         onPressOut={this.handlePressOut}
-
       >
         <View
+          active={this.state.pressed === true ? this.state.pressed : active}
           style={currentStyle}
           {...rest}
         />
@@ -60,8 +61,9 @@ class TouchableNative extends React.Component {
 TouchableNative.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  style: View.propTypes.style,
-  activeStyle: View.propTypes.style,
+  active: PropTypes.bool,
+  style: PropTypes.any,
+  activeStyle: PropTypes.any,
   accessibilityRole: PropTypes.string,
 };
 
