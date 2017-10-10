@@ -14,10 +14,15 @@ storiesOf('Input/TextInput', module)
     </ThemeProvider>))
   .add('Default', () => {
     const placeholder = text('Placeholder', 'placeholder');
-    const focus = boolean('Focus', false);
-    const autoFocus = boolean('AutoFocus', false);
     const error = boolean('Error', false);
     return (
-      <TextInput placeholder={placeholder} autoFocus={autoFocus} focus={focus} error={error} />
+      <TextInput placeholder={placeholder} error={error} />
+    );
+  }, { displayName: 'TextInput' })
+  .add('Autofocus', () => {
+    const placeholder = text('Placeholder', 'placeholder');
+    const error = boolean('Error', false);
+    return (
+      <TextInput placeholder={placeholder} autoFocus error={error} />
     );
   }, { displayName: 'TextInput' });

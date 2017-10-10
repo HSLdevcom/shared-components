@@ -31,7 +31,7 @@ Input.defaultProps = {
 class TextInput extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { focus: this.props.focus || false, value: this.props.value || '' };
+    this.state = { focus: this.props.autoFocus, value: this.props.value || '' };
     this.onFocus = this.onFocus.bind(this);
     this.onBlur = this.onBlur.bind(this);
     this.onChange = this.onChange.bind(this);
@@ -84,7 +84,7 @@ TextInput.propTypes = {
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
   value: PropTypes.string,
-  focus: PropTypes.bool,
+  autoFocus: PropTypes.bool,
   error: PropTypes.bool // eslint-disable-line react/no-unused-prop-types
 };
 
