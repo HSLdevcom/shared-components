@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components/primitives';
 import { TouchableWithoutFeedback } from 'react-native';
 import { View as ViewPrimitives } from 'react-primitives';
 import View from '../View';
@@ -70,4 +71,4 @@ TouchableNative.propTypes = {
 
 TouchableNative.displayName = 'Touchable';
 
-export default TouchableNative;
+export default styled(TouchableNative)``;
