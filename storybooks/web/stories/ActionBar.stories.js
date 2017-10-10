@@ -24,24 +24,29 @@ stories.addWithJSX('default', () => {
     {
       title: 'Lippuja ja hintoja',
       icon: <Icons.Tickets />,
+      onClick: action('click'),
     },
     {
       title: 'Reittejä, aikatauluja tai matkustamista',
       icon: <Icons.JourneyPlanner />,
+      onClick: action('click'),
     },
     {
       title: 'Löytötavaroita',
       icon: <Icons.Info />,
       active: true,
+      onClick: action('click'),
     },
     {
       title: 'HSL:n sähköisiä palveluita',
       icon: <Icons.MobileTicket />,
+      onClick: action('click'),
     },
     (<ActionBarItem
       key="foo"
       title="Palveluita yrityksille ja oppilaitoksille"
       icon={<Icons.CustomerService />}
+      onClick={action('click')}
     />)
   ];
   return (
@@ -57,19 +62,24 @@ stories.addWithJSX('Icons only', () => {
   const items = [
     {
       icon: <Icons.Tickets fill="#7d7d7d" />,
+      onClick: action('click'),
     },
     {
       icon: <Icons.JourneyPlanner fill="#ff5818" />,
+      onClick: action('click'),
     },
     {
       icon: <Icons.Info fill="#ff5818" />,
       active: true,
+      onClick: action('click'),
     },
     {
       icon: <Icons.MobileTicket fill="#82408f" />,
+      onClick: action('click'),
     },
     {
       icon: <Icons.CustomerService />,
+      onClick: action('click'),
     }
   ];
   return (
@@ -85,13 +95,16 @@ stories.addWithJSX('Inverted theme and no icons', () => {
   const items = [
     {
       title: 'Lievä',
+      onClick: action('click'),
     },
     {
       title: 'Haittaava',
       active: true,
+      onClick: action('click'),
     },
     {
       title: 'Vaarallinen',
+      onClick: action('click'),
     },
   ];
   return (

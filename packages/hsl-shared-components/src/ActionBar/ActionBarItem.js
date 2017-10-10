@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import Touchable from '../Touchable';
-import View from '../View';
 import { P } from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
@@ -59,14 +58,14 @@ const getBackgroundColor = (active, inverted, theme) => {
   return theme.colors.background.hslWhite;
 };
 
-const Container = styled(({
+const TouchableView = styled(({
   inverted,
   active,
   first,
   last,
   ...rest,
 }) =>
-  <View {...rest} />
+  <Touchable {...rest} />
 )`
   ${!IS_NATIVE && `
     cursor: pointer;
@@ -120,20 +119,26 @@ const Title = styled(({
   text-align: center;
 `;
 
-const ActionBarItemCore = ({
+const ActionBarItem = styled(({
   icon,
   title,
   accessibilityRole,
   href,
   inverted,
   active,
+  onClick,
+  onPress,
+  onLongPress,
   ...rest,
 }) =>
   (
-    <Container
+    <TouchableView
       href={href}
       inverted={inverted}
       active={active}
+      onClick={onClick}
+      onPress={onPress}
+      onLongPress={onLongPress}
       {...rest}
       accessibilityRole={accessibilityRole || 'button'}
     >
@@ -153,30 +158,13 @@ const ActionBarItemCore = ({
           {title}
         </Title>
       }
-    </Container>
-  );
+    </TouchableView>
+  ))``;
 
-const ActionBarItem = styled(({
-   onPress,
-   onLongPress,
-   ...rest,
- }) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <ActionBarItemCore {...rest} />
-      </Touchable>
-    );
-  }
-
-  return <ActionBarItemCore {...rest} />;
-})``;
-
-ActionBarItemCore.propTypes = {
+ActionBarItem.propTypes = {
+  onPress: PropTypes.func,
+  onLongPress: PropTypes.func,
+  onClick: PropTypes.func,
   icon: PropTypes.element,
   title: PropTypes.string,
   accessibilityRole: PropTypes.oneOf(['button', 'link']),
@@ -185,12 +173,6 @@ ActionBarItemCore.propTypes = {
   inverted: PropTypes.bool,
   first: PropTypes.bool,
   last: PropTypes.bool,
-};
-
-ActionBarItem.propTypes = {
-  onPress: PropTypes.func,
-  onLongPress: PropTypes.func,
-  ...ActionBarItemCore.propTypes,
 };
 
 ActionBarItem.displayName = 'ActionBarItem';
