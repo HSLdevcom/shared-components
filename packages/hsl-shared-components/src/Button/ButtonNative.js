@@ -132,7 +132,7 @@ const Button = styled(({
   <TouchableView
     onPress={onPress}
     onLongPress={onLongPress}
-    activeStyle={{
+    pressedStyle={{
       borderColor: getBorderColor({
         active: true, primary, success, secondary, inverted, disabled, theme
       }),
