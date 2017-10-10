@@ -57,11 +57,10 @@ const NewsFeedItem = ({
   timestamp,
   title,
   image,
-  className
 }) => {
   const imageElement = React.isValidElement(image) ? image : <Image src={image} alt={title} />;
   return (
-    <StyledLi className={className}>
+    <StyledLi>
       <TextContainer>
         <Meta>
           <Category>{ category }</Category>
@@ -89,7 +88,6 @@ NewsFeedItem.propTypes = {
     PropTypes.element,
     PropTypes.string,
   ]),
-  className: PropTypes.string
 };
 
 export default styled(NewsFeedItem)``;
