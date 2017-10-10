@@ -11,6 +11,7 @@ const ActionListNative = styled(({
   inverted,
   centered,
   arrowless,
+  secondary,
   withBorder,
   ...rest,
 }) => {
@@ -27,6 +28,7 @@ const ActionListNative = styled(({
             inverted={inverted}
             centered={centered}
             arrowless={arrowless}
+            secondary={secondary}
             withBorder={withBorder}
             first={intRowId === 0}
             second={intRowId === 1}
@@ -50,6 +52,7 @@ ActionListNative.propTypes = {
   inverted: PropTypes.bool,
   centered: PropTypes.bool,
   arrowless: PropTypes.bool,
+  secondary: PropTypes.bool,
   withBorder: PropTypes.bool,
 };
 

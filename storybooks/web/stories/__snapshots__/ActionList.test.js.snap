@@ -1,122 +1,285 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ActionList ActionListItem 1`] = `
+exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
 <div
-  active={false}
-  arrowless={false}
-  centered={false}
   className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-  href="http://www.hsl.fi"
-  icon={<Icons.JourneyPlanner />}
-  inverted={false}
-  onClick={[Function]}
-  onLongPress={[Function]}
-  onPress={[Function]}
-  prefix="36"
-  subtitle="Pysäkki 1935, Vihdintie"
-  title="Ruskeasuon varikko"
-  type="button"
-  withBorder={false}
-/>
+>
+  <div
+    className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+    content={
+      <Styled(Text)>
+        Voit ostaa lippuja, arvoa tai kautta lataamaalla.
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </Styled(Text)>
+    }
+    cta="Matkakortille"
+    icon={<Icons.MobileTicket />}
+    onClick={[Function]}
+    onLongPress={[Function]}
+    onPress={[Function]}
+    secondary={false}
+    type="teaser"
+  />
+</div>
+`;
+
+exports[`Storyshots ActionList ActionListItemText 1`] = `
+<div
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+>
+  <div
+    active={false}
+    arrowless={false}
+    centered={false}
+    className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+    href="http://www.hsl.fi"
+    icon={<Icons.JourneyPlanner />}
+    inverted={false}
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    onLongPress={[Function]}
+    onPress={[Function]}
+    prefix="36"
+    role="button"
+    secondary={false}
+    subtitle="Pysäkki 1935, Vihdintie"
+    tabIndex="0"
+    title="Ruskeasuon varikko"
+    type="text"
+    withBorder={false}
+  />
+</div>
 `;
 
 exports[`Storyshots ActionList default 1`] = `
-<ul
-  className="sc-htpNat erYLKc"
+<div
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
 >
-  <li>
-    <div
-      active={true}
-      arrowless={false}
-      centered={false}
-      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-      first={true}
-      icon={null}
-      inverted={false}
-      last={false}
-      second={false}
-      secondToLast={false}
-      title="Yleistä kertalipusta (active)"
-      withBorder={false}
-    />
-  </li>
-  <li>
-    <div
-      arrowless={false}
-      centered={false}
-      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-      first={false}
-      icon={<Icons.JourneyPlanner />}
-      inverted={false}
-      last={false}
-      second={true}
-      secondToLast={false}
-      title="Mobiililippu"
-      withBorder={false}
-    />
-  </li>
-  <li>
-    <div
-      arrowless={false}
-      centered={false}
-      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-      first={false}
-      icon={<Icons.Info />}
-      inverted={false}
-      last={false}
-      prefix="37"
-      second={false}
-      secondToLast={false}
-      title="Kamppi - Honkasuo"
-      withBorder={false}
-    />
-  </li>
-  <li>
-    <div
-      arrowless={false}
-      centered={false}
-      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-      first={false}
-      icon={<Icons.Tickets />}
-      inverted={false}
-      last={false}
-      second={false}
-      secondToLast={true}
-      subtitle="Pysäkki 1935, Vihdintie"
-      title="Ruskeasuon varikko"
-      withBorder={false}
-    />
-  </li>
-  <li>
-    <div
-      arrowless={false}
-      centered={false}
-      className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-      first={false}
-      icon={null}
-      inverted={false}
-      last={true}
-      second={false}
-      secondToLast={false}
-      title="Tekstiviestilippu"
-      withBorder={false}
-    />
-  </li>
-</ul>
+  <ul
+    className="sc-htpNat koEwil"
+  >
+    <li>
+      <div
+        active={true}
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={true}
+        horizontal={false}
+        icon={null}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        title="Yleistä kertalipusta (active)"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={false}
+        horizontal={false}
+        icon={<Icons.JourneyPlanner />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={true}
+        secondToLast={false}
+        secondary={false}
+        title="Mobiililippu"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={false}
+        horizontal={false}
+        icon={<Icons.Info />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        prefix="37"
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        title="Kamppi - Honkasuo"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={false}
+        horizontal={false}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        subtitle="Pysäkki 1935, Vihdintie"
+        title="Ruskeasuon varikko"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        content={
+          <Styled(Text)>
+            Voit ostaa lippuja, arvoa tai kautta lataamaalla.
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </Styled(Text)>
+        }
+        cta="Matkakortille"
+        first={false}
+        horizontal={false}
+        icon={<Icons.MobileTicket />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        type="teaser"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={false}
+        horizontal={false}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={true}
+        secondary={false}
+        subtitle="Pysäkki 1935, Vihdintie"
+        title="Ruskeasuon varikko"
+        withBorder={false}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={false}
+        horizontal={false}
+        icon={null}
+        inverted={false}
+        last={true}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        title="Tekstiviestilippu"
+        withBorder={false}
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots ActionList horizontal 1`] = `
+<div
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+>
+  <ul
+    className="sc-htpNat krPldr"
+  >
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={true}
+        horizontal={true}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        subtitle="80–100 min"
+        title="Kertaliput"
+        withBorder={true}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={false}
+        horizontal={true}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={true}
+        secondToLast={true}
+        secondary={false}
+        subtitle="1–7 vrk"
+        title="Vuorokausiliput"
+        withBorder={true}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={false}
+        horizontal={true}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={true}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        subtitle="Alk. 14 vrk"
+        title="Kausiliput"
+        withBorder={true}
+      />
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`Storyshots ActionList inverted and centered 1`] = `
 <div
-  style={
-    Object {
-      "backgroundColor": "#007ac9",
-      "height": "100vh",
-      "padding": "10px",
-    }
-  }
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
 >
   <ul
-    className="sc-htpNat erYLKc"
+    className="sc-htpNat koEwil"
   >
     <li>
       <div
@@ -125,11 +288,14 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         centered={true}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={true}
+        horizontal={false}
         icon={null}
         inverted={true}
         last={false}
+        onClick={[Function]}
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Yleistä kertalipusta (active)"
         withBorder={true}
       />
@@ -140,11 +306,14 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         centered={true}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.JourneyPlanner />}
         inverted={true}
         last={false}
+        onClick={[Function]}
         second={true}
         secondToLast={false}
+        secondary={false}
         title="Mobiililippu"
         withBorder={true}
       />
@@ -155,12 +324,15 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         centered={true}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.Info />}
         inverted={true}
         last={false}
+        onClick={[Function]}
         prefix="37"
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Kamppi - Honkasuo"
         withBorder={true}
       />
@@ -171,11 +343,34 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         centered={true}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.Tickets />}
         inverted={true}
         last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        subtitle="Pysäkki 1935, Vihdintie"
+        title="Ruskeasuon varikko"
+        withBorder={true}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={true}
+        centered={true}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={false}
+        horizontal={false}
+        icon={<Icons.Tickets />}
+        inverted={true}
+        last={false}
+        onClick={[Function]}
         second={false}
         secondToLast={true}
+        secondary={false}
         subtitle="Pysäkki 1935, Vihdintie"
         title="Ruskeasuon varikko"
         withBorder={true}
@@ -187,11 +382,14 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
         centered={true}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={null}
         inverted={true}
         last={true}
+        onClick={[Function]}
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Tekstiviestilippu"
         withBorder={true}
       />
@@ -200,16 +398,126 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
 </div>
 `;
 
-exports[`Storyshots ActionList with borders 1`] = `
+exports[`Storyshots ActionList teasers and secondary 1`] = `
 <div
-  style={
-    Object {
-      "padding": "10px",
-    }
-  }
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
 >
   <ul
-    className="sc-htpNat erYLKc"
+    className="sc-htpNat koEwil"
+  >
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        content={
+          <Styled(Text)>
+            Voit ostaa lippuja, arvoa tai kautta lataamaalla.
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </Styled(Text)>
+        }
+        cta="Mobiilisovellukseen"
+        first={true}
+        horizontal={false}
+        icon={<Icons.JourneyPlanner />}
+        inverted={undefined}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={true}
+        type="teaser"
+        withBorder={undefined}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        content={
+          <Styled(Text)>
+            Voit ostaa lippuja, arvoa tai kautta lataamaalla.
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </Styled(Text)>
+        }
+        cta="Matkakortille"
+        first={false}
+        horizontal={false}
+        icon={<Icons.MobileTicket />}
+        inverted={undefined}
+        last={false}
+        onClick={[Function]}
+        second={true}
+        secondToLast={false}
+        secondary={true}
+        type="teaser"
+        withBorder={undefined}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        content={
+          <Styled(View)
+            style={
+              Object {
+                "alignItems": "flex-start",
+              }
+            }
+          >
+            <Styled(Component)>
+              09 4766 4000
+            </Styled(Component)>
+            <Styled(Text)>
+              ma-pe 7–19, la-su 9–17
+            </Styled(Text)>
+          </Styled(View)>
+        }
+        first={false}
+        horizontal={false}
+        icon={<Icons.CustomerService />}
+        inverted={undefined}
+        last={false}
+        second={false}
+        secondToLast={true}
+        secondary={true}
+        type="teaser"
+        withBorder={undefined}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        first={false}
+        horizontal={false}
+        icon={null}
+        inverted={undefined}
+        last={true}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={true}
+        title="Tekstiviestilippu"
+        withBorder={undefined}
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots ActionList with borders 1`] = `
+<div
+  className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+>
+  <ul
+    className="sc-htpNat koEwil"
   >
     <li>
       <div
@@ -218,11 +526,14 @@ exports[`Storyshots ActionList with borders 1`] = `
         centered={false}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={true}
+        horizontal={false}
         icon={null}
         inverted={false}
         last={false}
+        onClick={[Function]}
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Yleistä kertalipusta (active)"
         withBorder={true}
       />
@@ -233,11 +544,14 @@ exports[`Storyshots ActionList with borders 1`] = `
         centered={false}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.JourneyPlanner />}
         inverted={false}
         last={false}
+        onClick={[Function]}
         second={true}
         secondToLast={false}
+        secondary={false}
         title="Mobiililippu"
         withBorder={true}
       />
@@ -248,12 +562,15 @@ exports[`Storyshots ActionList with borders 1`] = `
         centered={false}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.Info />}
         inverted={false}
         last={false}
+        onClick={[Function]}
         prefix="37"
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Kamppi - Honkasuo"
         withBorder={true}
       />
@@ -264,11 +581,60 @@ exports[`Storyshots ActionList with borders 1`] = `
         centered={false}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={<Icons.Tickets />}
         inverted={false}
         last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        subtitle="Pysäkki 1935, Vihdintie"
+        title="Ruskeasuon varikko"
+        withBorder={true}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        content={
+          <Styled(Text)>
+            Voit ostaa lippuja, arvoa tai kautta lataamaalla.
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </Styled(Text)>
+        }
+        cta="Matkakortille"
+        first={false}
+        horizontal={false}
+        icon={<Icons.MobileTicket />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
+        second={false}
+        secondToLast={false}
+        secondary={false}
+        type="teaser"
+        withBorder={true}
+      />
+    </li>
+    <li>
+      <div
+        arrowless={false}
+        centered={false}
+        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue."
+        first={false}
+        horizontal={false}
+        icon={<Icons.Tickets />}
+        inverted={false}
+        last={false}
+        onClick={[Function]}
         second={false}
         secondToLast={true}
+        secondary={false}
         subtitle="Pysäkki 1935, Vihdintie"
         title="Ruskeasuon varikko"
         withBorder={true}
@@ -280,11 +646,14 @@ exports[`Storyshots ActionList with borders 1`] = `
         centered={false}
         className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
         first={false}
+        horizontal={false}
         icon={null}
         inverted={false}
         last={true}
+        onClick={[Function]}
         second={false}
         secondToLast={false}
+        secondary={false}
         title="Tekstiviestilippu"
         withBorder={true}
       />
