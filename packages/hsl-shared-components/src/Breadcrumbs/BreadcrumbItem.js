@@ -7,15 +7,23 @@ import Touchable from '../Touchable';
 import View from '../View';
 import { P } from '../Typography';
 import ArrowRight from '../Icons/ArrowRight';
-import { IS_NATIVE, size } from '../utils';
+import { size } from '../utils';
 
 // Padding-vertical and border-style are needed for touchable to work in android
-const ItemContainer = View.extend`
+const TouchableContainer = Touchable.extend`
   flex-direction: row;
   justify-content: flex-start;
   margin-right: ${size(10)};
+`;
+
+// Needed for the touchable in Android to have correct touch target
+const ItemContainer = View.extend`
+  flex-direction: row;
+  justify-content: flex-start;
   padding-vertical: ${size(5)};
   border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
 `;
 
 const Title = P.extend`
@@ -32,54 +40,68 @@ const ArrowIcon = withTheme(({ theme }) =>
   <ArrowRight height={size(10)} width={size(10)} fill={theme.colors.primary.hslBlue} />
 );
 
-const BreadcrumbItemCore = styled(({ title, accessibilityRole, href, onClick, ...rest }) =>
+const BreadcrumbItem = styled(({
+  title,
+  accessibilityRole,
+  href,
+  onClick,
+  onPress,
+  onLongPress,
+  ...rest
+}) =>
   (
-    <ItemContainer
+    <TouchableContainer
       accessibilityRole={accessibilityRole || 'link'}
       href={href}
       onClick={onClick}
+      onPress={onPress}
+      onLongPress={onLongPress}
       {...rest}
     >
-      <Title>
-        {title}
-      </Title>
-      <IconContainer>
-        <ArrowIcon />
-      </IconContainer>
-    </ItemContainer>
+      <ItemContainer>
+        <Title>
+          {title}
+        </Title>
+        <IconContainer>
+          <ArrowIcon />
+        </IconContainer>
+      </ItemContainer>
+    </TouchableContainer>
   )
 )``;
 
-const BreadcrumbItem = styled(({
-  onPress,
-  onLongPress,
-  ...rest,
-}) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <BreadcrumbItemCore {...rest} />
-      </Touchable>
-    );
-  }
+// const BreadcrumbItem = styled(({
+//   onPress,
+//   onLongPress,
+//   ...rest,
+// }) => {
+//   // We want to have default browser interactions unless we are on native platform
+//   if (IS_NATIVE) {
+//     return (
+//       <Touchable
+//         onPress={onPress}
+//         onLongPress={onLongPress}
+//       >
+//         <BreadcrumbItemCore {...rest} />
+//       </Touchable>
+//     );
+//   }
+//
+//   return <BreadcrumbItemCore {...rest} />;
+// })``;
 
-  return <BreadcrumbItemCore {...rest} />;
-})``;
-
-BreadcrumbItemCore.PropTypes = {
-  accessibilityRole: PropTypes.oneOf(['link', 'button']),
-  title: PropTypes.string,
-  onClick: PropTypes.func,
-};
+// BreadcrumbItemCore.PropTypes = {
+//   accessibilityRole: PropTypes.oneOf(['link', 'button']),
+//   title: PropTypes.string,
+//   onClick: PropTypes.func,
+// };
 
 BreadcrumbItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  ...BreadcrumbItemCore.propTypes,
+  accessibilityRole: PropTypes.oneOf(['link', 'button']),
+  title: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 BreadcrumbItem.displayName = 'BreadcrumbItem';
