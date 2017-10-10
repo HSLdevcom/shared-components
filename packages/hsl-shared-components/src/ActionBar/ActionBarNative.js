@@ -8,8 +8,25 @@ import ActionBarItem from './ActionBarItem';
 const ActionBar = styled(({ items, inverted, ...rest }) =>
   (
     <View {...rest}>
-      {items.map((item, index) =>
-        (
+      {items.map((item, index) => {
+        const isFirst = index === 0;
+        const isLast = index === (items.length - 1);
+
+        if (React.isValidElement(item)) {
+          return (
+            React.cloneElement(
+              item,
+              {
+                inverted,
+                first: isFirst,
+                last: isLast,
+                ...item.props
+              },
+            )
+          );
+        }
+
+        return (
           <ActionBarItem
             key={/* eslint-disable react/no-array-index-key */index}
             inverted={inverted}
@@ -17,8 +34,8 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
             last={index === (items.length - 1)}
             {...item}
           />
-        )
-      )}
+        );
+      })}
     </View>
   )
 )`
@@ -35,7 +52,12 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
 `;
 
 ActionBar.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape(ActionBarItem.propTypes)),
+  items: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.shape(ActionBarItem.propTypes),
+      PropTypes.element,
+    ])
+  ),
   inverted: PropTypes.bool,
 };
 
