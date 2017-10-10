@@ -11,7 +11,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
 >
   <View>
     <View
-      className="sc-dnqmqq bDsesi"
+      className="sc-gZMcBi giNnHm"
       style={
         Array [
           Object {
@@ -71,8 +71,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
                   "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
                   "justifyContent": "center",
-                  "width": "55%",
                 },
                 undefined,
               ]
@@ -99,7 +100,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -118,7 +119,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -139,7 +140,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontFamily": "Helvetica",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -158,24 +159,42 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
             </Text>
           </View>
-          <Image
-            alt="news image"
-            source={
-              Object {
-                "uri": "https://placehold.it/125x521",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 80,
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
                   "marginLeft": 30,
+                  "position": "relative",
                   "width": "30%",
                 },
                 undefined,
               ]
             }
-          />
+          >
+            <Image
+              alt="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
+              source={
+                Object {
+                  "uri": "https://placehold.it/125x521",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "resizeMode": "cover",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
         <View
           className={undefined}
@@ -205,8 +224,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
                   "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
                   "justifyContent": "center",
-                  "width": "55%",
                 },
                 undefined,
               ]
@@ -233,7 +253,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -252,7 +272,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -273,7 +293,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontFamily": "Helvetica",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -292,24 +312,42 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
             </Text>
           </View>
-          <Image
-            alt="news image"
-            source={
-              Object {
-                "uri": "https://placehold.it/521x125",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 80,
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
                   "marginLeft": 30,
+                  "position": "relative",
                   "width": "30%",
                 },
                 undefined,
               ]
             }
-          />
+          >
+            <Image
+              alt="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
+              source={
+                Object {
+                  "uri": "https://placehold.it/521x125",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "resizeMode": "cover",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
         <View
           className={undefined}
@@ -339,8 +377,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
                   "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
                   "justifyContent": "center",
-                  "width": "55%",
                 },
                 undefined,
               ]
@@ -367,7 +406,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -386,7 +425,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -407,7 +446,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontFamily": "Helvetica",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -426,24 +465,42 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
             </Text>
           </View>
-          <Image
-            alt="news image"
-            source={
-              Object {
-                "uri": "https://placehold.it/500x500",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 80,
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
                   "marginLeft": 30,
+                  "position": "relative",
                   "width": "30%",
                 },
                 undefined,
               ]
             }
-          />
+          >
+            <Image
+              alt="HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille"
+              source={
+                Object {
+                  "uri": "https://placehold.it/500x500",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "resizeMode": "cover",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
         <View
           className={undefined}
@@ -473,8 +530,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
                   "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
                   "justifyContent": "center",
-                  "width": "55%",
                 },
                 undefined,
               ]
@@ -501,7 +559,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -520,7 +578,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -541,7 +599,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontFamily": "Helvetica",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -560,24 +618,42 @@ exports[`Storyshots NewsFeed News feed 1`] = `
               Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6
             </Text>
           </View>
-          <Image
-            alt="news image"
-            source={
-              Object {
-                "uri": "https://placehold.it/50x50",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 80,
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
                   "marginLeft": 30,
+                  "position": "relative",
                   "width": "30%",
                 },
                 undefined,
               ]
             }
-          />
+          >
+            <Image
+              alt="Uusi raitiolinja 5, Rauttatientori-Katajanokka, aloittaa 20.6"
+              source={
+                Object {
+                  "uri": "https://placehold.it/50x50",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "resizeMode": "cover",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
         <View
           className={undefined}
@@ -607,8 +683,9 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   "alignItems": "flex-start",
                   "alignSelf": "flex-start",
                   "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
                   "justifyContent": "center",
-                  "width": "55%",
                 },
                 undefined,
               ]
@@ -635,7 +712,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -654,7 +731,7 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                   Array [
                     Object {
                       "color": "#888888",
-                      "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                      "fontFamily": "Helvetica",
                       "fontSize": 12.25,
                       "fontWeight": "500",
                     },
@@ -675,7 +752,152 @@ exports[`Storyshots NewsFeed News feed 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 12.25,
+                    "fontWeight": "500",
+                  },
+                  Array [
+                    Object {
+                      "color": "#007ac9",
+                      "fontSize": 21,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              HSL:n talviaikataulut tulevat voimaan 15.8 - muutoksia useille linjoille
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginLeft": 30,
+                  "position": "relative",
+                  "width": "30%",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Svg
+              height={70}
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 35 35"
+              width={70}
+            >
+              <Path
+                d="M17.8055787,0.807823788 C8.43400674,0.807823788 0.81271969,8.37280797 0.81271969,17.8006828 C0.81271969,27.1730707 8.43400674,34.7380548 17.8055787,34.7380548 C27.1779666,34.7380548 34.7992536,27.1730707 34.7992536,17.8006828 C34.7992536,8.37280797 27.1779666,0.807823788 17.8055787,0.807823788 Z M21.0238181,26.7773186 C21.0238181,28.5839063 20.1205242,29.995558 18.3139365,29.995558 C16.5636516,29.995558 15.6040548,28.5839063 15.6040548,26.7773186 L15.6040548,18.986307 C13.2328064,18.986307 12.4992372,17.8006828 12.4992372,16.6721774 C12.4992372,15.3731315 13.402531,14.3572319 14.9267884,14.3572319 L18.0316061,14.3572319 C19.8381939,14.3572319 21.0238181,15.7688835 21.0238181,17.5754713 L21.0238181,26.7773186 Z M21.475873,8.6551383 C21.475873,10.5743318 19.8944967,11.8733777 17.8055787,11.8733777 C15.7174766,11.8733777 14.1361003,10.5743318 14.1361003,8.6551383 L14.1361003,8.37280797 C14.1361003,6.45361448 15.7174766,5.21168741 17.8055787,5.21168741 C19.8944967,5.21168741 21.475873,6.45361448 21.475873,8.37280797 L21.475873,8.6551383 Z"
+                fill="#007ac9"
+                id="Shape"
+              />
+            </Svg>
+          </View>
+        </View>
+        <View
+          className={undefined}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 15,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "alignSelf": "flex-start",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginBottom": 8.75,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12.25,
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                TALVIAIKATAULUT
+                 — 
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#888888",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12.25,
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Yesterday at 2:00 PM
+              </Text>
+            </View>
+            <Text
+              accessibilityRole="heading"
+              accessible={true}
+              allowFontScaling={true}
+              aria-level="3"
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Helvetica",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
