@@ -9,7 +9,7 @@ import LangButton from './LangButton';
 import View from '../View';
 import { P } from '../Typography';
 import { size } from '../utils';
-import { AView } from '../Animated';
+import { AView, ADiv } from '../Animated';
 
 const LanguageButton = LangButton.extend`
   width: ${size(52)};
@@ -29,36 +29,59 @@ const StyledView = View.extend`
 `;
 
 const SelectWrapper = View.extend`
-  background: ${props => props.theme.props.theme.colors.primary.hslBlue};
+  background-color: ${props => props.theme.colors.primary.hslBlueDark};
   border-radius: 3px;
-  border: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+  border-width: 1px;
+`;
+
+const ScrollWrap = styled(props => (
+  <ADiv {...props} />
+))`
+  position: absolute;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
 `;
 
 
 class LangSelectSmall extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { open: false, anim: new Animated.Value(0) };
+    this.state = { anim: new Animated.Value(0) };
     this.toggleLangSelect = this.toggleLangSelect.bind(this);
+    this.onLayout = this.onLayout.bind(this);
+    this.langSelectHeight = 0;
+  }
+
+  onLayout(e) {
+    this.langSelectHeight = e.nativeEvent.layout.height;
   }
 
   toggleLangSelect() {
-    if (!this.state.open) {
-      this.setState({ open: true }, () => {
-        Animated.timing(this.state.anim, { toValue: 50, duration: 150 }).start();
+    if (!this.open) {
+      Animated.timing(
+        this.state.anim,
+        { toValue: this.langSelectHeight, duration: 150 }
+      ).start(() => {
+        this.open = true;
       });
     } else {
-      Animated.timing(this.state.anim, { toValue: 0, duration: 150 }).start(() => {
-        this.setState({ open: false });
+      Animated.timing(
+        this.state.anim,
+        { toValue: 0, duration: 250 }
+      ).start(() => {
+        this.open = false;
       });
     }
   }
 
   render() {
     return (
-      <StyledView {...omit(this.props, ['languages', 'selectedLanguage', 'changeLanguage'])}>
+      <StyledView {...omit(this.props, ['languages', 'selectedLanguage', 'changeLanguage'])} onClick={this.toggleLangSelect}>
         <LanguageButton
           onPress={this.toggleLangSelect}
+          onClick={this.toggleLangSelect}
         >
           <StyledP>
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
@@ -69,31 +92,29 @@ class LangSelectSmall extends React.Component {
             fill={this.props.theme.colors.background.hslWhite}
           />
         </LanguageButton>
-        <AView
+        <ScrollWrap
           style={{ maxHeight: this.state.anim }}
         >
-          {
-            this.state.open && <SelectWrapper className="select-wrapper">
-              {
-              this.props.languages
-                .filter(lang => lang.id !== this.props.selectedLanguage)
-                .map(lang =>
-                (
-                  <LanguageButton
-                    key={lang.id}
-                    onPress={() => {
-                      this.props.changeLanguage(lang.id);
-                      this.toggleLangSelect();
-                    }}
-                  >
-                    <StyledP>{lang.name}</StyledP>
-                  </LanguageButton>
-                )
+          <SelectWrapper onLayout={this.onLayout}>
+            {
+            this.props.languages
+              .filter(lang => lang.id !== this.props.selectedLanguage)
+              .map(lang =>
+              (
+                <LanguageButton
+                  key={lang.id}
+                  onPress={() => {
+                    this.props.changeLanguage(lang.id);
+                    this.toggleLangSelect();
+                  }}
+                >
+                  <StyledP>{lang.name}</StyledP>
+                </LanguageButton>
               )
-            }
-            </SelectWrapper>
+            )
           }
-        </AView>
+          </SelectWrapper>
+        </ScrollWrap>
       </StyledView>);
   }
 }
