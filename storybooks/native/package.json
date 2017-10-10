@@ -48,7 +48,7 @@
     "android": "react-native run-android",
     "android-ports": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:9001 tcp:9001 && adb reverse tcp:7007 tcp:7007 && react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest --testPathPattern=stories --config=jest.config.json ",
+    "test": "jest --testPathPattern=stories --config=jest.config.json",
     "prestorybook": "rnstl",
     "storybook": "storybook start -p 7007 --haul webpack.haul.storybook.js -c storybook",
     "test-update": "jest --testPathPattern=stories --config=jest.config.json -u",

@@ -15,6 +15,7 @@ import Section from '../Section';
 import { ResponsiveProvider } from '../utils';
 import Checkbox from '../Checkbox';
 import TextInput from '../TextInput';
+import LangSelect, { LangSelectSmall, LangButton } from '../LangSelect';
 import Theme from '../Theme';
 
 export {
@@ -54,5 +55,8 @@ export {
   ResponsiveProvider,
   Checkbox,
   TextInput,
+  LangSelect,
+  LangSelectSmall,
+  LangButton,
   Theme,
 };

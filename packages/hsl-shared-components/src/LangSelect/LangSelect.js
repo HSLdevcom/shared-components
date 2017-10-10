@@ -5,7 +5,6 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import LangButton from './LangButton';
 import Text from '../Typography';
-import { size } from '../utils';
 
 const LangText = Text.extend`
   color: ${props => props.theme.colors.primary.hslWhite};
@@ -15,7 +14,6 @@ const StyledView = View.extend`
   background: ${props => props.theme.colors.primary.hslBlue};
   justify-content: space-between;
   flex-direction: row;
-  width: ${size(112)}
 `;
 
 const LangSelect = ({

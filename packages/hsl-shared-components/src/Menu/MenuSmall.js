@@ -1,117 +1,79 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components/primitives';
 
-import A from '../Anchor';
-import IconWithText, { IconWrapper } from '../IconWithText/IconWithText';
 import { LangSelectSmall } from '../LangSelect';
 import Icons from '../Icons';
-import { Flex } from '../Wrapper';
-import MenuItem from './MenuItem';
+import View from '../View';
+import { size, Responsive } from '../utils';
 
-const SearchIcon = Flex.extend`
+export const scrollNavHeight = size(60);
+
+const StyledLangSelectSmall = LangSelectSmall.extend`
+  width: ${scrollNavHeight};
+  height: ${scrollNavHeight};
+  align-items: center;
+  justify-content: center;
+  border-left-width: ${size(1)};
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+`;
+
+const Wrapper = View.extend`
+  align-items: stretch;
+  justify-content: center;
+  width: ${scrollNavHeight};
+  height: ${scrollNavHeight};
+  flex-direction: row;
+  border-left-width: ${size(1)};
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+`;
+
+const SearchIcon = Wrapper.extend`
   align-items: center;
 `;
 
-const StyledFlex = Flex.extend`
+const StyledView = View.extend`
+  flex-direction: row;
   align-self: stretch;
-  ${IconWrapper} {
-    line-height: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }
-
-  ${IconWrapper} svg, ${SearchIcon} svg {
-    height: 1.5rem;
-  }
-
-  svg {
-    fill: currentColor;
-  }
-
   align-items: stretch;
-
-  > * {
-    border-left: 1px solid ${props => props.theme.colors.primary.hslBlueDark};
-    display: flex;
-
-    width: ${props => props.theme.scrollNavHeight || '3.75rem'};
-    justify-content: center;
-  }
   background: ${props => props.theme.colors.primary.hslBlue};
-  color: ${props => props.theme.colors.primary.hslWhite};
-
-  ${MenuItem} {
-    align-items: stretch;
-    ${IconWithText} {
-      flex: 1;
-      margin-top: ${props => props.theme.activatablePointerHeight || '0.6rem'};
-      justify-content: center;
-    }
-  }
-
-  ${props => (
-    props.theme.Media &&
-    props.theme.Media.medium`
-      ${SearchIcon}, ${LangSelectSmall} {
-        display: none;
-      }
-    `
-  )}
-
 `;
 
 
-const MenuSmall = ({
+const Menu = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  className,
-  children
+  children,
+  theme,
+  small,
+  ...rest
 }) => (
-  <StyledFlex className={className}>
-    {children}
+  <StyledView {...rest}>
+    {
+      !small &&
+      React.Children.map(
+        children, child => (<Wrapper>{React.cloneElement(child, { small: true })}</Wrapper>)
+      )
+    }
     <SearchIcon>
       <Icons.Search
-        style={{ height: '2rem', width: '2rem' }}
+        height={size(24)}
+        width={size(24)}
+        fill={theme.colors.background.hslWhite}
       />
     </SearchIcon>
-    <LangSelectSmall
+    <StyledLangSelectSmall
       languages={languages}
       selectedLanguage={selectedLanguage}
       changeLanguage={changeLanguage}
     />
-  </StyledFlex>
+  </StyledView>
 );
 
-const defaultChildren = [
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
-    text="Matkakortti"
-    textPosition="Right"
-    key="travelcard"
-    active
-    small
-  />,
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
-    text="Kirjaudu"
-    textPosition="Right"
-    key="signin"
-    small
-  />
-];
 
-
-MenuSmall.defaultProps = {
-  children: defaultChildren
-};
-
-
-MenuSmall.propTypes = {
+Menu.propTypes = {
+  small: PropTypes.bool,
   languages: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.oneOfType([
       PropTypes.string,
@@ -125,7 +87,21 @@ MenuSmall.propTypes = {
     PropTypes.number,
   ]),
   className: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      background: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
-export default styled(MenuSmall)``;
+const MenuSmall = ({ ...props }) => (
+  <Responsive
+    medium={<Menu small {...props} />}
+    large={<Menu {...props} />}
+  />
+);
+
+export default styled(withTheme(MenuSmall))``;

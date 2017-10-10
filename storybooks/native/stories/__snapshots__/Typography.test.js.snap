@@ -366,6 +366,7 @@ exports[`Storyshots Typography ListText 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "borderStyle": "solid",
           "justifyContent": "center",
         },
         Array [

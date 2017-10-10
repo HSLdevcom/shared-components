@@ -1,107 +1,79 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import cx from 'classnames';
+import styled, { withTheme } from 'styled-components/primitives';
 
-import A from '../Anchor';
-import MenuItem from './MenuItem';
-import LangSelect, { LangButton } from '../LangSelect';
+import MenuItemMobile from './MenuItemMobile';
+import LangSelect from '../LangSelect';
 import Icons from '../Icons';
-import { MenuSeparator } from './Separator';
-import { Flex } from '../Wrapper';
-import Div from '../Div';
+import View from '../View';
+import { size } from '../utils';
 
-const Separator = MenuSeparator.extend`
-  height: 2px;
-  margin: 0;
-`;
 
-const StyledDiv = Div.extend`
+const StyledView = View.extend`
   background: ${props => props.theme.colors.primary.hslBlue};
-  color: ${props => props.theme.colors.primary.hslWhite};
-  svg {
-    fill: currentColor;
-  }
-  ${LangSelect} {
-    ${LangButton} {
-      width: 2rem;
-      height: 1.5rem;
-    }
-  }
-  .children {
-    font-size: 1.25rem;
-    padding: 2rem 0;
-    .child {
-      width: 50%;
-      justify-content: center;
-      &:not(:last-child) {
-        border-right: 2px solid ${props => props.theme.colors.primary.hslBlueDark};
-      }
-    }
-  }
+  align-items: stretch;
 `;
-const StyledFlex = Flex.extend`
-  padding: 1rem 0;
+
+const Horizontal = View.extend`
+  flex-direction: row;
+  justify-content: space-between;
+  padding-vertical: ${size(12)};
+  margin-horizontal: ${size(12)};
+  border-bottom-width: 2px;
+  border-bottom-color: ${props => props.theme.colors.primary.hslBlueDark};
+`;
+
+const MenuItems = View.extend`
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-vertical: ${size(30)};
+`;
+
+const Divider = View.extend`
+  border-color: ${props => props.theme.colors.primary.hslBlueDark};
+  border-width: 1px;
 `;
 
 const MenuMobile = ({
   languages,
   changeLanguage,
   selectedLanguage,
-  className,
   children,
-  items
-}) => (
-  <StyledDiv className={className}>
-    <Separator />
-    <StyledFlex>
+  items,
+  theme,
+  ...rest
+}) => {
+  const arr = [];
+  React.Children.toArray(children).forEach((child, index, array) => {
+    arr.push(<MenuItemMobile {...child.props} />);
+    if (index < (array.length - 1)) {
+      arr.push(<Divider />);
+    }
+  });
+  return (<StyledView {...rest}>
+    <Horizontal>
       <LangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
         changeLanguage={changeLanguage}
       />
-      <Icons.Search style={{ height: '1.5rem' }} />
-    </StyledFlex>
-    <Separator />
+      <Icons.Search height={size(20)} width={size(20)} fill={theme.colors.primary.hslWhite} />
+    </Horizontal>
     { items }
-    <Flex className="children">
-      {React.Children.map(children, child => (
-        React.cloneElement(
-          child,
-          {
-            className: cx(child.props.className, 'child'),
-            small: false,
-            textPosition: 'Bottom',
-            active: false
-          })
-        ))}
-    </Flex>
-  </StyledDiv>
-);
-
-const defaultChildren = [
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.TravelCard style={{ height: '3.5rem' }} />}
-    text="Matkakortti"
-    textPosition="Right"
-    key="travelcard"
-    active
-  />,
-  <MenuItem
-    link={<A href="/test" />}
-    icon={<Icons.SignIn style={{ height: '3.5rem' }} />}
-    text="Kirjaudu"
-    textPosition="Right"
-    key="signin"
-  />
-];
-
-
-MenuMobile.defaultProps = {
-  children: defaultChildren
+    <MenuItems>
+      {
+        arr.map(
+          (item, index) => (
+            /* eslint-disable react/no-array-index-key */
+            React.cloneElement(item, { key: index })
+          )
+        )
+      }
+    </MenuItems>
+  </StyledView>);
 };
-
 
 MenuMobile.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.shape({
@@ -116,9 +88,15 @@ MenuMobile.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  className: PropTypes.string,
   children: PropTypes.node,
-  items: PropTypes.node
+  items: PropTypes.node,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      primary: PropTypes.shape({
+        hslWhite: PropTypes.string
+      })
+    })
+  })
 };
 
-export default styled(MenuMobile)``;
+export default styled(withTheme(MenuMobile))``;
