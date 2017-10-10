@@ -28,15 +28,433 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
     }
   >
     <View
-      accessibilityRole="link"
-      href={undefined}
-      onClick={undefined}
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      active={undefined}
+      hitSlop={undefined}
+      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+    >
+      <View
+        accessibilityRole="link"
+        href={undefined}
+        onClick={undefined}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+              "paddingVertical": 4.375,
+            },
+            Array [
+              Object {},
+              Array [
+                Object {},
+                undefined,
+              ],
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontFamily": "Helvetica",
+                "fontSize": 12.25,
+                "fontWeight": "300",
+                "lineHeight": 20,
+                "marginRight": 8.75,
+              },
+              undefined,
+            ]
+          }
+        >
+          Asiakaspalvelu
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Svg
+            height={8}
+            preserveAspectRatio="xMidYMid meet"
+            version="1.1"
+            viewBox="0 0 20 36"
+            width={8}
+          >
+            <Path
+              d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+              fill="#007ac9"
+              id="Shape"
+            />
+          </Svg>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      active={undefined}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+    >
+      <View
+        accessibilityRole="link"
+        href={undefined}
+        onClick={undefined}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+              "paddingVertical": 4.375,
+            },
+            Array [
+              Object {},
+              Array [
+                Object {},
+                undefined,
+              ],
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontFamily": "Helvetica",
+                "fontSize": 12.25,
+                "fontWeight": "300",
+                "lineHeight": 20,
+                "marginRight": 8.75,
+              },
+              undefined,
+            ]
+          }
+        >
+          Liput ja hinnat
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Svg
+            height={8}
+            preserveAspectRatio="xMidYMid meet"
+            version="1.1"
+            viewBox="0 0 20 36"
+            width={8}
+          >
+            <Path
+              d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+              fill="#007ac9"
+              id="Shape"
+            />
+          </Svg>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      active={undefined}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+    >
+      <View
+        accessibilityRole="link"
+        href={undefined}
+        onClick={undefined}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+              "paddingVertical": 4.375,
+            },
+            Array [
+              Object {},
+              Array [
+                Object {},
+                undefined,
+              ],
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontFamily": "Helvetica",
+                "fontSize": 12.25,
+                "fontWeight": "300",
+                "lineHeight": 20,
+                "marginRight": 8.75,
+              },
+              undefined,
+            ]
+          }
+        >
+          Kertalippu
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Svg
+            height={8}
+            preserveAspectRatio="xMidYMid meet"
+            version="1.1"
+            viewBox="0 0 20 36"
+            width={8}
+          >
+            <Path
+              d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+              fill="#007ac9"
+              id="Shape"
+            />
+          </Svg>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      active={undefined}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+    >
+      <View
+        accessibilityRole="link"
+        href={undefined}
+        onClick={undefined}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderStyle": "solid",
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+              "paddingVertical": 4.375,
+            },
+            Array [
+              Object {},
+              Array [
+                Object {},
+                undefined,
+              ],
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontFamily": "Helvetica",
+                "fontSize": 12.25,
+                "fontWeight": "300",
+                "lineHeight": 20,
+                "marginRight": 8.75,
+              },
+              undefined,
+            ]
+          }
+        >
+          Lorem ipsum
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Svg
+            height={8}
+            preserveAspectRatio="xMidYMid meet"
+            version="1.1"
+            viewBox="0 0 20 36"
+            width={8}
+          >
+            <Path
+              d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
+              fill="#007ac9"
+              id="Shape"
+            />
+          </Svg>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Breadcrumbs Single item 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    active={undefined}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+    testID={undefined}
+  >
+    <View
+      accessibilityRole="link"
+      href={undefined}
+      onClick={undefined}
       style={
         Array [
           Object {
@@ -51,10 +469,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
             Object {},
             Array [
               Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
+              undefined,
             ],
           ],
         ]
@@ -68,7 +483,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
           Array [
             Object {
               "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+              "fontFamily": "Helvetica",
               "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
@@ -105,336 +520,6 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
           />
         </Svg>
       </View>
-    </View>
-    <View
-      accessibilityRole="link"
-      href={undefined}
-      onClick={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "borderStyle": "solid",
-            "flexDirection": "row",
-            "justifyContent": "flex-start",
-            "marginRight": 8.75,
-            "paddingVertical": 4.375,
-          },
-          Array [
-            Object {},
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
-          ],
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 12.25,
-              "fontWeight": "300",
-              "lineHeight": 20,
-              "marginRight": 8.75,
-            },
-            undefined,
-          ]
-        }
-      >
-        Liput ja hinnat
-      </Text>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Svg
-          height={8}
-          preserveAspectRatio="xMidYMid meet"
-          version="1.1"
-          viewBox="0 0 20 36"
-          width={8}
-        >
-          <Path
-            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
-            fill="#007ac9"
-            id="Shape"
-          />
-        </Svg>
-      </View>
-    </View>
-    <View
-      accessibilityRole="link"
-      href={undefined}
-      onClick={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "borderStyle": "solid",
-            "flexDirection": "row",
-            "justifyContent": "flex-start",
-            "marginRight": 8.75,
-            "paddingVertical": 4.375,
-          },
-          Array [
-            Object {},
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
-          ],
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 12.25,
-              "fontWeight": "300",
-              "lineHeight": 20,
-              "marginRight": 8.75,
-            },
-            undefined,
-          ]
-        }
-      >
-        Kertalippu
-      </Text>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Svg
-          height={8}
-          preserveAspectRatio="xMidYMid meet"
-          version="1.1"
-          viewBox="0 0 20 36"
-          width={8}
-        >
-          <Path
-            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
-            fill="#007ac9"
-            id="Shape"
-          />
-        </Svg>
-      </View>
-    </View>
-    <View
-      accessibilityRole="link"
-      href={undefined}
-      onClick={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "borderStyle": "solid",
-            "flexDirection": "row",
-            "justifyContent": "flex-start",
-            "marginRight": 8.75,
-            "paddingVertical": 4.375,
-          },
-          Array [
-            Object {},
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
-          ],
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#007ac9",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 12.25,
-              "fontWeight": "300",
-              "lineHeight": 20,
-              "marginRight": 8.75,
-            },
-            undefined,
-          ]
-        }
-      >
-        Lorem ipsum
-      </Text>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Svg
-          height={8}
-          preserveAspectRatio="xMidYMid meet"
-          version="1.1"
-          viewBox="0 0 20 36"
-          width={8}
-        >
-          <Path
-            d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
-            fill="#007ac9"
-            id="Shape"
-          />
-        </Svg>
-      </View>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`Storyshots Breadcrumbs Single item 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <View
-    accessibilityRole="link"
-    href={undefined}
-    onClick={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderStyle": "solid",
-          "flexDirection": "row",
-          "justifyContent": "flex-start",
-          "marginRight": 8.75,
-          "paddingVertical": 4.375,
-        },
-        Array [
-          Object {},
-          Array [
-            Object {},
-            Array [
-              Object {},
-              undefined,
-            ],
-          ],
-        ],
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#007ac9",
-            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-            "fontSize": 12.25,
-            "fontWeight": "300",
-            "lineHeight": 20,
-            "marginRight": 8.75,
-          },
-          undefined,
-        ]
-      }
-    >
-      Asiakaspalvelu
-    </Text>
-    <View
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "justifyContent": "center",
-          },
-          undefined,
-        ]
-      }
-    >
-      <Svg
-        height={8}
-        preserveAspectRatio="xMidYMid meet"
-        version="1.1"
-        viewBox="0 0 20 36"
-        width={8}
-      >
-        <Path
-          d="M16.546625,19.906375 L19.453625,17.000375 L19.453625,16.999375 L4.055625,1.601375 C3.252625,0.798375 1.951625,0.798375 1.148625,1.601375 C0.345625,2.404375 0.345625,3.705375 1.148625,4.508375 L13.639625,16.999375 L1.148625,29.490375 C0.345625,30.293375 0.345625,31.594375 1.148625,32.397375 C1.951625,33.200375 3.252625,33.200375 4.055625,32.397375 L16.546625,19.906375 L16.546625,19.906375 Z"
-          fill="#007ac9"
-          id="Shape"
-        />
-      </Svg>
     </View>
   </View>
 </View>
