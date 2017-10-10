@@ -136,7 +136,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -245,7 +245,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -353,7 +353,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -461,7 +461,7 @@ exports[`Storyshots Tabs Default 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -500,7 +500,7 @@ exports[`Storyshots Tabs Default 1`] = `
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -652,7 +652,7 @@ exports[`Storyshots Tabs one item 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -691,7 +691,7 @@ exports[`Storyshots Tabs one item 1`] = `
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -844,7 +844,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -953,7 +953,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -1061,7 +1061,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -1170,7 +1170,7 @@ exports[`Storyshots Tabs rounded 1`] = `
                 Array [
                   Object {
                     "color": "#333333",
-                    "fontFamily": "Helvetica",
+                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                     "fontSize": 12.25,
                     "fontWeight": "500",
                   },
@@ -1209,7 +1209,7 @@ exports[`Storyshots Tabs rounded 1`] = `
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },

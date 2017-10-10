@@ -105,7 +105,7 @@ exports[`Storyshots Button button with text 1`] = `
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -172,12 +172,15 @@ exports[`Storyshots Button default 1`] = `
           },
           Array [
             Object {
+              "alignItems": "center",
               "backgroundColor": "#ffffff",
               "borderColor": "#b7b7b7",
               "borderRadius": 35,
               "borderStyle": "solid",
               "borderWidth": 1,
+              "flexDirection": "row",
               "height": 43.75,
+              "paddingHorizontal": 21.875,
             },
             Array [
               Object {},
@@ -191,11 +194,13 @@ exports[`Storyshots Button default 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
+        icon={false}
+        iconAfterText={false}
         style={
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -204,11 +209,6 @@ exports[`Storyshots Button default 1`] = `
                 "color": "#007ac9",
                 "fontSize": 15.75,
                 "fontWeight": "500",
-                "marginBottom": 0,
-                "marginLeft": 21.875,
-                "marginRight": 21.875,
-                "marginTop": 0,
-                "textAlign": "center",
               },
               undefined,
             ],
@@ -216,6 +216,104 @@ exports[`Storyshots Button default 1`] = `
         }
       >
         Default Button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button inverted 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    active={undefined}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+    testID={undefined}
+  >
+    <View
+      accessibilityRole="button"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderColor": "#ffffff",
+              "borderRadius": 35,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 43.75,
+              "paddingHorizontal": 21.875,
+            },
+            Array [
+              Object {},
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        icon={false}
+        iconAfterText={false}
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+              "fontSize": 12.25,
+              "fontWeight": "500",
+            },
+            Array [
+              Object {
+                "color": "#007ac9",
+                "fontSize": 15.75,
+                "fontWeight": "500",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Primary Button
       </Text>
     </View>
   </View>
@@ -269,12 +367,15 @@ exports[`Storyshots Button primary 1`] = `
           },
           Array [
             Object {
+              "alignItems": "center",
               "backgroundColor": "#007ac9",
               "borderColor": "#007ac9",
               "borderRadius": 35,
               "borderStyle": "solid",
               "borderWidth": 1,
+              "flexDirection": "row",
               "height": 43.75,
+              "paddingHorizontal": 21.875,
             },
             Array [
               Object {},
@@ -288,11 +389,13 @@ exports[`Storyshots Button primary 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
+        icon={false}
+        iconAfterText={false}
         style={
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -301,11 +404,6 @@ exports[`Storyshots Button primary 1`] = `
                 "color": "#ffffff",
                 "fontSize": 15.75,
                 "fontWeight": "500",
-                "marginBottom": 0,
-                "marginLeft": 21.875,
-                "marginRight": 21.875,
-                "marginTop": 0,
-                "textAlign": "center",
               },
               undefined,
             ],
@@ -366,12 +464,15 @@ exports[`Storyshots Button round button 1`] = `
           },
           Array [
             Object {
+              "alignItems": "center",
               "backgroundColor": "#ffffff",
               "borderColor": "#b7b7b7",
               "borderRadius": 35,
               "borderStyle": "solid",
               "borderWidth": 1,
+              "flexDirection": "row",
               "height": 43.75,
+              "paddingHorizontal": 21.875,
             },
             Array [
               Object {},
@@ -468,12 +569,15 @@ exports[`Storyshots Button secondary 1`] = `
           },
           Array [
             Object {
+              "alignItems": "center",
               "backgroundColor": "#ffffff",
               "borderColor": "#b7b7b7",
               "borderRadius": 35,
               "borderStyle": "solid",
               "borderWidth": 1,
+              "flexDirection": "row",
               "height": 43.75,
+              "paddingHorizontal": 21.875,
             },
             Array [
               Object {},
@@ -487,11 +591,13 @@ exports[`Storyshots Button secondary 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
+        icon={false}
+        iconAfterText={false}
         style={
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
@@ -500,11 +606,6 @@ exports[`Storyshots Button secondary 1`] = `
                 "color": "#007ac9",
                 "fontSize": 15.75,
                 "fontWeight": "500",
-                "marginBottom": 0,
-                "marginLeft": 21.875,
-                "marginRight": 21.875,
-                "marginTop": 0,
-                "textAlign": "center",
               },
               undefined,
             ],

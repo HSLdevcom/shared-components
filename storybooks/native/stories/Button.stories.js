@@ -23,6 +23,9 @@ storiesOf('Button', module)
     const square = boolean('Square', false);
     const small = boolean('Small', false);
     const transparent = boolean('Transparent', false);
+    const iconKnob = boolean('Icon', false);
+    const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -31,6 +34,8 @@ storiesOf('Button', module)
       square={square}
       small={small}
       transparent={transparent}
+      icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -44,6 +49,9 @@ storiesOf('Button', module)
     const success = boolean('Success', false);
     const disabled = boolean('Disabled', false);
     const small = boolean('Small', false);
+    const iconKnob = boolean('Icon', false);
+    const icon = iconKnob ? <Icons.Edit /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -52,6 +60,8 @@ storiesOf('Button', module)
       small={small}
       primary
       success={success}
+      icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
@@ -66,6 +76,9 @@ storiesOf('Button', module)
     const square = boolean('Square', false);
     const small = boolean('Small', false);
     const transparent = boolean('Transparent', false);
+    const iconKnob = boolean('Icon', false);
+    const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
     return (<Button
       hover={hover}
       active={active}
@@ -75,10 +88,36 @@ storiesOf('Button', module)
       small={small}
       transparent={transparent}
       secondary
+      icon={icon}
+      iconAfterText={iconAfterText}
       onPress={action('press')}
       onLongPress={action('long press')}
     >
       Secondary Button
+    </Button>);
+  })
+  .add('inverted', () => {
+    const hover = boolean('Hover', false);
+    const active = boolean('Active', false);
+    const focus = boolean('Focus', false);
+    const disabled = boolean('Disabled', false);
+    const small = boolean('Small', false);
+    const iconKnob = boolean('Icon', false);
+    const icon = iconKnob ? <Icons.Facebook /> : null;
+    const iconAfterText = boolean('iconAfterText', false);
+    return (
+      <Button
+        hover={hover}
+        active={active}
+        focus={focus}
+        disabled={disabled}
+        small={small}
+        inverted
+        icon={icon}
+        iconAfterText={iconAfterText}
+        onClick={action('click')}
+      >
+      Primary Button
     </Button>);
   })
   .add('round button', () => {
