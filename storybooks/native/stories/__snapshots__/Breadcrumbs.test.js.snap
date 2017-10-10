@@ -84,7 +84,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
             Array [
               Object {
                 "color": "#007ac9",
-                "fontFamily": "Helvetica",
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                 "fontSize": 12.25,
                 "fontWeight": "300",
                 "lineHeight": 20,
@@ -180,7 +180,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
             Array [
               Object {
                 "color": "#007ac9",
-                "fontFamily": "Helvetica",
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                 "fontSize": 12.25,
                 "fontWeight": "300",
                 "lineHeight": 20,
@@ -276,7 +276,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
             Array [
               Object {
                 "color": "#007ac9",
-                "fontFamily": "Helvetica",
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                 "fontSize": 12.25,
                 "fontWeight": "300",
                 "lineHeight": 20,
@@ -372,7 +372,7 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
             Array [
               Object {
                 "color": "#007ac9",
-                "fontFamily": "Helvetica",
+                "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
                 "fontSize": 12.25,
                 "fontWeight": "300",
                 "lineHeight": 20,
@@ -483,7 +483,7 @@ exports[`Storyshots Breadcrumbs Single item 1`] = `
           Array [
             Object {
               "color": "#007ac9",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,

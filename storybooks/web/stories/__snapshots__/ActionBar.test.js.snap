@@ -2,10 +2,8 @@
 
 exports[`Storyshots ActionBar ActionBarItem 1`] = `
 <div
-  active={false}
   className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
   href="http://www.hsl.fi"
-  inverted={false}
   onClick={[Function]}
   onKeyPress={[Function]}
   role="button"
@@ -29,11 +27,9 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
     />
   </svg>
   <div
-    active={false}
-    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
     dir="auto"
     icon={<Icons.Tickets />}
-    inverted={false}
   >
     Lippuja ja hintoja
   </div>
@@ -48,12 +44,8 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderBottomLeftRadius-5qlx7g rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopLeftRadius-1vznrp2 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={true}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -81,12 +73,8 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -117,12 +105,8 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={true}
       className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -149,12 +133,8 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -180,12 +160,8 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderBottomRightRadius-nefvgx rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopRightRadius-3f7b68 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={true}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -220,22 +196,16 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderBottomLeftRadius-5qlx7g rn-borderTopColor-jebswk rn-borderRightColor-1y2kpd rn-borderBottomColor-1ykcu4d rn-borderLeftColor-lfc6mk rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopLeftRadius-1vznrp2 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={true}
       href={undefined}
-      inverted={true}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
     >
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
-        inverted={true}
       >
         Lievä
       </div>
@@ -245,22 +215,16 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={true}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-jebswk rn-borderRightColor-1y2kpd rn-borderBottomColor-1ykcu4d rn-borderLeftColor-lfc6mk rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={true}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
     >
       <div
-        active={true}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
-        inverted={true}
       >
         Haittaava
       </div>
@@ -270,22 +234,16 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderBottomRightRadius-nefvgx rn-borderTopColor-jebswk rn-borderRightColor-1y2kpd rn-borderBottomColor-1ykcu4d rn-borderLeftColor-lfc6mk rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopRightRadius-3f7b68 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={true}
-      last={true}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
     >
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
-        inverted={true}
       >
         Vaarallinen
       </div>
@@ -302,12 +260,8 @@ exports[`Storyshots ActionBar default 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderBottomLeftRadius-5qlx7g rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopLeftRadius-1vznrp2 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={true}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -330,11 +284,9 @@ exports[`Storyshots ActionBar default 1`] = `
         />
       </svg>
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.Tickets />}
-        inverted={false}
       >
         Lippuja ja hintoja
       </div>
@@ -344,12 +296,8 @@ exports[`Storyshots ActionBar default 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -375,11 +323,9 @@ exports[`Storyshots ActionBar default 1`] = `
         </g>
       </svg>
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.JourneyPlanner />}
-        inverted={false}
       >
         Reittejä, aikatauluja tai matkustamista
       </div>
@@ -389,12 +335,8 @@ exports[`Storyshots ActionBar default 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={true}
       className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -416,11 +358,9 @@ exports[`Storyshots ActionBar default 1`] = `
         />
       </svg>
       <div
-        active={true}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.Info />}
-        inverted={false}
       >
         Löytötavaroita
       </div>
@@ -430,12 +370,8 @@ exports[`Storyshots ActionBar default 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -456,11 +392,9 @@ exports[`Storyshots ActionBar default 1`] = `
         />
       </svg>
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.MobileTicket />}
-        inverted={false}
       >
         HSL:n sähköisiä palveluita
       </div>
@@ -470,12 +404,8 @@ exports[`Storyshots ActionBar default 1`] = `
     className="sc-bdVaJa lnntqR"
   >
     <div
-      active={undefined}
       className="rn-alignItems-1awozwy rn-backgroundColor-44z8sh rn-borderBottomRightRadius-nefvgx rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopRightRadius-3f7b68 rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-eqz5dr rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-de1ba6 rn-marginTop-19i43ro rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1gb76qt rn-paddingRight-10fd8k9 rn-paddingBottom-1p3yjxz rn-paddingLeft-1qv6z6r rn-position-bnwqim"
-      first={false}
       href={undefined}
-      inverted={false}
-      last={true}
       onKeyPress={[Function]}
       role="button"
       tabIndex="0"
@@ -498,11 +428,9 @@ exports[`Storyshots ActionBar default 1`] = `
         />
       </svg>
       <div
-        active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.CustomerService />}
-        inverted={false}
       >
         Palveluita yrityksille ja oppilaitoksille
       </div>

@@ -33,7 +33,7 @@ exports[`Storyshots Section Default 1`] = `
           Array [
             Object {
               "color": "#333333",
-              "fontFamily": "Helvetica",
+              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
               "fontSize": 12.25,
               "fontWeight": "500",
             },
