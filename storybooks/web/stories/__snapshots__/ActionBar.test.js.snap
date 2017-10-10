@@ -30,7 +30,7 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
   </svg>
   <div
     active={false}
-    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
     dir="auto"
     icon={<Icons.Tickets />}
     inverted={false}
@@ -42,15 +42,10 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
 
 exports[`Storyshots ActionBar Icons only 1`] = `
 <ul
-  className="sc-bdVaJa dwufUj"
+  className="sc-bwzfXH cgFKjm"
 >
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -83,12 +78,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -124,12 +114,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={true}
@@ -154,19 +139,14 @@ exports[`Storyshots ActionBar Icons only 1`] = `
       >
         <path
           d="M17.8055787,0.807823788 C8.43400674,0.807823788 0.81271969,8.37280797 0.81271969,17.8006828 C0.81271969,27.1730707 8.43400674,34.7380548 17.8055787,34.7380548 C27.1779666,34.7380548 34.7992536,27.1730707 34.7992536,17.8006828 C34.7992536,8.37280797 27.1779666,0.807823788 17.8055787,0.807823788 Z M21.0238181,26.7773186 C21.0238181,28.5839063 20.1205242,29.995558 18.3139365,29.995558 C16.5636516,29.995558 15.6040548,28.5839063 15.6040548,26.7773186 L15.6040548,18.986307 C13.2328064,18.986307 12.4992372,17.8006828 12.4992372,16.6721774 C12.4992372,15.3731315 13.402531,14.3572319 14.9267884,14.3572319 L18.0316061,14.3572319 C19.8381939,14.3572319 21.0238181,15.7688835 21.0238181,17.5754713 L21.0238181,26.7773186 Z M21.475873,8.6551383 C21.475873,10.5743318 19.8944967,11.8733777 17.8055787,11.8733777 C15.7174766,11.8733777 14.1361003,10.5743318 14.1361003,8.6551383 L14.1361003,8.37280797 C14.1361003,6.45361448 15.7174766,5.21168741 17.8055787,5.21168741 C19.8944967,5.21168741 21.475873,6.45361448 21.475873,8.37280797 L21.475873,8.6551383 Z"
-          fill="#ffffff"
+          fill="#ff5818"
           id="Shape"
         />
       </svg>
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -197,12 +177,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -239,15 +214,10 @@ exports[`Storyshots ActionBar Icons only 1`] = `
 
 exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
 <ul
-  className="sc-bdVaJa dwufUj"
+  className="sc-bwzfXH cgFKjm"
 >
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -262,7 +232,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
         inverted={true}
@@ -272,12 +242,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={true}
@@ -292,7 +257,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <div
         active={true}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
         inverted={true}
@@ -302,12 +267,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -322,7 +282,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={undefined}
         inverted={true}
@@ -336,15 +296,10 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
 
 exports[`Storyshots ActionBar default 1`] = `
 <ul
-  className="sc-bdVaJa dwufUj"
+  className="sc-bwzfXH cgFKjm"
 >
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -376,7 +331,7 @@ exports[`Storyshots ActionBar default 1`] = `
       </svg>
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.Tickets />}
         inverted={false}
@@ -386,12 +341,7 @@ exports[`Storyshots ActionBar default 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -426,7 +376,7 @@ exports[`Storyshots ActionBar default 1`] = `
       </svg>
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.JourneyPlanner />}
         inverted={false}
@@ -436,12 +386,7 @@ exports[`Storyshots ActionBar default 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={true}
@@ -472,7 +417,7 @@ exports[`Storyshots ActionBar default 1`] = `
       </svg>
       <div
         active={true}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-1qtguxu rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.Info />}
         inverted={false}
@@ -482,12 +427,7 @@ exports[`Storyshots ActionBar default 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -517,7 +457,7 @@ exports[`Storyshots ActionBar default 1`] = `
       </svg>
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.MobileTicket />}
         inverted={false}
@@ -527,12 +467,7 @@ exports[`Storyshots ActionBar default 1`] = `
     </div>
   </li>
   <li
-    style={
-      Object {
-        "display": "flex",
-        "flex": "1",
-      }
-    }
+    className="sc-bdVaJa lnntqR"
   >
     <div
       active={undefined}
@@ -564,7 +499,7 @@ exports[`Storyshots ActionBar default 1`] = `
       </svg>
       <div
         active={undefined}
-        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+        className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-flexGrow-16xksha rn-font-1lw9tu2 rn-fontFamily-baq3cm rn-fontSize-g18z4 rn-fontWeight-1od2jal rn-lineHeight-rjixqe rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginTop-kh6gk7 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
         dir="auto"
         icon={<Icons.CustomerService />}
         inverted={false}
