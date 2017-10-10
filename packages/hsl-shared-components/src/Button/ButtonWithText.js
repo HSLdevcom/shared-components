@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
 import Touchable from '../Touchable';
 import View from '../View';
-import { size as utilsSize, IS_NATIVE } from '../utils';
+import { size as utilsSize } from '../utils';
 
 const sizeMap = {
   button: {
@@ -61,35 +62,42 @@ const TouchableView = styled(({
   transparent,
   small,
   rounded,
+  theme,
   ...rest
 }) => (
-  <View {...rest} />
+  <Touchable {...rest} />
 ))`
   height: ${props => size('button', props.small)};
-  border-style: solid; /* Android touchable fix */
-  border-width: 1px; /* Android touchable fix */
-  border-color: transparent; /* Android touchable fix */
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
   flex-direction: row;
   justify-content: flex-start;
 `;
 
-const ButtonWithText = styled(({ small, text, icon, bgColor, onPress, onLongPress }) => (
-  <Touchable onPress={onPress} onLongPress={onLongPress}>
-    <TouchableView accessibilityRole="button">
-      <IconContainer small={small} bgColor={bgColor}>
-        {
-          React.cloneElement(
-            icon,
-            {
-              width: IS_NATIVE ? parseInt(size('icon', small), 10) : '100%', // note: native doesnt work with dynamic props
-              height: IS_NATIVE ? parseInt(size('icon', small), 10) : '100%',
-            }
-          )
-        }
-      </IconContainer>
-      <Caption>{text}</Caption>
-    </TouchableView>
-  </Touchable>
+const ButtonWithText = styled(({
+  small,
+  text,
+  icon,
+  bgColor,
+  onPress,
+  onLongPress,
+  theme,
+}) => (
+  <TouchableView onPress={onPress} onLongPress={onLongPress} accessibilityRole="button">
+    <IconContainer small={small} bgColor={bgColor}>
+      {
+        React.cloneElement(
+          icon,
+          {
+            height: size('icon', small),
+            width: size('icon', small),
+            fill: icon.props.fill ? icon.props.fill : theme.colors.primary.hslWhite,
+          })
+      }
+    </IconContainer>
+    <Caption>{text}</Caption>
+  </TouchableView>
 ))``;
 
 ButtonWithText.propTypes = {
@@ -101,4 +109,4 @@ ButtonWithText.propTypes = {
 
 ButtonWithText.displayName = 'ButtonWithText';
 
-export default ButtonWithText;
+export default withTheme(ButtonWithText);

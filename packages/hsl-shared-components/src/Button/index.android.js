@@ -1,5 +1,5 @@
 import Button from './ButtonNative';
-import RoundButton from './RoundButtonNative';
+import RoundButton from './RoundButton';
 import ButtonWithText from './ButtonWithText';
 
 export {

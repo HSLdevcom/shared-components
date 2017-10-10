@@ -49,7 +49,7 @@ const Icon = withTheme(({
   })
 );
 
-const TouchableText = styled(({
+const StyledText = styled(({
   hover,
   active,
   focus,
@@ -60,6 +60,7 @@ const TouchableText = styled(({
   small,
   disabled,
   square,
+  iconAfterText,
   ...rest
 }) => (
   <Text {...rest} />
@@ -75,7 +76,7 @@ const TouchableText = styled(({
   `}
 `;
 
-const TouchableView = styled(({
+const Container = styled(({
   hover,
   active,
   focus,
@@ -87,6 +88,7 @@ const TouchableView = styled(({
   small,
   square,
   iconAfterText,
+  noPadding,
   ...rest
 }) => (
   <Touchable {...rest} />
@@ -122,70 +124,73 @@ const Button = styled(({
   small,
   icon,
   iconAfterText,
+  onClick,
   onPress,
   onLongPress,
   innerRef,
   children,
   theme,
   ...rest
-}) => (
-  <TouchableView
-    onPress={onPress}
-    onLongPress={onLongPress}
-    pressedStyle={{
-      borderColor: getBorderColor({
-        active: true, primary, success, secondary, inverted, disabled, theme
-      }),
-      backgroundColor: getBackgroundColor({
-        active: true, primary, success, secondary, inverted, disabled, theme
-      }),
-    }}
-    active={active}
-    hover={hover}
-    focus={focus}
-    primary={primary}
-    success={success}
-    secondary={secondary}
-    inverted={inverted}
-    disabled={disabled}
-    transparent={transparent}
-    square={square}
-    small={small}
-    iconAfterText={iconAfterText}
-    {...rest}
-    innerRef={innerRef}
-    accessibilityRole="button"
-  >
-    {icon &&
-      <Icon
-        icon={icon}
-        primary={primary}
-        disabled={disabled}
-        small={small}
-      />
-    }
-    {
-      React.isValidElement(children) ?
-        children :
-        (<TouchableText
-          hover={hover}
-          active={active}
-          focus={focus}
+}) => {
+  const hasValidChildren = React.isValidElement(children);
+  return (
+    <Container
+      onPress={onPress || onClick}
+      onLongPress={onLongPress}
+      pressedStyle={{
+        borderColor: getBorderColor({
+          active: true, primary, success, secondary, inverted, disabled, theme
+        }),
+        backgroundColor: getBackgroundColor({
+          active: true, primary, success, secondary, inverted, disabled, theme
+        }),
+      }}
+      active={active}
+      hover={hover}
+      focus={focus}
+      primary={primary}
+      success={success}
+      secondary={secondary}
+      inverted={inverted}
+      disabled={disabled}
+      transparent={transparent}
+      square={square}
+      small={small}
+      iconAfterText={iconAfterText}
+      {...rest}
+      innerRef={innerRef}
+      accessibilityRole="button"
+    >
+      {icon &&
+        <Icon
+          icon={icon}
           primary={primary}
-          success={success}
-          secondary={secondary}
           disabled={disabled}
-          transparent={transparent}
-          square={square}
-          icon={!!icon}
-          iconAfterText={iconAfterText}
           small={small}
-        >
-          {children}
-        </TouchableText>)
-    }
-  </TouchableView>
-))``;
+        />
+      }
+      {hasValidChildren && children}
+      {!hasValidChildren &&
+          (<StyledText
+            hover={hover}
+            active={active}
+            focus={focus}
+            primary={primary}
+            success={success}
+            secondary={secondary}
+            disabled={disabled}
+            transparent={transparent}
+            square={square}
+            icon={!!icon}
+            iconAfterText={iconAfterText}
+            small={small}
+          >
+            {children}
+          </StyledText>)
+      }
+    </Container>
+  );
+})``;
 
 Button.propTypes = {
   primary: PropTypes.bool,
@@ -198,10 +203,13 @@ Button.propTypes = {
   small: PropTypes.bool,
   icon: PropTypes.element,
   iconAfterText: PropTypes.bool,
+  onClick: PropTypes.func,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
   innerRef: PropTypes.func
 };
+
+Button.displayName = 'Button';
 
 export default withTheme(Button);
