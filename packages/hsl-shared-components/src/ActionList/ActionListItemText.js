@@ -10,7 +10,7 @@ import { IS_NATIVE, size } from '../utils';
 import { getTextColor } from './utils';
 
 // Transparent borders below are for fixing touchable in android
-const Container = View.extend`
+const TouchableContainer = Touchable.extend`
   width: 100%;
   padding-horizontal: ${size(18)};
   padding-vertical: ${size(18)};
@@ -160,7 +160,7 @@ const ActiveItemUnderline = styled(({
   `}
 `;
 
-const ActionListItemCore = ({
+const ActionListItemText = styled(({
   accessibilityRole,
   href,
   active,
@@ -173,10 +173,16 @@ const ActionListItemCore = ({
   withBorder,
   centered,
   inverted,
+  onPress,
+  onLongPress,
+  onClick,
   ...rest,
 }) =>
   (
-    <Container
+    <TouchableContainer
+      onPress={onPress}
+      onLongPress={onLongPress}
+      onClick={onClick}
       accessibilityRole={accessibilityRole || 'button'}
       href={href}
       {...rest}
@@ -247,30 +253,47 @@ const ActionListItemCore = ({
         inverted={inverted}
         withBorder={withBorder}
       />
-    </Container>
-);
+    </TouchableContainer>
+))``;
 
-const ActionListItemText = styled(({
-  onPress,
-  onLongPress,
-  ...rest,
-}) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <ActionListItemCore {...rest} />
-      </Touchable>
-    );
-  }
+// const ActionListItemText = styled(({
+//   onPress,
+//   onLongPress,
+//   ...rest,
+// }) => {
+//   // We want to have default browser interactions unless we are on native platform
+//   if (IS_NATIVE) {
+//     return (
+//       <Touchable
+//         onPress={onPress}
+//         onLongPress={onLongPress}
+//       >
+//         <ActionListItemCore {...rest} />
+//       </Touchable>
+//     );
+//   }
+//
+//   return <ActionListItemCore {...rest} />;
+// })``;
 
-  return <ActionListItemCore {...rest} />;
-})``;
+// ActionListItemCore.propTypes = {
+//   accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
+//   href: PropTypes.string, // Not available in native
+//   active: PropTypes.bool,
+//   title: PropTypes.string.isRequired,
+//   description: PropTypes.string,
+//   icon: PropTypes.element,
+//   subtitle: PropTypes.string,
+//   centered: PropTypes.bool,
+//   arrowless: PropTypes.bool,
+//   withBorder: PropTypes.bool,
+//   inverted: PropTypes.bool,
+// };
 
-ActionListItemCore.propTypes = {
+ActionListItemText.propTypes = {
+  onPress: PropTypes.func,
+  onLongPress: PropTypes.func,
+  onClick: PropTypes.func,
   accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
   href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
@@ -282,12 +305,6 @@ ActionListItemCore.propTypes = {
   arrowless: PropTypes.bool,
   withBorder: PropTypes.bool,
   inverted: PropTypes.bool,
-};
-
-ActionListItemText.propTypes = {
-  onPress: PropTypes.func,
-  onLongPress: PropTypes.func,
-  ...ActionListItemCore.propTypes,
 };
 
 ActionListItemText.displayName = 'ActionListItemText';
