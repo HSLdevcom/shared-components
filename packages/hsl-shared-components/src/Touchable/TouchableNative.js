@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { TouchableWithoutFeedback } from 'react-native';
+import { View as ViewPrimitives } from 'react-primitives';
 import View from '../View';
 
 class TouchableNative extends React.Component {
@@ -62,8 +63,8 @@ TouchableNative.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   pressed: PropTypes.bool,
-  style: PropTypes.any,
-  pressedStyle: PropTypes.any,
+  style: PropTypes.arrayOf(ViewPrimitives.propTypes.style),
+  pressedStyle: PropTypes.shape(ViewPrimitives.propTypes.style),
   accessibilityRole: PropTypes.string,
 };
 
