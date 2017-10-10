@@ -142,12 +142,15 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "#007ac9",
                     "borderColor": "#007ac9",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -164,6 +167,8 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
+              icon={false}
+              iconAfterText={undefined}
               style={
                 Array [
                   Object {
@@ -177,11 +182,6 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
                       "color": "#ffffff",
                       "fontSize": 15.75,
                       "fontWeight": "500",
-                      "marginBottom": 0,
-                      "marginLeft": 21.875,
-                      "marginRight": 21.875,
-                      "marginTop": 0,
-                      "textAlign": "center",
                     },
                     undefined,
                   ],
@@ -1430,12 +1430,15 @@ exports[`Storyshots ActionList default 1`] = `
                       },
                       Array [
                         Object {
+                          "alignItems": "center",
                           "backgroundColor": "#007ac9",
                           "borderColor": "#007ac9",
                           "borderRadius": 35,
                           "borderStyle": "solid",
                           "borderWidth": 1,
+                          "flexDirection": "row",
                           "height": 43.75,
+                          "paddingHorizontal": 21.875,
                         },
                         Array [
                           Object {},
@@ -1452,6 +1455,8 @@ exports[`Storyshots ActionList default 1`] = `
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
+                    icon={false}
+                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -1465,11 +1470,6 @@ exports[`Storyshots ActionList default 1`] = `
                             "color": "#ffffff",
                             "fontSize": 15.75,
                             "fontWeight": "500",
-                            "marginBottom": 0,
-                            "marginLeft": 21.875,
-                            "marginRight": 21.875,
-                            "marginTop": 0,
-                            "textAlign": "center",
                           },
                           undefined,
                         ],
@@ -3240,12 +3240,15 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                       },
                       Array [
                         Object {
+                          "alignItems": "center",
                           "backgroundColor": "#007ac9",
                           "borderColor": "#007ac9",
                           "borderRadius": 35,
                           "borderStyle": "solid",
                           "borderWidth": 1,
+                          "flexDirection": "row",
                           "height": 43.75,
+                          "paddingHorizontal": 21.875,
                         },
                         Array [
                           Object {},
@@ -3262,6 +3265,8 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
+                    icon={false}
+                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -3275,11 +3280,6 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                             "color": "#ffffff",
                             "fontSize": 15.75,
                             "fontWeight": "500",
-                            "marginBottom": 0,
-                            "marginLeft": 21.875,
-                            "marginRight": 21.875,
-                            "marginTop": 0,
-                            "textAlign": "center",
                           },
                           undefined,
                         ],
@@ -3428,12 +3428,15 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                       },
                       Array [
                         Object {
+                          "alignItems": "center",
                           "backgroundColor": "#007ac9",
                           "borderColor": "#007ac9",
                           "borderRadius": 35,
                           "borderStyle": "solid",
                           "borderWidth": 1,
+                          "flexDirection": "row",
                           "height": 43.75,
+                          "paddingHorizontal": 21.875,
                         },
                         Array [
                           Object {},
@@ -3450,6 +3453,8 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
+                    icon={false}
+                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -3463,11 +3468,6 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                             "color": "#ffffff",
                             "fontSize": 15.75,
                             "fontWeight": "500",
-                            "marginBottom": 0,
-                            "marginLeft": 21.875,
-                            "marginRight": 21.875,
-                            "marginTop": 0,
-                            "textAlign": "center",
                           },
                           undefined,
                         ],
@@ -4773,12 +4773,15 @@ exports[`Storyshots ActionList with borders 1`] = `
                       },
                       Array [
                         Object {
+                          "alignItems": "center",
                           "backgroundColor": "#007ac9",
                           "borderColor": "#007ac9",
                           "borderRadius": 35,
                           "borderStyle": "solid",
                           "borderWidth": 1,
+                          "flexDirection": "row",
                           "height": 43.75,
+                          "paddingHorizontal": 21.875,
                         },
                         Array [
                           Object {},
@@ -4795,6 +4798,8 @@ exports[`Storyshots ActionList with borders 1`] = `
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
+                    icon={false}
+                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -4808,11 +4813,6 @@ exports[`Storyshots ActionList with borders 1`] = `
                             "color": "#ffffff",
                             "fontSize": 15.75,
                             "fontWeight": "500",
-                            "marginBottom": 0,
-                            "marginLeft": 21.875,
-                            "marginRight": 21.875,
-                            "marginTop": 0,
-                            "textAlign": "center",
                           },
                           undefined,
                         ],

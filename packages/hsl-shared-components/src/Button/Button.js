@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import View from '../View';
 import Text from '../Typography';
@@ -41,25 +41,29 @@ const Container = styled(({
   primary,
   success,
   secondary,
+  inverted,
   transparent,
   small,
   square,
+  iconAfterText,
   noPadding,
   ...rest
 }) => (
   <View {...rest} />
 ))`
-
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  text-align: center;
-
   ${props => !props.noPadding && `
     padding: 0 ${utilsSize(25, true)}px;
   `}
-
   cursor: pointer;
+
+  flex-direction: row;
+  ${props => props.iconAfterText && `
+    flex-direction: row-reverse;
+  `}
+  align-items: center;
   height: ${props => size('height', props.primary, props.small)};
   border-radius: ${props => (props.square ? utilsSize(4) : utilsSize(40))};
   border-style: solid;
@@ -77,6 +81,20 @@ const Container = styled(({
   }
 `;
 
+const Icon = withTheme(({
+  icon,
+  primary,
+  disabled,
+  small,
+  theme,
+}) =>
+  React.cloneElement(icon, {
+    width: size('fontSize', primary, small),
+    height: size('fontSize', primary, small),
+    fill: getTextColor({ primary, disabled, theme }),
+  })
+);
+
 const StyledText = styled(({
   hover,
   active,
@@ -84,6 +102,7 @@ const StyledText = styled(({
   primary,
   success,
   secondary,
+  iconAfterText,
   disabled,
   small,
   ...rest,
@@ -93,7 +112,12 @@ const StyledText = styled(({
   color: ${props => getTextColor(props)};
   font-size: ${props => size('fontSize', props.primary, props.small)};
   font-weight: 500;
-  text-align: center;
+  ${props => props.icon && !props.iconAfterText && `
+    margin-left: ${utilsSize(10)};
+  `}
+  ${props => props.icon && props.iconAfterText && `
+    margin-right: ${utilsSize(10)};
+  `}
 `;
 
 const Button = styled(({
@@ -103,8 +127,11 @@ const Button = styled(({
   primary,
   success,
   secondary,
+  inverted,
   disabled,
   transparent,
+  icon,
+  iconAfterText,
   square,
   small,
   noPadding,
@@ -113,7 +140,9 @@ const Button = styled(({
   onLongPress,
   innerRef,
   children,
-  ...rest }) => (
+  ...rest }) => {
+  const hasValidChildren = React.isValidElement(children);
+  return (
     <Container
       hover={hover}
       active={active}
@@ -121,18 +150,28 @@ const Button = styled(({
       primary={primary}
       success={success}
       secondary={secondary}
+      inverted={inverted}
       disabled={disabled}
       transparent={transparent}
       square={square}
       small={small}
       noPadding={noPadding}
+      iconAfterText={iconAfterText}
       onClick={onPress || onClick}
+      accessibilityRole="button"
       {...rest}
       innerRef={innerRef}
-      accessibilityRole="button"
     >
-      {React.isValidElement(children) && children}
-      {!React.isValidElement(children) &&
+      {icon &&
+        <Icon
+          icon={icon}
+          primary={primary}
+          disabled={disabled}
+          small={small}
+        />
+      }
+      {hasValidChildren && children}
+      {!hasValidChildren &&
         <StyledText
           hover={hover}
           active={active}
@@ -140,22 +179,28 @@ const Button = styled(({
           primary={primary}
           success={success}
           secondary={secondary}
+          icon={!!icon}
           disabled={disabled}
+          iconAfterText={iconAfterText}
           small={small}
         >
           {children}
         </StyledText>}
     </Container>
-))``;
+  );
+})``;
 
 Button.propTypes = {
   primary: PropTypes.bool,
   secondary: PropTypes.bool,
   success: PropTypes.bool,
+  inverted: PropTypes.bool,
   transparent: PropTypes.bool,
   disabled: PropTypes.bool,
   square: PropTypes.bool,
   small: PropTypes.bool,
+  icon: PropTypes.element,
+  iconAfterText: PropTypes.bool,
   noPadding: PropTypes.bool,
   onClick: PropTypes.func,
   onPress: PropTypes.func,

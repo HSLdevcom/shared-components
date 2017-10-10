@@ -16,6 +16,7 @@ storiesOf('Checkbox', module)
   .add('Default', () => {
     const checked = boolean('Checked', false);
     const error = boolean('Error', false);
+    const inverted = boolean('Inverted', false);
     const disabled = boolean('Disabled', false);
     const title = text('Title', 'Checkbox title');
     return (
@@ -24,6 +25,7 @@ storiesOf('Checkbox', module)
         error={error}
         disabled={disabled}
         title={title}
+        inverted={inverted}
         onPress={action('Checkbox pressed')}
       />);
   });

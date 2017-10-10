@@ -13,7 +13,6 @@ exports[`Storyshots Checkbox Default 1`] = `
 >
   <View
     aria-checked="false"
-    disabled={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -43,27 +42,36 @@ exports[`Storyshots Checkbox Default 1`] = `
   >
     <View
       checked={false}
-      error={false}
+      disabled={false}
+      inverted={false}
       style={
         Array [
           Object {
             "alignItems": "center",
-            "borderColor": "#b7b7b7",
-            "borderRadius": 3.5,
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "height": 17.5,
             "justifyContent": "center",
-            "width": 17.5,
           },
-          undefined,
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#888888",
+              "borderRadius": 3.5,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "height": 17.5,
+              "width": 17.5,
+            },
+            undefined,
+          ],
         ]
       }
     />
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
+      inverted={false}
       style={
         Array [
           Object {
@@ -72,7 +80,7 @@ exports[`Storyshots Checkbox Default 1`] = `
             "fontSize": 15.75,
             "fontWeight": "500",
             "lineHeight": 18,
-            "marginLeft": 17.5,
+            "marginLeft": 8.75,
           },
           undefined,
         ]

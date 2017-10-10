@@ -13,9 +13,7 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
 >
   <View
     accessibilityRole="button"
-    active={false}
     href={undefined}
-    inverted={false}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -26,24 +24,30 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#b7b7b7",
           "borderStyle": "solid",
-          "borderWidth": 1,
-          "flexBasis": 0,
-          "flexGrow": 1,
-          "flexShrink": 1,
           "justifyContent": "center",
-          "marginRight": -1,
-          "marginTop": -1,
-          "paddingHorizontal": 8.75,
-          "paddingVertical": 17.5,
         },
         Array [
-          Object {},
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#b7b7b7",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginRight": -1,
+            "marginTop": -1,
+            "paddingHorizontal": 8.75,
+            "paddingVertical": 17.5,
+          },
           Array [
             Object {},
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ],
         ],
       ]
@@ -68,24 +72,28 @@ exports[`Storyshots ActionBar ActionBarItem 1`] = `
     </Svg>
     <Text
       accessible={true}
-      active={false}
       allowFontScaling={true}
       ellipsizeMode="tail"
       icon={<Icons.JourneyPlanner />}
-      inverted={false}
       style={
         Array [
           Object {
-            "color": "#007ac9",
-            "flexGrow": 2,
+            "color": "#333333",
             "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-            "fontSize": 13.125,
+            "fontSize": 12.25,
             "fontWeight": "300",
             "lineHeight": 20,
-            "marginTop": 17.5,
-            "textAlign": "center",
           },
-          undefined,
+          Array [
+            Object {
+              "color": "#007ac9",
+              "flexGrow": 2,
+              "fontSize": 13.125,
+              "marginTop": 17.5,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -140,11 +148,7 @@ exports[`Storyshots ActionBar Default 1`] = `
   >
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={true}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -155,26 +159,32 @@ exports[`Storyshots ActionBar Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderBottomLeftRadius": 8,
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderTopLeftRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderBottomLeftRadius": 8,
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderTopLeftRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -195,24 +205,28 @@ exports[`Storyshots ActionBar Default 1`] = `
       </Svg>
       <Text
         accessible={true}
-        active={undefined}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={<Icons.Tickets />}
-        inverted={false}
         style={
           Array [
             Object {
-              "color": "#007ac9",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "marginTop": 17.5,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#007ac9",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "marginTop": 17.5,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -221,11 +235,7 @@ exports[`Storyshots ActionBar Default 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={true}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -236,24 +246,30 @@ exports[`Storyshots ActionBar Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#007ac9",
-            "borderColor": "#007ac9",
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#007ac9",
+              "borderColor": "#007ac9",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -278,24 +294,28 @@ exports[`Storyshots ActionBar Default 1`] = `
       </Svg>
       <Text
         accessible={true}
-        active={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={<Icons.JourneyPlanner />}
-        inverted={false}
         style={
           Array [
             Object {
-              "color": "#ffffff",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "marginTop": 17.5,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#ffffff",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "marginTop": 17.5,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -304,11 +324,7 @@ exports[`Storyshots ActionBar Default 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={true}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -319,26 +335,32 @@ exports[`Storyshots ActionBar Default 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderBottomRightRadius": 8,
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderTopRightRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderBottomRightRadius": 8,
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderTopRightRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -358,24 +380,28 @@ exports[`Storyshots ActionBar Default 1`] = `
       </Svg>
       <Text
         accessible={true}
-        active={undefined}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={<Icons.Info />}
-        inverted={false}
         style={
           Array [
             Object {
-              "color": "#007ac9",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "marginTop": 17.5,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#007ac9",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "marginTop": 17.5,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -431,11 +457,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
   >
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={true}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -446,26 +468,32 @@ exports[`Storyshots ActionBar Icons only 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderBottomLeftRadius": 8,
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderTopLeftRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderBottomLeftRadius": 8,
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderTopLeftRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -487,11 +515,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -502,24 +526,30 @@ exports[`Storyshots ActionBar Icons only 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -545,11 +575,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={true}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -560,24 +586,30 @@ exports[`Storyshots ActionBar Icons only 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#007ac9",
-            "borderColor": "#007ac9",
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#007ac9",
+              "borderColor": "#007ac9",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -598,11 +630,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -613,24 +641,30 @@ exports[`Storyshots ActionBar Icons only 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -650,11 +684,7 @@ exports[`Storyshots ActionBar Icons only 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={false}
       href={undefined}
-      inverted={false}
-      last={true}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -665,26 +695,32 @@ exports[`Storyshots ActionBar Icons only 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderBottomRightRadius": 8,
-            "borderColor": "#b7b7b7",
             "borderStyle": "solid",
-            "borderTopRightRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderBottomRightRadius": 8,
+              "borderColor": "#b7b7b7",
+              "borderStyle": "solid",
+              "borderTopRightRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -753,11 +789,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
   >
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={true}
       href={undefined}
-      inverted={true}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -768,26 +800,32 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#007ac9",
-            "borderBottomLeftRadius": 8,
-            "borderColor": "#ffffff",
             "borderStyle": "solid",
-            "borderTopLeftRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#007ac9",
+              "borderBottomLeftRadius": 8,
+              "borderColor": "#ffffff",
+              "borderStyle": "solid",
+              "borderTopLeftRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -795,23 +833,27 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <Text
         accessible={true}
-        active={undefined}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={undefined}
-        inverted={true}
         style={
           Array [
             Object {
-              "color": "#ffffff",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#ffffff",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -820,11 +862,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={true}
-      first={false}
       href={undefined}
-      inverted={true}
-      last={false}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -835,24 +873,30 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#ffffff",
             "borderStyle": "solid",
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#ffffff",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -860,23 +904,27 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <Text
         accessible={true}
-        active={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={undefined}
-        inverted={true}
         style={
           Array [
             Object {
-              "color": "#007ac9",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#007ac9",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -885,11 +933,7 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     </View>
     <View
       accessibilityRole="button"
-      active={undefined}
-      first={false}
       href={undefined}
-      inverted={true}
-      last={true}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -900,26 +944,32 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "backgroundColor": "#007ac9",
-            "borderBottomRightRadius": 8,
-            "borderColor": "#ffffff",
             "borderStyle": "solid",
-            "borderTopRightRadius": 8,
-            "borderWidth": 1,
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
             "justifyContent": "center",
-            "marginRight": -1,
-            "marginTop": -1,
-            "paddingHorizontal": 8.75,
-            "paddingVertical": 17.5,
           },
           Array [
-            Object {},
+            Object {
+              "backgroundColor": "#007ac9",
+              "borderBottomRightRadius": 8,
+              "borderColor": "#ffffff",
+              "borderStyle": "solid",
+              "borderTopRightRadius": 8,
+              "borderWidth": 1,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginRight": -1,
+              "marginTop": -1,
+              "paddingHorizontal": 8.75,
+              "paddingVertical": 17.5,
+            },
             Array [
               Object {},
-              undefined,
+              Array [
+                Object {},
+                undefined,
+              ],
             ],
           ],
         ]
@@ -927,23 +977,27 @@ exports[`Storyshots ActionBar Inverted theme and no icons 1`] = `
     >
       <Text
         accessible={true}
-        active={undefined}
         allowFontScaling={true}
         ellipsizeMode="tail"
         icon={undefined}
-        inverted={true}
         style={
           Array [
             Object {
-              "color": "#ffffff",
-              "flexGrow": 2,
+              "color": "#333333",
               "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 13.125,
+              "fontSize": 12.25,
               "fontWeight": "300",
               "lineHeight": 20,
-              "textAlign": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "color": "#ffffff",
+                "flexGrow": 2,
+                "fontSize": 13.125,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
           ]
         }
       >

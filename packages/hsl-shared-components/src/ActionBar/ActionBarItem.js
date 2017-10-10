@@ -59,7 +59,15 @@ const getBackgroundColor = (active, inverted, theme) => {
   return theme.colors.background.hslWhite;
 };
 
-const Container = View.extend`
+const Container = styled(({
+  inverted,
+  active,
+  first,
+  last,
+  ...rest,
+}) =>
+  <View {...rest} />
+)`
   ${!IS_NATIVE && `
     cursor: pointer;
   `}
@@ -96,7 +104,13 @@ const Icon = withTheme(({
   })
 );
 
-const Title = P.extend`
+const Title = styled(({
+  inverted,
+  active,
+  ...rest,
+}) =>
+  <P {...rest} />
+)`
   flex-grow: 2;
   ${props => !!props.icon && `
     margin-top: ${size(20)}
@@ -109,7 +123,7 @@ const Title = P.extend`
 const ActionBarItemCore = ({
   icon,
   title,
-  type,
+  accessibilityRole,
   href,
   inverted,
   active,
@@ -121,7 +135,7 @@ const ActionBarItemCore = ({
       inverted={inverted}
       active={active}
       {...rest}
-      accessibilityRole={type || 'button'}
+      accessibilityRole={accessibilityRole || 'button'}
     >
       {!!icon &&
         <Icon
@@ -165,7 +179,7 @@ const ActionBarItem = styled(({
 ActionBarItemCore.propTypes = {
   icon: PropTypes.element,
   title: PropTypes.string,
-  type: PropTypes.oneOf(['button', 'link']),
+  accessibilityRole: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
   active: PropTypes.bool,
   inverted: PropTypes.bool,

@@ -377,12 +377,15 @@ exports[`Storyshots Footer default 1`] = `
               },
               Array [
                 Object {
+                  "alignItems": "center",
                   "backgroundColor": "#007ac9",
                   "borderColor": "#007ac9",
                   "borderRadius": 35,
                   "borderStyle": "solid",
                   "borderWidth": 1,
+                  "flexDirection": "row",
                   "height": 43.75,
+                  "paddingHorizontal": 21.875,
                 },
                 Array [
                   Object {},
@@ -405,6 +408,8 @@ exports[`Storyshots Footer default 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
+            iconAfterText={undefined}
             style={
               Array [
                 Object {
@@ -418,11 +423,6 @@ exports[`Storyshots Footer default 1`] = `
                     "color": "#ffffff",
                     "fontSize": 15.75,
                     "fontWeight": "500",
-                    "marginBottom": 0,
-                    "marginLeft": 21.875,
-                    "marginRight": 21.875,
-                    "marginTop": 0,
-                    "textAlign": "center",
                   },
                   undefined,
                 ],
@@ -514,12 +514,15 @@ exports[`Storyshots Footer default 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -592,12 +595,15 @@ exports[`Storyshots Footer default 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -670,12 +676,15 @@ exports[`Storyshots Footer default 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -748,12 +757,15 @@ exports[`Storyshots Footer default 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -832,12 +844,15 @@ exports[`Storyshots Footer default 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -2040,12 +2055,15 @@ exports[`Storyshots Footer sub site 1`] = `
               },
               Array [
                 Object {
+                  "alignItems": "center",
                   "backgroundColor": "#007ac9",
                   "borderColor": "#007ac9",
                   "borderRadius": 35,
                   "borderStyle": "solid",
                   "borderWidth": 1,
+                  "flexDirection": "row",
                   "height": 43.75,
+                  "paddingHorizontal": 21.875,
                 },
                 Array [
                   Object {},
@@ -2068,6 +2086,8 @@ exports[`Storyshots Footer sub site 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            icon={false}
+            iconAfterText={undefined}
             style={
               Array [
                 Object {
@@ -2081,11 +2101,6 @@ exports[`Storyshots Footer sub site 1`] = `
                     "color": "#ffffff",
                     "fontSize": 15.75,
                     "fontWeight": "500",
-                    "marginBottom": 0,
-                    "marginLeft": 21.875,
-                    "marginRight": 21.875,
-                    "marginTop": 0,
-                    "textAlign": "center",
                   },
                   undefined,
                 ],
@@ -2177,12 +2192,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -2255,12 +2273,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -2333,12 +2354,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -2411,12 +2435,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},
@@ -2495,12 +2522,15 @@ exports[`Storyshots Footer sub site 1`] = `
                 },
                 Array [
                   Object {
+                    "alignItems": "center",
                     "backgroundColor": "transparent",
                     "borderColor": "#b7b7b7",
                     "borderRadius": 35,
                     "borderStyle": "solid",
                     "borderWidth": 1,
+                    "flexDirection": "row",
                     "height": 43.75,
+                    "paddingHorizontal": 21.875,
                   },
                   Array [
                     Object {},

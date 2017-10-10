@@ -27,10 +27,7 @@ storiesOf('ActionBar', module)
         icon: <Icons.JourneyPlanner />,
         active: true,
       },
-      {
-        title: 'Löytötavaroita',
-        icon: <Icons.Info />,
-      },
+      <ActionBarItem key="foo" title="Löytötavaroita" icon={<Icons.Info />} />
     ];
     return (
       <ActionBar

@@ -2,7 +2,7 @@
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-kgAjT dvduMD"
+  className="sc-ksYbfQ LEWSK"
 >
   <div
     className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
@@ -114,7 +114,7 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-kgAjT dvduMD"
+  className="sc-ksYbfQ LEWSK"
 >
   <div
     className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
@@ -157,7 +157,7 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-kgAjT dvduMD"
+  className="sc-ksYbfQ LEWSK"
 >
   <div
     className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
@@ -269,7 +269,7 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-kgAjT dvduMD"
+  className="sc-ksYbfQ LEWSK"
 >
   <div
     className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
