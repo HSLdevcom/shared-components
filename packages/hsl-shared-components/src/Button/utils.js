@@ -57,6 +57,9 @@ export const getBackgroundColor = (props, force = {}) => {
   if (disabled) {
     return props.theme.colors.background.hslWhite;
   }
+  if (props.inverted && (hover || active)) {
+    return props.theme.colors.background.hslBlueLight;
+  }
   if (props.inverted) {
     return props.theme.colors.primary.hslWhite;
   }
