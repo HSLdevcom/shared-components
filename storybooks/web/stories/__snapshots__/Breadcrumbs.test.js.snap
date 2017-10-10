@@ -39,10 +39,10 @@ exports[`Storyshots Breadcrumbs Single item 1`] = `
 
 exports[`Storyshots Breadcrumbs default 1`] = `
 <ul
-  className="sc-gzVnrw ibZhkv sc-EHOje dtIYod"
+  className="sc-iwsKbI jQhHGA sc-htoDjs hZXxxB"
 >
   <li
-    className="sc-bZQynM IAXmQ"
+    className="sc-dnqmqq bPwZQa"
   >
     <a
       className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
@@ -80,7 +80,7 @@ exports[`Storyshots Breadcrumbs default 1`] = `
     </a>
   </li>
   <li
-    className="sc-bZQynM IAXmQ"
+    className="sc-dnqmqq bPwZQa"
   >
     <a
       className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"
@@ -118,7 +118,7 @@ exports[`Storyshots Breadcrumbs default 1`] = `
     </a>
   </li>
   <li
-    className="sc-bZQynM IAXmQ"
+    className="sc-dnqmqq bPwZQa"
   >
     <a
       className="rn-alignItems-1awozwy rn-backgroundColor-wib322 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1h0z5md rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-marginRight-d6i92a rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-1oqfev0 rn-paddingRight-9aemit rn-paddingBottom-3n6hzh rn-paddingLeft-gy4na3 rn-position-bnwqim rn-textDecoration-bauka4"

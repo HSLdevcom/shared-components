@@ -1,339 +1,111 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { withTheme } from 'styled-components';
 import View from '../View';
-import { H3, H4, P } from '../Typography';
-import Touchable from '../Touchable';
-import ArrowRight from '../Icons/ArrowRight';
-import { IS_NATIVE, size } from '../utils';
-
-const getTextColor = (props) => {
-  if (props.inverted && props.active) {
-    return props.theme.font.colors.highlight;
-  }
-  if (props.inverted) {
-    return props.theme.colors.primary.hslWhite;
-  }
-  if (props.withBorder && props.active) {
-    return props.theme.colors.primary.hslWhite;
-  }
-  return props.theme.font.colors.highlight;
-};
-
-const getBorderColor = (props) => {
-  if (props.inverted) {
-    return props.theme.colors.primary.hslWhite;
-  }
-  if (props.withBorder && props.active) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  if (props.withBorder) {
-    return props.theme.colors.primary.hslGreyLight;
-  }
-  if (props.active) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  return 'transparent';
-};
-
-const getBackgroundColor = (props) => {
-  if (props.inverted && props.active) {
-    return props.theme.colors.primary.hslWhite;
-  }
-  if (props.inverted) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  if (props.withBorder && props.active) {
-    return props.theme.colors.primary.hslBlue;
-  }
-  return props.theme.colors.primary.hslWhite;
-};
+import ActionListItemText from './ActionListItemText';
+import ActionListItemTeaser from './ActionListItemTeaser';
+import { getBorderColor, getBackgroundColor, getVerticalListBorderStyles, getHorizontalListBorderStyles } from './utils';
 
 const Container = styled(({
   active,
   centered,
   inverted,
+  horizontal,
+  arrowless,
+  secondary,
   withBorder,
   first,
   second,
   secondToLast,
   last,
-  ...rest,
-}) =>
-  <View {...rest} />
-)`
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  ${props => props.centered && `
-    justify-content: center;
-  `}
-  position: relative;
-  padding-horizontal: ${size(18)};
-  border-style: solid;
-  border-color: ${props => getBorderColor(props)};
-  background-color: ${props => getBackgroundColor(props)};
-
-  ${props => props.withBorder && `
-    border-top-width: 0px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-  `}
-
-  ${props => props.withBorder && props.first && `
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-width: 1px;
-  `}
-
-  ${props => props.withBorder && props.secondToLast && `
-    border-bottom-width: 0px;
-  `}
-
-  ${props => props.withBorder && props.last && `
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-width: 1px;
-  `}
-
-  ${!IS_NATIVE && 'cursor: pointer;'}
-`;
-
-const Icon = withTheme(({
-  icon,
-  theme,
-  active,
-  inverted,
-  withBorder,
-}) =>
-  React.cloneElement(icon, {
-    width: size(35),
-    height: size(35),
-    fill: getTextColor({ active, inverted, withBorder, theme }),
-  })
-);
-
-const TitleContainer = styled(({
-  icon,
-  arrowless,
-  centered,
   ...rest,
 }) =>
   <View {...rest} />
 )`
   flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
-  ${props => !props.centered && `
-    flex-grow: 2;
+  ${props => props.centered && `
+    justify-content: center;
   `}
-  margin-vertical: ${size(18)};
-  ${props => (props.icon || props.prefix) && `
-    margin-left: ${size(18)};
+
+  ${props => props.horizontal && `
+    height: 100%;
   `}
-  ${props => !props.arrowless && `
-    margin-right: ${size(18)};
-  `}
+
+  position: relative;
+  border-style: solid;
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
+  overflow: hidden;
+
+  ${props => !props.horizontal && getVerticalListBorderStyles(props)}
+  ${props => props.horizontal && getHorizontalListBorderStyles(props)}
 `;
 
-const Prefix = styled(({
-  active,
-  inverted,
-  withBorder,
-  ...rest,
-}) =>
-  <H3 {...rest} />
-)`
-  margin-left: ${size(18)};
-  color: ${props => getTextColor(props)}
-`;
-
-const Title = styled(({
-  active,
-  inverted,
-  withBorder,
-  ...rest,
-}) =>
-  <H4 {...rest} />
-)`
-  flex-wrap: wrap;
-  color: ${props => getTextColor(props)}
-`;
-
-const Subtitle = styled(({
-  active,
-  inverted,
-  withBorder,
-  ...rest,
-}) =>
-  <P {...rest} />
-)`
-  ${!IS_NATIVE && `
-    margin-top: ${size(5)};
-  `}
-  color: ${props => getTextColor(props)}
-`;
-
-const ArrowIcon = withTheme(({
-  theme,
-  active,
-  inverted,
-  withBorder,
-}) =>
-  (
-    <ArrowRight
-      height={size(15)}
-      width={size(10)}
-      fill={getTextColor({ active, inverted, withBorder, theme })}
-    />
-  ));
-
-const ActiveItemUnderline = styled(({
-  active,
-  inverted,
-  withBorder,
-  ...rest
-}) => (
-  <View {...rest} />
-))`
-  position: absolute;
-  height: 3px;
-  bottom: 0;
-  width: 200%;
-  ${props => props.active && !props.inverted && !props.withBorder && `
-    background-color: ${props.theme.colors.primary.hslBlue};
-  `}
-`;
-
-const ActionListItemCore = ({
+const ActionListItem = ({
   type,
-  href,
   active,
-  prefix,
-  title,
-  subtitle,
-  icon,
-  arrowless,
-  withBorder,
   centered,
+  inverted,
+  horizontal,
+  arrowless,
+  secondary,
+  withBorder,
   first,
   second,
   secondToLast,
   last,
-  inverted,
   ...rest,
-}) =>
-  (
+}) => {
+  const isTextItem = (!type || type === 'text');
+  const isTeaserItem = (type === 'teaser');
+  return (
     <Container
-      accessibilityRole={type || 'button'}
-      href={href}
       active={active}
       centered={centered}
       inverted={inverted}
+      horizontal={horizontal}
+      arrowless={arrowless}
+      secondary={secondary}
       withBorder={withBorder}
       first={first}
       second={second}
       secondToLast={secondToLast}
       last={last}
-      {...rest}
     >
-      {!!icon &&
-        <Icon
-          icon={icon}
+      {isTextItem &&
+        <ActionListItemText
           active={active}
+          centered={centered}
           inverted={inverted}
+          arrowless={arrowless}
           withBorder={withBorder}
+          {...rest}
         />
       }
-      {!!prefix &&
-        <Prefix
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
-        >
-          {prefix}
-        </Prefix>
-      }
-      <TitleContainer
-        icon={!!icon}
-        prefix={prefix}
-        arrowless={arrowless}
-        centered={centered}
-      >
-        <Title
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
-        >
-          {title}
-        </Title>
-        {!!subtitle &&
-          <Subtitle
-            active={active}
-            inverted={inverted}
-            withBorder={withBorder}
-          >
-            {subtitle}
-          </Subtitle>
-        }
-      </TitleContainer>
-      {!arrowless &&
-        <ArrowIcon
-          active={active}
-          inverted={inverted}
-          withBorder={withBorder}
+      {isTeaserItem &&
+        <ActionListItemTeaser
+          {...rest}
         />
       }
-      <ActiveItemUnderline
-        active={active}
-        inverted={inverted}
-        withBorder={withBorder}
-      />
     </Container>
-);
+  );
+};
 
-const ActionListItem = styled(({
-  onPress,
-  onLongPress,
-  ...rest,
-}) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <ActionListItemCore {...rest} />
-      </Touchable>
-    );
-  }
-
-  return <ActionListItemCore {...rest} />;
-})``;
-
-ActionListItemCore.propTypes = {
-  type: PropTypes.oneOf(['button', 'link']), // Not available in native
-  href: PropTypes.string, // Not available in native
+ActionListItem.propTypes = {
+  type: PropTypes.oneOf(['text', 'teaser']),
   active: PropTypes.bool,
-  title: PropTypes.string.isRequired,
-  icon: PropTypes.element,
-  subtitle: PropTypes.string,
   centered: PropTypes.bool,
+  inverted: PropTypes.bool,
+  horizontal: PropTypes.bool,
   arrowless: PropTypes.bool,
+  secondary: PropTypes.bool,
   withBorder: PropTypes.bool,
   first: PropTypes.bool,
   second: PropTypes.bool, // Native w/ rounded borders requires every border to have width
   secondToLast: PropTypes.bool, // Hence we need to know second & secondToLast
   last: PropTypes.bool,
-  inverted: PropTypes.bool,
-};
-
-ActionListItem.propTypes = {
-  onPress: PropTypes.func,
-  onLongPress: PropTypes.func,
-  ...ActionListItemCore.propTypes,
 };
 
 ActionListItem.displayName = 'ActionListItem';
