@@ -14,6 +14,7 @@ import { ADiv } from '../Animated';
 const Header = View.extend`
   width: 100%;
   align-items: stretch;
+  z-index: ${props => props.theme.layers.menu}
 `;
 
 const ScrollWrap = styled(props => (

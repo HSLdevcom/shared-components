@@ -9,7 +9,7 @@ import LangButton from './LangButton';
 import View from '../View';
 import { P } from '../Typography';
 import { size } from '../utils';
-import { AView, ADiv } from '../Animated';
+import { AView } from '../Animated';
 
 const LanguageButton = LangButton.extend`
   width: ${size(52)};
@@ -22,7 +22,6 @@ const StyledP = P.extend`
 `;
 
 const StyledView = View.extend`
-  overflow: hidden;
   padding: 0;
   align-items: center;
   background: ${props => props.theme.colors.primary.hslBlue};
@@ -33,14 +32,16 @@ const SelectWrapper = View.extend`
   border-radius: 3px;
   border-color: ${props => props.theme.colors.primary.hslBlueDark};
   border-width: 1px;
+  z-index: ${props => props.theme.layers.menu + 1}
 `;
 
-const ScrollWrap = styled(props => (
-  <ADiv {...props} />
+const ScrollWrap = styled(({ x, y, height, width, ...rest }) => (
+  <AView {...rest} />
 ))`
   position: absolute;
-  width: 100%;
-  top: 0;
+  width: ${props => props.width}px;
+  top: ${props => props.y + props.height}px;
+  left: ${props => props.x}px;
   overflow: hidden;
 `;
 
@@ -48,14 +49,25 @@ const ScrollWrap = styled(props => (
 class LangSelectSmall extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { anim: new Animated.Value(0) };
+    this.state = {
+      anim: new Animated.Value(0),
+      langBtn: { x: 0, y: 0, height: 0, width: 0 }
+    };
     this.toggleLangSelect = this.toggleLangSelect.bind(this);
     this.onLayout = this.onLayout.bind(this);
+    this.langBtnOnLayout = this.langBtnOnLayout.bind(this);
     this.langSelectHeight = 0;
   }
 
   onLayout(e) {
     this.langSelectHeight = e.nativeEvent.layout.height;
+  }
+
+  langBtnOnLayout(e) {
+    const { height, width, x, y } = e.nativeEvent.layout;
+    this.setState({
+      langBtn: { height, width, x, y }
+    });
   }
 
   toggleLangSelect() {
@@ -81,7 +93,7 @@ class LangSelectSmall extends React.Component {
       <StyledView {...omit(this.props, ['languages', 'selectedLanguage', 'changeLanguage'])} onClick={this.toggleLangSelect}>
         <LanguageButton
           onPress={this.toggleLangSelect}
-          onClick={this.toggleLangSelect}
+          onLayout={this.langBtnOnLayout}
         >
           <StyledP>
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
@@ -94,6 +106,10 @@ class LangSelectSmall extends React.Component {
         </LanguageButton>
         <ScrollWrap
           style={{ maxHeight: this.state.anim }}
+          x={this.state.langBtn.x}
+          y={this.state.langBtn.y}
+          height={this.state.langBtn.height}
+          width={this.state.langBtn.width}
         >
           <SelectWrapper onLayout={this.onLayout}>
             {
