@@ -173,6 +173,7 @@ const ActionListItemText = styled(({
   withBorder,
   centered,
   inverted,
+  secondary,
   onPress,
   onLongPress,
   onClick,
@@ -256,40 +257,6 @@ const ActionListItemText = styled(({
     </TouchableContainer>
 ))``;
 
-// const ActionListItemText = styled(({
-//   onPress,
-//   onLongPress,
-//   ...rest,
-// }) => {
-//   // We want to have default browser interactions unless we are on native platform
-//   if (IS_NATIVE) {
-//     return (
-//       <Touchable
-//         onPress={onPress}
-//         onLongPress={onLongPress}
-//       >
-//         <ActionListItemCore {...rest} />
-//       </Touchable>
-//     );
-//   }
-//
-//   return <ActionListItemCore {...rest} />;
-// })``;
-
-// ActionListItemCore.propTypes = {
-//   accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
-//   href: PropTypes.string, // Not available in native
-//   active: PropTypes.bool,
-//   title: PropTypes.string.isRequired,
-//   description: PropTypes.string,
-//   icon: PropTypes.element,
-//   subtitle: PropTypes.string,
-//   centered: PropTypes.bool,
-//   arrowless: PropTypes.bool,
-//   withBorder: PropTypes.bool,
-//   inverted: PropTypes.bool,
-// };
-
 ActionListItemText.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
@@ -305,6 +272,8 @@ ActionListItemText.propTypes = {
   arrowless: PropTypes.bool,
   withBorder: PropTypes.bool,
   inverted: PropTypes.bool,
+  secondary: PropTypes.bool,
+
 };
 
 ActionListItemText.displayName = 'ActionListItemText';
