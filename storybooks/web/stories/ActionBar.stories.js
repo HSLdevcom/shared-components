@@ -38,10 +38,11 @@ stories.addWithJSX('default', () => {
       title: 'HSL:n sähköisiä palveluita',
       icon: <Icons.MobileTicket />,
     },
-    {
-      title: 'Palveluita yrityksille ja oppilaitoksille',
-      icon: <Icons.CustomerService />,
-    }
+    (<ActionBarItem
+      key="foo"
+      title="Palveluita yrityksille ja oppilaitoksille"
+      icon={<Icons.CustomerService />}
+    />)
   ];
   return (
     <ActionBar
@@ -102,7 +103,7 @@ stories.addWithJSX('Inverted theme and no icons', () => {
 });
 
 stories.addWithJSX('ActionBarItem', () => {
-  const type = select('Type', ['button', 'link'], 'button');
+  const accessibilityRole = select('accessibilityRole', ['button', 'link'], 'button');
   const title = text('Title', 'Lippuja ja hintoja');
   const href = text('Href', 'http://www.hsl.fi');
   const inverted = boolean('Inverted', false);
@@ -111,7 +112,7 @@ stories.addWithJSX('ActionBarItem', () => {
   const icon = iconKnob ? <Icons.Tickets /> : null;
   return (
     <ActionBarItem
-      type={type}
+      accessibilityRole={accessibilityRole}
       href={href}
       title={title}
       icon={icon}

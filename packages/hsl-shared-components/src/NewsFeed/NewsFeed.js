@@ -21,9 +21,8 @@ const StyledDiv = Div.extend`
 
 const NewsFeed = ({
   children,
-  className
 }) => (
-  <StyledDiv className={className}>
+  <StyledDiv>
     <Ul>
       { children }
     </Ul>
@@ -33,7 +32,6 @@ const NewsFeed = ({
 
 NewsFeed.propTypes = {
   children: PropTypes.node,
-  className: PropTypes.string
 };
 
 export default styled(NewsFeed)``;

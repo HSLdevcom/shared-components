@@ -12,17 +12,26 @@ const StyledH3 = H3.extend`
   color: ${props => props.theme.font.colors.highlight}
 `;
 
-const Image = styled.Image`
+const ImageContainer = View.extend`
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   margin-left: 30px;
-  height: 80px;
   width: 30%;
 `;
 
+const Image = styled.Image`
+  flex: 1;
+  align-self: stretch;
+  resizeMode: cover;
+`;
+
 const TextContainer = View.extend`
+  flex: auto;
   flex-direction: column;
   align-items: flex-start;
   align-self: flex-start;
-  width: 55%;
 `;
 
 const Header = View.extend`
@@ -57,27 +66,37 @@ const NewsFeedItemNative = ({
   title,
   image,
   className
-}) => (
-  <StyledLi className={className}>
-    <TextContainer>
-      <Header>
-        <Category>{ category.toUpperCase() } — </Category>
-        <Timestamp>{ moment(timestamp).calendar() }</Timestamp>
-      </Header>
-      <StyledH3>
-        { title }
-      </StyledH3>
-    </TextContainer>
-    { image && <Image source={{ uri: image }} alt="news image" /> }
-  </StyledLi>
-)
-;
+}) => {
+  const imageElement = React.isValidElement(image) ?
+    image : <Image source={{ uri: image }} alt={title} />;
+  return (
+    <StyledLi className={className}>
+      <TextContainer>
+        <Header>
+          <Category>{ category.toUpperCase() } — </Category>
+          <Timestamp>{ moment(timestamp).calendar() }</Timestamp>
+        </Header>
+        <StyledH3>
+          { title }
+        </StyledH3>
+      </TextContainer>
+      { image &&
+        <ImageContainer>
+          {imageElement}
+        </ImageContainer>
+      }
+    </StyledLi>
+  );
+};
 
 NewsFeedItemNative.propTypes = {
   category: PropTypes.string.isRequired,
   timestamp: PropTypes.instanceOf(Date).isRequired,
   title: PropTypes.string.isRequired,
-  image: PropTypes.string,
+  image: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.string,
+  ]),
   className: PropTypes.string
 };
 
