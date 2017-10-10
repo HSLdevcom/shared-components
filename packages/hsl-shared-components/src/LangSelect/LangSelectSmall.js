@@ -64,8 +64,8 @@ class LangSelectSmall extends React.Component {
             { this.props.languages.find(lang => lang.id === this.props.selectedLanguage).name }
           </StyledP>
           <Icons.ArrowDown
-            height="0.75rem"
-            width="0.75rem"
+            height={size(12)}
+            width={size(12)}
             fill={this.props.theme.colors.background.hslWhite}
           />
         </LanguageButton>

@@ -58,8 +58,8 @@ const Menu = ({
     }
     <SearchIcon>
       <Icons.Search
-        height="1.5rem"
-        width="1.5rem"
+        height={size(24)}
+        width={size(24)}
         fill={theme.colors.background.hslWhite}
       />
     </SearchIcon>

@@ -102,7 +102,7 @@ const Menu = ({
 }) => (
   <Container {...rest}>
     <Top>
-      <Icons.Search height="1.5rem" width="1.5rem" fill={theme.colors.primary.hslWhite} />
+      <Icons.Search height={size(24)} width={size(24)} fill={theme.colors.primary.hslWhite} />
       <ResponsiveLangSelect
         languages={languages}
         selectedLanguage={selectedLanguage}
