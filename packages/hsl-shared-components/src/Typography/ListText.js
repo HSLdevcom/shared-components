@@ -34,7 +34,6 @@ const StyledText = Text.extend`
   flex: 1;
 `;
 
-
 const ListText = styled(({ children, small, type, ...rest }) => (
   <View {...rest}>
     <Dot type={type} small={small}>{type === 'circle' ? '○' : '●'}</Dot>
@@ -52,5 +51,7 @@ ListText.propTypes = {
   small: PropTypes.bool,
   type: PropTypes.string,
 };
+
+ListText.displayName = 'ListText';
 
 export default ListText;

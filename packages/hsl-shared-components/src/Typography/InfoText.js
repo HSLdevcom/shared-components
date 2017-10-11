@@ -33,4 +33,6 @@ InfoText.propTypes = {
   strong: PropTypes.bool
 };
 
+InfoText.displayName = 'InfoText';
+
 export default InfoText;

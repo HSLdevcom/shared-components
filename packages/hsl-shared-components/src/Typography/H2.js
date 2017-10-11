@@ -12,4 +12,6 @@ const H2 = styled(({ ...props }) => (
   font-size: ${size(36)};
 `;
 
+H2.displayName = 'H2';
+
 export default H2;

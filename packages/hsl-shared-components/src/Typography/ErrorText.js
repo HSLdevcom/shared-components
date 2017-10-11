@@ -19,4 +19,6 @@ ErrorText.propTypes = {
   small: PropTypes.bool
 };
 
+ErrorText.displayName = 'ErrorText';
+
 export default ErrorText;

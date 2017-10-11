@@ -7,4 +7,6 @@ const Caption = Text.extend`
   line-height: ${relativeLineHeight(13, 1.08)};
 `;
 
+Caption.displayName = 'Caption';
+
 export default Caption;
