@@ -5,6 +5,7 @@ import omit from 'lodash/omit';
 import { size } from '../utils';
 
 const Input = styled.TextInput`
+  height: ${size(60)};
   font-size: ${size(18)};
   font-family: ${props => props.theme.font.family};
   color: ${props => props.theme.font.colors.secondary};
