@@ -1,4 +1,4 @@
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 import PropTypes from 'prop-types';
 
 import { size } from '../utils';

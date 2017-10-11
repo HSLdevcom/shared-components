@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Dimensions } from 'react-primitives';
+import { Dimensions } from 'react-brimitives';
 import debounce from 'lodash/debounce';
 
 class ResponsiveProvider extends React.Component {

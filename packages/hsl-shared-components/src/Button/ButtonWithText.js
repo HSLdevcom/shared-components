@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
 import Touchable from '../Touchable';

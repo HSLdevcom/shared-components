@@ -1,6 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
-import { Platform } from 'react-primitives';
+import { Platform } from 'react-brimitives';
 import { rem } from 'polished';
 
 import { Desktop, Mobile, WindowSize, Responsive, ResponsiveProvider } from './Utils/';

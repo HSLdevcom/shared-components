@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dimensions } from 'react-primitives';
+import { Dimensions } from 'react-brimitives';
 import debounce from 'lodash/debounce';
 
 /*

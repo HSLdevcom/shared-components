@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
-import { Platform } from 'react-primitives';
+import styled from 'styled-brimitives';
+import { Platform } from 'react-brimitives';
 import { withTheme } from 'styled-components';
 import Touchable from '../Touchable';
 import View from '../View';

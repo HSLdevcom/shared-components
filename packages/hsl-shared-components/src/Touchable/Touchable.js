@@ -1,4 +1,4 @@
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 
 const Touchable = styled.Touchable``;
 
