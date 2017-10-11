@@ -10,7 +10,7 @@ import CenterView from './CenterView';
 
 const items = [
   {
-    title: 'Yleistä kertalipusta (active)',
+    title: 'Yleistä kertalipusta',
     icon: null,
     onPress: action('press'),
     onLongPress: action('long press'),
@@ -64,9 +64,8 @@ const data = ds.cloneWithRows(items);
 
 const itemsNoTeaser = [
   {
-    title: 'Yleistä kertalipusta (active)',
+    title: 'Yleistä kertalipusta',
     icon: null,
-    active: true,
     onPress: action('press'),
     onLongPress: action('long press'),
   },
@@ -75,6 +74,7 @@ const itemsNoTeaser = [
     icon: <Icons.JourneyPlanner />,
     onPress: action('press'),
     onLongPress: action('long press'),
+    active: true,
   },
   {
     prefix: '37',

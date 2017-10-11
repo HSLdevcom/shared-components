@@ -7,9 +7,10 @@ import { H3, H4, P } from '../Typography';
 import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
-import { getTextColor } from './utils';
+import { getTextColor, getBackgroundColor } from './utils';
 
 // Transparent borders below are for fixing touchable in android
+// Need to define round borders here again for android compatibility
 const TouchableContainer = Touchable.extend`
   width: 100%;
   padding-horizontal: ${size(18)};
@@ -17,6 +18,14 @@ const TouchableContainer = Touchable.extend`
   border-color: transparent;
   border-width: 1px;
   border-style: solid;
+  ${props => props.first && `
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  `}
+  ${props => props.last && `
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  `}
   ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
@@ -35,7 +44,7 @@ const TitleAndIconContainer = styled(({
   width: 100%;
 `;
 
-const Icon = withTheme(({
+const Icon = ({
   icon,
   theme,
   active,
@@ -46,8 +55,7 @@ const Icon = withTheme(({
     width: size(35),
     height: size(35),
     fill: getTextColor({ active, inverted, withBorder, theme }),
-  })
-);
+  });
 
 const TitleContainer = styled(({
   icon,
@@ -160,7 +168,7 @@ const ActiveItemUnderline = styled(({
   `}
 `;
 
-const ActionListItemText = styled(({
+const ActionListItemText = styled(withTheme(({
   accessibilityRole,
   href,
   active,
@@ -177,6 +185,7 @@ const ActionListItemText = styled(({
   onPress,
   onLongPress,
   onClick,
+  theme,
   ...rest,
 }) =>
   (
@@ -184,6 +193,16 @@ const ActionListItemText = styled(({
       onPress={onPress}
       onLongPress={onLongPress}
       onClick={onClick}
+      pressedStyle={{
+        backgroundColor: getBackgroundColor({
+          pressed: true,
+          active,
+          inverted,
+          secondary,
+          withBorder,
+          theme,
+        }),
+      }}
       accessibilityRole={accessibilityRole || 'button'}
       href={href}
       {...rest}
@@ -197,6 +216,7 @@ const ActionListItemText = styled(({
             active={active}
             inverted={inverted}
             withBorder={withBorder}
+            theme={theme}
           />
         }
         {!!prefix &&
@@ -255,7 +275,7 @@ const ActionListItemText = styled(({
         withBorder={withBorder}
       />
     </TouchableContainer>
-))``;
+)))``;
 
 ActionListItemText.propTypes = {
   onPress: PropTypes.func,
@@ -273,7 +293,8 @@ ActionListItemText.propTypes = {
   withBorder: PropTypes.bool,
   inverted: PropTypes.bool,
   secondary: PropTypes.bool,
-
+  first: PropTypes.bool, // Needed just for Android compatibility
+  last: PropTypes.bool, // Needed just for Android compatibility
 };
 
 ActionListItemText.displayName = 'ActionListItemText';

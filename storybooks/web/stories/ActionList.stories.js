@@ -24,7 +24,7 @@ stories.addDecorator((getStory) => {
 
 const items = [
   {
-    title: 'Yleistä kertalipusta (active)',
+    title: 'Yleistä kertalipusta',
     icon: null,
     active: true,
     onClick: action('click'),
@@ -74,7 +74,7 @@ const items = [
 
 const itemsNoTeaser = [
   {
-    title: 'Yleistä kertalipusta (active)',
+    title: 'Yleistä kertalipusta',
     icon: null,
     active: true,
     onClick: action('click'),
