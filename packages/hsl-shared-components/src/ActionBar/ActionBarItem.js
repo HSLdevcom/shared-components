@@ -6,59 +6,68 @@ import Touchable from '../Touchable';
 import { P } from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
-const getTextColor = (active, inverted, theme) => {
-  if (inverted && !active) {
-    return theme.colors.primary.hslWhite;
+const getTextColor = (props) => {
+  if (props.inverted && !props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (inverted && active) {
-    return theme.font.colors.highlight;
+  if (props.inverted && props.active) {
+    return props.theme.font.colors.highlight;
   }
-  if (active) {
-    return theme.colors.primary.hslWhite;
+  if (props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  return theme.font.colors.highlight;
+  return props.theme.font.colors.highlight;
 };
 
-const getIconColor = (active, inverted, theme, override) => {
+const getIconColor = (props, override) => {
   if (override) {
     return override;
   }
-  if (inverted && !active) {
-    return theme.colors.primary.hslWhite;
+  if (props.inverted && !props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (inverted && active) {
-    return theme.font.colors.highlight;
+  if (props.inverted && props.active) {
+    return props.theme.font.colors.highlight;
   }
-  if (active) {
-    return theme.colors.primary.hslWhite;
+  if (props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  return theme.font.colors.highlight;
+  return props.theme.font.colors.highlight;
 };
 
-const getBorderColor = (active, inverted, theme) => {
-  if (inverted) {
-    return theme.colors.primary.hslWhite;
+const getBorderColor = (props) => {
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (active) {
-    return theme.colors.primary.hslBlue;
+  if (props.active) {
+    return props.theme.colors.primary.hslBlue;
   }
-  return theme.colors.primary.hslGreyLight;
+  return props.theme.colors.primary.hslGreyLight;
 };
 
-const getBackgroundColor = (active, secondary, inverted, theme) => {
-  if (inverted && !active) {
-    return theme.colors.primary.hslBlue;
+const getBackgroundColor = (props) => {
+  if (props.inverted && props.active) {
+    return props.theme.colors.background.hslWhite;
   }
-  if (inverted && active) {
-    return theme.colors.background.hslWhite;
+  if (props.inverted && props.pressed) {
+    return props.theme.colors.primary.hslBlueDark;
   }
-  if (active) {
-    return theme.colors.primary.hslBlue;
+  if (props.inverted) {
+    return props.theme.colors.primary.hslBlue;
   }
-  if (secondary) {
-    return theme.colors.background.hslGreyLight;
+  if (props.active) {
+    return props.theme.colors.primary.hslBlue;
   }
-  return theme.colors.background.hslWhite;
+  if (props.pressed && props.secondary) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  if (props.secondary) {
+    return props.theme.colors.background.hslGreyLight;
+  }
+  if (props.pressed) {
+    return props.theme.colors.background.hslGreyLight;
+  }
+  return props.theme.colors.background.hslWhite;
 };
 
 const TouchableView = styled(({
@@ -82,8 +91,8 @@ const TouchableView = styled(({
   padding-vertical: ${size(20)};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => getBorderColor(props.active, props.inverted, props.theme)};
-  background-color: ${props => getBackgroundColor(props.active, props.secondary, props.inverted, props.theme)};
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
   ${props => props.first && `
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -103,7 +112,7 @@ const Icon = withTheme(({
   React.cloneElement(icon, {
     width: size(40),
     height: size(40),
-    fill: getIconColor(active, inverted, theme, icon.props.fill),
+    fill: getIconColor({ active, inverted, theme }, icon.props.fill),
   })
 );
 
@@ -119,11 +128,11 @@ const Title = styled(({
     margin-top: ${size(20)}
   `}
   font-size: ${size(15)};
-  color: ${props => getTextColor(props.inverted, props.active, props.theme)};
+  color: ${props => getTextColor(props)};
   text-align: center;
 `;
 
-const ActionBarItem = styled(({
+const ActionBarItem = styled(withTheme(({
   icon,
   title,
   accessibilityRole,
@@ -134,6 +143,7 @@ const ActionBarItem = styled(({
   onClick,
   onPress,
   onLongPress,
+  theme,
   ...rest,
 }) =>
   (
@@ -145,6 +155,9 @@ const ActionBarItem = styled(({
       onClick={onClick}
       onPress={onPress}
       onLongPress={onLongPress}
+      pressedStyle={{
+        backgroundColor: getBackgroundColor({ active, secondary, inverted, pressed: true, theme }),
+      }}
       {...rest}
       accessibilityRole={accessibilityRole || 'button'}
     >
@@ -165,7 +178,7 @@ const ActionBarItem = styled(({
         </Title>
       }
     </TouchableView>
-  ))``;
+  )))``;
 
 ActionBarItem.propTypes = {
   onPress: PropTypes.func,
