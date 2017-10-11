@@ -5,7 +5,7 @@ import { NewsFeedItemNative, NewsFeedNative } from '../NewsFeed';
 import { Tabs, Tab } from '../Tabs';
 import BreadcrumbsNative, { BreadcrumbItem } from '../Breadcrumbs';
 import Button, { RoundButton, ButtonWithText } from '../Button';
-import Touchable from '../Touchable';
+import TouchableNative from '../Touchable';
 import View from '../View';
 import Icons from '../Icons';
 import Footer from '../Footer';
@@ -42,7 +42,7 @@ export {
   Button,
   RoundButton,
   ButtonWithText,
-  Touchable,
+  TouchableNative as Touchable,
   Tabs,
   Tab,
   View,
