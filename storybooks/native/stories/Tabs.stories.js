@@ -60,47 +60,6 @@ storiesOf('Tabs', module)
         </Tab>
       </Tabs>);
   })
-    .add('rounded', () => {
-      const options = {
-        range: true,
-        min: 0,
-        max: 2,
-        step: 1,
-      };
-      const index = number('Index', 1, options);
-      return (
-        <Tabs index={index} rounded>
-          <Tab
-            first
-            onPress={action('press')}
-            onLongPress={action('long press')}
-            header="Uutiset"
-          >
-            <TabContent>
-              <Text>Content of the first tab</Text>
-            </TabContent>
-          </Tab>
-          <Tab
-            onPress={action('press')}
-            onLongPress={action('long press')}
-            header="Lähelläsi"
-          >
-            <TabContent>
-              <Text>Content of the second tab</Text>
-            </TabContent>
-          </Tab>
-          <Tab
-            onPress={action('press')}
-            onLongPress={action('long press')}
-            header="Suosikit"
-            disabled
-          >
-            <TabContent>
-              <Text>Content of the third tab</Text>
-            </TabContent>
-          </Tab>
-        </Tabs>);
-    })
     .add('with icon', () => {
       const options = {
         range: true,

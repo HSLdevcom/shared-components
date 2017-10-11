@@ -2,7 +2,7 @@ import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
-import { withKnobs, number } from '@storybook/addon-knobs';
+import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 
 import { Tabs, Tab, Div, Icons } from 'hsl-shared-components';
 
@@ -110,6 +110,7 @@ stories.addWithJSX('with icon', () => {
     step: 1,
   };
   const index = number('Index', 0, options);
+  const verticalHeader = boolean('verticalHeader', false);
   return (
     <StyledDiv>
       <Tabs index={index} rounded>
@@ -120,6 +121,7 @@ stories.addWithJSX('with icon', () => {
             icon: <Icons.Latest />,
             text: 'Uutiset'
           }}
+          verticalHeader={verticalHeader}
         >
           <TabContent>
             Content of the first tab
@@ -131,6 +133,7 @@ stories.addWithJSX('with icon', () => {
             icon: <Icons.Info />,
             text: 'Lähelläsi'
           }}
+          verticalHeader={verticalHeader}
         >
           <TabContent>
             Content of the second tab
@@ -142,6 +145,7 @@ stories.addWithJSX('with icon', () => {
             icon: <Icons.Cog />,
             text: 'Suosikit'
           }}
+          verticalHeader={verticalHeader}
           disabled
         >
           <TabContent>
