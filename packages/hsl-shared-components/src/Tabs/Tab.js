@@ -94,7 +94,11 @@ const Tab = styled(({
   <TouchableContainer onPress={onPress} active={active} {...rest} accessibilityRole="button">
     <Content active={active}>
       {header.icon &&
-        React.cloneElement(header.icon, { fill: fill(active, disabled, theme.colors) })
+        React.cloneElement(header.icon, {
+          height: size(24),
+          width: size(24),
+          fill: fill(active, disabled, theme.colors),
+        })
       }
       {
         <StyledText
