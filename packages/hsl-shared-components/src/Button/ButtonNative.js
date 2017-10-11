@@ -76,7 +76,7 @@ const StyledText = styled(({
   `}
 `;
 
-const Container = styled(({
+const TouchableContainer = styled(({
   hover,
   active,
   focus,
@@ -134,7 +134,7 @@ const Button = styled(({
 }) => {
   const hasValidChildren = React.isValidElement(children);
   return (
-    <Container
+    <TouchableContainer
       onPress={onPress || onClick}
       onLongPress={onLongPress}
       pressedStyle={{
@@ -188,7 +188,7 @@ const Button = styled(({
             {children}
           </StyledText>)
       }
-    </Container>
+    </TouchableContainer>
   );
 })``;
 
