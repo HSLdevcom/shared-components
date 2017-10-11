@@ -35,11 +35,15 @@ const TouchableContainer = styled(({
   rounded,
   active,
   verticalHeader,
+  disabled,
   first,
   last,
   ...rest,
 }) => (
-  <Touchable {...rest} />
+  <Touchable
+    disabled={disabled}
+    {...rest}
+  />
 ))`
   position: relative;
   background: ${props => getBackgroundColor(props)};
@@ -127,6 +131,7 @@ const Tab = styled(withTheme(({
     onPress={onPress}
     onLongPress={onLongPress}
     active={active}
+    disabled={disabled}
     verticalHeader={verticalHeader}
     pressedStyle={{
       backgroundColor: getBackgroundColor({

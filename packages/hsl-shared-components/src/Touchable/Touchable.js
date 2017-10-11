@@ -10,20 +10,26 @@ const TouchableWeb = styled(({
   onLongPress,
   pressedStyle,
   accessibilityRole,
+  disabled,
   ...rest,
 }) =>
   <View
     onClick={onClick || onPress}
+    disabled={disabled}
     accessibilityRole={accessibilityRole || 'button'}
     {...rest}
   />
-)``;
+)`
+  cursor: pointer;
+  ${props => props.disabled && 'cursor: not-allowed;'}
+`;
 
 TouchableWeb.propTypes = {
   onClick: PropTypes.func,
   onPress: PropTypes.func,
   pressedStyle: PropTypes.shape(ViewPrimitives.propTypes.style),
   accessibilityRole: PropTypes.string,
+  disabled: PropTypes.boolean,
 };
 
 TouchableWeb.displayName = 'Touchable';

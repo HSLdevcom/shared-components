@@ -80,9 +80,6 @@ const TouchableView = styled(({
 }) =>
   <Touchable {...rest} />
 )`
-  ${!IS_NATIVE && `
-    cursor: pointer;
-  `}
   flex: 1;
   justify-content: center;
   margin-top: -1px;

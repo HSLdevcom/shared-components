@@ -26,7 +26,6 @@ const TouchableContainer = Touchable.extend`
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   `}
-  ${!IS_NATIVE && 'cursor: pointer;'}
 `;
 
 const TitleAndIconContainer = styled(({
