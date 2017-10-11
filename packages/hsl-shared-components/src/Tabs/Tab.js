@@ -6,7 +6,7 @@ import { withTheme } from 'styled-components';
 import Touchable from '../Touchable';
 import View from '../View';
 import Text from '../Typography';
-import { size } from '../utils';
+import { IS_NATIVE, size } from '../utils';
 
 const Content = styled(({ active, ...rest }) => (
   <View {...rest} />
@@ -49,20 +49,32 @@ const StyledText = styled(({ disabled, active, children, ...rest }) => (
   `}
 `;
 
-const StyledView = styled(({ rounded, active, first, last, ...rest }) => (
-  <View {...rest} />
+const TouchableContainer = styled(({
+  rounded,
+  active,
+  first,
+  last,
+  ...rest,
+}) => (
+  <Touchable {...rest} />
 ))`
   background: ${props => props.theme.colors.background.hslGreyLight};
   border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-style: solid;
   border-right-width: 1;
   border-bottom-width: 1;
-  ${props => props.last && 'border-right-width: 0;'}
+  ${props => props.last &&
+    'border-right-width: 0;'
+  }
   flex: 1;
-  flex-direction: row;
+  ${!IS_NATIVE && 'flex-direction: row;'}
   align-items: stretch;
-  ${props => props.rounded && props.first && 'border-top-left-radius: 6;'}
-  ${props => props.rounded && props.last && 'border-top-right-radius: 6;'}
+  ${props => props.rounded && props.first &&
+    'border-top-left-radius: 6;'
+  }
+  ${props => props.rounded && props.last &&
+    'border-top-right-radius: 6;'
+  }
   ${props => props.active && `
     border-bottom-color: transparent;
     background-color: ${props.theme.colors.background.hslWhite};;
@@ -79,24 +91,22 @@ const Tab = styled(({
   theme,
   ...rest
 }) => (
-  <Touchable onPress={onPress}>
-    <StyledView active={active} {...rest} accessibilityRole="button">
-      <Content active={active}>
-        {header.icon &&
-          React.cloneElement(header.icon, { fill: fill(active, disabled, theme.colors) })
-        }
-        {
-          <StyledText
-            icon={!!header.icon}
-            active={active}
-            disabled={disabled}
-          >
-            { header.text || header }
-          </StyledText>
-        }
-      </Content>
-    </StyledView>
-  </Touchable>
+  <TouchableContainer onPress={onPress} active={active} {...rest} accessibilityRole="button">
+    <Content active={active}>
+      {header.icon &&
+        React.cloneElement(header.icon, { fill: fill(active, disabled, theme.colors) })
+      }
+      {
+        <StyledText
+          icon={!!header.icon}
+          active={active}
+          disabled={disabled}
+        >
+          { header.text || header }
+        </StyledText>
+      }
+    </Content>
+  </TouchableContainer>
 ))`
 `
 ;

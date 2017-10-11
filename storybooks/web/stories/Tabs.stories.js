@@ -28,10 +28,10 @@ stories.addWithJSX('default', () => {
   return (
     <StyledDiv>
       <Tabs index={index}>
-        <Tab first onPress={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab last onPress={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab first onClick={action('tab clicked')} header="First">Content of the first tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Second">Content of the second tab</Tab>
+        <Tab onClick={action('tab clicked')} header="Third">Content of the third tab</Tab>
+        <Tab last onClick={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
       </Tabs>
     </StyledDiv>);
 });
