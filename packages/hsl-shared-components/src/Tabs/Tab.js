@@ -87,7 +87,7 @@ const Content = styled(({
     padding-horizontal: ${size(5)};
   `}
   margin-bottom: ${size(16)};
-  padding-top: ${size(12)};
+  padding-top: ${size(20)};
   justify-content: center;
 `;
 

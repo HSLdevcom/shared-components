@@ -16,7 +16,7 @@ storiesOf('Tabs', module)
   .addDecorator(getStory => (
     <ThemeProvider theme={Theme}>
       <ResponsiveProvider>
-        <CenterView>{getStory()}</CenterView>
+        <CenterView><TabContent>{getStory()}</TabContent></CenterView>
       </ResponsiveProvider>
     </ThemeProvider>))
   .add('Default', () => {
