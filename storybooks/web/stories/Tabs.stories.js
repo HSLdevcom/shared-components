@@ -12,26 +12,51 @@ const stories = storiesOf('Tabs', module);
 stories.addDecorator(withKnobs);
 
 const StyledDiv = Div.extend`
-    margin: 3em;
-    width: 700px;
+    padding: 1em;
+    max-width: 700px;
 `;
 
+const TabContent = Div.extend`
+  padding: 20px;
+`;
 
 stories.addWithJSX('default', () => {
   const options = {
     range: true,
     min: 0,
-    max: 2,
+    max: 3,
     step: 1,
   };
   const index = number('Index', 1, options);
   return (
     <StyledDiv>
       <Tabs index={index}>
-        <Tab first onClick={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab onClick={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab onClick={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab last onClick={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab
+          first
+          onClick={action('tab clicked')}
+          header="Uutiset"
+        >
+          <TabContent>
+            Content of the first tab
+          </TabContent>
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header="Lähelläsi"
+        >
+          <TabContent>
+            Content of the second tab
+          </TabContent>
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header="Suosikit"
+          disabled
+        >
+          <TabContent>
+            Content of the third tab
+          </TabContent>
+        </Tab>
       </Tabs>
     </StyledDiv>);
 });
@@ -47,21 +72,35 @@ stories.addWithJSX('rounded', () => {
   return (
     <StyledDiv>
       <Tabs index={index} rounded>
-        <Tab first onPress={action('tab clicked')} header="First">Content of the first tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Second">Content of the second tab</Tab>
-        <Tab onPress={action('tab clicked')} header="Third">Content of the third tab</Tab>
-        <Tab last onPress={action('tab clicked')} header="Disabled" disabled>Content of disabled tab</Tab>
+        <Tab
+          first
+          onClick={action('tab clicked')}
+          header="Uutiset"
+        >
+          <TabContent>
+            Content of the first tab
+          </TabContent>
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header="Lähelläsi"
+        >
+          <TabContent>
+            Content of the second tab
+          </TabContent>
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header="Suosikit"
+          disabled
+        >
+          <TabContent>
+            Content of the third tab
+          </TabContent>
+        </Tab>
       </Tabs>
     </StyledDiv>);
 });
-
-stories.addWithJSX('one item', () => (
-  <StyledDiv>
-    <Tabs index={0}>
-      <Tab first last onPress={action('tab clicked')} header="Active">Content of active tab</Tab>
-    </Tabs>
-  </StyledDiv>)
-);
 
 stories.addWithJSX('with icon', () => {
   const options = {
@@ -76,24 +115,56 @@ stories.addWithJSX('with icon', () => {
       <Tabs index={index} rounded>
         <Tab
           first
-          onPress={action('tab clicked')}
+          onClick={action('tab clicked')}
           header={{
-            icon: <Icons.Cog height="1.5rem" width="1.5rem" />,
-            text: 'First'
+            icon: <Icons.Latest />,
+            text: 'Uutiset'
           }}
         >
-          Content of the first tab
+          <TabContent>
+            Content of the first tab
+          </TabContent>
         </Tab>
         <Tab
-          last
-          onPress={action('tab clicked')}
+          onClick={action('tab clicked')}
           header={{
-            icon: <Icons.Cog height="1.5rem" width="1.5rem" />,
-            text: 'Second'
+            icon: <Icons.Info />,
+            text: 'Lähelläsi'
           }}
         >
-          Content of the second tab
+          <TabContent>
+            Content of the second tab
+          </TabContent>
+        </Tab>
+        <Tab
+          onClick={action('tab clicked')}
+          header={{
+            icon: <Icons.Cog />,
+            text: 'Suosikit'
+          }}
+          disabled
+        >
+          <TabContent>
+            Content of the third tab
+          </TabContent>
         </Tab>
       </Tabs>
     </StyledDiv>);
 });
+
+stories.addWithJSX('one item', () => (
+  <StyledDiv>
+    <Tabs index={0}>
+      <Tab
+        first
+        last
+        onClick={action('tab clicked')}
+        header="Active"
+      >
+        <TabContent>
+          Content of active tab
+        </TabContent>
+      </Tab>
+    </Tabs>
+  </StyledDiv>)
+);

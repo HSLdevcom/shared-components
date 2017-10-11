@@ -8,23 +8,6 @@ import View from '../View';
 import Text from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
-const Content = styled(({ active, ...rest }) => (
-  <View {...rest} />
-))`
-  flex: 1;
-  flex-direction: row;
-  margin-bottom: ${size(16)};
-  margin-horizontal: ${size(26)};
-  padding-top: ${size(12)};
-  justify-content: center;
-  border-style: solid;
-  border-color: transparent;
-  border-top-width: 4px;
-  ${props => props.active && `
-    border-color: ${props.theme.colors.primary.hslBlue};
-  `}
-`;
-
 function fill(active, disabled, colors) {
   if (disabled) {
     return colors.primary.hslGreyLight;
@@ -35,6 +18,28 @@ function fill(active, disabled, colors) {
   return colors.primary.hslBlue;
 }
 
+const Content = styled(({ active, ...rest }) => (
+  <View {...rest} />
+))`
+  flex: 1;
+  flex-direction: row;
+  margin-horizontal: ${size(26)};
+  ${props => (props.headerVertical || IS_NATIVE) && `
+    flex-direction: column;
+    margin-horizontal: 0px;
+    padding-horizontal: ${size(5)};
+  `}
+  margin-bottom: ${size(16)};
+  padding-top: ${size(12)};
+  justify-content: center;
+  border-style: solid;
+  border-color: transparent;
+  border-top-width: 4px;
+  ${props => props.active && `
+    border-color: ${props.theme.colors.primary.hslBlue};
+  `}
+`;
+
 const StyledText = styled(({ disabled, active, children, ...rest }) => (
   <Text {...rest}>
     { children.toUpperCase() }
@@ -44,14 +49,18 @@ const StyledText = styled(({ disabled, active, children, ...rest }) => (
   color: ${props =>
     fill(props.active, props.disabled, props.theme.colors)
   }
-  ${props => props.icon && `
+  ${props => props.icon && !props.headerVertical && !IS_NATIVE && `
     margin-left: ${size(10)};
+  `}
+  ${props => props.icon && (props.headerVertical || IS_NATIVE) && `
+    margin-top: ${size(10)};
   `}
 `;
 
 const TouchableContainer = styled(({
   rounded,
   active,
+  headerVertical,
   first,
   last,
   ...rest,
@@ -67,7 +76,7 @@ const TouchableContainer = styled(({
     'border-right-width: 0;'
   }
   flex: 1;
-  ${!IS_NATIVE && 'flex-direction: row;'}
+  flex-direction: row;
   align-items: stretch;
   ${props => props.rounded && props.first &&
     'border-top-left-radius: 6;'
@@ -82,16 +91,27 @@ const TouchableContainer = styled(({
   }
 `;
 
-const Tab = styled(({
+const Tab = styled(withTheme(({
   children,
-  onPress,
   header,
+  headerVertical,
   active,
   disabled,
   theme,
+  onClick,
+  onPress,
+  onLongPress,
   ...rest
 }) => (
-  <TouchableContainer onPress={onPress} active={active} {...rest} accessibilityRole="button">
+  <TouchableContainer
+    onClick={onClick}
+    onPress={onPress}
+    onLongPress={onLongPress}
+    active={active}
+    headerVertical={headerVertical}
+    {...rest}
+    accessibilityRole="button"
+  >
     <Content active={active}>
       {header.icon &&
         React.cloneElement(header.icon, {
@@ -111,9 +131,11 @@ const Tab = styled(({
       }
     </Content>
   </TouchableContainer>
-))`
+)))`
 `
 ;
+
+Tab.displayName = 'Tab';
 
 Tab.propTypes = {
   header: PropTypes.oneOfType([
@@ -123,6 +145,7 @@ Tab.propTypes = {
       icon: PropTypes.element.isRequired
     })
   ]).isRequired,
+  headerVertical: PropTypes.bool,
   // Validate the presence of children. Children is used in Tabs component
   children: PropTypes.node.isRequired, // eslint-disable-line react/no-unused-prop-types
   className: PropTypes.string,
@@ -134,4 +157,4 @@ Tab.propTypes = {
   last: PropTypes.bool
 };
 
-export default withTheme(Tab);
+export default Tab;
