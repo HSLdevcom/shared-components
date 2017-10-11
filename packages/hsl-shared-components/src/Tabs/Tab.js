@@ -8,14 +8,27 @@ import View from '../View';
 import Text from '../Typography';
 import { IS_NATIVE, size } from '../utils';
 
-function fill(active, disabled, colors) {
-  if (disabled) {
-    return colors.primary.hslGreyLight;
+function getTextColor(props) {
+  if (props.disabled) {
+    return props.theme.colors.primary.hslGreyLight;
   }
-  if (active) {
-    return colors.primary.hslGreyDark;
+  if (props.active) {
+    return props.theme.colors.primary.hslGreyDark;
   }
-  return colors.primary.hslBlue;
+  return props.theme.colors.primary.hslBlue;
+}
+
+function getBackgroundColor(props) {
+  if (props.disabled) {
+    return props.theme.colors.background.hslGreyLight;
+  }
+  if (props.active) {
+    return props.theme.colors.background.hslWhite;
+  }
+  if (props.pressed) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  return props.theme.colors.background.hslGreyLight;
 }
 
 const TouchableContainer = styled(({
@@ -28,7 +41,7 @@ const TouchableContainer = styled(({
 }) => (
   <Touchable {...rest} />
 ))`
-  background: ${props => props.theme.colors.background.hslGreyLight};
+  background: ${props => getBackgroundColor(props)};
   border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-style: solid;
   border-right-width: 1;
@@ -47,9 +60,7 @@ const TouchableContainer = styled(({
   }
   ${props => props.active && `
     border-bottom-color: transparent;
-    background-color: ${props.theme.colors.background.hslWhite};;
-    `
-  }
+  `}
   overflow: hidden;
 `;
 
@@ -92,7 +103,7 @@ const StyledText = styled(({
 ))`
   font-size: ${size(18)};
   color: ${props =>
-    fill(props.active, props.disabled, props.theme.colors)
+    getTextColor(props)
   }
   ${props => props.icon && (!props.verticalHeader && !IS_NATIVE) && `
     margin-left: ${size(10)};
@@ -120,6 +131,14 @@ const Tab = styled(withTheme(({
     onLongPress={onLongPress}
     active={active}
     verticalHeader={verticalHeader}
+    pressedStyle={{
+      backgroundColor: getBackgroundColor({
+        pressed: true,
+        active,
+        disabled,
+        theme,
+      }),
+    }}
     {...rest}
     accessibilityRole="button"
   >
@@ -131,7 +150,7 @@ const Tab = styled(withTheme(({
         React.cloneElement(header.icon, {
           height: size(24),
           width: size(24),
-          fill: fill(active, disabled, theme.colors),
+          fill: getTextColor({ active, disabled, theme }),
         })
       }
       {
