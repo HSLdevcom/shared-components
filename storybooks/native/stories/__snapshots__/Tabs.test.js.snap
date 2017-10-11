@@ -48,13 +48,7 @@ exports[`Storyshots Tabs Default 1`] = `
       }
     >
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -67,13 +61,31 @@ exports[`Storyshots Tabs Default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -82,87 +94,52 @@ exports[`Storyshots Tabs Default 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#007ac9",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              FIRST
-            </Text>
-          </View>
+            FIRST
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -175,13 +152,32 @@ exports[`Storyshots Tabs Default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#ffffff",
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -190,88 +186,52 @@ exports[`Storyshots Tabs Default 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#ffffff",
-                  "borderBottomColor": "transparent",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "#007ac9",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#333333",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#333333",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              SECOND
-            </Text>
-          </View>
+            SECOND
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -284,13 +244,31 @@ exports[`Storyshots Tabs Default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -299,87 +277,52 @@ exports[`Storyshots Tabs Default 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#007ac9",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              THIRD
-            </Text>
-          </View>
+            THIRD
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -392,13 +335,31 @@ exports[`Storyshots Tabs Default 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -407,77 +368,48 @@ exports[`Storyshots Tabs Default 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 0,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#b7b7b7",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#b7b7b7",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              DISABLED
-            </Text>
-          </View>
+            DISABLED
+          </Text>
         </View>
       </View>
     </View>
@@ -563,13 +495,7 @@ exports[`Storyshots Tabs one item 1`] = `
       }
     >
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -582,13 +508,32 @@ exports[`Storyshots Tabs one item 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#ffffff",
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -597,78 +542,48 @@ exports[`Storyshots Tabs one item 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#ffffff",
-                  "borderBottomColor": "transparent",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 0,
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "#007ac9",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#333333",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#333333",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              ACTIVE
-            </Text>
-          </View>
+            ACTIVE
+          </Text>
         </View>
       </View>
     </View>
@@ -755,13 +670,7 @@ exports[`Storyshots Tabs rounded 1`] = `
       }
     >
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -774,13 +683,32 @@ exports[`Storyshots Tabs rounded 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "borderTopLeftRadius": 6,
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -789,88 +717,52 @@ exports[`Storyshots Tabs rounded 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
-                  "borderTopLeftRadius": 6,
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#007ac9",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              FIRST
-            </Text>
-          </View>
+            FIRST
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -883,13 +775,32 @@ exports[`Storyshots Tabs rounded 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#ffffff",
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -898,88 +809,52 @@ exports[`Storyshots Tabs rounded 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#ffffff",
-                  "borderBottomColor": "transparent",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "#007ac9",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "#007ac9",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#333333",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#333333",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              SECOND
-            </Text>
-          </View>
+            SECOND
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -992,13 +867,31 @@ exports[`Storyshots Tabs rounded 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -1007,87 +900,52 @@ exports[`Storyshots Tabs rounded 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 1,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#007ac9",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#007ac9",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              THIRD
-            </Text>
-          </View>
+            THIRD
+          </Text>
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
-        accessible={true}
-        active={undefined}
-        hitSlop={undefined}
-        onLayout={undefined}
+        accessibilityRole="button"
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
@@ -1100,13 +958,32 @@ exports[`Storyshots Tabs rounded 1`] = `
               "alignItems": "center",
               "justifyContent": "center",
             },
-            undefined,
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "backgroundColor": "#eef1f3",
+                "borderBottomWidth": 1,
+                "borderColor": "#b7b7b7",
+                "borderRightWidth": 0,
+                "borderStyle": "solid",
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
+            ],
           ]
         }
-        testID={undefined}
       >
         <View
-          accessibilityRole="button"
           style={
             Array [
               Object {
@@ -1115,78 +992,48 @@ exports[`Storyshots Tabs rounded 1`] = `
               },
               Array [
                 Object {
-                  "alignItems": "stretch",
-                  "backgroundColor": "#eef1f3",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#b7b7b7",
-                  "borderRightWidth": 0,
+                  "borderColor": "transparent",
                   "borderStyle": "solid",
-                  "borderTopRightRadius": 6,
+                  "borderTopWidth": 4,
                   "flexBasis": 0,
                   "flexDirection": "row",
                   "flexGrow": 1,
                   "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 14,
+                  "marginHorizontal": 22.75,
+                  "paddingTop": 10.5,
                 },
-                Array [
-                  Object {},
-                  undefined,
-                ],
+                undefined,
               ],
             ]
           }
         >
-          <View
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            icon={false}
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
+                  "color": "#333333",
+                  "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+                  "fontSize": 12.25,
+                  "fontWeight": "500",
                 },
                 Array [
                   Object {
-                    "borderColor": "transparent",
-                    "borderStyle": "solid",
-                    "borderTopWidth": 4,
-                    "flexBasis": 0,
-                    "flexDirection": "row",
-                    "flexGrow": 1,
-                    "flexShrink": 1,
-                    "justifyContent": "center",
-                    "marginBottom": 14,
-                    "marginHorizontal": 22.75,
-                    "paddingTop": 10.5,
+                    "color": "#b7b7b7",
+                    "fontSize": 15.75,
                   },
                   undefined,
                 ],
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              icon={false}
-              style={
-                Array [
-                  Object {
-                    "color": "#333333",
-                    "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-                    "fontSize": 12.25,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "color": "#b7b7b7",
-                      "fontSize": 15.75,
-                    },
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              DISABLED
-            </Text>
-          </View>
+            DISABLED
+          </Text>
         </View>
       </View>
     </View>
