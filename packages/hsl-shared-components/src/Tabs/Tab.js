@@ -50,6 +50,7 @@ const TouchableContainer = styled(({
     background-color: ${props.theme.colors.background.hslWhite};;
     `
   }
+  overflow: hidden;
 `;
 
 const Content = styled(({

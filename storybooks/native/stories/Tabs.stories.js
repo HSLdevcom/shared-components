@@ -53,6 +53,7 @@ storiesOf('Tabs', module)
           onLongPress={action('long press')}
           header="Suosikit"
           disabled
+          last
         >
           <TabContent>
             <Text>Content of the third tab</Text>

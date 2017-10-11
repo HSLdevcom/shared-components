@@ -52,6 +52,7 @@ stories.addWithJSX('default', () => {
           onClick={action('tab clicked')}
           header="Suosikit"
           disabled
+          last
         >
           <TabContent>
             Content of the third tab
@@ -93,6 +94,7 @@ stories.addWithJSX('rounded', () => {
           onClick={action('tab clicked')}
           header="Suosikit"
           disabled
+          last
         >
           <TabContent>
             Content of the third tab
@@ -147,6 +149,7 @@ stories.addWithJSX('with icon', () => {
           }}
           verticalHeader={verticalHeader}
           disabled
+          last
         >
           <TabContent>
             Content of the third tab
