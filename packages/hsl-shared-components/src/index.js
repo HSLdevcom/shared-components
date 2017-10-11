@@ -31,6 +31,7 @@ import Section from './Section';
 import { ResponsiveProvider } from './utils';
 import Checkbox from './Checkbox';
 import Theme from './Theme';
+import Dropdown from './Dropdown';
 
 export {
   ActionBar,
@@ -95,4 +96,5 @@ export {
   ResponsiveProvider,
   Checkbox,
   Theme,
+  Dropdown
 };

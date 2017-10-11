@@ -1,0 +1,169 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled, { withTheme } from 'styled-components/primitives';
+import { Animated } from 'react-primitives';
+import omit from 'lodash/omit';
+
+import Icons from '../Icons';
+import DropdownItem from './DropdownItem';
+import View from '../View';
+import { LabelText } from '../Typography';
+import { size } from '../utils';
+import { AView } from '../Animated';
+
+const SelectedContainer = View.extend`
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
+  border-width: 1px;
+  border-radius: 4px;
+  align-items: stretch;
+`;
+
+const StyledView = View.extend`
+  width: 100%;
+  padding: 0;
+  align-items: stretch;
+  background: ${props => props.theme.colors.primary.hslWhite};
+`;
+
+const SelectWrapper = View.extend`
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
+  border-left-width: 1px;
+  border-right-width: 1px;
+  z-index: ${props => props.theme.layers.contextMenu + 1}
+`;
+
+const ItemWrap = View.extend`
+  border-color: ${props => props.theme.colors.primary.hslGreyLight};
+  border-bottom-width: 1px;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+`;
+
+const ScrollWrap = styled(({ x, y, height, width, ...rest }) => (
+  <AView {...rest} />
+))`
+  position: absolute;
+  width: ${props => props.width}px;
+  top: ${props => props.y + props.height}px;
+  left: ${props => props.x}px;
+  overflow: hidden;
+`;
+
+
+class Dropdown extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      anim: new Animated.Value(0),
+      itemDimensions: { x: 0, y: 0, height: 0, width: 0 }
+    };
+    this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.onLayout = this.onLayout.bind(this);
+    this.selectedOnLayout = this.selectedOnLayout.bind(this);
+    this.dropdownHeight = 0;
+  }
+
+  onLayout(e) {
+    this.dropdownHeight = e.nativeEvent.layout.height;
+  }
+
+  selectedOnLayout(e) {
+    const { height, width, x, y } = e.nativeEvent.layout;
+    this.setState({
+      itemDimensions: { height, width, x, y }
+    });
+  }
+
+  toggleDropdown() {
+    if (!this.open) {
+      Animated.timing(
+        this.state.anim,
+        { toValue: this.dropdownHeight, duration: 150 }
+      ).start(() => {
+        this.open = true;
+      });
+    } else {
+      Animated.timing(
+        this.state.anim,
+        { toValue: 0, duration: 250 }
+      ).start(() => {
+        this.open = false;
+      });
+    }
+  }
+
+  render() {
+    return (
+      <StyledView
+        {...omit(this.props, ['items', 'onChange', 'theme', 'selectedId'])}
+        onClick={this.toggleDropdown}
+      >
+        <SelectedContainer onLayout={this.selectedOnLayout}>
+          <DropdownItem
+            onPress={this.toggleDropdown}
+          >
+            <LabelText>
+              { this.props.items.find(item => item.id === this.props.selectedId).name }
+            </LabelText>
+            <Icons.ArrowDown
+              height={size(12)}
+              width={size(12)}
+              fill={this.props.theme.colors.primary.hslBlue}
+            />
+          </DropdownItem>
+        </SelectedContainer>
+        <ScrollWrap
+          style={{ maxHeight: this.state.anim }}
+          x={this.state.itemDimensions.x}
+          y={this.state.itemDimensions.y}
+          height={this.state.itemDimensions.height}
+          width={this.state.itemDimensions.width}
+        >
+          <SelectWrapper onLayout={this.onLayout}>
+            {
+            this.props.items
+              .map(item =>
+              (
+                <ItemWrap key={item.id}>
+                  <DropdownItem
+                    onPress={() => {
+                      this.props.onChange(item.id);
+                      this.toggleDropdown();
+                    }}
+                  >
+                    <LabelText>{item.name}</LabelText>
+                  </DropdownItem>
+                </ItemWrap>
+              )
+            )
+          }
+          </SelectWrapper>
+        </ScrollWrap>
+      </StyledView>);
+  }
+}
+
+Dropdown.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number,
+    ]).isRequired,
+    name: PropTypes.string.isRequired
+  })).isRequired,
+  selectedId: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  onChange: PropTypes.func,
+  theme: PropTypes.shape({
+    colors: PropTypes.shape({
+      primary: PropTypes.shape({
+        hslBlue: PropTypes.string
+      })
+    })
+  })
+};
+
+export default styled(withTheme(Dropdown))``;
