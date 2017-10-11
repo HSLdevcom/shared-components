@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Dimensions } from 'react-primitives';
+import { Dimensions } from 'react-brimitives';
 import { withTheme } from 'styled-components';
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 import omit from 'lodash/fp/omit';
 import debounce from 'lodash/debounce';
 

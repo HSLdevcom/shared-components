@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';

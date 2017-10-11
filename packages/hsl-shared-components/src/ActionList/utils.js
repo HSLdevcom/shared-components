@@ -1,4 +1,4 @@
-import { Platform } from 'react-primitives';
+import { Platform } from 'react-brimitives';
 
 // Needed to make sure we don't pass falsy values as style rule to styled components
 const evaluate = (condition, styles) => {

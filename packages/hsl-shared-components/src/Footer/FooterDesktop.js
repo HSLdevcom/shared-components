@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 
 import View from '../View';
 import Button, { RoundButton } from '../Button';

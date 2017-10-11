@@ -1,4 +1,4 @@
-import styled from 'styled-components/primitives';
+import styled from 'styled-brimitives';
 import React from 'react';
 import PropTypes from 'prop-types';
 

@@ -4,9 +4,9 @@ import { View } from 'react-native';
 import style from './style';
 
 const CenterView = props =>
-  <View style={style.main}>
+  (<View style={style.main}>
     {props.children}
-  </View>;
+  </View>);
 
 CenterView.propTypes = {
   children: PropTypes.node.isRequired,
