@@ -83,6 +83,45 @@ storiesOf('ActionBar', module)
       />
     );
   })
+  .add('Secondary', () => {
+    const inverted = boolean('Inverted', false);
+    const secondary = boolean('Secondary', true);
+    const items = [
+      {
+        icon: <Icons.Tickets />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.JourneyPlanner />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.Info />,
+        active: true,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.MobileTicket />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.CustomerService />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      }
+    ];
+    return (
+      <ActionBar
+        items={items}
+        inverted={inverted}
+        secondary={secondary}
+      />
+    );
+  })
   .add('Inverted theme and no icons', () => {
     const inverted = boolean('Inverted', true);
     const items = [

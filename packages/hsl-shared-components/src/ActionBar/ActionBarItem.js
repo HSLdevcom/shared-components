@@ -45,7 +45,7 @@ const getBorderColor = (active, inverted, theme) => {
   return theme.colors.primary.hslGreyLight;
 };
 
-const getBackgroundColor = (active, inverted, theme) => {
+const getBackgroundColor = (active, secondary, inverted, theme) => {
   if (inverted && !active) {
     return theme.colors.primary.hslBlue;
   }
@@ -55,12 +55,16 @@ const getBackgroundColor = (active, inverted, theme) => {
   if (active) {
     return theme.colors.primary.hslBlue;
   }
+  if (secondary) {
+    return theme.colors.background.hslGreyLight;
+  }
   return theme.colors.background.hslWhite;
 };
 
 const TouchableView = styled(({
   inverted,
   active,
+  secondary,
   first,
   last,
   ...rest,
@@ -79,7 +83,7 @@ const TouchableView = styled(({
   border-style: solid;
   border-width: 1px;
   border-color: ${props => getBorderColor(props.active, props.inverted, props.theme)};
-  background-color: ${props => getBackgroundColor(props.active, props.inverted, props.theme)};
+  background-color: ${props => getBackgroundColor(props.active, props.secondary, props.inverted, props.theme)};
   ${props => props.first && `
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -124,8 +128,9 @@ const ActionBarItem = styled(({
   title,
   accessibilityRole,
   href,
-  inverted,
   active,
+  secondary,
+  inverted,
   onClick,
   onPress,
   onLongPress,
@@ -136,6 +141,7 @@ const ActionBarItem = styled(({
       href={href}
       inverted={inverted}
       active={active}
+      secondary={secondary}
       onClick={onClick}
       onPress={onPress}
       onLongPress={onLongPress}
@@ -170,6 +176,7 @@ ActionBarItem.propTypes = {
   accessibilityRole: PropTypes.oneOf(['button', 'link']),
   href: PropTypes.string,
   active: PropTypes.bool,
+  secondary: PropTypes.bool,
   inverted: PropTypes.bool,
   first: PropTypes.bool,
   last: PropTypes.bool,

@@ -90,6 +90,41 @@ stories.addWithJSX('Icons only', () => {
   );
 });
 
+stories.addWithJSX('secondary', () => {
+  const inverted = boolean('Inverted', false);
+  const secondary = boolean('Secondary', true);
+  const items = [
+    {
+      icon: <Icons.Tickets />,
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.JourneyPlanner />,
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.Info />,
+      active: true,
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.MobileTicket />,
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.CustomerService />,
+      onClick: action('click'),
+    }
+  ];
+  return (
+    <ActionBar
+      items={items}
+      inverted={inverted}
+      secondary={secondary}
+    />
+  );
+});
+
 stories.addWithJSX('Inverted theme and no icons', () => {
   const inverted = boolean('Inverted', true);
   const items = [
