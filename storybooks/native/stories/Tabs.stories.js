@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
-import { withKnobs, number } from '@storybook/addon-knobs';
+import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { View, Tabs, Tab, Text, Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
@@ -27,8 +27,12 @@ storiesOf('Tabs', module)
       step: 1,
     };
     const index = number('Index', 1, options);
+    const rounded = boolean('Rounded', false);
     return (
-      <Tabs index={index}>
+      <Tabs
+        index={index}
+        rounded={rounded}
+      >
         <Tab
           first
           onPress={action('press')}
@@ -70,7 +74,10 @@ storiesOf('Tabs', module)
       };
       const index = number('Index', 1, options);
       return (
-        <Tabs index={index}>
+        <Tabs
+          index={index}
+          rounded
+        >
           <Tab
             first
             onPress={action('press')}

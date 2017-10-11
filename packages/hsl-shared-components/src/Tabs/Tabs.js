@@ -34,6 +34,7 @@ const Tabs = styled(({ rounded, children, index, ...rest }) => {
   }
   align-items: stretch;
   width: 100%;
+  overflow: hidden;
 `;
 
 Tabs.displayName = 'Tabs';

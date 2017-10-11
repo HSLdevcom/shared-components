@@ -41,27 +41,30 @@ const TouchableContainer = styled(({
 }) => (
   <Touchable {...rest} />
 ))`
+  position: relative;
   background: ${props => getBackgroundColor(props)};
   border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-style: solid;
-  border-right-width: 1;
-  border-bottom-width: 1;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
   ${props => props.last &&
-    'border-right-width: 0;'
+    'border-right-width: 0px;'
   }
   flex: 1;
   flex-direction: row;
   align-items: stretch;
-  ${props => props.rounded && props.first &&
-    'border-top-left-radius: 6;'
-  }
-  ${props => props.rounded && props.last &&
-    'border-top-right-radius: 6;'
-  }
   ${props => props.active && `
     border-bottom-color: transparent;
   `}
-  overflow: hidden;
+`;
+
+const ActiveIndicator = View.extend`
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: ${props => props.theme.colors.primary.hslBlue};
 `;
 
 const Content = styled(({
@@ -82,12 +85,6 @@ const Content = styled(({
   margin-bottom: ${size(16)};
   padding-top: ${size(12)};
   justify-content: center;
-  border-style: solid;
-  border-color: transparent;
-  border-top-width: 4px;
-  ${props => props.active && `
-    border-color: ${props.theme.colors.primary.hslBlue};
-  `}
 `;
 
 const StyledText = styled(({
@@ -142,6 +139,9 @@ const Tab = styled(withTheme(({
     {...rest}
     accessibilityRole="button"
   >
+    {active &&
+      <ActiveIndicator />
+    }
     <Content
       active={active}
       verticalHeader={verticalHeader}

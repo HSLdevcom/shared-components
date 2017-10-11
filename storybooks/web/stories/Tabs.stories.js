@@ -66,7 +66,7 @@ stories.addWithJSX('rounded', () => {
   const options = {
     range: true,
     min: 0,
-    max: 2,
+    max: 3,
     step: 1,
   };
   const index = number('Index', 1, options);
