@@ -90,6 +90,55 @@ stories.addWithJSX('Icons only', () => {
   );
 });
 
+stories.addWithJSX('React router example with custom container', () => {
+  const inverted = boolean('Inverted', false);
+  /* eslint-disable */
+  const Link = ({ to, ...rest }) => <a href={`http://hsl.fi/${to}`} {...rest} />
+  Link.displayName = 'Link';
+  const items = [
+    {
+      icon: <Icons.Tickets />,
+      title: 'Liput ja hinnat',
+      container: {
+        component: Link,
+        props: {
+          to: "/liput-ja-hinnat",
+        },
+      },
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.JourneyPlanner />,
+      title: 'Reitit ja aikataulut',
+      container: {
+        component: Link,
+        props: {
+          to: "/reitit-ja-aikataulut",
+        },
+      },
+      onClick: action('click'),
+    },
+    {
+      icon: <Icons.Info />,
+      title: 'Ohjeita ja tietoja',
+      container: {
+        component: Link,
+        props: {
+          to: "/ohjeita-ja-tietoja",
+        },
+      },
+      onClick: action('click'),
+    },
+  ];
+  return (
+    <ActionBar
+      items={items}
+      inverted={inverted}
+    />
+  );
+});
+
+
 stories.addWithJSX('secondary', () => {
   const inverted = boolean('Inverted', false);
   const secondary = boolean('Secondary', true);
@@ -151,17 +200,13 @@ stories.addWithJSX('Inverted theme and no icons', () => {
 });
 
 stories.addWithJSX('ActionBarItem', () => {
-  const accessibilityRole = select('accessibilityRole', ['button', 'link'], 'button');
   const title = text('Title', 'Lippuja ja hintoja');
-  const href = text('Href', 'http://www.hsl.fi');
   const inverted = boolean('Inverted', false);
   const active = boolean('Active', false);
   const iconKnob = boolean('Icon', true);
   const icon = iconKnob ? <Icons.Tickets /> : null;
   return (
     <ActionBarItem
-      accessibilityRole={accessibilityRole}
-      href={href}
       title={title}
       icon={icon}
       inverted={inverted}

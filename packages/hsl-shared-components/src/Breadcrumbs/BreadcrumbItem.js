@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
-import { Platform } from 'react-primitives';
 import { withTheme } from 'styled-components';
+import { Platform } from 'react-primitives';
 import Touchable from '../Touchable';
 import View from '../View';
 import { P } from '../Typography';
@@ -42,8 +42,6 @@ const ArrowIcon = withTheme(({ theme }) =>
 
 const BreadcrumbItem = styled(({
   title,
-  accessibilityRole,
-  href,
   onClick,
   onPress,
   onLongPress,
@@ -51,8 +49,6 @@ const BreadcrumbItem = styled(({
 }) =>
   (
     <TouchableContainer
-      accessibilityRole={accessibilityRole || 'link'}
-      href={href}
       onClick={onClick}
       onPress={onPress}
       onLongPress={onLongPress}
@@ -70,36 +66,9 @@ const BreadcrumbItem = styled(({
   )
 )``;
 
-// const BreadcrumbItem = styled(({
-//   onPress,
-//   onLongPress,
-//   ...rest,
-// }) => {
-//   // We want to have default browser interactions unless we are on native platform
-//   if (IS_NATIVE) {
-//     return (
-//       <Touchable
-//         onPress={onPress}
-//         onLongPress={onLongPress}
-//       >
-//         <BreadcrumbItemCore {...rest} />
-//       </Touchable>
-//     );
-//   }
-//
-//   return <BreadcrumbItemCore {...rest} />;
-// })``;
-
-// BreadcrumbItemCore.PropTypes = {
-//   accessibilityRole: PropTypes.oneOf(['link', 'button']),
-//   title: PropTypes.string,
-//   onClick: PropTypes.func,
-// };
-
 BreadcrumbItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  accessibilityRole: PropTypes.oneOf(['link', 'button']),
   title: PropTypes.string,
   onClick: PropTypes.func,
 };

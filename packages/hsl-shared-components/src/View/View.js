@@ -1,9 +1,14 @@
 import styled from 'styled-components/primitives';
 
+export function getViewDefaultStyles() {
+  return `
+    align-items: center;
+    justify-content: center;
+  `;
+}
+
 const View = styled.View`
-  align-items: center;
-  justify-content: center;
+  ${getViewDefaultStyles()}
 `;
 
 export default View;
-

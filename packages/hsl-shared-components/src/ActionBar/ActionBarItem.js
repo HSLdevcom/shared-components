@@ -4,7 +4,7 @@ import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import Touchable from '../Touchable';
 import { P } from '../Typography';
-import { IS_NATIVE, size } from '../utils';
+import { size } from '../utils';
 
 const getTextColor = (props) => {
   if (props.inverted && !props.active) {
@@ -81,11 +81,14 @@ const TouchableView = styled(({
   <Touchable {...rest} />
 )`
   flex: 1;
+  flex-direction: column;
   justify-content: center;
   margin-top: -1px;
   margin-right: -1px;
-  padding-horizontal: ${size(10)};
-  padding-vertical: ${size(20)};
+  padding-top: ${size(20)};
+  padding-right: ${size(10)};
+  padding-bottom: ${size(20)};
+  padding-left: ${size(10)};
   border-style: solid;
   border-width: 1px;
   border-color: ${props => getBorderColor(props)};
@@ -121,8 +124,8 @@ const Title = styled(({
   <P {...rest} />
 )`
   flex-grow: 2;
-  ${props => !!props.icon && `
-    margin-top: ${size(20)}
+  ${props => props.icon && `
+    margin-top: ${size(20)};
   `}
   font-size: ${size(15)};
   color: ${props => getTextColor(props)};
@@ -132,8 +135,6 @@ const Title = styled(({
 const ActionBarItem = styled(withTheme(({
   icon,
   title,
-  accessibilityRole,
-  href,
   active,
   secondary,
   inverted,
@@ -145,7 +146,6 @@ const ActionBarItem = styled(withTheme(({
 }) =>
   (
     <TouchableView
-      href={href}
       inverted={inverted}
       active={active}
       secondary={secondary}
@@ -156,7 +156,6 @@ const ActionBarItem = styled(withTheme(({
         backgroundColor: getBackgroundColor({ active, secondary, inverted, pressed: true, theme }),
       }}
       {...rest}
-      accessibilityRole={accessibilityRole || 'button'}
     >
       {!!icon &&
         <Icon
@@ -183,8 +182,6 @@ ActionBarItem.propTypes = {
   onClick: PropTypes.func,
   icon: PropTypes.element,
   title: PropTypes.string,
-  accessibilityRole: PropTypes.oneOf(['button', 'link']),
-  href: PropTypes.string,
   active: PropTypes.bool,
   secondary: PropTypes.bool,
   inverted: PropTypes.bool,

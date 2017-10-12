@@ -1,6 +1,6 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
+import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeProvider } from 'styled-components';
@@ -178,6 +178,47 @@ const horizItems = [
   },
 ];
 
+/* eslint-disable */
+const Link = ({ to, ...rest }) => <a href={`http://hsl.fi/${to}`} {...rest} />
+Link.displayName = 'Link';
+
+const itemsContainer = [
+  {
+    icon: <Icons.Tickets />,
+    title: 'Liput ja hinnat',
+    container: {
+      component: Link,
+      props: {
+        to: "/liput-ja-hinnat",
+      },
+    },
+    onClick: action('click'),
+  },
+  {
+    icon: <Icons.JourneyPlanner />,
+    title: 'Reitit ja aikataulut',
+    container: {
+      component: Link,
+      props: {
+        to: "/reitit-ja-aikataulut",
+      },
+    },
+    onClick: action('click'),
+  },
+  {
+    icon: <Icons.Info />,
+    title: 'Ohjeita ja tietoja',
+    container: {
+      component: Link,
+      props: {
+        to: "/ohjeita-ja-tietoja",
+      },
+    },
+    onClick: action('click'),
+  },
+];
+
+
 stories.addWithJSX('default', () => {
   const inverted = boolean('Inverted', false);
   const centered = boolean('Centered', false);
@@ -238,6 +279,26 @@ stories.addWithJSX('horizontal', () => {
   );
 });
 
+stories.addWithJSX('react router example with custom container', () => {
+  const inverted = boolean('Inverted', false);
+  const centered = boolean('Centered', false);
+  const arrowless = boolean('Arrowless', false);
+  const horizontal = boolean('Horizontal', false);
+  const secondary = boolean('Secondary', false);
+  const withBorder = boolean('withBorder', false);
+  return (
+    <ActionList
+      items={itemsContainer}
+      inverted={inverted}
+      centered={centered}
+      arrowless={arrowless}
+      horizontal={horizontal}
+      secondary={secondary}
+      withBorder={withBorder}
+    />
+  );
+});
+
 stories.addWithJSX('teasers and secondary', () => {
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
@@ -275,12 +336,10 @@ stories.addWithJSX('inverted and centered', () => {
 });
 
 stories.addWithJSX('ActionListItemText', () => {
-  const accessibilityRole = select('accessibilityRole', ['button', 'link'], 'button');
   const title = text('Title', 'Ruskeasuon varikko');
   const subtitle = text('Subtitle', 'Pysäkki 1935, Vihdintie');
   const description = text('Description', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in bibendum augue.');
   const prefix = text('Prefix', '36');
-  const href = text('Href', 'http://www.hsl.fi');
   const active = boolean('Active', false);
   const centered = boolean('Centered', false);
   const arrowless = boolean('Arrowless', false);
@@ -292,8 +351,6 @@ stories.addWithJSX('ActionListItemText', () => {
   return (
     <ActionListItem
       type="text"
-      accessibilityRole={accessibilityRole}
-      href={href}
       title={title}
       subtitle={subtitle}
       description={description}

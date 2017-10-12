@@ -13,8 +13,10 @@ import { getTextColor, getBackgroundColor } from './utils';
 // Need to define round borders here again for android compatibility
 const TouchableContainer = Touchable.extend`
   width: 100%;
-  padding-horizontal: ${size(18)};
-  padding-vertical: ${size(18)};
+  padding-top: ${size(18)};
+  padding-right: ${size(18)};
+  padding-bottom: ${size(18)};
+  padding-left: ${size(18)};
   border-color: transparent;
   border-width: 1px;
   border-style: solid;
@@ -168,8 +170,6 @@ const ActiveItemUnderline = styled(({
 `;
 
 const ActionListItemText = styled(withTheme(({
-  accessibilityRole,
-  href,
   active,
   prefix,
   title,
@@ -202,8 +202,6 @@ const ActionListItemText = styled(withTheme(({
           theme,
         }),
       }}
-      accessibilityRole={accessibilityRole || 'button'}
-      href={href}
       {...rest}
     >
       <TitleAndIconContainer
@@ -280,8 +278,6 @@ ActionListItemText.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   onClick: PropTypes.func,
-  accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
-  href: PropTypes.string, // Not available in native
   active: PropTypes.bool,
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
