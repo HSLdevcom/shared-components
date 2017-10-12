@@ -11,7 +11,13 @@ import { getTextColor, getBackgroundColor } from './utils';
 
 // Transparent borders below are for fixing touchable in android
 // Need to define round borders here again for android compatibility
-const TouchableContainer = Touchable.extend`
+const TouchableContainer = styled(({
+  first,
+  last,
+  ...rest
+}) =>
+  <Touchable {...rest} />
+)`
   width: 100%;
   padding-top: ${size(18)};
   padding-right: ${size(18)};
@@ -181,6 +187,10 @@ const ActionListItemText = styled(withTheme(({
   centered,
   inverted,
   secondary,
+  first,
+  second,
+  secondToLast,
+  last,
   onPress,
   onLongPress,
   onClick,
@@ -202,6 +212,8 @@ const ActionListItemText = styled(withTheme(({
           theme,
         }),
       }}
+      first={first}
+      last={last}
       {...rest}
     >
       <TitleAndIconContainer

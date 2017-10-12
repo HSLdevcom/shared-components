@@ -14,6 +14,7 @@ const TouchableWeb = styled(({
   accessibilityRole,
   disabled,
   container,
+  innerRef,
   ...rest,
 }) => {
   if (container) {
@@ -29,6 +30,7 @@ const TouchableWeb = styled(({
     <View
       onClick={onClick || onPress}
       disabled={disabled}
+      innerRef={innerRef}
       accessibilityRole={accessibilityRole || 'button'}
       {...rest}
     />
@@ -51,10 +53,10 @@ TouchableWeb.propTypes = {
   pressedStyle: PropTypes.shape(ViewPrimitives.propTypes.style),
   accessibilityRole: PropTypes.string,
   container: PropTypes.shape({
-    component: PropTypes.element,
+    component: PropTypes.component,
     props: PropTypes.shape({}),
   }),
-  disabled: PropTypes.boolean,
+  disabled: PropTypes.bool,
 };
 
 TouchableWeb.displayName = 'Touchable';
