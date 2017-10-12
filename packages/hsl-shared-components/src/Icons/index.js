@@ -30,6 +30,7 @@ import Twitter from './Twitter';
 import Youtube from './Youtube';
 import Bike from './Bike';
 import MobileTicket from './MobileTicket';
+import PhoneWithLogo from './PhoneWithLogo';
 
 
 export default {
@@ -64,5 +65,6 @@ export default {
   Twitter,
   Youtube,
   Bike,
-  MobileTicket
+  MobileTicket,
+  PhoneWithLogo,
 };
