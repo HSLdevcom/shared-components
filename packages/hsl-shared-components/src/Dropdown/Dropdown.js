@@ -11,11 +11,13 @@ import { LabelText } from '../Typography';
 import { size } from '../utils';
 import { AView } from '../Animated';
 
+
 const SelectedContainer = View.extend`
   border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-width: 1px;
   border-radius: 4px;
   align-items: stretch;
+  ${props => props.hover && 'border-color: #ff1111;'}
 `;
 
 const StyledView = View.extend`
@@ -50,6 +52,25 @@ const ScrollWrap = styled(({ x, y, height, width, ...rest }) => (
   overflow: hidden;
 `;
 
+const Value = ({ items, value, noValue }) => {
+  const item = items.find(x => x.value === value);
+  if (item) {
+    return <LabelText>{item.value}</LabelText>;
+  }
+  return <LabelText>{noValue}</LabelText>;
+};
+
+Value.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number,
+    ]).isRequired,
+    value: PropTypes.string.isRequired
+  })).isRequired,
+  noValue: PropTypes.string,
+  value: PropTypes.string
+};
 
 class Dropdown extends React.Component {
   constructor(props) {
@@ -96,16 +117,18 @@ class Dropdown extends React.Component {
   render() {
     return (
       <StyledView
-        {...omit(this.props, ['items', 'onChange', 'theme', 'selectedId'])}
+        {...omit(this.props, ['items', 'onChange', 'theme', 'value'])}
         onClick={this.toggleDropdown}
       >
         <SelectedContainer onLayout={this.selectedOnLayout}>
           <DropdownItem
             onPress={this.toggleDropdown}
           >
-            <LabelText>
-              { this.props.items.find(item => item.id === this.props.selectedId).name }
-            </LabelText>
+            <Value
+              items={this.props.items}
+              value={this.props.value}
+              noValue={this.props.noValue}
+            />
             <Icons.ArrowDown
               height={size(12)}
               width={size(12)}
@@ -128,11 +151,11 @@ class Dropdown extends React.Component {
                 <ItemWrap key={item.id}>
                   <DropdownItem
                     onPress={() => {
-                      this.props.onChange(item.id);
+                      this.props.onChange(item.value);
                       this.toggleDropdown();
                     }}
                   >
-                    <LabelText>{item.name}</LabelText>
+                    <LabelText>{item.value}</LabelText>
                   </DropdownItem>
                 </ItemWrap>
               )
@@ -150,12 +173,10 @@ Dropdown.propTypes = {
       PropTypes.string,
       PropTypes.number,
     ]).isRequired,
-    name: PropTypes.string.isRequired
+    value: PropTypes.string.isRequired
   })).isRequired,
-  selectedId: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-  ]),
+  noValue: PropTypes.string,
+  value: PropTypes.string,
   onChange: PropTypes.func,
   theme: PropTypes.shape({
     colors: PropTypes.shape({
@@ -166,4 +187,7 @@ Dropdown.propTypes = {
   })
 };
 
-export default styled(withTheme(Dropdown))``;
+const DD = styled(withTheme(Dropdown))``;
+DD.displayName = 'Dropdown';
+
+export default DD;
