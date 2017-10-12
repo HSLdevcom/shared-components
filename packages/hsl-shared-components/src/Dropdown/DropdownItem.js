@@ -11,8 +11,8 @@ const DropdownItem = styled(({ children, onPress, onLongPress, ...rest }) => (
     </View>
   </Touchable>
 ))`
-  margin-horizontal: 20px;
-  margin-vertical: 15px;
+  padding-horizontal: 20px;
+  padding-vertical: 15px;
   justify-content: space-between;
   flex-direction: row;
   ${!IS_NATIVE && 'cursor: pointer;'}

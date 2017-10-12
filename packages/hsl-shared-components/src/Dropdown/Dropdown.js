@@ -11,14 +11,7 @@ import { LabelText } from '../Typography';
 import { size } from '../utils';
 import { AView } from '../Animated';
 
-
-const SelectedContainer = View.extend`
-  border-color: ${props => props.theme.colors.primary.hslGreyLight};
-  border-width: 1px;
-  border-radius: 4px;
-  align-items: stretch;
-  ${props => props.hover && 'border-color: #ff1111;'}
-`;
+import DropdownElement from './DropdownElement';
 
 const StyledView = View.extend`
   width: 100%;
@@ -120,8 +113,9 @@ class Dropdown extends React.Component {
         {...omit(this.props, ['items', 'onChange', 'theme', 'value'])}
         onClick={this.toggleDropdown}
       >
-        <SelectedContainer onLayout={this.selectedOnLayout}>
+        <DropdownElement>
           <DropdownItem
+            onLayout={this.selectedOnLayout}
             onPress={this.toggleDropdown}
           >
             <Value
@@ -135,7 +129,7 @@ class Dropdown extends React.Component {
               fill={this.props.theme.colors.primary.hslBlue}
             />
           </DropdownItem>
-        </SelectedContainer>
+        </DropdownElement>
         <ScrollWrap
           style={{ maxHeight: this.state.anim }}
           x={this.state.itemDimensions.x}
