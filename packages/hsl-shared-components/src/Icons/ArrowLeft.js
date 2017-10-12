@@ -1,17 +1,12 @@
 import React from 'react';
-
-import { Svg,
-  Path
-} from 'react-primitives-svg';
-
+import { Svg, Path } from 'react-primitives-svg';
 import PropTypes from 'prop-types';
-
 import { svgSize } from '../utils';
 
 export default function Icon({ fill, height, width, ...rest }) {
   return (
-    <Svg {...rest} {...svgSize(height, width)} viewBox="0 0 17 36" version="1.1" preserveAspectRatio="xMidYMid meet">
-      <Path fill={fill} d="M13.846,0.991 C15.366,0.991 16.486,2.111 16.486,3.551 C16.566,4.271 16.246,4.751 15.846,5.391 L6.326,18.351 L15.766,31.072 C16.166,31.552 16.486,32.272 16.486,32.912 C16.486,34.352 15.366,35.552 13.926,35.552 C12.966,35.552 12.166,34.992 11.526,34.192 L0.965,20.431 C0.325,19.631 0.005,18.991 0.005,18.271 C0.005,17.471 0.325,16.911 0.965,16.111 L11.686,2.191 C12.166,1.471 12.886,0.991 13.846,0.991 Z" id="Shape" />
+    <Svg {...rest} {...svgSize(height, width)} viewBox="0 0 20 36" version="1.1" preserveAspectRatio="xMidYMid meet">
+      <Path fill={fill} d="M6.360375,16.999375 L18.851375,4.508375 C19.654375,3.705375 19.654375,2.404375 18.851375,1.601375 C18.048375,0.798375 16.747375,0.798375 15.944375,1.601375 L0.546375,16.999375 L0.546375,17.000375 L3.453375,19.906375 L15.944375,32.397375 C16.747375,33.200375 18.048375,33.200375 18.851375,32.397375 C19.654375,31.594375 19.654375,30.293375 18.851375,29.490375 L6.360375,16.999375 L6.360375,16.999375 Z" id="Collapse-Left" />
     </Svg>
   );
 }
