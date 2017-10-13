@@ -128,13 +128,13 @@ storiesOf('Button', module)
         onPress={action('press')}
         onLongPress={action('long press')}
       >
-        <Icons.Facebook height="36" width="18" fill="#007ac9" />
+        <Icons.Facebook />
       </RoundButton>
     );
   })
   .add('button with text', () => {
     const small = boolean('Small', false);
-    const icon = <Icons.Bike height="30" width="30" fill="#eeaaff" />;
+    const icon = <Icons.Bike fill="#eeaaff" />;
     return (
       <ButtonWithText
         small={small}

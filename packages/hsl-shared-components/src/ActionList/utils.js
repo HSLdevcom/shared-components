@@ -44,8 +44,14 @@ export const getBackgroundColor = (props) => {
   if (props.inverted && props.active) {
     return props.theme.colors.primary.hslWhite;
   }
+  if (props.inverted && props.pressed) {
+    return props.theme.colors.primary.hslBlueDark;
+  }
   if (props.inverted) {
     return props.theme.colors.primary.hslBlue;
+  }
+  if (props.secondary && props.pressed) {
+    return props.theme.colors.background.hslGreyXLight;
   }
   if (props.secondary) {
     return props.theme.colors.background.hslGreyLight;
@@ -53,15 +59,23 @@ export const getBackgroundColor = (props) => {
   if (props.withBorder && props.active) {
     return props.theme.colors.primary.hslBlue;
   }
+  if (props.withBorder && props.pressed) {
+    return props.theme.colors.background.hslGreyLight;
+  }
   if (props.withBorder) {
     return props.theme.colors.background.hslWhite;
+  }
+  if (props.active) {
+    return 'transparent';
+  }
+  if (props.pressed) {
+    return props.theme.colors.background.hslGreyLight;
   }
   return 'transparent';
 };
 
 // The use of border-width might seem funny, but is required by android
-export const getVerticalListBorderStyles = props =>
-`
+export const getVerticalListBorderStyles = props => `
   border-bottom-width: 1px;
 
   ${evaluate(props.withBorder, `

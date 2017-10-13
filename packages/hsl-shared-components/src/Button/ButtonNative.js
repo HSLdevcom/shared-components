@@ -3,7 +3,6 @@ import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Text from '../Typography';
-import View from '../View';
 import Touchable from '../Touchable';
 import { size as utilsSize } from '../utils';
 import { getTextColor, getBorderColor, getBackgroundColor } from './utils';
@@ -50,7 +49,7 @@ const Icon = withTheme(({
   })
 );
 
-const TouchableText = styled(({
+const StyledText = styled(({
   hover,
   active,
   focus,
@@ -61,6 +60,7 @@ const TouchableText = styled(({
   small,
   disabled,
   square,
+  iconAfterText,
   ...rest
 }) => (
   <Text {...rest} />
@@ -76,7 +76,7 @@ const TouchableText = styled(({
   `}
 `;
 
-const TouchableView = styled(({
+const TouchableContainer = styled(({
   hover,
   active,
   focus,
@@ -88,9 +88,10 @@ const TouchableView = styled(({
   small,
   square,
   iconAfterText,
+  noPadding,
   ...rest
 }) => (
-  <View {...rest} />
+  <Touchable {...rest} />
 ))`
   flex-direction: row;
   ${props => props.iconAfterText && `
@@ -114,63 +115,82 @@ const Button = styled(({
   success,
   secondary,
   inverted,
+  hover,
+  active,
+  focus,
   disabled,
   transparent,
   square,
   small,
   icon,
   iconAfterText,
+  onClick,
   onPress,
   onLongPress,
   innerRef,
   children,
-  ...rest }) => (
-    <Touchable
-      onPress={onPress}
+  theme,
+  ...rest
+}) => {
+  const hasValidChildren = React.isValidElement(children);
+  return (
+    <TouchableContainer
+      onPress={onPress || onClick}
       onLongPress={onLongPress}
+      pressedStyle={{
+        borderColor: getBorderColor({
+          active: true, primary, success, secondary, inverted, disabled, theme
+        }),
+        backgroundColor: getBackgroundColor({
+          active: true, primary, success, secondary, inverted, disabled, theme
+        }),
+      }}
+      active={active}
+      hover={hover}
+      focus={focus}
+      primary={primary}
+      success={success}
+      secondary={secondary}
+      inverted={inverted}
+      disabled={disabled}
+      transparent={transparent}
+      square={square}
+      small={small}
+      iconAfterText={iconAfterText}
+      {...rest}
+      innerRef={innerRef}
+      accessibilityRole="button"
     >
-      <TouchableView
-        primary={primary}
-        success={success}
-        secondary={secondary}
-        inverted={inverted}
-        disabled={disabled}
-        transparent={transparent}
-        square={square}
-        small={small}
-        iconAfterText={iconAfterText}
-        {...rest}
-        innerRef={innerRef}
-        accessibilityRole="button"
-      >
-        {icon &&
-          <Icon
-            icon={icon}
+      {icon &&
+        <Icon
+          icon={icon}
+          primary={primary}
+          disabled={disabled}
+          small={small}
+        />
+      }
+      {hasValidChildren && children}
+      {!hasValidChildren &&
+          (<StyledText
+            hover={hover}
+            active={active}
+            focus={focus}
             primary={primary}
+            success={success}
+            secondary={secondary}
             disabled={disabled}
+            transparent={transparent}
+            square={square}
+            icon={!!icon}
+            iconAfterText={iconAfterText}
             small={small}
-          />
-        }
-        {
-          React.isValidElement(children) ?
-            children :
-            (<TouchableText
-              primary={primary}
-              success={success}
-              secondary={secondary}
-              disabled={disabled}
-              transparent={transparent}
-              square={square}
-              icon={!!icon}
-              iconAfterText={iconAfterText}
-              small={small}
-            >
-              {children}
-            </TouchableText>)
-        }
-      </TouchableView>
-    </Touchable>
-))``;
+          >
+            {children}
+          </StyledText>)
+      }
+    </TouchableContainer>
+  );
+})``;
 
 Button.propTypes = {
   primary: PropTypes.bool,
@@ -183,10 +203,13 @@ Button.propTypes = {
   small: PropTypes.bool,
   icon: PropTypes.element,
   iconAfterText: PropTypes.bool,
+  onClick: PropTypes.func,
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   children: PropTypes.node,
   innerRef: PropTypes.func
 };
 
-export default Button;
+Button.displayName = 'Button';
+
+export default withTheme(Button);

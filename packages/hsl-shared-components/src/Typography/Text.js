@@ -14,4 +14,6 @@ Text.propTypes = {
   size: PropTypes.number
 };
 
+Text.displayName = 'Text';
+
 export default Text;

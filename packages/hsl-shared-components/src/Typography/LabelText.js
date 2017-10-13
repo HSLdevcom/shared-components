@@ -6,4 +6,6 @@ const LabelText = Text.extend`
   line-height: ${18};
 `;
 
+LabelText.displayName = 'LabelText';
+
 export default LabelText;

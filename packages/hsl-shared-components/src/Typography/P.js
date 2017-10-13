@@ -18,4 +18,6 @@ P.propTypes = {
   small: PropTypes.bool
 };
 
+P.displayName = 'P';
+
 export default P;

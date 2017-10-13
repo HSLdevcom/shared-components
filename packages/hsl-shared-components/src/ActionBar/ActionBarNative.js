@@ -5,7 +5,12 @@ import styled from 'styled-components/primitives';
 import View from '../View';
 import ActionBarItem from './ActionBarItem';
 
-const ActionBar = styled(({ items, inverted, ...rest }) =>
+const ActionBar = styled(({
+  items,
+  secondary,
+  inverted,
+  ...rest
+}) =>
   (
     <View {...rest}>
       {items.map((item, index) => {
@@ -30,6 +35,7 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
           <ActionBarItem
             key={/* eslint-disable react/no-array-index-key */index}
             inverted={inverted}
+            secondary={secondary}
             first={index === 0}
             last={index === (items.length - 1)}
             {...item}
@@ -59,6 +65,7 @@ ActionBar.propTypes = {
     ])
   ),
   inverted: PropTypes.bool,
+  secondary: PropTypes.bool,
 };
 
 ActionBar.displayName = 'ActionBar';
