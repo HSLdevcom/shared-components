@@ -32,8 +32,8 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      active={undefined}
       hitSlop={undefined}
+      onClick={undefined}
       onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -41,38 +41,41 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pressed={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
             "justifyContent": "center",
           },
-          undefined,
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+            },
+            Array [
+              Object {},
+              undefined,
+            ],
+          ],
         ]
       }
       testID={undefined}
     >
       <View
-        accessibilityRole="link"
-        href={undefined}
-        onClick={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
+              "borderColor": "transparent",
               "borderStyle": "solid",
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "flex-start",
-              "marginRight": 8.75,
               "paddingVertical": 4.375,
             },
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
+            undefined,
           ]
         }
       >
@@ -128,8 +131,8 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      active={undefined}
       hitSlop={undefined}
+      onClick={undefined}
       onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -137,38 +140,41 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pressed={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
             "justifyContent": "center",
           },
-          undefined,
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+            },
+            Array [
+              Object {},
+              undefined,
+            ],
+          ],
         ]
       }
       testID={undefined}
     >
       <View
-        accessibilityRole="link"
-        href={undefined}
-        onClick={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
+              "borderColor": "transparent",
               "borderStyle": "solid",
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "flex-start",
-              "marginRight": 8.75,
               "paddingVertical": 4.375,
             },
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
+            undefined,
           ]
         }
       >
@@ -224,8 +230,8 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      active={undefined}
       hitSlop={undefined}
+      onClick={undefined}
       onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -233,38 +239,41 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pressed={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
             "justifyContent": "center",
           },
-          undefined,
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+            },
+            Array [
+              Object {},
+              undefined,
+            ],
+          ],
         ]
       }
       testID={undefined}
     >
       <View
-        accessibilityRole="link"
-        href={undefined}
-        onClick={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
+              "borderColor": "transparent",
               "borderStyle": "solid",
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "flex-start",
-              "marginRight": 8.75,
               "paddingVertical": 4.375,
             },
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
+            undefined,
           ]
         }
       >
@@ -320,8 +329,8 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      active={undefined}
       hitSlop={undefined}
+      onClick={undefined}
       onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -329,38 +338,41 @@ exports[`Storyshots Breadcrumbs Default 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pressed={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
             "justifyContent": "center",
           },
-          undefined,
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginRight": 8.75,
+            },
+            Array [
+              Object {},
+              undefined,
+            ],
+          ],
         ]
       }
       testID={undefined}
     >
       <View
-        accessibilityRole="link"
-        href={undefined}
-        onClick={undefined}
         style={
           Array [
             Object {
               "alignItems": "center",
+              "borderColor": "transparent",
               "borderStyle": "solid",
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "flex-start",
-              "marginRight": 8.75,
               "paddingVertical": 4.375,
             },
-            Array [
-              Object {},
-              Array [
-                Object {},
-                undefined,
-              ],
-            ],
+            undefined,
           ]
         }
       >
@@ -431,8 +443,8 @@ exports[`Storyshots Breadcrumbs Single item 1`] = `
     accessibilityLabel={undefined}
     accessibilityTraits={undefined}
     accessible={true}
-    active={undefined}
     hitSlop={undefined}
+    onClick={undefined}
     onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
@@ -440,38 +452,41 @@ exports[`Storyshots Breadcrumbs Single item 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pressed={undefined}
     style={
       Array [
         Object {
           "alignItems": "center",
           "justifyContent": "center",
         },
-        undefined,
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "marginRight": 8.75,
+          },
+          Array [
+            Object {},
+            undefined,
+          ],
+        ],
       ]
     }
     testID={undefined}
   >
     <View
-      accessibilityRole="link"
-      href={undefined}
-      onClick={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
+            "borderColor": "transparent",
             "borderStyle": "solid",
+            "borderWidth": 1,
             "flexDirection": "row",
             "justifyContent": "flex-start",
-            "marginRight": 8.75,
             "paddingVertical": 4.375,
           },
-          Array [
-            Object {},
-            Array [
-              Object {},
-              undefined,
-            ],
-          ],
+          undefined,
         ]
       }
     >

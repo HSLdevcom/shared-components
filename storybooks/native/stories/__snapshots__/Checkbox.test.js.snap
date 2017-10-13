@@ -14,10 +14,13 @@ exports[`Storyshots Checkbox Default 1`] = `
   <View
     accessibilityComponentType={undefined}
     accessibilityLabel={undefined}
+    accessibilityRole="checkbox"
     accessibilityTraits={undefined}
     accessible={true}
-    active={undefined}
+    aria-checked="false"
+    disabled={false}
     hitSlop={undefined}
+    onClick={undefined}
     onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
@@ -25,20 +28,30 @@ exports[`Storyshots Checkbox Default 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pressed={undefined}
     style={
       Array [
         Object {
           "alignItems": "center",
           "justifyContent": "center",
         },
-        undefined,
+        Array [
+          Object {},
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ],
+        ],
       ]
     }
     testID={undefined}
   >
     <View
-      aria-checked="false"
-      role="checkbox"
+      checked={false}
+      disabled={false}
+      inverted={false}
       style={
         Array [
           Object {
@@ -47,62 +60,41 @@ exports[`Storyshots Checkbox Default 1`] = `
           },
           Array [
             Object {
-              "flexDirection": "row",
+              "backgroundColor": "transparent",
+              "borderColor": "#888888",
+              "borderRadius": 3.5,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "height": 17.5,
+              "width": 17.5,
             },
             undefined,
           ],
         ]
       }
-      tabIndex="0"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      inverted={false}
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
+            "fontSize": 15.75,
+            "fontWeight": "500",
+            "lineHeight": 18,
+            "marginLeft": 8.75,
+          },
+          undefined,
+        ]
+      }
     >
-      <View
-        checked={false}
-        disabled={false}
-        inverted={false}
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#888888",
-                "borderRadius": 3.5,
-                "borderStyle": "solid",
-                "borderWidth": 1,
-                "height": 17.5,
-                "width": 17.5,
-              },
-              undefined,
-            ],
-          ]
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        disabled={false}
-        ellipsizeMode="tail"
-        inverted={false}
-        style={
-          Array [
-            Object {
-              "color": "#333333",
-              "fontFamily": "Gotham Rounded SSm A, Gotham Rounded SSm B, Arial, Georgia, serif",
-              "fontSize": 15.75,
-              "fontWeight": "500",
-              "lineHeight": 18,
-              "marginLeft": 8.75,
-            },
-            undefined,
-          ]
-        }
-      >
-        Checkbox title
-      </Text>
-    </View>
+      Checkbox title
+    </Text>
   </View>
 </View>
 `;
