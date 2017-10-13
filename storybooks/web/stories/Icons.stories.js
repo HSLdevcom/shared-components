@@ -8,10 +8,10 @@ import { Icons, Theme } from 'hsl-shared-components';
 setAddon(JSXAddon);
 
 const defaultFill = Theme.colors.primary.hslBlue;
+const defaultFillWhite = Theme.colors.primary.hslWhite;
 const defaultFillGreen = Theme.colors.primary.hslGreen;
 const defaultFillGrey = Theme.colors.primary.hslGrey;
 const defaultFillGreyDark = Theme.colors.primary.hslGreyDark;
-const defaultFillError = Theme.error.color.primary;
 
 const stories = storiesOf('Icons', module);
 stories.addDecorator(withKnobs);
@@ -33,7 +33,6 @@ stories.addWithJSX('AddCard', () => {
 });
 
 stories.addWithJSX('Alert', () => {
-  const fill = defaultFillError;
   const defaultValue = 10;
   const options = {
     range: true,
@@ -42,7 +41,7 @@ stories.addWithJSX('Alert', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Alert fill={fill} height={`${height}rem`} />);
+  return (<Icons.Alert height={`${height}rem`} />);
 });
 
 stories.addWithJSX('ArrowDown', () => {
@@ -95,6 +94,59 @@ stories.addWithJSX('Bike', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Bike fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Bus', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Bus fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('BusCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.BusCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('BusRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.BusRectangle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Calendar', () => {
+  const fill = {
+    inner: color('FillInner', defaultFillWhite),
+    outer: color('FillOuter', defaultFill)
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Calendar fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('CardOrder', () => {
@@ -426,6 +478,22 @@ stories.addWithJSX('Tickets', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Tickets fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('TicketsDay', () => {
+  const fill = {
+    inner: color('FillInner', defaultFillWhite),
+    outer: color('FillOuter', defaultFill)
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.TicketsDay fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('TravelCard', () => {

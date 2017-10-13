@@ -1,11 +1,8 @@
 import React from 'react';
-import { Svg,
-  Path
-} from 'react-primitives-svg';
-
+import { Svg, Path } from 'react-primitives-svg';
 import PropTypes from 'prop-types';
-
 import { svgSize } from '../utils';
+import { Colors } from '../Theme';
 
 export default function Icon({ fill, height, width, ...rest }) {
   return (
@@ -19,6 +16,10 @@ Icon.propTypes = {
   fill: PropTypes.string,
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   width: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+};
+
+Icon.defaultProps = {
+  fill: Colors.secondary.hslMagenta,
 };
 
 Icon.displayName = 'Icons.Alert';

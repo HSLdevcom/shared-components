@@ -3,6 +3,7 @@ import Alert from './Alert';
 import ArrowDown from './ArrowDown';
 import ArrowLeft from './ArrowLeft';
 import ArrowRight from './ArrowRight';
+import Calendar from './Calendar';
 import CardOrder from './CardOrder';
 import CardWithCheckmark from './CardWithCheckmark';
 import Checkmark from './Checkmark';
@@ -22,6 +23,7 @@ import PositionAlert from './PositionAlert';
 import Search from './Search';
 import SignIn from './SignIn';
 import Tickets from './Tickets';
+import TicketsDay from './TicketsDay';
 import TravelCard from './TravelCard';
 import Facebook from './Facebook';
 import Instagram from './Instagram';
@@ -29,6 +31,9 @@ import Linkedin from './Linkedin';
 import Twitter from './Twitter';
 import Youtube from './Youtube';
 import Bike from './Bike';
+import Bus from './Bus';
+import BusRectangle from './BusRectangle';
+import BusCircle from './BusCircle';
 import MobileTicket from './MobileTicket';
 import PhoneWithLogo from './PhoneWithLogo';
 import Star from './Star';
@@ -41,6 +46,10 @@ export default {
   ArrowLeft,
   ArrowRight,
   Bike,
+  Bus,
+  BusCircle,
+  BusRectangle,
+  Calendar,
   CardOrder,
   CardWithCheckmark,
   Checkmark,
@@ -66,6 +75,7 @@ export default {
   SignIn,
   Star,
   Tickets,
+  TicketsDay,
   TravelCard,
   Twitter,
   Youtube,
