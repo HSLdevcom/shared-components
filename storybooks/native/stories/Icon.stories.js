@@ -6,10 +6,10 @@ import { Icons, ResponsiveProvider, Theme } from 'hsl-shared-components';
 
 import CenterView from './CenterView';
 
-const defaultFill = Theme.colors.primary.hslBlue;
-const defaultFillWhite = Theme.colors.primary.hslWhite;
-const defaultFillGreen = Theme.colors.primary.hslGreen;
 const defaultFillGrey = Theme.colors.primary.hslGrey;
+const defaultFillBlue = Theme.colors.primary.hslBlue;
+const defaultFillWhite = Theme.colors.primary.hslWhite;
+const defaultFillGreen = Theme.colors.secondary.hslGreen;
 const defaultFillGreyDark = Theme.colors.primary.hslGreyDark;
 
 const defaultSize = 100;
@@ -31,27 +31,27 @@ storiesOf('Icons', module)
   .add('AddCard', () => {
     const fill = {
       inner: color('FillInner', defaultFillGrey),
-      outer: color('FillOuter', defaultFill)
+      outer: color('FillOuter', defaultFillBlue)
     };
     const height = number('Height', defaultSize, defaultSizeOptions);
-    return (<Icons.AddCard fill={fill} height={`${height}`} width={`${height}`} width={`${height}`} />);
+    return (<Icons.AddCard fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Alert', () => {
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Alert height={`${height}`} width={`${height}`} />);
   })
   .add('ArrowDown', () => {
-    const fill = color('Fill', defaultFill);
+    const fill = color('Fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.ArrowDown fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('ArrowLeft', () => {
-    const fill = color('Fill', defaultFill);
+    const fill = color('Fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.ArrowLeft fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('ArrowRight', () => {
-    const fill = color('Fill', defaultFill);
+    const fill = color('Fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.ArrowRight fill={fill} height={`${height}`} width={`${height}`} />);
   })
@@ -89,20 +89,15 @@ storiesOf('Icons', module)
   .add('Calendar', () => {
     const fill = {
       inner: color('FillInner', defaultFillWhite),
-      outer: color('FillOuter', defaultFill)
+      outer: color('FillOuter', defaultFillGreyDark)
     };
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Calendar fill={fill} height={`${height}`} width={`${height}`} />);
   })
-  .add('Card', () => {
-    const fill = color('fill', defaultFillGreyDark);
-    const height = number('Height', defaultSize, defaultSizeOptions);
-    return (<Icons.Card fill={fill} height={`${height}`} width={`${height}`} />);
-  })
   .add('CardOrder', () => {
     const fill = {
       inner: color('FillInner', defaultFillGrey),
-      outer: color('FillOuter', defaultFill)
+      outer: color('FillOuter', defaultFillBlue)
     };
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.CardOrder fill={fill} height={`${height}`} width={`${height}`} />);
@@ -159,7 +154,7 @@ storiesOf('Icons', module)
     return (<Icons.Envelope fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Facebook', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Facebook fill={fill} height={`${height}`} width={`${height}`} />);
   })
@@ -179,7 +174,7 @@ storiesOf('Icons', module)
   .add('Fines', () => {
     const fill = {
       inner: color('FillInner', defaultFillWhite),
-      outer: color('FillOuter', defaultFill)
+      outer: color('FillOuter', defaultFillGreyDark)
     };
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Fines fill={fill} height={`${height}`} width={`${height}`} />);
@@ -195,12 +190,12 @@ storiesOf('Icons', module)
     return (<Icons.HSLLogoNoText fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Info', () => {
-    const fill = color('Fill', defaultFill);
+    const fill = color('Fill', defaultFillBlue);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Info fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Instagram', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Instagram fill={fill} height={`${height}`} width={`${height}`} />);
   })
@@ -215,12 +210,12 @@ storiesOf('Icons', module)
     return (<Icons.Latest fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Linkedin', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Linkedin fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('LostProperty', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.LostProperty fill={fill} height={`${height}`} width={`${height}`} />);
   })
@@ -298,7 +293,7 @@ storiesOf('Icons', module)
   .add('TicketsDay', () => {
     const fill = {
       inner: color('FillInner', defaultFillWhite),
-      outer: color('FillOuter', defaultFill)
+      outer: color('FillOuter', defaultFillGreyDark)
     };
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.TicketsDay fill={fill} height={`${height}`} width={`${height}`} />);
@@ -322,12 +317,12 @@ storiesOf('Icons', module)
     return (<Icons.TravelCard fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Twitter', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Twitter fill={fill} height={`${height}`} width={`${height}`} />);
   })
   .add('Youtube', () => {
-    const fill = color('fill', defaultFill);
+    const fill = color('fill', defaultFillGreyDark);
     const height = number('Height', defaultSize, defaultSizeOptions);
     return (<Icons.Youtube fill={fill} height={`${height}`} width={`${height}`} />);
   });
