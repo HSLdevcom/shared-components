@@ -84,6 +84,19 @@ stories.addWithJSX('ArrowRight', () => {
   return (<Icons.ArrowRight fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Bike', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Bike fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('CardOrder', () => {
   const fill = {
     inner: color('FillInner', defaultFillGrey),
@@ -197,8 +210,8 @@ stories.addWithJSX('Edit', () => {
   return (<Icons.Edit fill={fill} height={`${height}rem`} />);
 });
 
-stories.addWithJSX('Logo', () => {
-  const fill = color('fill', defaultFillGreyDark);
+stories.addWithJSX('Facebook', () => {
+  const fill = color('fill', defaultFill);
   const defaultValue = 10;
   const options = {
     range: true,
@@ -207,20 +220,7 @@ stories.addWithJSX('Logo', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.Logo fill={fill} height={`${height}rem`} />);
-});
-
-stories.addWithJSX('HSLLogo', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.HSLLogo fill={fill} height={`${height}rem`} />);
+  return (<Icons.Facebook fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Info', () => {
@@ -234,6 +234,19 @@ stories.addWithJSX('Info', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Info fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Instagram', () => {
+  const fill = color('fill', defaultFill);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Instagram fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('JourneyPlanner', () => {
@@ -260,7 +273,21 @@ stories.addWithJSX('Latest', () => {
   const height = number('Height', defaultValue, options);
   return (<Icons.Latest fill={fill} height={`${height}rem`} />);
 });
-stories.addWithJSX('More', () => {
+
+stories.addWithJSX('Linkedin', () => {
+  const fill = color('fill', defaultFill);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Linkedin fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('HSLLogo', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
   const options = {
@@ -270,7 +297,20 @@ stories.addWithJSX('More', () => {
     step: 0.1,
   };
   const height = number('Height', defaultValue, options);
-  return (<Icons.More fill={fill} height={`${height}rem`} />);
+  return (<Icons.HSLLogo fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Logo', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Logo fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Menu', () => {
@@ -286,138 +326,6 @@ stories.addWithJSX('Menu', () => {
   return (<Icons.Menu fill={fill} height={`${height}rem`} />);
 });
 
-stories.addWithJSX('Search', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Search fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('SignIn', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.SignIn fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Tickets', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Tickets fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('TravelCard', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.TravelCard fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('PositionAlert', () => {
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.PositionAlert height={`${height}rem`} />);
-});
-
-stories.addWithJSX('Facebook', () => {
-  const fill = color('fill', defaultFill);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Facebook fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Twitter', () => {
-  const fill = color('fill', defaultFill);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Twitter fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Instagram', () => {
-  const fill = color('fill', defaultFill);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Instagram fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Youtube', () => {
-  const fill = color('fill', defaultFill);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Youtube fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Linkedin', () => {
-  const fill = color('fill', defaultFill);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Linkedin fill={fill} height={`${height}rem`} />);
-});
-stories.addWithJSX('Bike', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Bike fill={fill} height={`${height}rem`} />);
-});
 stories.addWithJSX('MobileTicket', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -431,6 +339,19 @@ stories.addWithJSX('MobileTicket', () => {
   return (<Icons.MobileTicket fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('More', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 2;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.More fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('PhoneWithLogo', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -442,4 +363,106 @@ stories.addWithJSX('PhoneWithLogo', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.PhoneWithLogo fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('PositionAlert', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.PositionAlert height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Search', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Search fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('SignIn', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.SignIn fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Star', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Star height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Tickets', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Tickets fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('TravelCard', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.TravelCard fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Twitter', () => {
+  const fill = color('fill', defaultFill);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Twitter fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Youtube', () => {
+  const fill = color('fill', defaultFill);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Youtube fill={fill} height={`${height}rem`} />);
 });

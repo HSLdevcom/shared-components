@@ -31,6 +31,7 @@ import Youtube from './Youtube';
 import Bike from './Bike';
 import MobileTicket from './MobileTicket';
 import PhoneWithLogo from './PhoneWithLogo';
+import Star from './Star';
 
 
 export default {
@@ -39,32 +40,33 @@ export default {
   ArrowDown,
   ArrowLeft,
   ArrowRight,
+  Bike,
   CardOrder,
   CardWithCheckmark,
   Checkmark,
   CircleCheckmark,
-  Cross,
   Cog,
-  Edit,
-  Logo,
+  Cross,
   CustomerService,
+  Edit,
+  Facebook,
   HSLLogo,
   Info,
+  Instagram,
   JourneyPlanner,
   Latest,
-  More,
+  Linkedin,
+  Logo,
   Menu,
-  Search,
+  MobileTicket,
+  More,
+  PhoneWithLogo,
   PositionAlert,
+  Search,
   SignIn,
+  Star,
   Tickets,
   TravelCard,
-  Facebook,
-  Instagram,
-  Linkedin,
   Twitter,
   Youtube,
-  Bike,
-  MobileTicket,
-  PhoneWithLogo,
 };
