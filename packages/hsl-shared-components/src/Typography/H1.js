@@ -12,4 +12,6 @@ const H1 = styled(({ ...props }) => (
   font-size: ${size(48)};
 `;
 
+H1.displayName = 'H1';
+
 export default H1;

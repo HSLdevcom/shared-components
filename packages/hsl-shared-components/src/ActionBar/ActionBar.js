@@ -9,7 +9,12 @@ const ListItem = styled.li`
   flex: 1;
 `;
 
-const ActionBar = styled(({ items, inverted, ...rest }) =>
+const ActionBar = styled(({
+  items,
+  secondary,
+  inverted,
+  ...rest
+}) =>
   (
     <ul {...rest}>
       {items.map((item, index) => {
@@ -40,6 +45,7 @@ const ActionBar = styled(({ items, inverted, ...rest }) =>
           >
             <ActionBarItem
               inverted={inverted}
+              secondary={secondary}
               first={isFirst}
               last={isLast}
               {...item}
@@ -71,6 +77,7 @@ ActionBar.propTypes = {
     ])
   ),
   inverted: PropTypes.bool,
+  secondary: PropTypes.bool,
 };
 
 ActionBar.displayName = 'ActionBar';

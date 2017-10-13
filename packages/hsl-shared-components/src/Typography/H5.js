@@ -16,4 +16,6 @@ H5.propTypes = {
   children: PropTypes.string
 };
 
+H5.displayName = 'H5';
+
 export default H5;

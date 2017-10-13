@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components/primitives';
+import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import Button from './Button';
-import View from '../View';
 import { size as utilsSize } from '../utils';
 
 const sizeMap = {
@@ -21,27 +21,25 @@ function size(kind, small) {
   return small ? map.small : map.default;
 }
 
-const StyledView = styled(({ small, ...rest }) => (
-  <View {...rest} />
-))`
-  height: ${props => size('icon', props.small)};
-  width: ${props => size('icon', props.small)};
-`;
-
-const RoundButton = styled(({ children, small, ...rest }) => (
+const RoundButton = styled(({ children, small, theme, ...rest }) => (
   <Button
     secondary
     small={small}
-    noPadding
     {...rest}
   >
-    <StyledView small={small}>
-      {
-        children
-      }
-    </StyledView>
+    {
+      React.cloneElement(
+        children,
+        {
+          height: size('icon', small),
+          width: size('icon', small),
+          fill: children.props.fill ? children.props.fill : theme.colors.primary.hslBlue,
+        })
+    }
   </Button>
 ))`
+  padding-horizontal: 0px;
+  padding-vertical: 0px;
   height: ${props => size('button', props.small)};
   width: ${props => size('button', props.small)};
 `;
@@ -53,4 +51,4 @@ RoundButton.propTypes = {
 
 RoundButton.displayName = 'RoundButton';
 
-export default RoundButton;
+export default withTheme(RoundButton);

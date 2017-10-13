@@ -3,84 +3,96 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 import { withTheme } from 'styled-components';
 import Touchable from '../Touchable';
-import View from '../View';
 import { P } from '../Typography';
-import { IS_NATIVE, size } from '../utils';
+import { size } from '../utils';
 
-const getTextColor = (active, inverted, theme) => {
-  if (inverted && !active) {
-    return theme.colors.primary.hslWhite;
+const getTextColor = (props) => {
+  if (props.inverted && !props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (inverted && active) {
-    return theme.font.colors.highlight;
+  if (props.inverted && props.active) {
+    return props.theme.font.colors.highlight;
   }
-  if (active) {
-    return theme.colors.primary.hslWhite;
+  if (props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  return theme.font.colors.highlight;
+  return props.theme.font.colors.highlight;
 };
 
-const getIconColor = (active, inverted, theme, override) => {
+const getIconColor = (props, override) => {
   if (override) {
     return override;
   }
-  if (inverted && !active) {
-    return theme.colors.primary.hslWhite;
+  if (props.inverted && !props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (inverted && active) {
-    return theme.font.colors.highlight;
+  if (props.inverted && props.active) {
+    return props.theme.font.colors.highlight;
   }
-  if (active) {
-    return theme.colors.primary.hslWhite;
+  if (props.active) {
+    return props.theme.colors.primary.hslWhite;
   }
-  return theme.font.colors.highlight;
+  return props.theme.font.colors.highlight;
 };
 
-const getBorderColor = (active, inverted, theme) => {
-  if (inverted) {
-    return theme.colors.primary.hslWhite;
+const getBorderColor = (props) => {
+  if (props.inverted) {
+    return props.theme.colors.primary.hslWhite;
   }
-  if (active) {
-    return theme.colors.primary.hslBlue;
+  if (props.active) {
+    return props.theme.colors.primary.hslBlue;
   }
-  return theme.colors.primary.hslGreyLight;
+  return props.theme.colors.primary.hslGreyLight;
 };
 
-const getBackgroundColor = (active, inverted, theme) => {
-  if (inverted && !active) {
-    return theme.colors.primary.hslBlue;
+const getBackgroundColor = (props) => {
+  if (props.inverted && props.active) {
+    return props.theme.colors.background.hslWhite;
   }
-  if (inverted && active) {
-    return theme.colors.background.hslWhite;
+  if (props.inverted && props.pressed) {
+    return props.theme.colors.primary.hslBlueDark;
   }
-  if (active) {
-    return theme.colors.primary.hslBlue;
+  if (props.inverted) {
+    return props.theme.colors.primary.hslBlue;
   }
-  return theme.colors.background.hslWhite;
+  if (props.active) {
+    return props.theme.colors.primary.hslBlue;
+  }
+  if (props.pressed && props.secondary) {
+    return props.theme.colors.background.hslGreyXLight;
+  }
+  if (props.secondary) {
+    return props.theme.colors.background.hslGreyLight;
+  }
+  if (props.pressed) {
+    return props.theme.colors.background.hslGreyLight;
+  }
+  return props.theme.colors.background.hslWhite;
 };
 
-const Container = styled(({
+const TouchableView = styled(({
   inverted,
   active,
+  secondary,
   first,
   last,
   ...rest,
 }) =>
-  <View {...rest} />
+  <Touchable {...rest} />
 )`
-  ${!IS_NATIVE && `
-    cursor: pointer;
-  `}
   flex: 1;
+  flex-direction: column;
   justify-content: center;
   margin-top: -1px;
   margin-right: -1px;
-  padding-horizontal: ${size(10)};
-  padding-vertical: ${size(20)};
+  padding-top: ${size(20)};
+  padding-right: ${size(10)};
+  padding-bottom: ${size(20)};
+  padding-left: ${size(10)};
   border-style: solid;
   border-width: 1px;
-  border-color: ${props => getBorderColor(props.active, props.inverted, props.theme)};
-  background-color: ${props => getBackgroundColor(props.active, props.inverted, props.theme)};
+  border-color: ${props => getBorderColor(props)};
+  background-color: ${props => getBackgroundColor(props)};
   ${props => props.first && `
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -100,7 +112,7 @@ const Icon = withTheme(({
   React.cloneElement(icon, {
     width: size(40),
     height: size(40),
-    fill: getIconColor(active, inverted, theme, icon.props.fill),
+    fill: getIconColor({ active, inverted, theme }, icon.props.fill),
   })
 );
 
@@ -112,30 +124,38 @@ const Title = styled(({
   <P {...rest} />
 )`
   flex-grow: 2;
-  ${props => !!props.icon && `
-    margin-top: ${size(20)}
+  ${props => props.icon && `
+    margin-top: ${size(20)};
   `}
   font-size: ${size(15)};
-  color: ${props => getTextColor(props.inverted, props.active, props.theme)};
+  color: ${props => getTextColor(props)};
   text-align: center;
 `;
 
-const ActionBarItemCore = ({
+const ActionBarItem = styled(withTheme(({
   icon,
   title,
-  accessibilityRole,
-  href,
-  inverted,
   active,
+  secondary,
+  inverted,
+  onClick,
+  onPress,
+  onLongPress,
+  theme,
   ...rest,
 }) =>
   (
-    <Container
-      href={href}
+    <TouchableView
       inverted={inverted}
       active={active}
+      secondary={secondary}
+      onClick={onClick}
+      onPress={onPress}
+      onLongPress={onLongPress}
+      pressedStyle={{
+        backgroundColor: getBackgroundColor({ active, secondary, inverted, pressed: true, theme }),
+      }}
       {...rest}
-      accessibilityRole={accessibilityRole || 'button'}
     >
       {!!icon &&
         <Icon
@@ -153,44 +173,20 @@ const ActionBarItemCore = ({
           {title}
         </Title>
       }
-    </Container>
-  );
-
-const ActionBarItem = styled(({
-   onPress,
-   onLongPress,
-   ...rest,
- }) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <ActionBarItemCore {...rest} />
-      </Touchable>
-    );
-  }
-
-  return <ActionBarItemCore {...rest} />;
-})``;
-
-ActionBarItemCore.propTypes = {
-  icon: PropTypes.element,
-  title: PropTypes.string,
-  accessibilityRole: PropTypes.oneOf(['button', 'link']),
-  href: PropTypes.string,
-  active: PropTypes.bool,
-  inverted: PropTypes.bool,
-  first: PropTypes.bool,
-  last: PropTypes.bool,
-};
+    </TouchableView>
+  )))``;
 
 ActionBarItem.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  ...ActionBarItemCore.propTypes,
+  onClick: PropTypes.func,
+  icon: PropTypes.element,
+  title: PropTypes.string,
+  active: PropTypes.bool,
+  secondary: PropTypes.bool,
+  inverted: PropTypes.bool,
+  first: PropTypes.bool,
+  last: PropTypes.bool,
 };
 
 ActionBarItem.displayName = 'ActionBarItem';

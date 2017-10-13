@@ -104,33 +104,36 @@ const Checkbox = styled(({
   error,
   inverted,
   disabled,
+  onClick,
   onPress,
+  onLongPress,
   title,
   ...rest }) => (
-    <Touchable onPress={onPress}>
-      <View
-        {...rest}
-        role="checkbox"
-        aria-checked={checked ? 'true' : 'false'}
-        tabIndex="0"
+    <Touchable
+      onClick={onClick}
+      onPress={onPress}
+      onLongPress={onLongPress}
+      disabled={disabled}
+      {...rest}
+      accessibilityRole="checkbox"
+      aria-checked={checked ? 'true' : 'false'}
+    >
+      <Box
+        checked={checked}
+        disabled={disabled}
+        error={error}
+        inverted={inverted}
       >
-        <Box
-          checked={checked}
+        { checked && <Checkmark disabled={disabled} error={error} inverted={inverted} />}
+      </Box>
+      { title &&
+        <StyledLabelText
           disabled={disabled}
-          error={error}
           inverted={inverted}
         >
-          { checked && <Checkmark disabled={disabled} error={error} inverted={inverted} />}
-        </Box>
-        { title &&
-          <StyledLabelText
-            disabled={disabled}
-            inverted={inverted}
-          >
-            {title}
-          </StyledLabelText>
-        }
-      </View>
+          {title}
+        </StyledLabelText>
+      }
     </Touchable>
 ))`
   flex-direction: row;
