@@ -31,9 +31,14 @@ import Linkedin from './Linkedin';
 import Twitter from './Twitter';
 import Youtube from './Youtube';
 import Bike from './Bike';
+import BikeRectangle from './BikeRectangle';
+import BikeCircle from './BikeCircle';
 import Bus from './Bus';
 import BusRectangle from './BusRectangle';
 import BusCircle from './BusCircle';
+import Ferry from './Ferry';
+import FerryRectangle from './FerryRectangle';
+import FerryCircle from './FerryCircle';
 import MobileTicket from './MobileTicket';
 import PhoneWithLogo from './PhoneWithLogo';
 import Star from './Star';
@@ -46,6 +51,8 @@ export default {
   ArrowLeft,
   ArrowRight,
   Bike,
+  BikeRectangle,
+  BikeCircle,
   Bus,
   BusCircle,
   BusRectangle,
@@ -58,6 +65,9 @@ export default {
   Cross,
   CustomerService,
   Edit,
+  Ferry,
+  FerryCircle,
+  FerryRectangle,
   Facebook,
   HSLLogo,
   Info,

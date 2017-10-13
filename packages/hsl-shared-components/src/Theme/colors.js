@@ -15,7 +15,10 @@ const colors = {
     hslMagentaDark: '#fff6f6',
     hslPurple: '#8c4799',
     hslYellow: '#fed100',
+    hslYellowDark: '#967B00',
     hslPink: '#f092cd',
+    hslCyan: '#00B9E4',
+    hslCyanDark: '#008BAB',
   },
   background: {
     hslWhite: '#ffffff',

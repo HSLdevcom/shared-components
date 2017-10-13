@@ -96,6 +96,30 @@ stories.addWithJSX('Bike', () => {
   return (<Icons.Bike fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('BikeCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.BikeCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('BikeRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.BikeRectangle height={`${height}rem`} />);
+});
+
 stories.addWithJSX('Bus', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -273,6 +297,43 @@ stories.addWithJSX('Facebook', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Facebook fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Ferry', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Ferry fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('FerryCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.FerryCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('FerryRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.FerryRectangle height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Info', () => {
