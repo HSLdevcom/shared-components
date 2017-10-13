@@ -11,9 +11,9 @@ import CircleCheckmark from './CircleCheckmark';
 import Cross from './Cross';
 import Cog from './Cog';
 import Edit from './Edit';
-import Logo from './Logo';
 import CustomerService from './CustomerService';
 import HSLLogo from './HSLLogo';
+import HSLLogoNoText from './HSLLogoNoText';
 import Info from './Info';
 import JourneyPlanner from './JourneyPlanner';
 import Latest from './Latest';
@@ -39,10 +39,21 @@ import BusCircle from './BusCircle';
 import Ferry from './Ferry';
 import FerryRectangle from './FerryRectangle';
 import FerryCircle from './FerryCircle';
+import Rail from './Rail';
+import RailRectangle from './RailRectangle';
+import RailCircle from './RailCircle';
+import Subway from './Subway';
+import SubwayRectangle from './SubwayRectangle';
+import SubwayCircle from './SubwayCircle';
+import Tram from './Tram';
+import TramRectangle from './TramRectangle';
+import TramCircle from './TramCircle';
 import MobileTicket from './MobileTicket';
 import PhoneWithLogo from './PhoneWithLogo';
 import Star from './Star';
-
+import Briefcase from './Briefcase';
+import Chat from './Chat';
+import Envelope from './Envelope';
 
 export default {
   AddCard,
@@ -56,36 +67,48 @@ export default {
   Bus,
   BusCircle,
   BusRectangle,
+  Briefcase,
   Calendar,
   CardOrder,
   CardWithCheckmark,
+  Chat,
   Checkmark,
   CircleCheckmark,
   Cog,
   Cross,
   CustomerService,
   Edit,
+  Envelope,
   Ferry,
   FerryCircle,
   FerryRectangle,
   Facebook,
   HSLLogo,
+  HSLLogoNoText,
   Info,
   Instagram,
   JourneyPlanner,
   Latest,
   Linkedin,
-  Logo,
   Menu,
   MobileTicket,
   More,
   PhoneWithLogo,
   PositionAlert,
+  Rail,
+  RailCircle,
+  RailRectangle,
   Search,
   SignIn,
   Star,
+  Subway,
+  SubwayCircle,
+  SubwayRectangle,
   Tickets,
   TicketsDay,
+  Tram,
+  TramCircle,
+  TramRectangle,
   TravelCard,
   Twitter,
   Youtube,

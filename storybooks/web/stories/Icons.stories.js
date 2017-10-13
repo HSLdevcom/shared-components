@@ -157,6 +157,19 @@ stories.addWithJSX('BusRectangle', () => {
   return (<Icons.BusRectangle height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Briefcase', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Briefcase fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('Calendar', () => {
   const fill = {
     inner: color('FillInner', defaultFillWhite),
@@ -205,8 +218,21 @@ stories.addWithJSX('CardWithCheckmark', () => {
   return (<Icons.CardWithCheckmark fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Chat', () => {
+  const fill = color('Fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Chat fill={fill} height={`${height}em`} />);
+});
+
 stories.addWithJSX('Checkmark', () => {
-  const fill = color('FillOuter', defaultFillGreen);
+  const fill = color('Fill', defaultFillGreyDark);
   const defaultValue = 10;
   const options = {
     range: true,
@@ -286,6 +312,19 @@ stories.addWithJSX('Edit', () => {
   return (<Icons.Edit fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Envelope', () => {
+  const fill = color('Fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Envelope fill={fill} height={`${height}em`} />);
+});
+
 stories.addWithJSX('Facebook', () => {
   const fill = color('fill', defaultFill);
   const defaultValue = 10;
@@ -336,6 +375,32 @@ stories.addWithJSX('FerryRectangle', () => {
   return (<Icons.FerryRectangle height={`${height}rem`} />);
 });
 
+stories.addWithJSX('HSLLogo', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.HSLLogo fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('HSLLogoNoText', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.HSLLogoNoText fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('Info', () => {
   const fill = color('Fill', defaultFill);
   const defaultValue = 10;
@@ -374,6 +439,7 @@ stories.addWithJSX('JourneyPlanner', () => {
   const height = number('Height', defaultValue, options);
   return (<Icons.JourneyPlanner fill={fill} height={`${height}rem`} />);
 });
+
 stories.addWithJSX('Latest', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -398,32 +464,6 @@ stories.addWithJSX('Linkedin', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Linkedin fill={fill} height={`${height}rem`} />);
-});
-
-stories.addWithJSX('HSLLogo', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.HSLLogo fill={fill} height={`${height}rem`} />);
-});
-
-stories.addWithJSX('Logo', () => {
-  const fill = color('fill', defaultFillGreyDark);
-  const defaultValue = 10;
-  const options = {
-    range: true,
-    min: 0.1,
-    max: 20,
-    step: 0.1,
-  };
-  const height = number('Height', defaultValue, options);
-  return (<Icons.Logo fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Menu', () => {
@@ -490,6 +530,43 @@ stories.addWithJSX('PositionAlert', () => {
   return (<Icons.PositionAlert height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Rail', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Rail fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('RailCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.RailCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('RailRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.RailRectangle height={`${height}rem`} />);
+});
+
 stories.addWithJSX('Search', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -528,6 +605,43 @@ stories.addWithJSX('Star', () => {
   return (<Icons.Star height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Subway', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Subway fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('SubwayCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.SubwayCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('SubwayRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.SubwayRectangle height={`${height}rem`} />);
+});
+
 stories.addWithJSX('Tickets', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -555,6 +669,43 @@ stories.addWithJSX('TicketsDay', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.TicketsDay fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('Tram', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Tram fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('TramCircle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.TramCircle height={`${height}rem`} />);
+});
+
+stories.addWithJSX('TramRectangle', () => {
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.TramRectangle height={`${height}rem`} />);
 });
 
 stories.addWithJSX('TravelCard', () => {
