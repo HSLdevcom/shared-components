@@ -186,6 +186,19 @@ stories.addWithJSX('Calendar', () => {
   return (<Icons.Calendar fill={fill} height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Card', () => {
+  const fill = color('fill', defaultFillGreyDark);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Card fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('CardOrder', () => {
   const fill = {
     inner: color('FillInner', defaultFillGrey),
@@ -375,6 +388,22 @@ stories.addWithJSX('FerryRectangle', () => {
   return (<Icons.FerryRectangle height={`${height}rem`} />);
 });
 
+stories.addWithJSX('Fines', () => {
+  const fill = {
+    inner: color('FillInner', defaultFillWhite),
+    outer: color('FillOuter', defaultFill)
+  };
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.Fines fill={fill} height={`${height}rem`} />);
+});
+
 stories.addWithJSX('HSLLogo', () => {
   const fill = color('fill', defaultFillGreyDark);
   const defaultValue = 10;
@@ -464,6 +493,19 @@ stories.addWithJSX('Linkedin', () => {
   };
   const height = number('Height', defaultValue, options);
   return (<Icons.Linkedin fill={fill} height={`${height}rem`} />);
+});
+
+stories.addWithJSX('LostProperty', () => {
+  const fill = color('fill', defaultFill);
+  const defaultValue = 10;
+  const options = {
+    range: true,
+    min: 0.1,
+    max: 20,
+    step: 0.1,
+  };
+  const height = number('Height', defaultValue, options);
+  return (<Icons.LostProperty fill={fill} height={`${height}rem`} />);
 });
 
 stories.addWithJSX('Menu', () => {

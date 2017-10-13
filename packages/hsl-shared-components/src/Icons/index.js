@@ -54,6 +54,9 @@ import Star from './Star';
 import Briefcase from './Briefcase';
 import Chat from './Chat';
 import Envelope from './Envelope';
+import Fines from './Fines';
+import LostProperty from './LostProperty';
+import Card from './Card';
 
 export default {
   AddCard,
@@ -69,6 +72,7 @@ export default {
   BusRectangle,
   Briefcase,
   Calendar,
+  Card,
   CardOrder,
   CardWithCheckmark,
   Chat,
@@ -79,10 +83,11 @@ export default {
   CustomerService,
   Edit,
   Envelope,
+  Facebook,
   Ferry,
   FerryCircle,
   FerryRectangle,
-  Facebook,
+  Fines,
   HSLLogo,
   HSLLogoNoText,
   Info,
@@ -90,6 +95,7 @@ export default {
   JourneyPlanner,
   Latest,
   Linkedin,
+  LostProperty,
   Menu,
   MobileTicket,
   More,
