@@ -69,10 +69,11 @@ class Dropdown extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      anim: new Animated.Value(0),
+      dropdownAnimation: new Animated.Value(0),
+      arrowAnimation: new Animated.Value(0),
       itemDimensions: { x: 0, y: 0, height: 0, width: 0 }
     };
-    this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.toggle = this.toggle.bind(this);
     this.onLayout = this.onLayout.bind(this);
     this.selectedOnLayout = this.selectedOnLayout.bind(this);
     this.dropdownHeight = 0;
@@ -89,17 +90,25 @@ class Dropdown extends React.Component {
     });
   }
 
-  toggleDropdown() {
+  toggle() {
     if (!this.open) {
       Animated.timing(
-        this.state.anim,
+        this.state.arrowAnimation,
+        { toValue: 180, duration: 150 }
+      ).start();
+      Animated.timing(
+        this.state.dropdownAnimation,
         { toValue: this.dropdownHeight, duration: 150 }
       ).start(() => {
         this.open = true;
       });
     } else {
       Animated.timing(
-        this.state.anim,
+        this.state.arrowAnimation,
+        { toValue: 0, duration: 150 }
+      ).start();
+      Animated.timing(
+        this.state.dropdownAnimation,
         { toValue: 0, duration: 250 }
       ).start(() => {
         this.open = false;
@@ -111,27 +120,38 @@ class Dropdown extends React.Component {
     return (
       <StyledView
         {...omit(this.props, ['items', 'onChange', 'theme', 'value'])}
-        onClick={this.toggleDropdown}
+        onClick={this.toggle}
       >
         <DropdownElement>
           <DropdownItem
             onLayout={this.selectedOnLayout}
-            onPress={this.toggleDropdown}
+            onPress={this.toggle}
           >
             <Value
               items={this.props.items}
               value={this.props.value}
               noValue={this.props.noValue}
             />
-            <Icons.ArrowDown
-              height={size(12)}
-              width={size(12)}
-              fill={this.props.theme.colors.primary.hslBlue}
-            />
+            <AView
+              style={{
+                transform: [{
+                  rotate: this.state.arrowAnimation.interpolate({
+                    inputRange: [0, 180],
+                    outputRange: ['0deg', '180deg']
+                  })
+                }],
+              }}
+            >
+              <Icons.ArrowDown
+                height={size(12)}
+                width={size(12)}
+                fill={this.props.theme.colors.primary.hslBlue}
+              />
+            </AView>
           </DropdownItem>
         </DropdownElement>
         <ScrollWrap
-          style={{ maxHeight: this.state.anim }}
+          style={{ maxHeight: this.state.dropdownAnimation }}
           x={this.state.itemDimensions.x}
           y={this.state.itemDimensions.y}
           height={this.state.itemDimensions.height}
@@ -146,7 +166,7 @@ class Dropdown extends React.Component {
                   <DropdownItem
                     onPress={() => {
                       this.props.onChange(item.value);
-                      this.toggleDropdown();
+                      this.toggle();
                     }}
                   >
                     <LabelText>{item.value}</LabelText>
