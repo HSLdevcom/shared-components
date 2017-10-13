@@ -56,7 +56,6 @@ import Chat from './Chat';
 import Envelope from './Envelope';
 import Fines from './Fines';
 import LostProperty from './LostProperty';
-import Card from './Card';
 
 export default {
   AddCard,
@@ -72,7 +71,6 @@ export default {
   BusRectangle,
   Briefcase,
   Calendar,
-  Card,
   CardOrder,
   CardWithCheckmark,
   Chat,
