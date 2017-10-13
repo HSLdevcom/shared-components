@@ -21,13 +21,23 @@ storiesOf('ActionBar', module)
       {
         title: 'Lippuja ja hintoja',
         icon: <Icons.Tickets />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         title: 'Reittejä, aikatauluja tai matkustamista',
         icon: <Icons.JourneyPlanner />,
         active: true,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
-      <ActionBarItem key="foo" title="Löytötavaroita" icon={<Icons.Info />} />
+      <ActionBarItem
+        key="foo"
+        title="Löytötavaroita"
+        icon={<Icons.Info />}
+        onPress={action('press')}
+        onLongPress={action('long press')}
+      />
     ];
     return (
       <ActionBar
@@ -41,19 +51,29 @@ storiesOf('ActionBar', module)
     const items = [
       {
         icon: <Icons.Tickets fill="#7d7d7d" />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         icon: <Icons.JourneyPlanner fill="#ff5818" />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         icon: <Icons.Info fill="#ff5818" />,
         active: true,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         icon: <Icons.MobileTicket fill="#82408f" />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         icon: <Icons.CustomerService />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       }
     ];
     return (
@@ -63,18 +83,63 @@ storiesOf('ActionBar', module)
       />
     );
   })
+  .add('Secondary', () => {
+    const inverted = boolean('Inverted', false);
+    const secondary = boolean('Secondary', true);
+    const items = [
+      {
+        icon: <Icons.Tickets />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.JourneyPlanner />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.Info />,
+        active: true,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.MobileTicket />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      },
+      {
+        icon: <Icons.CustomerService />,
+        onPress: action('press'),
+        onLongPress: action('long press'),
+      }
+    ];
+    return (
+      <ActionBar
+        items={items}
+        inverted={inverted}
+        secondary={secondary}
+      />
+    );
+  })
   .add('Inverted theme and no icons', () => {
     const inverted = boolean('Inverted', true);
     const items = [
       {
         title: 'Lievä',
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         title: 'Haittaava',
         active: true,
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
       {
         title: 'Vaarallinen',
+        onPress: action('press'),
+        onLongPress: action('long press'),
       },
     ];
     return (

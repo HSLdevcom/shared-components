@@ -13,4 +13,6 @@ const Ingress = styled(({ ...props }) => (
   font-family: ${props => props.theme.font.familyNarrow};
 `;
 
+Ingress.displayName = 'Ingress';
+
 export default Ingress;

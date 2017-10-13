@@ -12,14 +12,23 @@ exports[`Storyshots Checkbox Default 1`] = `
   }
 >
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityRole="checkbox"
+    accessibilityTraits={undefined}
+    accessible={true}
     aria-checked="false"
+    disabled={false}
+    hitSlop={undefined}
+    onClick={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    role="checkbox"
+    pressed={undefined}
     style={
       Array [
         Object {
@@ -37,7 +46,7 @@ exports[`Storyshots Checkbox Default 1`] = `
         ],
       ]
     }
-    tabIndex="0"
+    testID={undefined}
   >
     <View
       checked={false}

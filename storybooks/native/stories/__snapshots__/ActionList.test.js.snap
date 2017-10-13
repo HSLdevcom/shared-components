@@ -47,7 +47,10 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
           },
           Array [
             Object {},
-            undefined,
+            Array [
+              Object {},
+              undefined,
+            ],
           ],
         ]
       }
@@ -120,15 +123,21 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
           }
         >
           <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
             accessibilityRole="button"
+            accessibilityTraits={undefined}
+            accessible={true}
             disabled={undefined}
-            onClick={[Function]}
+            hitSlop={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
@@ -136,19 +145,19 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
                   "justifyContent": "center",
                 },
                 Array [
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#007ac9",
-                    "borderColor": "#007ac9",
-                    "borderRadius": 35,
-                    "borderStyle": "solid",
-                    "borderWidth": 1,
-                    "flexDirection": "row",
-                    "height": 43.75,
-                    "paddingHorizontal": 21.875,
-                  },
+                  Object {},
                   Array [
-                    Object {},
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#007ac9",
+                      "borderColor": "#007ac9",
+                      "borderRadius": 35,
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "height": 43.75,
+                      "paddingHorizontal": 21.875,
+                    },
                     Array [
                       Object {},
                       undefined,
@@ -157,13 +166,13 @@ exports[`Storyshots ActionList ActionListItemTeaser 1`] = `
                 ],
               ]
             }
+            testID={undefined}
           >
             <Text
               accessible={true}
               allowFontScaling={true}
               ellipsizeMode="tail"
               icon={false}
-              iconAfterText={undefined}
               style={
                 Array [
                   Object {
@@ -229,35 +238,51 @@ exports[`Storyshots ActionList ActionListItemText 1`] = `
     }
   >
     <View
-      accessibilityRole="button"
-      href={undefined}
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onClick={undefined}
+      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pressed={undefined}
       style={
         Array [
           Object {
             "alignItems": "center",
-            "borderColor": "transparent",
-            "borderStyle": "solid",
-            "borderWidth": 1,
             "justifyContent": "center",
-            "paddingHorizontal": 15.75,
-            "paddingVertical": 15.75,
-            "width": "100%",
           },
           Array [
             Object {},
             Array [
-              Object {},
-              undefined,
+              Object {
+                "borderColor": "transparent",
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "paddingBottom": 15.75,
+                "paddingLeft": 15.75,
+                "paddingRight": 15.75,
+                "paddingTop": 15.75,
+                "width": "100%",
+              },
+              Array [
+                Object {},
+                Array [
+                  Object {},
+                  undefined,
+                ],
+              ],
             ],
           ],
         ]
       }
+      testID={undefined}
     >
       <View
         style={
@@ -543,35 +568,53 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderTopLeftRadius": 4,
+                      "borderTopRightRadius": 4,
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -642,7 +685,7 @@ exports[`Storyshots ActionList default 1`] = `
                     ]
                   }
                 >
-                  Yleistä kertalipusta (active)
+                  Yleistä kertalipusta
                 </Text>
               </View>
               <Svg
@@ -706,35 +749,51 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -888,35 +947,51 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -1097,35 +1172,51 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -1309,7 +1400,10 @@ exports[`Storyshots ActionList default 1`] = `
                 },
                 Array [
                   Object {},
-                  undefined,
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
                 ],
               ]
             }
@@ -1382,15 +1476,21 @@ exports[`Storyshots ActionList default 1`] = `
                 }
               >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
                   accessibilityRole="button"
+                  accessibilityTraits={undefined}
+                  accessible={true}
                   disabled={undefined}
-                  onClick={undefined}
+                  hitSlop={undefined}
+                  onLayout={undefined}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
                   onResponderRelease={[Function]}
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pressed={undefined}
                   style={
                     Array [
                       Object {
@@ -1398,19 +1498,19 @@ exports[`Storyshots ActionList default 1`] = `
                         "justifyContent": "center",
                       },
                       Array [
-                        Object {
-                          "alignItems": "center",
-                          "backgroundColor": "#007ac9",
-                          "borderColor": "#007ac9",
-                          "borderRadius": 35,
-                          "borderStyle": "solid",
-                          "borderWidth": 1,
-                          "flexDirection": "row",
-                          "height": 43.75,
-                          "paddingHorizontal": 21.875,
-                        },
+                        Object {},
                         Array [
-                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#007ac9",
+                            "borderColor": "#007ac9",
+                            "borderRadius": 35,
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                            "flexDirection": "row",
+                            "height": 43.75,
+                            "paddingHorizontal": 21.875,
+                          },
                           Array [
                             Object {},
                             undefined,
@@ -1419,13 +1519,13 @@ exports[`Storyshots ActionList default 1`] = `
                       ],
                     ]
                   }
+                  testID={undefined}
                 >
                   <Text
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
                     icon={false}
-                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -1477,35 +1577,51 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -1704,35 +1820,53 @@ exports[`Storyshots ActionList default 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderBottomLeftRadius": 4,
+                      "borderBottomRightRadius": 4,
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -1908,7 +2042,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
               Array [
                 Object {
                   "alignItems": "flex-start",
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#007ac9",
                   "borderBottomWidth": 1,
                   "borderColor": "#ffffff",
                   "borderLeftWidth": 1,
@@ -1929,35 +2063,53 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderTopLeftRadius": 4,
+                      "borderTopRightRadius": 4,
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -2017,7 +2169,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
                         },
                         Array [
                           Object {
-                            "color": "#007ac9",
+                            "color": "#ffffff",
                             "flexWrap": "wrap",
                           },
                           undefined,
@@ -2026,7 +2178,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
                     ]
                   }
                 >
-                  Yleistä kertalipusta (active)
+                  Yleistä kertalipusta
                 </Text>
               </View>
             </View>
@@ -2062,7 +2214,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
               Array [
                 Object {
                   "alignItems": "flex-start",
-                  "backgroundColor": "#007ac9",
+                  "backgroundColor": "#ffffff",
                   "borderBottomWidth": 1,
                   "borderColor": "#ffffff",
                   "borderLeftWidth": 1,
@@ -2080,35 +2232,51 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -2137,7 +2305,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
                 width={30}
               >
                 <G
-                  fill="#ffffff"
+                  fill="#007ac9"
                   translateX="-12"
                   translateY="-5"
                 >
@@ -2186,7 +2354,7 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
                         },
                         Array [
                           Object {
-                            "color": "#ffffff",
+                            "color": "#007ac9",
                             "flexWrap": "wrap",
                           },
                           undefined,
@@ -2249,35 +2417,51 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -2446,35 +2630,51 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -2635,35 +2835,51 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -2856,35 +3072,53 @@ exports[`Storyshots ActionList inverted and centered 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderBottomLeftRadius": 4,
+                      "borderBottomRightRadius": 4,
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -3074,7 +3308,10 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                 },
                 Array [
                   Object {},
-                  undefined,
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
                 ],
               ]
             }
@@ -3153,15 +3390,21 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                 }
               >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
                   accessibilityRole="button"
+                  accessibilityTraits={undefined}
+                  accessible={true}
                   disabled={undefined}
-                  onClick={undefined}
+                  hitSlop={undefined}
+                  onLayout={undefined}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
                   onResponderRelease={[Function]}
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pressed={undefined}
                   style={
                     Array [
                       Object {
@@ -3169,19 +3412,19 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                         "justifyContent": "center",
                       },
                       Array [
-                        Object {
-                          "alignItems": "center",
-                          "backgroundColor": "#007ac9",
-                          "borderColor": "#007ac9",
-                          "borderRadius": 35,
-                          "borderStyle": "solid",
-                          "borderWidth": 1,
-                          "flexDirection": "row",
-                          "height": 43.75,
-                          "paddingHorizontal": 21.875,
-                        },
+                        Object {},
                         Array [
-                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#007ac9",
+                            "borderColor": "#007ac9",
+                            "borderRadius": 35,
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                            "flexDirection": "row",
+                            "height": 43.75,
+                            "paddingHorizontal": 21.875,
+                          },
                           Array [
                             Object {},
                             undefined,
@@ -3190,13 +3433,13 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                       ],
                     ]
                   }
+                  testID={undefined}
                 >
                   <Text
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
                     icon={false}
-                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -3263,7 +3506,10 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                 },
                 Array [
                   Object {},
-                  undefined,
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
                 ],
               ]
             }
@@ -3336,15 +3582,21 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                 }
               >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
                   accessibilityRole="button"
+                  accessibilityTraits={undefined}
+                  accessible={true}
                   disabled={undefined}
-                  onClick={undefined}
+                  hitSlop={undefined}
+                  onLayout={undefined}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
                   onResponderRelease={[Function]}
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pressed={undefined}
                   style={
                     Array [
                       Object {
@@ -3352,19 +3604,19 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                         "justifyContent": "center",
                       },
                       Array [
-                        Object {
-                          "alignItems": "center",
-                          "backgroundColor": "#007ac9",
-                          "borderColor": "#007ac9",
-                          "borderRadius": 35,
-                          "borderStyle": "solid",
-                          "borderWidth": 1,
-                          "flexDirection": "row",
-                          "height": 43.75,
-                          "paddingHorizontal": 21.875,
-                        },
+                        Object {},
                         Array [
-                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#007ac9",
+                            "borderColor": "#007ac9",
+                            "borderRadius": 35,
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                            "flexDirection": "row",
+                            "height": 43.75,
+                            "paddingHorizontal": 21.875,
+                          },
                           Array [
                             Object {},
                             undefined,
@@ -3373,13 +3625,13 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                       ],
                     ]
                   }
+                  testID={undefined}
                 >
                   <Text
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
                     icon={false}
-                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -3446,7 +3698,10 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
                 },
                 Array [
                   Object {},
-                  undefined,
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
                 ],
               ]
             }
@@ -3579,35 +3834,53 @@ exports[`Storyshots ActionList teasers and secondary 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderBottomLeftRadius": 4,
+                      "borderBottomRightRadius": 4,
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -3801,35 +4074,53 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderTopLeftRadius": 4,
+                      "borderTopRightRadius": 4,
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -3900,7 +4191,7 @@ exports[`Storyshots ActionList with borders 1`] = `
                     ]
                   }
                 >
-                  Yleistä kertalipusta (active)
+                  Yleistä kertalipusta
                 </Text>
               </View>
               <Svg
@@ -3967,35 +4258,51 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -4151,35 +4458,51 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -4363,35 +4686,51 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -4578,7 +4917,10 @@ exports[`Storyshots ActionList with borders 1`] = `
                 },
                 Array [
                   Object {},
-                  undefined,
+                  Array [
+                    Object {},
+                    undefined,
+                  ],
                 ],
               ]
             }
@@ -4651,15 +4993,21 @@ exports[`Storyshots ActionList with borders 1`] = `
                 }
               >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
                   accessibilityRole="button"
+                  accessibilityTraits={undefined}
+                  accessible={true}
                   disabled={undefined}
-                  onClick={undefined}
+                  hitSlop={undefined}
+                  onLayout={undefined}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
                   onResponderRelease={[Function]}
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pressed={undefined}
                   style={
                     Array [
                       Object {
@@ -4667,19 +5015,19 @@ exports[`Storyshots ActionList with borders 1`] = `
                         "justifyContent": "center",
                       },
                       Array [
-                        Object {
-                          "alignItems": "center",
-                          "backgroundColor": "#007ac9",
-                          "borderColor": "#007ac9",
-                          "borderRadius": 35,
-                          "borderStyle": "solid",
-                          "borderWidth": 1,
-                          "flexDirection": "row",
-                          "height": 43.75,
-                          "paddingHorizontal": 21.875,
-                        },
+                        Object {},
                         Array [
-                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#007ac9",
+                            "borderColor": "#007ac9",
+                            "borderRadius": 35,
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                            "flexDirection": "row",
+                            "height": 43.75,
+                            "paddingHorizontal": 21.875,
+                          },
                           Array [
                             Object {},
                             undefined,
@@ -4688,13 +5036,13 @@ exports[`Storyshots ActionList with borders 1`] = `
                       ],
                     ]
                   }
+                  testID={undefined}
                 >
                   <Text
                     accessible={true}
                     allowFontScaling={true}
                     ellipsizeMode="tail"
                     icon={false}
-                    iconAfterText={undefined}
                     style={
                       Array [
                         Object {
@@ -4749,35 +5097,51 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={
@@ -4982,35 +5346,53 @@ exports[`Storyshots ActionList with borders 1`] = `
           }
         >
           <View
-            accessibilityRole="button"
-            href={undefined}
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onClick={undefined}
+            onLayout={undefined}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pressed={undefined}
             style={
               Array [
                 Object {
                   "alignItems": "center",
-                  "borderColor": "transparent",
-                  "borderStyle": "solid",
-                  "borderWidth": 1,
                   "justifyContent": "center",
-                  "paddingHorizontal": 15.75,
-                  "paddingVertical": 15.75,
-                  "width": "100%",
                 },
                 Array [
                   Object {},
                   Array [
-                    Object {},
-                    undefined,
+                    Object {
+                      "borderBottomLeftRadius": 4,
+                      "borderBottomRightRadius": 4,
+                      "borderColor": "transparent",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "paddingBottom": 15.75,
+                      "paddingLeft": 15.75,
+                      "paddingRight": 15.75,
+                      "paddingTop": 15.75,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {},
+                      Array [
+                        Object {},
+                        undefined,
+                      ],
+                    ],
                   ],
                 ],
               ]
             }
+            testID={undefined}
           >
             <View
               style={

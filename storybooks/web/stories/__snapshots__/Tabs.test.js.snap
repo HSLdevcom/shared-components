@@ -2,103 +2,94 @@
 
 exports[`Storyshots Tabs default 1`] = `
 <div
-  className="sc-kfGgVZ lkujdM"
+  className="sc-hwwEjo bVuzjY"
 >
   <div
-    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
+    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
   >
     <div
       className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#e4e4e4",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              FIRST
-            </div>
+            UUTISET
           </div>
         </div>
       </div>
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#ffffff",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-hdaws3 rn-justifyContent-1777fci rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-top-ipm5af rn-width-13qz1uu"
+        />
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              SECOND
-            </div>
+            LÄHELLÄSI
           </div>
         </div>
       </div>
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        aria-disabled={true}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={true}
+        onClick={undefined}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#eef1f3",
+          }
+        }
+        role="button"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-13g6o7s rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              THIRD
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
-      >
-        <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
-        >
-          <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
-          >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-13g6o7s rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              DISABLED
-            </div>
+            SUOSIKIT
           </div>
         </div>
       </div>
@@ -106,7 +97,11 @@ exports[`Storyshots Tabs default 1`] = `
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
-      Content of the second tab
+      <div
+        className="sc-kPVwWT dNXRSX"
+      >
+        Content of the second tab
+      </div>
     </div>
   </div>
 </div>
@@ -114,34 +109,41 @@ exports[`Storyshots Tabs default 1`] = `
 
 exports[`Storyshots Tabs one item 1`] = `
 <div
-  className="sc-kfGgVZ lkujdM"
+  className="sc-hwwEjo bVuzjY"
 >
   <div
-    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
+    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
   >
     <div
       className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#ffffff",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-hdaws3 rn-justifyContent-1777fci rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-top-ipm5af rn-width-13qz1uu"
+        />
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              ACTIVE
-            </div>
+            ACTIVE
           </div>
         </div>
       </div>
@@ -149,7 +151,11 @@ exports[`Storyshots Tabs one item 1`] = `
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
-      Content of active tab
+      <div
+        className="sc-kPVwWT dNXRSX"
+      >
+        Content of active tab
+      </div>
     </div>
   </div>
 </div>
@@ -157,103 +163,94 @@ exports[`Storyshots Tabs one item 1`] = `
 
 exports[`Storyshots Tabs rounded 1`] = `
 <div
-  className="sc-kfGgVZ lkujdM"
+  className="sc-hwwEjo bVuzjY"
 >
   <div
-    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
+    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
   >
     <div
       className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#e4e4e4",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopLeftRadius-o8yidv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              FIRST
-            </div>
+            UUTISET
           </div>
         </div>
       </div>
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#ffffff",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-hdaws3 rn-justifyContent-1777fci rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-top-ipm5af rn-width-13qz1uu"
+        />
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              SECOND
-            </div>
+            LÄHELLÄSI
           </div>
         </div>
       </div>
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        aria-disabled={true}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={true}
+        onClick={undefined}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#eef1f3",
+          }
+        }
+        role="button"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
           <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-13g6o7s rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={false}
           >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              THIRD
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
-      >
-        <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopRightRadius-ir6n1k rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
-        >
-          <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
-          >
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-13g6o7s rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={false}
-            >
-              DISABLED
-            </div>
+            SUOSIKIT
           </div>
         </div>
       </div>
@@ -261,7 +258,11 @@ exports[`Storyshots Tabs rounded 1`] = `
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
-      Content of the second tab
+      <div
+        className="sc-kPVwWT dNXRSX"
+      >
+        Content of the second tab
+      </div>
     </div>
   </div>
 </div>
@@ -269,91 +270,157 @@ exports[`Storyshots Tabs rounded 1`] = `
 
 exports[`Storyshots Tabs with icon 1`] = `
 <div
-  className="sc-kfGgVZ lkujdM"
+  className="sc-hwwEjo bVuzjY"
 >
   <div
-    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
+    className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderTopLeftRadius-1gpex6y rn-borderTopRightRadius-7fsazf rn-borderBottomRightRadius-1vgq6i9 rn-borderBottomLeftRadius-r2k3kl rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-5kkj8d rn-borderRightWidth-13l2t4g rn-borderBottomWidth-qklmqi rn-borderLeftWidth-1ljd8xs rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-13qz1uu"
   >
     <div
       className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#ffffff",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-44z8sh rn-borderBottomColor-85ahfa rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopLeftRadius-o8yidv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-hdaws3 rn-justifyContent-1777fci rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-top-ipm5af rn-width-13qz1uu"
+        />
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
-          <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-u3wbm8 rn-borderRightColor-madm3w rn-borderBottomColor-5lzcx3 rn-borderLeftColor-19wuy89 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
-          >
-            <svg
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "height": "1.5rem",
-                  "width": "1.5rem",
-                }
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "height": "1.5rem",
+                "width": "1.5rem",
               }
-              version="1.1"
-              viewBox="0 0 70 70"
+            }
+            version="1.1"
+            viewBox="-4 -4 40 40"
+          >
+            <g
+              fill="#333333"
             >
+              <circle
+                cx="4.32171607"
+                cy="27.6316142"
+                id="Oval"
+                r="4.2786642"
+              />
               <path
-                d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                fill="#333333"
+                d="M3.16315944,11.9645766 C1.54410153,11.9645766 0.231403814,13.2768899 0.231403814,14.8959478 C0.231403814,16.5153901 1.54410153,17.8277034 3.16315944,17.8277034 C9.2815224,17.8277034 14.2586263,22.8055762 14.2586263,28.9231703 C14.2586263,30.5426126 15.5709397,31.854926 17.1907664,31.854926 C18.8098243,31.854926 20.122522,30.5426126 20.122522,28.9231703 C20.122522,19.5724574 12.5142567,11.9645766 3.16315944,11.9645766 Z"
                 id="Shape"
               />
-            </svg>
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={true}
-            >
-              FIRST
-            </div>
+              <path
+                d="M3.07398056,0.256773667 C1.45530704,0.256773667 0.142224935,1.56947138 0.142224935,3.18852929 C0.142224935,4.8075872 1.45453826,6.12028492 3.07398056,6.12028492 C15.6466648,6.12066931 25.8760972,16.3501017 25.8760972,28.9231703 C25.8760972,30.5426126 27.1887949,31.854926 28.8082372,31.854926 C30.4269107,31.854926 31.7396085,30.5426126 31.7396085,28.9231703 C31.7396085,13.1177517 18.8805523,0.257926842 3.07398056,0.256773667 Z"
+                id="Shape"
+              />
+            </g>
+          </svg>
+          <div
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-102hald rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={true}
+          >
+            UUTISET
           </div>
         </div>
       </div>
       <div
-        className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-        onPress={[Function]}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-13l2t4g rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={undefined}
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#e4e4e4",
+          }
+        }
+        role="button"
+        tabIndex="0"
       >
         <div
-          className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopRightRadius-ir6n1k rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex="0"
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
         >
-          <div
-            className="rn-alignItems-1awozwy rn-borderTopColor-yhjsbo rn-borderRightColor-o38ixj rn-borderBottomColor-85ahfa rn-borderLeftColor-1eno36 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-eujbse rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-tux3g4 rn-position-bnwqim"
-          >
-            <svg
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "height": "1.5rem",
-                  "width": "1.5rem",
-                }
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "height": "1.5rem",
+                "width": "1.5rem",
               }
-              version="1.1"
-              viewBox="0 0 70 70"
-            >
-              <path
-                d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
-                fill="#007ac9"
-                id="Shape"
-              />
-            </svg>
-            <div
-              className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-              dir="auto"
-              icon={true}
-            >
-              SECOND
-            </div>
+            }
+            viewBox="0 0 35 35"
+          >
+            <path
+              d="M17.8055787,0.807823788 C8.43400674,0.807823788 0.81271969,8.37280797 0.81271969,17.8006828 C0.81271969,27.1730707 8.43400674,34.7380548 17.8055787,34.7380548 C27.1779666,34.7380548 34.7992536,27.1730707 34.7992536,17.8006828 C34.7992536,8.37280797 27.1779666,0.807823788 17.8055787,0.807823788 Z M21.0238181,26.7773186 C21.0238181,28.5839063 20.1205242,29.995558 18.3139365,29.995558 C16.5636516,29.995558 15.6040548,28.5839063 15.6040548,26.7773186 L15.6040548,18.986307 C13.2328064,18.986307 12.4992372,17.8006828 12.4992372,16.6721774 C12.4992372,15.3731315 13.402531,14.3572319 14.9267884,14.3572319 L18.0316061,14.3572319 C19.8381939,14.3572319 21.0238181,15.7688835 21.0238181,17.5754713 L21.0238181,26.7773186 Z M21.475873,8.6551383 C21.475873,10.5743318 19.8944967,11.8733777 17.8055787,11.8733777 C15.7174766,11.8733777 14.1361003,10.5743318 14.1361003,8.6551383 L14.1361003,8.37280797 C14.1361003,6.45361448 15.7174766,5.21168741 17.8055787,5.21168741 C19.8944967,5.21168741 21.475873,6.45361448 21.475873,8.37280797 L21.475873,8.6551383 Z"
+              fill="#007ac9"
+              id="Shape"
+            />
+          </svg>
+          <div
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-14kmah0 rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={true}
+          >
+            LÄHELLÄSI
+          </div>
+        </div>
+      </div>
+      <div
+        aria-disabled={true}
+        className="rn-alignItems-1oszu61 rn-backgroundColor-14rzr3 rn-borderBottomWidth-qklmqi rn-borderTopColor-1tvzubb rn-borderRightColor-1mf7otu rn-borderBottomColor-1nykn6n rn-borderLeftColor-ub6kyj rn-borderRightWidth-fnigne rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
+        disabled={true}
+        onClick={undefined}
+        onLongPress={undefined}
+        onPress={undefined}
+        pressedStyle={
+          Object {
+            "backgroundColor": "#eef1f3",
+          }
+        }
+        role="button"
+      >
+        <div
+          className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexBasis-1iusvr4 rn-flexDirection-18u37iz rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-n63t5 rn-marginLeft-bn6a27 rn-marginBottom-t5to09 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-paddingTop-1gb76qt rn-position-bnwqim"
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "height": "1.5rem",
+                "width": "1.5rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 70 70"
+          >
+            <path
+              d="M70,41.426 L70,28.574 L58.447,28.574 C57.908,26.588 57.128,24.706 56.131,22.957 L64.294,14.794 L55.206,5.706 L47.039,13.869 C45.29,12.872 43.408,12.092 41.426,11.549 L41.426,0 L28.574,0 L28.574,11.549 C26.592,12.092 24.706,12.872 22.956,13.869 L14.793,5.706 L5.705,14.794 L13.868,22.957 C12.87,24.706 12.091,26.588 11.548,28.574 L0,28.574 L0,41.426 L11.549,41.426 C12.092,43.412 12.872,45.294 13.869,47.043 L5.706,55.206 L14.794,64.29 L22.957,56.131 C24.707,57.128 26.588,57.908 28.575,58.451 L28.575,70 L41.427,70 L41.427,58.451 C43.409,57.908 45.295,57.128 47.045,56.131 L55.208,64.29 L64.296,55.206 L56.133,47.043 C57.131,45.294 57.91,43.412 58.449,41.426 L70,41.426 L70,41.426 Z M35,47.711 C27.979,47.711 22.289,42.021 22.289,35 C22.289,27.979 27.979,22.289 35,22.289 C42.017,22.289 47.711,27.979 47.711,35 C47.711,42.021 42.017,47.711 35,47.711 Z"
+              fill="#b7b7b7"
+              id="Shape"
+            />
+          </svg>
+          <div
+            className="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-color-13g6o7s rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-18elh3t rn-fontSize-pv2lrm rn-fontWeight-majxgm rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-1692lug rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+            dir="auto"
+            icon={true}
+          >
+            SUOSIKIT
           </div>
         </div>
       </div>
@@ -361,7 +428,11 @@ exports[`Storyshots Tabs with icon 1`] = `
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
     >
-      Content of the first tab
+      <div
+        className="sc-kPVwWT dNXRSX"
+      >
+        Content of the first tab
+      </div>
     </div>
   </div>
 </div>

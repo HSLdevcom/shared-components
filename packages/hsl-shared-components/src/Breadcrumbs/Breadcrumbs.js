@@ -13,9 +13,7 @@ const List = styled.ul`
   list-style-type: none;
 `;
 
-const ListItem = styled.li`
-  cursor: pointer;
-`;
+const ListItem = styled.li``;
 
 const Breadcrumbs = styled(({ items, ...rest }) =>
   (

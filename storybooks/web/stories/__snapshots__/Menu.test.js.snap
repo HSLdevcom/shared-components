@@ -2,10 +2,10 @@
 
 exports[`Storyshots Menu default 1`] = `
 <div
-  className="sc-gPEVay eQYmiW sc-jDwBTQ eCxTTU"
+  className="sc-jAaTju fNCBho sc-cMljjf kdOGMz"
 >
   <div
-    className="sc-cMljjf fBIszI"
+    className="sc-jWBwVP gyihNa"
   >
     <svg
       preserveAspectRatio="xMidYMid meet"
@@ -32,7 +32,7 @@ exports[`Storyshots Menu default 1`] = `
       </g>
     </svg>
     <span
-      className="sc-jAaTju dPGwrd"
+      className="sc-brqgnP bYyhUg"
     >
       <div
         className="large rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
@@ -87,7 +87,7 @@ exports[`Storyshots Menu default 1`] = `
         </div>
       </div>
       <div
-        className="small sc-hSdWYo bIQQAp sc-kkGfuU gDYSHN"
+        className="small sc-kkGfuU gqJIVH sc-hMqMXs IjJjn"
       >
         <div
           className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -104,7 +104,7 @@ exports[`Storyshots Menu default 1`] = `
               FI
             </div>
             <svg
-              className="sc-kEYyzF edcEv"
+              className="sc-eNQAEJ jLQGUf"
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
@@ -130,27 +130,27 @@ exports[`Storyshots Menu default 1`] = `
     </span>
   </div>
   <div
-    className="sc-jWBwVP flJKQx"
+    className="sc-eHgmQL duWnMn"
   />
   <div
-    className="bottom large sc-VigVT kebjCN"
+    className="bottom large sc-gZMcBi cRIaeY"
   >
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ cEAVjl"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ lbCsBO"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM cpfsop"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU kfaIQE"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV bxHlBO"
+            className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG dXYpzU"
+              className="sc-fjdhpX kVTMWE"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -171,7 +171,7 @@ exports[`Storyshots Menu default 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Matkakortti
             </span>
@@ -180,21 +180,21 @@ exports[`Storyshots Menu default 1`] = `
       </a>
     </div>
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ cEAVjl"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ lbCsBO"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM evtqXW"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU eYXIwd"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV bxHlBO"
+            className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG dXYpzU"
+              className="sc-fjdhpX kVTMWE"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -222,7 +222,7 @@ exports[`Storyshots Menu default 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Kirjaudu
             </span>
@@ -232,24 +232,24 @@ exports[`Storyshots Menu default 1`] = `
     </div>
   </div>
   <div
-    className="bottom small sc-VigVT kebjCN"
+    className="bottom small sc-gZMcBi cRIaeY"
   >
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ bLMCek"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ eBXrwE"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU fVXgpT"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV lnNiQR"
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG kugfyt"
+              className="sc-fjdhpX jBSKYp"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -270,33 +270,33 @@ exports[`Storyshots Menu default 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Matkakortti
             </span>
           </div>
           <div
-            className="sc-fjdhpX gjCpEG"
+            className="sc-VigVT dtCYxL"
           />
         </div>
       </a>
     </div>
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ bLMCek"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ eBXrwE"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU fVXgpT"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV lnNiQR"
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG kugfyt"
+              className="sc-fjdhpX jBSKYp"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -324,13 +324,13 @@ exports[`Storyshots Menu default 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Kirjaudu
             </span>
           </div>
           <div
-            className="sc-fjdhpX ccdidH"
+            className="sc-VigVT kjaDtE"
           />
         </div>
       </a>
@@ -341,24 +341,24 @@ exports[`Storyshots Menu default 1`] = `
 
 exports[`Storyshots Menu menu item 1`] = `
 <div
-  className="sc-eXEjpC eqSXRt"
+  className="sc-kIPQKe bMROzK"
 >
   <div
-    className="sc-kIPQKe dvYIGP sc-eNQAEJ cEAVjl"
+    className="sc-esjQYD cAdknP sc-ckVGcZ lbCsBO"
   >
     <a
-      className="link sc-dxgOiQ ftwILC"
+      className="link sc-kGXeez hpceRd"
       href="/test"
     >
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM evtqXW"
+        className="sc-jTzLTM hkFqJX sc-gqjmRU eYXIwd"
       >
         <div
-          className="sc-kgoBCf lkTKEU sc-chPdSV lnNiQR"
+          className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh"
         >
           <span
             aria-hidden="true"
-            className="sc-cSHVUG kugfyt"
+            className="sc-fjdhpX jBSKYp"
           >
             <svg
               preserveAspectRatio="xMidYMid meet"
@@ -382,7 +382,7 @@ exports[`Storyshots Menu menu item 1`] = `
             </svg>
           </span>
           <span
-            className="sc-kAzzGY jHprQs"
+            className="sc-jzJRlG enxKql"
           >
             Reittiopas
           </span>
@@ -395,24 +395,24 @@ exports[`Storyshots Menu menu item 1`] = `
 
 exports[`Storyshots Menu minimal 1`] = `
 <div
-  className="sc-kgAjT cuzzPp sc-TOsTZ gPxDcV"
+  className="sc-cHGsZl bHiaRe sc-kjoXOD bJqWsw"
 >
   <div
-    className="sc-hMqMXs cPxEnv sc-eNQAEJ bLMCek"
+    className="sc-jKJlTe loXQau sc-ckVGcZ eBXrwE"
   >
     <a
-      className="link sc-dxgOiQ ftwILC"
+      className="link sc-kGXeez hpceRd"
       href="/test"
     >
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd"
+        className="sc-jTzLTM hkFqJX sc-gqjmRU fVXgpT"
       >
         <div
-          className="sc-kgoBCf lkTKEU sc-chPdSV bxHlBO"
+          className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK"
         >
           <span
             aria-hidden="true"
-            className="sc-cSHVUG dXYpzU"
+            className="sc-fjdhpX kVTMWE"
           >
             <svg
               preserveAspectRatio="xMidYMid meet"
@@ -433,33 +433,33 @@ exports[`Storyshots Menu minimal 1`] = `
             </svg>
           </span>
           <span
-            className="sc-kAzzGY jHprQs"
+            className="sc-jzJRlG enxKql"
           >
             Matkakortti
           </span>
         </div>
         <div
-          className="sc-fjdhpX gjCpEG"
+          className="sc-VigVT dtCYxL"
         />
       </div>
     </a>
   </div>
   <div
-    className="sc-hMqMXs cPxEnv sc-eNQAEJ bLMCek"
+    className="sc-jKJlTe loXQau sc-ckVGcZ eBXrwE"
   >
     <a
-      className="link sc-dxgOiQ ftwILC"
+      className="link sc-kGXeez hpceRd"
       href="/test"
     >
       <div
-        className="sc-jzJRlG istBgv sc-jTzLTM eRNhBd"
+        className="sc-jTzLTM hkFqJX sc-gqjmRU fVXgpT"
       >
         <div
-          className="sc-kgoBCf lkTKEU sc-chPdSV bxHlBO"
+          className="sc-kAzzGY eVuYop sc-cSHVUG hDNHdK"
         >
           <span
             aria-hidden="true"
-            className="sc-cSHVUG dXYpzU"
+            className="sc-fjdhpX kVTMWE"
           >
             <svg
               preserveAspectRatio="xMidYMid meet"
@@ -487,19 +487,19 @@ exports[`Storyshots Menu minimal 1`] = `
             </svg>
           </span>
           <span
-            className="sc-kAzzGY jHprQs"
+            className="sc-jzJRlG enxKql"
           >
             Kirjaudu
           </span>
         </div>
         <div
-          className="sc-fjdhpX ccdidH"
+          className="sc-VigVT kjaDtE"
         />
       </div>
     </a>
   </div>
   <div
-    className="sc-cHGsZl jIlZUw"
+    className="sc-gisBJw jaXFAS"
   >
     <svg
       preserveAspectRatio="xMidYMid meet"
@@ -527,7 +527,7 @@ exports[`Storyshots Menu minimal 1`] = `
     </svg>
   </div>
   <div
-    className="sc-hSdWYo bIQQAp sc-kkGfuU gDYSHN"
+    className="sc-kkGfuU gqJIVH sc-hMqMXs IjJjn"
   >
     <div
       className="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-justifyContent-1777fci rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim"
@@ -544,7 +544,7 @@ exports[`Storyshots Menu minimal 1`] = `
           FI
         </div>
         <svg
-          className="sc-kEYyzF edcEv"
+          className="sc-eNQAEJ jLQGUf"
           preserveAspectRatio="xMidYMid meet"
           style={
             Object {
@@ -572,13 +572,13 @@ exports[`Storyshots Menu minimal 1`] = `
 
 exports[`Storyshots Menu mobile 1`] = `
 <div
-  className="sc-esjQYD cAdknP sc-ksYbfQ bPugiu"
+  className="sc-kfGgVZ boRyca sc-kgAjT klCFMA"
 >
   <div
-    className="sc-cJSrbW doiWjP"
+    className="sc-TOsTZ loFDsS"
   />
   <div
-    className="sc-hmzhuo fvUxJM"
+    className="sc-cJSrbW jMxWWK"
   >
     <div
       className="rn-alignItems-1awozwy rn-backgroundColor-bjqepm rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-width-1s95i8i"
@@ -658,27 +658,27 @@ exports[`Storyshots Menu mobile 1`] = `
     </svg>
   </div>
   <div
-    className="sc-cJSrbW doiWjP"
+    className="sc-TOsTZ loFDsS"
   />
   <div
-    className="children sc-VigVT kebjCN"
+    className="children sc-gZMcBi cRIaeY"
   >
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ cEAVjl"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ lbCsBO"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM evtqXW"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU eYXIwd"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV lnNiQR"
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG kugfyt"
+              className="sc-fjdhpX jBSKYp"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -699,7 +699,7 @@ exports[`Storyshots Menu mobile 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Matkakortti
             </span>
@@ -708,21 +708,21 @@ exports[`Storyshots Menu mobile 1`] = `
       </a>
     </div>
     <div
-      className="child sc-hMqMXs cPxEnv sc-eNQAEJ cEAVjl"
+      className="child sc-jKJlTe loXQau sc-ckVGcZ lbCsBO"
     >
       <a
-        className="link sc-dxgOiQ ftwILC"
+        className="link sc-kGXeez hpceRd"
         href="/test"
       >
         <div
-          className="sc-jzJRlG istBgv sc-jTzLTM evtqXW"
+          className="sc-jTzLTM hkFqJX sc-gqjmRU eYXIwd"
         >
           <div
-            className="sc-kgoBCf lkTKEU sc-chPdSV lnNiQR"
+            className="sc-kAzzGY eVuYop sc-cSHVUG gzVQh"
           >
             <span
               aria-hidden="true"
-              className="sc-cSHVUG kugfyt"
+              className="sc-fjdhpX jBSKYp"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -750,7 +750,7 @@ exports[`Storyshots Menu mobile 1`] = `
               </svg>
             </span>
             <span
-              className="sc-kAzzGY jHprQs"
+              className="sc-jzJRlG enxKql"
             >
               Kirjaudu
             </span>

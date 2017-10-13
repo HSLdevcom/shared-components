@@ -7,17 +7,33 @@ import { H3, H4, P } from '../Typography';
 import Touchable from '../Touchable';
 import ArrowRight from '../Icons/ArrowRight';
 import { IS_NATIVE, size } from '../utils';
-import { getTextColor } from './utils';
+import { getTextColor, getBackgroundColor } from './utils';
 
 // Transparent borders below are for fixing touchable in android
-const Container = View.extend`
+// Need to define round borders here again for android compatibility
+const TouchableContainer = styled(({
+  first,
+  last,
+  ...rest
+}) =>
+  <Touchable {...rest} />
+)`
   width: 100%;
-  padding-horizontal: ${size(18)};
-  padding-vertical: ${size(18)};
+  padding-top: ${size(18)};
+  padding-right: ${size(18)};
+  padding-bottom: ${size(18)};
+  padding-left: ${size(18)};
   border-color: transparent;
   border-width: 1px;
   border-style: solid;
-  ${!IS_NATIVE && 'cursor: pointer;'}
+  ${props => props.first && `
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  `}
+  ${props => props.last && `
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  `}
 `;
 
 const TitleAndIconContainer = styled(({
@@ -35,7 +51,7 @@ const TitleAndIconContainer = styled(({
   width: 100%;
 `;
 
-const Icon = withTheme(({
+const Icon = ({
   icon,
   theme,
   active,
@@ -46,8 +62,7 @@ const Icon = withTheme(({
     width: size(35),
     height: size(35),
     fill: getTextColor({ active, inverted, withBorder, theme }),
-  })
-);
+  });
 
 const TitleContainer = styled(({
   icon,
@@ -160,9 +175,7 @@ const ActiveItemUnderline = styled(({
   `}
 `;
 
-const ActionListItemCore = ({
-  accessibilityRole,
-  href,
+const ActionListItemText = styled(withTheme(({
   active,
   prefix,
   title,
@@ -173,12 +186,34 @@ const ActionListItemCore = ({
   withBorder,
   centered,
   inverted,
+  secondary,
+  first,
+  second,
+  secondToLast,
+  last,
+  onPress,
+  onLongPress,
+  onClick,
+  theme,
   ...rest,
 }) =>
   (
-    <Container
-      accessibilityRole={accessibilityRole || 'button'}
-      href={href}
+    <TouchableContainer
+      onPress={onPress}
+      onLongPress={onLongPress}
+      onClick={onClick}
+      pressedStyle={{
+        backgroundColor: getBackgroundColor({
+          pressed: true,
+          active,
+          inverted,
+          secondary,
+          withBorder,
+          theme,
+        }),
+      }}
+      first={first}
+      last={last}
       {...rest}
     >
       <TitleAndIconContainer
@@ -190,6 +225,7 @@ const ActionListItemCore = ({
             active={active}
             inverted={inverted}
             withBorder={withBorder}
+            theme={theme}
           />
         }
         {!!prefix &&
@@ -247,32 +283,13 @@ const ActionListItemCore = ({
         inverted={inverted}
         withBorder={withBorder}
       />
-    </Container>
-);
+    </TouchableContainer>
+)))``;
 
-const ActionListItemText = styled(({
-  onPress,
-  onLongPress,
-  ...rest,
-}) => {
-  // We want to have default browser interactions unless we are on native platform
-  if (IS_NATIVE) {
-    return (
-      <Touchable
-        onPress={onPress}
-        onLongPress={onLongPress}
-      >
-        <ActionListItemCore {...rest} />
-      </Touchable>
-    );
-  }
-
-  return <ActionListItemCore {...rest} />;
-})``;
-
-ActionListItemCore.propTypes = {
-  accessibilityRole: PropTypes.oneOf(['button', 'link']), // Not available in native
-  href: PropTypes.string, // Not available in native
+ActionListItemText.propTypes = {
+  onPress: PropTypes.func,
+  onLongPress: PropTypes.func,
+  onClick: PropTypes.func,
   active: PropTypes.bool,
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
@@ -282,12 +299,9 @@ ActionListItemCore.propTypes = {
   arrowless: PropTypes.bool,
   withBorder: PropTypes.bool,
   inverted: PropTypes.bool,
-};
-
-ActionListItemText.propTypes = {
-  onPress: PropTypes.func,
-  onLongPress: PropTypes.func,
-  ...ActionListItemCore.propTypes,
+  secondary: PropTypes.bool,
+  first: PropTypes.bool, // Needed just for Android compatibility
+  last: PropTypes.bool, // Needed just for Android compatibility
 };
 
 ActionListItemText.displayName = 'ActionListItemText';

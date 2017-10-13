@@ -43,7 +43,7 @@ const Container = styled(({
   ${props => props.horizontal && getHorizontalListBorderStyles(props)}
 `;
 
-const ActionListItem = ({
+const ActionListItem = styled(({
   type,
   active,
   centered,
@@ -79,8 +79,13 @@ const ActionListItem = ({
           active={active}
           centered={centered}
           inverted={inverted}
+          secondary={secondary}
           arrowless={arrowless}
           withBorder={withBorder}
+          first={first}
+          second={second}
+          secondToLast={secondToLast}
+          last={last}
           {...rest}
         />
       }
@@ -91,7 +96,7 @@ const ActionListItem = ({
       }
     </Container>
   );
-};
+})``;
 
 ActionListItem.propTypes = {
   type: PropTypes.oneOf(['text', 'teaser']),

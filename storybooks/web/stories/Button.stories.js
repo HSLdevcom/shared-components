@@ -137,14 +137,14 @@ stories.addWithJSX('round button', () => {
       small={small}
       onClick={action('click')}
     >
-      <Icons.Facebook height="36px" width="18px" fill="#007ac9" />
+      <Icons.Facebook />
     </RoundButton>
   );
 });
 
 stories.addWithJSX('button with text', () => {
   const small = boolean('Small', false);
-  const icon = <Icons.Bike height="30px" width="30px" fill="#eeaaff" />;
+  const icon = <Icons.Bike fill="#eeaaff" />;
   return (
     <ButtonWithText
       small={small}

@@ -12,4 +12,6 @@ const H3 = styled(({ ...props }) => (
   font-size: ${size(24)};
 `;
 
+H3.displayName = 'H3';
+
 export default H3;

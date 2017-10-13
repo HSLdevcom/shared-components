@@ -29,10 +29,15 @@ const Tabs = styled(({ rounded, children, index, ...rest }) => {
   border-style: solid;
   border-color: ${props => props.theme.colors.primary.hslGreyLight};
   border-width: 1px;
-  ${props => props.rounded && `border-radius: ${size(6)};`}
+  ${props => props.rounded &&
+    `border-radius: ${size(6)};`
+  }
   align-items: stretch;
   width: 100%;
+  overflow: hidden;
 `;
+
+Tabs.displayName = 'Tabs';
 
 Tabs.propTypes = {
   index: PropTypes.number,
@@ -44,4 +49,4 @@ Tabs.propTypes = {
   rounded: PropTypes.bool
 };
 
-export default styled(Tabs)``;
+export default Tabs;
