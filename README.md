@@ -1,3 +1,5 @@
+**This project has moved to: https://gitlab.hsl.fi/mobidigi/shared-components/**
+
 # README #
 
 Shared components to be used in HSL projects. React and styled components.
