@@ -23,10 +23,10 @@ export const getBorderColor = (props, force = {}) => {
     return props.theme.colors.primary.hslWhite;
   }
   if (props.primary && props.success && (hover || active)) {
-    return props.theme.colors.primary.hslGreenDark;
+    return props.theme.colors.secondary.hslGreenDark;
   }
   if (props.primary && props.success) {
-    return props.theme.colors.primary.hslGreen;
+    return props.theme.colors.secondary.hslGreen;
   }
   if (props.primary && (hover || active)) {
     return props.theme.colors.primary.hslBlueDark;
@@ -64,10 +64,10 @@ export const getBackgroundColor = (props, force = {}) => {
     return props.theme.colors.primary.hslWhite;
   }
   if (props.primary && props.success && (hover || active)) {
-    return props.theme.colors.primary.hslGreenDark;
+    return props.theme.colors.secondary.hslGreenDark;
   }
   if (props.primary && props.success) {
-    return props.theme.colors.primary.hslGreen;
+    return props.theme.colors.secondary.hslGreen;
   }
   if (props.primary && (hover || active)) {
     return props.theme.colors.primary.hslBlueDark;
