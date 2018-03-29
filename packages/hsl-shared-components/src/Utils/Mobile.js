@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Dimensions } from 'react-primitives';
 import { withTheme } from 'styled-components';
 import styled from 'styled-components/primitives';
-import omit from 'lodash/fp/omit';
+import omit from 'lodash/omit';
 import debounce from 'lodash/debounce';
 
 import View from '../View';
