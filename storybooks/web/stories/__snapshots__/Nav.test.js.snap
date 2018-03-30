@@ -2,7 +2,7 @@
 
 exports[`Storyshots Nav default 1`] = `
 <div
-  className="sc-kPVwWT fOZVwz"
+  className="sc-kfGgVZ ldPgSd"
 >
   <header
     className="sc-uJMKN jsQhVl sc-jqCOkK ipOHbJ"
@@ -1180,10 +1180,10 @@ exports[`Storyshots Nav mobile 1`] = `
 
 exports[`Storyshots Nav nav item 1`] = `
 <div
-  className="sc-kIPQKe bMROzK"
+  className="sc-eXEjpC eqSXRt"
 >
   <div
-    className="sc-esjQYD cAdknP sc-chPdSV eqYrvq"
+    className="sc-kIPQKe dvYIGP sc-chPdSV eqYrvq"
   >
     <a
       className="link sc-kGXeez hpceRd"
@@ -1258,7 +1258,7 @@ exports[`Storyshots Nav only title 1`] = `
     </svg>
   </span>
   <span
-    className="child sc-kfGgVZ iPNnDd"
+    className="child sc-esjQYD dfqzyV"
   >
     Lataa kautta
   </span>
